@@ -6,13 +6,13 @@
 	"maps": {
 		"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": {},
 		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-			"whole brain": "https://neurovault.org/media/images/1446/aparcaseg.nii.gz"
+			"whole brain" : "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/blob/master/desikan-killiany/cvs_avg35_inMNI152.nii.gz_i"
 		},
 		"minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992": {}
 	},
 	"originDatasets": [
 	],
-	"description": "The Desikan Killiany atlas is based on an automated labeling system for subdividing the human cerebral cortex on magnetic resonance images into gyral based regions of interest. The MNI152 parcellation is taken from https://neurovault.org/images/23262/",
+	"description": "The Desikan Killiany atlas is based on an automated labeling system for subdividing the human cerebral cortex on magnetic resonance images into gyral based regions of interest. The MNI152 parcellation is converted from the freesurfer 7.1.1 file subjects/cvs_avg35_inMNI152/mri/aparc+aseg.mgz and converted to Nifti usig nibabel.",
 	"publications": [
 		{
 			"doi": "https://doi.org/10.1016/j.neuroimage.2006.01.021",
