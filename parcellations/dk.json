@@ -6,17 +6,23 @@
 	"maps": {
 		"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": {},
 		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-			"whole brain" : "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/cvs_avg35_inMNI152.nii.gz"
+			"whole brain" : "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152.nii"
 		},
-		"minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992": {}
+		"minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992": {
+			"whole brain" : "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_colin27.nii"
+		}
 	},
 	"originDatasets": [
 	],
-	"description": "The Desikan Killiany atlas is based on an automated labeling system for subdividing the human cerebral cortex on magnetic resonance images into gyral based regions of interest. The MNI152 parcellation is converted from the freesurfer 7.1.1 file subjects/cvs_avg35_inMNI152/mri/aparc+aseg.mgz and converted to Nifti usig nibabel.",
+	"description": "The Desikan Killiany atlas is based on an automated labeling system for subdividing the human cerebral cortex on magnetic resonance images into gyral based regions of interest. The MNI parcellations provided here are computed by nonlinear registration of the standard parcellation in fsaverage space, using the registration procedure by Wu et al. 2018",
 	"publications": [
 		{
 			"doi": "https://doi.org/10.1016/j.neuroimage.2006.01.021",
 			"citation": "Desikan RS, Ségonne F, Fischl B, Quinn BT, Dickerson BC, Blacker D, Buckner RL, Dale AM, Maguire RP, Hyman BT, Albert MS, Killiany RJ. An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest. NeuroImage. 2006;31(3):968-980."
+		},
+		{
+			"doi": "https://doi.org/10.1002/hbm.24213",
+			"citation": "Wu J, Ngo GH, Greve D, Li J, He T, Fischl B, Eickhoff SB, Yeo BTT. Accurate nonlinear mapping between MNI volumetric and FreeSurfer surface coordinate systems. Hum Brain Mapp. 2018;39(9):3793-3808."
 		}
 	],
 	"regions": [
@@ -303,200 +309,28 @@
 			"children" : 
 			[
 				{
-					"name": "cerebellar vermal lobules I-V",
-					"labelIndex": 71
+					"name" : "ctx-lh-bankssts",
+					"labelIndex" : 1001
 				},
 				{
-					"name": "cerebellar vermal lobules VI-VII",
-					"labelIndex": 72
+					"name" : "ctx-lh-frontalpole",
+					"labelIndex" : 1032
 				},
 				{
-					"name": "cerebellar vermal lobules VIII-X",
-					"labelIndex": 73
+					"name" : "ctx-lh-temporalpole",
+					"labelIndex" : 1033
 				},
 				{
-					"name": "left basal forebrain",
-					"labelIndex": 75
+					"name" : "ctx-rh-bankssts",
+					"labelIndex" : 2001
 				},
 				{
-					"name": "right basal forebrain",
-					"labelIndex": 76
+					"name" : "ctx-rh-frontalpole",
+					"labelIndex" : 2032
 				},
 				{
-					"name": "cerebellar vermal lobules I-V",
-					"labelIndex": 630
-				},
-				{
-					"name": "cerebellar vermal lobules VI-VII",
-					"labelIndex": 631
-				},
-				{
-					"name": "cerebellar vermal lobules VIII-X",
-					"labelIndex": 632
-				},
-				{
-					"name": "left basal forebrain",
-					"labelIndex": 91
-				},
-				{
-					"name": "right basal forebrain",
-					"labelIndex": 92
-				},
-				{
-					"name": "Brain stem",
-					"labelIndex": 16
-				},
-				{
-					"name": "CSF",
-					"labelIndex": 24
-				},
-				{
-					"name": "3rd ventricle",
-					"labelIndex": 14
-				},
-				{
-					"name": "4th ventricle",
-					"labelIndex": 15
-				},
-				{
-					"name": "5th ventricle",
-					"labelIndex": 72
-				},
-				{
-					"name": "optic chiasm",
-					"labelIndex": 85
-				},
-				{
-					"name": "left lateral ventricle",
-					"labelIndex": 4
-				},
-				{
-					"name": "left inferior lateral ventricle",
-					"labelIndex": 5
-				},
-				{
-					"name": "left cerebellum exterior",
-					"labelIndex": 6
-				},
-				{
-					"name": "left cerebellum white matter",
-					"labelIndex": 7
-				},
-				{
-					"name": "left thalamus proper",
-					"labelIndex": 10
-				},
-				{
-					"name": "left caudate",
-					"labelIndex": 11
-				},
-				{
-					"name": "left putamen",
-					"labelIndex": 12
-				},
-				{
-					"name": "left pallidum",
-					"labelIndex": 13
-				},
-				{
-					"name": "left hippocampus",
-					"labelIndex": 17
-				},
-				{
-					"name": "left amygdala",
-					"labelIndex": 18
-				},
-				{
-					"name": "left lesion",
-					"labelIndex": 25
-				},
-				{
-					"name": "left accumbens area",
-					"labelIndex": 26
-				},
-				{
-					"name": "left ventral DC",
-					"labelIndex": 28
-				},
-				{
-					"name": "left vessel",
-					"labelIndex": 30
-				},
-				{
-					"name": "left basal forebrain",
-					"labelIndex": 91
-				},
-				{
-					"name": "right lateral ventricle",
-					"labelIndex": 43
-				},
-				{
-					"name": "right inferior lateral ventricle",
-					"labelIndex": 44
-				},
-				{
-					"name": "right cerebellum exterior",
-					"labelIndex": 45
-				},
-				{
-					"name": "right cerebellum white matter",
-					"labelIndex": 46
-				},
-				{
-					"name": "right thalamus proper",
-					"labelIndex": 49
-				},
-				{
-					"name": "right caudate",
-					"labelIndex": 50
-				},
-				{
-					"name": "right putamen",
-					"labelIndex": 51
-				},
-				{
-					"name": "right pallidum",
-					"labelIndex": 52
-				},
-				{
-					"name": "right hippocampus",
-					"labelIndex": 53
-				},
-				{
-					"name": "right amygdala",
-					"labelIndex": 54
-				},
-				{
-					"name": "right lesion",
-					"labelIndex": 57
-				},
-				{
-					"name": "right accumbens area",
-					"labelIndex": 58
-				},
-				{
-					"name": "right ventral DC",
-					"labelIndex": 60
-				},
-				{
-					"name": "right vessel",
-					"labelIndex": 62
-				},
-				{
-					"name": "right basal forebrain",
-					"labelIndex": 92
-				},
-				{
-					"name": "cerebellar vermal lobules I-V",
-					"labelIndex": 630
-				},
-				{
-					"name": "cerebellar vermal lobules VI-VII",
-					"labelIndex": 631
-				},
-				{
-					"name": "cerebellar vermal lobules VIII-X",
-					"labelIndex": 632
+					"name" : "ctx-rh-temporalpole",
+					"labelIndex" : 2033
 				}
 			]
 		}
