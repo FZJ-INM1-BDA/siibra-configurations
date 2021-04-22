@@ -4,5 +4,24 @@
 	"shortName": "MNI Colin 27",
 	"templateType": "nii",
 	"templateUrl": "http://packages.bic.mni.mcgill.ca/mni-models/colin27/mni_colin27_1998_nifti.zip",
-	"templateFile":"colin27_t1_tal_lin.nii"
+	"templateFile":"colin27_t1_tal_lin.nii",
+	"srcVolumeType": "mri",
+	"volumeSrc": [{
+		"@type": "fzj/tmp/volume_type/v0.0.1",
+		"@id": "fzj/tmp/volume_type/v0.0.1/colin27/nifti",
+		"name": "colin27/nifti",
+		"volume_type": "nii",
+		"url": "http://packages.bic.mni.mcgill.ca/mni-models/colin27/mni_colin27_1998_nifti.zip"
+	},{
+		"@type": "fzj/tmp/volume_type/v0.0.1",
+		"@id": "fzj/tmp/volume_type/v0.0.1/colin27/ng_precomp",
+		"name": "colin27",
+		"volume_type": "neuroglancer/precomputed",
+		"url": "https://neuroglancer.humanbrainproject.eu/precomputed/JuBrain/v2.2c/colin27_seg",
+		"detail": {
+			"neuroglancer/precomputed": {
+				"transform": [[1,0,0,-75500000],[0,1,0,-111500000],[0,0,1,-67500000],[0,0,0,1]]
+			}
+		}
+	}]
 }

@@ -5,5 +5,42 @@
 	"templateType": "nii",
 	"templateUrl": "http://www.bic.mni.mcgill.ca/~vfonov/icbm/2009/mni_icbm152_nlin_asym_09c_nifti.zip",
 	"templateFile": "mni_icbm152_t1_tal_nlin_asym_09c.nii",
-	"displayName": "ICBM 152 2009c Nonlinear Asymmetric"
+	"displayName": "ICBM 152 2009c Nonlinear Asymmetric",
+	"srcVolumeType": "mri",
+	"volumeSrc": [{
+		"@type": "fzj/tmp/volume_type/v0.0.1",
+		"@id": "fzj/tmp/volume_type/v0.0.1/icbm152_2009c_nonlin_asym/nifti",
+		"name": "icbm152_2009c_nonlin_asym/nifti",
+		"volume_type": "nii",
+		"url": "http://www.bic.mni.mcgill.ca/~vfonov/icbm/2009/mni_icbm152_nlin_asym_09c_nifti.zip"
+	},{
+		"@type": "fzj/tmp/volume_type/v0.0.1",
+		"@id": "fzj/tmp/volume_type/v0.0.1/icbm152_2009c_nonlin_asym/ng_precomp",
+		"name": "icbm152_2009c_nonlin_asym",
+		"volume_type": "neuroglancer/precomputed",
+		"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/mni_icbm152_t1_tal_nlin_asym_09c_masked",
+		"detail": {
+			"neuroglancer/precomputed": {
+				"transform": [[1,0,0,-96500000],[0,1,0,-132500000],[0,0,1,-78500000],[0,0,0,1]]
+			}
+		}
+	},{
+		"@type": "fzj/tmp/volume_type/v0.0.1",
+		"@id": "fzj/tmp/volume_type/v0.0.1/icbm152_2009c_nonlin_asym/ng_precompmesh",
+		"name": "icbm152_2009c_nonlin_asym_mesh",
+		"volume_type": "neuroglancer/precompmesh",
+		"url": "https://neuroglancer.humanbrainproject.eu/precomputed/icbm152_2009c_nonlin_asym",
+		"detail": {
+			"neuroglancer/precompmesh": {
+				"auxMeshes": [{
+					"name": "Cortex",
+					"labelIndicies": [ 65500, 65510 ]
+				},{
+					"name": "Sulci",
+					"labelIndicies": [ 65501, 65511 ]
+				}],
+				"transform": [[1,0,0,-96500000],[0,1,0,-132500000],[0,0,1,-78500000],[0,0,0,1]]
+			}
+		}
+	}]
 }
