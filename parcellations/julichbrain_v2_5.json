@@ -5,7 +5,7 @@
 	"version": "2.5",
 	"maps": {
 		"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": {
-			"whole brain" : "collect"
+			"whole brain": "collect"
 		},
 		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
 			"left hemisphere": "https://fz-juelich.sciebo.de/s/BKvoItl8PXaEgJq/download?path=%2F&files=JuBrain_Map_icbm_v30_l.nii.gz",
@@ -14,6 +14,99 @@
 		"minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992": {
 			"left hemisphere": "https://fz-juelich.sciebo.de/s/BKvoItl8PXaEgJq/download?path=%2F&files=JuBrain_Map_colin_v30_l.nii.gz",
 			"right hemisphere": "https://fz-juelich.sciebo.de/s/BKvoItl8PXaEgJq/download?path=%2F&files=JuBrain_Map_colin_v30_r.nii.gz"
+		}
+	},
+	"volumeSrc": {
+		"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": {
+			"whole brain": "collect"
+		},
+		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
+			"left hemisphere": [
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-5-icbm152-nii-lh",
+					"name": "Julich Brain v2.5 mpm volSrc icbm152 nifti lh",
+					"volume_type": "nii",
+					"url": "https://fz-juelich.sciebo.de/s/BKvoItl8PXaEgJq/download?path=%2F&files=JuBrain_Map_icbm_v30_l.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-5-icbm152-ng-lh",
+					"name": "Julich Brain v2.5 mpm volSrc icbm152 ng precomp lh",
+					"volume_type": "neuroglancer/precomputed",
+					"url": "https://neuroglancer.humanbrainproject.eu//precomputed/data-repo-ng-bot/JulichBrainV2_5_3/precomputed/JulichBrain_MPMAtlas_l_N10_nlin2Stdicbm152asym2009c_publicDOI_3f5ec6016bc2242769c41befdbc1b2e0",
+					"detail": {
+						"neuroglancer/precomputed": {
+							"transform": [[1,0,0,-96500000],[0,1,0,-132500000],[0,0,1,-78500000],[0,0,0,1]]
+						}
+					}
+				}
+			],
+			"right hemisphere": [
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-5-icbm152-nii-rh",
+					"name": "Julich Brain v2.5 mpm volSrc icbm152 nifti rh",
+					"volume_type": "nii",
+					"url": "https://fz-juelich.sciebo.de/s/BKvoItl8PXaEgJq/download?path=%2F&files=JuBrain_Map_icbm_v30_r.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-5-icbm152-ng-rh",
+					"name": "Julich Brain v2.5 mpm volSrc icbm152 ng precomp rh",
+					"volume_type": "neuroglancer/precomputed",
+					"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/JulichBrainV2_5_3/precomputed/JulichBrain_MPMAtlas_r_N10_nlin2Stdicbm152asym2009c_publicDOI_453c4c95827e38dcce5372b200065cba",
+					"detail": {
+						"neuroglancer/precomputed": {
+							"transform": [[1,0,0,-96500000],[0,1,0,-132500000],[0,0,1,-78500000],[0,0,0,1]]
+						}
+					}
+				}
+			]
+		},
+		"minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992": {
+			"left hemisphere": [
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-5-colin27-nii-lh",
+					"name": "Julich Brain v2.5 mpm volSrc colin27 nifti lh",
+					"volume_type": "nii",
+					"url": "https://fz-juelich.sciebo.de/s/BKvoItl8PXaEgJq/download?path=%2F&files=JuBrain_Map_colin_v30_l.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-5-colin27-ng-lh",
+					"name": "Julich Brain v2.5 mpm volSrc colin27 ng precomp lh",
+					"volume_type": "neuroglancer/precomputed",
+					"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20201204_JulichBrainV3_0_hemisphereSplit/precomputed/JuBrain_Map_colin_v30_l_fixed",
+					"detail": {
+						"neuroglancer/precomputed": {
+							"transform": [[1,0,0,-90500000],[0,1,0,-126500000],[0,0,1,-72500000],[0,0,0,1]]
+						}
+					}
+				}
+			],
+			"right hemisphere": [
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-5-colin27-nii-rh",
+					"name": "Julich Brain v2.5 mpm volSrc colin27 nifti rh",
+					"volume_type": "nii",
+					"url": "https://fz-juelich.sciebo.de/s/BKvoItl8PXaEgJq/download?path=%2F&files=JuBrain_Map_colin_v30_r.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-5-colin27-ng-rh",
+					"name": "Julich Brain v2.5 mpm volSrc colin27 ng precomp rh",
+					"volume_type": "neuroglancer/precomputed",
+					"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20201204_JulichBrainV3_0_hemisphereSplit/precomputed/JuBrain_Map_colin_v30_r_fixed",
+					"detail": {
+						"neuroglancer/precomputed": {
+							"transform": [[1,0,0,-90500000],[0,1,0,-126500000],[0,0,1,-72500000],[0,0,0,1]]
+						}
+					}
+				}
+			]
 		}
 	},
 	"originDatasets": [
@@ -26,7 +119,7 @@
 	"publications": [
 		{
 			"doi": "10.1126/science.abb4588",
-			"citation": "Amunts, K., Mohlberg, H., Bludau, S., Zilles, K. (2020). Julich-Brain \u2013 A 3D probabilistic atlas of human brain\u2019s cytoarchitecture. Science 369, 988-992"
+			"citation": "Amunts, K., Mohlberg, H., Bludau, S., Zilles, K. (2020). Julich-Brain – A 3D probabilistic atlas of human brain’s cytoarchitecture. Science 369, 988-992"
 		}
 	],
 	"regions": [
@@ -3704,8 +3797,8 @@
 									"children": [
 										{
 											"name": "Area hOc3v (LingG)",
-											"maps" : {
-												"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588" : "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2020_09_29_v3v"
+											"maps": {
+												"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2020_09_29_v3v"
 											},
 											"labelIndex": 77,
 											"children": [
@@ -3783,6 +3876,25 @@
 													"doi": "https://doi.org/10.25493/E5E8-1VV",
 													"synonyms": [],
 													"rgb": null
+												}
+											},
+											"volumeSrc": {
+												"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": {
+													"collect": [
+														{
+															"@type": "fzj/tmp/volume_type/v0.0.1",
+															"@id": "fzj/tmp/volume_type/v0.0.1/v3v",
+															"name": "Julich Brain v2.5 v3v detailed map volSrc big brain ng precomp lh",
+															"volume_type": "neuroglancer/precomputed",
+															"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2020_09_29_v3v",
+															"detail": {
+																"neuroglancer/precomputed": {
+																	"labelIndex": 1,
+																	"transform": [[1,0,0,-70677184],[0,1,0,-63610000],[0,0,1,-58788284],[0,0,0,1]]
+																}
+															}
+														}
+													]
 												}
 											}
 										},
@@ -3875,8 +3987,8 @@
 									"children": [
 										{
 											"name": "Area hOc2 (V2, 18)",
-											"maps" : {
-												"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588" : "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_01_v2"
+											"maps": {
+												"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_01_v2"
 											},
 											"labelIndex": 21,
 											"children": [
@@ -3955,12 +4067,31 @@
 													"synonyms": [],
 													"rgb": null
 												}
+											},
+											"volumeSrc": {
+												"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": {
+													"collect": [
+														{
+															"@type": "fzj/tmp/volume_type/v0.0.1",
+															"@id": "fzj/tmp/volume_type/v0.0.1/v2",
+															"name": "Julich Brain v2.5 v2 detailed map volSrc big brain ng precomp lh",
+															"volume_type": "neuroglancer/precomputed",
+															"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_01_v2",
+															"detail": {
+																"neuroglancer/precomputed": {
+																	"labelIndex": 1,
+																	"transform": [[1,0,0,-70677184],[0,1,0,-69870000],[0,0,1,-58788284],[0,0,0,1]]
+																}
+															}
+														}
+													]
+												}
 											}
 										},
 										{
 											"name": "Area hOc1 (V1, 17, CalcS)",
-											"maps" : {
-												"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588" : "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_01_v1"
+											"maps": {
+												"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_01_v1"
 											},
 											"labelIndex": 120,
 											"children": [
@@ -4038,6 +4169,25 @@
 													"doi": "https://doi.org/10.25493/MXJ6-6DH",
 													"synonyms": [],
 													"rgb": null
+												}
+											},
+											"volumeSrc": {
+												"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": {
+													"collect": [
+														{
+															"@type": "fzj/tmp/volume_type/v0.0.1",
+															"@id": "fzj/tmp/volume_type/v0.0.1/v1",
+															"name": "Julich Brain v2.5 v1 detailed map volSrc big brain ng precomp lh",
+															"volume_type": "neuroglancer/precomputed",
+															"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_01_v1",
+															"detail": {
+																"neuroglancer/precomputed": {
+																	"labelIndex": 1,
+																	"transform": [[1,0,0,-70677184],[0,1,0,-69390000],[0,0,1,-58788284],[0,0,0,1]]
+																}
+															}
+														}
+													]
 												}
 											}
 										}
@@ -4131,7 +4281,7 @@
 										{
 											"name": "Area hOc5 (LOC)",
 											"maps": {
-												"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588" : "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2020_09_29_v5"
+												"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2020_09_29_v5"
 											},
 											"labelIndex": 16,
 											"children": [
@@ -4209,6 +4359,25 @@
 													"doi": "https://doi.org/10.25493/2WSH-MCT",
 													"synonyms": [],
 													"rgb": null
+												}
+											},
+											"volumeSrc": {
+												"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": {
+													"collect": [
+														{
+															"@type": "fzj/tmp/volume_type/v0.0.1",
+															"@id": "fzj/tmp/volume_type/v0.0.1/v5",
+															"name": "Julich Brain v2.5 v5 detailed map volSrc big brain ng precomp lh",
+															"volume_type": "neuroglancer/precomputed",
+															"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2020_09_29_v5",
+															"detail": {
+																"neuroglancer/precomputed": {
+																	"labelIndex": 1,
+																	"transform": [[1,0,0,-70677184],[0,1,0,-45690000],[0,0,1,-58788284],[0,0,0,1]]
+																}
+															}
+														}
+													]
 												}
 											}
 										},
