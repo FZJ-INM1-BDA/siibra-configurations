@@ -5,15 +5,15 @@
 	"shortName": "Julich-Brain Cytoarchitectonic Maps 1.18",
 	"version": "1.18",
 	"maps": {
-		"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": {},
-		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-			"left hemisphere": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/18/MPM/mpmatlas_l_N10_nlin2icbm152casym_18_public_a5f6c95f2e7ff6f43b6bf7c816c37c8b.nii.gz",
-			"right hemisphere": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/18/MPM/mpmatlas_r_N10_nlin2icbm152casym_18_public_9794c687d322d493f4cf67713349fc59.nii.gz"
-		},
-		"minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992": {
-			"left hemisphere": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/18/MPM/mpmatlas_l_N10_nlin2Stdcolin27_18_public_4720167a11fb4fe3b58b8bd9284a38a3.nii.gz",
-			"right hemisphere": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/18/MPM/mpmatlas_r_N10_nlin2Stdcolin27_18_public_2a35bda52754e9cc9d52945b661ca659.nii.gz"
-		}
+		"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": [],
+		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": [
+			"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/18/MPM/mpmatlas_l_N10_nlin2icbm152casym_18_public_a5f6c95f2e7ff6f43b6bf7c816c37c8b.nii.gz",
+			"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/18/MPM/mpmatlas_r_N10_nlin2icbm152casym_18_public_9794c687d322d493f4cf67713349fc59.nii.gz"
+		],
+		"minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992": [
+			"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/18/MPM/mpmatlas_l_N10_nlin2Stdcolin27_18_public_4720167a11fb4fe3b58b8bd9284a38a3.nii.gz",
+			"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/18/MPM/mpmatlas_r_N10_nlin2Stdcolin27_18_public_2a35bda52754e9cc9d52945b661ca659.nii.gz"
+		]
 	},
 	"volumeSrc": {
 		"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": {},
@@ -158,6 +158,7 @@
 											"children": [
 												{
 													"name": "Ch 123 (Basal Forebrain) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														124,
 														233,
@@ -175,6 +176,7 @@
 												},
 												{
 													"name": "Ch 123 (Basal Forebrain) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														124,
 														233,
@@ -224,6 +226,7 @@
 											"children": [
 												{
 													"name": "Ch 4 (Basal Forebrain) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														116,
 														243,
@@ -251,6 +254,7 @@
 												},
 												{
 													"name": "Ch 4 (Basal Forebrain) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														116,
 														243,
@@ -310,6 +314,7 @@
 											"children": [
 												{
 													"name": "Ch 123 (Basal Forebrain) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														124,
 														233,
@@ -327,6 +332,7 @@
 												},
 												{
 													"name": "Ch 123 (Basal Forebrain) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														124,
 														233,
@@ -386,6 +392,7 @@
 											"children": [
 												{
 													"name": "LB (Amygdala) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														188,
 														16,
@@ -408,6 +415,7 @@
 												},
 												{
 													"name": "LB (Amygdala) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														188,
 														16,
@@ -462,6 +470,7 @@
 											"children": [
 												{
 													"name": "CM (Amygdala) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														102,
 														180,
@@ -484,6 +493,7 @@
 												},
 												{
 													"name": "CM (Amygdala) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														102,
 														180,
@@ -528,6 +538,7 @@
 											"children": [
 												{
 													"name": "SF (Amygdala) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														18,
 														168,
@@ -550,6 +561,7 @@
 												},
 												{
 													"name": "SF (Amygdala) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														18,
 														168,
@@ -604,6 +616,7 @@
 											"children": [
 												{
 													"name": "MF (Amygdala) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														190,
 														200,
@@ -631,6 +644,7 @@
 												},
 												{
 													"name": "MF (Amygdala) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														190,
 														200,
@@ -680,6 +694,7 @@
 											"children": [
 												{
 													"name": "VTM (Amygdala) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														89,
 														178,
@@ -707,6 +722,7 @@
 												},
 												{
 													"name": "VTM (Amygdala) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														89,
 														178,
@@ -756,6 +772,7 @@
 											"children": [
 												{
 													"name": "IF (Amygdala) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														120,
 														190,
@@ -783,6 +800,7 @@
 												},
 												{
 													"name": "IF (Amygdala) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														120,
 														190,
@@ -842,6 +860,7 @@
 											"children": [
 												{
 													"name": "CM (Amygdala) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														89,
 														4,
@@ -864,6 +883,7 @@
 												},
 												{
 													"name": "CM (Amygdala) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														89,
 														4,
@@ -908,6 +928,7 @@
 											"children": [
 												{
 													"name": "CM (Amygdala) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														9,
 														120,
@@ -935,6 +956,7 @@
 												},
 												{
 													"name": "CM (Amygdala) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														9,
 														120,
@@ -1014,6 +1036,7 @@
 											"children": [
 												{
 													"name": "Area 7P (SPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														52,
 														20,
@@ -1041,6 +1064,7 @@
 												},
 												{
 													"name": "Area 7P (SPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														52,
 														20,
@@ -1090,6 +1114,7 @@
 											"children": [
 												{
 													"name": "Area 5M (SPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														225,
 														245,
@@ -1117,6 +1142,7 @@
 												},
 												{
 													"name": "Area 5M (SPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														225,
 														245,
@@ -1166,6 +1192,7 @@
 											"children": [
 												{
 													"name": "Area 7PC (SPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														252,
 														89,
@@ -1193,6 +1220,7 @@
 												},
 												{
 													"name": "Area 7PC (SPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														252,
 														89,
@@ -1242,6 +1270,7 @@
 											"children": [
 												{
 													"name": "Area 5L (SPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														184,
 														185,
@@ -1269,6 +1298,7 @@
 												},
 												{
 													"name": "Area 5L (SPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														184,
 														185,
@@ -1318,6 +1348,7 @@
 											"children": [
 												{
 													"name": "Area 7M (SPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														205,
 														61,
@@ -1345,6 +1376,7 @@
 												},
 												{
 													"name": "Area 7M (SPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														205,
 														61,
@@ -1405,6 +1437,7 @@
 											"children": [
 												{
 													"name": "Area 7A (SPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														38,
 														204,
@@ -1432,6 +1465,7 @@
 												},
 												{
 													"name": "Area 7A (SPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														38,
 														204,
@@ -1480,6 +1514,7 @@
 											"children": [
 												{
 													"name": "Area 5Ci (SPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														79,
 														242,
@@ -1507,6 +1542,7 @@
 												},
 												{
 													"name": "Area 5Ci (SPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														79,
 														242,
@@ -1566,6 +1602,7 @@
 											"children": [
 												{
 													"name": "Area OP2 (POperc) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														36,
 														47,
@@ -1593,6 +1630,7 @@
 												},
 												{
 													"name": "Area OP2 (POperc) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														36,
 														47,
@@ -1642,6 +1680,7 @@
 											"children": [
 												{
 													"name": "Area OP4 (POperc) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														89,
 														80,
@@ -1669,6 +1708,7 @@
 												},
 												{
 													"name": "Area OP4 (POperc) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														89,
 														80,
@@ -1718,6 +1758,7 @@
 											"children": [
 												{
 													"name": "Area OP3 (POperc) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														58,
 														122,
@@ -1745,6 +1786,7 @@
 												},
 												{
 													"name": "Area OP3 (POperc) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														58,
 														122,
@@ -1794,6 +1836,7 @@
 											"children": [
 												{
 													"name": "Area OP1 (POperc) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														250,
 														182,
@@ -1821,6 +1864,7 @@
 												},
 												{
 													"name": "Area OP1 (POperc) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														250,
 														182,
@@ -1880,6 +1924,7 @@
 											"children": [
 												{
 													"name": "Area 1 (PostCG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														232,
 														185,
@@ -1907,6 +1952,7 @@
 												},
 												{
 													"name": "Area 1 (PostCG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														232,
 														185,
@@ -1967,6 +2013,7 @@
 											"children": [
 												{
 													"name": "Area 3b (PostCG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														239,
 														246,
@@ -1994,6 +2041,7 @@
 												},
 												{
 													"name": "Area 3b (PostCG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														239,
 														246,
@@ -2042,6 +2090,7 @@
 											"children": [
 												{
 													"name": "Area 3a (PostCG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														187,
 														133,
@@ -2069,6 +2118,7 @@
 												},
 												{
 													"name": "Area 3a (PostCG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														187,
 														133,
@@ -2118,6 +2168,7 @@
 											"children": [
 												{
 													"name": "Area 2 (PostCS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														23,
 														13,
@@ -2145,6 +2196,7 @@
 												},
 												{
 													"name": "Area 2 (PostCS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														23,
 														13,
@@ -2215,6 +2267,7 @@
 											"children": [
 												{
 													"name": "Area PFm (IPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														53,
 														76,
@@ -2242,6 +2295,7 @@
 												},
 												{
 													"name": "Area PFm (IPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														53,
 														76,
@@ -2301,6 +2355,7 @@
 											"children": [
 												{
 													"name": "Area PFop (IPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														146,
 														153,
@@ -2328,6 +2383,7 @@
 												},
 												{
 													"name": "Area PFop (IPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														146,
 														153,
@@ -2387,6 +2443,7 @@
 											"children": [
 												{
 													"name": "Area PF (IPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														226,
 														211,
@@ -2414,6 +2471,7 @@
 												},
 												{
 													"name": "Area PF (IPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														226,
 														211,
@@ -2473,6 +2531,7 @@
 											"children": [
 												{
 													"name": "Area PGp (IPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														92,
 														116,
@@ -2500,6 +2559,7 @@
 												},
 												{
 													"name": "Area PGp (IPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														92,
 														116,
@@ -2559,6 +2619,7 @@
 											"children": [
 												{
 													"name": "Area PGa (IPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														42,
 														236,
@@ -2586,6 +2647,7 @@
 												},
 												{
 													"name": "Area PGa (IPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														42,
 														236,
@@ -2645,6 +2707,7 @@
 											"children": [
 												{
 													"name": "Area PFt (IPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														120,
 														135,
@@ -2672,6 +2735,7 @@
 												},
 												{
 													"name": "Area PFt (IPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														120,
 														135,
@@ -2731,6 +2795,7 @@
 											"children": [
 												{
 													"name": "Area PFcm (IPL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														98,
 														128,
@@ -2758,6 +2823,7 @@
 												},
 												{
 													"name": "Area PFcm (IPL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														98,
 														128,
@@ -2816,6 +2882,7 @@
 											"children": [
 												{
 													"name": "Area hPO1 (POS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														153,
 														232,
@@ -2843,6 +2910,7 @@
 												},
 												{
 													"name": "Area hPO1 (POS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														153,
 														232,
@@ -2902,6 +2970,7 @@
 											"children": [
 												{
 													"name": "Area hIP5 (IPS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														217,
 														87,
@@ -2929,6 +2998,7 @@
 												},
 												{
 													"name": "Area hIP5 (IPS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														217,
 														87,
@@ -2978,6 +3048,7 @@
 											"children": [
 												{
 													"name": "Area hIP3 (IPS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														113,
 														172,
@@ -3005,6 +3076,7 @@
 												},
 												{
 													"name": "Area hIP3 (IPS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														113,
 														172,
@@ -3054,6 +3126,7 @@
 											"children": [
 												{
 													"name": "Area hIP8 (IPS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														223,
 														109,
@@ -3081,6 +3154,7 @@
 												},
 												{
 													"name": "Area hIP8 (IPS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														223,
 														109,
@@ -3130,6 +3204,7 @@
 											"children": [
 												{
 													"name": "Area hIP4 (IPS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														254,
 														52,
@@ -3157,6 +3232,7 @@
 												},
 												{
 													"name": "Area hIP4 (IPS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														254,
 														52,
@@ -3206,6 +3282,7 @@
 											"children": [
 												{
 													"name": "Area hIP7 (IPS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														71,
 														196,
@@ -3233,6 +3310,7 @@
 												},
 												{
 													"name": "Area hIP7 (IPS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														71,
 														196,
@@ -3282,6 +3360,7 @@
 											"children": [
 												{
 													"name": "Area hIP1 (IPS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														66,
 														149,
@@ -3309,6 +3388,7 @@
 												},
 												{
 													"name": "Area hIP1 (IPS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														66,
 														149,
@@ -3358,6 +3438,7 @@
 											"children": [
 												{
 													"name": "Area hIP6 (IPS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														237,
 														233,
@@ -3385,6 +3466,7 @@
 												},
 												{
 													"name": "Area hIP6 (IPS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														237,
 														233,
@@ -3434,6 +3516,7 @@
 											"children": [
 												{
 													"name": "Area hIP2 (IPS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														127,
 														245,
@@ -3461,6 +3544,7 @@
 												},
 												{
 													"name": "Area hIP2 (IPS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														127,
 														245,
@@ -3530,6 +3614,7 @@
 											"children": [
 												{
 													"name": "Area hOc4d (Cuneus) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														109,
 														218,
@@ -3557,6 +3642,7 @@
 												},
 												{
 													"name": "Area hOc4d (Cuneus) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														109,
 														218,
@@ -3606,6 +3692,7 @@
 											"children": [
 												{
 													"name": "Area hOc3d (Cuneus) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														105,
 														191,
@@ -3633,6 +3720,7 @@
 												},
 												{
 													"name": "Area hOc3d (Cuneus) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														105,
 														191,
@@ -3682,6 +3770,7 @@
 											"children": [
 												{
 													"name": "Area hOc6 (POS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														239,
 														66,
@@ -3709,6 +3798,7 @@
 												},
 												{
 													"name": "Area hOc6 (POS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														239,
 														66,
@@ -3768,6 +3858,7 @@
 											"children": [
 												{
 													"name": "Area hOc4v (LingG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														222,
 														77,
@@ -3795,6 +3886,7 @@
 												},
 												{
 													"name": "Area hOc4v (LingG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														222,
 														77,
@@ -3844,6 +3936,7 @@
 											"children": [
 												{
 													"name": "Area hOc3v (LingG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														83,
 														179,
@@ -3871,6 +3964,7 @@
 												},
 												{
 													"name": "Area hOc3v (LingG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														83,
 														179,
@@ -3930,6 +4024,7 @@
 											"children": [
 												{
 													"name": "Area hOc2 (V2, 18) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														84,
 														110,
@@ -3957,6 +4052,7 @@
 												},
 												{
 													"name": "Area hOc2 (V2, 18) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														84,
 														110,
@@ -4017,6 +4113,7 @@
 											"children": [
 												{
 													"name": "Area hOc1 (V1, 17, CalcS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														190,
 														132,
@@ -4044,6 +4141,7 @@
 												},
 												{
 													"name": "Area hOc1 (V1, 17, CalcS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														190,
 														132,
@@ -4102,6 +4200,7 @@
 											"children": [
 												{
 													"name": "Area hOc5 (LOC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														255,
 														0,
@@ -4129,6 +4228,7 @@
 												},
 												{
 													"name": "Area hOc5 (LOC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														255,
 														0,
@@ -4178,6 +4278,7 @@
 											"children": [
 												{
 													"name": "Area hOc4la (LOC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														233,
 														168,
@@ -4205,6 +4306,7 @@
 												},
 												{
 													"name": "Area hOc4la (LOC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														233,
 														168,
@@ -4254,6 +4356,7 @@
 											"children": [
 												{
 													"name": "Area hOc4lp (LOC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														96,
 														113,
@@ -4281,6 +4384,7 @@
 												},
 												{
 													"name": "Area hOc4lp (LOC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														96,
 														113,
@@ -4350,6 +4454,7 @@
 											"children": [
 												{
 													"name": "Area ifj1 (IFS/PreS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														71,
 														244,
@@ -4362,6 +4467,7 @@
 												},
 												{
 													"name": "Area ifj1 (IFS/PreS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														71,
 														244,
@@ -4389,6 +4495,7 @@
 											"children": [
 												{
 													"name": "Area ifs4 (IFS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														86,
 														17,
@@ -4411,6 +4518,7 @@
 												},
 												{
 													"name": "Area ifs4 (IFS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														86,
 														17,
@@ -4455,6 +4563,7 @@
 											"children": [
 												{
 													"name": "Area ifs1 (IFS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														172,
 														20,
@@ -4477,6 +4586,7 @@
 												},
 												{
 													"name": "Area ifs1 (IFS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														172,
 														20,
@@ -4521,6 +4631,7 @@
 											"children": [
 												{
 													"name": "Area ifj2 (IFS/PreS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														14,
 														247,
@@ -4533,6 +4644,7 @@
 												},
 												{
 													"name": "Area ifj2 (IFS/PreS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														14,
 														247,
@@ -4560,6 +4672,7 @@
 											"children": [
 												{
 													"name": "Area ifs2 (IFS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														183,
 														42,
@@ -4582,6 +4695,7 @@
 												},
 												{
 													"name": "Area ifs2 (IFS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														183,
 														42,
@@ -4626,6 +4740,7 @@
 											"children": [
 												{
 													"name": "Area ifs3 (IFS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														144,
 														30,
@@ -4648,6 +4763,7 @@
 												},
 												{
 													"name": "Area ifs3 (IFS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														144,
 														30,
@@ -4722,6 +4838,7 @@
 											"children": [
 												{
 													"name": "Area 44 (IFG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														54,
 														74,
@@ -4749,6 +4866,7 @@
 												},
 												{
 													"name": "Area 44 (IFG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														54,
 														74,
@@ -4808,6 +4926,7 @@
 											"children": [
 												{
 													"name": "Area 45 (IFG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														167,
 														103,
@@ -4835,6 +4954,7 @@
 												},
 												{
 													"name": "Area 45 (IFG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														167,
 														103,
@@ -4899,6 +5019,7 @@
 											"children": [
 												{
 													"name": "Area 6d1 (PreCG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														45,
 														33,
@@ -4926,6 +5047,7 @@
 												},
 												{
 													"name": "Area 6d1 (PreCG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														45,
 														33,
@@ -4974,6 +5096,7 @@
 											"children": [
 												{
 													"name": "Area 6d2 (PreCG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														170,
 														151,
@@ -5001,6 +5124,7 @@
 												},
 												{
 													"name": "Area 6d2 (PreCG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														170,
 														151,
@@ -5053,6 +5177,7 @@
 											"children": [
 												{
 													"name": "Area 6ma (preSMA, mesial SFG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														204,
 														108,
@@ -5080,6 +5205,7 @@
 												},
 												{
 													"name": "Area 6ma (preSMA, mesial SFG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														204,
 														108,
@@ -5139,6 +5265,7 @@
 											"children": [
 												{
 													"name": "Area 6d3 (SFS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														55,
 														239,
@@ -5166,6 +5293,7 @@
 												},
 												{
 													"name": "Area 6d3 (SFS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														55,
 														239,
@@ -5225,6 +5353,7 @@
 											"children": [
 												{
 													"name": "Area Fp1 (FPole) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														226,
 														14,
@@ -5252,6 +5381,7 @@
 												},
 												{
 													"name": "Area Fp1 (FPole) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														226,
 														14,
@@ -5301,6 +5431,7 @@
 											"children": [
 												{
 													"name": "Area Fp2 (FPole) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														239,
 														137,
@@ -5328,6 +5459,7 @@
 												},
 												{
 													"name": "Area Fp2 (FPole) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														239,
 														137,
@@ -5398,6 +5530,7 @@
 											"children": [
 												{
 													"name": "Area 4p (PreCG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														116,
 														92,
@@ -5425,6 +5558,7 @@
 												},
 												{
 													"name": "Area 4p (PreCG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														116,
 														92,
@@ -5473,6 +5607,7 @@
 											"children": [
 												{
 													"name": "Area 4a (PreCG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														118,
 														239,
@@ -5500,6 +5635,7 @@
 												},
 												{
 													"name": "Area 4a (PreCG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														118,
 														239,
@@ -5559,6 +5695,7 @@
 											"children": [
 												{
 													"name": "Area 6mp (SMA, mesial SFG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														75,
 														95,
@@ -5586,6 +5723,7 @@
 												},
 												{
 													"name": "Area 6mp (SMA, mesial SFG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														75,
 														95,
@@ -5645,6 +5783,7 @@
 											"children": [
 												{
 													"name": "Area Fo3 (OFC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														182,
 														189,
@@ -5672,6 +5811,7 @@
 												},
 												{
 													"name": "Area Fo3 (OFC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														182,
 														189,
@@ -5721,6 +5861,7 @@
 											"children": [
 												{
 													"name": "Area Fo1 (OFC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														7,
 														255,
@@ -5748,6 +5889,7 @@
 												},
 												{
 													"name": "Area Fo1 (OFC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														7,
 														255,
@@ -5797,6 +5939,7 @@
 											"children": [
 												{
 													"name": "Area Fo2 (OFC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														0,
 														255,
@@ -5824,6 +5967,7 @@
 												},
 												{
 													"name": "Area Fo2 (OFC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														0,
 														255,
@@ -5883,6 +6027,7 @@
 											"children": [
 												{
 													"name": "Area OP9 (Frontal Operculum) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														175,
 														123,
@@ -5910,6 +6055,7 @@
 												},
 												{
 													"name": "Area OP9 (Frontal Operculum) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														175,
 														123,
@@ -5952,6 +6098,7 @@
 											"children": [
 												{
 													"name": "Area OP8 (Frontal Operculum) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														29,
 														76,
@@ -5979,6 +6126,7 @@
 												},
 												{
 													"name": "Area OP8 (Frontal Operculum) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														29,
 														76,
@@ -6031,6 +6179,7 @@
 											"children": [
 												{
 													"name": "Area Fo5 (OFC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														219,
 														11,
@@ -6058,6 +6207,7 @@
 												},
 												{
 													"name": "Area Fo5 (OFC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														219,
 														11,
@@ -6107,6 +6257,7 @@
 											"children": [
 												{
 													"name": "Area Fo7 (OFC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														64,
 														211,
@@ -6134,6 +6285,7 @@
 												},
 												{
 													"name": "Area Fo7 (OFC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														64,
 														211,
@@ -6183,6 +6335,7 @@
 											"children": [
 												{
 													"name": "Area Fo4 (OFC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														163,
 														204,
@@ -6210,6 +6363,7 @@
 												},
 												{
 													"name": "Area Fo4 (OFC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														163,
 														204,
@@ -6259,6 +6413,7 @@
 											"children": [
 												{
 													"name": "Area Fo6 (OFC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														199,
 														156,
@@ -6286,6 +6441,7 @@
 												},
 												{
 													"name": "Area Fo6 (OFC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														199,
 														156,
@@ -6355,6 +6511,7 @@
 											"children": [
 												{
 													"name": "Area Ig1 (Insula) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														18,
 														111,
@@ -6382,6 +6539,7 @@
 												},
 												{
 													"name": "Area Ig1 (Insula) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														18,
 														111,
@@ -6431,6 +6589,7 @@
 											"children": [
 												{
 													"name": "Area Ig2 (Insula) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														105,
 														61,
@@ -6458,6 +6617,7 @@
 												},
 												{
 													"name": "Area Ig2 (Insula) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														105,
 														61,
@@ -6517,6 +6677,7 @@
 											"children": [
 												{
 													"name": "Area Ia (Insula) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														71,
 														217,
@@ -6544,6 +6705,7 @@
 												},
 												{
 													"name": "Area Ia (Insula) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														71,
 														217,
@@ -6603,6 +6765,7 @@
 											"children": [
 												{
 													"name": "Area Id7 (Insula) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														101,
 														202,
@@ -6630,6 +6793,7 @@
 												},
 												{
 													"name": "Area Id7 (Insula) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														101,
 														202,
@@ -6689,6 +6853,7 @@
 											"children": [
 												{
 													"name": "Area Id1 (Insula) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														141,
 														112,
@@ -6716,6 +6881,7 @@
 												},
 												{
 													"name": "Area Id1 (Insula) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														141,
 														112,
@@ -6765,6 +6931,7 @@
 											"children": [
 												{
 													"name": "Area Id5 (Insula) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														112,
 														6,
@@ -6792,6 +6959,7 @@
 												},
 												{
 													"name": "Area Id5 (Insula) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														112,
 														6,
@@ -6841,6 +7009,7 @@
 											"children": [
 												{
 													"name": "Area Id4 (Insula) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														38,
 														174,
@@ -6868,6 +7037,7 @@
 												},
 												{
 													"name": "Area Id4 (Insula) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														38,
 														174,
@@ -6917,6 +7087,7 @@
 											"children": [
 												{
 													"name": "Area Id6 (Insula) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														138,
 														127,
@@ -6944,6 +7115,7 @@
 												},
 												{
 													"name": "Area Id6 (Insula) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														138,
 														127,
@@ -7013,6 +7185,7 @@
 											"children": [
 												{
 													"name": "Area STS1 (STS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														205,
 														228,
@@ -7040,6 +7213,7 @@
 												},
 												{
 													"name": "Area STS1 (STS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														205,
 														228,
@@ -7089,6 +7263,7 @@
 											"children": [
 												{
 													"name": "Area STS2 (STS) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														62,
 														117,
@@ -7116,6 +7291,7 @@
 												},
 												{
 													"name": "Area STS2 (STS) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														62,
 														117,
@@ -7175,6 +7351,7 @@
 											"children": [
 												{
 													"name": "Area TE 3 (STG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														159,
 														104,
@@ -7202,6 +7379,7 @@
 												},
 												{
 													"name": "Area TE 3 (STG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														159,
 														104,
@@ -7261,6 +7439,7 @@
 											"children": [
 												{
 													"name": "Area TE 1.2 (HESCHL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														202,
 														251,
@@ -7288,6 +7467,7 @@
 												},
 												{
 													"name": "Area TE 1.2 (HESCHL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														202,
 														251,
@@ -7337,6 +7517,7 @@
 											"children": [
 												{
 													"name": "Area TE 1.1 (HESCHL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														8,
 														113,
@@ -7364,6 +7545,7 @@
 												},
 												{
 													"name": "Area TE 1.1 (HESCHL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														8,
 														113,
@@ -7424,6 +7606,7 @@
 											"children": [
 												{
 													"name": "Area TE 1.0 (HESCHL) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														252,
 														84,
@@ -7451,6 +7634,7 @@
 												},
 												{
 													"name": "Area TE 1.0 (HESCHL) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														252,
 														84,
@@ -7520,6 +7704,7 @@
 											"children": [
 												{
 													"name": "Area FG1 (FusG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														131,
 														183,
@@ -7547,6 +7732,7 @@
 												},
 												{
 													"name": "Area FG1 (FusG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														131,
 														183,
@@ -7595,6 +7781,7 @@
 											"children": [
 												{
 													"name": "Area FG4 (FusG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														170,
 														220,
@@ -7622,6 +7809,7 @@
 												},
 												{
 													"name": "Area FG4 (FusG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														170,
 														220,
@@ -7671,6 +7859,7 @@
 											"children": [
 												{
 													"name": "Area FG3 (FusG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														120,
 														147,
@@ -7698,6 +7887,7 @@
 												},
 												{
 													"name": "Area FG3 (FusG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														120,
 														147,
@@ -7758,6 +7948,7 @@
 											"children": [
 												{
 													"name": "Area FG2 (FusG) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														67,
 														94,
@@ -7785,6 +7976,7 @@
 												},
 												{
 													"name": "Area FG2 (FusG) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														67,
 														94,
@@ -7853,6 +8045,7 @@
 											"children": [
 												{
 													"name": "Area p24c (pACC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														241,
 														164,
@@ -7880,6 +8073,7 @@
 												},
 												{
 													"name": "Area p24c (pACC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														241,
 														164,
@@ -7929,6 +8123,7 @@
 											"children": [
 												{
 													"name": "Area p24ab (pACC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														153,
 														195,
@@ -7956,6 +8151,7 @@
 												},
 												{
 													"name": "Area p24ab (pACC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														153,
 														195,
@@ -8005,6 +8201,7 @@
 											"children": [
 												{
 													"name": "Area s32 (sACC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														193,
 														94,
@@ -8032,6 +8229,7 @@
 												},
 												{
 													"name": "Area s32 (sACC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														193,
 														94,
@@ -8081,6 +8279,7 @@
 											"children": [
 												{
 													"name": "Area 25 (sACC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														170,
 														68,
@@ -8108,6 +8307,7 @@
 												},
 												{
 													"name": "Area 25 (sACC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														170,
 														68,
@@ -8157,6 +8357,7 @@
 											"children": [
 												{
 													"name": "Area s24 (sACC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														133,
 														34,
@@ -8184,6 +8385,7 @@
 												},
 												{
 													"name": "Area s24 (sACC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														133,
 														34,
@@ -8233,6 +8435,7 @@
 											"children": [
 												{
 													"name": "Area p32 (pACC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														87,
 														135,
@@ -8260,6 +8463,7 @@
 												},
 												{
 													"name": "Area p32 (pACC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														87,
 														135,
@@ -8309,6 +8513,7 @@
 											"children": [
 												{
 													"name": "Area 33 (ACC) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														51,
 														57,
@@ -8336,6 +8541,7 @@
 												},
 												{
 													"name": "Area 33 (ACC) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														51,
 														57,
@@ -8395,6 +8601,7 @@
 											"children": [
 												{
 													"name": "Entorhinal Cortex - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														35,
 														159,
@@ -8422,6 +8629,7 @@
 												},
 												{
 													"name": "Entorhinal Cortex - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														35,
 														159,
@@ -8482,6 +8690,7 @@
 											"children": [
 												{
 													"name": "CA (Hippocampus) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														250,
 														191,
@@ -8509,6 +8718,7 @@
 												},
 												{
 													"name": "CA (Hippocampus) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														250,
 														191,
@@ -8557,6 +8767,7 @@
 											"children": [
 												{
 													"name": "DG (Hippocampus) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														149,
 														55,
@@ -8584,6 +8795,7 @@
 												},
 												{
 													"name": "DG (Hippocampus) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														149,
 														55,
@@ -8633,6 +8845,7 @@
 											"children": [
 												{
 													"name": "Subiculum (Hippocampus) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														111,
 														125,
@@ -8660,6 +8873,7 @@
 												},
 												{
 													"name": "Subiculum (Hippocampus) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														111,
 														125,
@@ -8709,6 +8923,7 @@
 											"children": [
 												{
 													"name": "HATA (Hippocampus) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														137,
 														12,
@@ -8736,6 +8951,7 @@
 												},
 												{
 													"name": "HATA (Hippocampus) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														137,
 														12,
@@ -8825,6 +9041,7 @@
 											"children": [
 												{
 													"name": "Interposed Nucleus (Cerebellum) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														170,
 														29,
@@ -8852,6 +9069,7 @@
 												},
 												{
 													"name": "Interposed Nucleus (Cerebellum) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														170,
 														29,
@@ -8911,6 +9129,7 @@
 											"children": [
 												{
 													"name": "Dorsal Dentate Nucleus (Cerebellum) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														89,
 														201,
@@ -8938,6 +9157,7 @@
 												},
 												{
 													"name": "Dorsal Dentate Nucleus (Cerebellum) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														89,
 														201,
@@ -8987,6 +9207,7 @@
 											"children": [
 												{
 													"name": "Ventral Dentate Nucleus (Cerebellum) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														39,
 														129,
@@ -9014,6 +9235,7 @@
 												},
 												{
 													"name": "Ventral Dentate Nucleus (Cerebellum) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														39,
 														129,
@@ -9073,6 +9295,7 @@
 											"children": [
 												{
 													"name": "Fastigial Nucleus (Cerebellum) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														200,
 														100,
@@ -9100,6 +9323,7 @@
 												},
 												{
 													"name": "Fastigial Nucleus (Cerebellum) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														200,
 														100,
@@ -9159,6 +9383,7 @@
 											"children": [
 												{
 													"name": "Interposed Nucleus (Cerebellum) - left hemisphere",
+													"mapIndex" : 0,
 													"rgb": [
 														170,
 														29,
@@ -9186,6 +9411,7 @@
 												},
 												{
 													"name": "Interposed Nucleus (Cerebellum) - right hemisphere",
+													"mapIndex" : 1,
 													"rgb": [
 														170,
 														29,
