@@ -4,31 +4,54 @@
 	"@id": "minds/core/parcellationatlas/v1.0.0/63b5794f-79a4-4464-8dc1-b32e170f3d16",
 	"@type": "minds/core/parcellationatlas/v1.0.0",
 	"groupName": "Functional Modes",
-	"maps": {
-		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2" : [
-				"https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/512/maps.nii.gz"
-		]
-	},
 	"volumeSrc": {
 		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-			"whole brain": [{
-				"@type": "fzj/tmp/volume_type/v0.0.1",
-				"@id": "fzj/tmp/volume_type/v0.0.1/difumo-512-nii",
-				"name": "difumo-512 icbm152 nifti",
-				"volume_type": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/512/maps.nii.gz"
-			},{
-				"@type": "fzj/tmp/volume_type/v0.0.1",
-				"@id": "fzj/tmp/volume_type/v0.0.1/difumo-512",
-				"name": "difumo-512 icbm152 ng precomp",
-				"volume_type": "neuroglancer/precomputed",
-				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-3ac156f3-ba17-4253-8d76-fa78d6958081",
-				"detail": {
-					"neuroglancer/precomputed": {
-						"transform": [[1,0,0,-96937500],[0,1,0,-132937500],[0,0,1,-78937500],[0,0,0,1]]
+			"whole brain": [
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/difumo-512-nii",
+					"name": "difumo-512 icbm152 nifti",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/512/maps.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/difumo-512",
+					"name": "difumo-512 icbm152 ng precomp",
+					"volume_type": "neuroglancer/precomputed",
+					"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-3ac156f3-ba17-4253-8d76-fa78d6958081",
+					"detail": {
+						"neuroglancer/precomputed": {
+							"transform": [
+								[
+									1,
+									0,
+									0,
+									-96937500
+								],
+								[
+									0,
+									1,
+									0,
+									-132937500
+								],
+								[
+									0,
+									0,
+									1,
+									-78937500
+								],
+								[
+									0,
+									0,
+									0,
+									1
+								]
+							]
+						}
 					}
 				}
-			}]
+			]
 		}
 	},
 	"originDatasets": [
@@ -37,12 +60,12 @@
 			"kgId": "5438792c-ff2a-4554-9f85-af795f870741"
 		}
 	],
-	"description" : "DiFuMo (Dictionary of Functional Modes) 512-dimensional atlas presents a parcellation of the brain into 512 elementary structures using sparse dictionary learning. The atlas contains two main components: (1) an image of the 512 spatial components, sampled in MNI space, and (2) anatomical names for these 512 regions. It is meant to serve as an atlas to extract functional signals, eg to create image-derived phenotypes. These modes are optimized to represent well raw BOLD time series, over a with range of experimental conditions.",
+	"description": "DiFuMo (Dictionary of Functional Modes) 512-dimensional atlas presents a parcellation of the brain into 512 elementary structures using sparse dictionary learning. The atlas contains two main components: (1) an image of the 512 spatial components, sampled in MNI space, and (2) anatomical names for these 512 regions. It is meant to serve as an atlas to extract functional signals, eg to create image-derived phenotypes. These modes are optimized to represent well raw BOLD time series, over a with range of experimental conditions.",
 	"publications": [
-			{
-					"doi" : "10.1016/j.neuroimage.2020.117126",
-					"citation" : "Dadi K, Varoquaux G, Machlouzarides-Shalit A, Gorgolewski KJ, Wassermann D, Thirion B, Mensch A. Fine-grain atlases of functional modes for fMRI analysis. NeuroImage. 2020;221:117126. doi:10.1016/j.neuroimage.2020.117126"
-			}
+		{
+			"doi": "10.1016/j.neuroimage.2020.117126",
+			"citation": "Dadi K, Varoquaux G, Machlouzarides-Shalit A, Gorgolewski KJ, Wassermann D, Thirion B, Mensch A. Fine-grain atlases of functional modes for fMRI analysis. NeuroImage. 2020;221:117126. doi:10.1016/j.neuroimage.2020.117126"
+		}
 	],
 	"regions": [
 		{

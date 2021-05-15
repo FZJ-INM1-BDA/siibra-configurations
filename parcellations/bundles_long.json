@@ -3,31 +3,54 @@
 	"@type": "minds/core/parcellationatlas/v1.0.0",
 	"name": "Probabilistic Long White Matter Bundle Maps",
 	"shortName": "Long White Matter Bundles",
-	"maps": {
-		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2" : [
-			"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz"
-		]
-	},
 	"volumeSrc": {
 		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-			"whole brain": [{
-				"@type": "fzj/tmp/volume_type/v0.0.1",
-				"@id": "fzj/tmp/volume_type/v0.0.1/bundle-long-nii",
-				"name": "bundle-long icbm152 nifti",
-				"volume_type": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz"
-			},{
-				"@type": "fzj/tmp/volume_type/v0.0.1",
-				"@id": "fzj/tmp/volume_type/v0.0.1/bundle-long",
-				"name": "bundle-long icbm152 ng precomp",
-				"volume_type": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"detail": {
-					"neuroglancer/precomputed": {
-						"transform": [[1,0,0,-96937500],[0,1,0,-132937500],[0,0,1,-78937500],[0,0,0,1]]
+			"whole brain": [
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/bundle-long-nii",
+					"name": "bundle-long icbm152 nifti",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/bundle-long",
+					"name": "bundle-long icbm152 ng precomp",
+					"volume_type": "neuroglancer/precomputed",
+					"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
+					"detail": {
+						"neuroglancer/precomputed": {
+							"transform": [
+								[
+									1,
+									0,
+									0,
+									-96937500
+								],
+								[
+									0,
+									1,
+									0,
+									-132937500
+								],
+								[
+									0,
+									0,
+									1,
+									-78937500
+								],
+								[
+									0,
+									0,
+									0,
+									1
+								]
+							]
+						}
 					}
 				}
-			}]
+			]
 		}
 	},
 	"originDatasets": [
@@ -36,7 +59,7 @@
 			"kgId": "fcbb049b-edd5-4fb5-acbc-7bf8ee933e24"
 		}
 	],
-	"description": "This data contains the maximum probability map of deep white matter fibre bundles (atlas of deep white matter fibre bundles, version 2018), in the MNI ICBM152 reference brain. These bundles were identified by fibre clustering, from the tractography datasets of 78 subjects in Neurospin’s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
+	"description": "This data contains the maximum probability map of deep white matter fibre bundles (atlas of deep white matter fibre bundles, version 2018), in the MNI ICBM152 reference brain. These bundles were identified by fibre clustering, from the tractography datasets of 78 subjects in Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
 	"publications": [
 		{
 			"doi": "10.1016/j.neuroimage.2012.02.071",
@@ -653,5 +676,5 @@
 			]
 		}
 	],
-  "modality": "fibre architecture"
+	"modality": "fibre architecture"
 }
