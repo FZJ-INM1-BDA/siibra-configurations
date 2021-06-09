@@ -1,9 +1,9 @@
 {
-	"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-25",
+	"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-26",
 	"@type": "minds/core/parcellationatlas/v1.0.0",
-	"name": "Julich-Brain Probabilistic Cytoarchitectonic Maps (v2.5)",
-	"shortName": "Julich-Brain Cytoarchitectonic Maps 2.5",
-	"version": "2.5",
+	"name": "Julich-Brain Probabilistic Cytoarchitectonic Maps (v2.6)",
+	"shortName": "Julich-Brain Cytoarchitectonic Maps 2.6",
+	"version": "2.6",
 	"volumeSrc": {
 		"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": {
 			"whole brain": [
@@ -20,15 +20,15 @@
 			"left hemisphere": [
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
-					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-5-icbm152-nii-lh",
-					"name": "Julich Brain v2.5 mpm volSrc icbm152 nifti lh",
+					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-6-icbm152-nii-lh",
+					"name": "Julich Brain v2.6 mpm volSrc icbm152 nifti lh",
 					"volume_type": "nii",
 					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/26/MPM/JulichBrain_MPMAtlas_l_N10_nlin2Stdicbm152asym2009c_publicDOI_3f5ec6016bc2242769c41befdbc1b2e0.nii.gz"
 				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
-					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-5-icbm152-ng-lh",
-					"name": "Julich Brain v2.5 mpm volSrc icbm152 ng precomp lh",
+					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-6-icbm152-ng-lh",
+					"name": "Julich Brain v2.6 mpm volSrc icbm152 ng precomp lh",
 					"volume_type": "neuroglancer/precomputed",
 					"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/JulichBrainV2_5_3/precomputed/JulichBrain_MPMAtlas_l_N10_nlin2Stdicbm152asym2009c_publicDOI_3f5ec6016bc2242769c41befdbc1b2e0",
 					"detail": {
@@ -67,14 +67,14 @@
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-5-icbm152-nii-rh",
-					"name": "Julich Brain v2.5 mpm volSrc icbm152 nifti rh",
+					"name": "Julich Brain v2.6 mpm volSrc icbm152 nifti rh",
 					"volume_type": "nii",
 					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/26/MPM/JulichBrain_MPMAtlas_r_N10_nlin2Stdicbm152asym2009c_publicDOI_453c4c95827e38dcce5372b200065cba.nii.gz"
 				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/julichbrain-mpm-v2-5-icbm152-ng-rh",
-					"name": "Julich Brain v2.5 mpm volSrc icbm152 ng precomp rh",
+					"name": "Julich Brain v2.6 mpm volSrc icbm152 ng precomp rh",
 					"volume_type": "neuroglancer/precomputed",
 					"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/JulichBrainV2_5_3/precomputed/JulichBrain_MPMAtlas_r_N10_nlin2Stdicbm152asym2009c_publicDOI_453c4c95827e38dcce5372b200065cba",
 					"detail": {
@@ -114,7 +114,7 @@
 	"originDatasets": [
 		{
 			"kgSchema": "minds/core/dataset/v1.0.0",
-			"kgId": "5249afa7-5e04-4ffd-8039-c3a9231f717c"
+			"kgId": "2eaa3dc6-a21b-41c1-b703-bf06f82adf25"
 		}
 	],
 	"description": "This dataset contains the whole-brain parcellation of the Julich-Brain Cytoarchitectonic Atlas in the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space (Evans et al., 2012). The parcellation is derived from the individual probability maps (PMs) of the cytoarchitectonic regions released in the Julich-Brain Cytoarchitectonic Atlas, that are further combined into a Maximum Probability Map (MPM). The MPM is calculated by considering for each voxel the probability of all cytoarchitectonic areas released in the atlas, and determining the most probable assignment (Eickhoff 2005). Gap maps complement cortical maps to achieve full cortical coverage.",
@@ -16463,7 +16463,7 @@
 	],
 	"modality": "cytoarchitecture",
 	"@version": {
-		"name": "2.5",
+		"name": "2.6",
 		"@prev": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
 		"@next": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-273"
 	}
