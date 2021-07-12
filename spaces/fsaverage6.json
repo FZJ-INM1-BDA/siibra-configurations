@@ -1,0 +1,52 @@
+{
+	"@id": "minds/core/referencespace/v1.0.0/tmp-fsaverage6",
+	"@type": "minds/core/referencespace/v1.0.0",
+	"name": "fsaverage6",
+	"shortName": "fsaverage6",
+	"templateType": "gii",
+	"srcVolumeType": "surface",
+	"volumeSrc": [{
+		"@type": "fzj/tmp/volume_type/v0.0.1",
+		"@id": "fzj/tmp/volume_type/v0.0.1/fsa_fsa6",
+		"name": "fsaverage6",
+		"volume_type": "threesurfer/gii",
+		"url": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage6",
+		"detail": {
+			"threesurfer/gii": {
+				"surfaces": [
+          {
+            "mode": "white",
+            "hemisphere": "left",
+            "url": "root:/lh.white.gii"
+          },
+          {
+            "mode": "white",
+            "hemisphere": "right",
+            "url": "root:/rh.white.gii"
+          },
+          {
+            "mode": "pial",
+            "hemisphere": "left",
+            "url": "root:/lh.pial.gii"
+          },
+          {
+            "mode": "pial",
+            "hemisphere": "right",
+            "url": "root:/rh.pial.gii"
+          },
+          {
+            "mode": "inflated",
+            "hemisphere": "left",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa6-translated-inflated/lh.inflated.surf.gii"
+          },
+          {
+            "mode": "inflated",
+            "hemisphere": "right",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa6-translated-inflated/rh.inflated.surf.gii"
+          }
+        ]
+			}
+		}
+	}],
+  "originDatasets":[]
+}
