@@ -1,0 +1,12 @@
+image: python:3.8
+stages:
+  - test
+
+before-script:
+  script:
+    - python -m pip install --upgrade pip
+
+parc_version_ci:
+  stage: test
+  script:
+    - python ./_ci/parc_versoin_ci.py
