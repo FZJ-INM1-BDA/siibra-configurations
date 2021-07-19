@@ -4,7 +4,15 @@
   "name": "Julich-Brain Probabilistic Cytoarchitectonic Maps (v2.9)",
   "shortName": "Julich-Brain Cytoarchitectonic Maps 2.9",
   "version": "2.9",
-  "originDatasets": [],
+  "originDatasets": [{
+		"@type": "fzj/tmp/simpleOriginInfo/v0.0.1",
+		"name": "Whole-brain parcellation of the Julich-Brain Cytoarchitectonic Atlas (v2.9)",
+		"description": "This dataset contains the whole-brain parcellation of the Julich-Brain Cytoarchitectonic Atlas in the MNI ICBM 152 2009c nonlinear asymmetric reference space (Evans et al., 2012). The parcellation is derived from the individual probability maps (PMs) of the cytoarchitectonic regions released in the Julich-Brain Cytoarchitectonic Atlas, that are further combined into a Maximum Probability Map (MPM). The MPM is calculated by considering for each voxel the probability of all cytoarchitectonic areas released in the atlas, and determining the most probable assignment (Eickhoff 2005). Gap maps complement cortical maps to achieve full cortical coverage."
+	},{
+    "@type": "minds/core/dataset/v1.0.0",
+    "kgSchema": "minds/core/dataset/v1.0.0",
+    "kgId": "a8932c7e-063c-4131-ab96-996d843998e9"
+	}],
   "description": "This dataset contains the whole-brain parcellation of the Julich-Brain Cytoarchitectonic Atlas in the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space (Evans et al., 2012). The parcellation is derived from the individual probability maps (PMs) of the cytoarchitectonic regions released in the Julich-Brain Cytoarchitectonic Atlas, that are further combined into a Maximum Probability Map (MPM). The MPM is calculated by considering for each voxel the probability of all cytoarchitectonic areas released in the atlas, and determining the most probable assignment (Eickhoff 2005). Gap maps complement cortical maps to achieve full cortical coverage.",
   "modality": "cytoarchitecture",
   "regions": [
