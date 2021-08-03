@@ -9,6 +9,7 @@
 	"volumeSrc": [{
 		"@type": "fzj/tmp/volume_type/v0.0.1",
 		"@id": "fzj/tmp/volume_type/v0.0.1/allenccfv3",
+		"space_id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9",
 		"name": "allenccfv3",
 		"volume_type": "neuroglancer/precomputed",
 		"url": "https://neuroglancer.humanbrainproject.org/precomputed/AMBA/templates/v3/stpt",
@@ -18,20 +19,21 @@
 			}
 		}
 	},{
-	"@type": "fzj/tmp/volume_type/v0.0.1",
-	"@id": "fzj/tmp/volume_type/v0.0.1/allenccfv3_auxmesh",
-	"name": "allenccfv3_auxmesh",
-	"volume_type": "neuroglancer/precompmesh",
-	"url": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/parcellations/v3_2017_mesh",
-	"detail": {
-		"neuroglancer/precompmesh": {
-			"auxMeshes": [{
-				"name": "Whole brain",
-				"labelIndicies": [ 997 ]
-			}],
-			"transform": [[0,0,-1,5670000],[-1,0,0,6570000],[0,-1,0,3970000],[0,0,0,1]]
+		"@type": "fzj/tmp/volume_type/v0.0.1",
+		"@id": "fzj/tmp/volume_type/v0.0.1/allenccfv3_auxmesh",
+		"space_id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9",
+		"name": "allenccfv3_auxmesh",
+		"volume_type": "neuroglancer/precompmesh",
+		"url": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/parcellations/v3_2017_mesh",
+		"detail": {
+			"neuroglancer/precompmesh": {
+				"auxMeshes": [{
+					"name": "Whole brain",
+					"labelIndicies": [ 997 ]
+				}],
+				"transform": [[0,0,-1,5670000],[-1,0,0,6570000],[0,-1,0,3970000],[0,0,0,1]]
+			}
 		}
-	}
 	}],
 	"originDatasets": [{
 		"@type": "fzj/tmp/simpleOriginInfo/v0.0.1",
