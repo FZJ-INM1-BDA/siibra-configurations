@@ -3,56 +3,54 @@
 	"@type": "minds/core/parcellationatlas/v1.0.0",
 	"name": "Probabilistic Superficial Fibre Bundle Maps",
 	"shortName": "Superficial Fibre Bundles",
-	"volumeSrc": {
-		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-			"whole brain": [
-				{
-					"@type": "fzj/tmp/volume_type/v0.0.1",
-					"@id": "fzj/tmp/volume_type/v0.0.1/bundle-short-nii",
-					"name": "bundle-short icbm152 nifti",
-					"volume_type": "nii",
-					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz"
-				},
-				{
-					"@type": "fzj/tmp/volume_type/v0.0.1",
-					"@id": "fzj/tmp/volume_type/v0.0.1/bundle-short",
-					"name": "bundle-short icbm152 ng precomp",
-					"volume_type": "neuroglancer/precomputed",
-					"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
-					"detail": {
-						"neuroglancer/precomputed": {
-							"transform": [
-								[
-									1,
-									0,
-									0,
-									-96500000
-								],
-								[
-									0,
-									1,
-									0,
-									-132500000
-								],
-								[
-									0,
-									0,
-									1,
-									-78500000
-								],
-								[
-									0,
-									0,
-									0,
-									1
-								]
-							]
-						}
-					}
+	"volumeSrc": [
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/bundle-short-nii",
+			"name": "bundle-short icbm152 nifti",
+			"volume_type": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+		},
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/bundle-short",
+			"name": "bundle-short icbm152 ng precomp",
+			"volume_type": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1,
+							0,
+							0,
+							-96500000
+						],
+						[
+							0,
+							1,
+							0,
+							-132500000
+						],
+						[
+							0,
+							0,
+							1,
+							-78500000
+						],
+						[
+							0,
+							0,
+							0,
+							1
+						]
+					]
 				}
-			]
+			},
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 		}
-	},
+	],
 	"originDatasets": [
 		{
 			"@type": "minds/core/dataset/v1.0.0",
@@ -60,7 +58,7 @@
 			"kgId": "f58e4425-6614-4ad9-ac26-5e946b1296cb"
 		}
 	],
-	"description": "This data contains the maximum probability map of superficial white matter fibre bundles, in the MNI ICBM152 reference brain. These bundles were identified using a hybrid approach, incorporating anatomical information (from cortical regions of interest) and fibre shape (fibre clustering), from the tractography datasets of 78 subjects in the Neurospin’s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
+	"description": "This data contains the maximum probability map of superficial white matter fibre bundles, in the MNI ICBM152 reference brain. These bundles were identified using a hybrid approach, incorporating anatomical information (from cortical regions of interest) and fibre shape (fibre clustering), from the tractography datasets of 78 subjects in the Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
 	"publications": [
 		{
 			"doi": "10.1016/j.neuroimage.2012.02.071",
@@ -95,24 +93,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_CAC-PrCu_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CAC-PrCu/bundle-0/lh_CAC-PrCu_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CAC-PrCu_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CAC-PrCu/bundle-0/lh_CAC-PrCu_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Caudal Middle Frontal – Pars Opercularis",
+					"name": "Caudal Middle Frontal \u2013 Pars Opercularis",
 					"children": [
 						{
 							"name": "lh_CMF-Op_0",
@@ -135,19 +130,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_CMF-Op_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-Op/bundle-0/lh_CMF-Op_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CMF-Op_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-Op/bundle-0/lh_CMF-Op_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -175,19 +167,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_CMF-PoC_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-PoC/bundle-0/lh_CMF-PoC_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CMF-PoC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-PoC/bundle-0/lh_CMF-PoC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -215,19 +204,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_CMF-PrC_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-PrC/bundle-0/lh_CMF-PrC_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CMF-PrC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-PrC/bundle-0/lh_CMF-PrC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "lh_CMF-PrC_1",
@@ -250,24 +236,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_CMF-PrC_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-PrC/bundle-1/lh_CMF-PrC_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CMF-PrC_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-PrC/bundle-1/lh_CMF-PrC_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Caudal Middle Frontal – Rostral Middle Frontal",
+					"name": "Caudal Middle Frontal \u2013 Rostral Middle Frontal",
 					"children": [
 						{
 							"name": "lh_CMF-RMF_0",
@@ -290,24 +273,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_CMF-RMF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-RMF/bundle-0/lh_CMF-RMF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CMF-RMF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-RMF/bundle-0/lh_CMF-RMF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Caudal Middle Frontal – Superior Frontal",
+					"name": "Caudal Middle Frontal \u2013 Superior Frontal",
 					"children": [
 						{
 							"name": "lh_CMF-SF_0",
@@ -330,24 +310,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_CMF-SF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-SF/bundle-0/lh_CMF-SF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CMF-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-SF/bundle-0/lh_CMF-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Fusiform – Lateral Occipital",
+					"name": "Fusiform \u2013 Lateral Occipital",
 					"children": [
 						{
 							"name": "lh_Fu-LO_0",
@@ -370,19 +347,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_Fu-LO_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Fu-LO/bundle-0/lh_Fu-LO_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Fu-LO_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Fu-LO/bundle-0/lh_Fu-LO_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -410,24 +384,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_IC-PrCu_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IC-PrCu/bundle-0/lh_IC-PrCu_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IC-PrCu_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IC-PrCu/bundle-0/lh_IC-PrCu_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Inferior Parietal – Inferior Temporal",
+					"name": "Inferior Parietal \u2013 Inferior Temporal",
 					"children": [
 						{
 							"name": "lh_IP-IT_0",
@@ -450,24 +421,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_IP-IT_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-IT/bundle-0/lh_IP-IT_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IP-IT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-IT/bundle-0/lh_IP-IT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Inferior Parietal – Lateral Occipital",
+					"name": "Inferior Parietal \u2013 Lateral Occipital",
 					"children": [
 						{
 							"name": "lh_IP-LO_1",
@@ -490,24 +458,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_IP-LO_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-LO/bundle-1/lh_IP-LO_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IP-LO_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-LO/bundle-1/lh_IP-LO_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Inferior Parietal – Middle Temporal\t",
+					"name": "Inferior Parietal \u2013 Middle Temporal\t",
 					"children": [
 						{
 							"name": "lh_IP-MT_0",
@@ -530,19 +495,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_IP-MT_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-MT/bundle-0/lh_IP-MT_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IP-MT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-MT/bundle-0/lh_IP-MT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -570,24 +532,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_IP-SM_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-SM/bundle-0/lh_IP-SM_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IP-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-SM/bundle-0/lh_IP-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Inferior Pariertal – Superior Parietal",
+					"name": "Inferior Pariertal \u2013 Superior Parietal",
 					"children": [
 						{
 							"name": "lh_IP-SP_0",
@@ -610,19 +569,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_IP-SP_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-SP/bundle-0/lh_IP-SP_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IP-SP_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-SP/bundle-0/lh_IP-SP_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "lh_IP-SP_1",
@@ -645,24 +601,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_IP-SP_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-SP/bundle-1/lh_IP-SP_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IP-SP_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-SP/bundle-1/lh_IP-SP_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Inferior Temporal – Middle Temporal",
+					"name": "Inferior Temporal \u2013 Middle Temporal",
 					"children": [
 						{
 							"name": "lh_IT-MT_0",
@@ -685,24 +638,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_IT-MT_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IT-MT/bundle-0/lh_IT-MT_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IT-MT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IT-MT/bundle-0/lh_IT-MT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Lateral Orbitofrontal – Pars Orbitalis",
+					"name": "Lateral Orbitofrontal \u2013 Pars Orbitalis",
 					"children": [
 						{
 							"name": "lh_LOF-Or_0",
@@ -725,24 +675,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_LOF-Or_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_LOF-Or/bundle-0/lh_LOF-Or_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_LOF-Or_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_LOF-Or/bundle-0/lh_LOF-Or_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Lateral Orbitofrontal – Rostral Middle Frontal",
+					"name": "Lateral Orbitofrontal \u2013 Rostral Middle Frontal",
 					"children": [
 						{
 							"name": "lh_LOF-RMF_0",
@@ -765,19 +712,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_LOF-RMF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_LOF-RMF/bundle-0/lh_LOF-RMF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_LOF-RMF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_LOF-RMF/bundle-0/lh_LOF-RMF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "lh_LOF-RMF_1",
@@ -800,24 +744,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_LOF-RMF_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_LOF-RMF/bundle-1/lh_LOF-RMF_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_LOF-RMF_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_LOF-RMF/bundle-1/lh_LOF-RMF_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Lateral Orbitofrontal – Superior Temporal",
+					"name": "Lateral Orbitofrontal \u2013 Superior Temporal",
 					"children": [
 						{
 							"name": "lh_LOF-ST_0",
@@ -840,24 +781,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_LOF-ST_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_LOF-ST/bundle-0/lh_LOF-ST_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_LOF-ST_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_LOF-ST/bundle-0/lh_LOF-ST_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Middle Orbitofrontal – Superior Temporal",
+					"name": "Middle Orbitofrontal \u2013 Superior Temporal",
 					"children": [
 						{
 							"name": "lh_MOF-ST_0",
@@ -880,19 +818,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_MOF-ST_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_MOF-ST/bundle-0/lh_MOF-ST_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_MOF-ST_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_MOF-ST/bundle-0/lh_MOF-ST_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -920,24 +855,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_MT-SM_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_MT-SM/bundle-0/lh_MT-SM_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_MT-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_MT-SM/bundle-0/lh_MT-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Middle Temporal – Superior Temporal",
+					"name": "Middle Temporal \u2013 Superior Temporal",
 					"children": [
 						{
 							"name": "lh_MT-ST_0",
@@ -960,19 +892,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_MT-ST_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_MT-ST/bundle-0/lh_MT-ST_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_MT-ST_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_MT-ST/bundle-0/lh_MT-ST_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -1000,19 +929,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_Op-Ins_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Op-Ins/bundle-0/lh_Op-Ins_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Op-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Op-Ins/bundle-0/lh_Op-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -1040,24 +966,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_Op-PrC_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Op-PrC/bundle-0/lh_Op-PrC_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Op-PrC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Op-PrC/bundle-0/lh_Op-PrC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Pars Opercularis – Superior Frontal",
+					"name": "Pars Opercularis \u2013 Superior Frontal",
 					"children": [
 						{
 							"name": "lh_Op-SF_0",
@@ -1080,19 +1003,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_Op-SF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Op-SF/bundle-0/lh_Op-SF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Op-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Op-SF/bundle-0/lh_Op-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -1120,19 +1040,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_Or-Ins_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Or-Ins/bundle-0/lh_Or-Ins_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Or-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Or-Ins/bundle-0/lh_Or-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -1160,19 +1077,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PoC-Ins_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-Ins/bundle-0/lh_PoC-Ins_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-Ins/bundle-0/lh_PoC-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -1200,19 +1114,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PoCi-PrCu_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoCi-PrCu/bundle-0/lh_PoCi-PrCu_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoCi-PrCu_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoCi-PrCu/bundle-0/lh_PoCi-PrCu_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "lh_PoCi-PrCu_1",
@@ -1235,24 +1146,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PoCi-PrCu_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoCi-PrCu/bundle-1/lh_PoCi-PrCu_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoCi-PrCu_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoCi-PrCu/bundle-1/lh_PoCi-PrCu_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Posterior Cingulate – Rostral Anterior Cingulate",
+					"name": "Posterior Cingulate \u2013 Rostral Anterior Cingulate",
 					"children": [
 						{
 							"name": "lh_PoCi-RAC_0",
@@ -1275,24 +1183,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PoCi-RAC_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoCi-RAC/bundle-0/lh_PoCi-RAC_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoCi-RAC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoCi-RAC/bundle-0/lh_PoCi-RAC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Posterior Cingulate – Superior Frontal",
+					"name": "Posterior Cingulate \u2013 Superior Frontal",
 					"children": [
 						{
 							"name": "lh_PoCi-SF_0",
@@ -1315,19 +1220,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PoCi-SF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoCi-SF/bundle-0/lh_PoCi-SF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoCi-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoCi-SF/bundle-0/lh_PoCi-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -1355,19 +1257,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PoC-PrC_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-PrC/bundle-0/lh_PoC-PrC_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-PrC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-PrC/bundle-0/lh_PoC-PrC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "lh_PoC-PrC_1",
@@ -1390,19 +1289,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PoC-PrC_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-PrC/bundle-1/lh_PoC-PrC_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-PrC_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-PrC/bundle-1/lh_PoC-PrC_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "lh_PoC-PrC_2",
@@ -1425,19 +1321,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PoC-PrC_2",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-PrC/bundle-2/lh_PoC-PrC_2.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-PrC_2",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-PrC/bundle-2/lh_PoC-PrC_2.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "lh_PoC-PrC_3",
@@ -1460,19 +1353,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PoC-PrC_3",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-PrC/bundle-3/lh_PoC-PrC_3.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-PrC_3",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-PrC/bundle-3/lh_PoC-PrC_3.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -1500,19 +1390,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PoC-SM_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-SM/bundle-0/lh_PoC-SM_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-SM/bundle-0/lh_PoC-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "lh_PoC-SM_1",
@@ -1535,19 +1422,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PoC-SM_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-SM/bundle-1/lh_PoC-SM_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-SM_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-SM/bundle-1/lh_PoC-SM_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -1575,24 +1459,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PrC-Ins_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PrC-Ins/bundle-0/lh_PrC-Ins_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PrC-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PrC-Ins/bundle-0/lh_PrC-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Precentral – Superior Frontal",
+					"name": "Precentral \u2013 Superior Frontal",
 					"children": [
 						{
 							"name": "lh_PrC-SF_0",
@@ -1615,19 +1496,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PrC-SF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PrC-SF/bundle-0/lh_PrC-SF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PrC-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PrC-SF/bundle-0/lh_PrC-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -1655,24 +1533,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_PrC-SM_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PrC-SM/bundle-0/lh_PrC-SM_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PrC-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PrC-SM/bundle-0/lh_PrC-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Rostral Anterior Cingulate – Superior Frontal",
+					"name": "Rostral Anterior Cingulate \u2013 Superior Frontal",
 					"children": [
 						{
 							"name": "lh_RAC-SF_1",
@@ -1695,24 +1570,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_RAC-SF_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_RAC-SF/bundle-1/lh_RAC-SF_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_RAC-SF_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_RAC-SF/bundle-1/lh_RAC-SF_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Rostral Middle Frontal – Superior Frontal",
+					"name": "Rostral Middle Frontal \u2013 Superior Frontal",
 					"children": [
 						{
 							"name": "lh_RMF-SF_0",
@@ -1735,19 +1607,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_RMF-SF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_RMF-SF/bundle-0/lh_RMF-SF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_RMF-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_RMF-SF/bundle-0/lh_RMF-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "lh_RMF-SF_1",
@@ -1770,19 +1639,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_RMF-SF_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_RMF-SF/bundle-1/lh_RMF-SF_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_RMF-SF_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_RMF-SF/bundle-1/lh_RMF-SF_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -1810,19 +1676,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_SM-Ins_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_SM-Ins/bundle-0/lh_SM-Ins_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_SM-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_SM-Ins/bundle-0/lh_SM-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -1850,19 +1713,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_SP-SM_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_SP-SM/bundle-0/lh_SP-SM_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_SP-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_SP-SM/bundle-0/lh_SP-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -1890,24 +1750,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_ST-Ins_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_ST-Ins/bundle-0/lh_ST-Ins_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_ST-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_ST-Ins/bundle-0/lh_ST-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Superior Temporal – Transverse Temporal",
+					"name": "Superior Temporal \u2013 Transverse Temporal",
 					"children": [
 						{
 							"name": "lh_ST-TT_0",
@@ -1930,19 +1787,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_ST-TT_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_ST-TT/bundle-0/lh_ST-TT_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_ST-TT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_ST-TT/bundle-0/lh_ST-TT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -1970,24 +1824,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_Tr-Ins_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Tr-Ins/bundle-0/lh_Tr-Ins_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Tr-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Tr-Ins/bundle-0/lh_Tr-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Pars Triangularis – Superior Frontal",
+					"name": "Pars Triangularis \u2013 Superior Frontal",
 					"children": [
 						{
 							"name": "lh_Tr-SF_0",
@@ -2010,19 +1861,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of lh_Tr-SF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Tr-SF/bundle-0/lh_Tr-SF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Tr-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Tr-SF/bundle-0/lh_Tr-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				}
@@ -2032,7 +1880,7 @@
 			"name": "Right Hemisphere",
 			"children": [
 				{
-					"name": "Caudal Middle Frontal – Posterior Cingulate",
+					"name": "Caudal Middle Frontal \u2013 Posterior Cingulate",
 					"children": [
 						{
 							"name": "rh_CAC-PoCi_0",
@@ -2055,19 +1903,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_CAC-PoCi_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CAC-PoCi/bundle-0/rh_CAC-PoCi_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CAC-PoCi_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CAC-PoCi/bundle-0/rh_CAC-PoCi_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -2095,19 +1940,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_CAC-PrCu_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CAC-PrCu/bundle-0/rh_CAC-PrCu_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CAC-PrCu_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CAC-PrCu/bundle-0/rh_CAC-PrCu_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -2135,19 +1977,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_CMF-PrC_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-PrC/bundle-0/rh_CMF-PrC_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CMF-PrC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-PrC/bundle-0/rh_CMF-PrC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "rh_CMF-PrC_1",
@@ -2170,24 +2009,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_CMF-PrC_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-PrC/bundle-1/rh_CMF-PrC_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CMF-PrC_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-PrC/bundle-1/rh_CMF-PrC_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Caudal Middle Frontal – Rostral Middle Frontal",
+					"name": "Caudal Middle Frontal \u2013 Rostral Middle Frontal",
 					"children": [
 						{
 							"name": "rh_CMF-RMF_0",
@@ -2210,24 +2046,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_CMF-RMF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-RMF/bundle-0/rh_CMF-RMF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CMF-RMF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-RMF/bundle-0/rh_CMF-RMF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Caudal Middle Frontal – Superior Frontal",
+					"name": "Caudal Middle Frontal \u2013 Superior Frontal",
 					"children": [
 						{
 							"name": "rh_CMF-SF_0",
@@ -2250,24 +2083,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_CMF-SF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-SF/bundle-0/rh_CMF-SF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CMF-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-SF/bundle-0/rh_CMF-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Caudal Middle Frontal – Superior Frontal\t\t",
+					"name": "Caudal Middle Frontal \u2013 Superior Frontal\t\t",
 					"children": [
 						{
 							"name": "rh_CMF-SF_1",
@@ -2290,19 +2120,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_CMF-SF_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-SF/bundle-1/rh_CMF-SF_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CMF-SF_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-SF/bundle-1/rh_CMF-SF_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -2330,24 +2157,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_Cu-Li_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Cu-Li/bundle-0/rh_Cu-Li_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Cu-Li_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Cu-Li/bundle-0/rh_Cu-Li_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Fusiform – Lateral Occipital",
+					"name": "Fusiform \u2013 Lateral Occipital",
 					"children": [
 						{
 							"name": "rh_Fu-LO_1",
@@ -2370,19 +2194,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_Fu-LO_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Fu-LO/bundle-1/rh_Fu-LO_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Fu-LO_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Fu-LO/bundle-1/rh_Fu-LO_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -2410,24 +2231,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_IC-PrCu_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IC-PrCu/bundle-0/rh_IC-PrCu_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IC-PrCu_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IC-PrCu/bundle-0/rh_IC-PrCu_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Inferior Parietal – Inferior Temporal ",
+					"name": "Inferior Parietal \u2013 Inferior Temporal ",
 					"children": [
 						{
 							"name": "rh_IP-IT_0",
@@ -2450,24 +2268,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_IP-IT_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-IT/bundle-0/rh_IP-IT_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IP-IT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-IT/bundle-0/rh_IP-IT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Inferior Parietal – Lateral Occipital",
+					"name": "Inferior Parietal \u2013 Lateral Occipital",
 					"children": [
 						{
 							"name": "rh_IP-LO_0",
@@ -2490,24 +2305,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_IP-LO_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-LO/bundle-0/rh_IP-LO_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IP-LO_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-LO/bundle-0/rh_IP-LO_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Inferior Parietal – Middle Temporal",
+					"name": "Inferior Parietal \u2013 Middle Temporal",
 					"children": [
 						{
 							"name": "rh_IP-MT_0",
@@ -2530,19 +2342,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_IP-MT_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-MT/bundle-0/rh_IP-MT_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IP-MT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-MT/bundle-0/rh_IP-MT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -2570,24 +2379,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_IP-SM_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-SM/bundle-0/rh_IP-SM_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IP-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-SM/bundle-0/rh_IP-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Inferior Parietal – Superior Parietal",
+					"name": "Inferior Parietal \u2013 Superior Parietal",
 					"children": [
 						{
 							"name": "rh_IP-SP_0",
@@ -2610,24 +2416,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_IP-SP_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-SP/bundle-0/rh_IP-SP_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IP-SP_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-SP/bundle-0/rh_IP-SP_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Inferior Temporal – Middle Temporal",
+					"name": "Inferior Temporal \u2013 Middle Temporal",
 					"children": [
 						{
 							"name": "rh_IT-MT_1",
@@ -2650,19 +2453,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_IT-MT_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IT-MT/bundle-1/rh_IT-MT_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IT-MT_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IT-MT/bundle-1/rh_IT-MT_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "rh_IT-MT_2",
@@ -2685,24 +2485,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_IT-MT_2",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IT-MT/bundle-2/rh_IT-MT_2.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IT-MT_2",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IT-MT/bundle-2/rh_IT-MT_2.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Lateral Orbitofrontal – Middle Orbitofrontal",
+					"name": "Lateral Orbitofrontal \u2013 Middle Orbitofrontal",
 					"children": [
 						{
 							"name": "rh_LOF-MOF_0",
@@ -2725,24 +2522,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_LOF-MOF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LOF-MOF/bundle-0/rh_LOF-MOF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_LOF-MOF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LOF-MOF/bundle-0/rh_LOF-MOF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Lateral Orbitofrontal – Rostral Middle Frontal",
+					"name": "Lateral Orbitofrontal \u2013 Rostral Middle Frontal",
 					"children": [
 						{
 							"name": "rh_LOF-RMF_0",
@@ -2765,19 +2559,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_LOF-RMF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LOF-RMF/bundle-0/rh_LOF-RMF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_LOF-RMF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LOF-RMF/bundle-0/rh_LOF-RMF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "rh_LOF-RMF_1",
@@ -2800,24 +2591,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_LOF-RMF_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LOF-RMF/bundle-1/rh_LOF-RMF_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_LOF-RMF_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LOF-RMF/bundle-1/rh_LOF-RMF_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Lateral Orbitofrontal – Superior Temporal",
+					"name": "Lateral Orbitofrontal \u2013 Superior Temporal",
 					"children": [
 						{
 							"name": "rh_LOF-ST_0",
@@ -2840,24 +2628,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_LOF-ST_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LOF-ST/bundle-0/rh_LOF-ST_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_LOF-ST_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LOF-ST/bundle-0/rh_LOF-ST_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Lateral Orbitofrontal – Superior Parietal",
+					"name": "Lateral Orbitofrontal \u2013 Superior Parietal",
 					"children": [
 						{
 							"name": "rh_LO-SP_0",
@@ -2880,24 +2665,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_LO-SP_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LO-SP/bundle-0/rh_LO-SP_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_LO-SP_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LO-SP/bundle-0/rh_LO-SP_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Middle Orbitofrontal – Superior Temporal",
+					"name": "Middle Orbitofrontal \u2013 Superior Temporal",
 					"children": [
 						{
 							"name": "rh_MOF-ST_0",
@@ -2920,19 +2702,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_MOF-ST_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_MOF-ST/bundle-0/rh_MOF-ST_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_MOF-ST_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_MOF-ST/bundle-0/rh_MOF-ST_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -2960,24 +2739,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_MT-SM_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_MT-SM/bundle-0/rh_MT-SM_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_MT-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_MT-SM/bundle-0/rh_MT-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Middle Temporal – Superior Temporal",
+					"name": "Middle Temporal \u2013 Superior Temporal",
 					"children": [
 						{
 							"name": "rh_MT-ST_0",
@@ -3000,19 +2776,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_MT-ST_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_MT-ST/bundle-0/rh_MT-ST_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_MT-ST_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_MT-ST/bundle-0/rh_MT-ST_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -3040,19 +2813,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_Op-Ins_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Op-Ins/bundle-0/rh_Op-Ins_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Op-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Op-Ins/bundle-0/rh_Op-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -3080,24 +2850,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_Op-PrC_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/pm_rh_Op-PrC/bundle-0/rh_Op-PrC_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Op-PrC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/pm_rh_Op-PrC/bundle-0/rh_Op-PrC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Pars Opercularis – Superior Frontal",
+					"name": "Pars Opercularis \u2013 Superior Frontal",
 					"children": [
 						{
 							"name": "rh_Op-SF_0",
@@ -3120,24 +2887,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_Op-SF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Op-SF/bundle-0/rh_Op-SF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Op-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Op-SF/bundle-0/rh_Op-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Pars Opercularis – Pars Triangularis",
+					"name": "Pars Opercularis \u2013 Pars Triangularis",
 					"children": [
 						{
 							"name": "rh_Op-Tr_0",
@@ -3160,19 +2924,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_Op-Tr_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Op-Tr/bundle-0/rh_Op-Tr_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Op-Tr_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Op-Tr/bundle-0/rh_Op-Tr_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -3200,19 +2961,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_Or-Ins_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Or-Ins/bundle-0/rh_Or-Ins_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Or-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Or-Ins/bundle-0/rh_Or-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -3240,19 +2998,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_PoCi-PrCu_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoCi-PrCu/bundle-1/rh_PoCi-PrCu_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoCi-PrCu_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoCi-PrCu/bundle-1/rh_PoCi-PrCu_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "rh_PoCi-PrCu_2",
@@ -3275,24 +3030,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_PoCi-PrCu_2",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoCi-PrCu/bundle-2/rh_PoCi-PrCu_2.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoCi-PrCu_2",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoCi-PrCu/bundle-2/rh_PoCi-PrCu_2.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Posterior Cingulate – Rostral Anterior Cingulate",
+					"name": "Posterior Cingulate \u2013 Rostral Anterior Cingulate",
 					"children": [
 						{
 							"name": "rh_PoCi-RAC_0",
@@ -3315,19 +3067,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_PoCi-RAC_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoCi-RAC/bundle-0/rh_PoCi-RAC_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoCi-RAC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoCi-RAC/bundle-0/rh_PoCi-RAC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -3355,19 +3104,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_PoC-PrC_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-PrC/bundle-0/rh_PoC-PrC_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoC-PrC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-PrC/bundle-0/rh_PoC-PrC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "rh_PoC-PrC_1",
@@ -3390,19 +3136,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_PoC-PrC_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-PrC/bundle-1/rh_PoC-PrC_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoC-PrC_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-PrC/bundle-1/rh_PoC-PrC_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "rh_PoC-PrC_2",
@@ -3425,19 +3168,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_PoC-PrC_2",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-PrC/bundle-2/rh_PoC-PrC_2.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoC-PrC_2",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-PrC/bundle-2/rh_PoC-PrC_2.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -3465,24 +3205,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_PoC-SM_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-SM/bundle-0/rh_PoC-SM_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoC-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-SM/bundle-0/rh_PoC-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Postcentral – Superior Parietal",
+					"name": "Postcentral \u2013 Superior Parietal",
 					"children": [
 						{
 							"name": "rh_PoC-SP_0",
@@ -3505,19 +3242,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_PoC-SP_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-SP/bundle-0/rh_PoC-SP_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoC-SP_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-SP/bundle-0/rh_PoC-SP_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "rh_PoC-SP_1",
@@ -3540,19 +3274,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_PoC-SP_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-SP/bundle-1/rh_PoC-SP_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoC-SP_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-SP/bundle-1/rh_PoC-SP_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -3580,19 +3311,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_PrC-Ins_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PrC-Ins/bundle-0/rh_PrC-Ins_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PrC-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PrC-Ins/bundle-0/rh_PrC-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -3620,24 +3348,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_PrC-SM_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PrC-SM/bundle-0/rh_PrC-SM_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PrC-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PrC-SM/bundle-0/rh_PrC-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Precentral – Superior Parietal",
+					"name": "Precentral \u2013 Superior Parietal",
 					"children": [
 						{
 							"name": "rh_PrC-SP_0",
@@ -3660,19 +3385,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_PrC-SP_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PrC-SP/bundle-0/rh_PrC-SP_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PrC-SP_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PrC-SP/bundle-0/rh_PrC-SP_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -3700,24 +3422,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_RAC-SF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_RAC-SF/bundle-0/rh_RAC-SF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_RAC-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_RAC-SF/bundle-0/rh_RAC-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Rostral Middle Frontal – Superior Frontal",
+					"name": "Rostral Middle Frontal \u2013 Superior Frontal",
 					"children": [
 						{
 							"name": "rh_RMF-SF_0",
@@ -3740,19 +3459,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_RMF-SF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_RMF-SF/bundle-0/rh_RMF-SF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_RMF-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_RMF-SF/bundle-0/rh_RMF-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						},
 						{
 							"name": "rh_RMF-SF_1",
@@ -3775,19 +3491,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_RMF-SF_1",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_RMF-SF/bundle-1/rh_RMF-SF_1.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_RMF-SF_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_RMF-SF/bundle-1/rh_RMF-SF_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -3815,19 +3528,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_SM-Ins_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_SM-Ins/bundle-0/rh_SM-Ins_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_SM-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_SM-Ins/bundle-0/rh_SM-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -3855,24 +3565,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_SP-SM_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_SP-SM/bundle-0/rh_SP-SM_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_SP-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_SP-SM/bundle-0/rh_SP-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Superior Temporal – Transverse Temporal",
+					"name": "Superior Temporal \u2013 Transverse Temporal",
 					"children": [
 						{
 							"name": "rh_ST-TT_0",
@@ -3895,19 +3602,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_ST-TT_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_ST-TT/bundle-0/rh_ST-TT_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_ST-TT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_ST-TT/bundle-0/rh_ST-TT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
@@ -3935,24 +3639,21 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_Tr-Ins_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Tr-Ins/bundle-0/rh_Tr-Ins_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Tr-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Tr-Ins/bundle-0/rh_Tr-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				},
 				{
-					"name": "Pars Triangularis – Superior Frontal",
+					"name": "Pars Triangularis \u2013 Superior Frontal",
 					"children": [
 						{
 							"name": "rh_Tr-SF_0",
@@ -3975,19 +3676,16 @@
 									}
 								}
 							},
-							"volumeSrc": {
-								"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-									"pmap": [
-										{
-											"@type": "fzj/tmp/volume_type/v0.0.1",
-											"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
-											"name": "Probabilistic map of rh_Tr-SF_0",
-											"volume_type": "nii",
-											"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Tr-SF/bundle-0/rh_Tr-SF_0.nii.gz"
-										}
-									]
+							"volumeSrc": [
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Tr-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Tr-SF/bundle-0/rh_Tr-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 								}
-							}
+							]
 						}
 					]
 				}

@@ -4,33 +4,30 @@
 	"name": "Desikan-Killiany Atlas (2006)",
 	"shortName": "Desikan-Killiany 2006",
 	"version": "2006",
-	"volumeSrc": {
-		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2": {
-			"whole brain" : [{
-					"@type": "fzj/tmp/volume_type/v0.0.1",
-					"@id": "fzj/tmp/volume_type/v0.0.1/aparc",
-					"name": "Desikan Kiliany MNI152 nifti",
-					"volume_type": "nii",
-					"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/desikan-killiany/aparc_mni152.nii"
-			}]
+	"volumeSrc": [
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/aparc",
+			"name": "Desikan Kiliany MNI152 nifti",
+			"volume_type": "nii",
+			"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/desikan-killiany/aparc_mni152.nii",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 		},
-		"minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992": {
-			"whole brain" : [{
-					"@type": "fzj/tmp/volume_type/v0.0.1",
-					"@id": "fzj/tmp/volume_type/v0.0.1/aparc",
-					"name": "Desikan Kiliany MNI Colin27 nifti",
-					"volume_type": "nii",
-					"url":  "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/desikan-killiany/aparc_colin27.nii"
-			}]
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/aparc",
+			"name": "Desikan Kiliany MNI Colin27 nifti",
+			"volume_type": "nii",
+			"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/desikan-killiany/aparc_colin27.nii",
+			"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
 		}
-	},
-	"originDatasets": [
 	],
+	"originDatasets": [],
 	"description": "The Desikan Killiany atlas is based on an automated labeling system for subdividing the human cerebral cortex on magnetic resonance images into gyral based regions of interest. The MNI parcellations provided here are computed by nonlinear registration of the standard parcellation in fsaverage space, using the registration procedure by Wu et al. 2018",
 	"publications": [
 		{
 			"doi": "https://doi.org/10.1016/j.neuroimage.2006.01.021",
-			"citation": "Desikan RS, Ségonne F, Fischl B, Quinn BT, Dickerson BC, Blacker D, Buckner RL, Dale AM, Maguire RP, Hyman BT, Albert MS, Killiany RJ. An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest. NeuroImage. 2006;31(3):968-980."
+			"citation": "Desikan RS, S\u00e9gonne F, Fischl B, Quinn BT, Dickerson BC, Blacker D, Buckner RL, Dale AM, Maguire RP, Hyman BT, Albert MS, Killiany RJ. An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest. NeuroImage. 2006;31(3):968-980."
 		},
 		{
 			"doi": "https://doi.org/10.1002/hbm.24213",
@@ -39,9 +36,8 @@
 	],
 	"regions": [
 		{
-			"name" : "Temporal lobe",
-			"children" : 
-			[
+			"name": "Temporal lobe",
+			"children": [
 				{
 					"name": "left entorhinal",
 					"labelIndex": 1006
@@ -101,9 +97,8 @@
 			]
 		},
 		{
-			"name" : "Frontal lobe",
-			"children" : 
-			[
+			"name": "Frontal lobe",
+			"children": [
 				{
 					"name": "left caudal middle frontal",
 					"labelIndex": 1003
@@ -187,9 +182,8 @@
 			]
 		},
 		{
-			"name" :  "Parietal lobe",
-			"children" : 
-			[
+			"name": "Parietal lobe",
+			"children": [
 				{
 					"name": "left postcentral",
 					"labelIndex": 1022
@@ -233,9 +227,8 @@
 			]
 		},
 		{
-			"name" : "Occipital lobe",
-			"children" : 
-			[
+			"name": "Occipital lobe",
+			"children": [
 				{
 					"name": "left lingual",
 					"labelIndex": 1013
@@ -271,9 +264,8 @@
 			]
 		},
 		{
-			"name" : "Cingulate cortex",
-			"children" : 
-			[
+			"name": "Cingulate cortex",
+			"children": [
 				{
 					"name": "left rostral anterior cingulate",
 					"labelIndex": 1026
@@ -317,32 +309,31 @@
 			]
 		},
 		{
-			"name" : "Other",
-			"children" : 
-			[
+			"name": "Other",
+			"children": [
 				{
-					"name" : "ctx-lh-bankssts",
-					"labelIndex" : 1001
+					"name": "ctx-lh-bankssts",
+					"labelIndex": 1001
 				},
 				{
-					"name" : "ctx-lh-frontalpole",
-					"labelIndex" : 1032
+					"name": "ctx-lh-frontalpole",
+					"labelIndex": 1032
 				},
 				{
-					"name" : "ctx-lh-temporalpole",
-					"labelIndex" : 1033
+					"name": "ctx-lh-temporalpole",
+					"labelIndex": 1033
 				},
 				{
-					"name" : "ctx-rh-bankssts",
-					"labelIndex" : 2001
+					"name": "ctx-rh-bankssts",
+					"labelIndex": 2001
 				},
 				{
-					"name" : "ctx-rh-frontalpole",
-					"labelIndex" : 2032
+					"name": "ctx-rh-frontalpole",
+					"labelIndex": 2032
 				},
 				{
-					"name" : "ctx-rh-temporalpole",
-					"labelIndex" : 2033
+					"name": "ctx-rh-temporalpole",
+					"labelIndex": 2033
 				}
 			]
 		}
