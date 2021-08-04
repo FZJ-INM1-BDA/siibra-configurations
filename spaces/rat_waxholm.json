@@ -6,35 +6,62 @@
 	"srcVolumeType": "mri",
 	"templateType": "neuroglancer/precomputed",
 	"displayName": "Waxholm Space rat brain MRI/DTI",
-	"volumeSrc": [{
-		"@type": "fzj/tmp/volume_type/v0.0.1",
-		"@id": "fzj/tmp/volume_type/v0.0.1/waxholm_rat_base",
-		"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
-		"name": "waxholm_rat_base",
-		"volume_type": "neuroglancer/precomputed",
-		"url": "https://neuroglancer.humanbrainproject.org/precomputed/WHS_SD_rat/templates/v1.01/t2star_masked",
-		"detail": {
-			"neuroglancer/precomputed": {
-				"transform": [[1,0,0,-9550781],[0,1,0,-24355468],[0,0,1,-9707031],[0,0,0,1]]
+	"datasets": [
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/waxholm_rat_base",
+			"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+			"name": "waxholm_rat_base",
+			"volume_type": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.org/precomputed/WHS_SD_rat/templates/v1.01/t2star_masked",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1,
+							0,
+							0,
+							-9550781
+						],
+						[
+							0,
+							1,
+							0,
+							-24355468
+						],
+						[
+							0,
+							0,
+							1,
+							-9707031
+						],
+						[
+							0,
+							0,
+							0,
+							1
+						]
+					]
+				}
 			}
+		},
+		{
+			"@type": "fzj/tmp/simpleOriginInfo/v0.0.1",
+			"name": "Waxholm Space rat brain MRI/DTI",
+			"description": "MRI/DTI template of adult male Sprague Dawley rat brain.",
+			"urls": [
+				{
+					"doi": "10.1016/j.neuroimage.2014.04.001",
+					"cite": "Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386"
+				},
+				{
+					"cite": "RRID: SCR_017124"
+				},
+				{
+					"doi": "https://www.nitrc.org/projects/whs-sd-atlas",
+					"cite": "https://www.nitrc.org/projects/whs-sd-atlas"
+				}
+			]
 		}
-	}],
-	"originDatasets":[{
-		"@type": "fzj/tmp/simpleOriginInfo/v0.0.1",
-		"name": "Waxholm Space rat brain MRI/DTI",
-		"description": "MRI/DTI template of adult male Sprague Dawley rat brain.",
-		"urls": [
-			{
-				"doi": "10.1016/j.neuroimage.2014.04.001",
-				"cite": "Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386"
-			},
-			{
-				"cite": "RRID: SCR_017124"
-			},
-			{
-				"doi": "https://www.nitrc.org/projects/whs-sd-atlas",
-				"cite": "https://www.nitrc.org/projects/whs-sd-atlas"
-			}
-		]
-	}]
+	]
 }

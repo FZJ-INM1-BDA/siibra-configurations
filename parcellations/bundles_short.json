@@ -3,7 +3,15 @@
 	"@type": "minds/core/parcellationatlas/v1.0.0",
 	"name": "Probabilistic Superficial Fibre Bundle Maps",
 	"shortName": "Superficial Fibre Bundles",
-	"volumeSrc": [
+	"description": "This data contains the maximum probability map of superficial white matter fibre bundles, in the MNI ICBM152 reference brain. These bundles were identified using a hybrid approach, incorporating anatomical information (from cortical regions of interest) and fibre shape (fibre clustering), from the tractography datasets of 78 subjects in the Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
+	"publications": [
+		{
+			"doi": "10.1016/j.neuroimage.2012.02.071",
+			"citation": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas. NeuroImage, 61(4),1083-99."
+		}
+	],
+	"modality": "fibre architecture",
+	"datasets": [
 		{
 			"@type": "fzj/tmp/volume_type/v0.0.1",
 			"@id": "fzj/tmp/volume_type/v0.0.1/bundle-short-nii",
@@ -49,20 +57,11 @@
 				}
 			},
 			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
-		}
-	],
-	"originDatasets": [
+		},
 		{
 			"@type": "minds/core/dataset/v1.0.0",
 			"kgSchema": "minds/core/dataset/v1.0.0",
 			"kgId": "f58e4425-6614-4ad9-ac26-5e946b1296cb"
-		}
-	],
-	"description": "This data contains the maximum probability map of superficial white matter fibre bundles, in the MNI ICBM152 reference brain. These bundles were identified using a hybrid approach, incorporating anatomical information (from cortical regions of interest) and fibre shape (fibre clustering), from the tractography datasets of 78 subjects in the Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
-	"publications": [
-		{
-			"doi": "10.1016/j.neuroimage.2012.02.071",
-			"citation": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas. NeuroImage, 61(4),1083-99."
 		}
 	],
 	"regions": [
@@ -74,15 +73,7 @@
 					"children": [
 						{
 							"name": "lh_CAC-PrCu_0",
-							"children": [],
 							"labelIndex": 38,
-							"originDatasets": [
-								{
-									"kgId": "8968a37e-552d-43de-a361-666033723fc1",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_CAC-PrCu_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"90ac80d5-bec6-4655-84f5-41086370808d": {
@@ -93,7 +84,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "8968a37e-552d-43de-a361-666033723fc1",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CAC-PrCu_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -111,15 +107,7 @@
 					"children": [
 						{
 							"name": "lh_CMF-Op_0",
-							"children": [],
 							"labelIndex": 37,
-							"originDatasets": [
-								{
-									"kgId": "a9a96fbd-ccdb-49d3-b60c-ae5a7a5471fa",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_CMF-Op_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"1b20be7e-dcc6-44f2-b186-7605b10d7689": {
@@ -130,7 +118,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "a9a96fbd-ccdb-49d3-b60c-ae5a7a5471fa",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CMF-Op_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -148,15 +141,7 @@
 					"children": [
 						{
 							"name": "lh_CMF-PoC_0",
-							"children": [],
 							"labelIndex": 62,
-							"originDatasets": [
-								{
-									"kgId": "71f2efd7-db05-4006-88b5-2b34b36bee91",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_CMF-PoC_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"5c571448-e864-4535-abe6-e1e0ae38c27a": {
@@ -167,7 +152,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "71f2efd7-db05-4006-88b5-2b34b36bee91",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CMF-PoC_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -185,15 +175,7 @@
 					"children": [
 						{
 							"name": "lh_CMF-PrC_0",
-							"children": [],
 							"labelIndex": 97,
-							"originDatasets": [
-								{
-									"kgId": "57f169f3-fe5f-42de-8074-50da96adc53a",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_CMF-PrC_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"c23e6ef7-a980-4ca6-b4c9-f756e0118902": {
@@ -204,7 +186,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "57f169f3-fe5f-42de-8074-50da96adc53a",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CMF-PrC_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -217,15 +204,7 @@
 						},
 						{
 							"name": "lh_CMF-PrC_1",
-							"children": [],
 							"labelIndex": 99,
-							"originDatasets": [
-								{
-									"kgId": "4b1a0e0e-0c51-4a67-a7ed-1821ee23c702",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_CMF-PrC_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"c5dfa7a0-b626-4155-890e-1359ff3f4d8e": {
@@ -236,7 +215,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "4b1a0e0e-0c51-4a67-a7ed-1821ee23c702",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CMF-PrC_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -254,15 +238,7 @@
 					"children": [
 						{
 							"name": "lh_CMF-RMF_0",
-							"children": [],
 							"labelIndex": 49,
-							"originDatasets": [
-								{
-									"kgId": "314d6705-3859-4d5a-b945-9170fb5a7f0c",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_CMF-RMF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"6641ab28-cf9a-4e10-ad6f-e9ebb476ba3e": {
@@ -273,7 +249,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "314d6705-3859-4d5a-b945-9170fb5a7f0c",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CMF-RMF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -291,15 +272,7 @@
 					"children": [
 						{
 							"name": "lh_CMF-SF_0",
-							"children": [],
 							"labelIndex": 68,
-							"originDatasets": [
-								{
-									"kgId": "fe019895-7be8-4dfa-a5b0-b70507a0604f",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_CMF-SF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"1bdeb53d-e753-4a0d-8f80-2df3e539ee84": {
@@ -310,7 +283,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "fe019895-7be8-4dfa-a5b0-b70507a0604f",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CMF-SF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -328,15 +306,7 @@
 					"children": [
 						{
 							"name": "lh_Fu-LO_0",
-							"children": [],
 							"labelIndex": 51,
-							"originDatasets": [
-								{
-									"kgId": "71ee6b85-1ec7-40c3-b1a3-a80503af7fcb",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_Fu-LO_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"7838b80a-7294-4b36-9416-66183a705a1a": {
@@ -347,7 +317,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "71ee6b85-1ec7-40c3-b1a3-a80503af7fcb",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Fu-LO_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -365,15 +340,7 @@
 					"children": [
 						{
 							"name": "lh_IC-PrCu_0",
-							"children": [],
 							"labelIndex": 40,
-							"originDatasets": [
-								{
-									"kgId": "4b293404-b8d3-4eba-95cd-5a66387ea428",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_IC-PrCu_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"8dd1267b-f01a-4fbd-84b6-89a8d4fdabed": {
@@ -384,7 +351,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "4b293404-b8d3-4eba-95cd-5a66387ea428",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IC-PrCu_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -402,15 +374,7 @@
 					"children": [
 						{
 							"name": "lh_IP-IT_0",
-							"children": [],
 							"labelIndex": 59,
-							"originDatasets": [
-								{
-									"kgId": "a942d3e5-d720-4f41-af2d-9a292b6f58f2",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_IP-IT_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"6799f308-b444-4f69-a1a9-0f8fcc9d5b7e": {
@@ -421,7 +385,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "a942d3e5-d720-4f41-af2d-9a292b6f58f2",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IP-IT_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -439,15 +408,7 @@
 					"children": [
 						{
 							"name": "lh_IP-LO_1",
-							"children": [],
 							"labelIndex": 86,
-							"originDatasets": [
-								{
-									"kgId": "44d986b4-88f7-4a1a-8469-1518b5e55eab",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_IP-LO_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"6cb4a831-7323-489e-b379-3486c54f42f4": {
@@ -458,7 +419,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "44d986b4-88f7-4a1a-8469-1518b5e55eab",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IP-LO_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -476,15 +442,7 @@
 					"children": [
 						{
 							"name": "lh_IP-MT_0",
-							"children": [],
 							"labelIndex": 33,
-							"originDatasets": [
-								{
-									"kgId": "b7a8e4c1-461d-49b9-9759-ae4c747adee8",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_IP-MT_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"d3f76f95-f344-4d07-9380-0c79084fdffe": {
@@ -495,7 +453,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "b7a8e4c1-461d-49b9-9759-ae4c747adee8",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IP-MT_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -513,15 +476,7 @@
 					"children": [
 						{
 							"name": "lh_IP-SM_0",
-							"children": [],
 							"labelIndex": 80,
-							"originDatasets": [
-								{
-									"kgId": "7c0ade5c-590d-4134-bb42-f36e8188b685",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_IP-SM_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"d909a5a5-8606-410d-82ad-53696f690ae1": {
@@ -532,7 +487,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "7c0ade5c-590d-4134-bb42-f36e8188b685",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IP-SM_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -550,15 +510,7 @@
 					"children": [
 						{
 							"name": "lh_IP-SP_0",
-							"children": [],
 							"labelIndex": 82,
-							"originDatasets": [
-								{
-									"kgId": "47a759c6-47ef-4628-9e6a-a4f3f6e4f258",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_IP-SP_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"d3435305-40c4-452d-a0d1-6a791c96495c": {
@@ -569,7 +521,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "47a759c6-47ef-4628-9e6a-a4f3f6e4f258",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IP-SP_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -582,15 +539,7 @@
 						},
 						{
 							"name": "lh_IP-SP_1",
-							"children": [],
 							"labelIndex": 84,
-							"originDatasets": [
-								{
-									"kgId": "32789750-28a1-4400-b91c-6e33b930bb7e",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_IP-SP_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"71360f45-52f6-447b-908c-60c1743816ba": {
@@ -601,7 +550,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "32789750-28a1-4400-b91c-6e33b930bb7e",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IP-SP_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -619,15 +573,7 @@
 					"children": [
 						{
 							"name": "lh_IT-MT_0",
-							"children": [],
 							"labelIndex": 89,
-							"originDatasets": [
-								{
-									"kgId": "533d3ca2-ed60-43e3-b03b-4b7a1498f8e4",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_IT-MT_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"8ce8598e-787a-4db3-923e-4f356e7bcab6": {
@@ -638,7 +584,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "533d3ca2-ed60-43e3-b03b-4b7a1498f8e4",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IT-MT_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -656,15 +607,7 @@
 					"children": [
 						{
 							"name": "lh_LOF-Or_0",
-							"children": [],
 							"labelIndex": 48,
-							"originDatasets": [
-								{
-									"kgId": "45bdb586-987f-415c-b17c-27277d3e890e",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_LOF-Or_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"12d597fb-e04f-448a-9c91-993b2c8421d3": {
@@ -675,7 +618,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "45bdb586-987f-415c-b17c-27277d3e890e",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_LOF-Or_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -693,15 +641,7 @@
 					"children": [
 						{
 							"name": "lh_LOF-RMF_0",
-							"children": [],
 							"labelIndex": 29,
-							"originDatasets": [
-								{
-									"kgId": "a0e9a19f-0086-4a70-9d42-d5fef5cbf913",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_LOF-RMF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"ebe4f447-d28f-4ef6-87d7-850ee41794c7": {
@@ -712,7 +652,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "a0e9a19f-0086-4a70-9d42-d5fef5cbf913",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_LOF-RMF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -725,15 +670,7 @@
 						},
 						{
 							"name": "lh_LOF-RMF_1",
-							"children": [],
 							"labelIndex": 31,
-							"originDatasets": [
-								{
-									"kgId": "1b73bb19-9daa-4f51-b0b7-ae1c10f44992",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_LOF-RMF_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"e894dfb7-e503-4a86-b5c2-f305d3347967": {
@@ -744,7 +681,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "1b73bb19-9daa-4f51-b0b7-ae1c10f44992",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_LOF-RMF_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -762,15 +704,7 @@
 					"children": [
 						{
 							"name": "lh_LOF-ST_0",
-							"children": [],
 							"labelIndex": 25,
-							"originDatasets": [
-								{
-									"kgId": "c9af7a82-a47d-4b26-b8af-db20b2e332bd",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_LOF-ST_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"7109d265-3029-4063-936c-9baf1e58b93b": {
@@ -781,7 +715,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "c9af7a82-a47d-4b26-b8af-db20b2e332bd",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_LOF-ST_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -799,15 +738,7 @@
 					"children": [
 						{
 							"name": "lh_MOF-ST_0",
-							"children": [],
 							"labelIndex": 12,
-							"originDatasets": [
-								{
-									"kgId": "472bf4b3-14a5-4576-8c90-57871597b0ef",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_MOF-ST_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"54a5fe0b-374b-4738-a4ba-b737aa4f8bb2": {
@@ -818,7 +749,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "472bf4b3-14a5-4576-8c90-57871597b0ef",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_MOF-ST_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -836,15 +772,7 @@
 					"children": [
 						{
 							"name": "lh_MT-SM_0",
-							"children": [],
 							"labelIndex": 72,
-							"originDatasets": [
-								{
-									"kgId": "74eeddf7-6ffa-4c73-aa46-e6e357db4e76",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_MT-SM_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"3af88a08-02cf-4b5e-b7af-c2a5d111600d": {
@@ -855,7 +783,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "74eeddf7-6ffa-4c73-aa46-e6e357db4e76",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_MT-SM_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -873,15 +806,7 @@
 					"children": [
 						{
 							"name": "lh_MT-ST_0",
-							"children": [],
 							"labelIndex": 95,
-							"originDatasets": [
-								{
-									"kgId": "dbf4f62b-86ba-40ac-9f60-5a17b1e24c06",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_MT-ST_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"749c0138-acf5-4047-a2ed-553ea8a8cc8d": {
@@ -892,7 +817,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "dbf4f62b-86ba-40ac-9f60-5a17b1e24c06",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_MT-ST_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -910,15 +840,7 @@
 					"children": [
 						{
 							"name": "lh_Op-Ins_0",
-							"children": [],
 							"labelIndex": 27,
-							"originDatasets": [
-								{
-									"kgId": "0e864ddc-067c-42f9-b4d3-6a7fe27939ca",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_Op-Ins_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"9da7d862-d1b1-4eb0-b6d9-af80ad2583b0": {
@@ -929,7 +851,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "0e864ddc-067c-42f9-b4d3-6a7fe27939ca",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Op-Ins_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -947,15 +874,7 @@
 					"children": [
 						{
 							"name": "lh_Op-PrC_0",
-							"children": [],
 							"labelIndex": 18,
-							"originDatasets": [
-								{
-									"kgId": "717392c1-73a0-4485-9509-f7cbc02156d1",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_Op-PrC_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"736ed565-80e3-4263-b3f2-712eeeeeceac": {
@@ -966,7 +885,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "717392c1-73a0-4485-9509-f7cbc02156d1",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Op-PrC_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -984,15 +908,7 @@
 					"children": [
 						{
 							"name": "lh_Op-SF_0",
-							"children": [],
 							"labelIndex": 42,
-							"originDatasets": [
-								{
-									"kgId": "cec92860-cafe-4219-a4b2-382765fb3390",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_Op-SF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"3e4719b5-273b-4ebd-b3d0-1b904780a8aa": {
@@ -1003,7 +919,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "cec92860-cafe-4219-a4b2-382765fb3390",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Op-SF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1021,15 +942,7 @@
 					"children": [
 						{
 							"name": "lh_Or-Ins_0",
-							"children": [],
 							"labelIndex": 16,
-							"originDatasets": [
-								{
-									"kgId": "fb9818d7-139a-474f-aba8-b9e5a5189d39",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_Or-Ins_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"73bbcdc9-f0bc-4f94-b257-09077b29909e": {
@@ -1040,7 +953,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "fb9818d7-139a-474f-aba8-b9e5a5189d39",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Or-Ins_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1058,15 +976,7 @@
 					"children": [
 						{
 							"name": "lh_PoC-Ins_0",
-							"children": [],
 							"labelIndex": 53,
-							"originDatasets": [
-								{
-									"kgId": "8a9bf166-de0a-4f7b-943d-2e49cd6e0b28",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PoC-Ins_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"57af0af4-cb24-4430-90b4-d2ab2e097ade": {
@@ -1077,7 +987,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "8a9bf166-de0a-4f7b-943d-2e49cd6e0b28",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-Ins_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1095,15 +1010,7 @@
 					"children": [
 						{
 							"name": "lh_PoCi-PrCu_0",
-							"children": [],
 							"labelIndex": 44,
-							"originDatasets": [
-								{
-									"kgId": "b3a25d84-b3bc-41ee-b76b-7bc45d84daf4",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PoCi-PrCu_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"3ebff112-c698-4ace-8f31-fb0d9b84de0b": {
@@ -1114,7 +1021,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "b3a25d84-b3bc-41ee-b76b-7bc45d84daf4",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoCi-PrCu_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1127,15 +1039,7 @@
 						},
 						{
 							"name": "lh_PoCi-PrCu_1",
-							"children": [],
 							"labelIndex": 45,
-							"originDatasets": [
-								{
-									"kgId": "e9b10734-a628-4c5f-8029-228453f09e7d",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PoCi-PrCu_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"9e3c8757-b12c-4f74-a52e-34b2df5cf4a6": {
@@ -1146,7 +1050,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "e9b10734-a628-4c5f-8029-228453f09e7d",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoCi-PrCu_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1164,15 +1073,7 @@
 					"children": [
 						{
 							"name": "lh_PoCi-RAC_0",
-							"children": [],
 							"labelIndex": 10,
-							"originDatasets": [
-								{
-									"kgId": "f659ed0f-56c8-4edb-85d7-b213ffef5f40",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PoCi-RAC_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"ea149b60-886d-4ab1-81b8-7754c787923c": {
@@ -1183,7 +1084,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "f659ed0f-56c8-4edb-85d7-b213ffef5f40",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoCi-RAC_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1201,15 +1107,7 @@
 					"children": [
 						{
 							"name": "lh_PoCi-SF_0",
-							"children": [],
 							"labelIndex": 79,
-							"originDatasets": [
-								{
-									"kgId": "35cbf322-e3f3-4a14-b8eb-b25232d1384e",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PoCi-SF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"c15b5480-3826-49f6-b601-46435a5b94b6": {
@@ -1220,7 +1118,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "35cbf322-e3f3-4a14-b8eb-b25232d1384e",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoCi-SF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1238,15 +1141,7 @@
 					"children": [
 						{
 							"name": "lh_PoC-PrC_0",
-							"children": [],
 							"labelIndex": 1,
-							"originDatasets": [
-								{
-									"kgId": "213c23a1-7f5a-4331-a5e6-6d730325c0c4",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PoC-PrC_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"47d7edca-d4b2-4959-8a6a-3bd3bd5bb1d4": {
@@ -1257,7 +1152,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "213c23a1-7f5a-4331-a5e6-6d730325c0c4",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-PrC_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1270,15 +1170,7 @@
 						},
 						{
 							"name": "lh_PoC-PrC_1",
-							"children": [],
 							"labelIndex": 3,
-							"originDatasets": [
-								{
-									"kgId": "2d384dab-705b-4a4e-ae1e-2ff802110426",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PoC-PrC_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"83e0a746-67a4-4958-bbfd-75339feca98b": {
@@ -1289,7 +1181,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "2d384dab-705b-4a4e-ae1e-2ff802110426",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-PrC_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1302,15 +1199,7 @@
 						},
 						{
 							"name": "lh_PoC-PrC_2",
-							"children": [],
 							"labelIndex": 5,
-							"originDatasets": [
-								{
-									"kgId": "b4aa464a-af35-42b1-a7f6-3b67a801f115",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PoC-PrC_2.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"559bf692-7e47-416a-8c53-aca14a4dd422": {
@@ -1321,7 +1210,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "b4aa464a-af35-42b1-a7f6-3b67a801f115",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-PrC_2.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1334,15 +1228,7 @@
 						},
 						{
 							"name": "lh_PoC-PrC_3",
-							"children": [],
 							"labelIndex": 7,
-							"originDatasets": [
-								{
-									"kgId": "b3706a0c-26d1-4b98-90c9-0542746c7b22",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PoC-PrC_3.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"00f2f96b-b24a-43ce-b284-fa269f775e6d": {
@@ -1353,7 +1239,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "b3706a0c-26d1-4b98-90c9-0542746c7b22",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-PrC_3.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1371,15 +1262,7 @@
 					"children": [
 						{
 							"name": "lh_PoC-SM_0",
-							"children": [],
 							"labelIndex": 74,
-							"originDatasets": [
-								{
-									"kgId": "d427a67d-e144-4ed2-93b1-371e497813b4",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PoC-SM_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"f0a14810-8100-4234-b386-3259c5a82e4d": {
@@ -1390,7 +1273,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "d427a67d-e144-4ed2-93b1-371e497813b4",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-SM_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1403,15 +1291,7 @@
 						},
 						{
 							"name": "lh_PoC-SM_1",
-							"children": [],
 							"labelIndex": 76,
-							"originDatasets": [
-								{
-									"kgId": "f94c650d-b1b2-4dc7-84c0-b551cf8dcc35",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PoC-SM_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"3af7ba92-4468-4f3a-a4d2-84d40c7d8c88": {
@@ -1422,7 +1302,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "f94c650d-b1b2-4dc7-84c0-b551cf8dcc35",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-SM_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1440,15 +1325,7 @@
 					"children": [
 						{
 							"name": "lh_PrC-Ins_0",
-							"children": [],
 							"labelIndex": 66,
-							"originDatasets": [
-								{
-									"kgId": "ba651bf6-7dc7-47f3-900b-5f00e29534bb",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PrC-Ins_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"4d9c09a7-1b51-4285-91d1-7f49a18bfc81": {
@@ -1459,7 +1336,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "ba651bf6-7dc7-47f3-900b-5f00e29534bb",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PrC-Ins_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1477,15 +1359,7 @@
 					"children": [
 						{
 							"name": "lh_PrC-SF_0",
-							"children": [],
 							"labelIndex": 20,
-							"originDatasets": [
-								{
-									"kgId": "670483c3-4c9a-4362-983f-7277728fd739",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PrC-SF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"eccb5dd4-a360-4120-a21d-7ffdf4b12978": {
@@ -1496,7 +1370,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "670483c3-4c9a-4362-983f-7277728fd739",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PrC-SF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1514,15 +1393,7 @@
 					"children": [
 						{
 							"name": "lh_PrC-SM_0",
-							"children": [],
 							"labelIndex": 15,
-							"originDatasets": [
-								{
-									"kgId": "d77f8c3f-1ff9-4c18-886e-12500fd650a8",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_PrC-SM_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"aa6798a4-a510-45af-aa50-008ac8dcbe73": {
@@ -1533,7 +1404,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "d77f8c3f-1ff9-4c18-886e-12500fd650a8",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PrC-SM_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1551,15 +1427,7 @@
 					"children": [
 						{
 							"name": "lh_RAC-SF_1",
-							"children": [],
 							"labelIndex": 78,
-							"originDatasets": [
-								{
-									"kgId": "c0811fcf-0d37-4d64-ac9f-d6201e4525e7",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_RAC-SF_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"1afa4e40-4f1a-4883-882b-5d1ba063c908": {
@@ -1570,7 +1438,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "c0811fcf-0d37-4d64-ac9f-d6201e4525e7",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_RAC-SF_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1588,15 +1461,7 @@
 					"children": [
 						{
 							"name": "lh_RMF-SF_0",
-							"children": [],
 							"labelIndex": 21,
-							"originDatasets": [
-								{
-									"kgId": "45f076a2-f874-4e1b-85b7-d54b653c3ecb",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_RMF-SF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"e8747bcc-53a3-42e8-8fa1-e584bb8d5c04": {
@@ -1607,7 +1472,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "45f076a2-f874-4e1b-85b7-d54b653c3ecb",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_RMF-SF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1620,15 +1490,7 @@
 						},
 						{
 							"name": "lh_RMF-SF_1",
-							"children": [],
 							"labelIndex": 23,
-							"originDatasets": [
-								{
-									"kgId": "ce3b410c-82ec-4f3e-aaf0-91eeb7d7a650",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_RMF-SF_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"607c928c-e1e0-4706-a1f7-50937ed27ccf": {
@@ -1639,7 +1501,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "ce3b410c-82ec-4f3e-aaf0-91eeb7d7a650",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_RMF-SF_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1657,15 +1524,7 @@
 					"children": [
 						{
 							"name": "lh_SM-Ins_0",
-							"children": [],
 							"labelIndex": 57,
-							"originDatasets": [
-								{
-									"kgId": "ec747061-54ed-4fe5-8981-ca72baff1cbd",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_SM-Ins_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"5b3b1c89-3325-476a-be1d-a53865b553af": {
@@ -1676,7 +1535,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "ec747061-54ed-4fe5-8981-ca72baff1cbd",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_SM-Ins_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1694,15 +1558,7 @@
 					"children": [
 						{
 							"name": "lh_SP-SM_0",
-							"children": [],
 							"labelIndex": 93,
-							"originDatasets": [
-								{
-									"kgId": "431071e0-ba94-454e-a87d-e68230449bdf",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_SP-SM_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"124334b1-40af-481e-837b-50c492d0110a": {
@@ -1713,7 +1569,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "431071e0-ba94-454e-a87d-e68230449bdf",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_SP-SM_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1731,15 +1592,7 @@
 					"children": [
 						{
 							"name": "lh_ST-Ins_0",
-							"children": [],
 							"labelIndex": 92,
-							"originDatasets": [
-								{
-									"kgId": "f9358de9-9803-40df-935b-f6401cabd498",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_ST-Ins_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"641b286a-ecde-4e3b-bd35-3c2f539ec910": {
@@ -1750,7 +1603,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "f9358de9-9803-40df-935b-f6401cabd498",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_ST-Ins_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1768,15 +1626,7 @@
 					"children": [
 						{
 							"name": "lh_ST-TT_0",
-							"children": [],
 							"labelIndex": 35,
-							"originDatasets": [
-								{
-									"kgId": "70686739-574a-4b9f-bfc1-27e532df1b55",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_ST-TT_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"7ee096fe-ace7-4cac-8282-4edffa5a9066": {
@@ -1787,7 +1637,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "70686739-574a-4b9f-bfc1-27e532df1b55",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_ST-TT_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1805,15 +1660,7 @@
 					"children": [
 						{
 							"name": "lh_Tr-Ins_0",
-							"children": [],
 							"labelIndex": 64,
-							"originDatasets": [
-								{
-									"kgId": "33b483d3-6387-49f4-91b7-053a10c5172f",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_Tr-Ins_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"fd7267db-6786-48f0-ac1c-29791c7db1c6": {
@@ -1824,7 +1671,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "33b483d3-6387-49f4-91b7-053a10c5172f",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Tr-Ins_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1842,15 +1694,7 @@
 					"children": [
 						{
 							"name": "lh_Tr-SF_0",
-							"children": [],
 							"labelIndex": 55,
-							"originDatasets": [
-								{
-									"kgId": "a6dbb194-777a-43ca-b8c8-b43f992faf89",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "lh_Tr-SF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"8725059e-0ecb-452a-9c1d-f1088619a265": {
@@ -1861,7 +1705,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "a6dbb194-777a-43ca-b8c8-b43f992faf89",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Tr-SF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1884,15 +1733,7 @@
 					"children": [
 						{
 							"name": "rh_CAC-PoCi_0",
-							"children": [],
 							"labelIndex": 8,
-							"originDatasets": [
-								{
-									"kgId": "3b0b9de1-1fc6-42e9-b786-2efa87c2d67a",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_CAC-PoCi_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"a8f8439a-6bd1-4e10-9288-f315aab594c6": {
@@ -1903,7 +1744,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "3b0b9de1-1fc6-42e9-b786-2efa87c2d67a",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CAC-PoCi_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1921,15 +1767,7 @@
 					"children": [
 						{
 							"name": "rh_CAC-PrCu_0",
-							"children": [],
 							"labelIndex": 39,
-							"originDatasets": [
-								{
-									"kgId": "f740f09e-9cfe-474b-9132-620dd732765f",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_CAC-PrCu_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"79b4fdaa-2b89-488a-b6a8-caec0fad10ff": {
@@ -1940,7 +1778,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "f740f09e-9cfe-474b-9132-620dd732765f",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CAC-PrCu_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1958,15 +1801,7 @@
 					"children": [
 						{
 							"name": "rh_CMF-PrC_0",
-							"children": [],
 							"labelIndex": 98,
-							"originDatasets": [
-								{
-									"kgId": "f3ab5291-a58e-47f3-af03-78133db938ab",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_CMF-PrC_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"0631318f-9bb4-459e-9a1a-dcba16030ddf": {
@@ -1977,7 +1812,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "f3ab5291-a58e-47f3-af03-78133db938ab",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CMF-PrC_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -1990,15 +1830,7 @@
 						},
 						{
 							"name": "rh_CMF-PrC_1",
-							"children": [],
 							"labelIndex": 100,
-							"originDatasets": [
-								{
-									"kgId": "c1d905b0-7aa7-4c8b-8eaf-ebb25ad509f0",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_CMF-PrC_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"faac5eef-bff1-49f8-b24c-401a713fcfde": {
@@ -2009,7 +1841,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "c1d905b0-7aa7-4c8b-8eaf-ebb25ad509f0",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CMF-PrC_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2027,15 +1864,7 @@
 					"children": [
 						{
 							"name": "rh_CMF-RMF_0",
-							"children": [],
 							"labelIndex": 50,
-							"originDatasets": [
-								{
-									"kgId": "27557ac3-5c8b-4baa-9072-6f3f7c34f6ab",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_CMF-RMF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"8730eb77-7a22-4e14-afbe-7aef259a1e2b": {
@@ -2046,7 +1875,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "27557ac3-5c8b-4baa-9072-6f3f7c34f6ab",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CMF-RMF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2064,15 +1898,7 @@
 					"children": [
 						{
 							"name": "rh_CMF-SF_0",
-							"children": [],
 							"labelIndex": 69,
-							"originDatasets": [
-								{
-									"kgId": "865fe1ce-1363-4372-b1a3-fbf211a0c268",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_CMF-SF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"e09d0f73-1dce-47f7-9957-35b9b589e02b": {
@@ -2083,7 +1909,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "865fe1ce-1363-4372-b1a3-fbf211a0c268",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CMF-SF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2101,15 +1932,7 @@
 					"children": [
 						{
 							"name": "rh_CMF-SF_1",
-							"children": [],
 							"labelIndex": 70,
-							"originDatasets": [
-								{
-									"kgId": "b5d42fc2-68e7-47de-af9e-f4f0b49b7368",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_CMF-SF_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"b9214225-aa82-4322-af7c-b097933a1913": {
@@ -2120,7 +1943,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "b5d42fc2-68e7-47de-af9e-f4f0b49b7368",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CMF-SF_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2138,15 +1966,7 @@
 					"children": [
 						{
 							"name": "rh_Cu-Li_0",
-							"children": [],
 							"labelIndex": 61,
-							"originDatasets": [
-								{
-									"kgId": "05eb7f3c-8a87-49c0-af81-0bd29098f986",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_Cu-Li_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"99add9b2-e21e-4bc9-8cbb-1ace4eb478fe": {
@@ -2157,7 +1977,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "05eb7f3c-8a87-49c0-af81-0bd29098f986",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Cu-Li_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2175,15 +2000,7 @@
 					"children": [
 						{
 							"name": "rh_Fu-LO_1",
-							"children": [],
 							"labelIndex": 52,
-							"originDatasets": [
-								{
-									"kgId": "0f108248-9cea-4a5d-bc9c-637d4c290f49",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_Fu-LO_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"0f81ef07-2137-4244-9ebd-cdf206b66417": {
@@ -2194,7 +2011,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "0f108248-9cea-4a5d-bc9c-637d4c290f49",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Fu-LO_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2212,15 +2034,7 @@
 					"children": [
 						{
 							"name": "rh_IC-PrCu_0",
-							"children": [],
 							"labelIndex": 41,
-							"originDatasets": [
-								{
-									"kgId": "adfbdcbc-510f-457f-9c63-fe6b7cecf789",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_IC-PrCu_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"a753d2de-342f-47c5-9ec7-9c12c9ec35b3": {
@@ -2231,7 +2045,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "adfbdcbc-510f-457f-9c63-fe6b7cecf789",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IC-PrCu_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2249,15 +2068,7 @@
 					"children": [
 						{
 							"name": "rh_IP-IT_0",
-							"children": [],
 							"labelIndex": 60,
-							"originDatasets": [
-								{
-									"kgId": "06246ac0-af1c-4277-a885-8865c4ff4bf3",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_IP-IT_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"d842d83d-863f-43cb-8573-8c2254aa987f": {
@@ -2268,7 +2079,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "06246ac0-af1c-4277-a885-8865c4ff4bf3",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IP-IT_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2286,15 +2102,7 @@
 					"children": [
 						{
 							"name": "rh_IP-LO_0",
-							"children": [],
 							"labelIndex": 85,
-							"originDatasets": [
-								{
-									"kgId": "6f9f342e-f314-43d9-8166-46ce8deb2d0c",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_IP-LO_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"649fce83-2c8b-421d-b41a-32fe86a83ebc": {
@@ -2305,7 +2113,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "6f9f342e-f314-43d9-8166-46ce8deb2d0c",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IP-LO_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2323,15 +2136,7 @@
 					"children": [
 						{
 							"name": "rh_IP-MT_0",
-							"children": [],
 							"labelIndex": 34,
-							"originDatasets": [
-								{
-									"kgId": "faafacaa-2657-4d2c-88b6-044b0f8a2e40",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_IP-MT_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"51e7e92d-dc30-4ae7-8c21-fcd4b961c826": {
@@ -2342,7 +2147,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "faafacaa-2657-4d2c-88b6-044b0f8a2e40",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IP-MT_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2360,15 +2170,7 @@
 					"children": [
 						{
 							"name": "rh_IP-SM_0",
-							"children": [],
 							"labelIndex": 81,
-							"originDatasets": [
-								{
-									"kgId": "cb96a9b7-c659-4d9a-aa19-bb1c9601ab34",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_IP-SM_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"32f71fba-9bea-467e-aced-9ef4b78b8517": {
@@ -2379,7 +2181,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "cb96a9b7-c659-4d9a-aa19-bb1c9601ab34",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IP-SM_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2397,15 +2204,7 @@
 					"children": [
 						{
 							"name": "rh_IP-SP_0",
-							"children": [],
 							"labelIndex": 83,
-							"originDatasets": [
-								{
-									"kgId": "2078a9f3-7776-47d8-a4dc-eb4b5c1c7f16",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_IP-SP_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"e2149ed9-14a2-4760-b212-38b75be13d38": {
@@ -2416,7 +2215,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "2078a9f3-7776-47d8-a4dc-eb4b5c1c7f16",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IP-SP_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2434,15 +2238,7 @@
 					"children": [
 						{
 							"name": "rh_IT-MT_1",
-							"children": [],
 							"labelIndex": 90,
-							"originDatasets": [
-								{
-									"kgId": "32896a92-d755-48f6-bf91-ab6d1f7e5b0e",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_IT-MT_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"ef98957c-b180-45c3-a3c1-b903d4ea6ce1": {
@@ -2453,7 +2249,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "32896a92-d755-48f6-bf91-ab6d1f7e5b0e",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IT-MT_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2466,15 +2267,7 @@
 						},
 						{
 							"name": "rh_IT-MT_2",
-							"children": [],
 							"labelIndex": 91,
-							"originDatasets": [
-								{
-									"kgId": "f9cebe67-739d-4baf-9008-685604507599",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_IT-MT_2.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"69662b9b-fee5-43f6-ab45-98c9b6819313": {
@@ -2485,7 +2278,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "f9cebe67-739d-4baf-9008-685604507599",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IT-MT_2.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2503,15 +2301,7 @@
 					"children": [
 						{
 							"name": "rh_LOF-MOF_0",
-							"children": [],
 							"labelIndex": 71,
-							"originDatasets": [
-								{
-									"kgId": "2994d72e-c399-423c-9821-b8d1219f6b73",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_LOF-MOF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"b30d038a-7d82-45b4-8c81-16aa3a2ee857": {
@@ -2522,7 +2312,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "2994d72e-c399-423c-9821-b8d1219f6b73",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_LOF-MOF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2540,15 +2335,7 @@
 					"children": [
 						{
 							"name": "rh_LOF-RMF_0",
-							"children": [],
 							"labelIndex": 30,
-							"originDatasets": [
-								{
-									"kgId": "a0266f84-b105-433e-88f1-cc84a6b526cd",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_LOF-RMF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"50496f13-c270-42e6-85b1-3fa7fe3fb45f": {
@@ -2559,7 +2346,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "a0266f84-b105-433e-88f1-cc84a6b526cd",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_LOF-RMF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2572,15 +2364,7 @@
 						},
 						{
 							"name": "rh_LOF-RMF_1",
-							"children": [],
 							"labelIndex": 32,
-							"originDatasets": [
-								{
-									"kgId": "781b0351-f768-44a9-a7db-c45a5424aa6d",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_LOF-RMF_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"d7868239-da4f-43c1-8841-344aa69bd127": {
@@ -2591,7 +2375,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "781b0351-f768-44a9-a7db-c45a5424aa6d",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_LOF-RMF_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2609,15 +2398,7 @@
 					"children": [
 						{
 							"name": "rh_LOF-ST_0",
-							"children": [],
 							"labelIndex": 26,
-							"originDatasets": [
-								{
-									"kgId": "ee642a5b-54c3-4385-bc80-5badf00ccc55",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_LOF-ST_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"675a6ce9-ef26-4e68-9852-54afeb24923c": {
@@ -2628,7 +2409,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "ee642a5b-54c3-4385-bc80-5badf00ccc55",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_LOF-ST_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2646,15 +2432,7 @@
 					"children": [
 						{
 							"name": "rh_LO-SP_0",
-							"children": [],
 							"labelIndex": 54,
-							"originDatasets": [
-								{
-									"kgId": "0860234b-990f-4081-9319-e5f6a8fe36bb",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_LO-SP_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"b1da4dcf-4991-4f8e-bfd0-11febf7af3a4": {
@@ -2665,7 +2443,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "0860234b-990f-4081-9319-e5f6a8fe36bb",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_LO-SP_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2683,15 +2466,7 @@
 					"children": [
 						{
 							"name": "rh_MOF-ST_0",
-							"children": [],
 							"labelIndex": 13,
-							"originDatasets": [
-								{
-									"kgId": "7c67daac-62c6-47d9-9dd9-5d7f61c17464",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_MOF-ST_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"4bbbf808-ac2d-4062-b9fc-a8480c83397b": {
@@ -2702,7 +2477,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "7c67daac-62c6-47d9-9dd9-5d7f61c17464",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_MOF-ST_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2720,15 +2500,7 @@
 					"children": [
 						{
 							"name": "rh_MT-SM_0",
-							"children": [],
 							"labelIndex": 73,
-							"originDatasets": [
-								{
-									"kgId": "f8c07769-d0b1-4234-a83f-21561d998c21",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_MT-SM_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"3393eb4a-02a6-4c77-9fe6-39d06fceea93": {
@@ -2739,7 +2511,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "f8c07769-d0b1-4234-a83f-21561d998c21",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_MT-SM_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2757,15 +2534,7 @@
 					"children": [
 						{
 							"name": "rh_MT-ST_0",
-							"children": [],
 							"labelIndex": 96,
-							"originDatasets": [
-								{
-									"kgId": "b4ea38d2-09f5-45fe-abdb-4dcb4c05d495",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_MT-ST_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"bde48d05-f9ef-4d0b-a247-4c23a18d8d60": {
@@ -2776,7 +2545,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "b4ea38d2-09f5-45fe-abdb-4dcb4c05d495",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_MT-ST_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2794,15 +2568,7 @@
 					"children": [
 						{
 							"name": "rh_Op-Ins_0",
-							"children": [],
 							"labelIndex": 28,
-							"originDatasets": [
-								{
-									"kgId": "f144a431-46f5-46b1-af9e-71806a31bb92",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_Op-Ins_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"68a02c5a-48ea-402c-b335-68f95fe0c200": {
@@ -2813,7 +2579,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "f144a431-46f5-46b1-af9e-71806a31bb92",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Op-Ins_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2831,15 +2602,7 @@
 					"children": [
 						{
 							"name": "rh_Op-PrC_0",
-							"children": [],
 							"labelIndex": 19,
-							"originDatasets": [
-								{
-									"kgId": "0c4eca5d-7c46-41b6-914f-7642ccdda8a8",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_Op-PrC_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"a8e62223-0074-40ec-bc09-d8104bb0cf8d": {
@@ -2850,7 +2613,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "0c4eca5d-7c46-41b6-914f-7642ccdda8a8",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Op-PrC_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2868,15 +2636,7 @@
 					"children": [
 						{
 							"name": "rh_Op-SF_0",
-							"children": [],
 							"labelIndex": 43,
-							"originDatasets": [
-								{
-									"kgId": "784e25fa-501d-4ba3-878a-f32412f6dd28",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_Op-SF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"a8e62223-0074-40ec-bc09-d8104bb0cf8d": {
@@ -2887,7 +2647,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "784e25fa-501d-4ba3-878a-f32412f6dd28",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Op-SF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2905,15 +2670,7 @@
 					"children": [
 						{
 							"name": "rh_Op-Tr_0",
-							"children": [],
 							"labelIndex": 63,
-							"originDatasets": [
-								{
-									"kgId": "94d50656-1407-4e99-88c1-b7c3520598a6",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_Op-Tr_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"a8e62223-0074-40ec-bc09-d8104bb0cf8d": {
@@ -2924,7 +2681,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "94d50656-1407-4e99-88c1-b7c3520598a6",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Op-Tr_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2942,15 +2704,7 @@
 					"children": [
 						{
 							"name": "rh_Or-Ins_0",
-							"children": [],
 							"labelIndex": 17,
-							"originDatasets": [
-								{
-									"kgId": "de7674b7-0599-4a6a-9a1c-eb4aaaca04f4",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_Or-Ins_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"a2e596ad-deca-4a1d-a41c-752bfcd268df": {
@@ -2961,7 +2715,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "de7674b7-0599-4a6a-9a1c-eb4aaaca04f4",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Or-Ins_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -2979,15 +2738,7 @@
 					"children": [
 						{
 							"name": "rh_PoCi-PrCu_1",
-							"children": [],
 							"labelIndex": 46,
-							"originDatasets": [
-								{
-									"kgId": "16ecb569-bf31-4763-b68f-507c59471f3a",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_PoCi-PrCu_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"38a01a25-ca78-4130-8c45-539d6c76e6f4": {
@@ -2998,7 +2749,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "16ecb569-bf31-4763-b68f-507c59471f3a",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoCi-PrCu_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3011,15 +2767,7 @@
 						},
 						{
 							"name": "rh_PoCi-PrCu_2",
-							"children": [],
 							"labelIndex": 47,
-							"originDatasets": [
-								{
-									"kgId": "d20c41e0-7b21-45e7-869f-e66df6480563",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_PoCi-PrCu_2.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"b140275d-bdfa-42f0-84cb-5cb935823d9a": {
@@ -3030,7 +2778,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "d20c41e0-7b21-45e7-869f-e66df6480563",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoCi-PrCu_2.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3048,15 +2801,7 @@
 					"children": [
 						{
 							"name": "rh_PoCi-RAC_0",
-							"children": [],
 							"labelIndex": 11,
-							"originDatasets": [
-								{
-									"kgId": "71f844b8-b7de-468c-9177-157ac9e830be",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_PoCi-RAC_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"7cce70c5-92c6-4819-b0ff-cba354559f8e": {
@@ -3067,7 +2812,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "71f844b8-b7de-468c-9177-157ac9e830be",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoCi-RAC_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3085,15 +2835,7 @@
 					"children": [
 						{
 							"name": "rh_PoC-PrC_0",
-							"children": [],
 							"labelIndex": 2,
-							"originDatasets": [
-								{
-									"kgId": "499b78bc-2bbc-43f8-bfca-1f8846ca2697",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_PoC-PrC_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"c10b71c8-0ab2-4e47-aee3-74aedee8a988": {
@@ -3104,7 +2846,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "499b78bc-2bbc-43f8-bfca-1f8846ca2697",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoC-PrC_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3117,15 +2864,7 @@
 						},
 						{
 							"name": "rh_PoC-PrC_1",
-							"children": [],
 							"labelIndex": 4,
-							"originDatasets": [
-								{
-									"kgId": "42c1df7e-ddd2-4229-a4b0-2a7f61f431e4",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_PoC-PrC_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"b84a00f8-c090-4f1f-99e8-e1e41ca24905": {
@@ -3136,7 +2875,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "42c1df7e-ddd2-4229-a4b0-2a7f61f431e4",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoC-PrC_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3149,15 +2893,7 @@
 						},
 						{
 							"name": "rh_PoC-PrC_2",
-							"children": [],
 							"labelIndex": 6,
-							"originDatasets": [
-								{
-									"kgId": "358e97f5-7fa6-45b4-9555-2d15fe1db89e",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_PoC-PrC_2.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"5e446c5a-2595-46aa-b6db-300a97558e17": {
@@ -3168,7 +2904,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "358e97f5-7fa6-45b4-9555-2d15fe1db89e",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoC-PrC_2.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3186,15 +2927,7 @@
 					"children": [
 						{
 							"name": "rh_PoC-SM_0",
-							"children": [],
 							"labelIndex": 75,
-							"originDatasets": [
-								{
-									"kgId": "77d202cb-90ec-4c66-9905-bd4df03a12b9",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_PoC-SM_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"5a659d4c-509c-4247-a347-64c4551fdedb": {
@@ -3205,7 +2938,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "77d202cb-90ec-4c66-9905-bd4df03a12b9",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoC-SM_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3223,15 +2961,7 @@
 					"children": [
 						{
 							"name": "rh_PoC-SP_0",
-							"children": [],
 							"labelIndex": 87,
-							"originDatasets": [
-								{
-									"kgId": "80aa2397-8655-4279-bd52-96cf18ab4ae6",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_PoC-SP_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"072cf5a2-9fbb-48f5-9612-79170f5f2e71": {
@@ -3242,7 +2972,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "80aa2397-8655-4279-bd52-96cf18ab4ae6",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoC-SP_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3255,15 +2990,7 @@
 						},
 						{
 							"name": "rh_PoC-SP_1",
-							"children": [],
 							"labelIndex": 88,
-							"originDatasets": [
-								{
-									"kgId": "24bfa523-5f93-42d0-a249-2f3813f3b7d8",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_PoC-SP_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"0c9cd77f-4784-4629-8deb-607921c74083": {
@@ -3274,7 +3001,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "24bfa523-5f93-42d0-a249-2f3813f3b7d8",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoC-SP_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3292,15 +3024,7 @@
 					"children": [
 						{
 							"name": "rh_PrC-Ins_0",
-							"children": [],
 							"labelIndex": 67,
-							"originDatasets": [
-								{
-									"kgId": "482e73fa-aeae-46d3-a88c-59262b40542b",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_PrC-Ins_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"0bcd031c-a3b6-4016-970d-e9f620da125d": {
@@ -3311,7 +3035,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "482e73fa-aeae-46d3-a88c-59262b40542b",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PrC-Ins_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3329,15 +3058,7 @@
 					"children": [
 						{
 							"name": "rh_PrC-SM_0",
-							"children": [],
 							"labelIndex": 14,
-							"originDatasets": [
-								{
-									"kgId": "9d499f79-0c6c-4b25-bcb0-127a195e70af",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_PrC-SM_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"1ff6b2e3-13ac-4eb0-9dda-114c23da3bbe": {
@@ -3348,7 +3069,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "9d499f79-0c6c-4b25-bcb0-127a195e70af",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PrC-SM_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3366,15 +3092,7 @@
 					"children": [
 						{
 							"name": "rh_PrC-SP_0",
-							"children": [],
 							"labelIndex": 9,
-							"originDatasets": [
-								{
-									"kgId": "599f4b18-6b9b-453a-a81f-ba1081c1635a",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_PrC-SP_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"60ca5664-f486-4d9b-966a-2a9118b34df1": {
@@ -3385,7 +3103,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "599f4b18-6b9b-453a-a81f-ba1081c1635a",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PrC-SP_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3403,15 +3126,7 @@
 					"children": [
 						{
 							"name": "rh_RAC-SF_0",
-							"children": [],
 							"labelIndex": 77,
-							"originDatasets": [
-								{
-									"kgId": "378fbed1-1945-4e76-95d5-f02dc8676fe6",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_RAC-SF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"dd250f86-4da4-45ee-876e-79824f8b7672": {
@@ -3422,7 +3137,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "378fbed1-1945-4e76-95d5-f02dc8676fe6",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_RAC-SF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3440,15 +3160,7 @@
 					"children": [
 						{
 							"name": "rh_RMF-SF_0",
-							"children": [],
 							"labelIndex": 22,
-							"originDatasets": [
-								{
-									"kgId": "fdaff7eb-2a35-44a6-966f-ee5307ac1b7c",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_RMF-SF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"05705709-a25a-4587-964d-a2c4a0aff783": {
@@ -3459,7 +3171,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "fdaff7eb-2a35-44a6-966f-ee5307ac1b7c",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_RMF-SF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3472,15 +3189,7 @@
 						},
 						{
 							"name": "rh_RMF-SF_1",
-							"children": [],
 							"labelIndex": 24,
-							"originDatasets": [
-								{
-									"kgId": "6294f3e9-0279-46fc-b535-adc7f0b5f78c",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_RMF-SF_1.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"62e8a7d4-1886-4f9c-9f80-4aae2c9bd44b": {
@@ -3491,7 +3200,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "6294f3e9-0279-46fc-b535-adc7f0b5f78c",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_RMF-SF_1.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3509,15 +3223,7 @@
 					"children": [
 						{
 							"name": "rh_SM-Ins_0",
-							"children": [],
 							"labelIndex": 58,
-							"originDatasets": [
-								{
-									"kgId": "937b06ad-85e1-40d9-8523-2208e493f65c",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_SM-Ins_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"f07556fc-baf5-42ee-9787-99caf88a34bc": {
@@ -3528,7 +3234,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "937b06ad-85e1-40d9-8523-2208e493f65c",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_SM-Ins_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3546,15 +3257,7 @@
 					"children": [
 						{
 							"name": "rh_SP-SM_0",
-							"children": [],
 							"labelIndex": 94,
-							"originDatasets": [
-								{
-									"kgId": "0a7d2e7d-9932-4bc7-bf88-18454b387d63",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_SP-SM_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"cebbf914-7c0e-4662-8357-980be1ab6159": {
@@ -3565,7 +3268,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "0a7d2e7d-9932-4bc7-bf88-18454b387d63",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_SP-SM_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3583,15 +3291,7 @@
 					"children": [
 						{
 							"name": "rh_ST-TT_0",
-							"children": [],
 							"labelIndex": 36,
-							"originDatasets": [
-								{
-									"kgId": "c91efb77-dfe8-48d9-a110-bb75e9beff99",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_ST-TT_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"93828419-ff60-4223-ba14-df8b09edf490": {
@@ -3602,7 +3302,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "c91efb77-dfe8-48d9-a110-bb75e9beff99",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_ST-TT_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3620,15 +3325,7 @@
 					"children": [
 						{
 							"name": "rh_Tr-Ins_0",
-							"children": [],
 							"labelIndex": 65,
-							"originDatasets": [
-								{
-									"kgId": "545f318a-4648-4880-ab3f-bc7e05ca4687",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_Tr-Ins_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"0a8cc427-061c-4cc9-b3c0-011972eb967b": {
@@ -3639,7 +3336,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "545f318a-4648-4880-ab3f-bc7e05ca4687",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Tr-Ins_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3657,15 +3359,7 @@
 					"children": [
 						{
 							"name": "rh_Tr-SF_0",
-							"children": [],
 							"labelIndex": 56,
-							"originDatasets": [
-								{
-									"kgId": "5d35bdda-303b-4fc9-ab76-e3076c1e5ebc",
-									"kgSchema": "minds/core/dataset/v1.0.0",
-									"filename": "rh_Tr-SF_0.nii"
-								}
-							],
 							"fullId": {
 								"minds/core/dataset/v1.0.0/parcellationregion": {
 									"61384778-971e-47f5-8f9b-dc0ca89a5afc": {
@@ -3676,7 +3370,12 @@
 									}
 								}
 							},
-							"volumeSrc": [
+							"datasets": [
+								{
+									"kgId": "5d35bdda-303b-4fc9-ab76-e3076c1e5ebc",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Tr-SF_0.nii"
+								},
 								{
 									"@type": "fzj/tmp/volume_type/v0.0.1",
 									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -3691,6 +3390,5 @@
 				}
 			]
 		}
-	],
-	"modality": "fibre architecture"
+	]
 }

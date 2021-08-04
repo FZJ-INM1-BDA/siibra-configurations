@@ -3,7 +3,15 @@
 	"@type": "minds/core/parcellationatlas/v1.0.0",
 	"name": "Probabilistic Long White Matter Bundle Maps",
 	"shortName": "Long White Matter Bundles",
-	"volumeSrc": [
+	"description": "This data contains the maximum probability map of deep white matter fibre bundles (atlas of deep white matter fibre bundles, version 2018), in the MNI ICBM152 reference brain. These bundles were identified by fibre clustering, from the tractography datasets of 78 subjects in Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
+	"publications": [
+		{
+			"doi": "10.1016/j.neuroimage.2012.02.071",
+			"citation": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas. NeuroImage, 61(4),1083-99."
+		}
+	],
+	"modality": "fibre architecture",
+	"datasets": [
 		{
 			"@type": "fzj/tmp/volume_type/v0.0.1",
 			"@id": "fzj/tmp/volume_type/v0.0.1/bundle-long-nii",
@@ -49,26 +57,16 @@
 				}
 			},
 			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
-		}
-	],
-	"originDatasets": [
+		},
 		{
 			"@type": "minds/core/dataset/v1.0.0",
 			"kgSchema": "minds/core/dataset/v1.0.0",
 			"kgId": "fcbb049b-edd5-4fb5-acbc-7bf8ee933e24"
 		}
 	],
-	"description": "This data contains the maximum probability map of deep white matter fibre bundles (atlas of deep white matter fibre bundles, version 2018), in the MNI ICBM152 reference brain. These bundles were identified by fibre clustering, from the tractography datasets of 78 subjects in Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
-	"publications": [
-		{
-			"doi": "10.1016/j.neuroimage.2012.02.071",
-			"citation": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas. NeuroImage, 61(4),1083-99."
-		}
-	],
 	"regions": [
 		{
 			"name": "Direct segment of the left arcuate fasciculus",
-			"children": [],
 			"labelIndex": 1,
 			"relatedAreas": [],
 			"fullId": {
@@ -82,14 +80,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "330ed9f5-ea87-4e90-a325-a11adeab1e66",
 					"filename": "Arcuate_Left.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -102,7 +98,6 @@
 		},
 		{
 			"name": "Direct segment of the right arcuate fasciculus",
-			"children": [],
 			"labelIndex": 31,
 			"relatedAreas": [],
 			"fullId": {
@@ -116,14 +111,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "f8b607e1-3264-47ed-9e7e-b416891efcbe",
 					"filename": "Arcuate_Right.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -136,7 +129,6 @@
 		},
 		{
 			"name": "Anterior segment of the left arcuate fasciculus",
-			"children": [],
 			"labelIndex": 2,
 			"relatedAreas": [],
 			"fullId": {
@@ -150,14 +142,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "7e227fef-dc93-4593-a0ea-707996992dd8",
 					"filename": "Arcuate_Anterior_Left.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -170,7 +160,6 @@
 		},
 		{
 			"name": "Anterior segment of the right arcuate fasciculus",
-			"children": [],
 			"labelIndex": 32,
 			"relatedAreas": [],
 			"fullId": {
@@ -184,14 +173,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "93344d55-e70a-4545-92b7-45c65f7350a9",
 					"filename": "Arcuate_Anterior_Right.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -204,7 +191,6 @@
 		},
 		{
 			"name": "Posterior segment of the left arcuate fasciculus",
-			"children": [],
 			"labelIndex": 3,
 			"relatedAreas": [],
 			"fullId": {
@@ -218,14 +204,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "68a390f0-13ab-47f3-8ba7-53b317734f17",
 					"filename": "Arcuate_Posterior_Left.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -238,7 +222,6 @@
 		},
 		{
 			"name": "Posterior segment of the right arcuate fasciculus",
-			"children": [],
 			"labelIndex": 33,
 			"relatedAreas": [],
 			"fullId": {
@@ -252,14 +235,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "d451038f-da94-4d51-8141-54a1a4a7a9f6",
 					"filename": "Arcuate_Posterior_Right.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -272,7 +253,6 @@
 		},
 		{
 			"name": "Left long cingulate fibres",
-			"children": [],
 			"labelIndex": 4,
 			"relatedAreas": [],
 			"fullId": {
@@ -286,14 +266,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "3637f1c6-d0f5-4a86-ba07-d88098c59f81",
 					"filename": "Cingulum_Long_Left.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -306,7 +284,6 @@
 		},
 		{
 			"name": "Right long cingulate fibres",
-			"children": [],
 			"labelIndex": 34,
 			"relatedAreas": [],
 			"fullId": {
@@ -320,14 +297,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "70d976ca-ebdb-4e70-8c58-2aa3333f8bff",
 					"filename": "Cingulum_Long_Right.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -340,7 +315,6 @@
 		},
 		{
 			"name": "Left short cingulate fibres",
-			"children": [],
 			"labelIndex": 5,
 			"relatedAreas": [],
 			"fullId": {
@@ -354,14 +328,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "651038f7-1792-429a-8f26-6a9fbe998952",
 					"filename": "Cingulum_Short_Left.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -374,7 +346,6 @@
 		},
 		{
 			"name": "Right short cingulate fibres",
-			"children": [],
 			"labelIndex": 35,
 			"relatedAreas": [],
 			"fullId": {
@@ -388,14 +359,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "405fec3d-e95a-411f-a990-726ae11d2657",
 					"filename": "Cingulum_Short_Right.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -408,7 +377,6 @@
 		},
 		{
 			"name": "Left temporal cingulate fibres",
-			"children": [],
 			"labelIndex": 6,
 			"relatedAreas": [],
 			"fullId": {
@@ -422,14 +390,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "c6cf614d-abf1-495c-986b-7f551f8fa65e",
 					"filename": "Cingulum_Temporal_Left.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -442,7 +408,6 @@
 		},
 		{
 			"name": "Right temporal cingulate fibres",
-			"children": [],
 			"labelIndex": 36,
 			"relatedAreas": [],
 			"fullId": {
@@ -456,14 +421,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "518b0d17-ed31-4a20-91c2-efbe2eb6545a",
 					"filename": "Cingulum_Temporal_Right.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -476,27 +439,22 @@
 		},
 		{
 			"name": "CorpusCallosum_Body",
-			"children": [],
 			"labelIndex": 7
 		},
 		{
 			"name": "CorpusCallosum_Genu",
-			"children": [],
 			"labelIndex": 8
 		},
 		{
 			"name": "CorpusCallosum_Rostrum",
-			"children": [],
 			"labelIndex": 9
 		},
 		{
 			"name": "CorpusCallosum_Splenium",
-			"children": [],
 			"labelIndex": 10
 		},
 		{
 			"name": "Left corticospinal tract",
-			"children": [],
 			"labelIndex": 11,
 			"relatedAreas": [],
 			"fullId": {
@@ -510,14 +468,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "41495f74-0278-4ce1-8190-02ae57b316d8",
 					"filename": "CorticoSpinalTract_Left.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -530,7 +486,6 @@
 		},
 		{
 			"name": "Right corticospinal tract",
-			"children": [],
 			"labelIndex": 41,
 			"relatedAreas": [],
 			"fullId": {
@@ -544,14 +499,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "b1b77339-de1c-424c-a2a1-1489de4882f9",
 					"filename": "CorticoSpinalTract_Right.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -564,17 +517,14 @@
 		},
 		{
 			"name": "ExternalCapsule - Left",
-			"children": [],
 			"labelIndex": 12
 		},
 		{
 			"name": "ExternalCapsule - Right",
-			"children": [],
 			"labelIndex": 42
 		},
 		{
 			"name": "Left fornix",
-			"children": [],
 			"labelIndex": 13,
 			"relatedAreas": [],
 			"fullId": {
@@ -588,14 +538,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "6820edd5-9f90-487e-8736-0d2e54e5f958",
 					"filename": "Fornix_Left.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -608,7 +556,6 @@
 		},
 		{
 			"name": "Right fornix",
-			"children": [],
 			"labelIndex": 43,
 			"relatedAreas": [],
 			"fullId": {
@@ -622,14 +569,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "82c00b60-f207-4473-8662-39be36ec5642",
 					"filename": "Fornix_Right.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -642,7 +587,6 @@
 		},
 		{
 			"name": "Left inferior fronto-occipital fasciculus",
-			"children": [],
 			"labelIndex": 14,
 			"relatedAreas": [],
 			"fullId": {
@@ -656,14 +600,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "58924d48-9606-4577-8d10-a729a8fda4f6",
 					"filename": "InferiorFrontoOccipital_Left.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -676,7 +618,6 @@
 		},
 		{
 			"name": "Right inferior fronto-occipital fasciculus",
-			"children": [],
 			"labelIndex": 44,
 			"relatedAreas": [],
 			"fullId": {
@@ -690,14 +631,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "4e8b0736-efb2-497a-a81c-40b6142ba278",
 					"filename": "InferiorFrontoOccipital_Right.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -710,7 +649,6 @@
 		},
 		{
 			"name": "Left inferior longitudinal fasciculus",
-			"children": [],
 			"labelIndex": 15,
 			"relatedAreas": [],
 			"fullId": {
@@ -724,14 +662,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "ddc35deb-bbb0-41b6-a4be-464d7e5f04f9",
 					"filename": "InferiorLongitudinal_Left.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -744,7 +680,6 @@
 		},
 		{
 			"name": "Right inferior longitudinal fasciculus",
-			"children": [],
 			"labelIndex": 45,
 			"relatedAreas": [],
 			"fullId": {
@@ -758,14 +693,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "aaff510c-85e7-4749-ac18-af374ded64dd",
 					"filename": "InferiorLongitudinal_Right.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -778,57 +711,46 @@
 		},
 		{
 			"name": "InferiorLongitudinal_Lateral - Left",
-			"children": [],
 			"labelIndex": 16
 		},
 		{
 			"name": "InferiorLongitudinal_Lateral - Right",
-			"children": [],
 			"labelIndex": 46
 		},
 		{
 			"name": "MediumLongitudinal - Left",
-			"children": [],
 			"labelIndex": 17
 		},
 		{
 			"name": "MediumLongitudinal - Right",
-			"children": [],
 			"labelIndex": 47
 		},
 		{
 			"name": "SpinoThalamicTract - Left",
-			"children": [],
 			"labelIndex": 18
 		},
 		{
 			"name": "SpinoThalamicTract - Right",
-			"children": [],
 			"labelIndex": 48
 		},
 		{
 			"name": "ThalamicRadiations_Anterior - Left",
-			"children": [],
 			"labelIndex": 19
 		},
 		{
 			"name": "ThalamicRadiations_Anterior - Right",
-			"children": [],
 			"labelIndex": 49
 		},
 		{
 			"name": "ThalamicRadiations_Posterior - Left",
-			"children": [],
 			"labelIndex": 20
 		},
 		{
 			"name": "ThalamicRadiations_Posterior - Right",
-			"children": [],
 			"labelIndex": 50
 		},
 		{
 			"name": "Left uncinate fasciculus",
-			"children": [],
 			"labelIndex": 21,
 			"relatedAreas": [],
 			"fullId": {
@@ -842,14 +764,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "ed7f25ea-5a32-4a7d-9d38-39317bab84bc",
 					"filename": "Uncinate_Left.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -862,7 +782,6 @@
 		},
 		{
 			"name": "Right uncinate fasciculus",
-			"children": [],
 			"labelIndex": 51,
 			"relatedAreas": [],
 			"fullId": {
@@ -876,14 +795,12 @@
 					}
 				}
 			},
-			"originDatasets": [
+			"datasets": [
 				{
 					"kgSchema": "minds/core/dataset/v1.0.0",
 					"kgId": "cd10f6c0-4828-4483-8ea4-0935a4313927",
 					"filename": "Uncinate_Right.nii.gz"
-				}
-			],
-			"volumeSrc": [
+				},
 				{
 					"@type": "fzj/tmp/volume_type/v0.0.1",
 					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
@@ -894,6 +811,5 @@
 				}
 			]
 		}
-	],
-	"modality": "fibre architecture"
+	]
 }

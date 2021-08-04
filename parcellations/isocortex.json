@@ -3,7 +3,8 @@
 	"shortName": "BigBrain Isocortex",
 	"@id": "juelich/iav/atlas/v1.0.0/4",
 	"@type": "minds/core/parcellationatlas/v1.0.0",
-	"volumeSrc": [
+	"type": "parcellation",
+	"datasets": [
 		{
 			"@type": "fzj/tmp/volume_type/v0.0.1",
 			"@id": "fzj/tmp/volume_type/v0.0.1/isocortex",
@@ -43,7 +44,6 @@
 			"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
 		}
 	],
-	"type": "parcellation",
 	"regions": [
 		{
 			"name": "Isocortex",
@@ -52,8 +52,7 @@
 				200,
 				200,
 				200
-			],
-			"children": []
+			]
 		},
 		{
 			"name": "Non-isocortical structures",
@@ -62,8 +61,7 @@
 				255,
 				255,
 				255
-			],
-			"children": []
+			]
 		}
 	]
 }

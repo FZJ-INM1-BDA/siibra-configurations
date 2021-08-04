@@ -4,7 +4,14 @@
 	"name": "Virtuel Epileptic Patient Atlas",
 	"shortName": "VEP Atlas",
 	"version": "2021",
-	"volumeSrc": [
+	"description": "The Virtual Epileptic Patient (VEP) atlas offers an automated brain region parcellation and labeling, which has been developed for the specific use in the domains of epileptology and functional neurosurgery. It is able to apply at individual patient\u2019s level.It comprises 162 brain regions, including 73 cortical and 8 subcortical regions per hemisphere. We demonstrate the successful application of the VEP atlas in a cohort of 50 retrospective patients. The structural organization is complemented by the functional variation of stereotactic intracerebral EEG (SEEG) signal data features establishing brain region-specific 3d-maps. The VEP atlas integrates both anatomical and functional definitions in the same atlas, adapted to applications for epilepsy patients and individualizable.",
+	"publications": [
+		{
+			"doi": "https://doi.org/10.1016/j.jneumeth.2020.108983",
+			"citation": "Wang, Huifang E., Julia Scholly, Paul Triebkorn, Viktor Sip, Samuel Medina Villalon, Marmaduke M. Woodman, Arnaud Le Troter, Maxime Guye, Fabrice Bartolomei, and Viktor Jirsa. 2021. \u2018VEP Atlas: An Anatomic and Functional Human Brain Atlas Dedicated to Epilepsy Patients\u2019. Journal of Neuroscience Methods 348"
+		}
+	],
+	"datasets": [
 		{
 			"@type": "fzj/tmp/volume_type/v0.0.1",
 			"@id": "fzj/tmp/volume_type/v0.0.1/vep2021",
@@ -12,14 +19,6 @@
 			"volume_type": "nii",
 			"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
 			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
-		}
-	],
-	"originDatasets": [],
-	"description": "The Virtual Epileptic Patient (VEP) atlas offers an automated brain region parcellation and labeling, which has been developed for the specific use in the domains of epileptology and functional neurosurgery. It is able to apply at individual patient\u2019s level.It comprises 162 brain regions, including 73 cortical and 8 subcortical regions per hemisphere. We demonstrate the successful application of the VEP atlas in a cohort of 50 retrospective patients. The structural organization is complemented by the functional variation of stereotactic intracerebral EEG (SEEG) signal data features establishing brain region-specific 3d-maps. The VEP atlas integrates both anatomical and functional definitions in the same atlas, adapted to applications for epilepsy patients and individualizable.",
-	"publications": [
-		{
-			"doi": "https://doi.org/10.1016/j.jneumeth.2020.108983",
-			"citation": "Wang, Huifang E., Julia Scholly, Paul Triebkorn, Viktor Sip, Samuel Medina Villalon, Marmaduke M. Woodman, Arnaud Le Troter, Maxime Guye, Fabrice Bartolomei, and Viktor Jirsa. 2021. \u2018VEP Atlas: An Anatomic and Functional Human Brain Atlas Dedicated to Epilepsy Patients\u2019. Journal of Neuroscience Methods 348"
 		}
 	],
 	"regions": [

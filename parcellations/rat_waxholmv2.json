@@ -3,11 +3,68 @@
 	"@type": "minds/core/parcellationatlas/v1.0.0",
 	"name": "Waxholm Space rat brain atlas v2",
 	"shortName": "Waxholm Space rat brain atlas v2",
-	"originDatasets": [
+	"description": "Waxholm Space atlas of the rat brain, expanded with detailed delineations of 13 hippocampal and parahippocampal region (79 structures total).",
+	"publications": [
+		{
+			"citation": "https://www.nitrc.org/frs/?group_id=1081",
+			"doi": "https://www.nitrc.org/frs/?group_id=1081"
+		},
+		{
+			"citation": "Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449",
+			"doi": "10.1016/j.neuroimage.2014.12.080"
+		}
+	],
+	"modality": null,
+	"version": "2",
+	"@version": {
+		"name": "2",
+		"collectionName": "Waxholm Space rat brain atlas",
+		"@prev": "minds/core/parcellationatlas/v1.0.0/11017b35-7056-4593-baad-3934d211daba",
+		"@next": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe"
+	},
+	"datasets": [
 		{
 			"@type": "minds/core/dataset/v1.0.0",
 			"kgSchema": "minds/core/dataset/v1.0.0",
 			"kgId": "2c8ec4fb-45ca-4fe7-accf-c41b5e92c43d"
+		},
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/waxholm_rat_v2",
+			"name": "waxholm_rat_v2",
+			"volume_type": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.org/precomputed/WHS_SD_rat/parcellations/v2",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1,
+							0,
+							0,
+							-9550781
+						],
+						[
+							0,
+							1,
+							0,
+							-24355468
+						],
+						[
+							0,
+							0,
+							1,
+							-9707031
+						],
+						[
+							0,
+							0,
+							0,
+							1
+						]
+					]
+				}
+			},
+			"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
 		}
 	],
 	"regions": [
@@ -15,6 +72,24 @@
 			"name": "Whole brain",
 			"labelIndex": null,
 			"rgb": null,
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "b2b56201-472c-4f70-842f-cf2133eacaba"
+				}
+			},
+			"relatedAreas": [
+				{
+					"name": "Rat Whole brain (v2)",
+					"fullId": {
+						"kg": {
+							"kgSchema": "minds/core/parcellationregion/v1.0.0",
+							"kgId": "b2b56201-472c-4f70-842f-cf2133eacaba",
+							"alternateOf": []
+						}
+					}
+				}
+			],
 			"children": [
 				{
 					"name": "White matter",
@@ -1574,6 +1649,24 @@
 							],
 							"labelIndex": null,
 							"rgb": null,
+							"fullId": {
+								"kg": {
+									"kgSchema": "minds/core/parcellationregion/v1.0.0",
+									"kgId": "a844d80f-1d94-41a0-901a-14ae257519db"
+								}
+							},
+							"relatedAreas": [
+								{
+									"name": "Rat Cerebellum (v2)",
+									"fullId": {
+										"kg": {
+											"kgSchema": "minds/core/parcellationregion/v1.0.0",
+											"kgId": "a844d80f-1d94-41a0-901a-14ae257519db",
+											"alternateOf": []
+										}
+									}
+								}
+							],
 							"children": [
 								{
 									"name": "molecular cell layer of the cerebellum",
@@ -1608,24 +1701,6 @@
 										255,
 										255
 									]
-								}
-							],
-							"fullId": {
-								"kg": {
-									"kgSchema": "minds/core/parcellationregion/v1.0.0",
-									"kgId": "a844d80f-1d94-41a0-901a-14ae257519db"
-								}
-							},
-							"relatedAreas": [
-								{
-									"name": "Rat Cerebellum (v2)",
-									"fullId": {
-										"kg": {
-											"kgSchema": "minds/core/parcellationregion/v1.0.0",
-											"kgId": "a844d80f-1d94-41a0-901a-14ae257519db",
-											"alternateOf": []
-										}
-									}
 								}
 							]
 						},
@@ -1748,84 +1823,7 @@
 						}
 					]
 				}
-			],
-			"fullId": {
-				"kg": {
-					"kgSchema": "minds/core/parcellationregion/v1.0.0",
-					"kgId": "b2b56201-472c-4f70-842f-cf2133eacaba"
-				}
-			},
-			"relatedAreas": [
-				{
-					"name": "Rat Whole brain (v2)",
-					"fullId": {
-						"kg": {
-							"kgSchema": "minds/core/parcellationregion/v1.0.0",
-							"kgId": "b2b56201-472c-4f70-842f-cf2133eacaba",
-							"alternateOf": []
-						}
-					}
-				}
 			]
 		}
-	],
-	"volumeSrc": [
-		{
-			"@type": "fzj/tmp/volume_type/v0.0.1",
-			"@id": "fzj/tmp/volume_type/v0.0.1/waxholm_rat_v2",
-			"name": "waxholm_rat_v2",
-			"volume_type": "neuroglancer/precomputed",
-			"url": "https://neuroglancer.humanbrainproject.org/precomputed/WHS_SD_rat/parcellations/v2",
-			"detail": {
-				"neuroglancer/precomputed": {
-					"transform": [
-						[
-							1,
-							0,
-							0,
-							-9550781
-						],
-						[
-							0,
-							1,
-							0,
-							-24355468
-						],
-						[
-							0,
-							0,
-							1,
-							-9707031
-						],
-						[
-							0,
-							0,
-							0,
-							1
-						]
-					]
-				}
-			},
-			"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
-		}
-	],
-	"description": "Waxholm Space atlas of the rat brain, expanded with detailed delineations of 13 hippocampal and parahippocampal region (79 structures total).",
-	"publications": [
-		{
-			"citation": "https://www.nitrc.org/frs/?group_id=1081",
-			"doi": "https://www.nitrc.org/frs/?group_id=1081"
-		},
-		{
-			"citation": "Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449",
-			"doi": "10.1016/j.neuroimage.2014.12.080"
-		}
-	],
-	"modality": null,
-	"version": "2",
-	"@version": {
-		"name": "2",
-		"collectionName": "Waxholm Space rat brain atlas",
-		"@prev": "minds/core/parcellationatlas/v1.0.0/11017b35-7056-4593-baad-3934d211daba",
-		"@next": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe"
-	}
+	]
 }

@@ -5,30 +5,58 @@
 	"shortName": "MNI Colin 27",
 	"templateType": "nii",
 	"srcVolumeType": "mri",
-	"volumeSrc": [{
-		"@type": "fzj/tmp/volume_type/v0.0.1",
-		"@id": "fzj/tmp/volume_type/v0.0.1/colin27/nifti",
-		"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-		"name": "colin27/nifti",
-		"volume_type": "nii",
-		"url": "http://packages.bic.mni.mcgill.ca/mni-models/colin27/mni_colin27_1998_nifti.zip",
-		"zipped_file" : "colin27_t1_tal_lin.nii"
-	},{
-		"@type": "fzj/tmp/volume_type/v0.0.1",
-		"@id": "fzj/tmp/volume_type/v0.0.1/colin27/ng_precomp",
-		"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-		"name": "colin27",
-		"volume_type": "neuroglancer/precomputed",
-		"url": "https://neuroglancer.humanbrainproject.eu/precomputed/JuBrain/v2.2c/colin27_seg",
-		"detail": {
-			"neuroglancer/precomputed": {
-				"transform": [[1,0,0,-75500000],[0,1,0,-111500000],[0,0,1,-67500000],[0,0,0,1]]
+	"datasets": [
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/colin27/nifti",
+			"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
+			"name": "colin27/nifti",
+			"volume_type": "nii",
+			"url": "http://packages.bic.mni.mcgill.ca/mni-models/colin27/mni_colin27_1998_nifti.zip",
+			"zipped_file": "colin27_t1_tal_lin.nii"
+		},
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/colin27/ng_precomp",
+			"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
+			"name": "colin27",
+			"volume_type": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/JuBrain/v2.2c/colin27_seg",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1,
+							0,
+							0,
+							-75500000
+						],
+						[
+							0,
+							1,
+							0,
+							-111500000
+						],
+						[
+							0,
+							0,
+							1,
+							-67500000
+						],
+						[
+							0,
+							0,
+							0,
+							1
+						]
+					]
+				}
 			}
+		},
+		{
+			"@type": "fzj/tmp/simpleOriginInfo/v0.0.1",
+			"name": "MNI Colin 27",
+			"description": "A stereotaxic average of 27 T1-weighted MRI scans of the same individual. (Holmes et al., 1998), mapped to fit the MNI305 space.  Although not capturing brain variability, it is well established in neuroscience due to its high definition. HBP provides the JuBrain probabilistic cytoarchitectonic atlas (Amunts et al.) in this space."
 		}
-	}],
-	"originDatasets":[{
-		"@type": "fzj/tmp/simpleOriginInfo/v0.0.1",
-		"name": "MNI Colin 27",
-		"description": "A stereotaxic average of 27 T1-weighted MRI scans of the same individual. (Holmes et al., 1998), mapped to fit the MNI305 space.  Although not capturing brain variability, it is well established in neuroscience due to its high definition. HBP provides the JuBrain probabilistic cytoarchitectonic atlas (Amunts et al.) in this space."
-	}]
+	]
 }

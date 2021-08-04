@@ -3,13 +3,70 @@
 	"@type": "minds/core/parcellationatlas/v1.0.0",
 	"name": "Waxholm Space rat brain atlas v1.01",
 	"shortName": "Waxholm Space rat brain atlas v1.01",
-	"originDatasets": [
+	"description": "Waxholm Space atlas of the Sprague Dawley rat brain, first iteration with major brain regions delineated (76 structures).",
+	"publications": [
+		{
+			"citation": "https://www.nitrc.org/frs/?group_id=1081",
+			"doi": "https://www.nitrc.org/frs/?group_id=1081"
+		},
+		{
+			"doi": "10.1016/j.neuroimage.2014.04.001",
+			"citation": "Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386"
+		}
+	],
+	"modality": null,
+	"version": "1.01",
+	"@version": {
+		"name": "1.01",
+		"@prev": null,
+		"collectionName": "Waxholm Space rat brain atlas",
+		"@next": "minds/core/parcellationatlas/v1.0.0/2449a7f0-6dd0-4b5a-8f1e-aec0db03679d"
+	},
+	"datasets": [
 		{
 			"@type": "minds/core/dataset/v1.0.0",
 			"kgSchema": "minds/core/dataset/v1.0.0",
 			"kgId": "f40e466b-8247-463a-a4cb-56dfe68e7059"
 		},
-		{}
+		{},
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/waxholm_rat_v1_01",
+			"name": "waxholm_rat_v1_01",
+			"volume_type": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.org/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v1_01",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1,
+							0,
+							0,
+							-9550781
+						],
+						[
+							0,
+							1,
+							0,
+							-24355468
+						],
+						[
+							0,
+							0,
+							1,
+							-9707031
+						],
+						[
+							0,
+							0,
+							0,
+							1
+						]
+					]
+				}
+			},
+			"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+		}
 	],
 	"regions": [
 		{
@@ -17,6 +74,13 @@
 			"name": "Whole brain",
 			"labelIndex": null,
 			"rgb": null,
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "b2b56201-472c-4f70-842f-cf2133eacaba"
+				}
+			},
+			"relatedAreas": [],
 			"children": [
 				{
 					"name": "White matter",
@@ -50,8 +114,7 @@
 								"id": "67",
 								"name": "corpus callosum and associated subcortical white matter",
 								"description": "3.4.1"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "Anterior commissure",
@@ -85,8 +148,7 @@
 										"id": "36",
 										"name": "anterior commissure, anterior part",
 										"description": "3.4.2"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "anterior commissure, posterior part",
@@ -103,8 +165,7 @@
 										"id": "37",
 										"name": "anterior commissure, posterior part",
 										"description": "3.4.2"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "anterior commissure, intrabulbar part",
@@ -121,8 +182,7 @@
 										"id": "73",
 										"name": "anterior commissure, intrabulbar part",
 										"description": "3.4.2"
-									},
-									"children": []
+									}
 								}
 							]
 						},
@@ -158,8 +218,7 @@
 										"id": "6",
 										"name": "alveus of the hippocampus",
 										"description": "3.4.3"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "ventral hippocampal commissure",
@@ -176,8 +235,7 @@
 										"id": "38",
 										"name": "ventral hippocampal commissure",
 										"description": "3.4.3"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "fornix",
@@ -194,8 +252,7 @@
 										"id": "52",
 										"name": "fornix",
 										"description": "3.4.3"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "fimbria of the hippocampus",
@@ -212,8 +269,7 @@
 										"id": "59",
 										"name": "fimbria of the hippocampus",
 										"description": "3.4.3"
-									},
-									"children": []
+									}
 								}
 							]
 						},
@@ -249,8 +305,7 @@
 										"id": "1",
 										"name": "corticofugal pathways",
 										"description": "3.4.4"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "pyramidal decussation",
@@ -267,8 +322,7 @@
 										"id": "85",
 										"name": "pyramidal decussation",
 										"description": "3.4.4"
-									},
-									"children": []
+									}
 								}
 							]
 						},
@@ -304,8 +358,7 @@
 										"id": "34",
 										"name": "medial lemniscus",
 										"description": "3.4.5"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "medial lemniscus decussation",
@@ -322,8 +375,7 @@
 										"id": "84",
 										"name": "medial lemniscus decussation",
 										"description": "3.4.5"
-									},
-									"children": []
+									}
 								}
 							]
 						},
@@ -359,8 +411,7 @@
 										"id": "53",
 										"name": "mammillothalamic tract",
 										"description": "3.4.6"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "commissural stria terminalis",
@@ -377,8 +428,7 @@
 										"id": "54",
 										"name": "commissural stria terminalis",
 										"description": "3.4.6"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "fasciculus retroflexus",
@@ -395,8 +445,7 @@
 										"id": "60",
 										"name": "fasciculus retroflexus",
 										"description": "3.4.6"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "stria medullaris of the thalamus",
@@ -413,8 +462,7 @@
 										"id": "61",
 										"name": "stria medullaris of the thalamus",
 										"description": "3.4.6"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "stria terminalis",
@@ -431,8 +479,7 @@
 										"id": "62",
 										"name": "stria terminalis",
 										"description": "3.4.6"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "habenular commissure",
@@ -449,8 +496,7 @@
 										"id": "80",
 										"name": "habenular commissure",
 										"description": "3.4.6"
-									},
-									"children": []
+									}
 								}
 							]
 						},
@@ -469,8 +515,7 @@
 								"id": "63",
 								"name": "posterior commissure",
 								"description": "3.4.7"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "Facial nerve",
@@ -504,8 +549,7 @@
 										"id": "35",
 										"name": "facial nerve",
 										"description": "3.4.8"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "ascending fibers of the facial nerve",
@@ -522,8 +566,7 @@
 										"id": "72",
 										"name": "ascending fibers of the facial nerve",
 										"description": "3.4.8"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "genu of the facial nerve",
@@ -540,8 +583,7 @@
 										"id": "57",
 										"name": "genu of the facial nerve",
 										"description": "3.4.8"
-									},
-									"children": []
+									}
 								}
 							]
 						},
@@ -577,8 +619,7 @@
 										"id": "41",
 										"name": "optic nerve",
 										"description": "3.4.9"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "optic tract and optic chiasm",
@@ -595,8 +636,7 @@
 										"id": "42",
 										"name": "optic tract and optic chiasm",
 										"description": "3.4.9"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "supraoptic decussation",
@@ -613,8 +653,7 @@
 										"id": "83",
 										"name": "supraoptic decussation",
 										"description": "3.4.9"
-									},
-									"children": []
+									}
 								}
 							]
 						},
@@ -633,8 +672,7 @@
 								"id": "76",
 								"name": "spinal trigeminal tract",
 								"description": "3.4.10"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "White matter of the tectum",
@@ -668,8 +706,7 @@
 										"id": "46",
 										"name": "commissure of the superior colliculus",
 										"description": "3.4.11"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "brachium of the superior colliculus",
@@ -686,8 +723,7 @@
 										"id": "68",
 										"name": "brachium of the superior colliculus",
 										"description": "3.4.11"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "commissure of the inferior colliculus",
@@ -704,8 +740,7 @@
 										"id": "69",
 										"name": "commissure of the inferior colliculus",
 										"description": "3.4.11"
-									},
-									"children": []
+									}
 								}
 							]
 						},
@@ -741,8 +776,7 @@
 										"id": "7",
 										"name": "inferior cerebellar peduncle",
 										"description": "3.4.12"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "middle cerebellar peduncle",
@@ -759,8 +793,7 @@
 										"id": "78",
 										"name": "middle cerebellar peduncle",
 										"description": "3.4.12"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "transverse fibers of the pons",
@@ -777,8 +810,7 @@
 										"id": "79",
 										"name": "transverse fibers of the pons",
 										"description": "3.4.12"
-									},
-									"children": []
+									}
 								}
 							]
 						}
@@ -833,8 +865,7 @@
 										"id": "64",
 										"name": "glomerular layer of the accessory olfactory bulb",
 										"description": "3.5.1"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "glomerular layer of the olfactory bulb",
@@ -851,8 +882,7 @@
 										"id": "65",
 										"name": "glomerular layer of the olfactory bulb",
 										"description": "3.5.1"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "olfactory bulb",
@@ -869,8 +899,7 @@
 										"id": "66",
 										"name": "olfactory bulb",
 										"description": "3.5.1"
-									},
-									"children": []
+									}
 								}
 							]
 						},
@@ -906,8 +935,7 @@
 										"id": "77",
 										"name": "frontal association cortex",
 										"description": "3.5.2"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "hippocampal formation",
@@ -924,8 +952,7 @@
 										"id": "86",
 										"name": "hippocampal formation",
 										"description": "3.5.2"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "subiculum",
@@ -942,8 +969,7 @@
 										"id": "87",
 										"name": "subiculum",
 										"description": "3.5.2"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "postrhinal cortex",
@@ -960,8 +986,7 @@
 										"id": "88",
 										"name": "postrhinal cortex",
 										"description": "3.5.2"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "ventral-intermediate entorhinal area",
@@ -978,8 +1003,7 @@
 										"id": "89",
 										"name": "ventral-intermediate entorhinal area",
 										"description": "3.5.2"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "medial entorhinal field",
@@ -996,8 +1020,7 @@
 										"id": "90",
 										"name": "medial entorhinal field",
 										"description": "3.5.2"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "caudal entorhinal field",
@@ -1014,8 +1037,7 @@
 										"id": "91",
 										"name": "caudal entorhinal field",
 										"description": "3.5.2"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "neocortex",
@@ -1032,8 +1054,7 @@
 										"id": "92",
 										"name": "neocortex",
 										"description": "3.5.2"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "cingulate cortex, area 2",
@@ -1050,8 +1071,7 @@
 										"id": "10",
 										"name": "cingulate cortex, area 2",
 										"description": "3.5.2"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "dorsal-lateral entorhinal area",
@@ -1068,8 +1088,7 @@
 										"id": "14",
 										"name": "dorsal-lateral entorhinal area",
 										"description": "3.5.2"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "dorsal-intermediate entorhinal area",
@@ -1086,8 +1105,7 @@
 										"id": "15",
 										"name": "dorsal-intermediate entorhinal area",
 										"description": "3.5.2"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "perirhinal cortex",
@@ -1104,8 +1122,7 @@
 										"id": "17",
 										"name": "perirhinal cortex",
 										"description": "3.5.2"
-									},
-									"children": []
+									}
 								}
 							]
 						},
@@ -1124,8 +1141,7 @@
 								"id": "30",
 								"name": "striatum",
 								"description": "3.5.3"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "globus pallidus",
@@ -1142,8 +1158,7 @@
 								"id": "31",
 								"name": "globus pallidus",
 								"description": "3.5.4"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "entopeduncular nucleus",
@@ -1160,8 +1175,7 @@
 								"id": "32",
 								"name": "entopeduncular nucleus",
 								"description": "3.5.5"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "subthalamic nucleus",
@@ -1178,8 +1192,7 @@
 								"id": "3",
 								"name": "subthalamic nucleus",
 								"description": "3.5.6"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "basal forebrain region",
@@ -1196,8 +1209,7 @@
 								"id": "82",
 								"name": "basal forebrain region",
 								"description": "3.5.7"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "septal region",
@@ -1214,8 +1226,7 @@
 								"id": "40",
 								"name": "septal region",
 								"description": "3.5.8"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "thalamus",
@@ -1232,8 +1243,7 @@
 								"id": "39",
 								"name": "thalamus",
 								"description": "3.5.9"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "bed nucleus of the stria terminalis",
@@ -1250,8 +1260,7 @@
 								"id": "93",
 								"name": "bed nucleus of the stria terminalis",
 								"description": "3.5.10"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "nucleus of the stria medullaris",
@@ -1268,8 +1277,7 @@
 								"id": "81",
 								"name": "nucleus of the stria medullaris",
 								"description": "3.5.11"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "hypothalamic region",
@@ -1286,8 +1294,7 @@
 								"id": "48",
 								"name": "hypothalamic region",
 								"description": "3.5.12"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "pineal gland",
@@ -1304,8 +1311,7 @@
 								"id": "43",
 								"name": "pineal gland",
 								"description": "3.5.13"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "Tectum",
@@ -1339,8 +1345,7 @@
 										"id": "49",
 										"name": "inferior colliculus",
 										"description": "3.5.14"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "pretectal region",
@@ -1357,8 +1362,7 @@
 										"id": "94",
 										"name": "pretectal region",
 										"description": "3.5.14"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "superficial gray layer of the superior colliculus",
@@ -1375,8 +1379,7 @@
 										"id": "50",
 										"name": "superficial gray layer of the superior colliculus",
 										"description": "3.5.14"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "deeper layers of the superior colliculus",
@@ -1393,8 +1396,7 @@
 										"id": "55",
 										"name": "deeper layers of the superior colliculus",
 										"description": "3.5.14"
-									},
-									"children": []
+									}
 								}
 							]
 						},
@@ -1413,8 +1415,7 @@
 								"id": "2",
 								"name": "substantia nigra",
 								"description": "3.5.15"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "interpeduncular nucleus",
@@ -1431,8 +1432,7 @@
 								"id": "71",
 								"name": "interpeduncular nucleus",
 								"description": "3.5.16"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "periaqueductal gray",
@@ -1449,8 +1449,7 @@
 								"id": "51",
 								"name": "periaqueductal gray",
 								"description": "3.5.17"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "pontine nuclei",
@@ -1467,8 +1466,7 @@
 								"id": "58",
 								"name": "pontine nuclei",
 								"description": "3.5.18"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "Cerebellum",
@@ -1486,6 +1484,13 @@
 								"name": "Cerebellum",
 								"description": "3.5.2"
 							},
+							"fullId": {
+								"kg": {
+									"kgSchema": "minds/core/parcellationregion/v1.0.0",
+									"kgId": "a844d80f-1d94-41a0-901a-14ae257519db"
+								}
+							},
+							"relatedAreas": [],
 							"children": [
 								{
 									"name": "molecular cell layer of the cerebellum",
@@ -1502,8 +1507,7 @@
 										"id": "4",
 										"name": "molecular cell layer of the cerebellum",
 										"description": "3.5.19"
-									},
-									"children": []
+									}
 								},
 								{
 									"name": "deeper cerebellum",
@@ -1520,17 +1524,9 @@
 										"id": "5",
 										"name": "deeper cerebellum",
 										"description": "3.5.19"
-									},
-									"children": []
+									}
 								}
-							],
-							"fullId": {
-								"kg": {
-									"kgSchema": "minds/core/parcellationregion/v1.0.0",
-									"kgId": "a844d80f-1d94-41a0-901a-14ae257519db"
-								}
-							},
-							"relatedAreas": []
+							]
 						},
 						{
 							"name": "inferior olive",
@@ -1547,8 +1543,7 @@
 								"id": "74",
 								"name": "inferior olive",
 								"description": "3.5.20"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "spinal trigeminal nucleus",
@@ -1565,8 +1560,7 @@
 								"id": "75",
 								"name": "spinal trigeminal nucleus",
 								"description": "3.5.21"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "periventricular gray",
@@ -1583,8 +1577,7 @@
 								"id": "56",
 								"name": "periventricular gray",
 								"description": "3.5.22"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "brain stem",
@@ -1601,8 +1594,7 @@
 								"id": "47",
 								"name": "brain stem",
 								"description": "3.5.23"
-							},
-							"children": []
+							}
 						}
 					]
 				},
@@ -1621,8 +1613,7 @@
 						"id": "33",
 						"name": "ventricular system",
 						"description": "3.6"
-					},
-					"children": []
+					}
 				},
 				{
 					"name": "Spinal cord",
@@ -1656,8 +1647,7 @@
 								"id": "45",
 								"name": "spinal cord",
 								"description": "3.7"
-							},
-							"children": []
+							}
 						},
 						{
 							"name": "central canal",
@@ -1674,8 +1664,7 @@
 								"id": "70",
 								"name": "central canal",
 								"description": "3.7"
-							},
-							"children": []
+							}
 						}
 					]
 				},
@@ -1694,76 +1683,9 @@
 						"id": "44",
 						"name": "inner ear",
 						"description": ""
-					},
-					"children": []
+					}
 				}
-			],
-			"fullId": {
-				"kg": {
-					"kgSchema": "minds/core/parcellationregion/v1.0.0",
-					"kgId": "b2b56201-472c-4f70-842f-cf2133eacaba"
-				}
-			},
-			"relatedAreas": []
+			]
 		}
-	],
-	"volumeSrc": [
-		{
-			"@type": "fzj/tmp/volume_type/v0.0.1",
-			"@id": "fzj/tmp/volume_type/v0.0.1/waxholm_rat_v1_01",
-			"name": "waxholm_rat_v1_01",
-			"volume_type": "neuroglancer/precomputed",
-			"url": "https://neuroglancer.humanbrainproject.org/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v1_01",
-			"detail": {
-				"neuroglancer/precomputed": {
-					"transform": [
-						[
-							1,
-							0,
-							0,
-							-9550781
-						],
-						[
-							0,
-							1,
-							0,
-							-24355468
-						],
-						[
-							0,
-							0,
-							1,
-							-9707031
-						],
-						[
-							0,
-							0,
-							0,
-							1
-						]
-					]
-				}
-			},
-			"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
-		}
-	],
-	"description": "Waxholm Space atlas of the Sprague Dawley rat brain, first iteration with major brain regions delineated (76 structures).",
-	"publications": [
-		{
-			"citation": "https://www.nitrc.org/frs/?group_id=1081",
-			"doi": "https://www.nitrc.org/frs/?group_id=1081"
-		},
-		{
-			"doi": "10.1016/j.neuroimage.2014.04.001",
-			"citation": "Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386"
-		}
-	],
-	"modality": null,
-	"version": "1.01",
-	"@version": {
-		"name": "1.01",
-		"@prev": null,
-		"collectionName": "Waxholm Space rat brain atlas",
-		"@next": "minds/core/parcellationatlas/v1.0.0/2449a7f0-6dd0-4b5a-8f1e-aec0db03679d"
-	}
+	]
 }

@@ -6,49 +6,112 @@
 	"templateType": "nii",
 	"displayName": "ICBM 152 2009c Nonlinear Asymmetric",
 	"srcVolumeType": "mri",
-	"volumeSrc": [{
-		"@type": "fzj/tmp/volume_type/v0.0.1",
-		"@id": "fzj/tmp/volume_type/v0.0.1/icbm152_2009c_nonlin_asym/nifti",
-		"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-		"name": "icbm152_2009c_nonlin_asym/nifti",
-		"volume_type": "nii",
-		"url": "http://www.bic.mni.mcgill.ca/~vfonov/icbm/2009/mni_icbm152_nlin_asym_09c_nifti.zip",
-		"zipped_file": "mni_icbm152_t1_tal_nlin_asym_09c.nii"
-	},{
-		"@type": "fzj/tmp/volume_type/v0.0.1",
-		"@id": "fzj/tmp/volume_type/v0.0.1/icbm152_2009c_nonlin_asym/ng_precomp",
-		"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-		"name": "icbm152_2009c_nonlin_asym",
-		"volume_type": "neuroglancer/precomputed",
-		"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/mni_icbm152_t1_tal_nlin_asym_09c_masked",
-		"detail": {
-			"neuroglancer/precomputed": {
-				"transform": [[1,0,0,-96500000],[0,1,0,-132500000],[0,0,1,-78500000],[0,0,0,1]]
+	"datasets": [
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/icbm152_2009c_nonlin_asym/nifti",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"name": "icbm152_2009c_nonlin_asym/nifti",
+			"volume_type": "nii",
+			"url": "http://www.bic.mni.mcgill.ca/~vfonov/icbm/2009/mni_icbm152_nlin_asym_09c_nifti.zip",
+			"zipped_file": "mni_icbm152_t1_tal_nlin_asym_09c.nii"
+		},
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/icbm152_2009c_nonlin_asym/ng_precomp",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"name": "icbm152_2009c_nonlin_asym",
+			"volume_type": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/mni_icbm152_t1_tal_nlin_asym_09c_masked",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1,
+							0,
+							0,
+							-96500000
+						],
+						[
+							0,
+							1,
+							0,
+							-132500000
+						],
+						[
+							0,
+							0,
+							1,
+							-78500000
+						],
+						[
+							0,
+							0,
+							0,
+							1
+						]
+					]
+				}
 			}
-		}
-	},{
-		"@type": "fzj/tmp/volume_type/v0.0.1",
-		"@id": "fzj/tmp/volume_type/v0.0.1/icbm152_2009c_nonlin_asym/ng_precompmesh",
-		"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-		"name": "icbm152_2009c_nonlin_asym_mesh",
-		"volume_type": "neuroglancer/precompmesh",
-		"url": "https://neuroglancer.humanbrainproject.eu/precomputed/icbm152_2009c_nonlin_asym",
-		"detail": {
-			"neuroglancer/precompmesh": {
-				"auxMeshes": [{
-					"name": "Cortex",
-					"labelIndicies": [ 65500, 65510 ]
-				},{
-					"name": "Sulci",
-					"labelIndicies": [ 65501, 65511 ]
-				}],
-				"transform": [[1,0,0,-96500000],[0,1,0,-132500000],[0,0,1,-78500000],[0,0,0,1]]
+		},
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/icbm152_2009c_nonlin_asym/ng_precompmesh",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"name": "icbm152_2009c_nonlin_asym_mesh",
+			"volume_type": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/icbm152_2009c_nonlin_asym",
+			"detail": {
+				"neuroglancer/precompmesh": {
+					"auxMeshes": [
+						{
+							"name": "Cortex",
+							"labelIndicies": [
+								65500,
+								65510
+							]
+						},
+						{
+							"name": "Sulci",
+							"labelIndicies": [
+								65501,
+								65511
+							]
+						}
+					],
+					"transform": [
+						[
+							1,
+							0,
+							0,
+							-96500000
+						],
+						[
+							0,
+							1,
+							0,
+							-132500000
+						],
+						[
+							0,
+							0,
+							1,
+							-78500000
+						],
+						[
+							0,
+							0,
+							0,
+							1
+						]
+					]
+				}
 			}
+		},
+		{
+			"@type": "fzj/tmp/simpleOriginInfo/v0.0.1",
+			"name": "MNI 152 ICBM 2009c Nonlinear Asymmetric",
+			"description": "An unbiased non-linear average of multiple subjects from the MNI152 database, which provides high-spatial resolution and signal-to-noise while not being biased towards a single brain (Fonov et al., 2011). This template space is widely used as a reference space in neuroimaging. HBP provides the JuBrain probabilistic cytoarchitectonic atlas (Amunts/Zilles, 2015) as well as a probabilistic atlas of large fibre bundles (Guevara, Mangin et al., 2017) in this space."
 		}
-	}],
-	"originDatasets":[{
-		"@type": "fzj/tmp/simpleOriginInfo/v0.0.1",
-		"name": "MNI 152 ICBM 2009c Nonlinear Asymmetric",
-		"description": "An unbiased non-linear average of multiple subjects from the MNI152 database, which provides high-spatial resolution and signal-to-noise while not being biased towards a single brain (Fonov et al., 2011). This template space is widely used as a reference space in neuroimaging. HBP provides the JuBrain probabilistic cytoarchitectonic atlas (Amunts/Zilles, 2015) as well as a probabilistic atlas of large fibre bundles (Guevara, Mangin et al., 2017) in this space."
-	}]
+	]
 }
