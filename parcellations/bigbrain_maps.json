@@ -1,0 +1,389 @@
+{
+	"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-ext-bigbrain-2021-1",
+	"@type": "minds/core/parcellationatlas/v1.0.0",
+	"@extends": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290",
+	"version": "2021-1",
+	"name": "Ultrahigh resolution 3D maps of cytoarchitectonic areas in the BigBrain model",
+	"shortName": "Cytoarchitectonic Maps in BigBrain",
+	"description": "A well-established standard for cytoarchitectonic brain mapping is based on a semi-automatic multivariate statistical image analysis method [Schleicher et al. 1999, Schleicher et al. 2005] applied to 2D histological tissue sections which were stained for neuronal cell bodies. Human expert delineations are typically only available for every 15th-60th section depending on the brain region and the cutting direction of the analyzed brain. These delineations were preferably made on histological sections that have an orthogonal orientation of the cortex to the cutting direction, as this simplifies both manual and computer-aided analysis. To provide full 3D maps of cytoarchitectonic areas in the Big Brain model [Amunts et al. 2013], we work in two stages: After transforming individual 2D reference delineations from the original tissue sections into the 3D reconstructed Big Brain space, we compute a preliminary version by interpolation of the delineations in 3D. We typically provide these preliminary versions of 3D maps early in the HBP atlas. As a second stage, we use Deep Convolutional Networks [Spitzer et al. 2017, Spitzer et al. 2018] to compute more precise automatic segmentations of brain regions in every single histological section, trained from the initial set of expert delineations of each area. These models learn to segment each brain area in a large fraction of the missing 2D sections, but require careful quality control by an expert. Automatic delineations which are rated as imprecise by the expert are replaced by interpolations between the closest masks that have passed the quality check. Interpolated sections are documented in the dataset “interpolation_info”, and have a different intensity value in the map. This dataset contains the whole-brain parcellation of the Julich-Brain Cytoarchitectonic Atlas in the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space (Evans et al., 2012). The parcellation is derived from the individual probability maps (PMs) of the cytoarchitectonic regions released in the Julich-Brain Cytoarchitectonic Atlas, that are further combined into a Maximum Probability Map (MPM). The MPM is calculated by considering for each voxel the probability of all cytoarchitectonic areas released in the atlas, and determining the most probable assignment (Eickhoff 2005). Gap maps complement cortical maps to achieve full cortical coverage.",
+	"modality": "cytoarchitecture",
+	"publications": [
+		{
+			"doi": "10.1016/j.neuroimage.2021.118327",
+			"citation": "Schiffer, C., Spitzer, H., Kiwitz, K., Unger, N., Wagstyl, K., Evans, A. C., Harmeling, S., Amunts, K., Dickscheid, T (2021). Convolutional Neural Networks for cytoarchitectonic brain mapping at large scale. NeuroImage 118327"
+		},
+		{
+			"doi": "10.1007/978-3-030-00931-1_76",
+			"citation": "Spitzer, H., Kiwitz, K., Amunts, K., Harmeling, S., Dickscheid, T. (2018). Improving Cytoarchitectonic Segmentation of Human Brain Areas with Self-supervised Siamese Networks. In: Frangi A., Schnabel J., Davatzikos C., Alberola-López C., Fichtinger G. (eds) Medical Image Computing and Computer Assisted Intervention – MICCAI 2018. MICCAI 2018. Lecture Notes in Computer Science, vol 11072. Springer, Cham."
+		},
+		{
+			"doi": "10.1006/nimg.1998.0385",
+			"citation": "Schleicher, A., Amunts, K., Geyer, S., Morosan, P., & Zilles, K. (1999). Observer-Independent Method for Microstructural Parcellation of Cerebral Cortex: A Quantitative Approach to Cytoarchitectonics. NeuroImage, 9(1), 165–177."
+		},
+		{
+			"doi": "10.1126/science.abb4588",
+			"citation": "Amunts, K., Mohlberg, H., Bludau, S., Zilles, K. (2020). Julich-Brain \u2013 A 3D probabilistic atlas of human brain\u2019s cytoarchitecture. Science 369, 988-992"
+		},
+		{
+			"doi": "10.1126/science.1235381",
+			"citation": "Amunts, K., Lepage, C., Borgeat, L., Mohlberg, H., Dickscheid, T., Rousseau, M. E., Bludau, S., Bazin, P. L., Lewis, L. B., Oros-Peusquens, A. M., Shah, N. J., Lippert, T., Zilles, K., Evans, A. C. (2013).  BigBrain: An Ultrahigh-Resolution 3D Human Brain Model. Science, 340(6139),1472-5."
+		}
+	],
+	"datasets": [
+		{
+			"@type": "minds/core/dataset/v1.0.0",
+			"kgSchema": "minds/core/dataset/v1.0.0",
+			"kgId": "af8d3519-9561-4060-8da9-2de1bb966a81"
+		},
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/collect",
+			"name": "detailed maps",
+			"volume_type": "detailed maps",
+			"url": null,
+			"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+			"map_type": "labelled"
+		}
+	],
+	"regions": [
+		{
+			"name": "inferior frontal sulcus",
+			"children": [
+				{
+					"name": "Area ifj1 (IFS/PreCS)",
+					"ngId": "interpolated",
+					"status": "interpolated",
+					"labelIndex": 9,
+					"children": [],
+					"position": [
+						-7394436,
+						33562602,
+						19086364
+					],
+					"fullId": {
+						"kg": {
+							"kgSchema": "minds/core/parcellationregion/v1.0.0",
+							"kgId": "a6a83284-829b-4385-9f83-7f1bc832c5a5"
+						}
+					},
+					"relatedAreas": [],
+					"datasets":[
+						{
+							"kgSchema": "minds/core/dataset/v1.0.0",
+							"kgId": "412a639b-63a6-448d-a387-272488458501",
+							"format": {
+								"name": "3D interpolated map"
+							}
+						}
+					]
+				},
+				{
+					"name": "Area ifj2 (IFS/PreCS)",
+					"ngId": "interpolated",
+					"status": "interpolated",
+					"labelIndex": 10,
+					"children": [],
+					"position": [
+						-26787581,
+						30975651,
+						16855869
+					],
+					"datasets":[
+						{
+							"kgSchema": "minds/core/dataset/v1.0.0",
+							"kgId": "5079e40f-7274-4348-9939-2a852644d230",
+							"format": {
+								"name": "3D interpolated map"
+							}
+						}
+					]
+				},
+				{
+					"name": "Area ifs1 (IFS)",
+					"ngId": "interpolated",
+					"status": "interpolated",
+					"labelIndex": 11,
+					"children": [],
+					"position": [
+						-4044465,
+						40212624,
+						17596493
+					],
+					"fullId": {
+						"kg": {
+							"kgSchema": "minds/core/parcellationregion/v1.0.0",
+							"kgId": "d687d385-98d9-4b31-85db-4bc682cd0a31"
+						}
+					},
+					"relatedAreas": [],
+					"datasets":[
+						{
+							"kgSchema": "minds/core/dataset/v1.0.0",
+							"kgId": "ea4ce6db-9adf-4080-9d6d-c3d455673feb",
+							"format": {
+								"name": "3D interpolated map"
+							}
+						}
+					]
+				},
+				{
+					"name": "Area ifs2 (IFS)",
+					"ngId": "interpolated",
+					"status": "interpolated",
+					"labelIndex": 12,
+					"children": [],
+					"position": [
+						6807265,
+						40114241,
+						18114896
+					],
+					"fullId": {
+						"kg": {
+							"kgSchema": "minds/core/parcellationregion/v1.0.0",
+							"kgId": "658a67d8-60c2-4bb4-8eaf-e54725eda261"
+						}
+					},
+					"relatedAreas": [],
+					"datasets":[
+						{
+							"kgSchema": "minds/core/dataset/v1.0.0",
+							"kgId": "df2c8de3-370c-4fc0-b822-c7cf7268b4bc",
+							"format": {
+								"name": "3D interpolated map"
+							}
+						}
+					]
+				},
+				{
+					"name": "Area ifs3 (IFS)",
+					"ngId": "interpolated",
+					"status": "interpolated",
+					"labelIndex": 13,
+					"children": [],
+					"position": [
+						-2260366,
+						37593844,
+						19960703
+					],
+					"fullId": {
+						"kg": {
+							"kgSchema": "minds/core/parcellationregion/v1.0.0",
+							"kgId": "e555881e-7082-4ac0-b6cc-cd096f30d3dc"
+						}
+					},
+					"relatedAreas": [],
+					"datasets":[
+						{
+							"kgSchema": "minds/core/dataset/v1.0.0",
+							"kgId": "6290eaf9-69df-4c44-883a-678c0395b187",
+							"format": {
+								"name": "3D interpolated map"
+							}
+						}
+					]
+				},
+				{
+					"name": "Area ifs4 (IFS)",
+					"ngId": "interpolated",
+					"status": "interpolated",
+					"labelIndex": 14,
+					"children": [],
+					"position": [
+						-3440565,
+						37895181,
+						17378851
+					],
+					"fullId": {
+						"kg": {
+							"kgSchema": "minds/core/parcellationregion/v1.0.0",
+							"kgId": "472dacc9-c27d-49c2-9e6f-a1cc3309c4ab"
+						}
+					},
+					"relatedAreas": [],
+					"datasets":[
+						{
+							"kgSchema": "minds/core/dataset/v1.0.0",
+							"kgId": "762b8ed5-8467-4bd6-ac3c-0aa0e1815cd3",
+							"format": {
+								"name": "3D interpolated map"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "lateral geniculate body",
+			"children": [
+				{
+					"name": "LGB-lam1 (CGL, Metathalamus)",
+					"ngId": "LGB-lam1",
+					"status": "fully mapped",
+					"labelIndex": 1,
+					"rgb": [
+						255,
+						255,
+						74
+					],
+					"children": [],
+					"fullId": {
+						"kg": {
+							"kgSchema": "minds/core/parcellationregion/v1.0.0",
+							"kgId": "29335a69-4241-422a-a91c-117bc3bc8fa8"
+						}
+					},
+					"relatedAreas": [],
+					"datasets":[
+						{
+							"kgSchema": "minds/core/dataset/v1.0.0",
+							"kgId": "d0c36f4a-91a8-4885-880d-f2896f5c54cf",
+							"format": {
+								"name": "Full 3D map"
+							}
+						}
+					]
+				},
+				{
+					"name": "LGB-lam2 (CGL, Metathalamus)",
+					"ngId": "LGB-lam2",
+					"status": "fully mapped",
+					"labelIndex": 1,
+					"rgb": [
+						222,
+						74,
+						173
+					],
+					"children": [],
+					"fullId": {
+						"kg": {
+							"kgSchema": "minds/core/parcellationregion/v1.0.0",
+							"kgId": "29335a69-4241-422a-a91c-117bc3bc8fa8"
+						}
+					},
+					"relatedAreas": [],
+					"datasets":[
+						{
+							"kgSchema": "minds/core/dataset/v1.0.0",
+							"kgId": "d0c36f4a-91a8-4885-880d-f2896f5c54cf",
+							"format": {
+								"name": "Full 3D map"
+							}
+						}
+					]
+				},
+				{
+					"name": "LGB-lam3 (CGL, Metathalamus)",
+					"ngId": "LGB-lam3",
+					"status": "fully mapped",
+					"labelIndex": 1,
+					"rgb": [
+						132,
+						90,
+						173
+					],
+					"children": [],
+					"fullId": {
+						"kg": {
+							"kgSchema": "minds/core/parcellationregion/v1.0.0",
+							"kgId": "29335a69-4241-422a-a91c-117bc3bc8fa8"
+						}
+					},
+					"relatedAreas": [],
+					"datasets":[
+						{
+							"kgSchema": "minds/core/dataset/v1.0.0",
+							"kgId": "d0c36f4a-91a8-4885-880d-f2896f5c54cf",
+							"format": {
+								"name": "Full 3D map"
+							}
+						}
+					]
+				},
+				{
+					"name": "LGB-lam4 (CGL, Metathalamus)",
+					"ngId": "LGB-lam4",
+					"status": "fully mapped",
+					"labelIndex": 1,
+					"rgb": [
+						41,
+						123,
+						198
+					],
+					"children": [],
+					"fullId": {
+						"kg": {
+							"kgSchema": "minds/core/parcellationregion/v1.0.0",
+							"kgId": "29335a69-4241-422a-a91c-117bc3bc8fa8"
+						}
+					},
+					"relatedAreas": [],
+					"datasets":[
+						{
+							"kgSchema": "minds/core/dataset/v1.0.0",
+							"kgId": "d0c36f4a-91a8-4885-880d-f2896f5c54cf",
+							"format": {
+								"name": "Full 3D map"
+							}
+						}
+					]
+				},
+				{
+					"name": "LGB-lam5 (CGL, Metathalamus)",
+					"ngId": "LGB-lam5",
+					"status": "fully mapped",
+					"labelIndex": 1,
+					"rgb": [
+						82,
+						214,
+						222
+					],
+					"children": [],
+					"fullId": {
+						"kg": {
+							"kgSchema": "minds/core/parcellationregion/v1.0.0",
+							"kgId": "29335a69-4241-422a-a91c-117bc3bc8fa8"
+						}
+					},
+					"relatedAreas": [],
+					"datasets":[
+						{
+							"kgSchema": "minds/core/dataset/v1.0.0",
+							"kgId": "d0c36f4a-91a8-4885-880d-f2896f5c54cf",
+							"format": {
+								"name": "Full 3D map"
+							}
+						}
+					]
+				},
+				{
+					"name": "LGB-lam6 (CGL, Metathalamus)",
+					"ngId": "LGB-lam6",
+					"status": "fully mapped",
+					"labelIndex": 1,
+					"rgb": [
+						99,
+						231,
+						66
+					],
+					"children": [],
+					"fullId": {
+						"kg": {
+							"kgSchema": "minds/core/parcellationregion/v1.0.0",
+							"kgId": "29335a69-4241-422a-a91c-117bc3bc8fa8"
+						}
+					},
+					"relatedAreas": [],
+					"datasets":[
+						{
+							"kgSchema": "minds/core/dataset/v1.0.0",
+							"kgId": "d0c36f4a-91a8-4885-880d-f2896f5c54cf",
+							"format": {
+								"name": "Full 3D map"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
