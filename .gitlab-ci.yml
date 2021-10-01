@@ -10,3 +10,8 @@ parc_version_ci:
   stage: test
   script:
     - python ./_ci/parc_version_ci.py
+
+dataset_compliance:
+  stage: test
+  script:
+    - python ./_ci/dataset_compliance.py
