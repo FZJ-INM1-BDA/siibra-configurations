@@ -1,0 +1,342 @@
+{
+	"@id": "https://identifiers.org/neurovault.image:23262",
+	"@type": "minds/core/parcellationatlas/v1.0.0",
+	"name": "Desikan-Killiany Atlas (2006)",
+	"shortName": "Desikan-Killiany 2006",
+	"version": "2006",
+	"description": "The Desikan Killiany atlas is based on an automated labeling system for subdividing the human cerebral cortex on magnetic resonance images into gyral based regions of interest. The MNI parcellations provided here are computed by nonlinear registration of the standard parcellation in fsaverage space, using the registration procedure by Wu et al. 2018",
+	"publications": [
+		{
+			"doi": "https://doi.org/10.1016/j.neuroimage.2006.01.021",
+			"cite": "Desikan RS, S\u00e9gonne F, Fischl B, Quinn BT, Dickerson BC, Blacker D, Buckner RL, Dale AM, Maguire RP, Hyman BT, Albert MS, Killiany RJ. An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest. NeuroImage. 2006;31(3):968-980."
+		},
+		{
+			"doi": "https://doi.org/10.1002/hbm.24213",
+			"cite": "Wu J, Ngo GH, Greve D, Li J, He T, Fischl B, Eickhoff SB, Yeo BTT. Accurate nonlinear mapping between MNI volumetric and FreeSurfer surface coordinate systems. Hum Brain Mapp. 2018;39(9):3793-3808."
+		}
+	],
+	"datasets": [
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/aparc",
+			"name": "Desikan Kiliany MNI152 nifti",
+			"volume_type": "nii",
+			"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/desikan-killiany/aparc_mni152.nii",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"map_type": "labelled"
+		},
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/aparc",
+			"name": "Desikan Kiliany MNI Colin27 nifti",
+			"volume_type": "nii",
+			"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/desikan-killiany/aparc_colin27.nii",
+			"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
+			"map_type": "labelled"
+		}
+	],
+	"regions": [
+		{
+			"name": "Temporal lobe",
+			"children": [
+				{
+					"name": "left entorhinal",
+					"labelIndex": 1006
+				},
+				{
+					"name": "right entorhinal",
+					"labelIndex": 2006
+				},
+				{
+					"name": "left parahippocampal",
+					"labelIndex": 1016
+				},
+				{
+					"name": "right parahippocampal",
+					"labelIndex": 2016
+				},
+				{
+					"name": "left fusiform",
+					"labelIndex": 1007
+				},
+				{
+					"name": "right fusiform",
+					"labelIndex": 2007
+				},
+				{
+					"name": "left superior temporal",
+					"labelIndex": 1030
+				},
+				{
+					"name": "right superior temporal",
+					"labelIndex": 2030
+				},
+				{
+					"name": "left inferior temporal",
+					"labelIndex": 1009
+				},
+				{
+					"name": "right inferior temporal",
+					"labelIndex": 2009
+				},
+				{
+					"name": "left middle temporal",
+					"labelIndex": 1015
+				},
+				{
+					"name": "right middle temporal",
+					"labelIndex": 2015
+				},
+				{
+					"name": "left transverse temporal",
+					"labelIndex": 1034
+				},
+				{
+					"name": "right transverse temporal",
+					"labelIndex": 2034
+				}
+			]
+		},
+		{
+			"name": "Frontal lobe",
+			"children": [
+				{
+					"name": "left caudal middle frontal",
+					"labelIndex": 1003
+				},
+				{
+					"name": "right caudal middle frontal",
+					"labelIndex": 2003
+				},
+				{
+					"name": "left lateral orbitofrontal",
+					"labelIndex": 1012
+				},
+				{
+					"name": "right lateral orbitofrontal",
+					"labelIndex": 2012
+				},
+				{
+					"name": "left medial orbitofrontal",
+					"labelIndex": 1014
+				},
+				{
+					"name": "right medial orbitofrontal",
+					"labelIndex": 2014
+				},
+				{
+					"name": "left rostral middle frontal",
+					"labelIndex": 1027
+				},
+				{
+					"name": "right rostral middle frontal",
+					"labelIndex": 2027
+				},
+				{
+					"name": "left superior frontal",
+					"labelIndex": 1028
+				},
+				{
+					"name": "right superior frontal",
+					"labelIndex": 2028
+				},
+				{
+					"name": "left pars opercularis",
+					"labelIndex": 1018
+				},
+				{
+					"name": "right pars opercularis",
+					"labelIndex": 2018
+				},
+				{
+					"name": "left pars orbitalis",
+					"labelIndex": 1019
+				},
+				{
+					"name": "right pars orbitalis",
+					"labelIndex": 2019
+				},
+				{
+					"name": "left pars triangularis",
+					"labelIndex": 1020
+				},
+				{
+					"name": "right pars triangularis",
+					"labelIndex": 2020
+				},
+				{
+					"name": "left precentral",
+					"labelIndex": 1024
+				},
+				{
+					"name": "right precentral",
+					"labelIndex": 2024
+				},
+				{
+					"name": "left paracentral",
+					"labelIndex": 1017
+				},
+				{
+					"name": "right paracentral",
+					"labelIndex": 2017
+				}
+			]
+		},
+		{
+			"name": "Parietal lobe",
+			"children": [
+				{
+					"name": "left postcentral",
+					"labelIndex": 1022
+				},
+				{
+					"name": "right postcentral",
+					"labelIndex": 2022
+				},
+				{
+					"name": "left supramarginal",
+					"labelIndex": 1031
+				},
+				{
+					"name": "right supramarginal",
+					"labelIndex": 2031
+				},
+				{
+					"name": "left superior parietal",
+					"labelIndex": 1029
+				},
+				{
+					"name": "right superior parietal",
+					"labelIndex": 2029
+				},
+				{
+					"name": "left inferior parietal",
+					"labelIndex": 1008
+				},
+				{
+					"name": "right inferior parietal",
+					"labelIndex": 2008
+				},
+				{
+					"name": "left precuneus",
+					"labelIndex": 1025
+				},
+				{
+					"name": "right precuneus",
+					"labelIndex": 2025
+				}
+			]
+		},
+		{
+			"name": "Occipital lobe",
+			"children": [
+				{
+					"name": "left lingual",
+					"labelIndex": 1013
+				},
+				{
+					"name": "right lingual",
+					"labelIndex": 2013
+				},
+				{
+					"name": "left pericalcarine",
+					"labelIndex": 1021
+				},
+				{
+					"name": "right pericalcarine",
+					"labelIndex": 2021
+				},
+				{
+					"name": "left cuneus",
+					"labelIndex": 1005
+				},
+				{
+					"name": "right cuneus",
+					"labelIndex": 2005
+				},
+				{
+					"name": "left lateral occipital",
+					"labelIndex": 1011
+				},
+				{
+					"name": "right lateral occipital",
+					"labelIndex": 2011
+				}
+			]
+		},
+		{
+			"name": "Cingulate cortex",
+			"children": [
+				{
+					"name": "left rostral anterior cingulate",
+					"labelIndex": 1026
+				},
+				{
+					"name": "right rostral anterior cingulate",
+					"labelIndex": 2026
+				},
+				{
+					"name": "left caudal anterior cingulate",
+					"labelIndex": 1002
+				},
+				{
+					"name": "right caudal anterior cingulate",
+					"labelIndex": 2002
+				},
+				{
+					"name": "left posterior cingulate",
+					"labelIndex": 1023
+				},
+				{
+					"name": "right posterior cingulate",
+					"labelIndex": 2023
+				},
+				{
+					"name": "left isthmus cingulate",
+					"labelIndex": 1010
+				},
+				{
+					"name": "right isthmus cingulate",
+					"labelIndex": 2010
+				},
+				{
+					"name": "left insula",
+					"labelIndex": 1035
+				},
+				{
+					"name": "right insula",
+					"labelIndex": 2035
+				}
+			]
+		},
+		{
+			"name": "Other",
+			"children": [
+				{
+					"name": "ctx-lh-bankssts",
+					"labelIndex": 1001
+				},
+				{
+					"name": "ctx-lh-frontalpole",
+					"labelIndex": 1032
+				},
+				{
+					"name": "ctx-lh-temporalpole",
+					"labelIndex": 1033
+				},
+				{
+					"name": "ctx-rh-bankssts",
+					"labelIndex": 2001
+				},
+				{
+					"name": "ctx-rh-frontalpole",
+					"labelIndex": 2032
+				},
+				{
+					"name": "ctx-rh-temporalpole",
+					"labelIndex": 2033
+				}
+			]
+		}
+	]
+}

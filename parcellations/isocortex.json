@@ -1,11 +1,50 @@
 {
 	"name": "BigBrain Isocortex Segmentation",
-	"shortName": "Isocortex",
+	"shortName": "BigBrain Isocortex",
 	"@id": "juelich/iav/atlas/v1.0.0/4",
-	"maps": {
-		"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588" : {}
-	},
+	"@type": "minds/core/parcellationatlas/v1.0.0",
 	"type": "parcellation",
+	"datasets": [
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/isocortex",
+			"name": "isocortex precomputed",
+			"volume_type": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1,
+							0,
+							0,
+							-70666600
+						],
+						[
+							0,
+							1,
+							0,
+							-72910000
+						],
+						[
+							0,
+							0,
+							1,
+							-58777700
+						],
+						[
+							0,
+							0,
+							0,
+							1
+						]
+					]
+				}
+			},
+			"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+			"map_type": "labelled"
+		}
+	],
 	"regions": [
 		{
 			"name": "Isocortex",
@@ -14,8 +53,7 @@
 				200,
 				200,
 				200
-			],
-			"children": []
+			]
 		},
 		{
 			"name": "Non-isocortical structures",
@@ -24,8 +62,7 @@
 				255,
 				255,
 				255
-			],
-			"children": []
+			]
 		}
 	]
 }

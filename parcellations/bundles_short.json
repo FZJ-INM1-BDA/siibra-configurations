@@ -1,9 +1,3496 @@
 {
-	"name": "Probabilistic Superficial Fibre Bundle Atlas",
-	"shortName": "Short Bundle",
 	"@id": "juelich/iav/atlas/v1.0.0/6",
-	"groupName": "Fibre tracts",
-	"maps": {
-		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2" : {}
-	}
+	"@type": "minds/core/parcellationatlas/v1.0.0",
+	"name": "Probabilistic Superficial Fibre Bundle Maps",
+	"shortName": "Superficial Fibre Bundles",
+	"description": "This data contains the maximum probability map of superficial white matter fibre bundles, in the MNI ICBM152 reference brain. These bundles were identified using a hybrid approach, incorporating anatomical information (from cortical regions of interest) and fibre shape (fibre clustering), from the tractography datasets of 78 subjects in the Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
+	"publications": [
+		{
+			"doi": "10.1016/j.neuroimage.2012.02.071",
+			"cite": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas. NeuroImage, 61(4),1083-99."
+		}
+	],
+	"modality": "fibre architecture",
+	"datasets": [
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/bundle-short-nii",
+			"name": "bundle-short icbm152 nifti",
+			"volume_type": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"map_type": "labelled"
+		},
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/bundle-short",
+			"name": "bundle-short icbm152 ng precomp",
+			"volume_type": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1,
+							0,
+							0,
+							-96500000
+						],
+						[
+							0,
+							1,
+							0,
+							-132500000
+						],
+						[
+							0,
+							0,
+							1,
+							-78500000
+						],
+						[
+							0,
+							0,
+							0,
+							1
+						]
+					]
+				}
+			},
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"map_type": "labelled"
+		},
+		{
+			"@type": "minds/core/dataset/v1.0.0",
+			"kgSchema": "minds/core/dataset/v1.0.0",
+			"kgId": "f58e4425-6614-4ad9-ac26-5e946b1296cb"
+		}
+	],
+	"regions": [
+		{
+			"name": "Left Hemisphere",
+			"children": [
+				{
+					"name": "Caudal Middle Frontal - Precuneus",
+					"children": [
+						{
+							"name": "lh_CAC-PrCu_0",
+							"labelIndex": 38,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"90ac80d5-bec6-4655-84f5-41086370808d": {
+										"name": "left hemisphere Precuneus (lh_PrCu)"
+									},
+									"4377b03e-cdb3-42ea-9f52-16abf8d799bd": {
+										"name": "left hemisphere Caudal Anterior Cingulate (lh_CAC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "8968a37e-552d-43de-a361-666033723fc1",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CAC-PrCu_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CAC-PrCu_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CAC-PrCu/bundle-0/lh_CAC-PrCu_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Caudal Middle Frontal \u2013 Pars Opercularis",
+					"children": [
+						{
+							"name": "lh_CMF-Op_0",
+							"labelIndex": 37,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"1b20be7e-dcc6-44f2-b186-7605b10d7689": {
+										"name": "left hemisphere Pars Opercularis (lh_Op)"
+									},
+									"dc749ec9-4957-4307-9e6f-46ca4d1cdbeb": {
+										"name": "left hemisphere Caudal Middle Frontal (lh_CMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "a9a96fbd-ccdb-49d3-b60c-ae5a7a5471fa",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CMF-Op_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CMF-Op_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-Op/bundle-0/lh_CMF-Op_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Caudal Middle Frontal - Poscentral",
+					"children": [
+						{
+							"name": "lh_CMF-PoC_0",
+							"labelIndex": 62,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"5c571448-e864-4535-abe6-e1e0ae38c27a": {
+										"name": "left hemisphere Postcentral (lh_PoC)"
+									},
+									"a3866dc4-b97b-4329-b677-bacc6ef53293": {
+										"name": "left hemisphere Caudal Middle Frontal (lh_CMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "71f2efd7-db05-4006-88b5-2b34b36bee91",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CMF-PoC_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CMF-PoC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-PoC/bundle-0/lh_CMF-PoC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Caudal Middle Frontal - Precentral",
+					"children": [
+						{
+							"name": "lh_CMF-PrC_0",
+							"labelIndex": 97,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"c23e6ef7-a980-4ca6-b4c9-f756e0118902": {
+										"name": "left hemisphere Precentral (lh_PrC)"
+									},
+									"7ddbf594-9710-4fb9-8660-cbb5dbc466cf": {
+										"name": "left hemisphere Caudal Middle Frontal (lh_CMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "57f169f3-fe5f-42de-8074-50da96adc53a",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CMF-PrC_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CMF-PrC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-PrC/bundle-0/lh_CMF-PrC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "lh_CMF-PrC_1",
+							"labelIndex": 99,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"c5dfa7a0-b626-4155-890e-1359ff3f4d8e": {
+										"name": "left hemisphere Precentral (lh_PrC)"
+									},
+									"a0bec6d3-fbc9-4768-b98e-ba8250dfc32a": {
+										"name": "left hemisphere Caudal Middle Frontal (lh_CMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "4b1a0e0e-0c51-4a67-a7ed-1821ee23c702",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CMF-PrC_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CMF-PrC_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-PrC/bundle-1/lh_CMF-PrC_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Caudal Middle Frontal \u2013 Rostral Middle Frontal",
+					"children": [
+						{
+							"name": "lh_CMF-RMF_0",
+							"labelIndex": 49,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"6641ab28-cf9a-4e10-ad6f-e9ebb476ba3e": {
+										"name": "left hemisphere Rostral Middle Frontal (lh_RMF)"
+									},
+									"26a6b439-00cc-43b2-a333-552acf372ddb": {
+										"name": "left hemisphere Caudal Middle Frontal (lh_CMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "314d6705-3859-4d5a-b945-9170fb5a7f0c",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CMF-RMF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CMF-RMF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-RMF/bundle-0/lh_CMF-RMF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Caudal Middle Frontal \u2013 Superior Frontal",
+					"children": [
+						{
+							"name": "lh_CMF-SF_0",
+							"labelIndex": 68,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"1bdeb53d-e753-4a0d-8f80-2df3e539ee84": {
+										"name": "left hemisphere Superior Frontal (lh_SF)"
+									},
+									"4b922c66-c3fe-4a99-8543-43cfd90fa50e": {
+										"name": "left hemisphere Caudal Middle Frontal (lh_CMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "fe019895-7be8-4dfa-a5b0-b70507a0604f",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_CMF-SF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_CMF-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_CMF-SF/bundle-0/lh_CMF-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Fusiform \u2013 Lateral Occipital",
+					"children": [
+						{
+							"name": "lh_Fu-LO_0",
+							"labelIndex": 51,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"7838b80a-7294-4b36-9416-66183a705a1a": {
+										"name": "left hemisphere Lateral Occipital (lh_LO)"
+									},
+									"bdb4477b-f1d7-4a04-9188-ace83e3f47e9": {
+										"name": "left hemisphere Fusiform (lh_Fu)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "71ee6b85-1ec7-40c3-b1a3-a80503af7fcb",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Fu-LO_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Fu-LO_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Fu-LO/bundle-0/lh_Fu-LO_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Isthmus Cingulate - Precuneus",
+					"children": [
+						{
+							"name": "lh_IC-PrCu_0",
+							"labelIndex": 40,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"8dd1267b-f01a-4fbd-84b6-89a8d4fdabed": {
+										"name": "left hemisphere Precuneus (lh_PrCu)"
+									},
+									"01f6de2d-7fc8-454c-b69b-b0a9b530bb2d": {
+										"name": "left hemisphere Isthmus Cingulate (lh_IC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "4b293404-b8d3-4eba-95cd-5a66387ea428",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IC-PrCu_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IC-PrCu_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IC-PrCu/bundle-0/lh_IC-PrCu_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Inferior Parietal \u2013 Inferior Temporal",
+					"children": [
+						{
+							"name": "lh_IP-IT_0",
+							"labelIndex": 59,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"6799f308-b444-4f69-a1a9-0f8fcc9d5b7e": {
+										"name": "left hemisphere Inferior Temporal (lh_IT)"
+									},
+									"d1742604-ca99-447d-8f93-ef02ff5ffcd8": {
+										"name": "left hemisphere Inferior Parietal (lh_IP)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "a942d3e5-d720-4f41-af2d-9a292b6f58f2",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IP-IT_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IP-IT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-IT/bundle-0/lh_IP-IT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Inferior Parietal \u2013 Lateral Occipital",
+					"children": [
+						{
+							"name": "lh_IP-LO_1",
+							"labelIndex": 86,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"6cb4a831-7323-489e-b379-3486c54f42f4": {
+										"name": "left hemisphere Lateral Occipital (lh_LO)"
+									},
+									"8c151d91-f2f4-496c-94bd-d1fdf816b584": {
+										"name": "left hemisphere Inferior Parietal (lh_IP)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "44d986b4-88f7-4a1a-8469-1518b5e55eab",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IP-LO_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IP-LO_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-LO/bundle-1/lh_IP-LO_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Inferior Parietal \u2013 Middle Temporal\t",
+					"children": [
+						{
+							"name": "lh_IP-MT_0",
+							"labelIndex": 33,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"d3f76f95-f344-4d07-9380-0c79084fdffe": {
+										"name": "left hemisphere Middle Temporal (lh_MT)"
+									},
+									"2f889f68-337b-4467-b703-8462c9f69630": {
+										"name": "left hemisphere Inferior Parietal (lh_IP)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "b7a8e4c1-461d-49b9-9759-ae4c747adee8",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IP-MT_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IP-MT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-MT/bundle-0/lh_IP-MT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Inferior Parietal - Supramarginal",
+					"children": [
+						{
+							"name": "lh_IP-SM_0",
+							"labelIndex": 80,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"d909a5a5-8606-410d-82ad-53696f690ae1": {
+										"name": "left hemisphere Supramarginal (lh_SM)"
+									},
+									"9d2087ea-344f-4529-98ef-01f93b433f12": {
+										"name": "left hemisphere Inferior Parietal (lh_IP)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "7c0ade5c-590d-4134-bb42-f36e8188b685",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IP-SM_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IP-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-SM/bundle-0/lh_IP-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Inferior Pariertal \u2013 Superior Parietal",
+					"children": [
+						{
+							"name": "lh_IP-SP_0",
+							"labelIndex": 82,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"d3435305-40c4-452d-a0d1-6a791c96495c": {
+										"name": "left hemisphere Superior Parietal (lh_SP)"
+									},
+									"108cda8b-520a-45af-9422-0d4523b54f1c": {
+										"name": "left hemisphere Inferior Parietal (lh_IP)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "47a759c6-47ef-4628-9e6a-a4f3f6e4f258",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IP-SP_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IP-SP_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-SP/bundle-0/lh_IP-SP_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "lh_IP-SP_1",
+							"labelIndex": 84,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"71360f45-52f6-447b-908c-60c1743816ba": {
+										"name": "left hemisphere Superior Parietal  (lh_SP)"
+									},
+									"f48c88f7-ab97-49f7-ba74-7b3e97541830": {
+										"name": "left hemisphere Inferior Parietal (lh_IP)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "32789750-28a1-4400-b91c-6e33b930bb7e",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IP-SP_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IP-SP_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IP-SP/bundle-1/lh_IP-SP_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Inferior Temporal \u2013 Middle Temporal",
+					"children": [
+						{
+							"name": "lh_IT-MT_0",
+							"labelIndex": 89,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"8ce8598e-787a-4db3-923e-4f356e7bcab6": {
+										"name": "left hemisphere Middle Temporal (lh_MT)"
+									},
+									"2094a29a-96dd-486a-aa7a-c5aa5f02f2fd": {
+										"name": "left hemisphere Inferior Temporal (lh_IT)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "533d3ca2-ed60-43e3-b03b-4b7a1498f8e4",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_IT-MT_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_IT-MT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_IT-MT/bundle-0/lh_IT-MT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Lateral Orbitofrontal \u2013 Pars Orbitalis",
+					"children": [
+						{
+							"name": "lh_LOF-Or_0",
+							"labelIndex": 48,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"12d597fb-e04f-448a-9c91-993b2c8421d3": {
+										"name": "left hemisphere Pars Orbitalis (lh_Or)"
+									},
+									"513b5cda-32b3-4928-b3ae-a62f59dba28b": {
+										"name": "left hemisphere Lateral Orbitofrontal (lh_LOF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "45bdb586-987f-415c-b17c-27277d3e890e",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_LOF-Or_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_LOF-Or_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_LOF-Or/bundle-0/lh_LOF-Or_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Lateral Orbitofrontal \u2013 Rostral Middle Frontal",
+					"children": [
+						{
+							"name": "lh_LOF-RMF_0",
+							"labelIndex": 29,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"ebe4f447-d28f-4ef6-87d7-850ee41794c7": {
+										"name": "left hemisphere Rostral Middle Frontal (lh_RMF)"
+									},
+									"d41d9d83-9220-4440-8adb-5ed9692a9d31": {
+										"name": "left hemisphere Lateral Orbitofrontal (lh_LOF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "a0e9a19f-0086-4a70-9d42-d5fef5cbf913",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_LOF-RMF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_LOF-RMF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_LOF-RMF/bundle-0/lh_LOF-RMF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "lh_LOF-RMF_1",
+							"labelIndex": 31,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"e894dfb7-e503-4a86-b5c2-f305d3347967": {
+										"name": "left hemisphere Rostral Middle Frontal (lh_RMF)"
+									},
+									"4e7b3450-7913-46b8-a210-f7322192376f": {
+										"name": "left hemisphere Lateral Orbitofrontal (lh_LOF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "1b73bb19-9daa-4f51-b0b7-ae1c10f44992",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_LOF-RMF_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_LOF-RMF_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_LOF-RMF/bundle-1/lh_LOF-RMF_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Lateral Orbitofrontal \u2013 Superior Temporal",
+					"children": [
+						{
+							"name": "lh_LOF-ST_0",
+							"labelIndex": 25,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"7109d265-3029-4063-936c-9baf1e58b93b": {
+										"name": "left hemisphere Superior Temporal (lh_ST)"
+									},
+									"85595e2c-8b80-44de-ba31-dab50a6357bd": {
+										"name": "left hemisphere Lateral Orbitofrontal (lh_LOF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "c9af7a82-a47d-4b26-b8af-db20b2e332bd",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_LOF-ST_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_LOF-ST_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_LOF-ST/bundle-0/lh_LOF-ST_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Middle Orbitofrontal \u2013 Superior Temporal",
+					"children": [
+						{
+							"name": "lh_MOF-ST_0",
+							"labelIndex": 12,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"54a5fe0b-374b-4738-a4ba-b737aa4f8bb2": {
+										"name": "left hemisphere Superior Temporal (lh_ST)"
+									},
+									"2a250bd3-2d8e-4caa-8e51-181af09057ba": {
+										"name": "left hemisphere Middle Orbitofrontal (lh_MOF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "472bf4b3-14a5-4576-8c90-57871597b0ef",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_MOF-ST_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_MOF-ST_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_MOF-ST/bundle-0/lh_MOF-ST_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Middle Temporal - Supramarginal",
+					"children": [
+						{
+							"name": "lh_MT-SM_0",
+							"labelIndex": 72,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"3af88a08-02cf-4b5e-b7af-c2a5d111600d": {
+										"name": "left hemisphere Supramarginal (lh_SM)"
+									},
+									"eb30d641-81a8-42b3-bf4c-2696d6e3e6e2": {
+										"name": "left hemisphere Middle Temporal (lh_MT)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "74eeddf7-6ffa-4c73-aa46-e6e357db4e76",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_MT-SM_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_MT-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_MT-SM/bundle-0/lh_MT-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Middle Temporal \u2013 Superior Temporal",
+					"children": [
+						{
+							"name": "lh_MT-ST_0",
+							"labelIndex": 95,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"749c0138-acf5-4047-a2ed-553ea8a8cc8d": {
+										"name": "left hemisphere Superior Temporal (lh_ST)"
+									},
+									"937cc55b-b119-4bae-adea-71fcded4156e": {
+										"name": "left hemisphere Middle Temporal (lh_MT)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "dbf4f62b-86ba-40ac-9f60-5a17b1e24c06",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_MT-ST_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_MT-ST_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_MT-ST/bundle-0/lh_MT-ST_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pars Opercularis - Insula",
+					"children": [
+						{
+							"name": "lh_Op-Ins_0",
+							"labelIndex": 27,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"9da7d862-d1b1-4eb0-b6d9-af80ad2583b0": {
+										"name": "left hemisphere Insula (lh_Ins)"
+									},
+									"7ad58c7d-d444-4806-a84f-a39ed7660432": {
+										"name": "left hemisphere Pars Opercularis (lh_Op)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "0e864ddc-067c-42f9-b4d3-6a7fe27939ca",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Op-Ins_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Op-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Op-Ins/bundle-0/lh_Op-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pars Opercularis - Precentral`",
+					"children": [
+						{
+							"name": "lh_Op-PrC_0",
+							"labelIndex": 18,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"736ed565-80e3-4263-b3f2-712eeeeeceac": {
+										"name": "left hemisphere Precentral (lh_PrC)"
+									},
+									"64cf4e5d-490e-4f9b-a303-0d6c19467b90": {
+										"name": "left hemisphere Pars Opercularis (lh_Op)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "717392c1-73a0-4485-9509-f7cbc02156d1",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Op-PrC_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Op-PrC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Op-PrC/bundle-0/lh_Op-PrC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pars Opercularis \u2013 Superior Frontal",
+					"children": [
+						{
+							"name": "lh_Op-SF_0",
+							"labelIndex": 42,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"3e4719b5-273b-4ebd-b3d0-1b904780a8aa": {
+										"name": "left hemisphere Superior Frontal (lh_SF)"
+									},
+									"1f785d52-cd69-49f8-930e-90cb15342df5": {
+										"name": "left hemisphere Pars Opercularis (lh_Op)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "cec92860-cafe-4219-a4b2-382765fb3390",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Op-SF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Op-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Op-SF/bundle-0/lh_Op-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pars Orbitalis - Insula",
+					"children": [
+						{
+							"name": "lh_Or-Ins_0",
+							"labelIndex": 16,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"73bbcdc9-f0bc-4f94-b257-09077b29909e": {
+										"name": "left hemisphere Insula (lh_Ins)"
+									},
+									"8adf804e-d126-4e59-a14e-0b60d29638e0": {
+										"name": "left hemisphere Pars Orbitalis (lh_Or)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "fb9818d7-139a-474f-aba8-b9e5a5189d39",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Or-Ins_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Or-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Or-Ins/bundle-0/lh_Or-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Postcentral - Insula",
+					"children": [
+						{
+							"name": "lh_PoC-Ins_0",
+							"labelIndex": 53,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"57af0af4-cb24-4430-90b4-d2ab2e097ade": {
+										"name": "left hemisphere Insula (lh_Ins)"
+									},
+									"2807614f-14e7-487b-9828-761a156541a0": {
+										"name": "left hemisphere Postcentral (lh_PoC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "8a9bf166-de0a-4f7b-943d-2e49cd6e0b28",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-Ins_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-Ins/bundle-0/lh_PoC-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Poscentral - Precuneus",
+					"children": [
+						{
+							"name": "lh_PoCi-PrCu_0",
+							"labelIndex": 44,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"3ebff112-c698-4ace-8f31-fb0d9b84de0b": {
+										"name": "left hemisphere Precuneus (lh_PrCu)"
+									},
+									"45d9b611-1ee2-4568-aeea-1af538ac82fb": {
+										"name": "left hemisphere Posterior Cingulate (lh_PoCi)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "b3a25d84-b3bc-41ee-b76b-7bc45d84daf4",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoCi-PrCu_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoCi-PrCu_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoCi-PrCu/bundle-0/lh_PoCi-PrCu_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "lh_PoCi-PrCu_1",
+							"labelIndex": 45,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"9e3c8757-b12c-4f74-a52e-34b2df5cf4a6": {
+										"name": "left hemisphere Precuneus (lh_PrCu)"
+									},
+									"ffdcb6fe-738c-4e59-83fd-0ac8e9d85345": {
+										"name": "left hemisphere Posterior Cingulate (lh_PoCi)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "e9b10734-a628-4c5f-8029-228453f09e7d",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoCi-PrCu_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoCi-PrCu_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoCi-PrCu/bundle-1/lh_PoCi-PrCu_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Posterior Cingulate \u2013 Rostral Anterior Cingulate",
+					"children": [
+						{
+							"name": "lh_PoCi-RAC_0",
+							"labelIndex": 10,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"ea149b60-886d-4ab1-81b8-7754c787923c": {
+										"name": "left hemisphere Rostral Anterior Cingulate (lh_RAC)"
+									},
+									"99ea7643-3816-4b86-9b66-a1a3123ed87a": {
+										"name": "left hemisphere Posterior Cingulate (lh_PoCi)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "f659ed0f-56c8-4edb-85d7-b213ffef5f40",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoCi-RAC_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoCi-RAC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoCi-RAC/bundle-0/lh_PoCi-RAC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Posterior Cingulate \u2013 Superior Frontal",
+					"children": [
+						{
+							"name": "lh_PoCi-SF_0",
+							"labelIndex": 79,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"c15b5480-3826-49f6-b601-46435a5b94b6": {
+										"name": "left hemisphere Superior Frontal (lh_SF)"
+									},
+									"fa6c2513-f84d-44d9-961b-a84cf85310c3": {
+										"name": "left hemisphere Posterior Cingulate (lh_PoCi)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "35cbf322-e3f3-4a14-b8eb-b25232d1384e",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoCi-SF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoCi-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoCi-SF/bundle-0/lh_PoCi-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Poscentral - Precentral",
+					"children": [
+						{
+							"name": "lh_PoC-PrC_0",
+							"labelIndex": 1,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"47d7edca-d4b2-4959-8a6a-3bd3bd5bb1d4": {
+										"name": "left hemisphere Precentral (lh_PrC)"
+									},
+									"8c6e0375-de66-4f20-8fe0-6a16cacb09a2": {
+										"name": "left hemisphere Postcentral (lh_PoC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "213c23a1-7f5a-4331-a5e6-6d730325c0c4",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-PrC_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-PrC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-PrC/bundle-0/lh_PoC-PrC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "lh_PoC-PrC_1",
+							"labelIndex": 3,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"83e0a746-67a4-4958-bbfd-75339feca98b": {
+										"name": "left hemisphere Precentral (lh_PrC)"
+									},
+									"6459dc32-90e2-445b-b246-c9e54a5ed62f": {
+										"name": "left hemisphere Postcentral (lh_PoC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "2d384dab-705b-4a4e-ae1e-2ff802110426",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-PrC_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-PrC_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-PrC/bundle-1/lh_PoC-PrC_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "lh_PoC-PrC_2",
+							"labelIndex": 5,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"559bf692-7e47-416a-8c53-aca14a4dd422": {
+										"name": "left hemisphere Precentral (lh_PrC)"
+									},
+									"c4b1f1c2-b202-4212-8e3c-a5e7b7299f98": {
+										"name": "left hemisphere Postcentral (lh_PoC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "b4aa464a-af35-42b1-a7f6-3b67a801f115",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-PrC_2.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-PrC_2",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-PrC/bundle-2/lh_PoC-PrC_2.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "lh_PoC-PrC_3",
+							"labelIndex": 7,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"00f2f96b-b24a-43ce-b284-fa269f775e6d": {
+										"name": "left hemisphere Precentral (lh_PrC)"
+									},
+									"0962f7b5-d922-49c8-9b26-5dcfb1d04f74": {
+										"name": "left hemisphere Postcentral (lh_PoC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "b3706a0c-26d1-4b98-90c9-0542746c7b22",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-PrC_3.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-PrC_3",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-PrC/bundle-3/lh_PoC-PrC_3.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Poscentral - Supramarginal",
+					"children": [
+						{
+							"name": "lh_PoC-SM_0",
+							"labelIndex": 74,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"f0a14810-8100-4234-b386-3259c5a82e4d": {
+										"name": "left hemisphere Supramarginal (lh_SM)"
+									},
+									"4864f021-235a-4723-ab9d-7ca8ffe97992": {
+										"name": "left hemisphere Postcentral (lh_PoC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "d427a67d-e144-4ed2-93b1-371e497813b4",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-SM_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-SM/bundle-0/lh_PoC-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "lh_PoC-SM_1",
+							"labelIndex": 76,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"3af7ba92-4468-4f3a-a4d2-84d40c7d8c88": {
+										"name": "left hemisphere Supramarginal (lh_SM)"
+									},
+									"f3c7cf97-cd8d-41b1-b936-8af3a2ab94fb": {
+										"name": "left hemisphere Postcetnral (lh_PoC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "f94c650d-b1b2-4dc7-84c0-b551cf8dcc35",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PoC-SM_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PoC-SM_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PoC-SM/bundle-1/lh_PoC-SM_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Precentral - Insula",
+					"children": [
+						{
+							"name": "lh_PrC-Ins_0",
+							"labelIndex": 66,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"4d9c09a7-1b51-4285-91d1-7f49a18bfc81": {
+										"name": "left hemisphere Insula (lh_Ins)"
+									},
+									"f4e308b1-9355-4548-835a-1b0dc5cbb401": {
+										"name": "left hemisphere Precentral (lh_PrC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "ba651bf6-7dc7-47f3-900b-5f00e29534bb",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PrC-Ins_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PrC-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PrC-Ins/bundle-0/lh_PrC-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Precentral \u2013 Superior Frontal",
+					"children": [
+						{
+							"name": "lh_PrC-SF_0",
+							"labelIndex": 20,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"eccb5dd4-a360-4120-a21d-7ffdf4b12978": {
+										"name": "left hemisphere Superior Frontal (lh_SF)"
+									},
+									"745b8125-e3c5-4346-b150-6110074fd69b": {
+										"name": "left hemisphere Precentral (lh_PrC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "670483c3-4c9a-4362-983f-7277728fd739",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PrC-SF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PrC-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PrC-SF/bundle-0/lh_PrC-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Precentral - Supramarginal",
+					"children": [
+						{
+							"name": "lh_PrC-SM_0",
+							"labelIndex": 15,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"aa6798a4-a510-45af-aa50-008ac8dcbe73": {
+										"name": "left hemisphere Supramarginal (lh_SM)"
+									},
+									"e0d06fec-d6f9-4a24-a255-aee751b6bdf0": {
+										"name": "left hemisphere Precentral (lh_PrC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "d77f8c3f-1ff9-4c18-886e-12500fd650a8",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_PrC-SM_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_PrC-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_PrC-SM/bundle-0/lh_PrC-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rostral Anterior Cingulate \u2013 Superior Frontal",
+					"children": [
+						{
+							"name": "lh_RAC-SF_1",
+							"labelIndex": 78,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"1afa4e40-4f1a-4883-882b-5d1ba063c908": {
+										"name": "left hemisphere Superior Frontal (lh_SF)"
+									},
+									"0532c80f-d28b-4fd9-883e-20aa28896a6e": {
+										"name": "left hemisphere Rostral Anterior Cingulate (lh_RAC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "c0811fcf-0d37-4d64-ac9f-d6201e4525e7",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_RAC-SF_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_RAC-SF_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_RAC-SF/bundle-1/lh_RAC-SF_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rostral Middle Frontal \u2013 Superior Frontal",
+					"children": [
+						{
+							"name": "lh_RMF-SF_0",
+							"labelIndex": 21,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"e8747bcc-53a3-42e8-8fa1-e584bb8d5c04": {
+										"name": "left hemisphere Superior Frontal (lh_SF)"
+									},
+									"0d24dc16-c4c8-4cfb-ba8b-8caa603d0de7": {
+										"name": "left hemisphere Rostral Middle Frontal (lh_RMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "45f076a2-f874-4e1b-85b7-d54b653c3ecb",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_RMF-SF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_RMF-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_RMF-SF/bundle-0/lh_RMF-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "lh_RMF-SF_1",
+							"labelIndex": 23,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"607c928c-e1e0-4706-a1f7-50937ed27ccf": {
+										"name": "left hemisphere Superior Frontal (lh_SF)"
+									},
+									"35525384-a2cf-4feb-961c-aa220f5c8990": {
+										"name": "left hemisphere Rostral Middle Frontal (lh_RMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "ce3b410c-82ec-4f3e-aaf0-91eeb7d7a650",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_RMF-SF_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_RMF-SF_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_RMF-SF/bundle-1/lh_RMF-SF_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Supramarginal - Insula",
+					"children": [
+						{
+							"name": "lh_SM-Ins_0",
+							"labelIndex": 57,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"5b3b1c89-3325-476a-be1d-a53865b553af": {
+										"name": "left hemisphere Insula (lh_Ins)"
+									},
+									"ae4eccd0-21a7-4b72-a54f-54de41f5f992": {
+										"name": "left hemisphere Supramarginal (lh_SM)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "ec747061-54ed-4fe5-8981-ca72baff1cbd",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_SM-Ins_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_SM-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_SM-Ins/bundle-0/lh_SM-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Superior Parietal - Supramarginal",
+					"children": [
+						{
+							"name": "lh_SP-SM_0",
+							"labelIndex": 93,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"124334b1-40af-481e-837b-50c492d0110a": {
+										"name": "left hemisphere Supramarginal (lh_SM)"
+									},
+									"bbebbcf6-5172-4c52-975a-b415ce253ee5": {
+										"name": "left hemisphere Superior Parietal (lh_SP)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "431071e0-ba94-454e-a87d-e68230449bdf",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_SP-SM_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_SP-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_SP-SM/bundle-0/lh_SP-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Superior Temporal - Insula",
+					"children": [
+						{
+							"name": "lh_ST-Ins_0",
+							"labelIndex": 92,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"641b286a-ecde-4e3b-bd35-3c2f539ec910": {
+										"name": "left hemisphere Insula (lh_Ins)"
+									},
+									"a8795a52-0d43-4e12-9824-bd9b0fa3aefe": {
+										"name": "left hemisphere Superior Temporal (lh_ST)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "f9358de9-9803-40df-935b-f6401cabd498",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_ST-Ins_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_ST-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_ST-Ins/bundle-0/lh_ST-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Superior Temporal \u2013 Transverse Temporal",
+					"children": [
+						{
+							"name": "lh_ST-TT_0",
+							"labelIndex": 35,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"7ee096fe-ace7-4cac-8282-4edffa5a9066": {
+										"name": "left hemisphere Transverse Temporal (lh_TT)"
+									},
+									"17924915-d774-463e-a767-c6b117e346b7": {
+										"name": "left hemisphere Superior Temporal (lh_ST)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "70686739-574a-4b9f-bfc1-27e532df1b55",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_ST-TT_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_ST-TT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_ST-TT/bundle-0/lh_ST-TT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pars Triangularis - Insula",
+					"children": [
+						{
+							"name": "lh_Tr-Ins_0",
+							"labelIndex": 64,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"fd7267db-6786-48f0-ac1c-29791c7db1c6": {
+										"name": "left hemisphere Insula (lh_Ins)"
+									},
+									"f05ca0a9-445b-42ab-8aba-c14762b9f2f5": {
+										"name": "left hemisphere Pars Triangularis (lh_Tr)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "33b483d3-6387-49f4-91b7-053a10c5172f",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Tr-Ins_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Tr-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Tr-Ins/bundle-0/lh_Tr-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pars Triangularis \u2013 Superior Frontal",
+					"children": [
+						{
+							"name": "lh_Tr-SF_0",
+							"labelIndex": 55,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"8725059e-0ecb-452a-9c1d-f1088619a265": {
+										"name": "left hemisphere Superior Frontal (lh_SF)"
+									},
+									"3714e138-febe-4f8c-b96e-589cda8186f5": {
+										"name": "left hemisphere Pars Triangularis (lh_Tr)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "a6dbb194-777a-43ca-b8c8-b43f992faf89",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "lh_Tr-SF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of lh_Tr-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_lh_Tr-SF/bundle-0/lh_Tr-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Right Hemisphere",
+			"children": [
+				{
+					"name": "Caudal Middle Frontal \u2013 Posterior Cingulate",
+					"children": [
+						{
+							"name": "rh_CAC-PoCi_0",
+							"labelIndex": 8,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"a8f8439a-6bd1-4e10-9288-f315aab594c6": {
+										"name": "right hemisphere Posterior Cingulate (rh_PoCi)"
+									},
+									"c4a8e98b-d93c-439b-a112-c3574689bddc": {
+										"name": "right hemisphere Caudal Anterior Cingulate (rh_CAC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "3b0b9de1-1fc6-42e9-b786-2efa87c2d67a",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CAC-PoCi_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CAC-PoCi_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CAC-PoCi/bundle-0/rh_CAC-PoCi_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Caudal Middle Frontal - Precuneus",
+					"children": [
+						{
+							"name": "rh_CAC-PrCu_0",
+							"labelIndex": 39,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"79b4fdaa-2b89-488a-b6a8-caec0fad10ff": {
+										"name": "right hemisphere Precuneus (rh_PrCu)"
+									},
+									"92ddc32d-1c31-4f3f-b647-9a4d0268a406": {
+										"name": "right hemisphere Caudal Anterior Cingulate (rh_CAC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "f740f09e-9cfe-474b-9132-620dd732765f",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CAC-PrCu_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CAC-PrCu_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CAC-PrCu/bundle-0/rh_CAC-PrCu_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Caudal Middle Frontal - Precentral",
+					"children": [
+						{
+							"name": "rh_CMF-PrC_0",
+							"labelIndex": 98,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"0631318f-9bb4-459e-9a1a-dcba16030ddf": {
+										"name": "right hemisphere Precentral (rh_PrC)"
+									},
+									"64cc1003-572e-49fc-a633-7d275c451105": {
+										"name": "right hemisphere Caudal Middle Frontal (rh_CMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "f3ab5291-a58e-47f3-af03-78133db938ab",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CMF-PrC_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CMF-PrC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-PrC/bundle-0/rh_CMF-PrC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "rh_CMF-PrC_1",
+							"labelIndex": 100,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"faac5eef-bff1-49f8-b24c-401a713fcfde": {
+										"name": "right hemisphere Precentral (rh_PrC)"
+									},
+									"03ddf35a-a143-46a8-83a9-acf0aa02be36": {
+										"name": "right hemisphere Caudal Middle Frontal (rh_CMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "c1d905b0-7aa7-4c8b-8eaf-ebb25ad509f0",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CMF-PrC_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CMF-PrC_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-PrC/bundle-1/rh_CMF-PrC_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Caudal Middle Frontal \u2013 Rostral Middle Frontal",
+					"children": [
+						{
+							"name": "rh_CMF-RMF_0",
+							"labelIndex": 50,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"8730eb77-7a22-4e14-afbe-7aef259a1e2b": {
+										"name": "right hemisphere Rostral Middle Frontal (rh_RMF)"
+									},
+									"b2de605f-45ef-4c8e-9015-083e5735dfcf": {
+										"name": "right hemisphere Caudal Middle Frontal (rh_CMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "27557ac3-5c8b-4baa-9072-6f3f7c34f6ab",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CMF-RMF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CMF-RMF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-RMF/bundle-0/rh_CMF-RMF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Caudal Middle Frontal \u2013 Superior Frontal",
+					"children": [
+						{
+							"name": "rh_CMF-SF_0",
+							"labelIndex": 69,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"e09d0f73-1dce-47f7-9957-35b9b589e02b": {
+										"name": "right hemisphere Superior Frontal (rh_SF)"
+									},
+									"ac602465-e38d-4072-b332-21c889e51939": {
+										"name": "right hemisphere Caudal Middle Frontal (rh_CMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "865fe1ce-1363-4372-b1a3-fbf211a0c268",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CMF-SF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CMF-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-SF/bundle-0/rh_CMF-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Caudal Middle Frontal \u2013 Superior Frontal\t\t",
+					"children": [
+						{
+							"name": "rh_CMF-SF_1",
+							"labelIndex": 70,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"b9214225-aa82-4322-af7c-b097933a1913": {
+										"name": "right hemisphere Superior Frontal (rh_SF)"
+									},
+									"6f939591-33b8-4694-b012-e2336db4aa2c": {
+										"name": "right hemisphere Caudal Middle Frontal (rh_CMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "b5d42fc2-68e7-47de-af9e-f4f0b49b7368",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_CMF-SF_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_CMF-SF_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_CMF-SF/bundle-1/rh_CMF-SF_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Cuneus - Lingual",
+					"children": [
+						{
+							"name": "rh_Cu-Li_0",
+							"labelIndex": 61,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"99add9b2-e21e-4bc9-8cbb-1ace4eb478fe": {
+										"name": "right hemisphere Lingual (rh_Li)"
+									},
+									"1cfc143b-6432-4334-b8ff-690c5920d0bd": {
+										"name": "right hemisphere Cuneus (rh_Cu)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "05eb7f3c-8a87-49c0-af81-0bd29098f986",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Cu-Li_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Cu-Li_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Cu-Li/bundle-0/rh_Cu-Li_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Fusiform \u2013 Lateral Occipital",
+					"children": [
+						{
+							"name": "rh_Fu-LO_1",
+							"labelIndex": 52,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"0f81ef07-2137-4244-9ebd-cdf206b66417": {
+										"name": "right hemisphere Lateral Occipital (rh_LO)"
+									},
+									"9659f9e5-9f24-4bfb-8bbb-af9bd650fb69": {
+										"name": "right hemisphere Fusiform (rh_Fu)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "0f108248-9cea-4a5d-bc9c-637d4c290f49",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Fu-LO_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Fu-LO_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Fu-LO/bundle-1/rh_Fu-LO_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Isthmus Cingulate - Precuneus",
+					"children": [
+						{
+							"name": "rh_IC-PrCu_0",
+							"labelIndex": 41,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"a753d2de-342f-47c5-9ec7-9c12c9ec35b3": {
+										"name": "right hemisphere Precuneus (rh_PrCu)"
+									},
+									"847c08f1-9886-4a26-9e18-536b7e06f08d": {
+										"name": "right hemisphere Isthmus Cingulate (rh_IC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "adfbdcbc-510f-457f-9c63-fe6b7cecf789",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IC-PrCu_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IC-PrCu_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IC-PrCu/bundle-0/rh_IC-PrCu_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Inferior Parietal \u2013 Inferior Temporal ",
+					"children": [
+						{
+							"name": "rh_IP-IT_0",
+							"labelIndex": 60,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"d842d83d-863f-43cb-8573-8c2254aa987f": {
+										"name": "right hemisphere Inferior Temporal (rh_IT)"
+									},
+									"99b94a5e-adc0-41b5-b3c6-5d261827d65d": {
+										"name": "right hemisphere Inferior Parietal (rh_IP)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "06246ac0-af1c-4277-a885-8865c4ff4bf3",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IP-IT_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IP-IT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-IT/bundle-0/rh_IP-IT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Inferior Parietal \u2013 Lateral Occipital",
+					"children": [
+						{
+							"name": "rh_IP-LO_0",
+							"labelIndex": 85,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"649fce83-2c8b-421d-b41a-32fe86a83ebc": {
+										"name": "right hemisphere Lateral Occipital (rh_LO)"
+									},
+									"25c3d3c2-a4ac-4790-b4e1-492019345607": {
+										"name": "right hemisphere Inferior Parietal (rh_IP)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "6f9f342e-f314-43d9-8166-46ce8deb2d0c",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IP-LO_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IP-LO_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-LO/bundle-0/rh_IP-LO_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Inferior Parietal \u2013 Middle Temporal",
+					"children": [
+						{
+							"name": "rh_IP-MT_0",
+							"labelIndex": 34,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"51e7e92d-dc30-4ae7-8c21-fcd4b961c826": {
+										"name": "right hemisphere Middle Temporal (rh_MT)"
+									},
+									"dc772c35-fad0-4fa0-bb58-045cd9aa3a61": {
+										"name": "right hemisphere Inferior Parietal (rh_IP)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "faafacaa-2657-4d2c-88b6-044b0f8a2e40",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IP-MT_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IP-MT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-MT/bundle-0/rh_IP-MT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Inferior Parietal - Supramarginal",
+					"children": [
+						{
+							"name": "rh_IP-SM_0",
+							"labelIndex": 81,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"32f71fba-9bea-467e-aced-9ef4b78b8517": {
+										"name": "right hemisphere Supramarginal (rh_SM)"
+									},
+									"bea456a8-3c88-43e1-9f02-3ab25d707412": {
+										"name": "right hemisphere Inferior Parietal (rh_IP)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "cb96a9b7-c659-4d9a-aa19-bb1c9601ab34",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IP-SM_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IP-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-SM/bundle-0/rh_IP-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Inferior Parietal \u2013 Superior Parietal",
+					"children": [
+						{
+							"name": "rh_IP-SP_0",
+							"labelIndex": 83,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"e2149ed9-14a2-4760-b212-38b75be13d38": {
+										"name": "right hemisphere Superior Parietal (rh_SP)"
+									},
+									"2c92d6a5-062a-423f-b6d7-12458ee56d00": {
+										"name": "right hemisphere Inferior Parietal (rh_IP)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "2078a9f3-7776-47d8-a4dc-eb4b5c1c7f16",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IP-SP_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IP-SP_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IP-SP/bundle-0/rh_IP-SP_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Inferior Temporal \u2013 Middle Temporal",
+					"children": [
+						{
+							"name": "rh_IT-MT_1",
+							"labelIndex": 90,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"ef98957c-b180-45c3-a3c1-b903d4ea6ce1": {
+										"name": "right hemisphere Middle Temporal (rh_MT)"
+									},
+									"c7cd970f-51e3-471d-aa80-42f1ad3f13a9": {
+										"name": "right hemisphere Inferior Temporal (rh_IT)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "32896a92-d755-48f6-bf91-ab6d1f7e5b0e",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IT-MT_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IT-MT_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IT-MT/bundle-1/rh_IT-MT_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "rh_IT-MT_2",
+							"labelIndex": 91,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"69662b9b-fee5-43f6-ab45-98c9b6819313": {
+										"name": "right hemisphere Inferior Temporal (rh_IT)"
+									},
+									"4a48a06f-1295-4127-b153-28eb0ace75eb": {
+										"name": "right hemisphere Middle Temporal (rh_MT)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "f9cebe67-739d-4baf-9008-685604507599",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_IT-MT_2.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_IT-MT_2",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_IT-MT/bundle-2/rh_IT-MT_2.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Lateral Orbitofrontal \u2013 Middle Orbitofrontal",
+					"children": [
+						{
+							"name": "rh_LOF-MOF_0",
+							"labelIndex": 71,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"b30d038a-7d82-45b4-8c81-16aa3a2ee857": {
+										"name": "right hemisphere Middle Orbitofrontal (rh_MOF)"
+									},
+									"bea1d3a5-c8ff-4935-a434-90f11e01fd01": {
+										"name": "right hemisphere Lateral Orbitofrontal (rh_LOF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "2994d72e-c399-423c-9821-b8d1219f6b73",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_LOF-MOF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_LOF-MOF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LOF-MOF/bundle-0/rh_LOF-MOF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Lateral Orbitofrontal \u2013 Rostral Middle Frontal",
+					"children": [
+						{
+							"name": "rh_LOF-RMF_0",
+							"labelIndex": 30,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"50496f13-c270-42e6-85b1-3fa7fe3fb45f": {
+										"name": "right hemisphere Rostral Middle Frontal (rh_RMF)"
+									},
+									"fb5eb066-5de1-48d3-8f0c-75203c568e2b": {
+										"name": "right hemisphere Lateral Orbitofrontal (rh_LOF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "a0266f84-b105-433e-88f1-cc84a6b526cd",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_LOF-RMF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_LOF-RMF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LOF-RMF/bundle-0/rh_LOF-RMF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "rh_LOF-RMF_1",
+							"labelIndex": 32,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"d7868239-da4f-43c1-8841-344aa69bd127": {
+										"name": "right hemisphere Rostral Middle Frontal (rh_RMF)"
+									},
+									"4818f766-3b5a-4623-b272-37226523a0a7": {
+										"name": "right hemisphere Lateral Orbitofrontal (rh_LOF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "781b0351-f768-44a9-a7db-c45a5424aa6d",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_LOF-RMF_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_LOF-RMF_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LOF-RMF/bundle-1/rh_LOF-RMF_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Lateral Orbitofrontal \u2013 Superior Temporal",
+					"children": [
+						{
+							"name": "rh_LOF-ST_0",
+							"labelIndex": 26,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"675a6ce9-ef26-4e68-9852-54afeb24923c": {
+										"name": "right hemisphere Superior Temporal (rh_ST)"
+									},
+									"097c5fce-f0f5-4e3c-bf0f-68fd96086cde": {
+										"name": "right hemisphere Lateral Orbitofrontal (rh_LOF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "ee642a5b-54c3-4385-bc80-5badf00ccc55",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_LOF-ST_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_LOF-ST_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LOF-ST/bundle-0/rh_LOF-ST_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Lateral Orbitofrontal \u2013 Superior Parietal",
+					"children": [
+						{
+							"name": "rh_LO-SP_0",
+							"labelIndex": 54,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"b1da4dcf-4991-4f8e-bfd0-11febf7af3a4": {
+										"name": "right hemisphere Superior Parietal (rh_SP)"
+									},
+									"141117c9-4dc4-4dd1-8093-3ffa7a18ed32": {
+										"name": "right hemisphere Lateral Occipital (rh_LO)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "0860234b-990f-4081-9319-e5f6a8fe36bb",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_LO-SP_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_LO-SP_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_LO-SP/bundle-0/rh_LO-SP_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Middle Orbitofrontal \u2013 Superior Temporal",
+					"children": [
+						{
+							"name": "rh_MOF-ST_0",
+							"labelIndex": 13,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"4bbbf808-ac2d-4062-b9fc-a8480c83397b": {
+										"name": "right hemisphere Superior Temporal (rh_ST)"
+									},
+									"ae420565-56bb-47c0-b50e-49019c27a988": {
+										"name": "right hemisphere Middle Orbitofrontal (rh_MOF)  "
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "7c67daac-62c6-47d9-9dd9-5d7f61c17464",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_MOF-ST_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_MOF-ST_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_MOF-ST/bundle-0/rh_MOF-ST_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Middle Temporal - Supramarginal",
+					"children": [
+						{
+							"name": "rh_MT-SM_0",
+							"labelIndex": 73,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"3393eb4a-02a6-4c77-9fe6-39d06fceea93": {
+										"name": "right hemisphere Supramarginal (rh_SM)"
+									},
+									"5d6ca992-335e-459c-9809-cc3c36ddd1ff": {
+										"name": "right hemisphere Middle Temporal (rh_MT)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "f8c07769-d0b1-4234-a83f-21561d998c21",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_MT-SM_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_MT-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_MT-SM/bundle-0/rh_MT-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Middle Temporal \u2013 Superior Temporal",
+					"children": [
+						{
+							"name": "rh_MT-ST_0",
+							"labelIndex": 96,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"bde48d05-f9ef-4d0b-a247-4c23a18d8d60": {
+										"name": "right hemisphere Superior Temporal (rh_ST)"
+									},
+									"4586bd71-8956-40a9-aba3-a4cb2e70ab55": {
+										"name": "right hemisphere Middle Temporal (rh_MT)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "b4ea38d2-09f5-45fe-abdb-4dcb4c05d495",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_MT-ST_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_MT-ST_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_MT-ST/bundle-0/rh_MT-ST_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pars Opercularis - Insula",
+					"children": [
+						{
+							"name": "rh_Op-Ins_0",
+							"labelIndex": 28,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"68a02c5a-48ea-402c-b335-68f95fe0c200": {
+										"name": "right hemisphere Insula (rh_Ins)"
+									},
+									"a8e62223-0074-40ec-bc09-d8104bb0cf8d": {
+										"name": "right hemisphere Pars Opercularis (rh_Op)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "f144a431-46f5-46b1-af9e-71806a31bb92",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Op-Ins_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Op-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Op-Ins/bundle-0/rh_Op-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pars Opercularis - Precentral",
+					"children": [
+						{
+							"name": "rh_Op-PrC_0",
+							"labelIndex": 19,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"a8e62223-0074-40ec-bc09-d8104bb0cf8d": {
+										"name": "right hemisphere Pars Opercularis (rh_Op)"
+									},
+									"14b34651-7810-4b98-9cfa-7fb3c370c945": {
+										"name": "right hemisphere Precentral (rh_PrC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "0c4eca5d-7c46-41b6-914f-7642ccdda8a8",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Op-PrC_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Op-PrC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/pm_rh_Op-PrC/bundle-0/rh_Op-PrC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pars Opercularis \u2013 Superior Frontal",
+					"children": [
+						{
+							"name": "rh_Op-SF_0",
+							"labelIndex": 43,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"a8e62223-0074-40ec-bc09-d8104bb0cf8d": {
+										"name": "right hemisphere Pars Opercularis (rh_Op)"
+									},
+									"f184300a-6660-4885-aaf4-a81b27d22bf3": {
+										"name": "right hemisphere Superior Frontal (rh_SF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "784e25fa-501d-4ba3-878a-f32412f6dd28",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Op-SF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Op-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Op-SF/bundle-0/rh_Op-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pars Opercularis \u2013 Pars Triangularis",
+					"children": [
+						{
+							"name": "rh_Op-Tr_0",
+							"labelIndex": 63,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"a8e62223-0074-40ec-bc09-d8104bb0cf8d": {
+										"name": "right hemisphere Pars Opercularis (rh_Op)"
+									},
+									"01236433-c8bb-41bd-bc38-31ae6d588533": {
+										"name": "right hemisphere Pars Triangularis (rh_Tr)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "94d50656-1407-4e99-88c1-b7c3520598a6",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Op-Tr_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Op-Tr_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Op-Tr/bundle-0/rh_Op-Tr_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pars Orbitalis - Insula",
+					"children": [
+						{
+							"name": "rh_Or-Ins_0",
+							"labelIndex": 17,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"a2e596ad-deca-4a1d-a41c-752bfcd268df": {
+										"name": "right hemisphere Insula (rh_Ins)"
+									},
+									"8487772f-dd3a-4cce-9bc8-32d392ba4060": {
+										"name": "right hemisphere Pars Orbitalis (rh_Or)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "de7674b7-0599-4a6a-9a1c-eb4aaaca04f4",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Or-Ins_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Or-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Or-Ins/bundle-0/rh_Or-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Posterior Cingulate - Precuneus",
+					"children": [
+						{
+							"name": "rh_PoCi-PrCu_1",
+							"labelIndex": 46,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"38a01a25-ca78-4130-8c45-539d6c76e6f4": {
+										"name": "right hemisphere Posterior Cingulate (rh_PoCi)"
+									},
+									"60f094f9-343c-492d-91bb-315d8b28b45f": {
+										"name": "right hemisphere Precuneus (rh_PrCu)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "16ecb569-bf31-4763-b68f-507c59471f3a",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoCi-PrCu_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoCi-PrCu_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoCi-PrCu/bundle-1/rh_PoCi-PrCu_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "rh_PoCi-PrCu_2",
+							"labelIndex": 47,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"b140275d-bdfa-42f0-84cb-5cb935823d9a": {
+										"name": "right hemisphere Precuneus (rh_PrCu)"
+									},
+									"c8641beb-0885-4752-8cae-915bedd2e29f": {
+										"name": "right hemisphere Posterior Cingulate (rh_PoCi)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "d20c41e0-7b21-45e7-869f-e66df6480563",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoCi-PrCu_2.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoCi-PrCu_2",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoCi-PrCu/bundle-2/rh_PoCi-PrCu_2.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Posterior Cingulate \u2013 Rostral Anterior Cingulate",
+					"children": [
+						{
+							"name": "rh_PoCi-RAC_0",
+							"labelIndex": 11,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"7cce70c5-92c6-4819-b0ff-cba354559f8e": {
+										"name": "right hemisphere Rostral Anterior Cingulate (rh_RAC) "
+									},
+									"aef00659-4815-4a2c-800e-8eae2f971818": {
+										"name": "right hemisphere Posterior Cingulate (rh_PoCi)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "71f844b8-b7de-468c-9177-157ac9e830be",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoCi-RAC_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoCi-RAC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoCi-RAC/bundle-0/rh_PoCi-RAC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Poscentral - Precentral",
+					"children": [
+						{
+							"name": "rh_PoC-PrC_0",
+							"labelIndex": 2,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"c10b71c8-0ab2-4e47-aee3-74aedee8a988": {
+										"name": "right hemisphere Precentral (rh_PrC)"
+									},
+									"f6598864-434f-4659-a581-23e2371ff3ab": {
+										"name": "right hemisphere Postcentral (rh_PoC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "499b78bc-2bbc-43f8-bfca-1f8846ca2697",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoC-PrC_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoC-PrC_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-PrC/bundle-0/rh_PoC-PrC_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "rh_PoC-PrC_1",
+							"labelIndex": 4,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"b84a00f8-c090-4f1f-99e8-e1e41ca24905": {
+										"name": "right hemisphere Precentral (rh_PrC)"
+									},
+									"52b05cff-1f0f-48f2-bcf2-dc1f3d9831cf": {
+										"name": "right hemisphere Postcentral (rh_PoC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "42c1df7e-ddd2-4229-a4b0-2a7f61f431e4",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoC-PrC_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoC-PrC_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-PrC/bundle-1/rh_PoC-PrC_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "rh_PoC-PrC_2",
+							"labelIndex": 6,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"5e446c5a-2595-46aa-b6db-300a97558e17": {
+										"name": "right hemisphere Precentral (rh_PrC)"
+									},
+									"741ef69b-71e6-44ff-aca7-9fb3879d87a1": {
+										"name": "right hemisphere Postcentral (rh_PoC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "358e97f5-7fa6-45b4-9555-2d15fe1db89e",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoC-PrC_2.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoC-PrC_2",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-PrC/bundle-2/rh_PoC-PrC_2.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Postcentral - Supramarginal",
+					"children": [
+						{
+							"name": "rh_PoC-SM_0",
+							"labelIndex": 75,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"5a659d4c-509c-4247-a347-64c4551fdedb": {
+										"name": "right hemisphere Supramarginal (rh_SM)"
+									},
+									"e5da98e6-0885-4f61-a7e8-e4b36f6a1883": {
+										"name": "right hemisphere Postcentral (rh_PoC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "77d202cb-90ec-4c66-9905-bd4df03a12b9",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoC-SM_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoC-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-SM/bundle-0/rh_PoC-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Postcentral \u2013 Superior Parietal",
+					"children": [
+						{
+							"name": "rh_PoC-SP_0",
+							"labelIndex": 87,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"072cf5a2-9fbb-48f5-9612-79170f5f2e71": {
+										"name": "right hemisphere Supramarginal (rh_SP)"
+									},
+									"95bef109-5d20-42a3-a6b0-309ae21e7ffa": {
+										"name": "right hemisphere Postcentral (rh_PoC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "80aa2397-8655-4279-bd52-96cf18ab4ae6",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoC-SP_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoC-SP_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-SP/bundle-0/rh_PoC-SP_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "rh_PoC-SP_1",
+							"labelIndex": 88,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"0c9cd77f-4784-4629-8deb-607921c74083": {
+										"name": "right hemisphere Supramarginal (rh_SP)"
+									},
+									"a742ce43-fcab-4df1-9e08-66ca161e56c9": {
+										"name": "right hemisphere Postcentral (rh_PoC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "24bfa523-5f93-42d0-a249-2f3813f3b7d8",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PoC-SP_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PoC-SP_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PoC-SP/bundle-1/rh_PoC-SP_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Precentral - Insula",
+					"children": [
+						{
+							"name": "rh_PrC-Ins_0",
+							"labelIndex": 67,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"0bcd031c-a3b6-4016-970d-e9f620da125d": {
+										"name": "right hemisphere Insula (rh_Ins)"
+									},
+									"d7cfdae6-979d-4cc0-b2ad-2f7496a72f34": {
+										"name": "right hemisphere Precentral (rh_PrC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "482e73fa-aeae-46d3-a88c-59262b40542b",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PrC-Ins_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PrC-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PrC-Ins/bundle-0/rh_PrC-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Precentral - Supramarginal\t",
+					"children": [
+						{
+							"name": "rh_PrC-SM_0",
+							"labelIndex": 14,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"1ff6b2e3-13ac-4eb0-9dda-114c23da3bbe": {
+										"name": "right hemisphere Supramarginal (rh_SM)"
+									},
+									"f56e01db-058d-4619-957c-e25bf7cf26b8": {
+										"name": "right hemisphere Precentral (rh_PrC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "9d499f79-0c6c-4b25-bcb0-127a195e70af",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PrC-SM_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PrC-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PrC-SM/bundle-0/rh_PrC-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Precentral \u2013 Superior Parietal",
+					"children": [
+						{
+							"name": "rh_PrC-SP_0",
+							"labelIndex": 9,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"60ca5664-f486-4d9b-966a-2a9118b34df1": {
+										"name": "right hemisphere Superior Parietal (rh_SP)"
+									},
+									"0f59b7e4-58c2-47ff-9d98-870e94c07a42": {
+										"name": "right hemisphere Precentral (rh_PrC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "599f4b18-6b9b-453a-a81f-ba1081c1635a",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_PrC-SP_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_PrC-SP_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_PrC-SP/bundle-0/rh_PrC-SP_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rostral Anterior Cingulate",
+					"children": [
+						{
+							"name": "rh_RAC-SF_0",
+							"labelIndex": 77,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"dd250f86-4da4-45ee-876e-79824f8b7672": {
+										"name": "right hemisphere Superior Frontal (rh_SF)"
+									},
+									"915c80da-26f9-4e62-af63-9822d38bee99": {
+										"name": "right hemisphere Rostral Anterior Cingulate (rh_RAC)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "378fbed1-1945-4e76-95d5-f02dc8676fe6",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_RAC-SF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_RAC-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_RAC-SF/bundle-0/rh_RAC-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rostral Middle Frontal \u2013 Superior Frontal",
+					"children": [
+						{
+							"name": "rh_RMF-SF_0",
+							"labelIndex": 22,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"05705709-a25a-4587-964d-a2c4a0aff783": {
+										"name": "right hemisphere Superior Frontal (rh_SF)"
+									},
+									"87a9911d-98db-4eae-a3da-522b9989089c": {
+										"name": "right hemisphere Rostral Middle Frontal (rh_RMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "fdaff7eb-2a35-44a6-966f-ee5307ac1b7c",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_RMF-SF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_RMF-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_RMF-SF/bundle-0/rh_RMF-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						},
+						{
+							"name": "rh_RMF-SF_1",
+							"labelIndex": 24,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"62e8a7d4-1886-4f9c-9f80-4aae2c9bd44b": {
+										"name": "right hemisphere Superior Frontal (rh_SF)"
+									},
+									"031edd52-04c5-4368-bad8-2515e20d860d": {
+										"name": "right hemisphere Rostral Middle Frontal (rh_RMF)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "6294f3e9-0279-46fc-b535-adc7f0b5f78c",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_RMF-SF_1.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_RMF-SF_1",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_RMF-SF/bundle-1/rh_RMF-SF_1.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Supramarginal - Insula",
+					"children": [
+						{
+							"name": "rh_SM-Ins_0",
+							"labelIndex": 58,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"f07556fc-baf5-42ee-9787-99caf88a34bc": {
+										"name": "right hemisphere Insula (rh_Ins)"
+									},
+									"0c298145-f661-44d0-9fa9-f8162548072f": {
+										"name": "right hemisphere Supramarginal (rh_SM) "
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "937b06ad-85e1-40d9-8523-2208e493f65c",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_SM-Ins_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_SM-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_SM-Ins/bundle-0/rh_SM-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Superior Parietal - Supramarginal",
+					"children": [
+						{
+							"name": "rh_SP-SM_0",
+							"labelIndex": 94,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"cebbf914-7c0e-4662-8357-980be1ab6159": {
+										"name": "right hemisphere Supramarginal (rh_SM)"
+									},
+									"42034a13-1656-4f99-b157-863f608757cc": {
+										"name": "right hemisphere Superior Parietal (rh_SP)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "0a7d2e7d-9932-4bc7-bf88-18454b387d63",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_SP-SM_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_SP-SM_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_SP-SM/bundle-0/rh_SP-SM_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Superior Temporal \u2013 Transverse Temporal",
+					"children": [
+						{
+							"name": "rh_ST-TT_0",
+							"labelIndex": 36,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"93828419-ff60-4223-ba14-df8b09edf490": {
+										"name": "right hemisphere Transverse Temporal (rh_TT)"
+									},
+									"82705c3c-c6d8-4d38-ae5a-bc52e69fedba": {
+										"name": "right hemisphere Superior Temporal (rh_ST)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "c91efb77-dfe8-48d9-a110-bb75e9beff99",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_ST-TT_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_ST-TT_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_ST-TT/bundle-0/rh_ST-TT_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pars Triangularis - Insula",
+					"children": [
+						{
+							"name": "rh_Tr-Ins_0",
+							"labelIndex": 65,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"0a8cc427-061c-4cc9-b3c0-011972eb967b": {
+										"name": "right hemisphere Insula (rh_Ins)"
+									},
+									"39679b45-3ccd-4402-b272-ead113e5c426": {
+										"name": "right hemisphere Pars Triangularis (rh_Tr)"
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "545f318a-4648-4880-ab3f-bc7e05ca4687",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Tr-Ins_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Tr-Ins_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Tr-Ins/bundle-0/rh_Tr-Ins_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pars Triangularis \u2013 Superior Frontal",
+					"children": [
+						{
+							"name": "rh_Tr-SF_0",
+							"labelIndex": 56,
+							"fullId": {
+								"minds/core/dataset/v1.0.0/parcellationregion": {
+									"61384778-971e-47f5-8f9b-dc0ca89a5afc": {
+										"name": "right hemisphere Superior Frontal (rh_SF)"
+									},
+									"0e4e9a66-98e1-4b65-8bbe-5fc58350b9da": {
+										"name": "right hemisphere Pars Triangularis (rh_Tr) "
+									}
+								}
+							},
+							"datasets": [
+								{
+									"kgId": "5d35bdda-303b-4fc9-ab76-e3076c1e5ebc",
+									"kgSchema": "minds/core/dataset/v1.0.0",
+									"filename": "rh_Tr-SF_0.nii"
+								},
+								{
+									"@type": "fzj/tmp/volume_type/v0.0.1",
+									"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+									"name": "Probabilistic map of rh_Tr-SF_0",
+									"volume_type": "nii",
+									"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/pm_rh_Tr-SF/bundle-0/rh_Tr-SF_0.nii.gz",
+									"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+									"map_type": "continuous"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
 }

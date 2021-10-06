@@ -1,9 +1,839 @@
 {
-	"name": "Probabilistic Long White Matter Bundle Atlas",
-	"shortName": "Long Bundle",
 	"@id": "juelich/iav/atlas/v1.0.0/5",
-	"groupName": "Fibre tracts",
-	"maps": {
-		"minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2" : {}
-	}
+	"@type": "minds/core/parcellationatlas/v1.0.0",
+	"name": "Probabilistic Long White Matter Bundle Maps",
+	"shortName": "Long White Matter Bundles",
+	"description": "This data contains the maximum probability map of deep white matter fibre bundles (atlas of deep white matter fibre bundles, version 2018), in the MNI ICBM152 reference brain. These bundles were identified by fibre clustering, from the tractography datasets of 78 subjects in Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
+	"publications": [
+		{
+			"doi": "10.1016/j.neuroimage.2012.02.071",
+			"cite": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas. NeuroImage, 61(4),1083-99."
+		}
+	],
+	"modality": "fibre architecture",
+	"datasets": [
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/bundle-long-nii",
+			"name": "bundle-long icbm152 nifti",
+			"volume_type": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"map_type": "labelled"
+		},
+		{
+			"@type": "fzj/tmp/volume_type/v0.0.1",
+			"@id": "fzj/tmp/volume_type/v0.0.1/bundle-long",
+			"name": "bundle-long icbm152 ng precomp",
+			"volume_type": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1,
+							0,
+							0,
+							-96937500
+						],
+						[
+							0,
+							1,
+							0,
+							-132937500
+						],
+						[
+							0,
+							0,
+							1,
+							-78937500
+						],
+						[
+							0,
+							0,
+							0,
+							1
+						]
+					]
+				}
+			},
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"map_type": "labelled"
+		},
+		{
+			"@type": "minds/core/dataset/v1.0.0",
+			"kgSchema": "minds/core/dataset/v1.0.0",
+			"kgId": "fcbb049b-edd5-4fb5-acbc-7bf8ee933e24"
+		}
+	],
+	"regions": [
+		{
+			"name": "Direct segment of the left arcuate fasciculus",
+			"labelIndex": 1,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "7de080e0-fa5e-492f-9cbc-a4d7e498b1d5"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"7de080e0-fa5e-492f-9cbc-a4d7e498b1d5": {
+						"name": "Direct segment of the left arcuate fasciculus"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "330ed9f5-ea87-4e90-a325-a11adeab1e66",
+					"filename": "Arcuate_Left.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Direct segment of the left arcuate fasciculus",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/left-hemisphere/Probability_Maps/Arcuate_Left.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Direct segment of the right arcuate fasciculus",
+			"labelIndex": 31,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "17cbf31c-f68b-4753-9014-44aa38e1cdcf"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"17cbf31c-f68b-4753-9014-44aa38e1cdcf": {
+						"name": "Direct segment of the right arcuate fasciculus"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "f8b607e1-3264-47ed-9e7e-b416891efcbe",
+					"filename": "Arcuate_Right.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Direct segment of the right arcuate fasciculus",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/right-hemisphere/Probability_Maps/Arcuate_Right.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Anterior segment of the left arcuate fasciculus",
+			"labelIndex": 2,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "1ed86a08-d720-427c-9796-ade24e34a36b"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"1ed86a08-d720-427c-9796-ade24e34a36b": {
+						"name": "Anterior segment of the left arcuate fasciculus"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "7e227fef-dc93-4593-a0ea-707996992dd8",
+					"filename": "Arcuate_Anterior_Left.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Anterior segment of the left arcuate fasciculus",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/left-hemisphere/Probability_Maps/Arcuate_Anterior_Left.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Anterior segment of the right arcuate fasciculus",
+			"labelIndex": 32,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "9f625fad-9329-4824-8751-8b27dc197d3e"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"9f625fad-9329-4824-8751-8b27dc197d3e": {
+						"name": "Anterior segment of the right arcuate fasciculus"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "93344d55-e70a-4545-92b7-45c65f7350a9",
+					"filename": "Arcuate_Anterior_Right.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Anterior segment of the right arcuate fasciculus",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/right-hemisphere/Probability_Maps/Arcuate_Anterior_Right.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Posterior segment of the left arcuate fasciculus",
+			"labelIndex": 3,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "f13ba46b-09ad-48bd-9301-282b0ee74d8d"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"f13ba46b-09ad-48bd-9301-282b0ee74d8d": {
+						"name": "Posterior segment of the left arcuate fasciculus"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "68a390f0-13ab-47f3-8ba7-53b317734f17",
+					"filename": "Arcuate_Posterior_Left.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Posterior segment of the left arcuate fasciculus",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/left-hemisphere/Probability_Maps/Arcuate_Posterior_Left.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Posterior segment of the right arcuate fasciculus",
+			"labelIndex": 33,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "2a6ea612-46c1-4a0f-a6f4-5ffc7ff09548"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"2a6ea612-46c1-4a0f-a6f4-5ffc7ff09548": {
+						"name": "Posterior segment of the right arcuate fasciculus"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "d451038f-da94-4d51-8141-54a1a4a7a9f6",
+					"filename": "Arcuate_Posterior_Right.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Posterior segment of the right arcuate fasciculus",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/right-hemisphere/Probability_Maps/Arcuate_Posterior_Right.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Left long cingulate fibres",
+			"labelIndex": 4,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "6fa27cc1-2efe-4fd3-83d7-973667a0b925"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"6fa27cc1-2efe-4fd3-83d7-973667a0b925": {
+						"name": "Left long cingulate fibres"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "3637f1c6-d0f5-4a86-ba07-d88098c59f81",
+					"filename": "Cingulum_Long_Left.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Left long cingulate fibres",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/left-hemisphere/Probability_Maps/Cingulum_Long_Left.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Right long cingulate fibres",
+			"labelIndex": 34,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "f5ae1188-8a10-4e17-9fa9-47b1dc4e50cd"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"f5ae1188-8a10-4e17-9fa9-47b1dc4e50cd": {
+						"name": "Right long cingulate fibres"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "70d976ca-ebdb-4e70-8c58-2aa3333f8bff",
+					"filename": "Cingulum_Long_Right.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Right long cingulate fibres",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/right-hemisphere/Probability_Maps/Cingulum_Long_Right.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Left short cingulate fibres",
+			"labelIndex": 5,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "882d13c0-ffe4-4fd8-95a1-ba714cd25fbb"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"882d13c0-ffe4-4fd8-95a1-ba714cd25fbb": {
+						"name": "Left short cingulate fibres"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "651038f7-1792-429a-8f26-6a9fbe998952",
+					"filename": "Cingulum_Short_Left.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Left short cingulate fibres",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/left-hemisphere/Probability_Maps/Cingulum_Short_Left.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Right short cingulate fibres",
+			"labelIndex": 35,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "4c5ecae5-17b4-4a65-8b66-c4d0882a2bca"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"4c5ecae5-17b4-4a65-8b66-c4d0882a2bca": {
+						"name": "Right short cingulate fibres"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "405fec3d-e95a-411f-a990-726ae11d2657",
+					"filename": "Cingulum_Short_Right.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Right short cingulate fibres",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/right-hemisphere/Probability_Maps/Cingulum_Short_Right.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Left temporal cingulate fibres",
+			"labelIndex": 6,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "2c71b329-5a32-4ba0-aacb-0fac99c46aca"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"2c71b329-5a32-4ba0-aacb-0fac99c46aca": {
+						"name": "Left temporal cingulate fibres"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "c6cf614d-abf1-495c-986b-7f551f8fa65e",
+					"filename": "Cingulum_Temporal_Left.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Left temporal cingulate fibres",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/left-hemisphere/Probability_Maps/Cingulum_Temporal_Left.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Right temporal cingulate fibres",
+			"labelIndex": 36,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "7e965e21-1d9b-4b8d-b77d-4a7ca17603e6"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"7e965e21-1d9b-4b8d-b77d-4a7ca17603e6": {
+						"name": "Right temporal cingulate fibres"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "518b0d17-ed31-4a20-91c2-efbe2eb6545a",
+					"filename": "Cingulum_Temporal_Right.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Right temporal cingulate fibres",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/right-hemisphere/Probability_Maps/Cingulum_Temporal_Right.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "CorpusCallosum_Body",
+			"labelIndex": 7
+		},
+		{
+			"name": "CorpusCallosum_Genu",
+			"labelIndex": 8
+		},
+		{
+			"name": "CorpusCallosum_Rostrum",
+			"labelIndex": 9
+		},
+		{
+			"name": "CorpusCallosum_Splenium",
+			"labelIndex": 10
+		},
+		{
+			"name": "Left corticospinal tract",
+			"labelIndex": 11,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "afbb2642-5e90-412f-9847-3d7a831f8f07"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"afbb2642-5e90-412f-9847-3d7a831f8f07": {
+						"name": "Left corticospinal tract"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "41495f74-0278-4ce1-8190-02ae57b316d8",
+					"filename": "CorticoSpinalTract_Left.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Left corticospinal tract",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/left-hemisphere/Probability_Maps/CorticoSpinalTract_Left.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Right corticospinal tract",
+			"labelIndex": 41,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "2f398c6e-6264-4615-8a28-18b3573d0732"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"2f398c6e-6264-4615-8a28-18b3573d0732": {
+						"name": "Right corticospinal tract"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "b1b77339-de1c-424c-a2a1-1489de4882f9",
+					"filename": "CorticoSpinalTract_Right.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Right corticospinal tract",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/right-hemisphere/Probability_Maps/CorticoSpinalTract_Right.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "ExternalCapsule - Left",
+			"labelIndex": 12
+		},
+		{
+			"name": "ExternalCapsule - Right",
+			"labelIndex": 42
+		},
+		{
+			"name": "Left fornix",
+			"labelIndex": 13,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "c8d1e4a0-d0c2-4101-a971-3ffb1ba65ef8"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"c8d1e4a0-d0c2-4101-a971-3ffb1ba65ef8": {
+						"name": "Left fornix"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "6820edd5-9f90-487e-8736-0d2e54e5f958",
+					"filename": "Fornix_Left.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Left fornix",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/left-hemisphere/Probability_Maps/Fornix_Left.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Right fornix",
+			"labelIndex": 43,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "e7e8fd6d-aa43-452e-9fc3-635aa0333910"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"e7e8fd6d-aa43-452e-9fc3-635aa0333910": {
+						"name": "Right fornix"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "82c00b60-f207-4473-8662-39be36ec5642",
+					"filename": "Fornix_Right.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Right fornix",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/right-hemisphere/Probability_Maps/Fornix_Right.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Left inferior fronto-occipital fasciculus",
+			"labelIndex": 14,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "524cd5a0-7066-4149-83b8-c0c4aaa12820"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"524cd5a0-7066-4149-83b8-c0c4aaa12820": {
+						"name": "Left inferior fronto-occipital fasciculus"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "58924d48-9606-4577-8d10-a729a8fda4f6",
+					"filename": "InferiorFrontoOccipital_Left.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Left inferior fronto-occipital fasciculus",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/left-hemisphere/Probability_Maps/InferiorFrontoOccipital_Left.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Right inferior fronto-occipital fasciculus",
+			"labelIndex": 44,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "34e8f68d-0b00-4e9e-bd43-ccaf10deef6d"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"34e8f68d-0b00-4e9e-bd43-ccaf10deef6d": {
+						"name": "Right inferior fronto-occipital fasciculus"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "4e8b0736-efb2-497a-a81c-40b6142ba278",
+					"filename": "InferiorFrontoOccipital_Right.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Right inferior fronto-occipital fasciculus",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/right-hemisphere/Probability_Maps/InferiorFrontoOccipital_Right.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Left inferior longitudinal fasciculus",
+			"labelIndex": 15,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "d3a458e1-6dbf-418d-bb52-c0b0c6acb920"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"d3a458e1-6dbf-418d-bb52-c0b0c6acb920": {
+						"name": "Left inferior longitudinal fasciculus"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "ddc35deb-bbb0-41b6-a4be-464d7e5f04f9",
+					"filename": "InferiorLongitudinal_Left.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Left inferior longitudinal fasciculus",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/left-hemisphere/Probability_Maps/InferiorLongitudinal_Left.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Right inferior longitudinal fasciculus",
+			"labelIndex": 45,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "25326bc6-2b87-4483-9738-89ca249faccd"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"25326bc6-2b87-4483-9738-89ca249faccd": {
+						"name": "Right inferior longitudinal fasciculus"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "aaff510c-85e7-4749-ac18-af374ded64dd",
+					"filename": "InferiorLongitudinal_Right.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Right inferior longitudinal fasciculus",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/right-hemisphere/Probability_Maps/InferiorLongitudinal_Right.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "InferiorLongitudinal_Lateral - Left",
+			"labelIndex": 16
+		},
+		{
+			"name": "InferiorLongitudinal_Lateral - Right",
+			"labelIndex": 46
+		},
+		{
+			"name": "MediumLongitudinal - Left",
+			"labelIndex": 17
+		},
+		{
+			"name": "MediumLongitudinal - Right",
+			"labelIndex": 47
+		},
+		{
+			"name": "SpinoThalamicTract - Left",
+			"labelIndex": 18
+		},
+		{
+			"name": "SpinoThalamicTract - Right",
+			"labelIndex": 48
+		},
+		{
+			"name": "ThalamicRadiations_Anterior - Left",
+			"labelIndex": 19
+		},
+		{
+			"name": "ThalamicRadiations_Anterior - Right",
+			"labelIndex": 49
+		},
+		{
+			"name": "ThalamicRadiations_Posterior - Left",
+			"labelIndex": 20
+		},
+		{
+			"name": "ThalamicRadiations_Posterior - Right",
+			"labelIndex": 50
+		},
+		{
+			"name": "Left uncinate fasciculus",
+			"labelIndex": 21,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "f36707b5-d4f3-480b-a1c9-651bf8cc49d5"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"f36707b5-d4f3-480b-a1c9-651bf8cc49d5": {
+						"name": "Left uncinate fasciculus"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "ed7f25ea-5a32-4a7d-9d38-39317bab84bc",
+					"filename": "Uncinate_Left.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Left uncinate fasciculus",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/left-hemisphere/Probability_Maps/Uncinate_Left.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		},
+		{
+			"name": "Right uncinate fasciculus",
+			"labelIndex": 51,
+			"relatedAreas": [],
+			"fullId": {
+				"kg": {
+					"kgSchema": "minds/core/parcellationregion/v1.0.0",
+					"kgId": "84ea1a64-03a6-4a7e-9f64-a3d2127ebf3f"
+				},
+				"minds/core/parcellationregion/v1.0.0": {
+					"84ea1a64-03a6-4a7e-9f64-a3d2127ebf3f": {
+						"name": "Right uncinate fasciculus"
+					}
+				}
+			},
+			"datasets": [
+				{
+					"kgSchema": "minds/core/dataset/v1.0.0",
+					"kgId": "cd10f6c0-4828-4483-8ea4-0935a4313927",
+					"filename": "Uncinate_Right.nii.gz"
+				},
+				{
+					"@type": "fzj/tmp/volume_type/v0.0.1",
+					"@id": "fzj/tmp/volume_type/v0.0.1/pmap",
+					"name": "Probabilistic map of Right uncinate fasciculus",
+					"volume_type": "nii",
+					"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/right-hemisphere/Probability_Maps/Uncinate_Right.nii.gz",
+					"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+					"map_type": "continuous"
+				}
+			]
+		}
+	]
 }

@@ -1,0 +1,22 @@
+image: python:3.8
+stages:
+  - test
+
+before-script:
+  script:
+    - python -m pip install --upgrade pip
+
+parc_version_ci:
+  stage: test
+  script:
+    - python ./_ci/parc_version_ci.py
+
+dataset_compliance:
+  stage: test
+  script:
+    - python ./_ci/dataset_compliance.py
+
+region_attr_compliance:
+  stage: test
+  script:
+    - python ./_ci/region_attr_compliance.py
