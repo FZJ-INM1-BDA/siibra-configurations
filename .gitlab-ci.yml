@@ -15,3 +15,8 @@ dataset_compliance:
   stage: test
   script:
     - python ./_ci/dataset_compliance.py
+
+region_attr_compliance:
+  stage: test
+  script:
+    - python ./_ci/region_attr_compliance.py
