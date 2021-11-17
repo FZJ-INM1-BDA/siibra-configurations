@@ -48,4 +48,4 @@ push_to_mirror:
 
     # push all tags and master to remote mirror
     - git push ebrains --tags
-    - git push ebrains master
+    - git push ebrains HEAD:master # https://forum.gitlab.com/t/src-refspec-master-does-not-match-any/24691/16
