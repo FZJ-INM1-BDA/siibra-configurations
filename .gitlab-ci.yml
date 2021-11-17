@@ -1,6 +1,7 @@
 image: python:3.8
 stages:
   - test
+  - git-robot
 
 before-script:
   script:
@@ -20,3 +21,24 @@ region_attr_compliance:
   stage: test
   script:
     - python ./_ci/region_attr_compliance.py
+
+push_to_mirror:
+  stage: git-robot
+  only:
+    - master
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$GIT_SSH_PRIV_KEY")
+    - git config --global user.email "inm1-bda@fz-juelich.de"
+    - git config --global user.name "inm1 bda - gitlab bot"
+    - mkdir -p ~/.ssh
+
+    # add $GITLAB_MIRROR_HOST to known hosts
+    - ssh-keyscan $GITLAB_MIRROR_HOST >> gitlab-known-hosts
+    - cat gitlab-known-hosts >> ~/.ssh/known_hosts
+  script:
+    - git fetch --tags -f
+    - git remote add ebrains $GITLAB_MIRROR_REMOTE
+    - git push ebrains --tags
+    - git push ebrains master
