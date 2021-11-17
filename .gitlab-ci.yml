@@ -26,6 +26,7 @@ push_to_mirror:
   stage: git-robot
   only:
     - master
+    - tags
   before_script:
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
     - eval $(ssh-agent -s)
@@ -38,7 +39,13 @@ push_to_mirror:
     - ssh-keyscan $GITLAB_MIRROR_HOST >> gitlab-known-hosts
     - cat gitlab-known-hosts >> ~/.ssh/known_hosts
   script:
+    # fetch all tags (potentially overwriting local tags to avoid clobbering)
     - git fetch --tags -f
+    - git fetch origin master
+
+    # add remote mirror
     - git remote add ebrains $GITLAB_MIRROR_REMOTE
+
+    # push all tags and master to remote mirror
     - git push ebrains --tags
     - git push ebrains master
