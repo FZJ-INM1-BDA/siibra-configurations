@@ -43,7 +43,7 @@ push_to_mirror:
     - git fetch origin master
 
     # add remote mirror
-    - git remote add ebrains https://jugitpusher:${GITLAB_MIRROR_TOKEN}@${GITLAB_MIRROR_HOST}/${GITLAB_MIRROR_REPO_PATH}
+    - git remote remove ebrains && git remote add ebrains https://jugitpusher:${GITLAB_MIRROR_TOKEN}@${GITLAB_MIRROR_HOST}/${GITLAB_MIRROR_REPO_PATH}
 
     # push all tags and master to remote mirror
     - git push ebrains --tags -f
