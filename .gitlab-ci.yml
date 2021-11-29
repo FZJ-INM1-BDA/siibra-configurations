@@ -30,7 +30,6 @@ push_to_mirror:
   before_script:
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
     - eval $(ssh-agent -s)
-    - ssh-add <(echo "$GIT_SSH_PRIV_KEY")
     - git config --global user.email "inm1-bda@fz-juelich.de"
     - git config --global user.name "inm1 bda - gitlab bot"
     - mkdir -p ~/.ssh
@@ -44,8 +43,8 @@ push_to_mirror:
     - git fetch origin master
 
     # add remote mirror
-    - git remote add ebrains $GITLAB_MIRROR_REMOTE
+    - git remote add ebrains https://jugitpusher:${GITLAB_MIRROR_TOKEN}@${GITLAB_MIRROR_HOST}/${GITLAB_MIRROR_REPO_PATH}
 
     # push all tags and master to remote mirror
-    - git push ebrains --tags
-    - git push ebrains HEAD:master # https://forum.gitlab.com/t/src-refspec-master-does-not-match-any/24691/16
+    - git push ebrains --tags -f
+    - git push ebrains HEAD:master -f # https://forum.gitlab.com/t/src-refspec-master-does-not-match-any/24691/16
