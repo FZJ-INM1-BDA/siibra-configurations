@@ -1,0 +1,214 @@
+{
+  "formats": [
+    "NIFTI"
+  ],
+  "datasetDOI": [
+    {
+      "cite": "Malikovic, A., Amunts, K., Schleicher, A., Mohlberg, H., Eickhoff, S. B., Wilms, M., \u2026 Zilles, K. (2006). Cytoarchitectonic Analysis of the Human Extrastriate Cortex in the Region of V5/MT+: A Probabilistic, Stereotaxic Map of Area hOc5. Cerebral Cortex, 17(3), 562\u2013574. ",
+      "doi": "10.1093/cercor/bhj181"
+    }
+  ],
+  "activity": [
+    {
+      "protocols": [
+        "histology"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    },
+    {
+      "protocols": [
+        "imaging"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    },
+    {
+      "protocols": [
+        "brain mapping"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    }
+  ],
+  "referenceSpaces": [
+    {
+      "name": null,
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+    },
+    {
+      "name": "MNI Colin 27",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
+    }
+  ],
+  "methods": [
+    "silver staining",
+    "magnetic resonance imaging (MRI)",
+    "probability mapping",
+    "cytoarchitectonic mapping"
+  ],
+  "custodians": [
+    {
+      "schema.org/shortName": "Amunts, K.",
+      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+      "name": "Amunts, Katrin",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+      "shortName": "Amunts, K."
+    }
+  ],
+  "project": [
+    "Julich-Brain: cytoarchitectonic probabilistic maps of the human brain"
+  ],
+  "description": "This dataset contains the distinct architectonic Area hOc5 (LOC) in the individual, single subject template of the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space. As part of the Julich-Brain cytoarchitectonic atlas, the area was identified using cytoarchitectonic analysis on cell-body-stained histological sections of 10 human postmortem brains obtained from the body donor program of the University of D\u00fcsseldorf. The results of the cytoarchitectonic analysis were then mapped to both reference spaces, where each voxel was assigned the probability to belong to Area hOc5 (LOC). The probability map of Area hOc5 (LOC) is provided in the NifTi format for each brain reference space and hemisphere. The Julich-Brain atlas relies on a modular, flexible and adaptive framework containing workflows to create the probabilistic brain maps for these structures. Note that methodological improvements and integration of new brain structures may lead to small deviations in earlier released datasets.\n\nOther available data versions of Area hOc5 (LOC):\nMalikovic et al. (2018) [Data set, v2.2] [DOI: 10.25493/BPG7-360](https://doi.org/10.25493%2FBPG7-360)\n\nThe most probable delineation of Area hOc5 (LOC) derived from the calculation of a maximum probability map of all currently released Julich-Brain brain structures can be found here:\nAmunts et al. (2019) [Data set, v1.13] [DOI: 10.25493/Q3ZS-NV6](https://doi.org/10.25493%2FQ3ZS-NV6)\nAmunts et al. (2019) [Data set, v1.18] [DOI: 10.25493/8EGG-ZAR](https://doi.org/10.25493%2F8EGG-ZAR)\nAmunts et al. (2020) [Data set, v2.2] [DOI: 10.25493/TAKY-64D](https://doi.org/10.25493%2FTAKY-64D)",
+  "parcellationAtlas": [
+    {
+      "name": "Julich-Brain Atlas",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
+      "id": [
+        "deec923ec31a82f89a9c7c76a6fefd6b",
+        "e2d45e028b6da0f6d9fdb9491a4de80a"
+      ]
+    }
+  ],
+  "licenseInfo": [
+    {
+      "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "embargoStatus": [
+    {
+      "identifier": [
+        "b24ce0cd392a5b0b8dedc66c25213594",
+        "b24ce0cd392a5b0b8dedc66c25213594"
+      ],
+      "name": "Free",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
+    }
+  ],
+  "license": [],
+  "parcellationRegion": [
+    {
+      "species": [],
+      "name": "Area hOc5 (LOC)",
+      "alias": "",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/b40afb5a-e6a1-47b6-8a3e-1f8a20fbf99a"
+    }
+  ],
+  "species": [
+    "Homo sapiens"
+  ],
+  "name": "Probabilistic cytoarchitectonic map of Area hOc5 (LOC) (v2.4)",
+  "files": [
+    {
+      "byteSize": 82023.0,
+      "name": "Area-hOc5_l_N10_nlin2Stdcolin27_2.4_publicP_6ed980373c276947f90f58eefe410f96.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hOc5_pub/2.4/Area-hOc5_l_N10_nlin2Stdcolin27_2.4_publicP_6ed980373c276947f90f58eefe410f96.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 83519.0,
+      "name": "Area-hOc5_r_N10_nlin2Stdcolin27_2.4_publicP_7542c361d311176986f0dbab9561b2f6.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hOc5_pub/2.4/Area-hOc5_r_N10_nlin2Stdcolin27_2.4_publicP_7542c361d311176986f0dbab9561b2f6.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 62686.0,
+      "name": "Area-hOc5_r_N10_nlin2MNI152ASYM2009C_2.4_publicP_f5d20a1ad3db354a5b9a6f13beb905b6.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hOc5_pub/2.4/Area-hOc5_r_N10_nlin2MNI152ASYM2009C_2.4_publicP_f5d20a1ad3db354a5b9a6f13beb905b6.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 58590.0,
+      "name": "Area-hOc5_l_N10_nlin2MNI152ASYM2009C_2.4_publicP_8711958bf427c07b36e28d6687bd7003.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hOc5_pub/2.4/Area-hOc5_l_N10_nlin2MNI152ASYM2009C_2.4_publicP_8711958bf427c07b36e28d6687bd7003.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 20.0,
+      "name": "subjects_Area-hOc5.csv",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hOc5_pub/2.4/subjects_Area-hOc5.csv",
+      "contentType": "text/csv"
+    }
+  ],
+  "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/84897b6c-78d3-4dd4-bea9-dbb6459fba20",
+  "contributors": [
+    {
+      "schema.org/shortName": "Zilles, K.",
+      "identifier": "2457b4a7cf0b3fa199dcc3c88180dc9f",
+      "name": "Zilles, Karl",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/bacae1fc-d8ff-4050-8388-7d826592c62c",
+      "shortName": "Zilles, K."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "9165911ac5faff2d4dc0f426030c9bc1",
+      "name": "Armstrong, E.",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/0db92da2-30b7-43cd-a9b5-edf67ba77a6a",
+      "shortName": "Armstrong, E."
+    },
+    {
+      "schema.org/shortName": "Palomero-Gallagher, N.",
+      "identifier": "3ac753a73ac8cfd3151639808ae45913",
+      "name": "Palomero-Gallagher, Nicola",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d77176e3-faa9-4c93-8dc0-7f3663c6d2ee",
+      "shortName": "Palomero-Gallagher, N."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "26df4a52612ed12a4585e47413ecd004",
+      "name": "Wilms, M.",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/7d50d630-e426-463b-9a99-585c49cbf8c8",
+      "shortName": "Wilms, M."
+    },
+    {
+      "schema.org/shortName": "Eickhoff, S. B.",
+      "identifier": "f7e179682ccf98378bb566852f442c93",
+      "name": "Eickhoff, Simon B.",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/99a95057-bd4d-43ab-ad70-b7920ceedc48",
+      "shortName": "Eickhoff, S. B."
+    },
+    {
+      "schema.org/shortName": "Mohlberg, H.",
+      "identifier": "22bc11ef3726cc89459f83e66e88961b",
+      "name": "Mohlberg, Hartmut",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d2be3785-5b4b-4451-87be-62b30442ed30",
+      "shortName": "Mohlberg, H."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "46f600ef63191d2b80362caa4686a2ec",
+      "name": "Schleicher, Axel",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f000487e-a9b4-4dee-8a2d-68f71019af0b",
+      "shortName": "Schleicher, A."
+    },
+    {
+      "schema.org/shortName": "Amunts, K.",
+      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+      "name": "Amunts, Katrin",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+      "shortName": "Amunts, K."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "0b6888c55d248a941a022961b3de4374",
+      "name": "Malikovic, Aleksandar",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/8267c403-6f87-4c77-b113-3bd50d848e31",
+      "shortName": "Malikovic, A."
+    }
+  ],
+  "id": "84897b6c-78d3-4dd4-bea9-dbb6459fba20",
+  "kgReference": [
+    "10.25493/2WSH-MCT"
+  ],
+  "publications": [
+    {
+      "name": "Cytoarchitectonic Analysis of the Human Extrastriate Cortex in the Region of V5/MT+: A Probabilistic, Stereotaxic Map of Area hOc5",
+      "cite": "Malikovic, A., Amunts, K., Schleicher, A., Mohlberg, H., Eickhoff, S. B., Wilms, M., \u2026 Zilles, K. (2006). Cytoarchitectonic Analysis of the Human Extrastriate Cortex in the Region of V5/MT+: A Probabilistic, Stereotaxic Map of Area hOc5. Cerebral Cortex, 17(3), 562\u2013574. ",
+      "doi": "10.1093/cercor/bhj181"
+    }
+  ]
+}

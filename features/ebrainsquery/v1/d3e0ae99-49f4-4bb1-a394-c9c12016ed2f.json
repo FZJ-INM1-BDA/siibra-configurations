@@ -1,0 +1,199 @@
+{
+  "formats": [
+    "NIFTI"
+  ],
+  "datasetDOI": [
+    {
+      "cite": "Tellmann, S., Bludau, S., Eickhoff, S., Mohlberg, H., Minnerop, M., & Amunts, K. (2015). Cytoarchitectonic mapping of the human brain cerebellar nuclei in stereotaxic space and delineation of their co-activation patterns. Frontiers in Neuroanatomy, 09. ",
+      "doi": "10.3389/fnana.2015.00054"
+    }
+  ],
+  "activity": [
+    {
+      "protocols": [
+        "histology"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    },
+    {
+      "protocols": [
+        "imaging"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    },
+    {
+      "protocols": [
+        "brain mapping"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    }
+  ],
+  "referenceSpaces": [
+    {
+      "name": null,
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+    },
+    {
+      "name": "MNI Colin 27",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
+    }
+  ],
+  "methods": [
+    "silver staining",
+    "magnetic resonance imaging (MRI)",
+    "probability mapping",
+    "cytoarchitectonic mapping"
+  ],
+  "custodians": [
+    {
+      "schema.org/shortName": "Amunts, K.",
+      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+      "name": "Amunts, Katrin",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+      "shortName": "Amunts, K."
+    }
+  ],
+  "project": [
+    "Julich-Brain: cytoarchitectonic probabilistic maps of the human brain"
+  ],
+  "description": "This dataset contains the distinct architectonic Ventral Dentate Nucleus (Cerebellum) in the individual, single subject template of the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space. As part of the Julich-Brain cytoarchitectonic atlas, the area was identified using cytoarchitectonic analysis on cell-body-stained histological sections of 10 human postmortem brains obtained from the body donor program of the University of D\u00fcsseldorf. The results of the cytoarchitectonic analysis were then mapped to both reference spaces, where each voxel was assigned the probability to belong to Ventral Dentate Nucleus (Cerebellum). The probability map of Ventral Dentate Nucleus (Cerebellum) is provided in the NifTi format for each brain reference space and hemisphere. The Julich-Brain atlas relies on a modular, flexible and adaptive framework containing workflows to create the probabilistic brain maps for these structures. Note that methodological improvements and integration of new brain structures may lead to small deviations in earlier released datasets.\n\nOther available data versions of Ventral Dentate Nucleus (Cerebellum):\nTellmann et al. (2018) [Data set, v6.0] [DOI: 10.25493/89QC-M13](https://doi.org/10.25493%2F89QC-M13)\n\nThe most probable delineation of Ventral Dentate Nucleus (Cerebellum) derived from the calculation of a maximum probability map of all currently released Julich-Brain brain structures can be found here:\nAmunts et al. (2019) [Data set, v1.13] [DOI: 10.25493/Q3ZS-NV6](https://doi.org/10.25493%2FQ3ZS-NV6)\nAmunts et al. (2019) [Data set, v1.18] [DOI: 10.25493/8EGG-ZAR](https://doi.org/10.25493%2F8EGG-ZAR)\nAmunts et al. (2020) [Data set, v2.2] [DOI: 10.25493/TAKY-64D](https://doi.org/10.25493%2FTAKY-64D)\nAmunts et al. (2020) [Data set, v2.4] [DOI: 10.25493/A7Y0-NX9](https://doi.org/10.25493%2FA7Y0-NX9)\nAmunts et al. (2020) [Data set, v2.5] [DOI: 10.25493/8JKE-M53](https://doi.org/10.25493/8JKE-M53)\nAmunts et al. (2021) [Data set, v2.6] [DOI: 10.25493/KJQN-AM0](https://doi.org/10.25493%2FKJQN-AM0)",
+  "parcellationAtlas": [
+    {
+      "name": "Julich-Brain Atlas",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
+      "id": [
+        "deec923ec31a82f89a9c7c76a6fefd6b",
+        "e2d45e028b6da0f6d9fdb9491a4de80a"
+      ]
+    }
+  ],
+  "licenseInfo": [
+    {
+      "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "embargoStatus": [
+    {
+      "identifier": [
+        "b24ce0cd392a5b0b8dedc66c25213594",
+        "b24ce0cd392a5b0b8dedc66c25213594"
+      ],
+      "name": "Free",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
+    }
+  ],
+  "license": [],
+  "parcellationRegion": [
+    {
+      "species": [],
+      "name": "Ventral Dentate Nucleus (Cerebellum)",
+      "alias": "",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/57282342-5a75-4e07-bcdc-2d368c517b71"
+    }
+  ],
+  "species": [
+    "Homo sapiens"
+  ],
+  "name": "Probabilistic cytoarchitectonic map of Ventral Dentate Nucleus (Cerebellum) (v6.2)",
+  "files": [
+    {
+      "byteSize": 78058.0,
+      "name": "Ventral-Dentate-Nucleus_r_N10_nlin2Stdcolin27_6.2_publicP_0a940b0c0455d9073942ab515304ead9.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Ventral-Dentate-Nucleus_pub/6.2/Ventral-Dentate-Nucleus_r_N10_nlin2Stdcolin27_6.2_publicP_0a940b0c0455d9073942ab515304ead9.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 143466.0,
+      "name": "Licence (CCBY-NC-SA).pdf",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Ventral-Dentate-Nucleus_pub/6.2/Licence (CCBY-NC-SA).pdf",
+      "contentType": "application/pdf"
+    },
+    {
+      "byteSize": 78197.0,
+      "name": "Ventral-Dentate-Nucleus_l_N10_nlin2Stdcolin27_6.2_publicP_66c0eabf5055063dc9c4e26745bc39d0.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Ventral-Dentate-Nucleus_pub/6.2/Ventral-Dentate-Nucleus_l_N10_nlin2Stdcolin27_6.2_publicP_66c0eabf5055063dc9c4e26745bc39d0.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 52572.0,
+      "name": "Ventral-Dentate-Nucleus_l_N10_nlin2ICBM152asym2009c_6.2_publicP_8cb2cac581b361882c02fafb686e431e.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Ventral-Dentate-Nucleus_pub/6.2/Ventral-Dentate-Nucleus_l_N10_nlin2ICBM152asym2009c_6.2_publicP_8cb2cac581b361882c02fafb686e431e.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 24.0,
+      "name": "subjects_Ventral-Dentate-Nucleus.csv",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Ventral-Dentate-Nucleus_pub/6.2/subjects_Ventral-Dentate-Nucleus.csv",
+      "contentType": "text/csv"
+    },
+    {
+      "byteSize": 51090.0,
+      "name": "Ventral-Dentate-Nucleus_r_N10_nlin2ICBM152asym2009c_6.2_publicP_e6e41283cdbe043614d93fadeeb1ce22.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Ventral-Dentate-Nucleus_pub/6.2/Ventral-Dentate-Nucleus_r_N10_nlin2ICBM152asym2009c_6.2_publicP_e6e41283cdbe043614d93fadeeb1ce22.nii.gz",
+      "contentType": "application/octet-stream"
+    }
+  ],
+  "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/d3e0ae99-49f4-4bb1-a394-c9c12016ed2f",
+  "contributors": [
+    {
+      "schema.org/shortName": "Amunts, K.",
+      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+      "name": "Amunts, Katrin",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+      "shortName": "Amunts, K."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "c3be94cf9c3b2b2ec7c9f730f9fbc886",
+      "name": "Minnerop, Martina",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/e4314d3a-cf47-4f5e-99d2-1f2c3f9d804b",
+      "shortName": "Minnerop, M."
+    },
+    {
+      "schema.org/shortName": "Mohlberg, H.",
+      "identifier": "22bc11ef3726cc89459f83e66e88961b",
+      "name": "Mohlberg, Hartmut",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d2be3785-5b4b-4451-87be-62b30442ed30",
+      "shortName": "Mohlberg, H."
+    },
+    {
+      "schema.org/shortName": "Eickhoff, S. B.",
+      "identifier": "f7e179682ccf98378bb566852f442c93",
+      "name": "Eickhoff, Simon B.",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/99a95057-bd4d-43ab-ad70-b7920ceedc48",
+      "shortName": "Eickhoff, S. B."
+    },
+    {
+      "schema.org/shortName": "Bludau, S.",
+      "identifier": "0c420063c33118f0fd65cabd330e9dd1",
+      "name": "Bludau, Sebastian",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/8e05318b-4e11-454c-a49b-f81e3589dc98",
+      "shortName": "Bludau, S."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "c745b264c8bfe3b8b55ac510bd065381",
+      "name": "Tellmann, Stefanie",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f5087593-7dc5-4f5a-963e-ed8bbe7528d5",
+      "shortName": "Tellmann, S."
+    }
+  ],
+  "id": "d3e0ae99-49f4-4bb1-a394-c9c12016ed2f",
+  "kgReference": [
+    "10.25493/FQE5-5QR"
+  ],
+  "publications": [
+    {
+      "name": "Cytoarchitectonic mapping of the human brain cerebellar nuclei in stereotaxic space and delineation of their co-activation patterns",
+      "cite": "Tellmann, S., Bludau, S., Eickhoff, S., Mohlberg, H., Minnerop, M., & Amunts, K. (2015). Cytoarchitectonic mapping of the human brain cerebellar nuclei in stereotaxic space and delineation of their co-activation patterns. Frontiers in Neuroanatomy, 09. ",
+      "doi": "10.3389/fnana.2015.00054"
+    }
+  ]
+}
