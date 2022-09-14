@@ -1,0 +1,214 @@
+{
+  "formats": [
+    "NIFTI"
+  ],
+  "datasetDOI": [
+    {
+      "cite": "Bludau, S., Eickhoff, S. B., Mohlberg, H., Caspers, S., Laird, A. R., Fox, P. T., \u2026 Amunts, K. (2014). Cytoarchitecture, probability maps and functions of the human frontal pole. NeuroImage, 93, 260\u2013275. ",
+      "doi": "10.1016/j.neuroimage.2013.05.052"
+    }
+  ],
+  "activity": [
+    {
+      "protocols": [
+        "histology"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    },
+    {
+      "protocols": [
+        "imaging"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    },
+    {
+      "protocols": [
+        "brain mapping"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    }
+  ],
+  "referenceSpaces": [
+    {
+      "name": null,
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+    },
+    {
+      "name": "MNI Colin 27",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
+    }
+  ],
+  "methods": [
+    "silver staining",
+    "magnetic resonance imaging (MRI)",
+    "probability mapping",
+    "cytoarchitectonic mapping"
+  ],
+  "custodians": [
+    {
+      "schema.org/shortName": "Amunts, K.",
+      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+      "name": "Amunts, Katrin",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+      "shortName": "Amunts, K."
+    }
+  ],
+  "project": [
+    "Julich-Brain: cytoarchitectonic probabilistic maps of the human brain"
+  ],
+  "description": "This dataset contains the distinct architectonic Area Fp2 (FPole) in the individual, single subject template of the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space. As part of the Julich-Brain cytoarchitectonic atlas, the area was identified using cytoarchitectonic analysis on cell-body-stained histological sections of 10 human postmortem brains obtained from the body donor program of the University of D\u00fcsseldorf. The results of the cytoarchitectonic analysis were then mapped to both reference spaces, where each voxel was assigned the probability to belong to Area Fp2 (FPole). The probability map of Area Fp2 (FPole) are provided in the NifTi format for each brain reference space and hemisphere. The Julich-Brain atlas relies on a modular, flexible and adaptive framework containing workflows to create the probabilistic brain maps for these structures. Note that methodological improvements and integration of new brain structures may lead to small deviations in earlier released datasets.\n\nOther available data versions of Area Fp2 (FPole):\nBludau et al. (2018) [Data set, v2.2] [DOI: 10.25493/26WT-E3P](https://doi.org/10.25493%2F26WT-E3P)\n\nThe most probable delineation of Area Fp2 (FPole) derived from the calculation of a maximum probability map of all currently released Julich-Brain brain structures can be found here:\nAmunts et al. (2019) [Data set, v1.13] [DOI: 10.25493/Q3ZS-NV6](https://doi.org/10.25493%2FQ3ZS-NV6)\nAmunts et al. (2019) [Data set, v1.18] [DOI: 10.25493/8EGG-ZAR](https://doi.org/10.25493%2F8EGG-ZAR)\nAmunts et al. (2020) [Data set, v2.2] [DOI: 10.25493/TAKY-64D](https://doi.org/10.25493%2FTAKY-64D)",
+  "parcellationAtlas": [
+    {
+      "name": "Julich-Brain Atlas",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
+      "id": [
+        "deec923ec31a82f89a9c7c76a6fefd6b",
+        "e2d45e028b6da0f6d9fdb9491a4de80a"
+      ]
+    }
+  ],
+  "licenseInfo": [
+    {
+      "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "embargoStatus": [
+    {
+      "identifier": [
+        "b24ce0cd392a5b0b8dedc66c25213594",
+        "b24ce0cd392a5b0b8dedc66c25213594"
+      ],
+      "name": "Free",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
+    }
+  ],
+  "license": [],
+  "parcellationRegion": [
+    {
+      "species": [],
+      "name": "Area Fp2 (FPole)",
+      "alias": "",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/3bf7bde1-cc06-4657-b296-380275f9d4b8"
+    }
+  ],
+  "species": [
+    "Homo sapiens"
+  ],
+  "name": "Probabilistic cytoarchitectonic map of Area Fp2 (FPole) (v2.4)",
+  "files": [
+    {
+      "byteSize": 109929.0,
+      "name": "Area-Fp2_r_N10_nlin2Stdcolin27_2.4_publicP_8590239cbabdbb022a92cf2d783b5525.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-Fp2_pub/2.4/Area-Fp2_r_N10_nlin2Stdcolin27_2.4_publicP_8590239cbabdbb022a92cf2d783b5525.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 27.0,
+      "name": "subjects_Area-Fp2.csv",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-Fp2_pub/2.4/subjects_Area-Fp2.csv",
+      "contentType": "text/csv"
+    },
+    {
+      "byteSize": 85315.0,
+      "name": "Area-Fp2_l_N10_nlin2MNI152ASYM2009C_2.4_publicP_b8d8440ba6ff4ee72e8184b4a71d44d2.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-Fp2_pub/2.4/Area-Fp2_l_N10_nlin2MNI152ASYM2009C_2.4_publicP_b8d8440ba6ff4ee72e8184b4a71d44d2.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 83767.0,
+      "name": "Area-Fp2_r_N10_nlin2MNI152ASYM2009C_2.4_publicP_78d77928de1e288d9fc00d23eee7de12.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-Fp2_pub/2.4/Area-Fp2_r_N10_nlin2MNI152ASYM2009C_2.4_publicP_78d77928de1e288d9fc00d23eee7de12.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 111389.0,
+      "name": "Area-Fp2_l_N10_nlin2Stdcolin27_2.4_publicP_15ceb771b7ce41cf5db287ca4d09ef13.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-Fp2_pub/2.4/Area-Fp2_l_N10_nlin2Stdcolin27_2.4_publicP_15ceb771b7ce41cf5db287ca4d09ef13.nii.gz",
+      "contentType": "application/octet-stream"
+    }
+  ],
+  "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/8d2f06b2-d3bd-4f89-a6e3-953c90cc9661",
+  "contributors": [
+    {
+      "schema.org/shortName": "Amunts, K.",
+      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+      "name": "Amunts, Katrin",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+      "shortName": "Amunts, K."
+    },
+    {
+      "schema.org/shortName": "Zilles, K.",
+      "identifier": "2457b4a7cf0b3fa199dcc3c88180dc9f",
+      "name": "Zilles, Karl",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/bacae1fc-d8ff-4050-8388-7d826592c62c",
+      "shortName": "Zilles, K."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "46f600ef63191d2b80362caa4686a2ec",
+      "name": "Schleicher, Axel",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f000487e-a9b4-4dee-8a2d-68f71019af0b",
+      "shortName": "Schleicher, A."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "6565d9632e49705d186cab5fa84956c2",
+      "name": "Fox, P.T.",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f147851c-0e44-4516-8e9f-e98e82fa5627",
+      "shortName": "Fox, P."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "4975608739f1b96559962989b5a28452",
+      "name": "Laird, A.R.",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/8d6ae01f-391b-4886-946d-1bd15206e5db",
+      "shortName": "Laird, A."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "32d434732ac4fd11981ff0d898c6d6ab",
+      "name": "Caspers, S.",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/53042082-4177-4256-84a5-0d4a693c48c9",
+      "shortName": "Caspers, S."
+    },
+    {
+      "schema.org/shortName": "Mohlberg, H.",
+      "identifier": "22bc11ef3726cc89459f83e66e88961b",
+      "name": "Mohlberg, Hartmut",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d2be3785-5b4b-4451-87be-62b30442ed30",
+      "shortName": "Mohlberg, H."
+    },
+    {
+      "schema.org/shortName": "Eickhoff, S. B.",
+      "identifier": "f7e179682ccf98378bb566852f442c93",
+      "name": "Eickhoff, Simon B.",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/99a95057-bd4d-43ab-ad70-b7920ceedc48",
+      "shortName": "Eickhoff, S. B."
+    },
+    {
+      "schema.org/shortName": "Bludau, S.",
+      "identifier": "0c420063c33118f0fd65cabd330e9dd1",
+      "name": "Bludau, Sebastian",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/8e05318b-4e11-454c-a49b-f81e3589dc98",
+      "shortName": "Bludau, S."
+    }
+  ],
+  "id": "8d2f06b2-d3bd-4f89-a6e3-953c90cc9661",
+  "kgReference": [
+    "10.25493/GZW1-7R3"
+  ],
+  "publications": [
+    {
+      "name": "Cytoarchitecture, probability maps and functions of the human frontal pole",
+      "cite": "Bludau, S., Eickhoff, S. B., Mohlberg, H., Caspers, S., Laird, A. R., Fox, P. T., \u2026 Amunts, K. (2014). Cytoarchitecture, probability maps and functions of the human frontal pole. NeuroImage, 93, 260\u2013275. ",
+      "doi": "10.1016/j.neuroimage.2013.05.052"
+    }
+  ]
+}

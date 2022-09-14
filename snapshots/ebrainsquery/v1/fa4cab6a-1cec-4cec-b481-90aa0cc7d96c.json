@@ -1,0 +1,195 @@
+{
+  "formats": [
+    "NIFTI"
+  ],
+  "datasetDOI": [
+    {
+      "cite": "Kedo, O., Zilles, K., Palomero-Gallagher, N., Schleicher, A., Mohlberg, H., Bludau, S., Amunts, K. (2018). Receptor-driven, multimodal mapping of the human amygdala. Brain Struct Funct., 223(4):1637-1666. ",
+      "doi": "10.1007/s00429-017-1577-x"
+    },
+    {
+      "cite": "Amunts, K., Kedo, O., Kindler, M., Pieperhoff, P., Mohlberg, H., Shah, N. J., \u2026 Zilles, K. (2005). Cytoarchitectonic mapping of the human amygdala, hippocampal region and entorhinal cortex: intersubject variability and probability maps. Anatomy and Embryology, 210(5-6), 343\u2013352. ",
+      "doi": "10.1007/s00429-005-0025-5"
+    }
+  ],
+  "activity": [
+    {
+      "protocols": [
+        "histology"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    },
+    {
+      "protocols": [
+        "imaging"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    },
+    {
+      "protocols": [
+        "brain mapping"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    }
+  ],
+  "referenceSpaces": [
+    {
+      "name": null,
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+    },
+    {
+      "name": "MNI Colin 27",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
+    }
+  ],
+  "methods": [
+    "silver staining",
+    "magnetic resonance imaging (MRI)",
+    "probability mapping",
+    "cytoarchitectonic mapping"
+  ],
+  "custodians": [
+    {
+      "schema.org/shortName": "Amunts, K.",
+      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+      "name": "Amunts, Katrin",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+      "shortName": "Amunts, K."
+    }
+  ],
+  "project": [
+    "Julich-Brain: cytoarchitectonic probabilistic maps of the human brain"
+  ],
+  "description": "This dataset contains the distinct architectonic LB (Amygdala) in the individual, single subject template of the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space. As part of the Julich-Brain cytoarchitectonic atlas, the area was identified using cytoarchitectonic analysis on cell-body-stained histological sections of 10 human postmortem brains obtained from the body donor program of the University of D\u00fcsseldorf. The results of the cytoarchitectonic analysis were then mapped to both reference spaces, where each voxel was assigned the probability to belong to LB (Amygdala). The probability map of LB (Amygdala) is provided in the NifTi format for each brain reference space and hemisphere. The Julich-Brain atlas relies on a modular, flexible and adaptive framework containing workflows to create the probabilistic brain maps for these structures. Note that methodological improvements and integration of new brain structures may lead to small deviations in earlier released datasets.\n\nOther available data versions of LB (Amygdala):\nKedo et al. (2018) [Data set, v6.1] [DOI: 10.25493/E7QC-B3Y](https://doi.org/10.25493%2FE7QC-B3Y)\n\nThe most probable delineation of LB (Amygdala) derived from the calculation of a maximum probability map of all currently released Julich-Brain brain structures can be found here:\nAmunts et al. (2019) [Data set, v1.13] [DOI: 10.25493/Q3ZS-NV6](https://doi.org/10.25493%2FQ3ZS-NV6)\nAmunts et al. (2019) [Data set, v1.18] [DOI: 10.25493/8EGG-ZAR](https://doi.org/10.25493%2F8EGG-ZAR)\nAmunts et al. (2020) [Data set, v2.2] [DOI: 10.25493/TAKY-64D](https://doi.org/10.25493%2FTAKY-64D)",
+  "parcellationAtlas": [
+    {
+      "name": "Julich-Brain Atlas",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
+      "id": [
+        "deec923ec31a82f89a9c7c76a6fefd6b",
+        "e2d45e028b6da0f6d9fdb9491a4de80a"
+      ]
+    }
+  ],
+  "licenseInfo": [
+    {
+      "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "embargoStatus": [
+    {
+      "identifier": [
+        "b24ce0cd392a5b0b8dedc66c25213594",
+        "b24ce0cd392a5b0b8dedc66c25213594"
+      ],
+      "name": "Free",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
+    }
+  ],
+  "license": [],
+  "parcellationRegion": [
+    {
+      "species": [],
+      "name": "LB (Amygdala)",
+      "alias": "",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/708df0fa-e9a4-4c23-bd85-8957f6d30faf"
+    }
+  ],
+  "species": [
+    "Homo sapiens"
+  ],
+  "name": "Probabilistic cytoarchitectonic map of LB (Amygdala) (v6.4)",
+  "files": [
+    {
+      "byteSize": 21.0,
+      "name": "subjects_LB.csv",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-LB_pub/6.4/subjects_LB.csv",
+      "contentType": "text/csv"
+    },
+    {
+      "byteSize": 60963.0,
+      "name": "LB_r_N10_nlin2MNI152ASYM2009C_6.4_publicP_2f610b4be8af8aff267024117f550ddf.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-LB_pub/6.4/LB_r_N10_nlin2MNI152ASYM2009C_6.4_publicP_2f610b4be8af8aff267024117f550ddf.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 62426.0,
+      "name": "LB_l_N10_nlin2MNI152ASYM2009C_6.4_publicP_b636640a2282a29523d1e1d531b866d3.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-LB_pub/6.4/LB_l_N10_nlin2MNI152ASYM2009C_6.4_publicP_b636640a2282a29523d1e1d531b866d3.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 86528.0,
+      "name": "LB_l_N10_nlin2Stdcolin27_6.4_publicP_c0f3b866f2fbd0e69e19594e2b49bc87.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-LB_pub/6.4/LB_l_N10_nlin2Stdcolin27_6.4_publicP_c0f3b866f2fbd0e69e19594e2b49bc87.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 86205.0,
+      "name": "LB_r_N10_nlin2Stdcolin27_6.4_publicP_d5f2f1207c0d4990e06267f0c8262d53.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-LB_pub/6.4/LB_r_N10_nlin2Stdcolin27_6.4_publicP_d5f2f1207c0d4990e06267f0c8262d53.nii.gz",
+      "contentType": "application/octet-stream"
+    }
+  ],
+  "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/fa4cab6a-1cec-4cec-b481-90aa0cc7d96c",
+  "contributors": [
+    {
+      "schema.org/shortName": "Amunts, K.",
+      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+      "name": "Amunts, Katrin",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+      "shortName": "Amunts, K."
+    },
+    {
+      "schema.org/shortName": "Bludau, S.",
+      "identifier": "0c420063c33118f0fd65cabd330e9dd1",
+      "name": "Bludau, Sebastian",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/8e05318b-4e11-454c-a49b-f81e3589dc98",
+      "shortName": "Bludau, S."
+    },
+    {
+      "schema.org/shortName": "Palomero-Gallagher, N.",
+      "identifier": "3ac753a73ac8cfd3151639808ae45913",
+      "name": "Palomero-Gallagher, Nicola",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d77176e3-faa9-4c93-8dc0-7f3663c6d2ee",
+      "shortName": "Palomero-Gallagher, N."
+    },
+    {
+      "schema.org/shortName": "Zilles, K.",
+      "identifier": "2457b4a7cf0b3fa199dcc3c88180dc9f",
+      "name": "Zilles, Karl",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/bacae1fc-d8ff-4050-8388-7d826592c62c",
+      "shortName": "Zilles, K."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "3e871e11c214a058a43cb1fc38788eea",
+      "name": "Kedo, O.",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/9dabc7a3-fa77-481f-ab9e-8ef6ac6e7d42",
+      "shortName": "Kedo, O."
+    }
+  ],
+  "id": "fa4cab6a-1cec-4cec-b481-90aa0cc7d96c",
+  "kgReference": [
+    "10.25493/C3X0-NV3"
+  ],
+  "publications": [
+    {
+      "name": "Receptor-driven, multimodal mapping of the human amygdala",
+      "cite": "Kedo, O., Zilles, K., Palomero-Gallagher, N., Schleicher, A., Mohlberg, H., Bludau, S., Amunts, K. (2018). Receptor-driven, multimodal mapping of the human amygdala. Brain Struct Funct., 223(4):1637-1666. ",
+      "doi": "10.1007/s00429-017-1577-x"
+    },
+    {
+      "name": "Cytoarchitectonic mapping of the human amygdala, hippocampal region and entorhinal cortex: intersubject variability and probability maps",
+      "cite": "Amunts, K., Kedo, O., Kindler, M., Pieperhoff, P., Mohlberg, H., Shah, N. J., \u2026 Zilles, K. (2005). Cytoarchitectonic mapping of the human amygdala, hippocampal region and entorhinal cortex: intersubject variability and probability maps. Anatomy and Embryology, 210(5-6), 343\u2013352. ",
+      "doi": "10.1007/s00429-005-0025-5"
+    }
+  ]
+}

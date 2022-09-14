@@ -1,0 +1,180 @@
+{
+  "formats": [
+    "NIFTI"
+  ],
+  "datasetDOI": [
+    {
+      "cite": "Amunts, K., Mohlberg, H., Bludau, S., Zilles, K. (2020). Julich-Brain \u2013 A 3D probabilistic atlas of human brain\u2019s cytoarchitecture. Science 369, 988-992",
+      "doi": "10.1126/science.abb4588"
+    }
+  ],
+  "activity": [
+    {
+      "protocols": [
+        "histology"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    },
+    {
+      "protocols": [
+        "imaging"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    },
+    {
+      "protocols": [
+        "brain mapping"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    }
+  ],
+  "referenceSpaces": [
+    {
+      "name": null,
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+    },
+    {
+      "name": "MNI Colin 27",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
+    }
+  ],
+  "methods": [
+    "silver staining",
+    "magnetic resonance imaging (MRI)",
+    "maximum probability mapping",
+    "probability mapping",
+    "cytoarchitectonic mapping"
+  ],
+  "custodians": [
+    {
+      "schema.org/shortName": "Amunts, K.",
+      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+      "name": "Amunts, Katrin",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+      "shortName": "Amunts, K."
+    }
+  ],
+  "project": [
+    "Julich-Brain: cytoarchitectonic probabilistic maps of the human brain"
+  ],
+  "description": "This dataset contains the \u201cGap Map Frontal I\u201d in the individual, single subject template of the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space. In order to provide whole-brain coverage for the cortex within the Julich-Brain Atlas, yet uncharted parts of the frontal cortex have been combined to the brain region \u201cGap Map Frontal I\u201d. The distributions were modeled so that probabilistic gap maps were computed in analogy to other maps of the Julich-Brain Atlas. The probabilistic map of \u201cGap Map Frontal I\u201d is provided in NifTi format for each hemisphere in the reference space. The Julich-Brain atlas relies on a modular, flexible and adaptive framework containing workflows to create the probabilistic brain maps for these structures. New maps are continuously replacing parts of \u201cGap Map Frontal I\u201d with progress in mapping.\n\nOther available data versions of Gap Map Frontal I:\nAmunts et al. (2020) [Data set, v9.0] [DOI: 10.25493/N6EZ-BRK](https://doi.org/10.25493%2FN6EZ-BRK)\nAmunts et al. (2020) [Data set, v9.1] [DOI: 10.25493/DQNE-MV3](https://doi.org/10.25493%2FDQNE-MV3)\n\nThe most probable delineation of Gap Map Frontal I derived from the calculation of a maximum probability map of all currently released Julich-Brain brain structures can be found here:\nAmunts et al. (2020) [Data set, v2.2] [DOI: 10.25493/TAKY-64D](https://doi.org/10.25493/TAKY-64D)\nAmunts et al. (2020) [Data set, v2.4] [DOI: 10.25493/A7Y0-NX9](https://doi.org/10.25493%2FA7Y0-NX9)",
+  "parcellationAtlas": [
+    {
+      "name": "Julich-Brain Atlas",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
+      "id": [
+        "deec923ec31a82f89a9c7c76a6fefd6b",
+        "e2d45e028b6da0f6d9fdb9491a4de80a"
+      ]
+    }
+  ],
+  "licenseInfo": [
+    {
+      "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "embargoStatus": [
+    {
+      "identifier": [
+        "b24ce0cd392a5b0b8dedc66c25213594",
+        "b24ce0cd392a5b0b8dedc66c25213594"
+      ],
+      "name": "Free",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
+    }
+  ],
+  "license": [],
+  "parcellationRegion": [
+    {
+      "species": [],
+      "name": "GapMap Frontal I",
+      "alias": "",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/934207a8-3948-4090-b790-b279081e3091"
+    }
+  ],
+  "species": [
+    "Homo sapiens"
+  ],
+  "name": "GapMap Frontal I (v9.2)",
+  "files": [
+    {
+      "byteSize": 321559.0,
+      "name": "GapMap_Frontal-I_r_N10_nlin2Stdcolin27_9.2_publicDOI_3a199aeb0f4efd95a6d56624fac568b2.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-GapMap_Frontal-I_pub/9.2/GapMap_Frontal-I_r_N10_nlin2Stdcolin27_9.2_publicDOI_3a199aeb0f4efd95a6d56624fac568b2.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 326186.0,
+      "name": "GapMap_Frontal-I_l_N10_nlin2Stdcolin27_9.2_publicDOI_ae4e5222a35a8bf895f9e7afc1ea6b40.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-GapMap_Frontal-I_pub/9.2/GapMap_Frontal-I_l_N10_nlin2Stdcolin27_9.2_publicDOI_ae4e5222a35a8bf895f9e7afc1ea6b40.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 318385.0,
+      "name": "GapMap_Frontal-I_l_N10_nlin2icbm152casym_9.2_publicDOI_d36d4b1b9a1799c63f84bc82c3755a85.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-GapMap_Frontal-I_pub/9.2/GapMap_Frontal-I_l_N10_nlin2icbm152casym_9.2_publicDOI_d36d4b1b9a1799c63f84bc82c3755a85.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 65.0,
+      "name": "subjects_GapMap_Frontal-I.csv",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-GapMap_Frontal-I_pub/9.2/subjects_GapMap_Frontal-I.csv",
+      "contentType": "text/csv"
+    },
+    {
+      "byteSize": 325327.0,
+      "name": "GapMap_Frontal-I_r_N10_nlin2icbm152casym_9.2_publicDOI_9f02d312d274e5c6fd484c050e6767e8.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-GapMap_Frontal-I_pub/9.2/GapMap_Frontal-I_r_N10_nlin2icbm152casym_9.2_publicDOI_9f02d312d274e5c6fd484c050e6767e8.nii.gz",
+      "contentType": "application/octet-stream"
+    }
+  ],
+  "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/6b1ebd25-d1bf-477a-9f6f-d458b24bc6b7",
+  "contributors": [
+    {
+      "schema.org/shortName": null,
+      "identifier": "8f85d02ddf1de227f39d91a83c67f28c",
+      "name": "Pieperhoff, Peter",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/5d838c31-6dcf-44a6-b16b-4d19d770c36b",
+      "shortName": "Pieperhoff, P."
+    },
+    {
+      "schema.org/shortName": "Bludau, S.",
+      "identifier": "0c420063c33118f0fd65cabd330e9dd1",
+      "name": "Bludau, Sebastian",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/8e05318b-4e11-454c-a49b-f81e3589dc98",
+      "shortName": "Bludau, S."
+    },
+    {
+      "schema.org/shortName": "Mohlberg, H.",
+      "identifier": "22bc11ef3726cc89459f83e66e88961b",
+      "name": "Mohlberg, Hartmut",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d2be3785-5b4b-4451-87be-62b30442ed30",
+      "shortName": "Mohlberg, H."
+    },
+    {
+      "schema.org/shortName": "Amunts, K.",
+      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+      "name": "Amunts, Katrin",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+      "shortName": "Amunts, K."
+    }
+  ],
+  "id": "6b1ebd25-d1bf-477a-9f6f-d458b24bc6b7",
+  "kgReference": [
+    "10.25493/K6EV-C42"
+  ],
+  "publications": [
+    {
+      "name": "Julich-Brain: A 3D probabilistic atlas of the human brain\u2019s cytoarchitecture",
+      "cite": "Amunts, K., Mohlberg, H., Bludau, S., Zilles, K. (2020). Julich-Brain \u2013 A 3D probabilistic atlas of human brain\u2019s cytoarchitecture. Science 369, 988-992",
+      "doi": "10.1126/science.abb4588"
+    }
+  ]
+}

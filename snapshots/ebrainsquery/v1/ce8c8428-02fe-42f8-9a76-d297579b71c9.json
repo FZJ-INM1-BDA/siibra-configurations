@@ -1,0 +1,195 @@
+{
+  "formats": [
+    "NIFTI"
+  ],
+  "datasetDOI": [
+    {
+      "cite": "Geyer, S., Schormann, T., Mohlberg, H., & Zilles, K. (2000). Areas 3a, 3b, and 1 of Human Primary Somatosensory Cortex. NeuroImage, 11(6), 684\u2013696. ",
+      "doi": "10.1006/nimg.2000.0548"
+    },
+    {
+      "cite": "Geyer, S., Schleicher, A., & Zilles, K. (1999). Areas 3a, 3b, and 1 of Human Primary Somatosensory Cortex. NeuroImage, 10(1), 63\u201383. ",
+      "doi": "10.1006/nimg.1999.0440"
+    }
+  ],
+  "activity": [
+    {
+      "protocols": [
+        "histology"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    },
+    {
+      "protocols": [
+        "imaging"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    },
+    {
+      "protocols": [
+        "brain mapping"
+      ],
+      "preparation": [
+        "Ex vivo"
+      ]
+    }
+  ],
+  "referenceSpaces": [
+    {
+      "name": null,
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+    },
+    {
+      "name": "MNI Colin 27",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
+    }
+  ],
+  "methods": [
+    "silver staining",
+    "magnetic resonance imaging (MRI)",
+    "probability mapping",
+    "cytoarchitectonic mapping"
+  ],
+  "custodians": [
+    {
+      "schema.org/shortName": "Amunts, K.",
+      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+      "name": "Amunts, Katrin",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+      "shortName": "Amunts, K."
+    }
+  ],
+  "project": [
+    "Julich-Brain: cytoarchitectonic probabilistic maps of the human brain"
+  ],
+  "description": "This dataset contains the distinct architectonic Area 1 (PostCG) in the individual, single subject template of the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space. As part of the Julich-Brain cytoarchitectonic atlas, the area was identified using cytoarchitectonic analysis on cell-body-stained histological sections of 10 human postmortem brains obtained from the body donor program of the University of D\u00fcsseldorf. The results of the cytoarchitectonic analysis were then mapped to both reference spaces, where each voxel was assigned the probability to belong to Area 1 (PostCG). The probability map of Area 1 (PostCG) is provided in the NifTi format for each brain reference space and hemisphere. The Julich-Brain atlas relies on a modular, flexible and adaptive framework containing workflows to create the probabilistic brain maps for these structures. Note that methodological improvements and integration of new brain structures may lead to small deviations in earlier released datasets.\n\nOther available data versions of Area 1 (PostCG): \nGeyer et al. (2018) [Data set, v8.2] [DOI: 10.25493/3D29-NJ7](https://doi.org/10.25493%2F3D29-NJ7)\n\nThe most probable delineation of Area 1 (PostCG) derived from the calculation of a maximum probability map of all currently released Julich-Brain brain structures can be found here:\nAmunts et al. (2019) [Data set, v1.13] [DOI: 10.25493/Q3ZS-NV6](https://doi.org/10.25493%2FQ3ZS-NV6)\nAmunts et al. (2019) [Data set, v1.18] [DOI: 10.25493/8EGG-ZAR](https://doi.org/10.25493%2F8EGG-ZAR)\nAmunts et al. (2020) [Data set, v2.2] [DOI: 10.25493/TAKY-64D](https://doi.org/10.25493%2FTAKY-64D)",
+  "parcellationAtlas": [
+    {
+      "name": "Julich-Brain Atlas",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
+      "id": [
+        "deec923ec31a82f89a9c7c76a6fefd6b",
+        "e2d45e028b6da0f6d9fdb9491a4de80a"
+      ]
+    }
+  ],
+  "licenseInfo": [
+    {
+      "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "embargoStatus": [
+    {
+      "identifier": [
+        "b24ce0cd392a5b0b8dedc66c25213594",
+        "b24ce0cd392a5b0b8dedc66c25213594"
+      ],
+      "name": "Free",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
+    }
+  ],
+  "license": [],
+  "parcellationRegion": [
+    {
+      "species": [],
+      "name": "Area 1 (PostCG)",
+      "alias": "",
+      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/c9753e82-80ca-4074-a704-9dd2c4c0d58b"
+    }
+  ],
+  "species": [
+    "Homo sapiens"
+  ],
+  "name": "Probabilistic cytoarchitectonic map of Area 1 (PostCG) (v8.4)",
+  "files": [
+    {
+      "byteSize": 125083.0,
+      "name": "Area-1_r_N10_nlin2MNI152ASYM2009C_8.4_publicP_e8d32d9779cbacab28b0a21d92e5c098.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-1_pub/8.4/Area-1_r_N10_nlin2MNI152ASYM2009C_8.4_publicP_e8d32d9779cbacab28b0a21d92e5c098.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 136281.0,
+      "name": "Area-1_l_N10_nlin2Stdcolin27_8.4_publicP_8ffb7eeab7118f647e972259c9d3247d.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-1_pub/8.4/Area-1_l_N10_nlin2Stdcolin27_8.4_publicP_8ffb7eeab7118f647e972259c9d3247d.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 21.0,
+      "name": "subjects_Area-1.csv",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-1_pub/8.4/subjects_Area-1.csv",
+      "contentType": "text/csv"
+    },
+    {
+      "byteSize": 145704.0,
+      "name": "Area-1_r_N10_nlin2Stdcolin27_8.4_publicP_9456a4c195570c19d6d8cf9fd9e964d1.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-1_pub/8.4/Area-1_r_N10_nlin2Stdcolin27_8.4_publicP_9456a4c195570c19d6d8cf9fd9e964d1.nii.gz",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "byteSize": 115303.0,
+      "name": "Area-1_l_N10_nlin2MNI152ASYM2009C_8.4_publicP_a9fedffac41cadad59359dc8b602ef95.nii.gz",
+      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-1_pub/8.4/Area-1_l_N10_nlin2MNI152ASYM2009C_8.4_publicP_a9fedffac41cadad59359dc8b602ef95.nii.gz",
+      "contentType": "application/octet-stream"
+    }
+  ],
+  "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/ce8c8428-02fe-42f8-9a76-d297579b71c9",
+  "contributors": [
+    {
+      "schema.org/shortName": "Zilles, K.",
+      "identifier": "2457b4a7cf0b3fa199dcc3c88180dc9f",
+      "name": "Zilles, Karl",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/bacae1fc-d8ff-4050-8388-7d826592c62c",
+      "shortName": "Zilles, K."
+    },
+    {
+      "schema.org/shortName": "Mohlberg, H.",
+      "identifier": "22bc11ef3726cc89459f83e66e88961b",
+      "name": "Mohlberg, Hartmut",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d2be3785-5b4b-4451-87be-62b30442ed30",
+      "shortName": "Mohlberg, H."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "7097a4c37e89c2b8a8395b3604513004",
+      "name": "Schormann, Thorsten",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/ebf7c571-b0c2-43ce-9d84-91fb925949f3",
+      "shortName": "Schormann, T."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "46f600ef63191d2b80362caa4686a2ec",
+      "name": "Schleicher, Axel",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f000487e-a9b4-4dee-8a2d-68f71019af0b",
+      "shortName": "Schleicher, A."
+    },
+    {
+      "schema.org/shortName": null,
+      "identifier": "183ac28a5978832f25623307522cba98",
+      "name": "Geyer, Stefan",
+      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/8a38f341-5b88-4cb2-b8b7-6473a676d892",
+      "shortName": "Geyer, S."
+    }
+  ],
+  "id": "ce8c8428-02fe-42f8-9a76-d297579b71c9",
+  "kgReference": [
+    "10.25493/THB5-B64"
+  ],
+  "publications": [
+    {
+      "name": "Areas 3a, 3b, and 1 of Human Primary Somatosensory Cortex",
+      "cite": "Geyer, S., Schormann, T., Mohlberg, H., & Zilles, K. (2000). Areas 3a, 3b, and 1 of Human Primary Somatosensory Cortex. NeuroImage, 11(6), 684\u2013696. ",
+      "doi": "10.1006/nimg.2000.0548"
+    },
+    {
+      "name": "Areas 3a, 3b, and 1 of Human Primary Somatosensory Cortex",
+      "cite": "Geyer, S., Schleicher, A., & Zilles, K. (1999). Areas 3a, 3b, and 1 of Human Primary Somatosensory Cortex. NeuroImage, 10(1), 63\u201383. ",
+      "doi": "10.1006/nimg.1999.0440"
+    }
+  ]
+}
