@@ -23,6 +23,12 @@ space_dict = {
     "minds/core/referencespace/v1.0.0/tmp-hcp32k": "hcp32k",
 }
 
+expect_map_index_parc_ids = (
+    "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290",
+    "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-25",
+    "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
+)
+
 parc_dict = {
     "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290": "jba29",
     "juelich/iav/atlas/v1.0.0/79cbeaa4ee96d5d3dfe2876e9f74b3dc3d3ffb84304fb9b965b1776563a1069c": "sw_hcp",
@@ -55,12 +61,13 @@ def convert_dataset_to_vol(dataset: Dict[str, Any]):
     unused_keys = (
         "@id",
         "map_type",
+        "name",
         "space_id",
     )
 
     for key in unused_keys:
         dataset.pop(key)
-    dataset["@type"] == "siibra/volume/v0.0.1"
+    dataset["@type"] = "siibra/volume/v0.0.1"
     return dataset
 
 def get_map_name(spc_id, parc_id, map_type):
@@ -75,6 +82,7 @@ expected_map_types = (
 
 expected_volume_type = (
     "neuroglancer/precomputed",
+    "nii",
 )
 
 
@@ -104,16 +112,30 @@ class AppendMap:
             with open(self.filename, 'r') as fp:
                 self.json = json.load(fp)
 
+        self.json['map_type'] = map_type
+
     def __enter__(self):
-        def set_region(region_name: str, region_values: List[int]):
+        def append_region(region_name: str, region_values: List[int]):
             assert isinstance(region_name, str)
             if region_name in self.json['regions']:
-                raise RuntimeError(f"{region_name} already defined, but being redefined!")
-            self.json['regions'][region_name] = region_values
+                print(f"{region_name} already defined, but being redefined!")
+                if any([indices[0] == region_values[0] and indices[1] == region_values[1]
+                    for region_name in self.json['regions']
+                    for indices in self.json['regions'][region_name]
+                ]):
+                    return
+            else:
+                self.json['regions'][region_name] = []
+            self.json['regions'][region_name].append(region_values)
+
+        def append_vol(vol):
+            self.json["volumes"].append(vol)
+            return len(self.json["volumes"]) - 1
 
         return (
-            lambda vol: self.json["volumes"].append(vol),
-            set_region,
+            append_vol,
+            append_region,
+            self.json,
         )
     
     def __exit__(self, type, value, traceback):
@@ -124,25 +146,46 @@ class AppendMap:
 def expand_region(region):
     return [region, *[_r for r in region.get("children", []) for _r in expand_region(r)]]
 
+break_point = (
+    "Ch 123 (Basal Forebrain) - left hemisphere",
+    "Ch 123 (Basal Forebrain) - right hemisphere",
+    "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210616-julichbrain-v2.9.0-complete-mpm/precomputed/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_publicDOI_7f7bae194464eb71431c9916614d5f89",
+)
+
 def process_parc(parc):
     volumes = [v for v in parc.get("datasets", [])
         if v.get("@type") == "fzj/tmp/volume_type/v0.0.1"
         and v.get("volume_type") in expected_volume_type]
+    
     expanded_regions = [r 
         for region in parc.get('regions', [])
         for r in expand_region(region)
         if r.get("labelIndex")]
-    for idx, v in enumerate(volumes):
+    
+    distinguish_lrh = parc.get("@id") in expect_map_index_parc_ids
+
+    for v in volumes:
         assert v.get("space_id")
         assert v.get("map_type")
+
+        url = v.get('url')
         print(f"Processing {v.get('url')}")
-        with AppendMap(parc.get("@id"), v.get("space_id"), v.get("map_type")) as (append_vol, append_region):
-            if len(expanded_regions) == 0:
-                import pdb
-                pdb.set_trace()
-            for r in expanded_regions:
-                append_region(r.get("name"), [idx, r.get("labelIndex")])
-            append_vol(convert_dataset_to_vol(v))
+        with AppendMap(parc.get("@id"), v.get("space_id"), v.get("map_type")) as (append_vol, append_region, self_json):
+            idx = append_vol(convert_dataset_to_vol(v))
+            for region in expanded_regions:
+                if distinguish_lrh: 
+                    if region.get("mapIndex") is None:
+                        continue
+                    is_lh = "left" in region.get("name")
+                    is_rh = "right" in region.get("name")
+                    is_lh_volume = "left" in v.get("url") or "_l" in v.get("url")
+                    is_rh_volume = "right" in v.get("url") or "_r" in v.get("url")
+                    if is_lh and is_rh_volume:
+                        continue
+                    if is_rh and is_lh_volume:
+                        continue
+
+                append_region(region.get("name"), [idx, region.get("labelIndex")])
 
 def main():
     for dirpath, dirname, filenames in os.walk("./parcellations"):
