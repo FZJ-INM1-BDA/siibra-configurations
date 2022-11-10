@@ -8,23 +8,21 @@
 	"map_type": "labelled",
 	"regions": {
 		"Isocortex": [
-			[
-				0,
-				100
-			]
+			{
+				"map": 0,
+				"index": 100
+			}
 		],
 		"Non-isocortical structures": [
-			[
-				0,
-				200
-			]
+			{
+				"map": 0,
+				"index": 200
+			}
 		]
 	},
 	"volumes": [
 		{
 			"@type": "siibra/volume/v0.0.1",
-			"volume_type": "neuroglancer/precomputed",
-			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
 			"detail": {
 				"neuroglancer/precomputed": {
 					"transform": [
@@ -54,6 +52,9 @@
 						]
 					]
 				}
+			},
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif"
 			}
 		}
 	]

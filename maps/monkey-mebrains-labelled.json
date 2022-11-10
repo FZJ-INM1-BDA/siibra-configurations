@@ -8,107 +8,105 @@
 	"map_type": "labelled",
 	"regions": {
 		"Left-Cerebral-White-Matter": [
-			[
-				0,
-				2
-			]
+			{
+				"map": 0,
+				"index": 2
+			}
 		],
 		"Left-Lateral-Ventricle": [
-			[
-				0,
-				4
-			]
+			{
+				"map": 0,
+				"index": 4
+			}
 		],
 		"Left-Caudate": [
-			[
-				0,
-				11
-			]
+			{
+				"map": 0,
+				"index": 11
+			}
 		],
 		"Left-Putamen": [
-			[
-				0,
-				12
-			]
+			{
+				"map": 0,
+				"index": 12
+			}
 		],
 		"Left-Amygdala": [
-			[
-				0,
-				18
-			]
+			{
+				"map": 0,
+				"index": 18
+			}
 		],
 		"Right-Cerebral-White-Matter": [
-			[
-				0,
-				41
-			]
+			{
+				"map": 0,
+				"index": 41
+			}
 		],
 		"Right-Lateral-Ventricle": [
-			[
-				0,
-				43
-			]
+			{
+				"map": 0,
+				"index": 43
+			}
 		],
 		"Right-Caudate": [
-			[
-				0,
-				50
-			]
+			{
+				"map": 0,
+				"index": 50
+			}
 		],
 		"Right-Putamen": [
-			[
-				0,
-				51
-			]
+			{
+				"map": 0,
+				"index": 51
+			}
 		],
 		"Right-Amygdala": [
-			[
-				0,
-				54
-			]
+			{
+				"map": 0,
+				"index": 54
+			}
 		],
 		"Left-Basal-Forebrain": [
-			[
-				0,
-				91
-			]
+			{
+				"map": 0,
+				"index": 91
+			}
 		],
 		"Right-Basal-Forebrain": [
-			[
-				0,
-				92
-			]
+			{
+				"map": 0,
+				"index": 92
+			}
 		],
 		"Left-Claustrum": [
-			[
-				0,
-				138
-			]
+			{
+				"map": 0,
+				"index": 138
+			}
 		],
 		"Right-Claustrum": [
-			[
-				0,
-				139
-			]
+			{
+				"map": 0,
+				"index": 139
+			}
 		],
 		"Left-Cerebrai-Gray-Matter": [
-			[
-				0,
-				1017
-			]
+			{
+				"map": 0,
+				"index": 1017
+			}
 		],
 		"Right-Cerebrai-Gray-Matter": [
-			[
-				0,
-				2017
-			]
+			{
+				"map": 0,
+				"index": 2017
+			}
 		]
 	},
 	"volumes": [
 		{
 			"@type": "siibra/volume/v0.0.1",
-			"volume_type": "neuroglancer/precomputed",
-			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20211001-mebrain/precomputed/segmentations/MEBRAINS_segmentation",
 			"detail": {
 				"neuroglancer/precomputed": {
 					"transform": [
@@ -138,6 +136,9 @@
 						]
 					]
 				}
+			},
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20211001-mebrain/precomputed/segmentations/MEBRAINS_segmentation"
 			}
 		}
 	]

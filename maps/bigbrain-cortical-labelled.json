@@ -8,53 +8,51 @@
 	"map_type": "labelled",
 	"regions": {
 		"cortical layer 1": [
-			[
-				0,
-				1
-			]
+			{
+				"map": 0,
+				"index": 1
+			}
 		],
 		"cortical layer 2": [
-			[
-				0,
-				2
-			]
+			{
+				"map": 0,
+				"index": 2
+			}
 		],
 		"cortical layer 3": [
-			[
-				0,
-				3
-			]
+			{
+				"map": 0,
+				"index": 3
+			}
 		],
 		"cortical layer 4": [
-			[
-				0,
-				4
-			]
+			{
+				"map": 0,
+				"index": 4
+			}
 		],
 		"cortical layer 5": [
-			[
-				0,
-				5
-			]
+			{
+				"map": 0,
+				"index": 5
+			}
 		],
 		"cortical layer 6": [
-			[
-				0,
-				6
-			]
+			{
+				"map": 0,
+				"index": 6
+			}
 		],
 		"non-cortical structures": [
-			[
-				0,
-				7
-			]
+			{
+				"map": 0,
+				"index": 7
+			}
 		]
 	},
 	"volumes": [
 		{
 			"@type": "siibra/volume/v0.0.1",
-			"volume_type": "neuroglancer/precomputed",
-			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_27_cortical_layers",
 			"detail": {
 				"neuroglancer/precomputed": {
 					"transform": [
@@ -84,6 +82,9 @@
 						]
 					]
 				}
+			},
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_27_cortical_layers"
 			}
 		}
 	]

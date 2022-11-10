@@ -10,6 +10,7 @@ import os
 import json
 from typing import Dict, Any, List
 from copy import deepcopy
+from enum import Enum
 
 space_dict = {
     "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992": "colin27",
@@ -57,6 +58,7 @@ parc_dict = {
 }
 
 def convert_dataset_to_vol(dataset: Dict[str, Any]):
+    dataset = deepcopy(dataset)
     assert dataset.get("@type") == "fzj/tmp/volume_type/v0.0.1"
     unused_keys = (
         "@id",
@@ -68,6 +70,11 @@ def convert_dataset_to_vol(dataset: Dict[str, Any]):
     for key in unused_keys:
         dataset.pop(key)
     dataset["@type"] = "siibra/volume/v0.0.1"
+
+    dataset['urls'] = {
+        dataset.pop('volume_type'): dataset.pop('url'),
+        **dataset.pop("urls", {})
+    }
     return dataset
 
 def get_map_name(spc_id, parc_id, map_type):
@@ -94,6 +101,17 @@ MAP_TEMPLATE = {
 	"volumes": [],
 }
 
+class Hemisphere(Enum):
+    LEFT="LEFT"
+    RIGHT="RIGHT"
+
+def volume_url_is_hemisphere(url: str):
+    if "left" in url or "_l" in url:
+        return Hemisphere.LEFT
+    if "right" in url or "_r" in url:
+        return Hemisphere.RIGHT
+    return None
+
 class AppendMap:
 
     def __init__(self, parc_id, space_id, map_type):
@@ -115,11 +133,11 @@ class AppendMap:
         self.json['map_type'] = map_type
 
     def __enter__(self):
-        def append_region(region_name: str, region_values: List[int]):
+        def append_region(region_name: str, region_values: Dict[str, int]):
             assert isinstance(region_name, str)
             if region_name in self.json['regions']:
                 print(f"{region_name} already defined, but being redefined!")
-                if any([indices[0] == region_values[0] and indices[1] == region_values[1]
+                if any([indices.get("map") == region_values.get("map") and indices.get("index") == region_values.get("index")
                     for region_name in self.json['regions']
                     for indices in self.json['regions'][region_name]
                 ]):
@@ -129,6 +147,24 @@ class AppendMap:
             self.json['regions'][region_name].append(region_values)
 
         def append_vol(vol):
+            assert len(vol.get("urls").keys()) == 1
+            hemisphere, = [volume_url_is_hemisphere(url) for volume_type, url in vol.get("urls", {}).items()]
+            if hemisphere:
+                for idx, existing_vol in enumerate(self.json.get("volumes", [])):
+                    existing_hemispheres = {volume_url_is_hemisphere(url) for volume_type, url in existing_vol.get("urls", {}).items()}
+                    assert len(existing_hemispheres) > 0
+                    if hemisphere in existing_hemispheres:
+                        existing_vol['urls'] = {
+                            **existing_vol.get("urls", {}),
+                            **vol.get("urls", {}),
+                        }
+                        if "detail" in vol:
+                            existing_vol["detail"] = {
+                                **existing_vol.get("detail", {}),
+                                **vol.get("detail", {}),
+                            }
+                        return idx
+
             self.json["volumes"].append(vol)
             return len(self.json["volumes"]) - 1
 
@@ -156,7 +192,7 @@ def process_parc(parc):
     volumes = [v for v in parc.get("datasets", [])
         if v.get("@type") == "fzj/tmp/volume_type/v0.0.1"
         and v.get("volume_type") in expected_volume_type]
-    
+
     expanded_regions = [r 
         for region in parc.get('regions', [])
         for r in expand_region(region)
@@ -168,7 +204,6 @@ def process_parc(parc):
         assert v.get("space_id")
         assert v.get("map_type")
 
-        url = v.get('url')
         print(f"Processing {v.get('url')}")
         with AppendMap(parc.get("@id"), v.get("space_id"), v.get("map_type")) as (append_vol, append_region, self_json):
             idx = append_vol(convert_dataset_to_vol(v))
@@ -178,14 +213,15 @@ def process_parc(parc):
                         continue
                     is_lh = "left" in region.get("name")
                     is_rh = "right" in region.get("name")
-                    is_lh_volume = "left" in v.get("url") or "_l" in v.get("url")
-                    is_rh_volume = "right" in v.get("url") or "_r" in v.get("url")
-                    if is_lh and is_rh_volume:
+                    hemisphere = volume_url_is_hemisphere(v.get("url"))
+                    
+                    if is_lh and hemisphere == Hemisphere.RIGHT:
                         continue
-                    if is_rh and is_lh_volume:
+                    if is_rh and hemisphere == Hemisphere.LEFT:
                         continue
-
-                append_region(region.get("name"), [idx, region.get("labelIndex")])
+                
+                idx, region.get("labelIndex")
+                append_region(region.get("name"), { "map": idx, "index": region.get("labelIndex") })
 
 def main():
     for dirpath, dirname, filenames in os.walk("./parcellations"):
