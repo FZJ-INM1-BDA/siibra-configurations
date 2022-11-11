@@ -146,24 +146,40 @@ class AppendMap:
                 self.json['regions'][region_name] = []
             self.json['regions'][region_name].append(region_values)
 
-        def append_vol(vol):
+        def append_vol(vol, map_type):
+
             assert len(vol.get("urls").keys()) == 1
-            hemisphere, = [volume_url_is_hemisphere(url) for volume_type, url in vol.get("urls", {}).items()]
-            if hemisphere:
-                for idx, existing_vol in enumerate(self.json.get("volumes", [])):
-                    existing_hemispheres = {volume_url_is_hemisphere(url) for volume_type, url in existing_vol.get("urls", {}).items()}
-                    assert len(existing_hemispheres) > 0
-                    if hemisphere in existing_hemispheres:
-                        existing_vol['urls'] = {
-                            **existing_vol.get("urls", {}),
-                            **vol.get("urls", {}),
-                        }
-                        if "detail" in vol:
-                            existing_vol["detail"] = {
-                                **existing_vol.get("detail", {}),
-                                **vol.get("detail", {}),
+
+            url_to_idx = {}
+            for idx, _vol in enumerate(self.json.get("volumes", [])):
+                for volume_type, volume_url in _vol.get("urls", {}).items():
+                    url_to_idx[volume_url] = idx
+                
+            append_url, = [volume_url for (volume_type, volume_url) in vol.get("urls").items()]
+
+            # if the url has already been appended, simply return the index
+            if append_url in url_to_idx:
+                return url_to_idx[append_url]
+
+            # labelled maps sometimes (often), esp. julich brain, have multiple representations
+            # e.g. nii and precomputed
+            if map_type == "labelled":
+                hemisphere, = [volume_url_is_hemisphere(url) for volume_type, url in vol.get("urls", {}).items()]
+                if hemisphere:
+                    for idx, existing_vol in enumerate(self.json.get("volumes", [])):
+                        existing_hemispheres = {volume_url_is_hemisphere(url) for volume_type, url in existing_vol.get("urls", {}).items()}
+                        assert len(existing_hemispheres) > 0
+                        if hemisphere in existing_hemispheres:
+                            existing_vol['urls'] = {
+                                **existing_vol.get("urls", {}),
+                                **vol.get("urls", {}),
                             }
-                        return idx
+                            if "detail" in vol:
+                                existing_vol["detail"] = {
+                                    **existing_vol.get("detail", {}),
+                                    **vol.get("detail", {}),
+                                }
+                            return idx
 
             self.json["volumes"].append(vol)
             return len(self.json["volumes"]) - 1
@@ -193,10 +209,19 @@ def process_parc(parc):
         if v.get("@type") == "fzj/tmp/volume_type/v0.0.1"
         and v.get("volume_type") in expected_volume_type]
 
-    expanded_regions = [r 
+    flattened_regions = [r 
         for region in parc.get('regions', [])
-        for r in expand_region(region)
-        if r.get("labelIndex")]
+        for r in expand_region(region)]
+
+    flattened_regions_with_labelindicies = [region
+        for region in flattened_regions
+        if region.get("labelIndex")]
+    
+    flattened_regions_with_volumes = [region
+        for region in flattened_regions
+        if len(
+            [ds for ds in region.get("datasets", []) if ds.get("@type") == "fzj/tmp/volume_type/v0.0.1"]
+        ) > 0]
     
     distinguish_lrh = parc.get("@id") in expect_map_index_parc_ids
 
@@ -206,8 +231,8 @@ def process_parc(parc):
 
         print(f"Processing {v.get('url')}")
         with AppendMap(parc.get("@id"), v.get("space_id"), v.get("map_type")) as (append_vol, append_region, self_json):
-            idx = append_vol(convert_dataset_to_vol(v))
-            for region in expanded_regions:
+            idx = append_vol(convert_dataset_to_vol(v), v.get("map_type"))
+            for region in flattened_regions_with_labelindicies:
                 if distinguish_lrh: 
                     if region.get("mapIndex") is None:
                         continue
@@ -220,8 +245,23 @@ def process_parc(parc):
                     if is_rh and hemisphere == Hemisphere.LEFT:
                         continue
                 
-                idx, region.get("labelIndex")
                 append_region(region.get("name"), { "map": idx, "index": region.get("labelIndex") })
+
+    for region in flattened_regions_with_volumes:
+        embedded_volumes = [ds for ds in region.get("datasets", []) if ds.get("@type") == "fzj/tmp/volume_type/v0.0.1"]
+        for vol in embedded_volumes:
+
+            assert vol.get("space_id")
+            assert vol.get('map_type')
+            assert vol.get("space_id") == "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588" \
+                or vol.get("map_type") == "continuous"
+            with AppendMap(parc.get("@id"), vol.get("space_id"), vol.get("map_type")) as (append_vol, append_region, self_json):
+                idx = append_vol(convert_dataset_to_vol(vol), vol.get("map_type"))
+                label = None
+                if vol.get("map_type") == "labelled":
+                    label = vol.get("detail", {}).get("neuroglancer/precomputed", {}).get("labelIndex")
+                append_region(region.get("name"), { "map": idx, "index": label })
+        pass
 
 def main():
     for dirpath, dirname, filenames in os.walk("./parcellations"):
