@@ -113,5 +113,102 @@
 			"name": "MNI 152 ICBM 2009c Nonlinear Asymmetric",
 			"description": "An unbiased non-linear average of multiple subjects from the MNI152 database, which provides high-spatial resolution and signal-to-noise while not being biased towards a single brain (Fonov et al., 2011). This template space is widely used as a reference space in neuroimaging. HBP provides the JuBrain probabilistic cytoarchitectonic atlas (Amunts/Zilles, 2015) as well as a probabilistic atlas of large fibre bundles (Guevara, Mangin et al., 2017) in this space."
 		}
-	]
+	],
+	"templates": {
+		"icbm152_2009c_nonlin_asym/nifti": {
+			"@type": "siibra/volume/v0.0.1",
+			"zipped_file": "mni_icbm152_t1_tal_nlin_asym_09c.nii",
+			"urls": {
+				"nii": "http://www.bic.mni.mcgill.ca/~vfonov/icbm/2009/mni_icbm152_nlin_asym_09c_nifti.zip"
+			}
+		},
+		"icbm152_2009c_nonlin_asym": {
+			"@type": "siibra/volume/v0.0.1",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1,
+							0,
+							0,
+							-96500000
+						],
+						[
+							0,
+							1,
+							0,
+							-132500000
+						],
+						[
+							0,
+							0,
+							1,
+							-78500000
+						],
+						[
+							0,
+							0,
+							0,
+							1
+						]
+					]
+				}
+			},
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/mni_icbm152_t1_tal_nlin_asym_09c_masked"
+			}
+		},
+		"icbm152_2009c_nonlin_asym_mesh": {
+			"@type": "siibra/volume/v0.0.1",
+			"detail": {
+				"neuroglancer/precompmesh": {
+					"auxMeshes": [
+						{
+							"name": "Cortex",
+							"labelIndicies": [
+								65500,
+								65510
+							]
+						},
+						{
+							"name": "Sulci",
+							"labelIndicies": [
+								65501,
+								65511
+							]
+						}
+					],
+					"transform": [
+						[
+							1,
+							0,
+							0,
+							-96500000
+						],
+						[
+							0,
+							1,
+							0,
+							-132500000
+						],
+						[
+							0,
+							0,
+							1,
+							-78500000
+						],
+						[
+							0,
+							0,
+							0,
+							1
+						]
+					]
+				}
+			},
+			"urls": {
+				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/icbm152_2009c_nonlin_asym"
+			}
+		}
+	}
 }

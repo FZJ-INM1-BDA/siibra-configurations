@@ -39,5 +39,43 @@
 				"right": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa6-translated-inflated/rh.inflated.surf.gii"
 			}
 		}
-	]
+	],
+	"templates": {
+		"white matter/left": {
+			"@type": "siibra/volume/v0.0.1",
+			"urls": {
+				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage6/lh.white.gii"
+			}
+		},
+		"white matter/right": {
+			"@type": "siibra/volume/v0.0.1",
+			"urls": {
+				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage6/rh.white.gii"
+			}
+		},
+		"pial/left": {
+			"@type": "siibra/volume/v0.0.1",
+			"urls": {
+				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage6/lh.pial.gii"
+			}
+		},
+		"pial/right": {
+			"@type": "siibra/volume/v0.0.1",
+			"urls": {
+				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage6/rh.pial.gii"
+			}
+		},
+		"inflated/left": {
+			"@type": "siibra/volume/v0.0.1",
+			"urls": {
+				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa6-translated-inflated/lh.inflated.surf.gii"
+			}
+		},
+		"inflated/right": {
+			"@type": "siibra/volume/v0.0.1",
+			"urls": {
+				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa6-translated-inflated/rh.inflated.surf.gii"
+			}
+		}
+	}
 }
