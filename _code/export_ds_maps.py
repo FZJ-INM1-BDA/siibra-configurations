@@ -90,6 +90,7 @@ expected_map_types = (
 expected_volume_type = (
     "neuroglancer/precomputed",
     "nii",
+    "gii-label",
 )
 
 
