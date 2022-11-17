@@ -57,7 +57,7 @@ parc_dict = {
     "https://doi.org/10.1016/j.jneumeth.2020.108983/mni152": "vep",
 }
 
-def convert_dataset_to_vol(dataset: Dict[str, Any]):
+def convert_dataset_to_vol(dataset: Dict[str, Any], *, extra:Dict[str, Any]={}):
     dataset = deepcopy(dataset)
     assert dataset.get("@type") == "fzj/tmp/volume_type/v0.0.1"
     unused_keys = (
@@ -74,6 +74,10 @@ def convert_dataset_to_vol(dataset: Dict[str, Any]):
     dataset['urls'] = {
         dataset.pop('volume_type'): dataset.pop('url'),
         **dataset.pop("urls", {})
+    }
+    dataset = {
+        **dataset,
+        **extra,
     }
     return dataset
 
@@ -97,7 +101,6 @@ expected_volume_type = (
 MAP_TEMPLATE = {
 	"space": None,
 	"parcellation": None,
-    "map_type": None,
     "regions": {},
 	"volumes": [],
 }
@@ -131,7 +134,6 @@ class AppendMap:
             with open(self.filename, 'r') as fp:
                 self.json = json.load(fp)
 
-        self.json['map_type'] = map_type
 
     def __enter__(self):
         def append_region(region_name: str, region_values: Dict[str, int]):
@@ -250,6 +252,11 @@ def process_parc(parc):
 
     for region in flattened_regions_with_volumes:
         embedded_volumes = [ds for ds in region.get("datasets", []) if ds.get("@type") == "fzj/tmp/volume_type/v0.0.1"]
+        ebrain_dss = [ds for ds in region.get("datasets", []) if ds.get("@type") == "minds/core/dataset/v1.0.0"]
+        ebrain_ref = {
+            ref.get("kgSchema"): ref.get("kgId")
+            for ref in ebrain_dss
+        }
         for vol in embedded_volumes:
 
             assert vol.get("space_id")
@@ -257,7 +264,10 @@ def process_parc(parc):
             assert vol.get("space_id") == "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588" \
                 or vol.get("map_type") == "continuous"
             with AppendMap(parc.get("@id"), vol.get("space_id"), vol.get("map_type")) as (append_vol, append_region, self_json):
-                idx = append_vol(convert_dataset_to_vol(vol), vol.get("map_type"))
+                idx = append_vol(
+                    convert_dataset_to_vol(vol, extra={'ebrains': ebrain_ref} if len(ebrain_ref) > 0 else {}),
+                    vol.get("map_type")
+                )
                 label = None
                 if vol.get("map_type") == "labelled":
                     label = vol.get("detail", {}).get("neuroglancer/precomputed", {}).get("labelIndex")
