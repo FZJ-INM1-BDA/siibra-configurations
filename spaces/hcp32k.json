@@ -3,56 +3,35 @@
 	"@type": "minds/core/referencespace/v1.0.0",
 	"name": "hcp32k",
 	"shortName": "hcp32k",
-	"templateType": "gii",
-	"srcVolumeType": "surface",
-	"datasets": [
+	"modality": "surface",
+	"volumes": [
 		{
-			"@type": "fzj/tmp/volume_type/v0.0.1",
-			"@id": "fzj/tmp/volume_type/v0.0.1/hcp32k_white_left",
-			"space_id": "minds/core/referencespace/v1.0.0/tmp-hcp32k",
-			"name": "white matter",
-			"volume_type": "gii",
-			"url": {
-				"left": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210625_julichbrain_v290_freesurfer_update/gii/lh.r.white.mni_hcp32k.gii",
-				"right": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210625_julichbrain_v290_freesurfer_update/gii/rh.r.white.mni_hcp32k.gii"
-			}
-		},
-		{
-			"@type": "fzj/tmp/volume_type/v0.0.1",
-			"@id": "fzj/tmp/volume_type/v0.0.1/hcp32k_inflated_left",
-			"space_id": "minds/core/referencespace/v1.0.0/tmp-hcp32k",
-			"name": "inflated",
-			"volume_type": "gii",
-			"url": {
-				"left": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/fs_LR_32/fs_LR.32k.L.inflated.surf.gii",
-				"right": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/fs_LR_32/fs_LR.32k.R.inflated.surf.gii"
-			}
-		}
-	],
-	"templates": {
-		"white matter/left": {
 			"@type": "siibra/volume/v0.0.1",
+			"name": "white matter/left",
 			"urls": {
 				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210625_julichbrain_v290_freesurfer_update/gii/lh.r.white.mni_hcp32k.gii"
 			}
 		},
-		"white matter/right": {
+		{
 			"@type": "siibra/volume/v0.0.1",
+			"name": "white matter/right",
 			"urls": {
 				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210625_julichbrain_v290_freesurfer_update/gii/rh.r.white.mni_hcp32k.gii"
 			}
 		},
-		"inflated/left": {
+		{
 			"@type": "siibra/volume/v0.0.1",
+			"name": "inflated/left",
 			"urls": {
 				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/fs_LR_32/fs_LR.32k.L.inflated.surf.gii"
 			}
 		},
-		"inflated/right": {
+		{
 			"@type": "siibra/volume/v0.0.1",
+			"name": "inflated/right",
 			"urls": {
 				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/fs_LR_32/fs_LR.32k.R.inflated.surf.gii"
 			}
 		}
-	}
+	]
 }

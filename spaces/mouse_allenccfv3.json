@@ -3,115 +3,9 @@
 	"@type": "minds/core/referencespace/v1.0.0",
 	"name": "Allen Mouse Common Coordinate Framework v3",
 	"shortName": "Allen CCFv3",
-	"srcVolumeType": "mri",
-	"displayName": "Allen Mouse Common Coordinate Framework v3",
-	"templateType": "neuroglancer/precomputed",
-	"datasets": [
+	"modality": "mri",
+	"volumes": [
 		{
-			"@type": "fzj/tmp/volume_type/v0.0.1",
-			"@id": "fzj/tmp/volume_type/v0.0.1/allenccfv3",
-			"space_id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9",
-			"name": "allenccfv3",
-			"volume_type": "neuroglancer/precomputed",
-			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/templates/v3/stpt",
-			"detail": {
-				"neuroglancer/precomputed": {
-					"transform": [
-						[
-							1,
-							0,
-							0,
-							-5737500
-						],
-						[
-							0,
-							1,
-							0,
-							-6637500
-						],
-						[
-							0,
-							0,
-							1,
-							-4037500
-						],
-						[
-							0,
-							0,
-							0,
-							1
-						]
-					]
-				}
-			}
-		},
-		{
-			"@type": "fzj/tmp/volume_type/v0.0.1",
-			"@id": "fzj/tmp/volume_type/v0.0.1/allenccfv3_auxmesh",
-			"space_id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9",
-			"name": "allenccfv3_auxmesh",
-			"volume_type": "neuroglancer/precompmesh",
-			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/parcellations/v3_2017_mesh",
-			"detail": {
-				"neuroglancer/precompmesh": {
-					"auxMeshes": [
-						{
-							"name": "Whole brain",
-							"labelIndicies": [
-								997
-							]
-						}
-					],
-					"transform": [
-						[
-							0,
-							0,
-							-1,
-							5670000
-						],
-						[
-							-1,
-							0,
-							0,
-							6570000
-						],
-						[
-							0,
-							-1,
-							0,
-							3970000
-						],
-						[
-							0,
-							0,
-							0,
-							1
-						]
-					]
-				}
-			}
-		},
-		{
-			"@type": "fzj/tmp/simpleOriginInfo/v0.0.1",
-			"name": "Allen Mouse Common Coordinate Framework v3",
-			"description": "The Allen Mouse Common Coordinate Framework v3 2015 includes a full-color, high-resolution anatomical reference atlas accompanied by a systematic, hierarchically organized taxonomy of mouse brain structures. Anatomical annotations in classical histological atlas plates were extracted to create a comprehensive volumetric reference atlas of the mouse brain.",
-			"urls": [
-				{
-					"cite": "Allen Mouse Brain Connectivity Atlas [Internet]. Seattle (WA): Allen Institute for Brain Science. \u00a92011. Available from:\u00a0http://connectivity.brain-map.org/."
-				},
-				{
-					"cite": "Oh, S.W. et al. (2014) A mesoscale connectome of the mouse brain, Nature 508: 207-214.",
-					"doi": "10.1038/nature13186"
-				},
-				{
-					"cite": "http://download.alleninstitute.org/informatics-archive/current-release/mouse_ccf/",
-					"doi": "http://download.alleninstitute.org/informatics-archive/current-release/mouse_ccf/"
-				}
-			]
-		}
-	],
-	"templates": {
-		"allenccfv3": {
 			"@type": "siibra/volume/v0.0.1",
 			"detail": {
 				"neuroglancer/precomputed": {
@@ -147,7 +41,7 @@
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/templates/v3/stpt"
 			}
 		},
-		"allenccfv3_auxmesh": {
+		{
 			"@type": "siibra/volume/v0.0.1",
 			"detail": {
 				"neuroglancer/precompmesh": {
@@ -191,5 +85,6 @@
 				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/parcellations/v3_2017_mesh"
 			}
 		}
-	}
+	],
+	"description": "The Allen Mouse Common Coordinate Framework v3 2015 includes a full-color, high-resolution anatomical reference atlas accompanied by a systematic, hierarchically organized taxonomy of mouse brain structures. Anatomical annotations in classical histological atlas plates were extracted to create a comprehensive volumetric reference atlas of the mouse brain."
 }
