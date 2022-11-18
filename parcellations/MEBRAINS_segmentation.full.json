@@ -1,203 +1,142 @@
 {
-  "@id": "minds/core/parcellationatlas/v1.0.0/mebrains-tmp-id",
-  "@type": "minds/core/parcellationatlas/v1.0.0",
-  "name": "Non-human primate",
-  "shortName": "Non-human primate",
-  "description": "TODO MEBrain desc",
-  "publications": [],
-  "modality": null,
-  "version": "1",
-  "@version": {
-    "name": "1",
-    "collectionName": "Non-human primate",
-    "@prev": null,
-    "@next": null
-  },
-  "datasets": [
-    {
-      "@type": "fzj/tmp/volume_type/v0.0.1",
-      "@id": "fzj/tmp/volume_type/v0.0.1/mebrain-tmp",
-      "name": "MEBRAINS_segmentation",
-      "volume_type": "neuroglancer/precomputed",
-      "url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20211001-mebrain/precomputed/segmentations/MEBRAINS_segmentation",
-      "detail": {
-        "neuroglancer/precomputed": {
-          "transform": [
-            [
-              1.0,
-              -0.0,
-              -0.0,
-              -108459396.36230469
-            ],
-            [
-              -0.0,
-              1.0,
-              -0.0,
-              -138556304.93164062
-            ],
-            [
-              0.0,
-              0.0,
-              1.0,
-              -53556297.302246094
-            ],
-            [
-              0.0,
-              0.0,
-              0.0,
-              1.0
-            ]
-          ]
-        }
-      },
-      "space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-      "map_type": "labelled"
-    }
-  ],
-  "regions": [
-    {
-      "name": "Left-Cerebral-White-Matter",
-      "labelIndex": 2,
-      "rgb": [
-        245,
-        245,
-        245
-      ]
-    },
-    {
-      "name": "Left-Lateral-Ventricle",
-      "labelIndex": 4,
-      "rgb": [
-        120,
-        18,
-        134
-      ]
-    },
-    {
-      "name": "Left-Caudate",
-      "labelIndex": 11,
-      "rgb": [
-        122,
-        186,
-        220
-      ]
-    },
-    {
-      "name": "Left-Putamen",
-      "labelIndex": 12,
-      "rgb": [
-        236,
-        13,
-        176
-      ]
-    },
-    {
-      "name": "Left-Amygdala",
-      "labelIndex": 18,
-      "rgb": [
-        103,
-        255,
-        255
-      ]
-    },
-    {
-      "name": "Right-Cerebral-White-Matter",
-      "labelIndex": 41,
-      "rgb": [
-        245,
-        245,
-        245
-      ]
-    },
-    {
-      "name": "Right-Lateral-Ventricle",
-      "labelIndex": 43,
-      "rgb": [
-        120,
-        18,
-        134
-      ]
-    },
-    {
-      "name": "Right-Caudate",
-      "labelIndex": 50,
-      "rgb": [
-        122,
-        186,
-        220
-      ]
-    },
-    {
-      "name": "Right-Putamen",
-      "labelIndex": 51,
-      "rgb": [
-        236,
-        13,
-        176
-      ]
-    },
-    {
-      "name": "Right-Amygdala",
-      "labelIndex": 54,
-      "rgb": [
-        103,
-        255,
-        255
-      ]
-    },
-    {
-      "name": "Left-Basal-Forebrain",
-      "labelIndex": 91,
-      "rgb": [
-        205,
-        10,
-        125
-      ]
-    },
-    {
-      "name": "Right-Basal-Forebrain",
-      "labelIndex": 92,
-      "rgb": [
-        205,
-        10,
-        125
-      ]
-    },
-    {
-      "name": "Left-Claustrum",
-      "labelIndex": 138,
-      "rgb": [
-        65,
-        135,
-        20
-      ]
-    },
-    {
-      "name": "Right-Claustrum",
-      "labelIndex": 139,
-      "rgb": [
-        65,
-        135,
-        20
-      ]
-    },
-    {
-      "name": "Left-Cerebrai-Gray-Matter",
-      "labelIndex": 1017,
-      "rgb": [
-        60,
-        220,
-        60
-      ]
-    },
-    {
-      "name": "Right-Cerebrai-Gray-Matter",
-      "labelIndex": 2017,
-      "rgb": [
-        60,
-        220,
-        60
-      ]
-    }
-  ]
+	"@id": "minds/core/parcellationatlas/v1.0.0/mebrains-tmp-id",
+	"@type": "siibra/parcellation/v0.0.1",
+	"name": "Non-human primate",
+	"shortName": "Non-human primate",
+	"description": "TODO MEBrain desc",
+	"modality": null,
+	"@version": {
+		"name": "1",
+		"@prev": null
+	},
+	"regions": [
+		{
+			"name": "Left-Cerebral-White-Matter",
+			"rgb": [
+				245,
+				245,
+				245
+			]
+		},
+		{
+			"name": "Left-Lateral-Ventricle",
+			"rgb": [
+				120,
+				18,
+				134
+			]
+		},
+		{
+			"name": "Left-Caudate",
+			"rgb": [
+				122,
+				186,
+				220
+			]
+		},
+		{
+			"name": "Left-Putamen",
+			"rgb": [
+				236,
+				13,
+				176
+			]
+		},
+		{
+			"name": "Left-Amygdala",
+			"rgb": [
+				103,
+				255,
+				255
+			]
+		},
+		{
+			"name": "Right-Cerebral-White-Matter",
+			"rgb": [
+				245,
+				245,
+				245
+			]
+		},
+		{
+			"name": "Right-Lateral-Ventricle",
+			"rgb": [
+				120,
+				18,
+				134
+			]
+		},
+		{
+			"name": "Right-Caudate",
+			"rgb": [
+				122,
+				186,
+				220
+			]
+		},
+		{
+			"name": "Right-Putamen",
+			"rgb": [
+				236,
+				13,
+				176
+			]
+		},
+		{
+			"name": "Right-Amygdala",
+			"rgb": [
+				103,
+				255,
+				255
+			]
+		},
+		{
+			"name": "Left-Basal-Forebrain",
+			"rgb": [
+				205,
+				10,
+				125
+			]
+		},
+		{
+			"name": "Right-Basal-Forebrain",
+			"rgb": [
+				205,
+				10,
+				125
+			]
+		},
+		{
+			"name": "Left-Claustrum",
+			"rgb": [
+				65,
+				135,
+				20
+			]
+		},
+		{
+			"name": "Right-Claustrum",
+			"rgb": [
+				65,
+				135,
+				20
+			]
+		},
+		{
+			"name": "Left-Cerebrai-Gray-Matter",
+			"rgb": [
+				60,
+				220,
+				60
+			]
+		},
+		{
+			"name": "Right-Cerebrai-Gray-Matter",
+			"rgb": [
+				60,
+				220,
+				60
+			]
+		}
+	]
 }

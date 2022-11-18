@@ -1,103 +1,23 @@
 {
 	"@id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe",
-	"@type": "minds/core/parcellationatlas/v1.0.0",
+	"@type": "siibra/parcellation/v0.0.1",
 	"name": "Waxholm Space rat brain atlas v3",
 	"shortName": "Waxholm Space rat brain atlas v3",
 	"description": "Waxholm Space atlas of the rat brain, with detailed delineations of the ascending auditory system. (40 new structures added, 10 structures revised, in total 118 structures delineated)",
-	"publications": [
-		{
-			"cite": "https://www.nitrc.org/frs/?group_id=1081",
-			"doi": "https://www.nitrc.org/frs/?group_id=1081"
-		},
-		{
-			"doi": "10.1016/j.neuroimage.2019.05.016",
-			"cite": "Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56"
-		}
-	],
 	"modality": null,
-	"version": "3",
 	"@version": {
 		"name": "3",
-		"collectionName": "Waxholm Space rat brain atlas",
-		"@prev": "minds/core/parcellationatlas/v1.0.0/2449a7f0-6dd0-4b5a-8f1e-aec0db03679d",
-		"@next": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4"
+		"@prev": "minds/core/parcellationatlas/v1.0.0/2449a7f0-6dd0-4b5a-8f1e-aec0db03679d"
 	},
-	"datasets": [
-		{
-			"@type": "minds/core/dataset/v1.0.0",
-			"kgSchema": "minds/core/dataset/v1.0.0",
-			"kgId": "e80f9946-1aa9-494b-b81a-9048ca9afdbe"
-		},
-		{
-			"@type": "fzj/tmp/volume_type/v0.0.1",
-			"@id": "fzj/tmp/volume_type/v0.0.1/waxholm_rat_v3",
-			"name": "waxholm_rat_v3",
-			"volume_type": "neuroglancer/precomputed",
-			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
-			"detail": {
-				"neuroglancer/precomputed": {
-					"transform": [
-						[
-							1,
-							0,
-							0,
-							-9550781
-						],
-						[
-							0,
-							1,
-							0,
-							-24355468
-						],
-						[
-							0,
-							0,
-							1,
-							-9707031
-						],
-						[
-							0,
-							0,
-							0,
-							1
-						]
-					]
-				}
-			},
-			"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
-			"map_type": "labelled"
-		}
-	],
 	"regions": [
 		{
 			"name": "Whole brain",
-			"labelIndex": null,
 			"rgb": null,
-			"fullId": {
-				"kg": {
-					"kgSchema": "minds/core/parcellationregion/v1.0.0",
-					"kgId": "b2b56201-472c-4f70-842f-cf2133eacaba"
-				}
-			},
-			"relatedAreas": [
-				{
-					"name": "Rat Whole brain (v3)",
-					"fullId": {
-						"kg": {
-							"kgSchema": "minds/core/parcellationregion/v1.0.0",
-							"kgId": "781a8728-4178-4af4-b3e9-3e61ea5bc3cd",
-							"alternateOf": []
-						}
-					}
-				}
-			],
 			"children": [
 				{
-					"labelIndex": null,
 					"name": "White matter",
 					"children": [
 						{
-							"labelIndex": 67,
 							"name": "corpus callosum and associated subcortical white matter",
 							"rgb": [
 								255,
@@ -106,11 +26,9 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "Anterior commissure",
 							"children": [
 								{
-									"labelIndex": 36,
 									"name": "anterior commissure, anterior part",
 									"rgb": [
 										124,
@@ -119,7 +37,6 @@
 									]
 								},
 								{
-									"labelIndex": 37,
 									"name": "anterior commissure, posterior part",
 									"rgb": [
 										255,
@@ -128,7 +45,6 @@
 									]
 								},
 								{
-									"labelIndex": 73,
 									"name": "anterior commissure",
 									"rgb": [
 										255,
@@ -139,11 +55,9 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "Hippocampal white matter",
 							"children": [
 								{
-									"labelIndex": 6,
 									"name": "alveus of the hippocampus",
 									"rgb": [
 										255,
@@ -152,7 +66,6 @@
 									]
 								},
 								{
-									"labelIndex": 38,
 									"name": "ventral hippocampal commissure",
 									"rgb": [
 										174,
@@ -161,7 +74,6 @@
 									]
 								},
 								{
-									"labelIndex": 52,
 									"name": "fornix",
 									"rgb": [
 										21,
@@ -170,7 +82,6 @@
 									]
 								},
 								{
-									"labelIndex": 59,
 									"name": "fimbria of the hippocampus",
 									"rgb": [
 										0,
@@ -181,11 +92,9 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "Corticofugal pathways",
 							"children": [
 								{
-									"labelIndex": 1,
 									"name": "descending corticofugal pathways",
 									"rgb": [
 										255,
@@ -194,7 +103,6 @@
 									]
 								},
 								{
-									"labelIndex": 85,
 									"name": "pyramidal decussation",
 									"rgb": [
 										114,
@@ -205,11 +113,9 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "Medial lemniscus",
 							"children": [
 								{
-									"labelIndex": 34,
 									"name": "medial lemniscus",
 									"rgb": [
 										212,
@@ -218,7 +124,6 @@
 									]
 								},
 								{
-									"labelIndex": 84,
 									"name": "medial lemniscus decussation",
 									"rgb": [
 										65,
@@ -229,11 +134,9 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "Thalamic tracts",
 							"children": [
 								{
-									"labelIndex": 53,
 									"name": "mammillothalamic tract",
 									"rgb": [
 										238,
@@ -242,7 +145,6 @@
 									]
 								},
 								{
-									"labelIndex": 54,
 									"name": "commissural stria terminalis",
 									"rgb": [
 										173,
@@ -251,7 +153,6 @@
 									]
 								},
 								{
-									"labelIndex": 60,
 									"name": "fasciculus retroflexus",
 									"rgb": [
 										244,
@@ -260,7 +161,6 @@
 									]
 								},
 								{
-									"labelIndex": 61,
 									"name": "stria medullaris of the thalamus",
 									"rgb": [
 										0,
@@ -269,7 +169,6 @@
 									]
 								},
 								{
-									"labelIndex": 62,
 									"name": "stria terminalis",
 									"rgb": [
 										238,
@@ -278,7 +177,6 @@
 									]
 								},
 								{
-									"labelIndex": 80,
 									"name": "habenular commissure",
 									"rgb": [
 										69,
@@ -289,7 +187,6 @@
 							]
 						},
 						{
-							"labelIndex": 63,
 							"name": "posterior commissure",
 							"rgb": [
 								255,
@@ -298,11 +195,9 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "Facial nerve",
 							"children": [
 								{
-									"labelIndex": 35,
 									"name": "facial nerve",
 									"rgb": [
 										255,
@@ -311,7 +206,6 @@
 									]
 								},
 								{
-									"labelIndex": 72,
 									"name": "ascending fibers of the facial nerve",
 									"rgb": [
 										179,
@@ -320,7 +214,6 @@
 									]
 								},
 								{
-									"labelIndex": 57,
 									"name": "genu of the facial nerve",
 									"rgb": [
 										250,
@@ -331,11 +224,9 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "Optic fiber system and supraoptic decussation",
 							"children": [
 								{
-									"labelIndex": 41,
 									"name": "optic nerve",
 									"rgb": [
 										48,
@@ -344,7 +235,6 @@
 									]
 								},
 								{
-									"labelIndex": 42,
 									"name": "optic tract and optic chiasm",
 									"rgb": [
 										38,
@@ -353,7 +243,6 @@
 									]
 								},
 								{
-									"labelIndex": 83,
 									"name": "supraoptic decussation",
 									"rgb": [
 										250,
@@ -364,7 +253,6 @@
 							]
 						},
 						{
-							"labelIndex": 76,
 							"name": "spinal trigeminal tract",
 							"rgb": [
 								250,
@@ -373,11 +261,9 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "White matter of the tectum",
 							"children": [
 								{
-									"labelIndex": 46,
 									"name": "commissure of the superior colliculus",
 									"rgb": [
 										33,
@@ -386,7 +272,6 @@
 									]
 								},
 								{
-									"labelIndex": 68,
 									"name": "brachium of the superior colliculus",
 									"rgb": [
 										188,
@@ -395,7 +280,6 @@
 									]
 								},
 								{
-									"labelIndex": 69,
 									"name": "inferior colliculus, commissure",
 									"rgb": [
 										255,
@@ -404,7 +288,6 @@
 									]
 								},
 								{
-									"labelIndex": 146,
 									"name": "inferior colliculus, brachium",
 									"rgb": [
 										176,
@@ -415,11 +298,9 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "Cerebellar and precerebellar white matter",
 							"children": [
 								{
-									"labelIndex": 7,
 									"name": "inferior cerebellar peduncle",
 									"rgb": [
 										52,
@@ -428,7 +309,6 @@
 									]
 								},
 								{
-									"labelIndex": 78,
 									"name": "middle cerebellar peduncle",
 									"rgb": [
 										134,
@@ -437,7 +317,6 @@
 									]
 								},
 								{
-									"labelIndex": 79,
 									"name": "transverse fibers of the pons",
 									"rgb": [
 										128,
@@ -448,15 +327,12 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "White matter of the brainstem",
 							"children": [
 								{
-									"labelIndex": null,
 									"name": "Lateral lemniscus",
 									"children": [
 										{
-											"labelIndex": 140,
 											"name": "lateral lemniscus, commissure",
 											"rgb": [
 												255,
@@ -465,7 +341,6 @@
 											]
 										},
 										{
-											"labelIndex": 141,
 											"name": "lateral lemniscus",
 											"rgb": [
 												255,
@@ -476,7 +351,6 @@
 									]
 								},
 								{
-									"labelIndex": 129,
 									"name": "acoustic striae",
 									"rgb": [
 										255,
@@ -485,7 +359,6 @@
 									]
 								},
 								{
-									"labelIndex": 130,
 									"name": "trapezoid body",
 									"rgb": [
 										213,
@@ -496,7 +369,6 @@
 							]
 						},
 						{
-							"labelIndex": 157,
 							"name": "auditory radiation",
 							"rgb": [
 								244,
@@ -507,15 +379,12 @@
 					]
 				},
 				{
-					"labelIndex": null,
 					"name": "Gray matter",
 					"children": [
 						{
-							"labelIndex": null,
 							"name": "Olfactory system",
 							"children": [
 								{
-									"labelIndex": 64,
 									"name": "glomerular layer of the accessory olfactory bulb",
 									"rgb": [
 										15,
@@ -524,7 +393,6 @@
 									]
 								},
 								{
-									"labelIndex": 65,
 									"name": "glomerular layer of the olfactory bulb",
 									"rgb": [
 										255,
@@ -533,7 +401,6 @@
 									]
 								},
 								{
-									"labelIndex": 66,
 									"name": "olfactory bulb",
 									"rgb": [
 										255,
@@ -544,21 +411,12 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "Cerebral cortex including the neocortex and the hippocampus",
 							"children": [
 								{
-									"labelIndex": null,
 									"name": "Neocortex",
-									"fullId": {
-										"kg": {
-											"kgSchema": "minds/core/parcellationregion/v1.0.0",
-											"kgId": "b4ab5ba5-0753-4ffb-80f9-ccd5d85cb6ac"
-										}
-									},
 									"children": [
 										{
-											"labelIndex": 77,
 											"name": "frontal association cortex",
 											"rgb": [
 												206,
@@ -567,22 +425,17 @@
 											]
 										},
 										{
-											"labelIndex": 92,
 											"name": "neocortex",
 											"rgb": [
 												3,
 												193,
 												45
 											],
-											"fullId": {
-												"kg": {
-													"kgSchema": "minds/core/parcellationregion/v1.0.0",
-													"kgId": "0db35172-495f-494d-9c14-01a2d6c7e398"
-												}
+											"ebrains": {
+												"minds/core/parcellationregion/v1.0.0": "0db35172-495f-494d-9c14-01a2d6c7e398"
 											}
 										},
 										{
-											"labelIndex": 10,
 											"name": "cingulate cortex, area 2",
 											"rgb": [
 												29,
@@ -591,7 +444,6 @@
 											]
 										},
 										{
-											"labelIndex": 108,
 											"name": "postrhinal cortex",
 											"rgb": [
 												40,
@@ -600,7 +452,6 @@
 											]
 										},
 										{
-											"labelIndex": 109,
 											"name": "presubiculum",
 											"rgb": [
 												80,
@@ -609,7 +460,6 @@
 											]
 										},
 										{
-											"labelIndex": 110,
 											"name": "parasubiculum",
 											"rgb": [
 												23,
@@ -618,7 +468,6 @@
 											]
 										},
 										{
-											"labelIndex": 112,
 											"name": "perirhinal area 35",
 											"rgb": [
 												205,
@@ -627,7 +476,6 @@
 											]
 										},
 										{
-											"labelIndex": 113,
 											"name": "perirhinal area 36",
 											"rgb": [
 												112,
@@ -636,7 +484,6 @@
 											]
 										},
 										{
-											"labelIndex": 114,
 											"name": "entorhinal cortex",
 											"rgb": [
 												122,
@@ -645,7 +492,6 @@
 											]
 										},
 										{
-											"labelIndex": 115,
 											"name": "lateral entorhinal cortex",
 											"rgb": [
 												90,
@@ -654,11 +500,9 @@
 											]
 										},
 										{
-											"labelIndex": null,
 											"name": "Auditory cortex",
 											"children": [
 												{
-													"labelIndex": 151,
 													"name": "primary auditory cortex",
 													"rgb": [
 														255,
@@ -667,7 +511,6 @@
 													]
 												},
 												{
-													"labelIndex": 152,
 													"name": "secondary auditory cortex, dorsal area",
 													"rgb": [
 														240,
@@ -676,7 +519,6 @@
 													]
 												},
 												{
-													"labelIndex": 153,
 													"name": "secondary auditory cortex, ventral area",
 													"rgb": [
 														216,
@@ -686,14 +528,15 @@
 												}
 											]
 										}
-									]
+									],
+									"ebrains": {
+										"minds/core/parcellationregion/v1.0.0": "b4ab5ba5-0753-4ffb-80f9-ccd5d85cb6ac"
+									}
 								},
 								{
-									"labelIndex": null,
 									"name": "Allocortex",
 									"children": [
 										{
-											"labelIndex": 95,
 											"name": "cornu ammonis 3",
 											"rgb": [
 												165,
@@ -702,7 +545,6 @@
 											]
 										},
 										{
-											"labelIndex": 96,
 											"name": "dentate gyrus",
 											"rgb": [
 												91,
@@ -711,7 +553,6 @@
 											]
 										},
 										{
-											"labelIndex": 97,
 											"name": "cornu ammonis 2",
 											"rgb": [
 												255,
@@ -720,7 +561,6 @@
 											]
 										},
 										{
-											"labelIndex": 98,
 											"name": "cornu ammonis 1",
 											"rgb": [
 												217,
@@ -729,7 +569,6 @@
 											]
 										},
 										{
-											"labelIndex": 99,
 											"name": "fasciola cinereum",
 											"rgb": [
 												255,
@@ -738,7 +577,6 @@
 											]
 										},
 										{
-											"labelIndex": 100,
 											"name": "subiculum",
 											"rgb": [
 												255,
@@ -751,28 +589,17 @@
 							]
 						},
 						{
-							"labelIndex": 30,
 							"name": "striatum",
 							"rgb": [
 								129,
 								79,
 								255
 							],
-							"relatedAreas": [
-								{
-									"name": "Rat Striatum (v3)",
-									"fullId": {
-										"kg": {
-											"kgSchema": "minds/core/parcellationregion/v1.0.0",
-											"kgId": "a06b8f76-c92e-4b16-9281-4c314a925ee4",
-											"alternateOf": []
-										}
-									}
-								}
-							]
+							"ebrains": {
+								"minds/core/parcellationregion/v1.0.0": "a06b8f76-c92e-4b16-9281-4c314a925ee4"
+							}
 						},
 						{
-							"labelIndex": 31,
 							"name": "globus pallidus",
 							"rgb": [
 								255,
@@ -781,7 +608,6 @@
 							]
 						},
 						{
-							"labelIndex": 32,
 							"name": "entopeduncular nucleus",
 							"rgb": [
 								26,
@@ -790,7 +616,6 @@
 							]
 						},
 						{
-							"labelIndex": 3,
 							"name": "subthalamic nucleus",
 							"rgb": [
 								0,
@@ -799,7 +624,6 @@
 							]
 						},
 						{
-							"labelIndex": 82,
 							"name": "basal forebrain region",
 							"rgb": [
 								225,
@@ -808,7 +632,6 @@
 							]
 						},
 						{
-							"labelIndex": 40,
 							"name": "septal region",
 							"rgb": [
 								255,
@@ -817,11 +640,9 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "Thalamus",
 							"children": [
 								{
-									"labelIndex": 39,
 									"name": "thalamus",
 									"rgb": [
 										0,
@@ -830,7 +651,6 @@
 									]
 								},
 								{
-									"labelIndex": 147,
 									"name": "medial geniculate body, medial division",
 									"rgb": [
 										10,
@@ -839,7 +659,6 @@
 									]
 								},
 								{
-									"labelIndex": 148,
 									"name": "medial geniculate body, dorsal division",
 									"rgb": [
 										239,
@@ -848,7 +667,6 @@
 									]
 								},
 								{
-									"labelIndex": 149,
 									"name": "medial geniculate body, ventral division",
 									"rgb": [
 										131,
@@ -857,7 +675,6 @@
 									]
 								},
 								{
-									"labelIndex": 150,
 									"name": "medial geniculate body, marginal zone",
 									"rgb": [
 										255,
@@ -866,7 +683,6 @@
 									]
 								},
 								{
-									"labelIndex": 164,
 									"name": "reticular thalamic nucleus, auditory segment",
 									"rgb": [
 										110,
@@ -877,7 +693,6 @@
 							]
 						},
 						{
-							"labelIndex": 93,
 							"name": "bed nucleus of the stria terminalis",
 							"rgb": [
 								0,
@@ -886,7 +701,6 @@
 							]
 						},
 						{
-							"labelIndex": 81,
 							"name": "nucleus of the stria medullaris",
 							"rgb": [
 								222,
@@ -895,7 +709,6 @@
 							]
 						},
 						{
-							"labelIndex": 48,
 							"name": "hypothalamic region",
 							"rgb": [
 								226,
@@ -904,7 +717,6 @@
 							]
 						},
 						{
-							"labelIndex": 43,
 							"name": "pineal gland",
 							"rgb": [
 								218,
@@ -913,15 +725,12 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "Tectum",
 							"children": [
 								{
-									"labelIndex": null,
 									"name": "Inferior colliculus",
 									"children": [
 										{
-											"labelIndex": 142,
 											"name": "inferior colliculus, dorsal cortex",
 											"rgb": [
 												206,
@@ -930,7 +739,6 @@
 											]
 										},
 										{
-											"labelIndex": 143,
 											"name": "inferior colliculus, central nucleus",
 											"rgb": [
 												0,
@@ -939,7 +747,6 @@
 											]
 										},
 										{
-											"labelIndex": 145,
 											"name": "inferior colliculus, external cortex",
 											"rgb": [
 												48,
@@ -950,7 +757,6 @@
 									]
 								},
 								{
-									"labelIndex": 94,
 									"name": "pretectal region",
 									"rgb": [
 										255,
@@ -959,7 +765,6 @@
 									]
 								},
 								{
-									"labelIndex": 50,
 									"name": "superficial gray layer of the superior colliculus",
 									"rgb": [
 										86,
@@ -968,7 +773,6 @@
 									]
 								},
 								{
-									"labelIndex": 55,
 									"name": "deeper layers of the superior colliculus",
 									"rgb": [
 										225,
@@ -979,7 +783,6 @@
 							]
 						},
 						{
-							"labelIndex": 2,
 							"name": "substantia nigra",
 							"rgb": [
 								255,
@@ -988,7 +791,6 @@
 							]
 						},
 						{
-							"labelIndex": 71,
 							"name": "interpeduncular nucleus",
 							"rgb": [
 								63,
@@ -997,7 +799,6 @@
 							]
 						},
 						{
-							"labelIndex": 51,
 							"name": "periaqueductal gray",
 							"rgb": [
 								7,
@@ -1006,7 +807,6 @@
 							]
 						},
 						{
-							"labelIndex": 58,
 							"name": "pontine nuclei",
 							"rgb": [
 								0,
@@ -1015,29 +815,9 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "Cerebellum",
-							"fullId": {
-								"kg": {
-									"kgSchema": "minds/core/parcellationregion/v1.0.0",
-									"kgId": "a844d80f-1d94-41a0-901a-14ae257519db"
-								}
-							},
-							"relatedAreas": [
-								{
-									"name": "Rat Cerebellum (v3)",
-									"fullId": {
-										"kg": {
-											"kgSchema": "minds/core/parcellationregion/v1.0.0",
-											"kgId": "f29cd2fd-fa5c-412f-b83e-7832c3cff80b",
-											"alternateOf": []
-										}
-									}
-								}
-							],
 							"children": [
 								{
-									"labelIndex": 4,
 									"name": "molecular layer of the cerebellum",
 									"rgb": [
 										255,
@@ -1046,7 +826,6 @@
 									]
 								},
 								{
-									"labelIndex": 5,
 									"name": "granule cell level of the cerebellum",
 									"rgb": [
 										0,
@@ -1057,7 +836,6 @@
 							]
 						},
 						{
-							"labelIndex": 74,
 							"name": "inferior olive",
 							"rgb": [
 								0,
@@ -1066,7 +844,6 @@
 							]
 						},
 						{
-							"labelIndex": 75,
 							"name": "spinal trigeminal nucleus",
 							"rgb": [
 								91,
@@ -1075,7 +852,6 @@
 							]
 						},
 						{
-							"labelIndex": 56,
 							"name": "periventricular gray",
 							"rgb": [
 								235,
@@ -1084,11 +860,9 @@
 							]
 						},
 						{
-							"labelIndex": null,
 							"name": "Brainstem",
 							"children": [
 								{
-									"labelIndex": 47,
 									"name": "brainstem",
 									"rgb": [
 										153,
@@ -1097,11 +871,9 @@
 									]
 								},
 								{
-									"labelIndex": null,
 									"name": "Cochlear nucleus, ventral part",
 									"children": [
 										{
-											"labelIndex": 158,
 											"name": "ventral cochlear nucleus, anterior part",
 											"rgb": [
 												34,
@@ -1110,7 +882,6 @@
 											]
 										},
 										{
-											"labelIndex": 159,
 											"name": "ventral cochlear nucleus, posterior part",
 											"rgb": [
 												0,
@@ -1119,7 +890,6 @@
 											]
 										},
 										{
-											"labelIndex": 160,
 											"name": "ventral cochlear nucleus, cap area",
 											"rgb": [
 												0,
@@ -1128,7 +898,6 @@
 											]
 										},
 										{
-											"labelIndex": 123,
 											"name": "ventral cochlear nucleus, granule cell layer",
 											"rgb": [
 												0,
@@ -1139,11 +908,9 @@
 									]
 								},
 								{
-									"labelIndex": null,
 									"name": "Cochlear nucleus, dorsal part",
 									"children": [
 										{
-											"labelIndex": 126,
 											"name": "dorsal cochlear nucleus, molecular layer",
 											"rgb": [
 												92,
@@ -1152,7 +919,6 @@
 											]
 										},
 										{
-											"labelIndex": 127,
 											"name": "dorsal cochlear nucleus, fusiform and granule layer",
 											"rgb": [
 												0,
@@ -1161,7 +927,6 @@
 											]
 										},
 										{
-											"labelIndex": 128,
 											"name": "dorsal cochlear nucleus, deep core",
 											"rgb": [
 												197,
@@ -1172,11 +937,9 @@
 									]
 								},
 								{
-									"labelIndex": null,
 									"name": "Superior olivary complex",
 									"children": [
 										{
-											"labelIndex": 131,
 											"name": "nucleus of the trapezoid body",
 											"rgb": [
 												0,
@@ -1185,7 +948,6 @@
 											]
 										},
 										{
-											"labelIndex": 132,
 											"name": "superior paraolivary nucleus",
 											"rgb": [
 												0,
@@ -1194,7 +956,6 @@
 											]
 										},
 										{
-											"labelIndex": 133,
 											"name": "medial superior olive",
 											"rgb": [
 												219,
@@ -1203,7 +964,6 @@
 											]
 										},
 										{
-											"labelIndex": 134,
 											"name": "lateral superior olive",
 											"rgb": [
 												35,
@@ -1212,7 +972,6 @@
 											]
 										},
 										{
-											"labelIndex": 135,
 											"name": "superior periolivary region",
 											"rgb": [
 												1,
@@ -1221,7 +980,6 @@
 											]
 										},
 										{
-											"labelIndex": 136,
 											"name": "ventral periolivary nuclei",
 											"rgb": [
 												0,
@@ -1232,11 +990,9 @@
 									]
 								},
 								{
-									"labelIndex": null,
 									"name": "Nuclei of the lateral lemniscus",
 									"children": [
 										{
-											"labelIndex": 137,
 											"name": "lateral lemniscus, ventral nucleus",
 											"rgb": [
 												255,
@@ -1245,7 +1001,6 @@
 											]
 										},
 										{
-											"labelIndex": 138,
 											"name": "lateral lemniscus, intermediate nucleus",
 											"rgb": [
 												171,
@@ -1254,7 +1009,6 @@
 											]
 										},
 										{
-											"labelIndex": 139,
 											"name": "lateral lemniscus, dorsal nucleus",
 											"rgb": [
 												108,
@@ -1265,7 +1019,6 @@
 									]
 								},
 								{
-									"labelIndex": 163,
 									"name": "nucleus sagulum",
 									"rgb": [
 										99,
@@ -1278,11 +1031,9 @@
 					]
 				},
 				{
-					"labelIndex": null,
 					"name": "Ventricular system",
 					"children": [
 						{
-							"labelIndex": 33,
 							"name": "ventricular system",
 							"rgb": [
 								2,
@@ -1291,7 +1042,6 @@
 							]
 						},
 						{
-							"labelIndex": 125,
 							"name": "4th ventricle",
 							"rgb": [
 								52,
@@ -1302,11 +1052,9 @@
 					]
 				},
 				{
-					"labelIndex": null,
 					"name": "Spinal cord",
 					"children": [
 						{
-							"labelIndex": 45,
 							"name": "spinal cord",
 							"rgb": [
 								134,
@@ -1315,7 +1063,6 @@
 							]
 						},
 						{
-							"labelIndex": 70,
 							"name": "central canal",
 							"rgb": [
 								39,
@@ -1326,11 +1073,9 @@
 					]
 				},
 				{
-					"labelIndex": null,
 					"name": "Inner ear",
 					"children": [
 						{
-							"labelIndex": 119,
 							"name": "vestibular apparatus",
 							"rgb": [
 								0,
@@ -1339,7 +1084,6 @@
 							]
 						},
 						{
-							"labelIndex": 120,
 							"name": "cochlea",
 							"rgb": [
 								0,
@@ -1348,7 +1092,6 @@
 							]
 						},
 						{
-							"labelIndex": 121,
 							"name": "cochlear nerve",
 							"rgb": [
 								253,
@@ -1357,7 +1100,6 @@
 							]
 						},
 						{
-							"labelIndex": 122,
 							"name": "vestibular nerve",
 							"rgb": [
 								253,
@@ -1366,7 +1108,6 @@
 							]
 						},
 						{
-							"labelIndex": 162,
 							"name": "spiral ganglion",
 							"rgb": [
 								185,
@@ -1377,6 +1118,19 @@
 					]
 				}
 			]
+		}
+	],
+	"ebrains": {
+		"minds/core/dataset/v1.0.0": "e80f9946-1aa9-494b-b81a-9048ca9afdbe"
+	},
+	"publications": [
+		{
+			"citation": "https://www.nitrc.org/frs/?group_id=1081",
+			"url": "https://www.nitrc.org/frs/?group_id=1081"
+		},
+		{
+			"citation": "Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56",
+			"url": "https://doi.org/10.1016/j.neuroimage.2019.05.016"
 		}
 	]
 }
