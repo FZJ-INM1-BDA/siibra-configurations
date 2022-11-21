@@ -17,9 +17,9 @@ check_schema:
     git -C $SIIBRA_PYTHON_PATH log -n 1
     pip install -r $SIIBRA_PYTHON_PATH/config_schema/requirements.txt
   script: |
-    echo python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $GIT_CLONE_PATH
-    git -C $GIT_CLONE_PATH log -n 1
-    python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $GIT_CLONE_PATH
+    echo python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $PWD
+    git -C $PWD log -n 1
+    python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $PWD
 
 
 region_attr_compliance:
