@@ -3,13 +3,11 @@ stages:
   - test
   - git-robot
 
-before-script:
-  script:
-    - python -m pip install --upgrade pip
-
 check_schema:
   variables:
     SIIBRA_PYTHON_PATH: $CI_BUILDS_DIR/$CI_CONCURRENT_ID/siibra-python
+    GIT_DEPTH: 10
+    GIT_CLONE_PATH: $CI_BUILDS_DIR/$CI_CONCURRENT_ID/$CI_PROJECT_NAME
   stage: test
   before_script: |
     echo "[DEVELOP BUILD] Using refactor_v0.4_configValidation branch. In prod, use main branch instead."
@@ -19,8 +17,7 @@ check_schema:
     git -C $SIIBRA_PYTHON_PATH log -n 1
     pip install -r $SIIBRA_PYTHON_PATH/config_schema/requirements.txt
   script: |
-    python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py \
-      $GIT_CLONE_PATH
+    echo python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $GIT_CLONE_PATH
 
 
 region_attr_compliance:
