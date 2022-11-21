@@ -6,8 +6,8 @@ stages:
 check_schema:
   variables:
     SIIBRA_PYTHON_PATH: $CI_BUILDS_DIR/$CI_CONCURRENT_ID/siibra-python
-    GIT_DEPTH: 10
-    GIT_CLONE_PATH: $CI_BUILDS_DIR/$CI_CONCURRENT_ID/$CI_PROJECT_NAME
+    GIT_DEPTH: 1
+    
   stage: test
   before_script: |
     echo "[DEVELOP BUILD] Using refactor_v0.4_configValidation branch. In prod, use main branch instead."
@@ -18,6 +18,8 @@ check_schema:
     pip install -r $SIIBRA_PYTHON_PATH/config_schema/requirements.txt
   script: |
     echo python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $GIT_CLONE_PATH
+    git -C $GIT_CLONE_PATH log -n 1
+    python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $GIT_CLONE_PATH
 
 
 region_attr_compliance:
