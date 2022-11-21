@@ -7,15 +7,20 @@ before-script:
   script:
     - python -m pip install --upgrade pip
 
-parc_version_ci:
+check_schema:
+  variables:
+    SIIBRA_PYTHON_PATH: $CI_BUILDS_DIR/siibra-python
   stage: test
-  script:
-    - python ./_ci/parc_version_ci.py
+  before_script: |
+    echo "[DEVELOP BUILD] Using refactor_v0.4_configValidation branch. In prod, use main branch instead."
+    git clone -b refactor_v0.4_configValidation \
+      https://github.com/FZJ-INM1-BDA/siibra-python.git \
+      $SIIBRA_PYTHON_PATH
+    pip install -r $SIIBRA_PYTHON_PATH/check_schema/requirements.txt
+  script: |
+    python $SIIBRA_PYTHON_PATH/check_schema/check_schema.py \
+      $GIT_CLONE_PATH
 
-dataset_compliance:
-  stage: test
-  script:
-    - python ./_ci/dataset_compliance.py
 
 region_attr_compliance:
   stage: test
