@@ -16,11 +16,10 @@ check_schema:
     git clone -v -b refactor_v0.4_configValidation \
       https://github.com/FZJ-INM1-BDA/siibra-python.git \
       $SIIBRA_PYTHON_PATH
-    ls -lha $SIIBRA_PYTHON_PATH
     git -C $SIIBRA_PYTHON_PATH log -n 1
-    pip install -r $SIIBRA_PYTHON_PATH/check_schema/requirements.txt
+    pip install -r $SIIBRA_PYTHON_PATH/config_schema/requirements.txt
   script: |
-    python $SIIBRA_PYTHON_PATH/check_schema/check_schema.py \
+    python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py \
       $GIT_CLONE_PATH
 
 
