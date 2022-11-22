@@ -3,19 +3,25 @@ stages:
   - test
   - git-robot
 
-before-script:
-  script:
-    - python -m pip install --upgrade pip
-
-parc_version_ci:
+check_schema:
+  variables:
+    SIIBRA_PYTHON_PATH: $CI_BUILDS_DIR/$CI_CONCURRENT_ID/siibra-python
+    GIT_DEPTH: 1
+    
   stage: test
-  script:
-    - python ./_ci/parc_version_ci.py
+  before_script: |
+    echo "[DEVELOP BUILD] Using refactor_v0.4_configValidation branch. In prod, use main branch instead."
+    rm -rf $SIIBRA_PYTHON_PATH
+    git clone -v -b refactor_v0.4_configValidation \
+      https://github.com/FZJ-INM1-BDA/siibra-python.git \
+      $SIIBRA_PYTHON_PATH
+    git -C $SIIBRA_PYTHON_PATH log -n 1
+    pip install -r $SIIBRA_PYTHON_PATH/config_schema/requirements.txt
+  script: |
+    echo python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $PWD
+    git -C $PWD log -n 1
+    python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $PWD
 
-dataset_compliance:
-  stage: test
-  script:
-    - python ./_ci/dataset_compliance.py
 
 region_attr_compliance:
   stage: test

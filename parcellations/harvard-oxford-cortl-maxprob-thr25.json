@@ -1,418 +1,311 @@
 {
 	"@id": "https://identifiers.org/neurovault.image:1705",
-	"@type": "minds/core/parcellationatlas/v1.0.0",
+	"@type": "siibra/parcellation/v0.0.1",
 	"name": "HarvardOxford cort maxprob thr25",
 	"shortName": "HarvardOxford cort maxprob thr25",
 	"description": "Maximum probabilty maps covering 48 cortical structural areas derived from structural data and segmentations provided by the Harvard Center for Morphometric Analysis. T1-weighted images of 21 healthy male and 16 healthy female subjects (ages 18-50) were individually segmented by the CMA using semi-automated tools developed in-house. The T1-weighted images were affine-registered to MNI152 space using FLIRT (FSL), and the transforms then applied to the individual labels. Finally, these were combined across subjects to form population probability maps for each label.",
-	"publications": [
-		{
-			"cite": "Makris N, Goldstein JM, Kennedy D, Hodge SM, Caviness VS, Faraone SV, Tsuang MT, Seidman LJ. Decreased volume of left and total anterior insular lobule in schizophrenia. Schizophr Res. 2006 Apr;83(2-3):155-71"
-		},
-		{
-			"cite": "Frazier JA, Chiu S, Breeze JL, Makris N, Lange N, Kennedy DN, Herbert MR, Bent EK, Koneru VK, Dieterich ME, Hodge SM, Rauch SL, Grant PE, Cohen BM, Seidman LJ, Caviness VS, Biederman J. Structural brain magnetic resonance imaging of limbic and thalamic volumes in pediatric bipolar disorder. Am J Psychiatry. 2005 Jul;162(7):1256-65"
-		},
-		{
-			"cite":	"Desikan RS, Ségonne F, Fischl B, Quinn BT, Dickerson BC, Blacker D, Buckner RL, Dale AM, Maguire RP, Hyman BT, Albert MS, Killiany RJ. An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest. Neuroimage. 2006 Jul 1;31(3):968-80."
-		},
-		{
-			"cite": "Goldstein JM, Seidman LJ, Makris N, Ahern T, O'Brien LM, Caviness VS Jr, Kennedy DN, Faraone SV, Tsuang MT. Hypothalamic abnormalities in schizophrenia: sex effects and genetic vulnerability. Biol Psychiatry. 2007 Apr 15;61(8):935-45"
-		}
-	],
-	"datasets": [
-		{
-			"@type": "fzj/tmp/volume_type/v0.0.1",
-			"@id": "fzj/tmp/volume_type/v0.0.1/harvard-oxford-cort-maxprob-thr25-1mm",
-			"name": "HarvardOxford cort maxprob thr25 1mm",
-			"volume_type": "nii",
-			"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
-			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-			"map_type": "labelled"
-		}
-	],
 	"regions": [
 		{
-			"labelIndex": 1,
 			"name": "Left Frontal Pole"
 		},
 		{
-			"labelIndex": 2,
 			"name": "Right Frontal Pole"
 		},
 		{
-			"labelIndex": 3,
 			"name": "Left Insular Cortex"
 		},
 		{
-			"labelIndex": 4,
 			"name": "Right Insular Cortex"
 		},
 		{
-			"labelIndex": 5,
 			"name": "Left Superior Frontal Gyrus"
 		},
 		{
-			"labelIndex": 6,
 			"name": "Right Superior Frontal Gyrus"
 		},
 		{
-			"labelIndex": 7,
 			"name": "Left Middle Frontal Gyrus"
 		},
 		{
-			"labelIndex": 8,
 			"name": "Right Middle Frontal Gyrus"
 		},
 		{
-			"labelIndex": 9,
 			"name": "Left Inferior Frontal Gyrus, pars triangularis"
 		},
 		{
-			"labelIndex": 10,
 			"name": "Right Inferior Frontal Gyrus, pars triangularis"
 		},
 		{
-			"labelIndex": 11,
 			"name": "Left Inferior Frontal Gyrus, pars opercularis"
 		},
 		{
-			"labelIndex": 12,
 			"name": "Right Inferior Frontal Gyrus, pars opercularis"
 		},
 		{
-			"labelIndex": 13,
 			"name": "Left Precentral Gyrus"
 		},
 		{
-			"labelIndex": 14,
 			"name": "Right Precentral Gyrus"
 		},
 		{
-			"labelIndex": 15,
 			"name": "Left Temporal Pole"
 		},
 		{
-			"labelIndex": 16,
 			"name": "Right Temporal Pole"
 		},
 		{
-			"labelIndex": 17,
 			"name": "Left Superior Temporal Gyrus, anterior division"
 		},
 		{
-			"labelIndex": 18,
 			"name": "Right Superior Temporal Gyrus, anterior division"
 		},
 		{
-			"labelIndex": 19,
 			"name": "Left Superior Temporal Gyrus, posterior division"
 		},
 		{
-			"labelIndex": 20,
 			"name": "Right Superior Temporal Gyrus, posterior division"
 		},
 		{
-			"labelIndex": 21,
 			"name": "Left Middle Temporal Gyrus, anterior division"
 		},
 		{
-			"labelIndex": 22,
 			"name": "Right Middle Temporal Gyrus, anterior division"
 		},
 		{
-			"labelIndex": 23,
 			"name": "Left Middle Temporal Gyrus, posterior division"
 		},
 		{
-			"labelIndex": 24,
 			"name": "Right Middle Temporal Gyrus, posterior division"
 		},
 		{
-			"labelIndex": 25,
 			"name": "Left Middle Temporal Gyrus, temporooccipital part"
 		},
 		{
-			"labelIndex": 26,
 			"name": "Right Middle Temporal Gyrus, temporooccipital part"
 		},
 		{
-			"labelIndex": 27,
 			"name": "Left Inferior Temporal Gyrus, anterior division"
 		},
 		{
-			"labelIndex": 28,
 			"name": "Right Inferior Temporal Gyrus, anterior division"
 		},
 		{
-			"labelIndex": 29,
 			"name": "Left Inferior Temporal Gyrus, posterior division"
 		},
 		{
-			"labelIndex": 30,
 			"name": "Right Inferior Temporal Gyrus, posterior division"
 		},
 		{
-			"labelIndex": 31,
 			"name": "Left Inferior Temporal Gyrus, temporooccipital part"
 		},
 		{
-			"labelIndex": 32,
 			"name": "Right Inferior Temporal Gyrus, temporooccipital part"
 		},
 		{
-			"labelIndex": 33,
 			"name": "Left Postcentral Gyrus"
 		},
 		{
-			"labelIndex": 34,
 			"name": "Right Postcentral Gyrus"
 		},
 		{
-			"labelIndex": 35,
 			"name": "Left Superior Parietal Lobule"
 		},
 		{
-			"labelIndex": 36,
 			"name": "Right Superior Parietal Lobule"
 		},
 		{
-			"labelIndex": 37,
 			"name": "Left Supramarginal Gyrus, anterior division"
 		},
 		{
-			"labelIndex": 38,
 			"name": "Right Supramarginal Gyrus, anterior division"
 		},
 		{
-			"labelIndex": 39,
 			"name": "Left Supramarginal Gyrus, posterior division"
 		},
 		{
-			"labelIndex": 40,
 			"name": "Right Supramarginal Gyrus, posterior division"
 		},
 		{
-			"labelIndex": 41,
 			"name": "Left Angular Gyrus"
 		},
 		{
-			"labelIndex": 42,
 			"name": "Right Angular Gyrus"
 		},
 		{
-			"labelIndex": 43,
 			"name": "Left Lateral Occipital Cortex, superior division"
 		},
 		{
-			"labelIndex": 44,
 			"name": "Right Lateral Occipital Cortex, superior division"
 		},
 		{
-			"labelIndex": 45,
 			"name": "Left Lateral Occipital Cortex, inferior division"
 		},
 		{
-			"labelIndex": 46,
 			"name": "Right Lateral Occipital Cortex, inferior division"
 		},
 		{
-			"labelIndex": 47,
 			"name": "Left Intracalcarine Cortex"
 		},
 		{
-			"labelIndex": 48,
 			"name": "Right Intracalcarine Cortex"
 		},
 		{
-			"labelIndex": 49,
 			"name": "Left Frontal Medial Cortex"
 		},
 		{
-			"labelIndex": 50,
 			"name": "Right Frontal Medial Cortex"
 		},
 		{
-			"labelIndex": 51,
 			"name": "Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)"
 		},
 		{
-			"labelIndex": 52,
 			"name": "Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)"
 		},
 		{
-			"labelIndex": 53,
 			"name": "Left Subcallosal Cortex"
 		},
 		{
-			"labelIndex": 54,
 			"name": "Right Subcallosal Cortex"
 		},
 		{
-			"labelIndex": 55,
 			"name": "Left Paracingulate Gyrus"
 		},
 		{
-			"labelIndex": 56,
 			"name": "Right Paracingulate Gyrus"
 		},
 		{
-			"labelIndex": 57,
 			"name": "Left Cingulate Gyrus, anterior division"
 		},
 		{
-			"labelIndex": 58,
 			"name": "Right Cingulate Gyrus, anterior division"
 		},
 		{
-			"labelIndex": 59,
 			"name": "Left Cingulate Gyrus, posterior division"
 		},
 		{
-			"labelIndex": 60,
 			"name": "Right Cingulate Gyrus, posterior division"
 		},
 		{
-			"labelIndex": 61,
 			"name": "Left Precuneous Cortex"
 		},
 		{
-			"labelIndex": 62,
 			"name": "Right Precuneous Cortex"
 		},
 		{
-			"labelIndex": 63,
 			"name": "Left Cuneal Cortex"
 		},
 		{
-			"labelIndex": 64,
 			"name": "Right Cuneal Cortex"
 		},
 		{
-			"labelIndex": 65,
 			"name": "Left Frontal Orbital Cortex"
 		},
 		{
-			"labelIndex": 66,
 			"name": "Right Frontal Orbital Cortex"
 		},
 		{
-			"labelIndex": 67,
 			"name": "Left Parahippocampal Gyrus, anterior division"
 		},
 		{
-			"labelIndex": 68,
 			"name": "Right Parahippocampal Gyrus, anterior division"
 		},
 		{
-			"labelIndex": 69,
 			"name": "Left Parahippocampal Gyrus, posterior division"
 		},
 		{
-			"labelIndex": 70,
 			"name": "Right Parahippocampal Gyrus, posterior division"
 		},
 		{
-			"labelIndex": 71,
 			"name": "Left Lingual Gyrus"
 		},
 		{
-			"labelIndex": 72,
 			"name": "Right Lingual Gyrus"
 		},
 		{
-			"labelIndex": 73,
 			"name": "Left Temporal Fusiform Cortex, anterior division"
 		},
 		{
-			"labelIndex": 74,
 			"name": "Right Temporal Fusiform Cortex, anterior division"
 		},
 		{
-			"labelIndex": 75,
 			"name": "Left Temporal Fusiform Cortex, posterior division"
 		},
 		{
-			"labelIndex": 76,
 			"name": "Right Temporal Fusiform Cortex, posterior division"
 		},
 		{
-			"labelIndex": 77,
 			"name": "Left Temporal Occipital Fusiform Cortex"
 		},
 		{
-			"labelIndex": 78,
 			"name": "Right Temporal Occipital Fusiform Cortex"
 		},
 		{
-			"labelIndex": 79,
 			"name": "Left Occipital Fusiform Gyrus"
 		},
 		{
-			"labelIndex": 80,
 			"name": "Right Occipital Fusiform Gyrus"
 		},
 		{
-			"labelIndex": 81,
 			"name": "Left Frontal Operculum Cortex"
 		},
 		{
-			"labelIndex": 82,
 			"name": "Right Frontal Operculum Cortex"
 		},
 		{
-			"labelIndex": 83,
 			"name": "Left Central Opercular Cortex"
 		},
 		{
-			"labelIndex": 84,
 			"name": "Right Central Opercular Cortex"
 		},
 		{
-			"labelIndex": 85,
 			"name": "Left Parietal Operculum Cortex"
 		},
 		{
-			"labelIndex": 86,
 			"name": "Right Parietal Operculum Cortex"
 		},
 		{
-			"labelIndex": 87,
 			"name": "Left Planum Polare"
 		},
 		{
-			"labelIndex": 88,
 			"name": "Right Planum Polare"
 		},
 		{
-			"labelIndex": 89,
 			"name": "Left Heschl's Gyrus (includes H1 and H2)"
 		},
 		{
-			"labelIndex": 90,
 			"name": "Right Heschl's Gyrus (includes H1 and H2)"
 		},
 		{
-			"labelIndex": 91,
 			"name": "Left Planum Temporale"
 		},
 		{
-			"labelIndex": 92,
 			"name": "Right Planum Temporale"
 		},
 		{
-			"labelIndex": 93,
 			"name": "Left Supracalcarine Cortex"
 		},
 		{
-			"labelIndex": 94,
 			"name": "Right Supracalcarine Cortex"
 		},
 		{
-			"labelIndex": 95,
 			"name": "Left Occipital Pole"
 		},
 		{
-			"labelIndex": 96,
 			"name": "Right Occipital Pole"
+		}
+	],
+	"publications": [
+		{
+			"citation": "Makris N, Goldstein JM, Kennedy D, Hodge SM, Caviness VS, Faraone SV, Tsuang MT, Seidman LJ. Decreased volume of left and total anterior insular lobule in schizophrenia. Schizophr Res. 2006 Apr;83(2-3):155-71"
+		},
+		{
+			"citation": "Frazier JA, Chiu S, Breeze JL, Makris N, Lange N, Kennedy DN, Herbert MR, Bent EK, Koneru VK, Dieterich ME, Hodge SM, Rauch SL, Grant PE, Cohen BM, Seidman LJ, Caviness VS, Biederman J. Structural brain magnetic resonance imaging of limbic and thalamic volumes in pediatric bipolar disorder. Am J Psychiatry. 2005 Jul;162(7):1256-65"
+		},
+		{
+			"citation": "Desikan RS, S\u00e9gonne F, Fischl B, Quinn BT, Dickerson BC, Blacker D, Buckner RL, Dale AM, Maguire RP, Hyman BT, Albert MS, Killiany RJ. An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest. Neuroimage. 2006 Jul 1;31(3):968-80."
+		},
+		{
+			"citation": "Goldstein JM, Seidman LJ, Makris N, Ahern T, O'Brien LM, Caviness VS Jr, Kennedy DN, Faraone SV, Tsuang MT. Hypothalamic abnormalities in schizophrenia: sex effects and genetic vulnerability. Biol Psychiatry. 2007 Apr 15;61(8):935-45"
 		}
 	]
 }

@@ -1,1728 +1,770 @@
 {
 	"@id": "https://doi.org/10.1016/j.jneumeth.2020.108983/mni152",
-	"@type": "minds/core/parcellationatlas/v1.0.0",
+	"@type": "siibra/parcellation/v0.0.1",
 	"name": "Virtuel Epileptic Patient Atlas",
 	"shortName": "VEP Atlas",
-	"version": "2021",
 	"description": "The Virtual Epileptic Patient (VEP) atlas offers an automated brain region parcellation and labeling, which has been developed for the specific use in the domains of epileptology and functional neurosurgery. It is able to apply at individual patient\u2019s level.It comprises 162 brain regions, including 73 cortical and 8 subcortical regions per hemisphere. We demonstrate the successful application of the VEP atlas in a cohort of 50 retrospective patients. The structural organization is complemented by the functional variation of stereotactic intracerebral EEG (SEEG) signal data features establishing brain region-specific 3d-maps. The VEP atlas integrates both anatomical and functional definitions in the same atlas, adapted to applications for epilepsy patients and individualizable.",
-	"publications": [
-		{
-			"doi": "https://doi.org/10.1016/j.jneumeth.2020.108983",
-			"citation": "Wang, Huifang E., Julia Scholly, Paul Triebkorn, Viktor Sip, Samuel Medina Villalon, Marmaduke M. Woodman, Arnaud Le Troter, Maxime Guye, Fabrice Bartolomei, and Viktor Jirsa. 2021. \u2018VEP Atlas: An Anatomic and Functional Human Brain Atlas Dedicated to Epilepsy Patients\u2019. Journal of Neuroscience Methods 348"
-		}
-	],
-	"datasets": [
-		{
-			"@type": "fzj/tmp/volume_type/v0.0.1",
-			"@id": "fzj/tmp/volume_type/v0.0.1/vep2021",
-			"name": "Virtual Epileptic Patient Atlas nifti",
-			"volume_type": "nii",
-			"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-			"map_type": "labelled"
-		}
-	],
 	"regions": [
 		{
 			"name": "Left-Cerebral-White-Matter",
-			"labelIndex": 2,
-			"rgb": [
-				245,
-				245,
-				245
-			]
+			"rgb": "#F5F5F5"
 		},
 		{
 			"name": "Left-Lateral-Ventricle",
-			"labelIndex": 4,
-			"rgb": [
-				120,
-				18,
-				134
-			]
+			"rgb": "#781286"
 		},
 		{
 			"name": "Left-Inf-Lat-Vent",
-			"labelIndex": 5,
-			"rgb": [
-				196,
-				58,
-				250
-			]
+			"rgb": "#C43AFA"
 		},
 		{
 			"name": "Left-Cerebellum-White-Matter",
-			"labelIndex": 7,
-			"rgb": [
-				220,
-				248,
-				164
-			]
+			"rgb": "#DCF8A4"
 		},
 		{
 			"name": "Left-Thalamus",
-			"labelIndex": 9,
-			"rgb": [
-				0,
-				118,
-				14
-			]
+			"rgb": "#00760E"
 		},
 		{
 			"name": "Left-Putamen",
-			"labelIndex": 12,
-			"rgb": [
-				236,
-				13,
-				176
-			]
+			"rgb": "#EC0DB0"
 		},
 		{
 			"name": "Left-Pallidum",
-			"labelIndex": 13,
-			"rgb": [
-				12,
-				48,
-				255
-			]
+			"rgb": "#0C30FF"
 		},
 		{
 			"name": "3rd-Ventricle",
-			"labelIndex": 14,
-			"rgb": [
-				204,
-				182,
-				142
-			]
+			"rgb": "#CCB68E"
 		},
 		{
 			"name": "4th-Ventricle",
-			"labelIndex": 15,
-			"rgb": [
-				42,
-				204,
-				164
-			]
+			"rgb": "#2ACCA4"
 		},
 		{
 			"name": "Brain-Stem",
-			"labelIndex": 16,
-			"rgb": [
-				119,
-				159,
-				176
-			]
+			"rgb": "#779FB0"
 		},
 		{
 			"name": "Left-Amygdala",
-			"labelIndex": 18,
-			"rgb": [
-				103,
-				255,
-				255
-			]
+			"rgb": "#67FFFF"
 		},
 		{
 			"name": "CSF",
-			"labelIndex": 24,
-			"rgb": [
-				60,
-				60,
-				60
-			]
+			"rgb": "#3C3C3C"
 		},
 		{
 			"name": "Left-VentralDC",
-			"labelIndex": 28,
-			"rgb": [
-				165,
-				42,
-				42
-			]
+			"rgb": "#A52A2A"
 		},
 		{
 			"name": "Left-vessel",
-			"labelIndex": 30,
-			"rgb": [
-				160,
-				32,
-				240
-			]
+			"rgb": "#A020F0"
 		},
 		{
 			"name": "Left-choroid-plexus",
-			"labelIndex": 31,
-			"rgb": [
-				0,
-				200,
-				200
-			]
+			"rgb": "#00C8C8"
 		},
 		{
 			"name": "Right-Cerebral-White-Matter",
-			"labelIndex": 41,
-			"rgb": [
-				245,
-				245,
-				245
-			]
+			"rgb": "#F5F5F5"
 		},
 		{
 			"name": "Right-Lateral-Ventricle",
-			"labelIndex": 43,
-			"rgb": [
-				120,
-				18,
-				134
-			]
+			"rgb": "#781286"
 		},
 		{
 			"name": "Right-Inf-Lat-Vent",
-			"labelIndex": 44,
-			"rgb": [
-				196,
-				58,
-				250
-			]
+			"rgb": "#C43AFA"
 		},
 		{
 			"name": "Right-Cerebellum-White-Matter",
-			"labelIndex": 46,
-			"rgb": [
-				220,
-				248,
-				164
-			]
+			"rgb": "#DCF8A4"
 		},
 		{
 			"name": "Right-Thalamus",
-			"labelIndex": 48,
-			"rgb": [
-				0,
-				118,
-				14
-			]
+			"rgb": "#00760E"
 		},
 		{
 			"name": "Right-Putamen",
-			"labelIndex": 51,
-			"rgb": [
-				236,
-				13,
-				176
-			]
+			"rgb": "#EC0DB0"
 		},
 		{
 			"name": "Right-Pallidum",
-			"labelIndex": 52,
-			"rgb": [
-				13,
-				48,
-				255
-			]
+			"rgb": "#0D30FF"
 		},
 		{
 			"name": "Right-Amygdala",
-			"labelIndex": 54,
-			"rgb": [
-				103,
-				255,
-				255
-			]
+			"rgb": "#67FFFF"
 		},
 		{
 			"name": "Right-VentralDC",
-			"labelIndex": 60,
-			"rgb": [
-				165,
-				42,
-				42
-			]
+			"rgb": "#A52A2A"
 		},
 		{
 			"name": "Right-vessel",
-			"labelIndex": 62,
-			"rgb": [
-				160,
-				32,
-				240
-			]
+			"rgb": "#A020F0"
 		},
 		{
 			"name": "Right-choroid-plexus",
-			"labelIndex": 63,
-			"rgb": [
-				0,
-				200,
-				221
-			]
+			"rgb": "#00C8DD"
 		},
 		{
 			"name": "WM-hypointensities",
-			"labelIndex": 77,
-			"rgb": [
-				200,
-				70,
-				255
-			]
+			"rgb": "#C846FF"
 		},
 		{
 			"name": "Optic-Chiasm",
-			"labelIndex": 85,
-			"rgb": [
-				234,
-				169,
-				30
-			]
+			"rgb": "#EAA91E"
 		},
 		{
 			"name": "CC_Posterior",
-			"labelIndex": 251,
-			"rgb": [
-				0,
-				0,
-				64
-			]
+			"rgb": "#000040"
 		},
 		{
 			"name": "CC_Mid_Posterior",
-			"labelIndex": 252,
-			"rgb": [
-				0,
-				0,
-				112
-			]
+			"rgb": "#000070"
 		},
 		{
 			"name": "CC_Central",
-			"labelIndex": 253,
-			"rgb": [
-				0,
-				0,
-				160
-			]
+			"rgb": "#0000A0"
 		},
 		{
 			"name": "CC_Mid_Anterior",
-			"labelIndex": 254,
-			"rgb": [
-				0,
-				0,
-				208
-			]
+			"rgb": "#0000D0"
 		},
 		{
 			"name": "CC_Anterior",
-			"labelIndex": 255,
-			"rgb": [
-				0,
-				0,
-				255
-			]
+			"rgb": "#0000FF"
 		},
 		{
 			"name": "ctx-lh-unknown",
-			"labelIndex": 1000,
-			"rgb": [
-				25,
-				5,
-				25
-			]
+			"rgb": "#190519"
 		},
 		{
 			"name": "ctx-rh-unknown",
-			"labelIndex": 2000,
-			"rgb": [
-				25,
-				5,
-				25
-			]
+			"rgb": "#190519"
 		},
 		{
 			"name": "Left-Frontal-pole",
-			"labelIndex": 71001,
-			"rgb": [
-				239,
-				95,
-				12
-			]
+			"rgb": "#EF5F0C"
 		},
 		{
 			"name": "Left-Orbito-frontal-cortex",
-			"labelIndex": 71002,
-			"rgb": [
-				196,
-				10,
-				64
-			]
+			"rgb": "#C40A40"
 		},
 		{
 			"name": "Left-Gyrus-rectus",
-			"labelIndex": 71003,
-			"rgb": [
-				169,
-				225,
-				204
-			]
+			"rgb": "#A9E1CC"
 		},
 		{
 			"name": "Left-F3-Pars-Orbitalis",
-			"labelIndex": 71004,
-			"rgb": [
-				183,
-				140,
-				191
-			]
+			"rgb": "#B78CBF"
 		},
 		{
 			"name": "Left-F3-Pars-triangularis",
-			"labelIndex": 71005,
-			"rgb": [
-				255,
-				255,
-				32
-			]
+			"rgb": "#FFFF20"
 		},
 		{
 			"name": "Left-F3-pars-opercularis",
-			"labelIndex": 71006,
-			"rgb": [
-				78,
-				116,
-				95
-			]
+			"rgb": "#4E745F"
 		},
 		{
 			"name": "Left-Inferior-frontal-sulcus",
-			"labelIndex": 71007,
-			"rgb": [
-				175,
-				18,
-				177
-			]
+			"rgb": "#AF12B1"
 		},
 		{
 			"name": "Left-F2-rostral",
-			"labelIndex": 71008,
-			"rgb": [
-				201,
-				63,
-				115
-			]
+			"rgb": "#C93F73"
 		},
 		{
 			"name": "Left-F2-caudal",
-			"labelIndex": 71009,
-			"rgb": [
-				210,
-				38,
-				12
-			]
+			"rgb": "#D2260C"
 		},
 		{
 			"name": "Left-Middle-frontal-sulcus",
-			"labelIndex": 71010,
-			"rgb": [
-				55,
-				249,
-				219
-			]
+			"rgb": "#37F9DB"
 		},
 		{
 			"name": "Left-SFS-rostral",
-			"labelIndex": 71011,
-			"rgb": [
-				16,
-				164,
-				76
-			]
+			"rgb": "#10A44C"
 		},
 		{
 			"name": "Left-SFS-caudal",
-			"labelIndex": 71012,
-			"rgb": [
-				213,
-				155,
-				164
-			]
+			"rgb": "#D59BA4"
 		},
 		{
 			"name": "Left-F1-mesial-prefrontal",
-			"labelIndex": 71013,
-			"rgb": [
-				213,
-				16,
-				136
-			]
+			"rgb": "#D51088"
 		},
 		{
 			"name": "Left-PreSMA",
-			"labelIndex": 71014,
-			"rgb": [
-				79,
-				252,
-				131
-			]
+			"rgb": "#4FFC83"
 		},
 		{
 			"name": "Left-SMA",
-			"labelIndex": 71015,
-			"rgb": [
-				109,
-				135,
-				75
-			]
+			"rgb": "#6D874B"
 		},
 		{
 			"name": "Left-F1-lateral-prefrontal",
-			"labelIndex": 71016,
-			"rgb": [
-				0,
-				64,
-				255
-			]
+			"rgb": "#0040FF"
 		},
 		{
 			"name": "Left-F1-lateral-premotor",
-			"labelIndex": 71017,
-			"rgb": [
-				174,
-				248,
-				24
-			]
+			"rgb": "#AEF818"
 		},
 		{
 			"name": "Left-Subcallosal-area",
-			"labelIndex": 71018,
-			"rgb": [
-				152,
-				1,
-				212
-			]
+			"rgb": "#9801D4"
 		},
 		{
 			"name": "Left-Precentral-sulcus-inferior-part",
-			"labelIndex": 71019,
-			"rgb": [
-				29,
-				17,
-				227
-			]
+			"rgb": "#1D11E3"
 		},
 		{
 			"name": "Left-Precentral-sulcus-superior-part",
-			"labelIndex": 71020,
-			"rgb": [
-				8,
-				5,
-				231
-			]
+			"rgb": "#0805E7"
 		},
 		{
 			"name": "Left-Precentral-gyrus-head-face",
-			"labelIndex": 71021,
-			"rgb": [
-				45,
-				114,
-				191
-			]
+			"rgb": "#2D72BF"
 		},
 		{
 			"name": "Left-Precentral-gyrus-upper-limb",
-			"labelIndex": 71022,
-			"rgb": [
-				252,
-				24,
-				174
-			]
+			"rgb": "#FC18AE"
 		},
 		{
 			"name": "Left-Central-sulcus-head-face",
-			"labelIndex": 71023,
-			"rgb": [
-				127,
-				183,
-				61
-			]
+			"rgb": "#7FB73D"
 		},
 		{
 			"name": "Left-Central-sulcus-upper-limb",
-			"labelIndex": 71024,
-			"rgb": [
-				64,
-				159,
-				63
-			]
+			"rgb": "#409F3F"
 		},
 		{
 			"name": "Left-Paracentral-lobule",
-			"labelIndex": 71025,
-			"rgb": [
-				101,
-				232,
-				250
-			]
+			"rgb": "#65E8FA"
 		},
 		{
 			"name": "Left-Central-operculum",
-			"labelIndex": 71026,
-			"rgb": [
-				192,
-				0,
-				224
-			]
+			"rgb": "#C000E0"
 		},
 		{
 			"name": "Left-Parietal-operculum",
-			"labelIndex": 71027,
-			"rgb": [
-				80,
-				236,
-				146
-			]
+			"rgb": "#50EC92"
 		},
 		{
 			"name": "Left-Anterior-cingulate-cortex",
-			"labelIndex": 71028,
-			"rgb": [
-				198,
-				240,
-				49
-			]
+			"rgb": "#C6F031"
 		},
 		{
 			"name": "Left-Middle-cingulate-cortex-anterior-part",
-			"labelIndex": 71029,
-			"rgb": [
-				138,
-				35,
-				228
-			]
+			"rgb": "#8A23E4"
 		},
 		{
 			"name": "Left-Middle-cingulate-cortex-posterior-part",
-			"labelIndex": 71030,
-			"rgb": [
-				135,
-				167,
-				210
-			]
+			"rgb": "#87A7D2"
 		},
 		{
 			"name": "Left-Posterior-cingulate-cortex-dorsal",
-			"labelIndex": 71031,
-			"rgb": [
-				19,
-				188,
-				175
-			]
+			"rgb": "#13BCAF"
 		},
 		{
 			"name": "Left-Posterior-cingulate-cortex-retrosplenial-gyrus",
-			"labelIndex": 71032,
-			"rgb": [
-				255,
-				64,
-				192
-			]
+			"rgb": "#FF40C0"
 		},
 		{
 			"name": "Left-Insula-gyri-brevi",
-			"labelIndex": 71033,
-			"rgb": [
-				133,
-				102,
-				118
-			]
+			"rgb": "#856676"
 		},
 		{
 			"name": "Left-Insula-gyri-longi",
-			"labelIndex": 71034,
-			"rgb": [
-				241,
-				31,
-				145
-			]
+			"rgb": "#F11F91"
 		},
 		{
 			"name": "Left-Temporal-pole",
-			"labelIndex": 71035,
-			"rgb": [
-				240,
-				255,
-				60
-			]
+			"rgb": "#F0FF3C"
 		},
 		{
 			"name": "Left-T1-planum-polare",
-			"labelIndex": 71036,
-			"rgb": [
-				179,
-				187,
-				156
-			]
+			"rgb": "#B3BB9C"
 		},
 		{
 			"name": "Left-Gyrus-of-Heschl",
-			"labelIndex": 71037,
-			"rgb": [
-				181,
-				107,
-				162
-			]
+			"rgb": "#B56BA2"
 		},
 		{
 			"name": "Left-T1-planum-temporale",
-			"labelIndex": 71038,
-			"rgb": [
-				57,
-				188,
-				208
-			]
+			"rgb": "#39BCD0"
 		},
 		{
 			"name": "Left-T1-lateral-anterior",
-			"labelIndex": 71039,
-			"rgb": [
-				241,
-				83,
-				246
-			]
+			"rgb": "#F153F6"
 		},
 		{
 			"name": "Left-T1-lateral-posterior",
-			"labelIndex": 71040,
-			"rgb": [
-				255,
-				255,
-				96
-			]
+			"rgb": "#FFFF60"
 		},
 		{
 			"name": "Left-STS-anterior",
-			"labelIndex": 71041,
-			"rgb": [
-				213,
-				90,
-				122
-			]
+			"rgb": "#D55A7A"
 		},
 		{
 			"name": "Left-STS-posterior",
-			"labelIndex": 71042,
-			"rgb": [
-				106,
-				129,
-				126
-			]
+			"rgb": "#6A817E"
 		},
 		{
 			"name": "Left-ITS-anterior",
-			"labelIndex": 71043,
-			"rgb": [
-				144,
-				192,
-				236
-			]
+			"rgb": "#90C0EC"
 		},
 		{
 			"name": "Left-ITS-posterior",
-			"labelIndex": 71044,
-			"rgb": [
-				31,
-				12,
-				118
-			]
+			"rgb": "#1F0C76"
 		},
 		{
 			"name": "Left-T2-anterior",
-			"labelIndex": 71045,
-			"rgb": [
-				26,
-				102,
-				242
-			]
+			"rgb": "#1A66F2"
 		},
 		{
 			"name": "Left-T2-posterior",
-			"labelIndex": 71046,
-			"rgb": [
-				56,
-				118,
-				70
-			]
+			"rgb": "#387646"
 		},
 		{
 			"name": "Left-T3-anterior",
-			"labelIndex": 71047,
-			"rgb": [
-				98,
-				194,
-				10
-			]
+			"rgb": "#62C20A"
 		},
 		{
 			"name": "Left-T3-posterior",
-			"labelIndex": 71048,
-			"rgb": [
-				62,
-				192,
-				238
-			]
+			"rgb": "#3EC0EE"
 		},
 		{
 			"name": "Left-Fusiform-gyrus",
-			"labelIndex": 71049,
-			"rgb": [
-				204,
-				52,
-				199
-			]
+			"rgb": "#CC34C7"
 		},
 		{
 			"name": "Left-Occipito-temporal-sulcus",
-			"labelIndex": 71050,
-			"rgb": [
-				255,
-				192,
-				96
-			]
+			"rgb": "#FFC060"
 		},
 		{
 			"name": "Left-Collateral-sulcus",
-			"labelIndex": 71051,
-			"rgb": [
-				10,
-				128,
-				255
-			]
+			"rgb": "#0A80FF"
 		},
 		{
 			"name": "Left-Lingual-sulcus",
-			"labelIndex": 71052,
-			"rgb": [
-				28,
-				53,
-				81
-			]
+			"rgb": "#1C3551"
 		},
 		{
 			"name": "Left-Parahippocampal-cortex",
-			"labelIndex": 71053,
-			"rgb": [
-				218,
-				133,
-				56
-			]
+			"rgb": "#DA8538"
 		},
 		{
 			"name": "Left-Rhinal-cortex",
-			"labelIndex": 71054,
-			"rgb": [
-				76,
-				253,
-				119
-			]
+			"rgb": "#4CFD77"
 		},
 		{
 			"name": "Left-Postcentral-gyrus",
-			"labelIndex": 71055,
-			"rgb": [
-				104,
-				12,
-				194
-			]
+			"rgb": "#680CC2"
 		},
 		{
 			"name": "Left-Postcentral-sulcus",
-			"labelIndex": 71056,
-			"rgb": [
-				141,
-				148,
-				218
-			]
+			"rgb": "#8D94DA"
 		},
 		{
 			"name": "Left-Superior-parietal-lobule-P1",
-			"labelIndex": 71057,
-			"rgb": [
-				255,
-				255,
-				0
-			]
+			"rgb": "#FFFF00"
 		},
 		{
 			"name": "Left-Supramarginal-anterior",
-			"labelIndex": 71058,
-			"rgb": [
-				192,
-				0,
-				32
-			]
+			"rgb": "#C00020"
 		},
 		{
 			"name": "Left-Supramarginal-posterior",
-			"labelIndex": 71059,
-			"rgb": [
-				55,
-				227,
-				139
-			]
+			"rgb": "#37E38B"
 		},
 		{
 			"name": "Left-Angular-gyrus",
-			"labelIndex": 71060,
-			"rgb": [
-				115,
-				178,
-				22
-			]
+			"rgb": "#73B216"
 		},
 		{
 			"name": "Left-Intraparietal-sulcus",
-			"labelIndex": 71061,
-			"rgb": [
-				243,
-				130,
-				61
-			]
+			"rgb": "#F3823D"
 		},
 		{
 			"name": "Left-Precuneus",
-			"labelIndex": 71062,
-			"rgb": [
-				94,
-				118,
-				245
-			]
+			"rgb": "#5E76F5"
 		},
 		{
 			"name": "Left-Marginal-branch-of-the-cingulate-sulcus",
-			"labelIndex": 71063,
-			"rgb": [
-				94,
-				10,
-				193
-			]
+			"rgb": "#5E0AC1"
 		},
 		{
 			"name": "Left-Parieto-occipital-sulcus",
-			"labelIndex": 71064,
-			"rgb": [
-				215,
-				56,
-				49
-			]
+			"rgb": "#D73831"
 		},
 		{
 			"name": "Left-Anterior-occipital-sulcus-and-preoccipital-notch",
-			"labelIndex": 71065,
-			"rgb": [
-				175,
-				228,
-				235
-			]
+			"rgb": "#AFE4EB"
 		},
 		{
 			"name": "Left-O3",
-			"labelIndex": 71066,
-			"rgb": [
-				109,
-				241,
-				96
-			]
+			"rgb": "#6DF160"
 		},
 		{
 			"name": "Left-O2",
-			"labelIndex": 71067,
-			"rgb": [
-				0,
-				128,
-				255
-			]
+			"rgb": "#0080FF"
 		},
 		{
 			"name": "Left-O1",
-			"labelIndex": 71068,
-			"rgb": [
-				179,
-				49,
-				165
-			]
+			"rgb": "#B331A5"
 		},
 		{
 			"name": "Left-Occipital-pole",
-			"labelIndex": 71069,
-			"rgb": [
-				135,
-				53,
-				36
-			]
+			"rgb": "#873524"
 		},
 		{
 			"name": "Left-Lingual-gyrus",
-			"labelIndex": 71070,
-			"rgb": [
-				255,
-				255,
-				60
-			]
+			"rgb": "#FFFF3C"
 		},
 		{
 			"name": "Left-Calcarine-sulcus",
-			"labelIndex": 71071,
-			"rgb": [
-				0,
-				0,
-				220
-			]
+			"rgb": "#0000DC"
 		},
 		{
 			"name": "Left-Cuneus",
-			"labelIndex": 71072,
-			"rgb": [
-				44,
-				251,
-				131
-			]
+			"rgb": "#2CFB83"
 		},
 		{
 			"name": "Left-Hippocampus-anterior",
-			"labelIndex": 71073,
-			"rgb": [
-				240,
-				95,
-				12
-			]
+			"rgb": "#F05F0C"
 		},
 		{
 			"name": "Left-Hippocampus-posterior",
-			"labelIndex": 71074,
-			"rgb": [
-				195,
-				10,
-				64
-			]
+			"rgb": "#C30A40"
 		},
 		{
 			"name": "Left-Caudate-nucleus",
-			"labelIndex": 71075,
-			"rgb": [
-				170,
-				225,
-				204
-			]
+			"rgb": "#AAE1CC"
 		},
 		{
 			"name": "Left-Nucleus-accumbens",
-			"labelIndex": 71076,
-			"rgb": [
-				184,
-				140,
-				191
-			]
+			"rgb": "#B88CBF"
 		},
 		{
 			"name": "Left-Cerebellar-cortex",
-			"labelIndex": 71077,
-			"rgb": [
-				190,
-				22,
-				173
-			]
+			"rgb": "#BE16AD"
 		},
 		{
 			"name": "Right-Frontal-pole",
-			"labelIndex": 72001,
-			"rgb": [
-				239,
-				95,
-				12
-			]
+			"rgb": "#EF5F0C"
 		},
 		{
 			"name": "Right-Orbito-frontal-cortex",
-			"labelIndex": 72002,
-			"rgb": [
-				196,
-				10,
-				64
-			]
+			"rgb": "#C40A40"
 		},
 		{
 			"name": "Right-Gyrus-rectus",
-			"labelIndex": 72003,
-			"rgb": [
-				169,
-				225,
-				204
-			]
+			"rgb": "#A9E1CC"
 		},
 		{
 			"name": "Right-F3-Pars-Orbitalis",
-			"labelIndex": 72004,
-			"rgb": [
-				183,
-				140,
-				191
-			]
+			"rgb": "#B78CBF"
 		},
 		{
 			"name": "Right-F3-Pars-triangularis",
-			"labelIndex": 72005,
-			"rgb": [
-				255,
-				255,
-				32
-			]
+			"rgb": "#FFFF20"
 		},
 		{
 			"name": "Right-F3-pars-opercularis",
-			"labelIndex": 72006,
-			"rgb": [
-				78,
-				116,
-				95
-			]
+			"rgb": "#4E745F"
 		},
 		{
 			"name": "Right-Inferior-frontal-sulcus",
-			"labelIndex": 72007,
-			"rgb": [
-				175,
-				18,
-				177
-			]
+			"rgb": "#AF12B1"
 		},
 		{
 			"name": "Right-F2-rostral",
-			"labelIndex": 72008,
-			"rgb": [
-				201,
-				63,
-				115
-			]
+			"rgb": "#C93F73"
 		},
 		{
 			"name": "Right-F2-caudal",
-			"labelIndex": 72009,
-			"rgb": [
-				210,
-				38,
-				12
-			]
+			"rgb": "#D2260C"
 		},
 		{
 			"name": "Right-Middle-frontal-sulcus",
-			"labelIndex": 72010,
-			"rgb": [
-				55,
-				249,
-				219
-			]
+			"rgb": "#37F9DB"
 		},
 		{
 			"name": "Right-SFS-rostral",
-			"labelIndex": 72011,
-			"rgb": [
-				16,
-				164,
-				76
-			]
+			"rgb": "#10A44C"
 		},
 		{
 			"name": "Right-SFS-caudal",
-			"labelIndex": 72012,
-			"rgb": [
-				213,
-				155,
-				164
-			]
+			"rgb": "#D59BA4"
 		},
 		{
 			"name": "Right-F1-mesial-prefrontal",
-			"labelIndex": 72013,
-			"rgb": [
-				213,
-				16,
-				136
-			]
+			"rgb": "#D51088"
 		},
 		{
 			"name": "Right-PreSMA",
-			"labelIndex": 72014,
-			"rgb": [
-				79,
-				252,
-				131
-			]
+			"rgb": "#4FFC83"
 		},
 		{
 			"name": "Right-SMA",
-			"labelIndex": 72015,
-			"rgb": [
-				109,
-				135,
-				75
-			]
+			"rgb": "#6D874B"
 		},
 		{
 			"name": "Right-F1-lateral-prefrontal",
-			"labelIndex": 72016,
-			"rgb": [
-				0,
-				64,
-				255
-			]
+			"rgb": "#0040FF"
 		},
 		{
 			"name": "Right-F1-lateral-premotor",
-			"labelIndex": 72017,
-			"rgb": [
-				174,
-				248,
-				24
-			]
+			"rgb": "#AEF818"
 		},
 		{
 			"name": "Right-Subcallosal-area",
-			"labelIndex": 72018,
-			"rgb": [
-				152,
-				1,
-				212
-			]
+			"rgb": "#9801D4"
 		},
 		{
 			"name": "Right-Precentral-sulcus-inferior-part",
-			"labelIndex": 72019,
-			"rgb": [
-				29,
-				17,
-				227
-			]
+			"rgb": "#1D11E3"
 		},
 		{
 			"name": "Right-Precentral-sulcus-superior-part",
-			"labelIndex": 72020,
-			"rgb": [
-				8,
-				5,
-				231
-			]
+			"rgb": "#0805E7"
 		},
 		{
 			"name": "Right-Precentral-gyrus-head-face",
-			"labelIndex": 72021,
-			"rgb": [
-				45,
-				114,
-				191
-			]
+			"rgb": "#2D72BF"
 		},
 		{
 			"name": "Right-Precentral-gyrus-upper-limb",
-			"labelIndex": 72022,
-			"rgb": [
-				252,
-				24,
-				174
-			]
+			"rgb": "#FC18AE"
 		},
 		{
 			"name": "Right-Central-sulcus-head-face",
-			"labelIndex": 72023,
-			"rgb": [
-				127,
-				183,
-				61
-			]
+			"rgb": "#7FB73D"
 		},
 		{
 			"name": "Right-Central-sulcus-upper-limb",
-			"labelIndex": 72024,
-			"rgb": [
-				64,
-				159,
-				63
-			]
+			"rgb": "#409F3F"
 		},
 		{
 			"name": "Right-Paracentral-lobule",
-			"labelIndex": 72025,
-			"rgb": [
-				101,
-				232,
-				250
-			]
+			"rgb": "#65E8FA"
 		},
 		{
 			"name": "Right-Central-operculum",
-			"labelIndex": 72026,
-			"rgb": [
-				192,
-				0,
-				224
-			]
+			"rgb": "#C000E0"
 		},
 		{
 			"name": "Right-Parietal-operculum",
-			"labelIndex": 72027,
-			"rgb": [
-				80,
-				236,
-				146
-			]
+			"rgb": "#50EC92"
 		},
 		{
 			"name": "Right-Anterior-cingulate-cortex",
-			"labelIndex": 72028,
-			"rgb": [
-				198,
-				240,
-				49
-			]
+			"rgb": "#C6F031"
 		},
 		{
 			"name": "Right-Middle-cingulate-cortex-anterior-part",
-			"labelIndex": 72029,
-			"rgb": [
-				138,
-				35,
-				228
-			]
+			"rgb": "#8A23E4"
 		},
 		{
 			"name": "Right-Middle-cingulate-cortex-posterior-part",
-			"labelIndex": 72030,
-			"rgb": [
-				135,
-				167,
-				210
-			]
+			"rgb": "#87A7D2"
 		},
 		{
 			"name": "Right-Posterior-cingulate-cortex-dorsal",
-			"labelIndex": 72031,
-			"rgb": [
-				19,
-				188,
-				175
-			]
+			"rgb": "#13BCAF"
 		},
 		{
 			"name": "Right-Posterior-cingulate-cortex-retrosplenial-gyrus",
-			"labelIndex": 72032,
-			"rgb": [
-				255,
-				64,
-				192
-			]
+			"rgb": "#FF40C0"
 		},
 		{
 			"name": "Right-Insula-gyri-brevi",
-			"labelIndex": 72033,
-			"rgb": [
-				133,
-				102,
-				118
-			]
+			"rgb": "#856676"
 		},
 		{
 			"name": "Right-Insula-gyri-longi",
-			"labelIndex": 72034,
-			"rgb": [
-				241,
-				31,
-				145
-			]
+			"rgb": "#F11F91"
 		},
 		{
 			"name": "Right-Temporal-pole",
-			"labelIndex": 72035,
-			"rgb": [
-				240,
-				255,
-				60
-			]
+			"rgb": "#F0FF3C"
 		},
 		{
 			"name": "Right-T1-planum-polare",
-			"labelIndex": 72036,
-			"rgb": [
-				179,
-				187,
-				156
-			]
+			"rgb": "#B3BB9C"
 		},
 		{
 			"name": "Right-Gyrus-of-Heschl",
-			"labelIndex": 72037,
-			"rgb": [
-				181,
-				107,
-				162
-			]
+			"rgb": "#B56BA2"
 		},
 		{
 			"name": "Right-T1-planum-temporale",
-			"labelIndex": 72038,
-			"rgb": [
-				57,
-				188,
-				208
-			]
+			"rgb": "#39BCD0"
 		},
 		{
 			"name": "Right-T1-lateral-anterior",
-			"labelIndex": 72039,
-			"rgb": [
-				241,
-				83,
-				246
-			]
+			"rgb": "#F153F6"
 		},
 		{
 			"name": "Right-T1-lateral-posterior",
-			"labelIndex": 72040,
-			"rgb": [
-				255,
-				255,
-				96
-			]
+			"rgb": "#FFFF60"
 		},
 		{
 			"name": "Right-STS-anterior",
-			"labelIndex": 72041,
-			"rgb": [
-				213,
-				90,
-				122
-			]
+			"rgb": "#D55A7A"
 		},
 		{
 			"name": "Right-STS-posterior",
-			"labelIndex": 72042,
-			"rgb": [
-				106,
-				129,
-				126
-			]
+			"rgb": "#6A817E"
 		},
 		{
 			"name": "Right-ITS-anterior",
-			"labelIndex": 72043,
-			"rgb": [
-				144,
-				192,
-				236
-			]
+			"rgb": "#90C0EC"
 		},
 		{
 			"name": "Right-ITS-posterior",
-			"labelIndex": 72044,
-			"rgb": [
-				31,
-				12,
-				118
-			]
+			"rgb": "#1F0C76"
 		},
 		{
 			"name": "Right-T2-anterior",
-			"labelIndex": 72045,
-			"rgb": [
-				26,
-				102,
-				242
-			]
+			"rgb": "#1A66F2"
 		},
 		{
 			"name": "Right-T2-posterior",
-			"labelIndex": 72046,
-			"rgb": [
-				56,
-				118,
-				70
-			]
+			"rgb": "#387646"
 		},
 		{
 			"name": "Right-T3-anterior",
-			"labelIndex": 72047,
-			"rgb": [
-				98,
-				194,
-				10
-			]
+			"rgb": "#62C20A"
 		},
 		{
 			"name": "Right-T3-posterior",
-			"labelIndex": 72048,
-			"rgb": [
-				62,
-				192,
-				238
-			]
+			"rgb": "#3EC0EE"
 		},
 		{
 			"name": "Right-Fusiform-gyrus",
-			"labelIndex": 72049,
-			"rgb": [
-				204,
-				52,
-				199
-			]
+			"rgb": "#CC34C7"
 		},
 		{
 			"name": "Right-Occipito-temporal-sulcus",
-			"labelIndex": 72050,
-			"rgb": [
-				255,
-				192,
-				96
-			]
+			"rgb": "#FFC060"
 		},
 		{
 			"name": "Right-Collateral-sulcus",
-			"labelIndex": 72051,
-			"rgb": [
-				10,
-				128,
-				255
-			]
+			"rgb": "#0A80FF"
 		},
 		{
 			"name": "Right-Lingual-sulcus",
-			"labelIndex": 72052,
-			"rgb": [
-				28,
-				53,
-				81
-			]
+			"rgb": "#1C3551"
 		},
 		{
 			"name": "Right-Parahippocampal-cortex",
-			"labelIndex": 72053,
-			"rgb": [
-				218,
-				133,
-				56
-			]
+			"rgb": "#DA8538"
 		},
 		{
 			"name": "Right-Rhinal-cortex",
-			"labelIndex": 72054,
-			"rgb": [
-				76,
-				253,
-				119
-			]
+			"rgb": "#4CFD77"
 		},
 		{
 			"name": "Right-Postcentral-gyrus",
-			"labelIndex": 72055,
-			"rgb": [
-				104,
-				12,
-				194
-			]
+			"rgb": "#680CC2"
 		},
 		{
 			"name": "Right-Postcentral-sulcus",
-			"labelIndex": 72056,
-			"rgb": [
-				141,
-				148,
-				218
-			]
+			"rgb": "#8D94DA"
 		},
 		{
 			"name": "Right-Superior-parietal-lobule-P1",
-			"labelIndex": 72057,
-			"rgb": [
-				255,
-				255,
-				0
-			]
+			"rgb": "#FFFF00"
 		},
 		{
 			"name": "Right-Supramarginal-anterior",
-			"labelIndex": 72058,
-			"rgb": [
-				192,
-				0,
-				32
-			]
+			"rgb": "#C00020"
 		},
 		{
 			"name": "Right-Supramarginal-posterior",
-			"labelIndex": 72059,
-			"rgb": [
-				55,
-				227,
-				139
-			]
+			"rgb": "#37E38B"
 		},
 		{
 			"name": "Right-Angular-gyrus",
-			"labelIndex": 72060,
-			"rgb": [
-				115,
-				178,
-				22
-			]
+			"rgb": "#73B216"
 		},
 		{
 			"name": "Right-Intraparietal-sulcus",
-			"labelIndex": 72061,
-			"rgb": [
-				243,
-				130,
-				61
-			]
+			"rgb": "#F3823D"
 		},
 		{
 			"name": "Right-Precuneus",
-			"labelIndex": 72062,
-			"rgb": [
-				94,
-				118,
-				245
-			]
+			"rgb": "#5E76F5"
 		},
 		{
 			"name": "Right-Marginal-branch-of-the-cingulate-sulcus",
-			"labelIndex": 72063,
-			"rgb": [
-				94,
-				10,
-				193
-			]
+			"rgb": "#5E0AC1"
 		},
 		{
 			"name": "Right-Parieto-occipital-sulcus",
-			"labelIndex": 72064,
-			"rgb": [
-				215,
-				56,
-				49
-			]
+			"rgb": "#D73831"
 		},
 		{
 			"name": "Right-Anterior-occipital-sulcus-and-preoccipital-notch",
-			"labelIndex": 72065,
-			"rgb": [
-				175,
-				228,
-				235
-			]
+			"rgb": "#AFE4EB"
 		},
 		{
 			"name": "Right-O3",
-			"labelIndex": 72066,
-			"rgb": [
-				109,
-				241,
-				96
-			]
+			"rgb": "#6DF160"
 		},
 		{
 			"name": "Right-O2",
-			"labelIndex": 72067,
-			"rgb": [
-				0,
-				128,
-				255
-			]
+			"rgb": "#0080FF"
 		},
 		{
 			"name": "Right-O1",
-			"labelIndex": 72068,
-			"rgb": [
-				179,
-				49,
-				165
-			]
+			"rgb": "#B331A5"
 		},
 		{
 			"name": "Right-Occipital-pole",
-			"labelIndex": 72069,
-			"rgb": [
-				135,
-				53,
-				36
-			]
+			"rgb": "#873524"
 		},
 		{
 			"name": "Right-Lingual-gyrus",
-			"labelIndex": 72070,
-			"rgb": [
-				255,
-				255,
-				60
-			]
+			"rgb": "#FFFF3C"
 		},
 		{
 			"name": "Right-Calcarine-sulcus",
-			"labelIndex": 72071,
-			"rgb": [
-				0,
-				0,
-				220
-			]
+			"rgb": "#0000DC"
 		},
 		{
 			"name": "Right-Cuneus",
-			"labelIndex": 72072,
-			"rgb": [
-				44,
-				251,
-				131
-			]
+			"rgb": "#2CFB83"
 		},
 		{
 			"name": "Right-Hippocampus-anterior",
-			"labelIndex": 72073,
-			"rgb": [
-				240,
-				95,
-				12
-			]
+			"rgb": "#F05F0C"
 		},
 		{
 			"name": "Right-Hippocampus-posterior",
-			"labelIndex": 72074,
-			"rgb": [
-				195,
-				10,
-				64
-			]
+			"rgb": "#C30A40"
 		},
 		{
 			"name": "Right-Caudate-nucleus",
-			"labelIndex": 72075,
-			"rgb": [
-				170,
-				225,
-				204
-			]
+			"rgb": "#AAE1CC"
 		},
 		{
 			"name": "Right-Nucleus-accumbens",
-			"labelIndex": 72076,
-			"rgb": [
-				184,
-				140,
-				191
-			]
+			"rgb": "#B88CBF"
 		},
 		{
 			"name": "Right-Cerebellar-cortex",
-			"labelIndex": 72077,
-			"rgb": [
-				190,
-				22,
-				173
-			]
+			"rgb": "#BE16AD"
+		}
+	],
+	"publications": [
+		{
+			"url": "https://doi.org/10.1016/j.jneumeth.2020.108983"
 		}
 	]
 }

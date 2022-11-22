@@ -2,4679 +2,786 @@
 	"name": "Dictionary of functional modes 512",
 	"shortName": "DiFuMo 512",
 	"@id": "minds/core/parcellationatlas/v1.0.0/63b5794f-79a4-4464-8dc1-b32e170f3d16",
-	"@type": "minds/core/parcellationatlas/v1.0.0",
-	"groupName": "Functional Modes",
+	"@type": "siibra/parcellation/v0.0.1",
 	"description": "DiFuMo (Dictionary of Functional Modes) 512-dimensional atlas presents a parcellation of the brain into 512 elementary structures using sparse dictionary learning. The atlas contains two main components: (1) an image of the 512 spatial components, sampled in MNI space, and (2) anatomical names for these 512 regions. It is meant to serve as an atlas to extract functional signals, eg to create image-derived phenotypes. These modes are optimized to represent well raw BOLD time series, over a with range of experimental conditions.",
-	"publications": [
-		{
-			"doi": "10.1016/j.neuroimage.2020.117126",
-			"cite": "Dadi K, Varoquaux G, Machlouzarides-Shalit A, Gorgolewski KJ, Wassermann D, Thirion B, Mensch A. Fine-grain atlases of functional modes for fMRI analysis. NeuroImage. 2020;221:117126. doi:10.1016/j.neuroimage.2020.117126"
-		}
-	],
 	"modality": "functional modes",
-	"datasets": [
-		{
-			"@type": "fzj/tmp/volume_type/v0.0.1",
-			"@id": "fzj/tmp/volume_type/v0.0.1/difumo-512-nii",
-			"name": "difumo-512 icbm152 nifti",
-			"volume_type": "nii",
-			"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/512/maps.nii.gz",
-			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-			"map_type": "continuous"
-		},
-		{
-			"@type": "fzj/tmp/volume_type/v0.0.1",
-			"@id": "fzj/tmp/volume_type/v0.0.1/difumo-512",
-			"name": "difumo-512 icbm152 ng precomp",
-			"volume_type": "neuroglancer/precomputed",
-			"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-3ac156f3-ba17-4253-8d76-fa78d6958081",
-			"detail": {
-				"neuroglancer/precomputed": {
-					"transform": [
-						[
-							1,
-							0,
-							0,
-							-96937500
-						],
-						[
-							0,
-							1,
-							0,
-							-132937500
-						],
-						[
-							0,
-							0,
-							1,
-							-78937500
-						],
-						[
-							0,
-							0,
-							0,
-							1
-						]
-					]
-				}
-			},
-			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-			"map_type": "continuous"
-		},
-		{
-			"@type": "minds/core/dataset/v1.0.0",
-			"kgSchema": "minds/core/dataset/v1.0.0",
-			"kgId": "5438792c-ff2a-4554-9f85-af795f870741"
-		}
-	],
 	"regions": [
 		{
-			"name": "Middle frontal gyrus anterior - left hemisphere",
-			"labelIndex": 1,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.586695983486764",
-				"WM": "0.368756961303868",
-				"CSF": "0.043084972984381"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "1.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Middle frontal gyrus anterior - right hemisphere",
-			"labelIndex": 2,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.669211638091079",
-				"WM": "0.254778712999749",
-				"CSF": "0.06971050882056"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "2.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between superior parietal lobule and skull)",
-			"labelIndex": 3,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnB",
-				"GM": "0.362251970608158",
-				"WM": "0.062204248082339",
-				"CSF": "0.148603287738793"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "3.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Inferior frontal sulcus posterior - right hemisphere",
-			"labelIndex": 4,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContA",
-				"GM": "0.629230791189012",
-				"WM": "0.290432238090537",
-				"CSF": "0.070572678551846"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "4.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior longitudinal fasciculus II middle",
-			"labelIndex": 5,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.227904058238554",
-				"WM": "0.688151064336859",
-				"CSF": "0.083951217965771"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "5.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cuneus anterior",
-			"labelIndex": 6,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.560710360527329",
-				"WM": "0.362666624247051",
-				"CSF": "0.076636879352143"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "6.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lateral ventricles anterior horns",
-			"labelIndex": 7,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.176022732212294",
-				"WM": "0.441793813103266",
-				"CSF": "0.382178761715735"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "7.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lateral occipital cortex - left hemisphere",
-			"labelIndex": 8,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.478562545681529",
-				"WM": "0.479800407148161",
-				"CSF": "0.041461559084432"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "8.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Retrocalcarine cortex",
-			"labelIndex": 9,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.588652584971199",
-				"WM": "0.241950343156201",
-				"CSF": "0.128262543787152"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "9.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Collateral sulcus anterior",
-			"labelIndex": 10,
-			"ontologyMetadata": {
-				"Yeo_networks7": "LimbicA",
-				"Yeo_networks17": "LimbicA",
-				"GM": "0.361100893940286",
-				"WM": "0.613706828413284",
-				"CSF": "0.025036355540568"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "10.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between intraparietal sulcus and skull)",
-			"labelIndex": 11,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.404411975591982",
-				"WM": "0.049937080833487",
-				"CSF": "0.192959236412745"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "11.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior frontal gyrus anterior",
-			"labelIndex": 12,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultB",
-				"GM": "0.625039503267192",
-				"WM": "0.311663276918441",
-				"CSF": "0.058102199068735"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "12.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cingulate cortex mid-anterior",
-			"labelIndex": 13,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.766173768507757",
-				"WM": "0.051065778410752",
-				"CSF": "0.182758158397844"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "13.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cingulate cortex mid-posterior",
-			"labelIndex": 14,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "ContC",
-				"GM": "0.767428009095346",
-				"WM": "0.050424227712159",
-				"CSF": "0.182165513285554"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "14.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Posterior cingulate cortex posterior",
-			"labelIndex": 15,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultA",
-				"GM": "0.732390281923068",
-				"WM": "0.164972894085726",
-				"CSF": "0.102639824481629"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "15.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Pars opercularis pars triangularis - left hemisphere",
-			"labelIndex": 16,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultB",
-				"GM": "0.661844210287319",
-				"WM": "0.182545180805273",
-				"CSF": "0.110937891685381"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "16.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Medial frontal cortex posterior",
-			"labelIndex": 17,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.66588811854228",
-				"WM": "0.091999471359919",
-				"CSF": "0.241631159799894"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "17.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between precuneus and skull)",
-			"labelIndex": 18,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.547714491515286",
-				"WM": "0.07645816114371",
-				"CSF": "0.194467315211736"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "18.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Dorsal visual stream superior",
-			"labelIndex": 19,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnB",
-				"GM": "0.211692752037163",
-				"WM": "0.776995009838408",
-				"CSF": "0.01131454028821"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "19.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Frontal operculum - left hemisphere",
-			"labelIndex": 20,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.768348585282896",
-				"WM": "0.104441964013001",
-				"CSF": "0.119608871414397"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "20.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Amygdala",
-			"labelIndex": 21,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.899192524042909",
-				"WM": "0.034347317533481",
-				"CSF": "0.066322079350958"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "21.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Supramarginal gyrus - left hemisphere",
-			"labelIndex": 22,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.632681973753604",
-				"WM": "0.184674182473862",
-				"CSF": "0.101556174931432"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "22.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Postcentral gyrus - left hemisphere",
-			"labelIndex": 23,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.422909446900552",
-				"WM": "0.495237525267072",
-				"CSF": "0.078541005950324"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "23.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Parieto-occipital sulcus middle",
-			"labelIndex": 24,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContC",
-				"GM": "0.627128126634064",
-				"WM": "0.260946272926274",
-				"CSF": "0.111855210166825"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "24.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Occipital pole inferior",
-			"labelIndex": 25,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.582794072304041",
-				"WM": "0.350574534648094",
-				"CSF": "0.058785683416785"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "25.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior temporal gyrus - left hemisphere",
-			"labelIndex": 26,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotB",
-				"GM": "0.610322177238097",
-				"WM": "0.310950019622802",
-				"CSF": "0.074369088438938"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "26.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Intraparietal sulcus anterior",
-			"labelIndex": 27,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "ContA",
-				"GM": "0.567642388970224",
-				"WM": "0.244854281471568",
-				"CSF": "0.156329745067564"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "27.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Inferior occipital gyrus",
-			"labelIndex": 28,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.772916764257577",
-				"WM": "0.126685757122274",
-				"CSF": "0.094589720421785"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "28.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Angular gyrus superior - right hemisphere",
-			"labelIndex": 29,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContB",
-				"GM": "0.629624308488307",
-				"WM": "0.143599874535309",
-				"CSF": "0.116946956878528"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "29.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Postcentral sulcus superior - left hemisphere",
-			"labelIndex": 30,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnB",
-				"GM": "0.636665208013452",
-				"WM": "0.180229414000553",
-				"CSF": "0.171857982298678"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "30.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior occipital sulcus - right hemisphere",
-			"labelIndex": 31,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.517955607120466",
-				"WM": "0.440812116481068",
-				"CSF": "0.041244089336143"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "31.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Anterior cingulate cortex middle",
-			"labelIndex": 32,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultA",
-				"GM": "0.689895204107896",
-				"WM": "0.200175734028049",
-				"CSF": "0.109914303798128"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "32.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum IX",
-			"labelIndex": 33,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.598871794015433",
-				"WM": "0.319253682994434",
-				"CSF": "0.079536020553968"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "33.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Corpus callosum forceps minor - left hemisphere",
-			"labelIndex": 34,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.054806297471592",
-				"WM": "0.92892826967455",
-				"CSF": "0.016258130591914"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "34.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Occipitotemporal sulcus posterior - right hemisphere",
-			"labelIndex": 35,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.674516806587821",
-				"WM": "0.288296582087981",
-				"CSF": "0.037039212458069"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "35.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum VIIb",
-			"labelIndex": 36,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.679318135974042",
-				"WM": "0.265957048738716",
-				"CSF": "0.054729014843957"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "36.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Caudate inferior",
-			"labelIndex": 37,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.766814468202368",
-				"WM": "0.17891581521415",
-				"CSF": "0.054266890609407"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "37.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Supramarginal gyrus - right hemisphere",
-			"labelIndex": 38,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.659073035857524",
-				"WM": "0.160441366288975",
-				"CSF": "0.098881916727737"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "38.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Paracingulate gyrus anterior",
-			"labelIndex": 39,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultA",
-				"GM": "0.640275140402581",
-				"WM": "0.203222769369537",
-				"CSF": "0.155671936729199"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "39.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Paracingulate gyrus posterior",
-			"labelIndex": 40,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.691879968922727",
-				"WM": "0.174066642943359",
-				"CSF": "0.133460387976793"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "40.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Thalamus middle",
-			"labelIndex": 41,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.435740455570928",
-				"WM": "0.562797714050158",
-				"CSF": "0.001468787309629"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "41.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Postcentral sulcus inferior",
-			"labelIndex": 42,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnB",
-				"GM": "0.531237586589255",
-				"WM": "0.408590735624012",
-				"CSF": "0.059702418367053"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "42.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Ventromedial prefrontal cortex",
-			"labelIndex": 43,
-			"ontologyMetadata": {
-				"Yeo_networks7": "LimbicA",
-				"Yeo_networks17": "LimbicB",
-				"GM": "0.658586839848114",
-				"WM": "0.239372784766206",
-				"CSF": "0.101917589534091"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "43.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Precentral sulcus medial",
-			"labelIndex": 44,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.526712076811698",
-				"WM": "0.398671975128082",
-				"CSF": "0.071296021458651"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "44.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior frontal sulcus - left hemisphere",
-			"labelIndex": 45,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultA",
-				"GM": "0.622227336648666",
-				"WM": "0.299217246093551",
-				"CSF": "0.077877926030686"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "45.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Postcentral sulcus superior - right hemisphere",
-			"labelIndex": 46,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnB",
-				"GM": "0.527734759906982",
-				"WM": "0.303184623637492",
-				"CSF": "0.153405855677669"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "46.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Supramarginal gyrus anterior - right hemisphere",
-			"labelIndex": 47,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnB",
-				"GM": "0.612310968505656",
-				"WM": "0.2758791088902",
-				"CSF": "0.096328394914574"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "47.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Frontal operculum - right hemisphere",
-			"labelIndex": 48,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotB",
-				"GM": "0.714946276768216",
-				"WM": "0.092966497961924",
-				"CSF": "0.143414384731241"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "48.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lingual gyrus mid-anterior",
-			"labelIndex": 49,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.741103894237934",
-				"WM": "0.175494341201283",
-				"CSF": "0.083418133313783"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "49.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum VIIIb posterior",
-			"labelIndex": 50,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.647818801372583",
-				"WM": "0.295413852614505",
-				"CSF": "0.056095238721852"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "50.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Central sulcus superior - right hemisphere",
-			"labelIndex": 51,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.52345792393755",
-				"WM": "0.345513049355743",
-				"CSF": "0.128194346240288"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "51.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between parietal lobe and skull)",
-			"labelIndex": 52,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnB",
-				"GM": "0.483184799904617",
-				"WM": "0.036199228746556",
-				"CSF": "0.281192912211645"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "52.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Caudate anterior",
-			"labelIndex": 53,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.52693231505039",
-				"WM": "0.471582314290776",
-				"CSF": "0.001489908232107"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "53.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior frontal sulcus anterior - right hemisphere",
-			"labelIndex": 54,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.605220224767345",
-				"WM": "0.34222328992595",
-				"CSF": "0.049548848626651"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "54.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Corona radiata anterior",
-			"labelIndex": 55,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.011697179636983",
-				"WM": "0.988253577700998",
-				"CSF": "4.10435086401427E-05"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "55.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Suborbital cortex",
-			"labelIndex": 56,
-			"ontologyMetadata": {
-				"Yeo_networks7": "LimbicA",
-				"Yeo_networks17": "LimbicB",
-				"GM": "0.790215467558508",
-				"WM": "0.14305466819447",
-				"CSF": "0.060273465197489"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "56.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Inferior frontal gyrus - left hemisphere",
-			"labelIndex": 57,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContA",
-				"GM": "0.568217839555785",
-				"WM": "0.084796418277649",
-				"CSF": "0.151506963217965"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "57.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Caudate superior",
-			"labelIndex": 58,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.666313422721733",
-				"WM": "0.216778549602422",
-				"CSF": "0.116904065362186"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "58.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Fusiform gyrus posterior - left hemisphere",
-			"labelIndex": 59,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.755879481687826",
-				"WM": "0.13825293554139",
-				"CSF": "0.104077454462361"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "59.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Genu of callosal body",
-			"labelIndex": 60,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.197005860382987",
-				"WM": "0.526720216367796",
-				"CSF": "0.276268707851677"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "60.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Frontal pole superior",
-			"labelIndex": 61,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultA",
-				"GM": "0.493099195149981",
-				"WM": "0.049969360117181",
-				"CSF": "0.129275989604931"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "61.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lingual gyrus middle",
-			"labelIndex": 62,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.595589429941959",
-				"WM": "0.376042065166999",
-				"CSF": "0.028365702809376"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "62.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Intraparietal sulcus superior - right hemisphere",
-			"labelIndex": 63,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.53346554612654",
-				"WM": "0.343062409420624",
-				"CSF": "0.120990157046226"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "63.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Angular gyrus inferior - left hemisphere",
-			"labelIndex": 64,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "TempPar",
-				"GM": "0.70827413256655",
-				"WM": "0.198545703860371",
-				"CSF": "0.08038876346706"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "64.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Precuneus anterior",
-			"labelIndex": 65,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "ContC",
-				"GM": "0.639685269345865",
-				"WM": "0.079026401856734",
-				"CSF": "0.281247743353719"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "65.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Anterior commissure",
-			"labelIndex": 66,
-			"ontologyMetadata": {
-				"Yeo_networks7": "LimbicA",
-				"Yeo_networks17": "LimbicB",
-				"GM": "0.648666522946371",
-				"WM": "0.296667686659267",
-				"CSF": "0.05444811370446"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "66.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Middle frontal gyrus middle - right hemisphere",
-			"labelIndex": 67,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContB",
-				"GM": "0.487820905417043",
-				"WM": "0.471278736141331",
-				"CSF": "0.037671784444971"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "67.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior frontal gyrus posterior - left hemisphere",
-			"labelIndex": 68,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "ContA",
-				"GM": "0.630844123868083",
-				"WM": "0.208962978894046",
-				"CSF": "0.139423759330531"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "68.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum VIIIb anterior",
-			"labelIndex": 69,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.790755541065677",
-				"WM": "0.167909206606615",
-				"CSF": "0.040040073871071"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "69.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Parietal operculum",
-			"labelIndex": 70,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.74306585729705",
-				"WM": "0.075766899592035",
-				"CSF": "0.170850087775717"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "70.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Isthmus of corpus callosum",
-			"labelIndex": 71,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.195152480972213",
-				"WM": "0.424066155225683",
-				"CSF": "0.380774967325694"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "71.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Putamen inferior",
-			"labelIndex": 72,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.669476548891826",
-				"WM": "0.323078350632879",
-				"CSF": "0.007451394520473"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "72.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Supramarginal gyrus",
-			"labelIndex": 73,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.584293834671848",
-				"WM": "0.341334992013015",
-				"CSF": "0.064475063621779"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "73.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Insula",
-			"labelIndex": 74,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.850333346805827",
-				"WM": "0.122771293772698",
-				"CSF": "0.026907242515048"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "74.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Inferior frontal sulcus posterior - left hemisphere",
-			"labelIndex": 75,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContA",
-				"GM": "0.589769766477173",
-				"WM": "0.34819503381966",
-				"CSF": "0.061284448157793"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "75.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior frontal gyrus posterior",
-			"labelIndex": 76,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultB",
-				"GM": "0.606452130618174",
-				"WM": "0.329391236128736",
-				"CSF": "0.060432298391525"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "76.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cuneus posterior",
-			"labelIndex": 77,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.557996684022527",
-				"WM": "0.332266948149249",
-				"CSF": "0.10297586950208"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "77.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lingual gyrus mid-posterior",
-			"labelIndex": 78,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.595658836427605",
-				"WM": "0.357424584921989",
-				"CSF": "0.046656559832856"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "78.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Frontal pole lateral - right hemisphere",
-			"labelIndex": 79,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContB",
-				"GM": "0.62493440644711",
-				"WM": "0.163056277032883",
-				"CSF": "0.099160053305647"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "79.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Inferior temporal gyrus posterior - left hemisphere",
-			"labelIndex": 80,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.763900323935637",
-				"WM": "0.178522701503603",
-				"CSF": "0.057314472852769"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "80.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum Crus I - right hemisphere",
-			"labelIndex": 81,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.836282074242765",
-				"WM": "0.116039056436148",
-				"CSF": "0.047062310978317"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "81.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between superior frontal gyrus anterior and skull)",
-			"labelIndex": 82,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultB",
-				"GM": "0.441068898945004",
-				"WM": "0.012341407955618",
-				"CSF": "0.136691213272287"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "82.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Central sulcus inferior",
-			"labelIndex": 83,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotB",
-				"GM": "0.599340015900896",
-				"WM": "0.301290812122108",
-				"CSF": "0.087247701396523"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "83.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior occipital sulcus inferior",
-			"labelIndex": 84,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.568524363263758",
-				"WM": "0.32191246447745",
-				"CSF": "0.104737075670675"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "84.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Ventral visual stream",
-			"labelIndex": 85,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.168933466910725",
-				"WM": "0.797302623035396",
-				"CSF": "0.033773017908564"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "85.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Heschl\u2019s gyrus",
-			"labelIndex": 86,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotB",
-				"GM": "0.7583072664565",
-				"WM": "0.033383462908717",
-				"CSF": "0.208307254251809"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "86.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Central and postcentral sulci mid-superior",
-			"labelIndex": 87,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.480032814463751",
-				"WM": "0.375537233943874",
-				"CSF": "0.143784725348818"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "87.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cuneus inferior",
-			"labelIndex": 88,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.69290629522807",
-				"WM": "0.185494454383921",
-				"CSF": "0.121603108247937"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "88.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Transverse occipital sulcus",
-			"labelIndex": 89,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.513682443919779",
-				"WM": "0.452143235457976",
-				"CSF": "0.034056909297847"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "89.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Posterior cingulate cortex middle",
-			"labelIndex": 90,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "ContC",
-				"GM": "0.579611342039716",
-				"WM": "0.346572094770274",
-				"CSF": "0.073822897911566"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "90.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum Crus I superior",
-			"labelIndex": 91,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.820752249596874",
-				"WM": "0.025245506240088",
-				"CSF": "0.150824093916482"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "91.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Frontomarginal gyrus",
-			"labelIndex": 92,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContB",
-				"GM": "0.097778009499998",
-				"WM": "0.90086111423436",
-				"CSF": "0.001367777827372"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "92.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Optic radiation - left hemisphere",
-			"labelIndex": 93,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "TempPar",
-				"GM": "0.073411386836045",
-				"WM": "0.926014197924729",
-				"CSF": "0.000575668484544"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "93.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Inferior frontal sulcus anterior - left hemisphere",
-			"labelIndex": 94,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContA",
-				"GM": "0.62266777231009",
-				"WM": "0.307075039811263",
-				"CSF": "0.059178623293639"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "94.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Hippocampus posterior",
-			"labelIndex": 95,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.639461728969426",
-				"WM": "0.306454399474125",
-				"CSF": "0.054089442379007"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "95.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum IV",
-			"labelIndex": 96,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.744154191590433",
-				"WM": "0.01362738682347",
-				"CSF": "0.242219508857429"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "96.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior occipital gyrus - right hemisphere",
-			"labelIndex": 97,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.612323093882038",
-				"WM": "0.332162150818694",
-				"CSF": "0.053527847591266"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "97.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Forceps minor - right hemisphere",
-			"labelIndex": 98,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.05510027567851",
-				"WM": "0.944519729395435",
-				"CSF": "0.000386283302965"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "98.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Precentral sulcus superior",
-			"labelIndex": 99,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnB",
-				"GM": "0.554395961731409",
-				"WM": "0.352937900477154",
-				"CSF": "0.088294794208619"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "99.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Central sulcus middle",
-			"labelIndex": 100,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotB",
-				"GM": "0.541768977621463",
-				"WM": "0.364904874649918",
-				"CSF": "0.092777364161951"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "100.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Internal capsule anterior horn - right hemisphere",
-			"labelIndex": 101,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.032688431985418",
-				"WM": "0.966556559661842",
-				"CSF": "0.000769976120509"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "101.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Posterior cingulate cortex inferior",
-			"labelIndex": 102,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultC",
-				"GM": "0.700728145319077",
-				"WM": "0.197051376048932",
-				"CSF": "0.102229998815347"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "102.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lateral ventricles middle",
-			"labelIndex": 103,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.485782320812663",
-				"WM": "0.193202337457066",
-				"CSF": "0.321020134983128"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "103.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Frontal pole inferior",
-			"labelIndex": 104,
-			"ontologyMetadata": {
-				"Yeo_networks7": "LimbicA",
-				"Yeo_networks17": "LimbicB",
-				"GM": "0.571690896061937",
-				"WM": "0.356916415201885",
-				"CSF": "0.054520138781035"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "104.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Putamen anterior",
-			"labelIndex": 105,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.711617539647449",
-				"WM": "0.287911234934608",
-				"CSF": "0.000483143452554"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "105.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Intraparietal sulcus posterior - left hemisphere",
-			"labelIndex": 106,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.524794425715208",
-				"WM": "0.352870785219583",
-				"CSF": "0.116786984612358"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "106.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Occipital pole middle",
-			"labelIndex": 107,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.516630744060451",
-				"WM": "0.381403019963147",
-				"CSF": "0.084076470618905"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "107.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Middle temporal gyrus posterior",
-			"labelIndex": 108,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnB",
-				"GM": "0.68553988060536",
-				"WM": "0.222363025079961",
-				"CSF": "0.070156705039122"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "108.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Angular gyrus - right hemisphere",
-			"labelIndex": 109,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultA",
-				"GM": "0.539358964937213",
-				"WM": "0.418938046272747",
-				"CSF": "0.03512776153403"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "109.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Insula anterior",
-			"labelIndex": 110,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.784613875313347",
-				"WM": "0.135535742501661",
-				"CSF": "0.079858985305216"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "110.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Retrosplenial cortex",
-			"labelIndex": 111,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "DefaultC",
-				"GM": "0.264943688255323",
-				"WM": "0.049992454311066",
-				"CSF": "0.685060973568863"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "111.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Inferior occipital gyrus posterior",
-			"labelIndex": 112,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.668981416851851",
-				"WM": "0.166282343911629",
-				"CSF": "0.147731851873445"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "112.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lateral occipital cortex anterior",
-			"labelIndex": 113,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.636368117299536",
-				"WM": "0.30728721091886",
-				"CSF": "0.053806684259737"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "113.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Corona radiata",
-			"labelIndex": 114,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.04993817001491",
-				"WM": "0.949841721131388",
-				"CSF": "0.00022082812138"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "114.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior parts of central and postcentral sulci - left hemisphere",
-			"labelIndex": 115,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.488780010010902",
-				"WM": "0.367434047463772",
-				"CSF": "0.138183541947051"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "115.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior frontal gyrus medial mid-posterior",
-			"labelIndex": 116,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.661999800558491",
-				"WM": "0.103403939849411",
-				"CSF": "0.234370113668387"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "116.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Collateral sulcus middle",
-			"labelIndex": 117,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "DefaultC",
-				"GM": "0.781438990545438",
-				"WM": "0.146458136715358",
-				"CSF": "0.072100768038266"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "117.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Intraparietal sulcus inferior - right hemisphere",
-			"labelIndex": 118,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContA",
-				"GM": "0.578503417866564",
-				"WM": "0.318282472470159",
-				"CSF": "0.101742352599232"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "118.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Calcarine sulcus posterior",
-			"labelIndex": 119,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.608513129718308",
-				"WM": "0.299770836262235",
-				"CSF": "0.091573113374441"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "119.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lateral occipital cortex superior",
-			"labelIndex": 120,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DefaultC",
-				"GM": "0.619998418304071",
-				"WM": "0.208273910070137",
-				"CSF": "0.116726979034939"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "120.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Dorsomedial prefrontal cortex",
-			"labelIndex": 121,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.703876735754562",
-				"WM": "0.163660024299851",
-				"CSF": "0.132440702120069"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "121.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Occipital pole superior",
-			"labelIndex": 122,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.493224588839819",
-				"WM": "0.418821865504574",
-				"CSF": "0.066901870333454"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "122.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Callosomarginal sulcus",
-			"labelIndex": 123,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.616994322267034",
-				"WM": "0.272845898155019",
-				"CSF": "0.110163547655558"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "123.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Intraparietal sulcus posterior - right hemisphere",
-			"labelIndex": 124,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.557667136349944",
-				"WM": "0.329224512351254",
-				"CSF": "0.109249559921808"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "124.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Hippocampal fissure",
-			"labelIndex": 125,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "DefaultC",
-				"GM": "0.540011264672696",
-				"WM": "0.145942973654611",
-				"CSF": "0.313680179264754"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "125.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Angular gyrus posterior - right hemisphere",
-			"labelIndex": 126,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultC",
-				"GM": "0.70057086905772",
-				"WM": "0.221818498184785",
-				"CSF": "0.075441508294865"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "126.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Angular gyrus posterior - left hemisphere",
-			"labelIndex": 127,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultB",
-				"GM": "0.672122410450836",
-				"WM": "0.241687536556842",
-				"CSF": "0.075785321097023"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "127.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Parieto-occipital sulcus mid-anterior",
-			"labelIndex": 128,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "DefaultC",
-				"GM": "0.586277607719322",
-				"WM": "0.365207797713436",
-				"CSF": "0.04851599648293"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "128.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Precentral sulcus - right hemisphere",
-			"labelIndex": 129,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContA",
-				"GM": "0.637581808964015",
-				"WM": "0.227179759183926",
-				"CSF": "0.106566965182185"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "129.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Pons superior",
-			"labelIndex": 130,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.600962448574869",
-				"WM": "0.301544415136554",
-				"CSF": "0.097372110787343"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "130.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Suborbital cortex medial",
-			"labelIndex": 131,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "LimbicB",
-				"GM": "0.191820147963245",
-				"WM": "0.801524098617758",
-				"CSF": "0.00655940721342"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "131.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Insula antero-inferior",
-			"labelIndex": 132,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.719729098291999",
-				"WM": "0.238735543888159",
-				"CSF": "0.041543223306689"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "132.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Thalamus medial",
-			"labelIndex": 133,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.646896868652877",
-				"WM": "0.10923383828675",
-				"CSF": "0.243808357450554"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "133.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Middle temporal gyrus anterior - right hemisphere",
-			"labelIndex": 134,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultA",
-				"GM": "0.751658509878766",
-				"WM": "0.158639627734314",
-				"CSF": "0.085229506579472"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "134.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior corona radiata - right hemisphere",
-			"labelIndex": 135,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.056019841209414",
-				"WM": "0.934088237055077",
-				"CSF": "0.009888616225442"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "135.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between middle frontal gyrus posterior and skull)",
-			"labelIndex": 136,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultB",
-				"GM": "0.574337831908425",
-				"WM": "0.04405368358215",
-				"CSF": "0.141055709806909"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "136.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Paracentral lobule posterior",
-			"labelIndex": 137,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.492892626020704",
-				"WM": "0.332044061317865",
-				"CSF": "0.168136359127727"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "137.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Pons inferior",
-			"labelIndex": 138,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.520726995256638",
-				"WM": "0.472597065083009",
-				"CSF": "0.006594020189262"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "138.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Calcarine sulcus middle",
-			"labelIndex": 139,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.490747043772947",
-				"WM": "0.433342906564007",
-				"CSF": "0.075904568041249"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "139.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lateral ventricles posterior horns",
-			"labelIndex": 140,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.273207016395866",
-				"WM": "0.29921267768622",
-				"CSF": "0.427589325016551"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "140.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Inferior frontal gyrus anterior - left hemisphere",
-			"labelIndex": 141,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContB",
-				"GM": "0.6537560769519",
-				"WM": "0.15779418438177",
-				"CSF": "0.091078005158121"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "141.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Central and postcentral sulci superior",
-			"labelIndex": 142,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.458685867653571",
-				"WM": "0.337634012351362",
-				"CSF": "0.183190132561811"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "142.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum Crus I posterior",
-			"labelIndex": 143,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.730466926821974",
-				"WM": "0.039552955012512",
-				"CSF": "0.182935614890419"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "143.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Inferior frontal sulcus anterior - right hemisphere",
-			"labelIndex": 144,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.647140943916303",
-				"WM": "0.273745117743104",
-				"CSF": "0.062385911313792"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "144.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Angular gyrus superior - left hemisphere",
-			"labelIndex": 145,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContB",
-				"GM": "0.567046060277592",
-				"WM": "0.195630896173723",
-				"CSF": "0.13565957666685"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "145.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Intermediate primus of Jensen - right hemisphere",
-			"labelIndex": 146,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContB",
-				"GM": "0.524114976980031",
-				"WM": "0.416937485987801",
-				"CSF": "0.052041562313969"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "146.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum Crus I lateral - right hemisphere",
-			"labelIndex": 147,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.605133638324762",
-				"WM": "0.378971200685124",
-				"CSF": "0.015224889043272"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "147.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lateral fissure anterior",
-			"labelIndex": 148,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.634444931537019",
-				"WM": "0.009264349990728",
-				"CSF": "0.325107097390983"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "148.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Anterior cingulate cortex inferior",
-			"labelIndex": 149,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultA",
-				"GM": "0.690893539349052",
-				"WM": "0.229783073091972",
-				"CSF": "0.079333396324729"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "149.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between precentral gyrus and skull)",
-			"labelIndex": 150,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.464845025332853",
-				"WM": "0.099363120951871",
-				"CSF": "0.162358036292345"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "150.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Parieto-occipital sulcus anterior",
-			"labelIndex": 151,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "DefaultC",
-				"GM": "0.78016258552144",
-				"WM": "0.088131851183971",
-				"CSF": "0.131710702154923"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "151.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Precentral gyrus superior",
-			"labelIndex": 152,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.494828506486314",
-				"WM": "0.352770157677579",
-				"CSF": "0.133052623237717"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "152.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between parieto-occipital sulcus and skull)",
-			"labelIndex": 153,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.555047765395875",
-				"WM": "0.16439061768993",
-				"CSF": "0.169481855762048"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "153.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum V",
-			"labelIndex": 154,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.80097542968444",
-				"WM": "0.024536474183205",
-				"CSF": "0.174415891531996"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "154.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Fusiform gyrus - left hemisphere",
-			"labelIndex": 155,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.644366493317523",
-				"WM": "0.316769716691753",
-				"CSF": "0.038862443711854"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "155.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum Crus II",
-			"labelIndex": 156,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.776484290318392",
-				"WM": "0.193651052930327",
-				"CSF": "0.028976329889035"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "156.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Corona radiata anterior - right hemisphere",
-			"labelIndex": 157,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.016813570094421",
-				"WM": "0.983175987295484",
-				"CSF": "1.49652642788637E-05"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "157.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Thalamus lateral",
-			"labelIndex": 158,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.253065463261409",
-				"WM": "0.746701620415467",
-				"CSF": "0.000255070965009"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "158.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Inferior occipital sulcus",
-			"labelIndex": 159,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.479870384326461",
-				"WM": "0.501819091369633",
-				"CSF": "0.018297294200597"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "159.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior temporal sulcus posterior - left hemisphere",
-			"labelIndex": 160,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "TempPar",
-				"GM": "0.728409900174318",
-				"WM": "0.208080599899686",
-				"CSF": "0.061746988103984"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "160.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum VI superior - left hemisphere",
-			"labelIndex": 161,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.902961880005246",
-				"WM": "0.05504820788072",
-				"CSF": "0.041930623001571"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "161.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Angular gyrus inferior - right hemisphere",
-			"labelIndex": 162,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.695466632816744",
-				"WM": "0.233674195044369",
-				"CSF": "0.067668269047268"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "162.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior temporal gyrus medial",
-			"labelIndex": 163,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotB",
-				"GM": "0.626596032851992",
-				"WM": "0.059027706560513",
-				"CSF": "0.314374009355"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "163.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Middle temporal gyrus anterior - left hemisphere",
-			"labelIndex": 164,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultB",
-				"GM": "0.69737460245287",
-				"WM": "0.236601771367017",
-				"CSF": "0.065204912877664"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "164.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Fluid between cerebellum and pons",
-			"labelIndex": 165,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.503635569470929",
-				"WM": "0.395930809257549",
-				"CSF": "0.099407272082421"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "165.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Angular gyrus superior",
-			"labelIndex": 166,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultA",
-				"GM": "0.617073539920386",
-				"WM": "0.194868211596267",
-				"CSF": "0.115205598228285"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "166.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Planum temporale - left hemisphere",
-			"labelIndex": 167,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotB",
-				"GM": "0.641476282376569",
-				"WM": "0.250698925833061",
-				"CSF": "0.107832968594392"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "167.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Hippocampus anterior",
-			"labelIndex": 168,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "DefaultC",
-				"GM": "0.640856122186119",
-				"WM": "0.312740592789774",
-				"CSF": "0.046404786206346"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "168.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Fornix anterior",
-			"labelIndex": 169,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.427381637562216",
-				"WM": "0.034405164802114",
-				"CSF": "0.538224938183501"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "169.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Temporal pole",
-			"labelIndex": 170,
-			"ontologyMetadata": {
-				"Yeo_networks7": "LimbicA",
-				"Yeo_networks17": "LimbicA",
-				"GM": "0.734771611703108",
-				"WM": "0.20386545045404",
-				"CSF": "0.052690018489653"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "170.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Precentral sulcus inferior - left hemisphere",
-			"labelIndex": 171,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "ContA",
-				"GM": "0.643751593117219",
-				"WM": "0.279910116444128",
-				"CSF": "0.074618526824079"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "171.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum Crus I anterior - left hemisphere",
-			"labelIndex": 172,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.702478774822322",
-				"WM": "0.279123756585921",
-				"CSF": "0.017997872522206"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "172.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum VI anterior",
-			"labelIndex": 173,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.569181346299411",
-				"WM": "0.423561876044948",
-				"CSF": "0.007254241681863"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "173.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Middle frontal gyrus posterior - left hemisphere",
-			"labelIndex": 174,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultB",
-				"GM": "0.580329655205163",
-				"WM": "0.331889698240513",
-				"CSF": "0.075652399306426"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "174.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between middle frontal gyrus anterior and skull)",
-			"labelIndex": 175,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.525816185204163",
-				"WM": "0.029971259291538",
-				"CSF": "0.129310194972851"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "175.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Anterior cingulate cortex superior",
-			"labelIndex": 176,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.729205723523194",
-				"WM": "0.174143095885031",
-				"CSF": "0.09665258676528"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "176.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Angular gyrus anterior - left hemisphere",
-			"labelIndex": 177,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultB",
-				"GM": "0.592802675636631",
-				"WM": "0.259989105686715",
-				"CSF": "0.084597476255357"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "177.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Posterior cingulate",
-			"labelIndex": 178,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultA",
-				"GM": "0.701628561099083",
-				"WM": "0.180672277105975",
-				"CSF": "0.11769360029856"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "178.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum Crus II",
-			"labelIndex": 179,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.833123187365927",
-				"WM": "0.098924268951602",
-				"CSF": "0.061193450349691"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "179.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between precentral gyrus superior and skull)",
-			"labelIndex": 180,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.52131511772997",
-				"WM": "0.072981263453494",
-				"CSF": "0.138224291669222"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "180.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum VI",
-			"labelIndex": 181,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.844777783509313",
-				"WM": "0.113348564525985",
-				"CSF": "0.04131995166559"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "181.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between superior frontal gyrus posterior and skull)",
-			"labelIndex": 182,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultB",
-				"GM": "0.51365328625525",
-				"WM": "0.022859935590876",
-				"CSF": "0.152857027001979"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "182.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Intraparietal sulcus - left hemisphere",
-			"labelIndex": 183,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContA",
-				"GM": "0.52045484692951",
-				"WM": "0.428487475393908",
-				"CSF": "0.051055311715073"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "183.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cuneus superior",
-			"labelIndex": 184,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.557272088110155",
-				"WM": "0.322880044703105",
-				"CSF": "0.111867384817735"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "184.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Frontal pole lateral - left hemisphere",
-			"labelIndex": 185,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContB",
-				"GM": "0.620379663800185",
-				"WM": "0.265838951192535",
-				"CSF": "0.073975236940139"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "185.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior temporal sulcus - right hemisphere",
-			"labelIndex": 186,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "TempPar",
-				"GM": "0.731942310477759",
-				"WM": "0.197711080188527",
-				"CSF": "0.068422569529291"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "186.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum VIIb",
-			"labelIndex": 187,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.863549562865604",
-				"WM": "0.121428965853098",
-				"CSF": "0.013947548369885"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "187.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Posterior cingulate cortex superior",
-			"labelIndex": 188,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "ContC",
-				"GM": "0.743124123689961",
-				"WM": "0.151601390670541",
-				"CSF": "0.105272955889425"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "188.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior parietal lobule anterior",
-			"labelIndex": 189,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnB",
-				"GM": "0.520075194156799",
-				"WM": "0.349387286045353",
-				"CSF": "0.122975254582333"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "189.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Insula posterior inferior",
-			"labelIndex": 190,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.618390533610003",
-				"WM": "0.331577763895775",
-				"CSF": "0.050022628725855"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "190.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Central opercular cortex",
-			"labelIndex": 191,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotB",
-				"GM": "0.662950959388873",
-				"WM": "0.295950039706527",
-				"CSF": "0.041032614042235"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "191.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Middle frontal gyrus posterior - right hemisphere",
-			"labelIndex": 192,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContB",
-				"GM": "0.612427986051398",
-				"WM": "0.270074955412462",
-				"CSF": "0.084255897708506"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "192.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lingual gyrus lateral",
-			"labelIndex": 193,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.78689199843239",
-				"WM": "0.092300671223753",
-				"CSF": "0.120515174833449"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "193.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lateral occipital cortex",
-			"labelIndex": 194,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.680745370750709",
-				"WM": "0.153595671634236",
-				"CSF": "0.121783813964406"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "194.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lingual gyrus medial",
-			"labelIndex": 195,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.657421364631442",
-				"WM": "0.069434574533086",
-				"CSF": "0.271804365880744"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "195.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior frontal gyrus posterior - right hemisphere",
-			"labelIndex": 196,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnB",
-				"GM": "0.668678041241247",
-				"WM": "0.199889264018651",
-				"CSF": "0.122314001572725"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "196.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Parieto-occipital sulcus mid-posterior",
-			"labelIndex": 197,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.505478285299336",
-				"WM": "0.392679153231726",
-				"CSF": "0.101040690560535"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "197.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between paracentral lobule and skull)",
-			"labelIndex": 198,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.338708024608378",
-				"WM": "0.102395820792712",
-				"CSF": "0.117564138681243"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "198.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Putamen and globus pallidus",
-			"labelIndex": 199,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.215346434013544",
-				"WM": "0.784624745460056",
-				"CSF": "4.20196867630272E-05"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "199.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum V",
-			"labelIndex": 200,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.803974070802521",
-				"WM": "0.15178134917162",
-				"CSF": "0.044254993199951"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "200.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cingulate sulcus posterior",
-			"labelIndex": 201,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.704381555313804",
-				"WM": "0.134669977262928",
-				"CSF": "0.160966877869441"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "201.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between middle frontal gyrus and skull RH)",
-			"labelIndex": 202,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.369557952087657",
-				"WM": "0.011697137140654",
-				"CSF": "0.143712681656049"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "202.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Fusiform gyrus - right hemisphere",
-			"labelIndex": 203,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.551675484815593",
-				"WM": "0.425334585163343",
-				"CSF": "0.022999040214877"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "203.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Planum temporale - right hemisphere",
-			"labelIndex": 204,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotB",
-				"GM": "0.688278485814431",
-				"WM": "0.201850083412437",
-				"CSF": "0.101710414022118"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "204.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Pericallosal sulcus middle",
-			"labelIndex": 205,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContC",
-				"GM": "0.590686899329812",
-				"WM": "0.327344908901845",
-				"CSF": "0.081967874998718"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "205.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Thalamus inferior",
-			"labelIndex": 206,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.478761053475394",
-				"WM": "0.476952576773406",
-				"CSF": "0.044295963957601"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "206.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Middle frontal gyrus posterior",
-			"labelIndex": 207,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.316709174624855",
-				"WM": "0.67925080585988",
-				"CSF": "0.004037234341495"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "207.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior parietal lobule middle",
-			"labelIndex": 208,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.537951745828485",
-				"WM": "0.286255368468573",
-				"CSF": "0.136047055279084"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "208.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum Crus I posterior - left hemisphere",
-			"labelIndex": 209,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.797584786748431",
-				"WM": "0.166039645262694",
-				"CSF": "0.03453364901926"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "209.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Precentral sulcus inferior - right hemisphere",
-			"labelIndex": 210,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "ContA",
-				"GM": "0.688836208373127",
-				"WM": "0.208005666753793",
-				"CSF": "0.096563718690188"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "210.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum VI - right hemisphere",
-			"labelIndex": 211,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.881468684101292",
-				"WM": "0.023654614928864",
-				"CSF": "0.094876063865284"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "211.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Inferior temporal sulcus posterior - left hemisphere",
-			"labelIndex": 212,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.679719088107874",
-				"WM": "0.283015883442299",
-				"CSF": "0.036141048225724"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "212.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lingual gyrus anterior",
-			"labelIndex": 213,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.635091000403524",
-				"WM": "0.046382395621297",
-				"CSF": "0.318526355356548"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "213.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Middle frontal gyrus anterior",
-			"labelIndex": 214,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.583835586832918",
-				"WM": "0.356635713922253",
-				"CSF": "0.056595268210323"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "214.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior parietal lobule posterior",
-			"labelIndex": 215,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.487716323197338",
-				"WM": "0.39994763401133",
-				"CSF": "0.105843704578475"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "215.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Parieto-occipital sulcus posterior",
-			"labelIndex": 216,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "ContC",
-				"GM": "0.562004350937508",
-				"WM": "0.242457590728685",
-				"CSF": "0.174210110383774"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "216.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior temporal gyrus anterior",
-			"labelIndex": 217,
-			"ontologyMetadata": {
-				"Yeo_networks7": "LimbicA",
-				"Yeo_networks17": "LimbicA",
-				"GM": "0.644915748875604",
-				"WM": "0.039540071188273",
-				"CSF": "0.312407561967817"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "217.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Precuneus inferior",
-			"labelIndex": 218,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultA",
-				"GM": "0.694214997783843",
-				"WM": "0.196355516917226",
-				"CSF": "0.10941674001906"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "218.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Paracentral lobule",
-			"labelIndex": 219,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.562939386063967",
-				"WM": "0.189077793370779",
-				"CSF": "0.247940140497136"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "219.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Thalamic radiation mid-posterior",
-			"labelIndex": 220,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.272935527478252",
-				"WM": "0.292197042832403",
-				"CSF": "0.434858196037903"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "220.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Precentral sulcus superior - left hemisphere",
-			"labelIndex": 221,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnB",
-				"GM": "0.575593606207016",
-				"WM": "0.278491008717134",
-				"CSF": "0.10193632678988"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "221.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Calcarine sulcus mid-anterior",
-			"labelIndex": 222,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.670738867717157",
-				"WM": "0.262245174119643",
-				"CSF": "0.067004810578924"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "222.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum VI superior",
-			"labelIndex": 223,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.626715176812618",
-				"WM": "0.010140320974074",
-				"CSF": "0.359094173967824"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "223.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Putamen superior",
-			"labelIndex": 224,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.501574275752397",
-				"WM": "0.498392000122279",
-				"CSF": "2.21078138361109E-05"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "224.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Middle temporal gyrus middle - right hemisphere",
-			"labelIndex": 225,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "TempPar",
-				"GM": "0.698924618878966",
-				"WM": "0.246479874686046",
-				"CSF": "0.051368364681794"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "225.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Insula antero-superior",
-			"labelIndex": 226,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.698267580856065",
-				"WM": "0.2538424046385",
-				"CSF": "0.047888565990348"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "226.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Parietal operculum - left hemisphere",
-			"labelIndex": 227,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "TempPar",
-				"GM": "0.618911831173016",
-				"WM": "0.289205160997382",
-				"CSF": "0.084596078302122"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "227.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Thalamus superior",
-			"labelIndex": 228,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.692527740823771",
-				"WM": "0.30635849860782",
-				"CSF": "0.001116464577069"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "228.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Dorsomedial prefrontal cortex posterior",
-			"labelIndex": 229,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "ContB",
-				"GM": "0.644885892035178",
-				"WM": "0.110950603768659",
-				"CSF": "0.240616887141926"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "229.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Angular sulcus inferior - right hemisphere",
-			"labelIndex": 230,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "TempPar",
-				"GM": "0.597094519745073",
-				"WM": "0.347140824074651",
-				"CSF": "0.054026455303935"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "230.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Corona radiata posterior - left hemisphere",
-			"labelIndex": 231,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.020001346950037",
-				"WM": "0.979960318741374",
-				"CSF": "4.17297238608173E-05"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "231.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Pars opercularis",
-			"labelIndex": 232,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "ContA",
-				"GM": "0.699421174614534",
-				"WM": "0.179732970547989",
-				"CSF": "0.111662358172861"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "232.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebellum VI anterior",
-			"labelIndex": 233,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.851625420198556",
-				"WM": "0.042262486529909",
-				"CSF": "0.104091236323641"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "233.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior occipital sulcus - left hemisphere",
-			"labelIndex": 234,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "DorsAttnA",
-				"GM": "0.587032824913645",
-				"WM": "0.329824749905086",
-				"CSF": "0.082457388623758"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "234.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Dorsomedial prefrontal cortex anterior",
-			"labelIndex": 235,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultB",
-				"GM": "0.657345879085805",
-				"WM": "0.148934717291835",
-				"CSF": "0.189106962301904"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "235.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Pars orbitalis - right hemisphere",
-			"labelIndex": 236,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultB",
-				"GM": "0.662955946835592",
-				"WM": "0.235011026522603",
-				"CSF": "0.077977673655883"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "236.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Occipitotemporal gyrus anterior",
-			"labelIndex": 237,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "DefaultC",
-				"GM": "0.74876491003107",
-				"WM": "0.197650620915654",
-				"CSF": "0.053558801918437"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "237.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Calcarine sulcus anterior",
-			"labelIndex": 238,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisPeri",
-				"GM": "0.691812848575128",
-				"WM": "0.231597861884639",
-				"CSF": "0.076597047555048"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "238.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Precentral gyrus middle",
-			"labelIndex": 239,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotB",
-				"GM": "0.579646587061167",
-				"WM": "0.325786324065403",
-				"CSF": "0.082423302339302"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "239.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Lateral occipital cortex inferior",
-			"labelIndex": 240,
-			"ontologyMetadata": {
-				"Yeo_networks7": "VisCent",
-				"Yeo_networks17": "VisCent",
-				"GM": "0.62893435858562",
-				"WM": "0.30078450057864",
-				"CSF": "0.05933211699861"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "240.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Precuneus posterior",
-			"labelIndex": 241,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContC",
-				"GM": "0.649585869841757",
-				"WM": "0.186162873152985",
-				"CSF": "0.16003743022676"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "241.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Anterior horizontal ramus lateral fissure - right hemisphere",
-			"labelIndex": 242,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnB",
-				"GM": "0.685443827946379",
-				"WM": "0.200930886617759",
-				"CSF": "0.098443625493971"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "242.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Postcentral sulcus middle - right hemisphere",
-			"labelIndex": 243,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.425278993680079",
-				"WM": "0.510508233815042",
-				"CSF": "0.05970546866895"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "243.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Ventromedial prefrontal cortex anterior",
-			"labelIndex": 244,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DefaultB",
-				"Yeo_networks17": "DefaultA",
-				"GM": "0.645865881229974",
-				"WM": "0.143011743711767",
-				"CSF": "0.20798099427187"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "244.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between middle frontal gyrus RH and skull)",
-			"labelIndex": 245,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContB",
-				"GM": "0.535013209226941",
-				"WM": "0.047018182789832",
-				"CSF": "0.142723238810099"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "245.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Cerebrospinal fluid (between precentral and postcentral gyri LH and skull)",
-			"labelIndex": 246,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotA",
-				"GM": "0.387691081979811",
-				"WM": "0.086320102018506",
-				"CSF": "0.162711064634183"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "246.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior longitudinal fasciculus I posterior - right hemisphere",
-			"labelIndex": 247,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.04242710232289",
-				"WM": "0.9574390020863",
-				"CSF": "0.00012674538281"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "247.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior frontal sulcus - right hemisphere",
-			"labelIndex": 248,
-			"ontologyMetadata": {
-				"Yeo_networks7": "ContA",
-				"Yeo_networks17": "ContB",
-				"GM": "0.646785609695388",
-				"WM": "0.249180041739158",
-				"CSF": "0.100899404556012"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "248.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Forceps major - right hemisphere",
-			"labelIndex": 249,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.052368795870457",
-				"WM": "0.944989598630394",
-				"CSF": "0.002652075427261"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "249.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior longitudinal fasciculus II - left hemisphere",
-			"labelIndex": 250,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.02272155605417",
-				"WM": "0.97718958928372",
-				"CSF": "7.52290033099759E-05"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "250.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Supramarginal gyrus anterior - left hemisphere",
-			"labelIndex": 251,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.648288917342557",
-				"WM": "0.199641480813723",
-				"CSF": "0.092991544625713"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "251.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Callosomarginal sulcus inferior",
-			"labelIndex": 252,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SalVentAttnA",
-				"Yeo_networks17": "SalVentAttnA",
-				"GM": "0.654039671934955",
-				"WM": "0.293443072479565",
-				"CSF": "0.052525275571929"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "252.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior temporal sulcus posterior - right hemisphere",
-			"labelIndex": 253,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "TempPar",
-				"GM": "0.347766365756991",
-				"WM": "0.63757055734787",
-				"CSF": "0.014674363184773"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "253.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Superior longitudinal fasciculus I - left hemisphere",
-			"labelIndex": 254,
-			"ontologyMetadata": {
-				"Yeo_networks7": "No network found",
-				"Yeo_networks17": "No network found",
-				"GM": "0.027388489126096",
-				"WM": "0.972509119255379",
-				"CSF": "9.88735149101011E-05"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "254.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Parietal operculum - right hemisphere",
-			"labelIndex": 255,
-			"ontologyMetadata": {
-				"Yeo_networks7": "SomMotA",
-				"Yeo_networks17": "SomMotB",
-				"GM": "0.618787312521481",
-				"WM": "0.341555878124496",
-				"CSF": "0.039658703924301"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "255.nii.gz"
-				}
-			]
-		},
-		{
-			"name": "Precuneus superior",
-			"labelIndex": 256,
-			"ontologyMetadata": {
-				"Yeo_networks7": "DorsAttnB",
-				"Yeo_networks17": "ContC",
-				"GM": "0.661955368319301",
-				"WM": "0.17021968092017",
-				"CSF": "0.167270928955738"
-			},
-			"datasets": [
-				{
-					"kgId": "5438792c-ff2a-4554-9f85-af795f870741",
-					"kgSchema": "minds/core/dataset/v1.0.0",
-					"filename": "256.nii.gz"
-				}
-			]
+			"name": "Middle frontal gyrus anterior - left hemisphere"
+		},
+		{
+			"name": "Middle frontal gyrus anterior - right hemisphere"
+		},
+		{
+			"name": "Cerebrospinal fluid (between superior parietal lobule and skull)"
+		},
+		{
+			"name": "Inferior frontal sulcus posterior - right hemisphere"
+		},
+		{
+			"name": "Superior longitudinal fasciculus II middle"
+		},
+		{
+			"name": "Cuneus anterior"
+		},
+		{
+			"name": "Lateral ventricles anterior horns"
+		},
+		{
+			"name": "Lateral occipital cortex - left hemisphere"
+		},
+		{
+			"name": "Retrocalcarine cortex"
+		},
+		{
+			"name": "Collateral sulcus anterior"
+		},
+		{
+			"name": "Cerebrospinal fluid (between intraparietal sulcus and skull)"
+		},
+		{
+			"name": "Superior frontal gyrus anterior"
+		},
+		{
+			"name": "Cingulate cortex mid-anterior"
+		},
+		{
+			"name": "Cingulate cortex mid-posterior"
+		},
+		{
+			"name": "Posterior cingulate cortex posterior"
+		},
+		{
+			"name": "Pars opercularis pars triangularis - left hemisphere"
+		},
+		{
+			"name": "Medial frontal cortex posterior"
+		},
+		{
+			"name": "Cerebrospinal fluid (between precuneus and skull)"
+		},
+		{
+			"name": "Dorsal visual stream superior"
+		},
+		{
+			"name": "Frontal operculum - left hemisphere"
+		},
+		{
+			"name": "Amygdala"
+		},
+		{
+			"name": "Supramarginal gyrus - left hemisphere"
+		},
+		{
+			"name": "Postcentral gyrus - left hemisphere"
+		},
+		{
+			"name": "Parieto-occipital sulcus middle"
+		},
+		{
+			"name": "Occipital pole inferior"
+		},
+		{
+			"name": "Superior temporal gyrus - left hemisphere"
+		},
+		{
+			"name": "Intraparietal sulcus anterior"
+		},
+		{
+			"name": "Inferior occipital gyrus"
+		},
+		{
+			"name": "Angular gyrus superior - right hemisphere"
+		},
+		{
+			"name": "Postcentral sulcus superior - left hemisphere"
+		},
+		{
+			"name": "Superior occipital sulcus - right hemisphere"
+		},
+		{
+			"name": "Anterior cingulate cortex middle"
+		},
+		{
+			"name": "Cerebellum IX"
+		},
+		{
+			"name": "Corpus callosum forceps minor - left hemisphere"
+		},
+		{
+			"name": "Occipitotemporal sulcus posterior - right hemisphere"
+		},
+		{
+			"name": "Cerebellum VIIb"
+		},
+		{
+			"name": "Caudate inferior"
+		},
+		{
+			"name": "Supramarginal gyrus - right hemisphere"
+		},
+		{
+			"name": "Paracingulate gyrus anterior"
+		},
+		{
+			"name": "Paracingulate gyrus posterior"
+		},
+		{
+			"name": "Thalamus middle"
+		},
+		{
+			"name": "Postcentral sulcus inferior"
+		},
+		{
+			"name": "Ventromedial prefrontal cortex"
+		},
+		{
+			"name": "Precentral sulcus medial"
+		},
+		{
+			"name": "Superior frontal sulcus - left hemisphere"
+		},
+		{
+			"name": "Postcentral sulcus superior - right hemisphere"
+		},
+		{
+			"name": "Supramarginal gyrus anterior - right hemisphere"
+		},
+		{
+			"name": "Frontal operculum - right hemisphere"
+		},
+		{
+			"name": "Lingual gyrus mid-anterior"
+		},
+		{
+			"name": "Cerebellum VIIIb posterior"
+		},
+		{
+			"name": "Central sulcus superior - right hemisphere"
+		},
+		{
+			"name": "Cerebrospinal fluid (between parietal lobe and skull)"
+		},
+		{
+			"name": "Caudate anterior"
+		},
+		{
+			"name": "Superior frontal sulcus anterior - right hemisphere"
+		},
+		{
+			"name": "Corona radiata anterior"
+		},
+		{
+			"name": "Suborbital cortex"
+		},
+		{
+			"name": "Inferior frontal gyrus - left hemisphere"
+		},
+		{
+			"name": "Caudate superior"
+		},
+		{
+			"name": "Fusiform gyrus posterior - left hemisphere"
+		},
+		{
+			"name": "Genu of callosal body"
+		},
+		{
+			"name": "Frontal pole superior"
+		},
+		{
+			"name": "Lingual gyrus middle"
+		},
+		{
+			"name": "Intraparietal sulcus superior - right hemisphere"
+		},
+		{
+			"name": "Angular gyrus inferior - left hemisphere"
+		},
+		{
+			"name": "Precuneus anterior"
+		},
+		{
+			"name": "Anterior commissure"
+		},
+		{
+			"name": "Middle frontal gyrus middle - right hemisphere"
+		},
+		{
+			"name": "Superior frontal gyrus posterior - left hemisphere"
+		},
+		{
+			"name": "Cerebellum VIIIb anterior"
+		},
+		{
+			"name": "Parietal operculum"
+		},
+		{
+			"name": "Isthmus of corpus callosum"
+		},
+		{
+			"name": "Putamen inferior"
+		},
+		{
+			"name": "Supramarginal gyrus"
+		},
+		{
+			"name": "Insula"
+		},
+		{
+			"name": "Inferior frontal sulcus posterior - left hemisphere"
+		},
+		{
+			"name": "Superior frontal gyrus posterior"
+		},
+		{
+			"name": "Cuneus posterior"
+		},
+		{
+			"name": "Lingual gyrus mid-posterior"
+		},
+		{
+			"name": "Frontal pole lateral - right hemisphere"
+		},
+		{
+			"name": "Inferior temporal gyrus posterior - left hemisphere"
+		},
+		{
+			"name": "Cerebellum Crus I - right hemisphere"
+		},
+		{
+			"name": "Cerebrospinal fluid (between superior frontal gyrus anterior and skull)"
+		},
+		{
+			"name": "Central sulcus inferior"
+		},
+		{
+			"name": "Superior occipital sulcus inferior"
+		},
+		{
+			"name": "Ventral visual stream"
+		},
+		{
+			"name": "Heschl\u2019s gyrus"
+		},
+		{
+			"name": "Central and postcentral sulci mid-superior"
+		},
+		{
+			"name": "Cuneus inferior"
+		},
+		{
+			"name": "Transverse occipital sulcus"
+		},
+		{
+			"name": "Posterior cingulate cortex middle"
+		},
+		{
+			"name": "Cerebellum Crus I superior"
+		},
+		{
+			"name": "Frontomarginal gyrus"
+		},
+		{
+			"name": "Optic radiation - left hemisphere"
+		},
+		{
+			"name": "Inferior frontal sulcus anterior - left hemisphere"
+		},
+		{
+			"name": "Hippocampus posterior"
+		},
+		{
+			"name": "Cerebellum IV"
+		},
+		{
+			"name": "Superior occipital gyrus - right hemisphere"
+		},
+		{
+			"name": "Forceps minor - right hemisphere"
+		},
+		{
+			"name": "Precentral sulcus superior"
+		},
+		{
+			"name": "Central sulcus middle"
+		},
+		{
+			"name": "Internal capsule anterior horn - right hemisphere"
+		},
+		{
+			"name": "Posterior cingulate cortex inferior"
+		},
+		{
+			"name": "Lateral ventricles middle"
+		},
+		{
+			"name": "Frontal pole inferior"
+		},
+		{
+			"name": "Putamen anterior"
+		},
+		{
+			"name": "Intraparietal sulcus posterior - left hemisphere"
+		},
+		{
+			"name": "Occipital pole middle"
+		},
+		{
+			"name": "Middle temporal gyrus posterior"
+		},
+		{
+			"name": "Angular gyrus - right hemisphere"
+		},
+		{
+			"name": "Insula anterior"
+		},
+		{
+			"name": "Retrosplenial cortex"
+		},
+		{
+			"name": "Inferior occipital gyrus posterior"
+		},
+		{
+			"name": "Lateral occipital cortex anterior"
+		},
+		{
+			"name": "Corona radiata"
+		},
+		{
+			"name": "Superior parts of central and postcentral sulci - left hemisphere"
+		},
+		{
+			"name": "Superior frontal gyrus medial mid-posterior"
+		},
+		{
+			"name": "Collateral sulcus middle"
+		},
+		{
+			"name": "Intraparietal sulcus inferior - right hemisphere"
+		},
+		{
+			"name": "Calcarine sulcus posterior"
+		},
+		{
+			"name": "Lateral occipital cortex superior"
+		},
+		{
+			"name": "Dorsomedial prefrontal cortex"
+		},
+		{
+			"name": "Occipital pole superior"
+		},
+		{
+			"name": "Callosomarginal sulcus"
+		},
+		{
+			"name": "Intraparietal sulcus posterior - right hemisphere"
+		},
+		{
+			"name": "Hippocampal fissure"
+		},
+		{
+			"name": "Angular gyrus posterior - right hemisphere"
+		},
+		{
+			"name": "Angular gyrus posterior - left hemisphere"
+		},
+		{
+			"name": "Parieto-occipital sulcus mid-anterior"
+		},
+		{
+			"name": "Precentral sulcus - right hemisphere"
+		},
+		{
+			"name": "Pons superior"
+		},
+		{
+			"name": "Suborbital cortex medial"
+		},
+		{
+			"name": "Insula antero-inferior"
+		},
+		{
+			"name": "Thalamus medial"
+		},
+		{
+			"name": "Middle temporal gyrus anterior - right hemisphere"
+		},
+		{
+			"name": "Superior corona radiata - right hemisphere"
+		},
+		{
+			"name": "Cerebrospinal fluid (between middle frontal gyrus posterior and skull)"
+		},
+		{
+			"name": "Paracentral lobule posterior"
+		},
+		{
+			"name": "Pons inferior"
+		},
+		{
+			"name": "Calcarine sulcus middle"
+		},
+		{
+			"name": "Lateral ventricles posterior horns"
+		},
+		{
+			"name": "Inferior frontal gyrus anterior - left hemisphere"
+		},
+		{
+			"name": "Central and postcentral sulci superior"
+		},
+		{
+			"name": "Cerebellum Crus I posterior"
+		},
+		{
+			"name": "Inferior frontal sulcus anterior - right hemisphere"
+		},
+		{
+			"name": "Angular gyrus superior - left hemisphere"
+		},
+		{
+			"name": "Intermediate primus of Jensen - right hemisphere"
+		},
+		{
+			"name": "Cerebellum Crus I lateral - right hemisphere"
+		},
+		{
+			"name": "Lateral fissure anterior"
+		},
+		{
+			"name": "Anterior cingulate cortex inferior"
+		},
+		{
+			"name": "Cerebrospinal fluid (between precentral gyrus and skull)"
+		},
+		{
+			"name": "Parieto-occipital sulcus anterior"
+		},
+		{
+			"name": "Precentral gyrus superior"
+		},
+		{
+			"name": "Cerebrospinal fluid (between parieto-occipital sulcus and skull)"
+		},
+		{
+			"name": "Cerebellum V"
+		},
+		{
+			"name": "Fusiform gyrus - left hemisphere"
+		},
+		{
+			"name": "Cerebellum Crus II"
+		},
+		{
+			"name": "Corona radiata anterior - right hemisphere"
+		},
+		{
+			"name": "Thalamus lateral"
+		},
+		{
+			"name": "Inferior occipital sulcus"
+		},
+		{
+			"name": "Superior temporal sulcus posterior - left hemisphere"
+		},
+		{
+			"name": "Cerebellum VI superior - left hemisphere"
+		},
+		{
+			"name": "Angular gyrus inferior - right hemisphere"
+		},
+		{
+			"name": "Superior temporal gyrus medial"
+		},
+		{
+			"name": "Middle temporal gyrus anterior - left hemisphere"
+		},
+		{
+			"name": "Fluid between cerebellum and pons"
+		},
+		{
+			"name": "Angular gyrus superior"
+		},
+		{
+			"name": "Planum temporale - left hemisphere"
+		},
+		{
+			"name": "Hippocampus anterior"
+		},
+		{
+			"name": "Fornix anterior"
+		},
+		{
+			"name": "Temporal pole"
+		},
+		{
+			"name": "Precentral sulcus inferior - left hemisphere"
+		},
+		{
+			"name": "Cerebellum Crus I anterior - left hemisphere"
+		},
+		{
+			"name": "Cerebellum VI anterior"
+		},
+		{
+			"name": "Middle frontal gyrus posterior - left hemisphere"
+		},
+		{
+			"name": "Cerebrospinal fluid (between middle frontal gyrus anterior and skull)"
+		},
+		{
+			"name": "Anterior cingulate cortex superior"
+		},
+		{
+			"name": "Angular gyrus anterior - left hemisphere"
+		},
+		{
+			"name": "Posterior cingulate"
+		},
+		{
+			"name": "Cerebellum Crus II"
+		},
+		{
+			"name": "Cerebrospinal fluid (between precentral gyrus superior and skull)"
+		},
+		{
+			"name": "Cerebellum VI"
+		},
+		{
+			"name": "Cerebrospinal fluid (between superior frontal gyrus posterior and skull)"
+		},
+		{
+			"name": "Intraparietal sulcus - left hemisphere"
+		},
+		{
+			"name": "Cuneus superior"
+		},
+		{
+			"name": "Frontal pole lateral - left hemisphere"
+		},
+		{
+			"name": "Superior temporal sulcus - right hemisphere"
+		},
+		{
+			"name": "Cerebellum VIIb"
+		},
+		{
+			"name": "Posterior cingulate cortex superior"
+		},
+		{
+			"name": "Superior parietal lobule anterior"
+		},
+		{
+			"name": "Insula posterior inferior"
+		},
+		{
+			"name": "Central opercular cortex"
+		},
+		{
+			"name": "Middle frontal gyrus posterior - right hemisphere"
+		},
+		{
+			"name": "Lingual gyrus lateral"
+		},
+		{
+			"name": "Lateral occipital cortex"
+		},
+		{
+			"name": "Lingual gyrus medial"
+		},
+		{
+			"name": "Superior frontal gyrus posterior - right hemisphere"
+		},
+		{
+			"name": "Parieto-occipital sulcus mid-posterior"
+		},
+		{
+			"name": "Cerebrospinal fluid (between paracentral lobule and skull)"
+		},
+		{
+			"name": "Putamen and globus pallidus"
+		},
+		{
+			"name": "Cerebellum V"
+		},
+		{
+			"name": "Cingulate sulcus posterior"
+		},
+		{
+			"name": "Cerebrospinal fluid (between middle frontal gyrus and skull RH)"
+		},
+		{
+			"name": "Fusiform gyrus - right hemisphere"
+		},
+		{
+			"name": "Planum temporale - right hemisphere"
+		},
+		{
+			"name": "Pericallosal sulcus middle"
+		},
+		{
+			"name": "Thalamus inferior"
+		},
+		{
+			"name": "Middle frontal gyrus posterior"
+		},
+		{
+			"name": "Superior parietal lobule middle"
+		},
+		{
+			"name": "Cerebellum Crus I posterior - left hemisphere"
+		},
+		{
+			"name": "Precentral sulcus inferior - right hemisphere"
+		},
+		{
+			"name": "Cerebellum VI - right hemisphere"
+		},
+		{
+			"name": "Inferior temporal sulcus posterior - left hemisphere"
+		},
+		{
+			"name": "Lingual gyrus anterior"
+		},
+		{
+			"name": "Middle frontal gyrus anterior"
+		},
+		{
+			"name": "Superior parietal lobule posterior"
+		},
+		{
+			"name": "Parieto-occipital sulcus posterior"
+		},
+		{
+			"name": "Superior temporal gyrus anterior"
+		},
+		{
+			"name": "Precuneus inferior"
+		},
+		{
+			"name": "Paracentral lobule"
+		},
+		{
+			"name": "Thalamic radiation mid-posterior"
+		},
+		{
+			"name": "Precentral sulcus superior - left hemisphere"
+		},
+		{
+			"name": "Calcarine sulcus mid-anterior"
+		},
+		{
+			"name": "Cerebellum VI superior"
+		},
+		{
+			"name": "Putamen superior"
+		},
+		{
+			"name": "Middle temporal gyrus middle - right hemisphere"
+		},
+		{
+			"name": "Insula antero-superior"
+		},
+		{
+			"name": "Parietal operculum - left hemisphere"
+		},
+		{
+			"name": "Thalamus superior"
+		},
+		{
+			"name": "Dorsomedial prefrontal cortex posterior"
+		},
+		{
+			"name": "Angular sulcus inferior - right hemisphere"
+		},
+		{
+			"name": "Corona radiata posterior - left hemisphere"
+		},
+		{
+			"name": "Pars opercularis"
+		},
+		{
+			"name": "Cerebellum VI anterior"
+		},
+		{
+			"name": "Superior occipital sulcus - left hemisphere"
+		},
+		{
+			"name": "Dorsomedial prefrontal cortex anterior"
+		},
+		{
+			"name": "Pars orbitalis - right hemisphere"
+		},
+		{
+			"name": "Occipitotemporal gyrus anterior"
+		},
+		{
+			"name": "Calcarine sulcus anterior"
+		},
+		{
+			"name": "Precentral gyrus middle"
+		},
+		{
+			"name": "Lateral occipital cortex inferior"
+		},
+		{
+			"name": "Precuneus posterior"
+		},
+		{
+			"name": "Anterior horizontal ramus lateral fissure - right hemisphere"
+		},
+		{
+			"name": "Postcentral sulcus middle - right hemisphere"
+		},
+		{
+			"name": "Ventromedial prefrontal cortex anterior"
+		},
+		{
+			"name": "Cerebrospinal fluid (between middle frontal gyrus RH and skull)"
+		},
+		{
+			"name": "Cerebrospinal fluid (between precentral and postcentral gyri LH and skull)"
+		},
+		{
+			"name": "Superior longitudinal fasciculus I posterior - right hemisphere"
+		},
+		{
+			"name": "Superior frontal sulcus - right hemisphere"
+		},
+		{
+			"name": "Forceps major - right hemisphere"
+		},
+		{
+			"name": "Superior longitudinal fasciculus II - left hemisphere"
+		},
+		{
+			"name": "Supramarginal gyrus anterior - left hemisphere"
+		},
+		{
+			"name": "Callosomarginal sulcus inferior"
+		},
+		{
+			"name": "Superior temporal sulcus posterior - right hemisphere"
+		},
+		{
+			"name": "Superior longitudinal fasciculus I - left hemisphere"
+		},
+		{
+			"name": "Parietal operculum - right hemisphere"
+		},
+		{
+			"name": "Precuneus superior"
+		}
+	],
+	"ebrains": {
+		"minds/core/dataset/v1.0.0": "5438792c-ff2a-4554-9f85-af795f870741"
+	},
+	"publications": [
+		{
+			"citation": "Dadi K, Varoquaux G, Machlouzarides-Shalit A, Gorgolewski KJ, Wassermann D, Thirion B, Mensch A. Fine-grain atlases of functional modes for fMRI analysis. NeuroImage. 2020;221:117126. doi:10.1016/j.neuroimage.2020.117126",
+			"url": "https://doi.org/10.1016/j.neuroimage.2020.117126"
 		}
 	]
 }

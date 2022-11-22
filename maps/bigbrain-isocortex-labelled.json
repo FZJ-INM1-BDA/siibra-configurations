@@ -1,0 +1,61 @@
+{
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+	},
+	"parcellation": {
+		"@id": "juelich/iav/atlas/v1.0.0/4"
+	},
+	"volumes": [
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1,
+							0,
+							0,
+							-70666600
+						],
+						[
+							0,
+							1,
+							0,
+							-72910000
+						],
+						[
+							0,
+							0,
+							1,
+							-58777700
+						],
+						[
+							0,
+							0,
+							0,
+							1
+						]
+					]
+				}
+			},
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif"
+			}
+		}
+	],
+	"@type": "siibra/map/v0.0.1",
+	"indices": {
+		"Isocortex": [
+			{
+				"volume": 0,
+				"label": 100
+			}
+		],
+		"Non-isocortical structures": [
+			{
+				"volume": 0,
+				"label": 200
+			}
+		]
+	}
+}

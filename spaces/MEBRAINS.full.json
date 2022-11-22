@@ -1,124 +1,117 @@
 {
-  "@type": "minds/core/referencespace/v1.0.0",
-  "name": "Non human primate",
-  "shortName": "Non human primate",
-  "templateType": "neuroglancer/precomputed",
-  "srcVolumeType": "mri",
-  "datasets": [
-    {
-      "@type": "fzj/tmp/volume_type/v0.0.1",
-      "@id": "fzj/tmp/volume_type/v0.0.1/MEBRAINS_T1_masked",
-      "name": "MEBRAINS_T1_masked",
-      "volume_type": "neuroglancer/precomputed",
-      "url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20211018-mebrains-masked-templates/precomputed/images/MEBRAINS_T1_masked",
-      "detail": {
-        "neuroglancer/precomputed": {
-          "transform": [
-            [
-              1.0,
-              0.0,
-              0.0,
-              -108459396.36230469
-            ],
-            [
-              0.0,
-              1.0,
-              0.0,
-              -138556304.93164062
-            ],
-            [
-              0.0,
-              0.0,
-              1.0,
-              -53556301.11694336
-            ],
-            [
-              0.0,
-              0.0,
-              0.0,
-              1.0
-            ]
-          ]
-        }
-      },
-      "space_id": "minds/core/referencespace/v1.0.0/MEBRAINS"
-    },
-    {
-      "@type": "fzj/tmp/volume_type/v0.0.1",
-      "@id": "fzj/tmp/volume_type/v0.0.1/MEBRAINS_T2_masked",
-      "name": "MEBRAINS_T2_masked",
-      "volume_type": "neuroglancer/precomputed",
-      "url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20211018-mebrains-masked-templates/precomputed/images/MEBRAINS_T2_masked",
-      "detail": {
-        "neuroglancer/precomputed": {
-          "transform": [
-            [
-              1.0,
-              0.0,
-              0.0,
-              -108459396.36230469
-            ],
-            [
-              0.0,
-              1.0,
-              0.0,
-              -138556304.93164062
-            ],
-            [
-              0.0,
-              0.0,
-              1.0,
-              -53556301.11694336
-            ],
-            [
-              0.0,
-              0.0,
-              0.0,
-              1.0
-            ]
-          ]
-        }
-      },
-      "space_id": "minds/core/referencespace/v1.0.0/MEBRAINS"
-    },
-    {
-      "@type": "fzj/tmp/volume_type/v0.0.1",
-      "@id": "fzj/tmp/volume_type/v0.0.1/MEBRAINS_CT",
-      "name": "MEBRAINS_CT",
-      "volume_type": "neuroglancer/precomputed",
-      "url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20211018-mebrains-masked-templates/precomputed/images/MEBRAINS_CT",
-      "detail": {
-        "neuroglancer/precomputed": {
-          "transform": [
-            [
-              1.0,
-              0.0,
-              0.0,
-              -108459396.36230469
-            ],
-            [
-              0.0,
-              1.0,
-              0.0,
-              -138556304.93164062
-            ],
-            [
-              0.0,
-              0.0,
-              1.0,
-              -53556297.302246094
-            ],
-            [
-              0.0,
-              0.0,
-              0.0,
-              1.0
-            ]
-          ]
-        }
-      },
-      "space_id": "minds/core/referencespace/v1.0.0/MEBRAINS"
-    }
-  ],
-  "@id": "minds/core/referencespace/v1.0.0/MEBRAINS"
+	"@type": "siibra/space/v0.0.1",
+	"name": "Non human primate",
+	"shortName": "Non human primate",
+	"@id": "minds/core/referencespace/v1.0.0/MEBRAINS",
+	"modality": "mri",
+	"volumes": [
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1.0,
+							0.0,
+							0.0,
+							-108459396.36230469
+						],
+						[
+							0.0,
+							1.0,
+							0.0,
+							-138556304.93164062
+						],
+						[
+							0.0,
+							0.0,
+							1.0,
+							-53556301.11694336
+						],
+						[
+							0.0,
+							0.0,
+							0.0,
+							1.0
+						]
+					]
+				}
+			},
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20211018-mebrains-masked-templates/precomputed/images/MEBRAINS_T1_masked"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1.0,
+							0.0,
+							0.0,
+							-108459396.36230469
+						],
+						[
+							0.0,
+							1.0,
+							0.0,
+							-138556304.93164062
+						],
+						[
+							0.0,
+							0.0,
+							1.0,
+							-53556301.11694336
+						],
+						[
+							0.0,
+							0.0,
+							0.0,
+							1.0
+						]
+					]
+				}
+			},
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20211018-mebrains-masked-templates/precomputed/images/MEBRAINS_T2_masked"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"detail": {
+				"neuroglancer/precomputed": {
+					"transform": [
+						[
+							1.0,
+							0.0,
+							0.0,
+							-108459396.36230469
+						],
+						[
+							0.0,
+							1.0,
+							0.0,
+							-138556304.93164062
+						],
+						[
+							0.0,
+							0.0,
+							1.0,
+							-53556297.302246094
+						],
+						[
+							0.0,
+							0.0,
+							0.0,
+							1.0
+						]
+					]
+				}
+			},
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20211018-mebrains-masked-templates/precomputed/images/MEBRAINS_CT"
+			}
+		}
+	]
 }

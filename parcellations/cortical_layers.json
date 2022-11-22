@@ -2,128 +2,43 @@
 	"name": "BigBrain Cortical Layers Segmentation",
 	"shortName": "BigBrain Cortical Layers",
 	"@id": "juelich/iav/atlas/v1.0.0/3",
-	"@type": "minds/core/parcellationatlas/v1.0.0",
+	"@type": "siibra/parcellation/v0.0.1",
 	"maps": {
 		"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": [
 			"https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_27_cortical_layers"
 		]
 	},
-	"properties": {
-		"description": "The cerebral isocortex has six cytoarchitectonic layers that vary depending on cortical area and local morphology. This datasets provides a 3D segmentation of all cortical and laminar surfaces in the BigBrain, a high-resolution, 3D histological model of the human brain. The segmentation has been computed automatically based on histological intensities along 3D cortical profiles which were sampled between the pial and white matter throughout the dataset. These cortical profiles were segmented into layers using a convolutional neural network. Training profiles were generated from examples of manually segmented layers on cortical regions from 2D histological sections of the BigBrain. From the segmented intensity profiles, surface meshes and voxel masks of all six cortical layers in the space of the Big Brain have been computed.",
-		"publications": [
-			{
-				"doi": "https://doi.org/10.1101/580597",
-				"cite": "Konrad Wagstyl, St\u00e9phanie Larocque, Guillem Cucurull, Claude Lepage, Joseph Paul Cohen, Sebastian Bludau, Nicola Palomero-Gallagher, Thomas Funck, Hannah Spitzer, Timo Dicksheid, Paul C Fletcher, Adriana Romero, Karl Zilles, Katrin Amunts, Yoshua Bengio, Alan C. Evans (2019) Automated segmentation of cortical layers in BigBrain reveals divergent cortical and laminar thickness gradients in sensory and motor cortices. bioRxiv 580597; doi: https://doi.org/10.1101/580597"
-			}
-		]
-	},
-	"datasets": [
-		{
-			"@type": "fzj/tmp/volume_type/v0.0.1",
-			"@id": "fzj/tmp/volume_type/v0.0.1/cortical-layers",
-			"name": "cortical-layers bigbrain ng precomp",
-			"volume_type": "neuroglancer/precomputed",
-			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_27_cortical_layers",
-			"detail": {
-				"neuroglancer/precomputed": {
-					"transform": [
-						[
-							1,
-							0,
-							0,
-							-70677184
-						],
-						[
-							0,
-							1,
-							0,
-							-70010000
-						],
-						[
-							0,
-							0,
-							1,
-							-58788284
-						],
-						[
-							0,
-							0,
-							0,
-							1
-						]
-					]
-				}
-			},
-			"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-			"map_type": "labelled"
-		}
-	],
 	"regions": [
 		{
 			"name": "telencephalon",
 			"children": [
 				{
 					"name": "cortical layer 1",
-					"labelIndex": 1,
-					"rgb": [
-						128,
-						128,
-						0
-					]
+					"rgb": "#808000"
 				},
 				{
 					"name": "cortical layer 2",
-					"labelIndex": 2,
-					"rgb": [
-						250,
-						190,
-						190
-					]
+					"rgb": "#FABEBE"
 				},
 				{
 					"name": "cortical layer 3",
-					"labelIndex": 3,
-					"rgb": [
-						255,
-						215,
-						180
-					]
+					"rgb": "#FFD7B4"
 				},
 				{
 					"name": "cortical layer 4",
-					"labelIndex": 4,
-					"rgb": [
-						255,
-						250,
-						200
-					]
+					"rgb": "#FFFAC8"
 				},
 				{
 					"name": "cortical layer 5",
-					"labelIndex": 5,
-					"rgb": [
-						0,
-						128,
-						128
-					]
+					"rgb": "#008080"
 				},
 				{
 					"name": "cortical layer 6",
-					"labelIndex": 6,
-					"rgb": [
-						230,
-						190,
-						255
-					]
+					"rgb": "#E6BEFF"
 				},
 				{
 					"name": "non-cortical structures",
-					"labelIndex": 7,
-					"rgb": [
-						255,
-						255,
-						255
-					]
+					"rgb": "#FFFFFF"
 				}
 			]
 		}

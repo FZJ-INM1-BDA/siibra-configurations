@@ -1,786 +1,191 @@
 {
 	"@id": "minds/core/parcellationatlas/v1.0.0/2449a7f0-6dd0-4b5a-8f1e-aec0db03679d",
-	"@type": "minds/core/parcellationatlas/v1.0.0",
+	"@type": "siibra/parcellation/v0.0.1",
 	"name": "Waxholm Space rat brain atlas v2",
 	"shortName": "Waxholm Space rat brain atlas v2",
 	"description": "Waxholm Space atlas of the rat brain, expanded with detailed delineations of 13 hippocampal and parahippocampal region (79 structures total).",
-	"publications": [
-		{
-			"cite": "https://www.nitrc.org/frs/?group_id=1081",
-			"doi": "https://www.nitrc.org/frs/?group_id=1081"
-		},
-		{
-			"cite": "Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449",
-			"doi": "10.1016/j.neuroimage.2014.12.080"
-		}
-	],
 	"modality": null,
-	"version": "2",
 	"@version": {
 		"name": "2",
-		"collectionName": "Waxholm Space rat brain atlas",
-		"@prev": "minds/core/parcellationatlas/v1.0.0/11017b35-7056-4593-baad-3934d211daba",
-		"@next": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe"
+		"@prev": "./rat_waxholmv1_01.json"
 	},
-	"datasets": [
-		{
-			"@type": "minds/core/dataset/v1.0.0",
-			"kgSchema": "minds/core/dataset/v1.0.0",
-			"kgId": "2c8ec4fb-45ca-4fe7-accf-c41b5e92c43d"
-		},
-		{
-			"@type": "fzj/tmp/volume_type/v0.0.1",
-			"@id": "fzj/tmp/volume_type/v0.0.1/waxholm_rat_v2",
-			"name": "waxholm_rat_v2",
-			"volume_type": "neuroglancer/precomputed",
-			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/v2",
-			"detail": {
-				"neuroglancer/precomputed": {
-					"transform": [
-						[
-							1,
-							0,
-							0,
-							-9550781
-						],
-						[
-							0,
-							1,
-							0,
-							-24355468
-						],
-						[
-							0,
-							0,
-							1,
-							-9707031
-						],
-						[
-							0,
-							0,
-							0,
-							1
-						]
-					]
-				}
-			},
-			"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
-			"map_type": "labelled"
-		}
-	],
 	"regions": [
 		{
 			"name": "Whole brain",
-			"labelIndex": null,
-			"rgb": null,
-			"fullId": {
-				"kg": {
-					"kgSchema": "minds/core/parcellationregion/v1.0.0",
-					"kgId": "b2b56201-472c-4f70-842f-cf2133eacaba"
-				}
-			},
-			"relatedAreas": [
-				{
-					"name": "Rat Whole brain (v2)",
-					"fullId": {
-						"kg": {
-							"kgSchema": "minds/core/parcellationregion/v1.0.0",
-							"kgId": "b2b56201-472c-4f70-842f-cf2133eacaba",
-							"alternateOf": []
-						}
-					}
-				}
-			],
 			"children": [
 				{
 					"name": "White matter",
-					"description": null,
-					"parent_name": null,
-					"synonyms": [
-						""
-					],
-					"acronyms": [
-						""
-					],
-					"labelIndex": null,
-					"rgb": null,
 					"children": [
 						{
 							"name": "corpus callosum and associated subcortical white matter",
-							"description": null,
-							"parent_name": "White matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 67,
-							"rgb": [
-								255,
-								110,
-								0
-							]
+							"rgb": "#FF6E00"
 						},
 						{
 							"name": "Anterior commissure",
-							"description": null,
-							"parent_name": "White matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": null,
-							"rgb": null,
 							"children": [
 								{
 									"name": "anterior commissure, anterior part",
-									"description": null,
-									"parent_name": "Anterior commissure",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 36,
-									"rgb": [
-										124,
-										252,
-										0
-									]
+									"rgb": "#7CFC00"
 								},
 								{
 									"name": "anterior commissure, posterior part",
-									"description": null,
-									"parent_name": "Anterior commissure",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 37,
-									"rgb": [
-										255,
-										186,
-										0
-									]
+									"rgb": "#FFBA00"
 								},
 								{
 									"name": "anterior commissure, intrabulbar part",
-									"description": null,
-									"parent_name": "Anterior commissure",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 73,
-									"rgb": [
-										255,
-										79,
-										206
-									]
+									"rgb": "#FF4FCE"
 								}
 							]
 						},
 						{
 							"name": "Hippocampal white matter",
-							"description": null,
-							"parent_name": "White matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": null,
-							"rgb": null,
 							"children": [
 								{
 									"name": "alveus of the hippocampus",
-									"description": null,
-									"parent_name": "Hippocampal white matter",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 6,
-									"rgb": [
-										255,
-										0,
-										255
-									]
+									"rgb": "#FF00FF"
 								},
 								{
 									"name": "ventral hippocampal commissure",
-									"description": null,
-									"parent_name": "Hippocampal white matter",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 38,
-									"rgb": [
-										174,
-										0,
-										232
-									]
+									"rgb": "#AE00E8"
 								},
 								{
 									"name": "fornix",
-									"description": null,
-									"parent_name": "Hippocampal white matter",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 52,
-									"rgb": [
-										21,
-										192,
-										255
-									]
+									"rgb": "#15C0FF"
 								},
 								{
 									"name": "fimbria of the hippocampus",
-									"description": null,
-									"parent_name": "Hippocampal white matter",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 59,
-									"rgb": [
-										0,
-										255,
-										29
-									]
+									"rgb": "#00FF1D"
 								}
 							]
 						},
 						{
 							"name": "Corticofugal pathways",
-							"description": null,
-							"parent_name": "White matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": null,
-							"rgb": null,
 							"children": [
 								{
 									"name": "corticofugal pathways",
-									"description": null,
-									"parent_name": "Corticofugal pathways",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 1,
-									"rgb": [
-										255,
-										52,
-										39
-									]
+									"rgb": "#FF3427"
 								},
 								{
 									"name": "pyramidal decussation",
-									"description": null,
-									"parent_name": "Corticofugal pathways",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 85,
-									"rgb": [
-										114,
-										9,
-										212
-									]
+									"rgb": "#7209D4"
 								}
 							]
 						},
 						{
 							"name": "Medial lemniscus",
-							"description": null,
-							"parent_name": "White matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": null,
-							"rgb": null,
 							"children": [
 								{
 									"name": "medial lemniscus",
-									"description": null,
-									"parent_name": "Medial lemniscus",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 34,
-									"rgb": [
-										212,
-										255,
-										0
-									]
+									"rgb": "#D4FF00"
 								},
 								{
 									"name": "medial lemniscus decussation",
-									"description": null,
-									"parent_name": "Medial lemniscus",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 84,
-									"rgb": [
-										65,
-										150,
-										255
-									]
+									"rgb": "#4196FF"
 								}
 							]
 						},
 						{
 							"name": "Thalamic tracts",
-							"description": null,
-							"parent_name": "White matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": null,
-							"rgb": null,
 							"children": [
 								{
 									"name": "mammillothalamic tract",
-									"description": null,
-									"parent_name": "Thalamic tracts",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 53,
-									"rgb": [
-										238,
-										186,
-										0
-									]
+									"rgb": "#EEBA00"
 								},
 								{
 									"name": "commissural stria terminalis",
-									"description": null,
-									"parent_name": "Thalamic tracts",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 54,
-									"rgb": [
-										173,
-										255,
-										47
-									]
+									"rgb": "#ADFF2F"
 								},
 								{
 									"name": "fasciculus retroflexus",
-									"description": null,
-									"parent_name": "Thalamic tracts",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 60,
-									"rgb": [
-										244,
-										67,
-										69
-									]
+									"rgb": "#F44345"
 								},
 								{
 									"name": "stria medullaris of the thalamus",
-									"description": null,
-									"parent_name": "Thalamic tracts",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 61,
-									"rgb": [
-										255,
-										252,
-										0
-									]
+									"rgb": "#FFFC00"
 								},
 								{
 									"name": "stria terminalis",
-									"description": null,
-									"parent_name": "Thalamic tracts",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 62,
-									"rgb": [
-										238,
-										117,
-										51
-									]
+									"rgb": "#EE7533"
 								},
 								{
 									"name": "habenular commissure",
-									"description": null,
-									"parent_name": "Thalamic tracts",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 80,
-									"rgb": [
-										69,
-										235,
-										202
-									]
+									"rgb": "#45EBCA"
 								}
 							]
 						},
 						{
 							"name": "posterior commissure",
-							"description": null,
-							"parent_name": "White matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 63,
-							"rgb": [
-								255,
-								0,
-								218
-							]
+							"rgb": "#FF00DA"
 						},
 						{
 							"name": "Facial nerve",
-							"description": null,
-							"parent_name": "White matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": null,
-							"rgb": null,
 							"children": [
 								{
 									"name": "facial nerve",
-									"description": null,
-									"parent_name": "Facial nerve",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 35,
-									"rgb": [
-										0,
-										176,
-										63
-									]
+									"rgb": "#00B03F"
 								},
 								{
 									"name": "ascending fibers of the facial nerve",
-									"description": null,
-									"parent_name": "Facial nerve",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 72,
-									"rgb": [
-										179,
-										28,
-										53
-									]
+									"rgb": "#B31C35"
 								},
 								{
 									"name": "genu of the facial nerve",
-									"description": null,
-									"parent_name": "Facial nerve",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 57,
-									"rgb": [
-										250,
-										244,
-										247
-									]
+									"rgb": "#FAF4F7"
 								}
 							]
 						},
 						{
 							"name": "Optic fiber system and supraoptic decussation",
-							"description": null,
-							"parent_name": "White matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": null,
-							"rgb": null,
 							"children": [
 								{
 									"name": "optic nerve",
-									"description": null,
-									"parent_name": "Optic fiber system and supraoptic decussation",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 41,
-									"rgb": [
-										48,
-										218,
-										0
-									]
+									"rgb": "#30DA00"
 								},
 								{
 									"name": "optic tract and optic chiasm",
-									"description": null,
-									"parent_name": "Optic fiber system and supraoptic decussation",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 42,
-									"rgb": [
-										38,
-										126,
-										255
-									]
+									"rgb": "#267EFF"
 								},
 								{
 									"name": "supraoptic decussation",
-									"description": null,
-									"parent_name": "Optic fiber system and supraoptic decussation",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 83,
-									"rgb": [
-										250,
-										170,
-										64
-									]
+									"rgb": "#FAAA40"
 								}
 							]
 						},
 						{
 							"name": "spinal trigeminal tract",
-							"description": null,
-							"parent_name": "White matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 76,
-							"rgb": [
-								250,
-								128,
-								114
-							]
+							"rgb": "#FA8072"
 						},
 						{
 							"name": "White matter of the tectum",
-							"description": null,
-							"parent_name": "White matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": null,
-							"rgb": null,
 							"children": [
 								{
 									"name": "commissure of the superior colliculus",
-									"description": null,
-									"parent_name": "White matter of the tectum",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 46,
-									"rgb": [
-										33,
-										230,
-										255
-									]
+									"rgb": "#21E6FF"
 								},
 								{
 									"name": "brachium of the superior colliculus",
-									"description": null,
-									"parent_name": "White matter of the tectum",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 68,
-									"rgb": [
-										188,
-										32,
-										173
-									]
+									"rgb": "#BC20AD"
 								},
 								{
 									"name": "commissure of the inferior colliculus",
-									"description": null,
-									"parent_name": "White matter of the tectum",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 69,
-									"rgb": [
-										147,
-										255,
-										39
-									]
+									"rgb": "#93FF27"
 								}
 							]
 						},
 						{
 							"name": "Cerebellar and precerebellar white matter",
-							"description": null,
-							"parent_name": "White matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": null,
-							"rgb": null,
 							"children": [
 								{
 									"name": "inferior cerebellar peduncle",
-									"description": null,
-									"parent_name": "Cerebellar and precerebellar white matter",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 7,
-									"rgb": [
-										52,
-										255,
-										13
-									]
+									"rgb": "#34FF0D"
 								},
 								{
 									"name": "middle cerebellar peduncle",
-									"description": null,
-									"parent_name": "Cerebellar and precerebellar white matter",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 78,
-									"rgb": [
-										134,
-										204,
-										76
-									]
+									"rgb": "#86CC4C"
 								},
 								{
 									"name": "transverse fibers of the pons",
-									"description": null,
-									"parent_name": "Cerebellar and precerebellar white matter",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 79,
-									"rgb": [
-										128,
-										170,
-										255
-									]
+									"rgb": "#80AAFF"
 								}
 							]
 						}
@@ -788,1043 +193,280 @@
 				},
 				{
 					"name": "Gray matter",
-					"description": null,
-					"parent_name": null,
-					"synonyms": [
-						""
-					],
-					"acronyms": [
-						""
-					],
-					"labelIndex": null,
-					"rgb": null,
 					"children": [
 						{
 							"name": "Olfactory system",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": null,
-							"rgb": null,
 							"children": [
 								{
 									"name": "glomerular layer of the accessory olfactory bulb",
-									"description": null,
-									"parent_name": "Olfactory system",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 64,
-									"rgb": [
-										15,
-										109,
-										230
-									]
+									"rgb": "#0F6DE6"
 								},
 								{
 									"name": "glomerular layer of the olfactory bulb",
-									"description": null,
-									"parent_name": "Olfactory system",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 65,
-									"rgb": [
-										255,
-										227,
-										0
-									]
+									"rgb": "#FFE300"
 								},
 								{
 									"name": "olfactory bulb",
-									"description": null,
-									"parent_name": "Olfactory system",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 66,
-									"rgb": [
-										255,
-										135,
-										0
-									]
+									"rgb": "#FF8700"
 								}
 							]
 						},
 						{
 							"name": "Cerebral cortex including the neocortex and the hippocampus",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": null,
-							"rgb": null,
 							"children": [
 								{
 									"name": "frontal association cortex",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 77,
-									"rgb": [
-										206,
-										211,
-										7
-									]
+									"rgb": "#CED307"
 								},
 								{
 									"name": "neocortex",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 92,
-									"rgb": [
-										3,
-										193,
-										45
-									],
-									"relatedAreas": [
-										{
-											"name": "Rat Neocortex (v2)",
-											"fullId": {
-												"kg": {
-													"kgSchema": "minds/core/parcellationregion/v1.0.0",
-													"kgId": "b4ab5ba5-0753-4ffb-80f9-ccd5d85cb6ac",
-													"alternateOf": []
-												}
-											}
-										}
-									]
+									"ebrains": {
+										"minds/core/parcellationregion/v1.0.0": "b4ab5ba5-0753-4ffb-80f9-ccd5d85cb6ac"
+									},
+									"rgb": "#03C12D"
 								},
 								{
 									"name": "cingulate cortex, area 2",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 10,
-									"rgb": [
-										29,
-										104,
-										235
-									]
+									"rgb": "#1D68EB"
 								},
 								{
 									"name": "cornu ammonis 1",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 95,
-									"rgb": [
-										165,
-										131,
-										107
-									],
-									"relatedAreas": [
-										{
-											"name": "Rat Cornu ammonis 1 (v2)",
-											"fullId": {
-												"kg": {
-													"kgSchema": "minds/core/parcellationregion/v1.0.0",
-													"kgId": "8b9dc624-b341-4b6a-9a9a-ac651c704daf",
-													"alternateOf": []
-												}
-											}
-										}
-									]
+									"ebrains": {
+										"minds/core/parcellationregion/v1.0.0": "8b9dc624-b341-4b6a-9a9a-ac651c704daf"
+									},
+									"rgb": "#A5836B"
 								},
 								{
 									"name": "dentate gyrus",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [
-										"DG"
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 96,
-									"rgb": [
-										91,
-										45,
-										10
-									]
+									"rgb": "#5B2D0A"
 								},
 								{
 									"name": "cornu ammonis 2",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 97,
-									"rgb": [
-										255,
-										255,
-										0
-									],
-									"relatedAreas": [
-										{
-											"name": "Rat Cornu ammonis 2 (v2)",
-											"fullId": {
-												"kg": {
-													"kgSchema": "minds/core/parcellationregion/v1.0.0",
-													"kgId": "3017940f-ea61-47d1-8b8a-fc2bee012980",
-													"alternateOf": []
-												}
-											}
-										}
-									]
+									"ebrains": {
+										"minds/core/parcellationregion/v1.0.0": "3017940f-ea61-47d1-8b8a-fc2bee012980"
+									},
+									"rgb": "#FFFF00"
 								},
 								{
 									"name": "cornu ammonis 3",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 98,
-									"rgb": [
-										217,
-										104,
-										13
-									],
-									"relatedAreas": [
-										{
-											"name": "Rat Cornu ammonis 3 (v2)",
-											"fullId": {
-												"kg": {
-													"kgSchema": "minds/core/parcellationregion/v1.0.0",
-													"kgId": "28b4ba4a-eeb3-4307-8b9c-1d3eca66618e",
-													"alternateOf": []
-												}
-											}
-										}
-									]
+									"ebrains": {
+										"minds/core/parcellationregion/v1.0.0": "28b4ba4a-eeb3-4307-8b9c-1d3eca66618e"
+									},
+									"rgb": "#D9680D"
 								},
 								{
 									"name": "fasciola cinereum",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 99,
-									"rgb": [
-										255,
-										82,
-										82
-									]
+									"rgb": "#FF5252"
 								},
 								{
 									"name": "subiculum",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 100,
-									"rgb": [
-										255,
-										192,
-										0
-									]
+									"rgb": "#FFC000"
 								},
 								{
 									"name": "postrhinal cortex",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 108,
-									"rgb": [
-										40,
-										112,
-										130
-									]
+									"rgb": "#287082"
 								},
 								{
 									"name": "presubiculum",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 109,
-									"rgb": [
-										80,
-										123,
-										175
-									]
+									"rgb": "#507BAF"
 								},
 								{
 									"name": "parasubiculum",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 110,
-									"rgb": [
-										23,
-										54,
-										96
-									]
+									"rgb": "#173660"
 								},
 								{
 									"name": "perirhinal area 35",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 112,
-									"rgb": [
-										205,
-										51,
-										255
-									],
-									"relatedAreas": [
-										{
-											"name": "Rat Perirhinal area 35 (v2)",
-											"fullId": {
-												"kg": {
-													"kgSchema": "minds/core/parcellationregion/v1.0.0",
-													"kgId": "b700dc11-cdd8-4e95-9605-25d1aa24bc46",
-													"alternateOf": []
-												}
-											}
-										}
-									]
+									"ebrains": {
+										"minds/core/parcellationregion/v1.0.0": "b700dc11-cdd8-4e95-9605-25d1aa24bc46"
+									},
+									"rgb": "#CD33FF"
 								},
 								{
 									"name": "perirhinal area 36",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 113,
-									"rgb": [
-										112,
-										48,
-										160
-									],
-									"relatedAreas": [
-										{
-											"name": "Rat Perirhinal area 36 (v2)",
-											"fullId": {
-												"kg": {
-													"kgSchema": "minds/core/parcellationregion/v1.0.0",
-													"kgId": "ae4b1c4f-83a4-48db-8f8c-2167c4ebc2d5",
-													"alternateOf": []
-												}
-											}
-										}
-									]
+									"ebrains": {
+										"minds/core/parcellationregion/v1.0.0": "ae4b1c4f-83a4-48db-8f8c-2167c4ebc2d5"
+									},
+									"rgb": "#7030A0"
 								},
 								{
 									"name": "entorhinal cortex",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 114,
-									"rgb": [
-										12,
-										92,
-										8
-									]
+									"rgb": "#0C5C08"
 								},
 								{
 									"name": "lateral entorhinal cortex",
-									"description": null,
-									"parent_name": "Cerebral cortex including the neocortex and the hippocampus",
-									"synonyms": [],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 115,
-									"rgb": [
-										221,
-										166,
-										36
-									]
+									"rgb": "#DDA624"
 								}
 							]
 						},
 						{
 							"name": "striatum",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 30,
-							"rgb": [
-								129,
-								79,
-								255
-							],
-							"relatedAreas": [
-								{
-									"name": "Rat Striatum (v2)",
-									"fullId": {
-										"kg": {
-											"kgSchema": "minds/core/parcellationregion/v1.0.0",
-											"kgId": "39ed89c6-4653-4fd3-81cf-3be1c60ead10",
-											"alternateOf": []
-										}
-									}
-								}
-							]
+							"ebrains": {
+								"minds/core/parcellationregion/v1.0.0": "39ed89c6-4653-4fd3-81cf-3be1c60ead10"
+							},
+							"rgb": "#814FFF"
 						},
 						{
 							"name": "globus pallidus",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 31,
-							"rgb": [
-								255,
-								145,
-								186
-							],
-							"relatedAreas": [
-								{
-									"name": "Rat Globus pallidus (v2)",
-									"fullId": {
-										"kg": {
-											"kgSchema": "minds/core/parcellationregion/v1.0.0",
-											"kgId": "9ab96590-23e6-413f-8055-6b6dbc543dce",
-											"alternateOf": []
-										}
-									}
-								}
-							]
+							"ebrains": {
+								"minds/core/parcellationregion/v1.0.0": "9ab96590-23e6-413f-8055-6b6dbc543dce"
+							},
+							"rgb": "#FF91BA"
 						},
 						{
 							"name": "entopeduncular nucleus",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 32,
-							"rgb": [
-								26,
-								231,
-								255
-							],
-							"relatedAreas": [
-								{
-									"name": "Rat Entopeduncular nucleus (v2)",
-									"fullId": {
-										"kg": {
-											"kgSchema": "minds/core/parcellationregion/v1.0.0",
-											"kgId": "0026b0c8-da96-4329-8e29-8504dc2790d3",
-											"alternateOf": []
-										}
-									}
-								}
-							]
+							"ebrains": {
+								"minds/core/parcellationregion/v1.0.0": "0026b0c8-da96-4329-8e29-8504dc2790d3"
+							},
+							"rgb": "#1AE7FF"
 						},
 						{
 							"name": "subthalamic nucleus",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 3,
-							"rgb": [
-								0,
-								0,
-								255
-							],
-							"relatedAreas": [
-								{
-									"name": "Rat Subthalamic nucleus (v2)",
-									"fullId": {
-										"kg": {
-											"kgSchema": "minds/core/parcellationregion/v1.0.0",
-											"kgId": "916d047f-a4f3-4d5b-89f9-b7c8ddc98edf",
-											"alternateOf": []
-										}
-									}
-								}
-							]
+							"ebrains": {
+								"minds/core/parcellationregion/v1.0.0": "916d047f-a4f3-4d5b-89f9-b7c8ddc98edf"
+							},
+							"rgb": "#0000FF"
 						},
 						{
 							"name": "basal forebrain region",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 82,
-							"rgb": [
-								225,
-								240,
-								13
-							]
+							"rgb": "#E1F00D"
 						},
 						{
 							"name": "septal region",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 40,
-							"rgb": [
-								255,
-								8,
-								0
-							]
+							"rgb": "#FF0800"
 						},
 						{
 							"name": "thalamus",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 39,
-							"rgb": [
-								0,
-								100,
-								0
-							],
-							"relatedAreas": [
-								{
-									"name": "Rat Thalamus (v2)",
-									"fullId": {
-										"kg": {
-											"kgSchema": "minds/core/parcellationregion/v1.0.0",
-											"kgId": "9f7936a8-08bd-4fc0-b8c7-f057befac01d",
-											"alternateOf": []
-										}
-									}
-								}
-							]
+							"ebrains": {
+								"minds/core/parcellationregion/v1.0.0": "9f7936a8-08bd-4fc0-b8c7-f057befac01d"
+							},
+							"rgb": "#006400"
 						},
 						{
 							"name": "bed nucleus of the stria terminalis",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 93,
-							"rgb": [
-								0,
-								8,
-								182
-							]
+							"rgb": "#0008B6"
 						},
 						{
 							"name": "nucleus of the stria medullaris",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 81,
-							"rgb": [
-								222,
-								7,
-								237
-							]
+							"rgb": "#DE07ED"
 						},
 						{
 							"name": "hypothalamic region",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 48,
-							"rgb": [
-								226,
-								120,
-								161
-							],
-							"relatedAreas": [
-								{
-									"name": "Rat Hypothalamic region (v2)",
-									"fullId": {
-										"kg": {
-											"kgSchema": "minds/core/parcellationregion/v1.0.0",
-											"kgId": "e96b882e-cd42-4e10-9e72-a87219c3f9b2",
-											"alternateOf": []
-										}
-									}
-								}
-							]
+							"ebrains": {
+								"minds/core/parcellationregion/v1.0.0": "e96b882e-cd42-4e10-9e72-a87219c3f9b2"
+							},
+							"rgb": "#E278A1"
 						},
 						{
 							"name": "pineal gland",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 43,
-							"rgb": [
-								218,
-								170,
-								62
-							]
+							"rgb": "#DAAA3E"
 						},
 						{
 							"name": "Tectum",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": null,
-							"rgb": null,
 							"children": [
 								{
 									"name": "inferior colliculus",
-									"description": null,
-									"parent_name": "Tectum",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 49,
-									"rgb": [
-										238,
-										47,
-										44
-									]
+									"rgb": "#EE2F2C"
 								},
 								{
 									"name": "pretectal region",
-									"description": null,
-									"parent_name": "Tectum",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 94,
-									"rgb": [
-										255,
-										87,
-										30
-									]
+									"rgb": "#FF571E"
 								},
 								{
 									"name": "superficial gray layer of the superior colliculus",
-									"description": null,
-									"parent_name": "Tectum",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 50,
-									"rgb": [
-										86,
-										0,
-										221
-									]
+									"rgb": "#5600DD"
 								},
 								{
 									"name": "deeper layers of the superior colliculus",
-									"description": null,
-									"parent_name": "Tectum",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 55,
-									"rgb": [
-										225,
-										151,
-										15
-									]
+									"rgb": "#E1970F"
 								}
 							]
 						},
 						{
 							"name": "substantia nigra",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 2,
-							"rgb": [
-								255,
-								186,
-								0
-							],
-							"relatedAreas": [
-								{
-									"name": "Rat Substantia nigra (v2)",
-									"fullId": {
-										"kg": {
-											"kgSchema": "minds/core/parcellationregion/v1.0.0",
-											"kgId": "4338cc81-ab0f-4972-bbba-c86328a8c66b",
-											"alternateOf": []
-										}
-									}
-								}
-							]
+							"ebrains": {
+								"minds/core/parcellationregion/v1.0.0": "4338cc81-ab0f-4972-bbba-c86328a8c66b"
+							},
+							"rgb": "#FFBA00"
 						},
 						{
 							"name": "interpeduncular nucleus",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 71,
-							"rgb": [
-								63,
-								192,
-								255
-							]
+							"rgb": "#3FC0FF"
 						},
 						{
 							"name": "periaqueductal gray",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 51,
-							"rgb": [
-								7,
-								255,
-								89
-							]
+							"rgb": "#07FF59"
 						},
 						{
 							"name": "pontine nuclei",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 58,
-							"rgb": [
-								0,
-								215,
-								11
-							],
-							"relatedAreas": [
-								{
-									"name": "Rat Pontine nuclei (v2)",
-									"fullId": {
-										"kg": {
-											"kgSchema": "minds/core/parcellationregion/v1.0.0",
-											"kgId": "9c431f67-90c5-4a37-83c8-9706e62c1966",
-											"alternateOf": []
-										}
-									}
-								}
-							]
+							"ebrains": {
+								"minds/core/parcellationregion/v1.0.0": "9c431f67-90c5-4a37-83c8-9706e62c1966"
+							},
+							"rgb": "#00D70B"
 						},
 						{
 							"name": "Cerebellum",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": null,
-							"rgb": null,
-							"fullId": {
-								"kg": {
-									"kgSchema": "minds/core/parcellationregion/v1.0.0",
-									"kgId": "a844d80f-1d94-41a0-901a-14ae257519db"
-								}
-							},
-							"relatedAreas": [
-								{
-									"name": "Rat Cerebellum (v2)",
-									"fullId": {
-										"kg": {
-											"kgSchema": "minds/core/parcellationregion/v1.0.0",
-											"kgId": "a844d80f-1d94-41a0-901a-14ae257519db",
-											"alternateOf": []
-										}
-									}
-								}
-							],
 							"children": [
 								{
 									"name": "molecular cell layer of the cerebellum",
-									"description": null,
-									"parent_name": "Cerebellum",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 4,
-									"rgb": [
-										255,
-										255,
-										0
-									]
+									"rgb": "#FFFF00"
 								},
 								{
 									"name": "deeper cerebellum",
-									"description": null,
-									"parent_name": "Cerebellum",
-									"synonyms": [
-										""
-									],
-									"acronyms": [
-										""
-									],
-									"labelIndex": 5,
-									"rgb": [
-										0,
-										255,
-										255
-									]
+									"rgb": "#00FFFF"
 								}
-							]
+							],
+							"ebrains": {
+								"minds/core/parcellationregion/v1.0.0": "a844d80f-1d94-41a0-901a-14ae257519db"
+							}
 						},
 						{
 							"name": "inferior olive",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 74,
-							"rgb": [
-								0,
-								246,
-								14
-							]
+							"rgb": "#00F60E"
 						},
 						{
 							"name": "spinal trigeminal nucleus",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 75,
-							"rgb": [
-								91,
-								241,
-								255
-							]
+							"rgb": "#5BF1FF"
 						},
 						{
 							"name": "periventricular gray",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 56,
-							"rgb": [
-								235,
-								87,
-								255
-							]
+							"rgb": "#EB57FF"
 						},
 						{
 							"name": "brain stem",
-							"description": null,
-							"parent_name": "Gray matter",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 47,
-							"rgb": [
-								153,
-								83,
-								255
-							]
+							"rgb": "#9953FF"
 						}
 					]
 				},
 				{
 					"name": "Spinal cord",
-					"description": null,
-					"parent_name": null,
-					"synonyms": [
-						""
-					],
-					"acronyms": [
-						""
-					],
-					"labelIndex": null,
-					"rgb": null,
 					"children": [
 						{
 							"name": "spinal cord",
-							"description": null,
-							"parent_name": "Spinal cord",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 45,
-							"rgb": [
-								134,
-								255,
-								90
-							]
+							"rgb": "#86FF5A"
 						},
 						{
 							"name": "central canal",
-							"description": null,
-							"parent_name": "Spinal cord",
-							"synonyms": [
-								""
-							],
-							"acronyms": [
-								""
-							],
-							"labelIndex": 70,
-							"rgb": [
-								39,
-								244,
-								253
-							]
+							"rgb": "#27F4FD"
 						}
 					]
 				}
-			]
+			],
+			"ebrains": {
+				"minds/core/parcellationregion/v1.0.0": "b2b56201-472c-4f70-842f-cf2133eacaba"
+			}
+		}
+	],
+	"ebrains": {
+		"minds/core/dataset/v1.0.0": "2c8ec4fb-45ca-4fe7-accf-c41b5e92c43d"
+	},
+	"publications": [
+		{
+			"citation": "https://www.nitrc.org/frs/?group_id=1081",
+			"url": "https://www.nitrc.org/frs/?group_id=1081"
+		},
+		{
+			"citation": "Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449",
+			"url": "https://doi.org/10.1016/j.neuroimage.2014.12.080"
 		}
 	]
 }
