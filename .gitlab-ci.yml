@@ -22,6 +22,10 @@ check_schema:
     git -C $PWD log -n 1
     python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $PWD
 
+check_map_volume_idx:
+  stage: test
+  script: |
+    python _ci/verify_volume_idx.py
 
 region_attr_compliance:
   stage: test
