@@ -1,206 +1,64 @@
 {
-    "@type": "siibra/feature/volume/v1.0.0",
-    "name": "Fiber structures of a human hippocampus based on joint DMRI, 3D-PLI, and TPFM acquisitions",
-    "kgId": "b08a7dbc-7c75-4ce7-905b-690b2b1e8957",
-    "volumeSrc": [
-        {
-            "@type": "fzj/tmp/volume_type/v0.0.1",
-            "@id": "fzj/tmp/volume_type/v0.0.1/pli-hippocampus-fom-rgb",
-            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-            "volume_type": "neuroglancer/precomputed",
-            "name": "PLI Fiber Orientation RBG Channel",
-            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/HSV-FOM",
-            "detail": {
-                "neuroglancer/precomputed": {
-                    "shader": "void main(){ float r = toNormalized(getDataValue(0)); float g = toNormalized(getDataValue(1)); float b = toNormalized(getDataValue(2)); if (r < 0.1) emitTransparent(); else emitRGB(vec3(r, g, b)); }",
-                    "opacity": 1,
-                    "transform": [
-                        [
-                            -0.74000001,
-                            0,
-                            0,
-                            38134608
-                        ],
-                        [
-                            0,
-                            -0.26530117,
-                            -0.6908077,
-                            13562314
-                        ],
-                        [
-                            0,
-                            -0.6908077,
-                            0.26530117,
-                            -3964904
-                        ],
-                        [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
-                    ]
-                }
-            }
-        },
-        {
-            "@type": "fzj/tmp/volume_type/v0.0.1",
-            "@id": "fzj/tmp/volume_type/v0.0.1/pli-hippocampus-blockface",
-            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-            "volume_type": "neuroglancer/precomputed",
-            "name": "Blockface Image",
-            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI",
-            "detail": {
-                "neuroglancer/precomputed": {
-                    "shader": "void main(){ float x = toNormalized(getDataValue()); if (x < 0.1) { emitTransparent(); } else { emitRGB(vec3(0.8 * x, x * 1., 0.8 * x )); } }",
-                    "opacity": 1,
-                    "transform": [
-                        [
-                            0.7400000095367432,
-                            0,
-                            0,
-                            11020745
-                        ],
-                        [
-                            0,
-                            0.2653011679649353,
-                            -0.6908077001571655,
-                            2533286.5
-                        ],
-                        [
-                            0,
-                            0.6908077001571655,
-                            0.2653011679649353,
-                            -32682974
-                        ],
-                        [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
-                    ]
-                }
-            }
-        },
-        {
-            "@type": "fzj/tmp/volume_type/v0.0.1",
-            "@id": "fzj/tmp/volume_type/v0.0.1/pli-hippocampus-transmittance",
-            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-            "volume_type": "neuroglancer/precomputed",
-            "name": "PLI Transmittance",
-            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI-TIM",
-            "detail": {
-                "neuroglancer/precomputed": {
-                    "shader": "void main(){ float x = toNormalized(getDataValue()); if (x > 0.9) { emitTransparent(); } else { emitRGB(vec3(x * 1., x * 0.8, x * 0.8 )); } }",
-                    "opacity": 1,
-                    "transform": [
-                        [
-                            0.7400000095367432,
-                            0,
-                            0,
-                            11020745
-                        ],
-                        [
-                            0,
-                            0.2653011679649353,
-                            -0.6908077001571655,
-                            2533286.5
-                        ],
-                        [
-                            0,
-                            0.6908077001571655,
-                            0.2653011679649353,
-                            -32682974
-                        ],
-                        [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
-                    ]
-                }
-            }
-        },
-        {
-            "@type": "fzj/tmp/volume_type/v0.0.1",
-            "@id": "fzj/tmp/volume_type/v0.0.1/pli-hippocampus-t2",
-            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-            "volume_type": "neuroglancer/precomputed",
-            "name": "T2w MRI",
-            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI-MRI",
-            "detail": {
-                "neuroglancer/precomputed": {
-                    "shader": "void main(){ float x = toNormalized(getDataValue()); if (x < 0.1) { emitTransparent(); } else { emitRGB(vec3(0.8 * x, 0.8 * x, x * 1. )); } }",
-                    "opacity": 1,
-                    "transform": [
-                        [
-                            0.7400000095367432,
-                            0,
-                            0,
-                            11020745
-                        ],
-                        [
-                            0,
-                            0.2653011679649353,
-                            -0.6908077001571655,
-                            2533286.5
-                        ],
-                        [
-                            0,
-                            0.6908077001571655,
-                            0.2653011679649353,
-                            -32682974
-                        ],
-                        [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
-                    ]
-                }
-            }
-        },
-        {
-            "@type": "fzj/tmp/volume_type/v0.0.1",
-            "@id": "fzj/tmp/volume_type/v0.0.1/pli-hippocampus-labels",
-            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-            "volume_type": "neuroglancer/precomputed",
-            "name": "MRI Labels",
-            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI-MRS",
-            "detail": {
-                "opacity": 1,
-                "neuroglancer/precomputed": {
-                    "transform": [
-                        [
-                            0.7400000095367432,
-                            0,
-                            0,
-                            11020745
-                        ],
-                        [
-                            0,
-                            0.2653011679649353,
-                            -0.6908077001571655,
-                            2533286.5
-                        ],
-                        [
-                            0,
-                            0.6908077001571655,
-                            0.2653011679649353,
-                            -32682974
-                        ],
-                        [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
-                    ]
-                }
-            }
-        }
-    ]
+	"@type": "siibra/feature/volume/v1.0.0",
+	"name": "Fiber structures of a human hippocampus based on joint DMRI, 3D-PLI, and TPFM acquisitions",
+	"kgId": "b08a7dbc-7c75-4ce7-905b-690b2b1e8957",
+	"volumeSrc": [
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/HSV-FOM"
+			},
+			"detail": {
+				"neuroglancer/precomputed": {
+					"shader": "void main(){ float r = toNormalized(getDataValue(0)); float g = toNormalized(getDataValue(1)); float b = toNormalized(getDataValue(2)); if (r < 0.1) emitTransparent(); else emitRGB(vec3(r, g, b)); }",
+					"opacity": 1
+				}
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI"
+			},
+			"detail": {
+				"neuroglancer/precomputed": {
+					"shader": "void main(){ float x = toNormalized(getDataValue()); if (x < 0.1) { emitTransparent(); } else { emitRGB(vec3(0.8 * x, x * 1., 0.8 * x )); } }",
+					"opacity": 1
+				}
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI-TIM"
+			},
+			"detail": {
+				"neuroglancer/precomputed": {
+					"shader": "void main(){ float x = toNormalized(getDataValue()); if (x > 0.9) { emitTransparent(); } else { emitRGB(vec3(x * 1., x * 0.8, x * 0.8 )); } }",
+					"opacity": 1
+				}
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI-MRI"
+			},
+			"detail": {
+				"neuroglancer/precomputed": {
+					"shader": "void main(){ float x = toNormalized(getDataValue()); if (x < 0.1) { emitTransparent(); } else { emitRGB(vec3(0.8 * x, 0.8 * x, x * 1. )); } }",
+					"opacity": 1
+				}
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI-MRS"
+			},
+			"detail": {
+				"opacity": 1
+			}
+		}
+	]
 }
