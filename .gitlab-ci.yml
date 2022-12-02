@@ -32,6 +32,15 @@ region_attr_compliance:
   script:
     - python ./_ci/region_attr_compliance.py
 
+check_maps_precompmesh:
+  stage: test
+  rules:
+    - changes:
+        paths:
+          - maps/*.json
+  script: |
+    python _ci/check_precompmesh.py
+
 push_to_mirror:
   stage: git-robot
   only:
