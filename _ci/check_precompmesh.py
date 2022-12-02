@@ -3,9 +3,6 @@ import json
 from concurrent.futures import ThreadPoolExecutor
 import requests
 from enum import Enum
-from copy import deepcopy
-from tqdm import tqdm
-from itertools import cycle
 
 PATH_TO_MAPS = "./maps"
 MAX_WORKERS = 4

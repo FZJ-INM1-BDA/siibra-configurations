@@ -39,6 +39,8 @@ check_maps_precompmesh:
         paths:
           - maps/*.json
   script: |
+    pip install -U pip
+    pip install -r _ci/requirements.txt
     python _ci/check_precompmesh.py
 
 push_to_mirror:
