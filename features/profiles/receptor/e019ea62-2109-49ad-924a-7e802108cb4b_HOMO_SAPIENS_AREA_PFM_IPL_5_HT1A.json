@@ -1,13 +1,11 @@
 {
-	"@type": "siibra/feature/profile/receptor/v1.0.0",
-	"kgId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/e019ea62-2109-49ad-924a-7e802108cb4b",
-	"species": [
-		{
-			"name": "Homo sapiens",
-			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/species/v1.0.0/0ea4e6ba-2681-4f7d-9fa9-49b915caaac9"
-		}
-	],
-	"region_name": "Area PFm (IPL)",
-	"receptor_type": "5-HT1A",
-	"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-PFm_pub/v1.0/PFm_pr_examples/5-HT1A/PFm_pr_5-HT1A.tsv"
+	"@type": "siibra/feature/profile/receptor/v0.1",
+	"region": "Area PFm (IPL)",
+	"receptor": "5-HT1A",
+	"species": "Homo sapiens",
+	"ebrains": {
+		"minds/core/dataset/v1.0.0": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/e019ea62-2109-49ad-924a-7e802108cb4b",
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9"
+	},
+	"file": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-PFm_pub/v1.0/PFm_pr_examples/5-HT1A/PFm_pr_5-HT1A.tsv"
 }

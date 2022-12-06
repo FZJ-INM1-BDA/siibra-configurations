@@ -1,12 +1,10 @@
 {
-	"@type": "siibra/feature/fingerprint/receptor/v1.0.0",
-	"kgId": "19d1f3bd-8825-4baf-863f-97393d03ef28",
-	"species": [
-		{
-			"name": "Homo sapiens",
-			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/species/v1.0.0/0ea4e6ba-2681-4f7d-9fa9-49b915caaac9"
-		}
-	],
-	"region_name": "Area TE 2.1 (STG)",
-	"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-TE2_1_pub/v1.0/TE2_1_fp_20180405.tsv"
+	"@type": "siibra/feature/fingerprint/receptor/v0.1",
+	"region": "Area TE 2.1 (STG)",
+	"species": "Homo sapiens",
+	"ebrains": {
+		"minds/core/dataset/v1.0.0": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/19d1f3bd-8825-4baf-863f-97393d03ef28",
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9"
+	},
+	"file": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-TE2_1_pub/v1.0/TE2_1_fp_20180405.tsv"
 }

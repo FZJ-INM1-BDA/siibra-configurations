@@ -1,13 +1,11 @@
 {
-	"@type": "siibra/feature/profile/receptor/v1.0.0",
-	"kgId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/e715e1f7-2079-45c4-a67f-f76b102acfce",
-	"species": [
-		{
-			"name": "Homo sapiens",
-			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/species/v1.0.0/0ea4e6ba-2681-4f7d-9fa9-49b915caaac9"
-		}
-	],
-	"region_name": "Area hOc1 (V1, 17, CalcS)",
-	"receptor_type": "alpha2",
-	"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-hOc1_pub/v1.0/hOc1_pr_examples/alpha2/hOc1_pr_alpha2.tsv"
+	"@type": "siibra/feature/profile/receptor/v0.1",
+	"region": "Area hOc1 (V1, 17, CalcS)",
+	"receptor": "alpha2",
+	"species": "Homo sapiens",
+	"ebrains": {
+		"minds/core/dataset/v1.0.0": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/e715e1f7-2079-45c4-a67f-f76b102acfce",
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9"
+	},
+	"file": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-hOc1_pub/v1.0/hOc1_pr_examples/alpha2/hOc1_pr_alpha2.tsv"
 }

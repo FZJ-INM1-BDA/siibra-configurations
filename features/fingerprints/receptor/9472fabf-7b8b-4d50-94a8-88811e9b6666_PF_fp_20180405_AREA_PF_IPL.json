@@ -1,12 +1,10 @@
 {
-	"@type": "siibra/feature/fingerprint/receptor/v1.0.0",
-	"kgId": "9472fabf-7b8b-4d50-94a8-88811e9b6666",
-	"species": [
-		{
-			"name": "Homo sapiens",
-			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/species/v1.0.0/0ea4e6ba-2681-4f7d-9fa9-49b915caaac9"
-		}
-	],
-	"region_name": "Area PF (IPL)",
-	"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-PF_pub/v1.0/PF_fp_20180405.tsv"
+	"@type": "siibra/feature/fingerprint/receptor/v0.1",
+	"region": "Area PF (IPL)",
+	"species": "Homo sapiens",
+	"ebrains": {
+		"minds/core/dataset/v1.0.0": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/9472fabf-7b8b-4d50-94a8-88811e9b6666",
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9"
+	},
+	"file": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-PF_pub/v1.0/PF_fp_20180405.tsv"
 }

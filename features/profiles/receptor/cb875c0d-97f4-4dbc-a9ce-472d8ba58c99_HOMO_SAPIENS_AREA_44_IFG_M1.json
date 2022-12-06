@@ -1,13 +1,11 @@
 {
-	"@type": "siibra/feature/profile/receptor/v1.0.0",
-	"kgId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/cb875c0d-97f4-4dbc-a9ce-472d8ba58c99",
-	"species": [
-		{
-			"name": "Homo sapiens",
-			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/species/v1.0.0/0ea4e6ba-2681-4f7d-9fa9-49b915caaac9"
-		}
-	],
-	"region_name": "Area 44 (IFG)",
-	"receptor_type": "M1",
-	"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-44d_pub/v1.0/44d_pr_examples/M1/44d_pr_M1.tsv"
+	"@type": "siibra/feature/profile/receptor/v0.1",
+	"region": "Area 44 (IFG)",
+	"receptor": "M1",
+	"species": "Homo sapiens",
+	"ebrains": {
+		"minds/core/dataset/v1.0.0": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/cb875c0d-97f4-4dbc-a9ce-472d8ba58c99",
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9"
+	},
+	"file": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-44d_pub/v1.0/44d_pr_examples/M1/44d_pr_M1.tsv"
 }
