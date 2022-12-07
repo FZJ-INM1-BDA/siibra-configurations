@@ -1,17 +1,12 @@
 {
-	"@type": "siibra/feature/profile/celldensity/v1.0.0",
-	"modality": "CellDensity",
+	"@type": "siibra/resource/feature/profile/celldensity/v0.1",
+	"region": "Area FG1 (FusG)",
 	"unit": "detected cells / 0.1mm3",
-	"kgId": "https://kg.ebrains.eu/api/instances/a19a2068-a82e-4e3e-96fe-9a7829cd06bb",
-	"species": [
-		{
-			"name": "Homo sapiens",
-			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/species/v1.0.0/0ea4e6ba-2681-4f7d-9fa9-49b915caaac9"
-		}
-	],
-	"parcellation_id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290",
-	"region_name": "Area FG1 (FusG)",
-	"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_FG1/v1.0/1831/0003/segments.txt",
+	"ebrains": {
+		"minds/core/dataset/v1.0.0": "a19a2068-a82e-4e3e-96fe-9a7829cd06bb",
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9"
+	},
+	"file": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_FG1/v1.0/1831/0003/segments.txt",
 	"patch": "0003",
 	"section": "1831"
 }
