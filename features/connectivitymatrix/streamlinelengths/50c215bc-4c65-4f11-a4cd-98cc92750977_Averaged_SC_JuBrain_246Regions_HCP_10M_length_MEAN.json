@@ -1,0 +1,25 @@
+{
+	"@type": "siibra/resource/feature/connectivitymatrix/v0.1",
+	"modality": "StreamlineLengths",
+	"paradigm": "",
+	"ebrains": {
+		"minds/core/dataset/v1.0.0": "50c215bc-4c65-4f11-a4cd-98cc92750977",
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9"
+
+	},
+	"parcellation": {
+		"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-25"
+	},
+	"cohort": "hcp",
+	"subject": "average",
+	"repository": {
+		"@type": "siibra/repository/gitlab/v1.0.0",
+		"server": "https://jugit.fz-juelich.de",
+		"project": 3009,
+		"branch": "develop"
+	},
+	"files": {
+		"data": "connectivity/Averaged_SC_JuBrain_246Regions_HCP_10M_length_MEAN.tsv",
+		"header": "connectivity/Averaged_SC_JuBrain_246Regions_HCP_10M_length_MEAN.txt"
+	}
+}
