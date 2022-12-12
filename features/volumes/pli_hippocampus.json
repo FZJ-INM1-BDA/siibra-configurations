@@ -1,5 +1,6 @@
 {
-	"@type": "siibra/feature/voi/v0.0.1",
+	"@type": "siibra/feature/voi/v0.1",
+	"modality": "3D Polarized light imaging (3D-PLI)",
 	"name": "Fiber structures of a human hippocampus based on joint DMRI, 3D-PLI, and TPFM acquisitions",
 	"ebrains": {
 		"minds/core/dataset/v1.0.0": "b08a7dbc-7c75-4ce7-905b-690b2b1e8957"
@@ -7,64 +8,36 @@
 	"space": {
 		"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
 	},
-	"volumeSrc": [
+	"volumes": [
 		{
+			"name": "PLI HSV-encoded fiber orientation map",
 			"@type": "siibra/volume/v0.0.1",
 			"urls": {
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/HSV-FOM"
-			},
-			"detail": {
-				"neuroglancer/precomputed": {
-					"shader": "void main(){ float r = toNormalized(getDataValue(0)); float g = toNormalized(getDataValue(1)); float b = toNormalized(getDataValue(2)); if (r < 0.1) emitTransparent(); else emitRGB(vec3(r, g, b)); }",
-					"opacity": 1
-				}
 			}
 		},
 		{
 			"@type": "siibra/volume/v0.0.1",
 			"urls": {
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI"
-			},
-			"detail": {
-				"neuroglancer/precomputed": {
-					"shader": "void main(){ float x = toNormalized(getDataValue()); if (x < 0.1) { emitTransparent(); } else { emitRGB(vec3(0.8 * x, x * 1., 0.8 * x )); } }",
-					"opacity": 1
-				}
 			}
 		},
 		{
 			"@type": "siibra/volume/v0.0.1",
 			"urls": {
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI-TIM"
-			},
-			"detail": {
-				"neuroglancer/precomputed": {
-					"shader": "void main(){ float x = toNormalized(getDataValue()); if (x > 0.9) { emitTransparent(); } else { emitRGB(vec3(x * 1., x * 0.8, x * 0.8 )); } }",
-					"opacity": 1
-				}
 			}
 		},
 		{
 			"@type": "siibra/volume/v0.0.1",
 			"urls": {
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI-MRI"
-			},
-			"detail": {
-				"neuroglancer/precomputed": {
-					"shader": "void main(){ float x = toNormalized(getDataValue()); if (x < 0.1) { emitTransparent(); } else { emitRGB(vec3(0.8 * x, 0.8 * x, x * 1. )); } }",
-					"opacity": 1
-				}
 			}
 		},
 		{
 			"@type": "siibra/volume/v0.0.1",
 			"urls": {
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI-MRS"
-			},
-			"detail": {
-				"neuroglancer/precomputed": {
-					"opacity": 1
-				}
 			}
 		}
 	]
