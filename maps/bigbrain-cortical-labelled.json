@@ -9,52 +9,101 @@
 		{
 			"@type": "siibra/volume/v0.0.1",
 			"urls": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_27_cortical_layers",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_27_cortical_layers"
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
+				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"urls": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
+				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right"
 			}
 		}
 	],
 	"@type": "siibra/map/v0.0.1",
 	"indices": {
-		"cortical layer 1": [
+		"cortical layer 1 - left": [
 			{
 				"volume": 0,
 				"label": 1
 			}
 		],
-		"cortical layer 2": [
+		"cortical layer 2 - left": [
 			{
 				"volume": 0,
 				"label": 2
 			}
 		],
-		"cortical layer 3": [
+		"cortical layer 3 - left": [
 			{
 				"volume": 0,
 				"label": 3
 			}
 		],
-		"cortical layer 4": [
+		"cortical layer 4 - left": [
 			{
 				"volume": 0,
 				"label": 4
 			}
 		],
-		"cortical layer 5": [
+		"cortical layer 5 - left": [
 			{
 				"volume": 0,
 				"label": 5
 			}
 		],
-		"cortical layer 6": [
+		"cortical layer 6 - left": [
 			{
 				"volume": 0,
 				"label": 6
 			}
 		],
-		"non-cortical structures": [
+		"non-cortical structures - left": [
 			{
 				"volume": 0,
+				"label": 7
+			}
+		],
+		"cortical layer 1 - right": [
+			{
+				"volume": 1,
+				"label": 1
+			}
+		],
+		"cortical layer 2 - right": [
+			{
+				"volume": 1,
+				"label": 2
+			}
+		],
+		"cortical layer 3 - right": [
+			{
+				"volume": 1,
+				"label": 3
+			}
+		],
+		"cortical layer 4 - right": [
+			{
+				"volume": 1,
+				"label": 4
+			}
+		],
+		"cortical layer 5 - right": [
+			{
+				"volume": 1,
+				"label": 5
+			}
+		],
+		"cortical layer 6 - right": [
+			{
+				"volume": 1,
+				"label": 6
+			}
+		],
+		"non-cortical structures - right": [
+			{
+				"volume": 1,
 				"label": 7
 			}
 		]
