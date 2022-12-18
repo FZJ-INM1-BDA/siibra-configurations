@@ -1,180 +1,919 @@
 {
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
-	},
-	"parcellation": {
-		"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290"
-	},
-	"volumes": [
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"urls": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_22_interpolated_areas",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_22_interpolated_areas"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"urls": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2020_09_29_v3v",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2020_09_29_v3v"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"urls": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_01_v2",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_01_v2"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"urls": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_01_v1",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_01_v1"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"urls": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2020_09_29_v5",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2020_09_29_v5"
-			}
-		}
-	],
-	"@type": "siibra/map/v0.0.1",
-	"indices": {
-		"Area hPO1 (POS)": [
-			{
-				"volume": 0,
-				"label": 21
-			}
-		],
-		"Area hIP7 (IPS)": [
-			{
-				"volume": 0,
-				"label": 18
-			}
-		],
-		"Area hIP4 (IPS)": [
-			{
-				"volume": 0,
-				"label": 15
-			}
-		],
-		"Area hIP5 (IPS)": [
-			{
-				"volume": 0,
-				"label": 16
-			}
-		],
-		"Area hIP6 (IPS)": [
-			{
-				"volume": 0,
-				"label": 17
-			}
-		],
-		"Area hOc6 (POS)": [
-			{
-				"volume": 0,
-				"label": 20
-			}
-		],
-		"Area hOc3v (LingG)": [
-			{
-				"volume": 1,
-				"label": 1
-			}
-		],
-		"Area hOc2 (V2, 18)": [
-			{
-				"volume": 2,
-				"label": 1
-			}
-		],
-		"Area hOc1 (V1, 17, CalcS)": [
-			{
-				"volume": 3,
-				"label": 1
-			}
-		],
-		"Area hOc5 (LOC)": [
-			{
-				"volume": 4,
-				"label": 1
-			}
-		],
-		"Area 6d2 (PreCG)": [
-			{
-				"volume": 0,
-				"label": 2
-			}
-		],
-		"Area 6d1 (PreCG)": [
-			{
-				"volume": 0,
-				"label": 1
-			}
-		],
-		"Area 6ma (preSMA, mesial SFG)": [
-			{
-				"volume": 0,
-				"label": 22
-			}
-		],
-		"Area 6d3 (SFS)": [
-			{
-				"volume": 0,
-				"label": 3
-			}
-		],
-		"Area 6mp (SMA, mesial SFG)": [
-			{
-				"volume": 0,
-				"label": 23
-			}
-		],
-		"Area STS2 (STS)": [
-			{
-				"volume": 0,
-				"label": 25
-			}
-		],
-		"Area STS1 (STS)": [
-			{
-				"volume": 0,
-				"label": 24
-			}
-		],
-		"Area TE 3 (STG)": [
-			{
-				"volume": 0,
-				"label": 7
-			}
-		],
-		"Area TE 1.2 (HESCHL)": [
-			{
-				"volume": 0,
-				"label": 6
-			}
-		],
-		"Area TE 1.1 (HESCHL)": [
-			{
-				"volume": 0,
-				"label": 5
-			}
-		],
-		"Area TE 1.0 (HESCHL)": [
-			{
-				"volume": 0,
-				"label": 4
-			}
-		],
-		"Entorhinal Cortex": [
-			{
-				"volume": 0,
-				"label": 8
-			}
-		]
-	}
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+    },
+    "parcellation": {
+        "@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290"
+    },
+    "volumes": [
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d1_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d1_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d2_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d2_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d3_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d3_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te10_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te10_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te11_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te11_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te12_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te12_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te3_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te3_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_dn_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_dn_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_mn_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_mn_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_vn_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_vn_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hippocampus_EC_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hippocampus_EC_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc1_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc1_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc2_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc2_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc3v_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc3v_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc5_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc5_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj1_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj1_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj2_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj2_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs1_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs1_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs2_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs2_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs3_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs3_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs4_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs4_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb1_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb1_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb2_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb2_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb3_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb3_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb4_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb4_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb5_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb5_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb6_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb6_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP4_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP4_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP5_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP5_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP6_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP6_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP7_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP7_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP8_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP8_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hOc6_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hOc6_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hPO1_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hPO1_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_presma_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_presma_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_sma_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_sma_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te4_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te4_right"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te5_left"
+            }
+        },
+        {
+            "@type": "siibra/volume/v0.0.1",
+            "urls": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te5_right"
+            }
+        }
+    ],
+    "@type": "siibra/map/v0.0.1",
+    "indices": {
+        "Area 6d1 (PreCG) - left hemisphere": [
+            {
+                "volume": 0,
+                "label": 1
+            }
+        ],
+        "Area 6d1 (PreCG) - right hemisphere": [
+            {
+                "volume": 1,
+                "label": 1
+            }
+        ],
+        "Area 6d2 (PreCG) - left hemisphere": [
+            {
+                "volume": 2,
+                "label": 1
+            }
+        ],
+        "Area 6d2 (PreCG) - right hemisphere": [
+            {
+                "volume": 3,
+                "label": 1
+            }
+        ],
+        "Area 6d3 (SFS) - left hemisphere": [
+            {
+                "volume": 4,
+                "label": 1
+            }
+        ],
+        "Area 6d3 (SFS) - right hemisphere": [
+            {
+                "volume": 5,
+                "label": 1
+            }
+        ],
+        "Area TE 1.0 (HESCHL) - left hemisphere": [
+            {
+                "volume": 6,
+                "label": 1
+            }
+        ],
+        "Area TE 1.0 (HESCHL) - right hemisphere": [
+            {
+                "volume": 7,
+                "label": 1
+            }
+        ],
+        "Area TE 1.1 (HESCHL) - left hemisphere": [
+            {
+                "volume": 8,
+                "label": 1
+            }
+        ],
+        "Area TE 1.1 (HESCHL) - right hemisphere": [
+            {
+                "volume": 9,
+                "label": 1
+            }
+        ],
+        "Area TE 1.2 (HESCHL) - left hemisphere": [
+            {
+                "volume": 10,
+                "label": 1
+            }
+        ],
+        "Area TE 1.2 (HESCHL) - right hemisphere": [
+            {
+                "volume": 11,
+                "label": 1
+            }
+        ],
+        "Area TE 3 (STG) - left hemisphere": [
+            {
+                "volume": 12,
+                "label": 1
+            }
+        ],
+        "Area TE 3 (STG) - right hemisphere": [
+            {
+                "volume": 13,
+                "label": 1
+            }
+        ],
+        "MGBd (Metathalamus) - left hemisphere": [
+            {
+                "volume": 14,
+                "label": 1
+            }
+        ],
+        "MGBd (Metathalamus) - right hemisphere": [
+            {
+                "volume": 15,
+                "label": 1
+            }
+        ],
+        "MGBm (Metathalamus) - left hemisphere": [
+            {
+                "volume": 16,
+                "label": 1
+            }
+        ],
+        "MGBm (Metathalamus) - right hemisphere": [
+            {
+                "volume": 17,
+                "label": 1
+            }
+        ],
+        "MGBv (Metathalamus) - left hemisphere": [
+            {
+                "volume": 18,
+                "label": 1
+            }
+        ],
+        "MGBv (Metathalamus) - right hemisphere": [
+            {
+                "volume": 19,
+                "label": 1
+            }
+        ],
+        "Entorhinal Cortex - left hemisphere": [
+            {
+                "volume": 20,
+                "label": 1
+            }
+        ],
+        "Entorhinal Cortex - right hemisphere": [
+            {
+                "volume": 21,
+                "label": 1
+            }
+        ],
+        "Area hOc1 (V1, 17, CalcS) - left hemisphere": [
+            {
+                "volume": 22,
+                "label": 1
+            }
+        ],
+        "Area hOc1 (V1, 17, CalcS) - right hemisphere": [
+            {
+                "volume": 23,
+                "label": 1
+            }
+        ],
+        "Area hOc2 (V2, 18) - left hemisphere": [
+            {
+                "volume": 24,
+                "label": 1
+            }
+        ],
+        "Area hOc2 (V2, 18) - right hemisphere": [
+            {
+                "volume": 25,
+                "label": 1
+            }
+        ],
+        "Area hOc3v (LingG) - left hemisphere": [
+            {
+                "volume": 26,
+                "label": 1
+            }
+        ],
+        "Area hOc3v (LingG) - right hemisphere": [
+            {
+                "volume": 27,
+                "label": 1
+            }
+        ],
+        "Area hOc5 (LOC) - left hemisphere": [
+            {
+                "volume": 28,
+                "label": 1
+            }
+        ],
+        "Area hOc5 (LOC) - right hemisphere": [
+            {
+                "volume": 29,
+                "label": 1
+            }
+        ],
+        "Area IFJ1 (IFS,PreCS) - left hemisphere": [
+            {
+                "volume": 30,
+                "label": 1
+            }
+        ],
+        "Area IFJ1 (IFS,PreCS) - right hemisphere": [
+            {
+                "volume": 31,
+                "label": 1
+            }
+        ],
+        "Area IFJ2 (IFS,PreCS) - left hemisphere": [
+            {
+                "volume": 32,
+                "label": 1
+            }
+        ],
+        "Area IFJ2 (IFS,PreCS) - right hemisphere": [
+            {
+                "volume": 33,
+                "label": 1
+            }
+        ],
+        "Area IFS1 (IFS) - left hemisphere": [
+            {
+                "volume": 34,
+                "label": 1
+            }
+        ],
+        "Area IFS1 (IFS) - right hemisphere": [
+            {
+                "volume": 35,
+                "label": 1
+            }
+        ],
+        "Area IFS2 (IFS) - left hemisphere": [
+            {
+                "volume": 36,
+                "label": 1
+            }
+        ],
+        "Area IFS2 (IFS) - right hemisphere": [
+            {
+                "volume": 37,
+                "label": 1
+            }
+        ],
+        "Area IFS3 (IFS) - left hemisphere": [
+            {
+                "volume": 38,
+                "label": 1
+            }
+        ],
+        "Area IFS3 (IFS) - right hemisphere": [
+            {
+                "volume": 39,
+                "label": 1
+            }
+        ],
+        "Area IFS4 (IFS) - left hemisphere": [
+            {
+                "volume": 41,
+                "label": 1
+            }
+        ],
+        "CGL.lam1 (Metathalamus) - left hemisphere": [
+            {
+                "volume": 42,
+                "label": 1
+            }
+        ],
+        "CGL.lam1 (Metathalamus) - right hemisphere": [
+            {
+                "volume": 43,
+                "label": 1
+            }
+        ],
+        "CGL.lam2 (Metathalamus) - left hemisphere": [
+            {
+                "volume": 44,
+                "label": 1
+            }
+        ],
+        "CGL.lam2 (Metathalamus)  - right hemisphere": [
+            {
+                "volume": 45,
+                "label": 1
+            }
+        ],
+        "CGL.lam3 (Metathalamus) - left hemisphere": [
+            {
+                "volume": 46,
+                "label": 1
+            }
+        ],
+        "CGL.lam3 (Metathalamus) - right hemisphere": [
+            {
+                "volume": 47,
+                "label": 1
+            }
+        ],
+        "CGL.lam4 (Metathalamus) - left hemisphere": [
+            {
+                "volume": 48,
+                "label": 1
+            }
+        ],
+        "CGL.lam4 (Metathalamus) - right hemisphere": [
+            {
+                "volume": 49,
+                "label": 1
+            }
+        ],
+        "CGL.lam5 (Metathalamus) - left hemisphere": [
+            {
+                "volume": 50,
+                "label": 1
+            }
+        ],
+        "CGL.lam5 (Metathalamus) - right hemisphere": [
+            {
+                "volume": 51,
+                "label": 1
+            }
+        ],
+        "CGL.lam6 (Metathalamus) - left hemisphere": [
+            {
+                "volume": 52,
+                "label": 1
+            }
+        ],
+        "CGL.lam6 (Metathalamus) - right hemisphere": [
+            {
+                "volume": 53,
+                "label": 1
+            }
+        ],
+        "Area hIP4 (IPS) - left hemisphere": [
+            {
+                "volume": 54,
+                "label": 1
+            }
+        ],
+        "Area hIP4 (IPS) - right hemisphere": [
+            {
+                "volume": 55,
+                "label": 1
+            }
+        ],
+        "Area hIP5 (IPS) - left hemisphere": [
+            {
+                "volume": 56,
+                "label": 1
+            }
+        ],
+        "Area hIP5 (IPS) - right hemisphere": [
+            {
+                "volume": 57,
+                "label": 1
+            }
+        ],
+        "Area hIP6 (IPS) - left hemisphere": [
+            {
+                "volume": 58,
+                "label": 1
+            }
+        ],
+        "Area hIP6 (IPS) - right hemisphere": [
+            {
+                "volume": 59,
+                "label": 1
+            }
+        ],
+        "Area hIP7 (IPS) - left hemisphere": [
+            {
+                "volume": 60,
+                "label": 1
+            }
+        ],
+        "Area hIP7 (IPS) - right hemisphere": [
+            {
+                "volume": 61,
+                "label": 1
+            }
+        ],
+        "Area hIP8 (IPS) - left hemisphere": [
+            {
+                "volume": 62,
+                "label": 1
+            }
+        ],
+        "Area hIP8 (IPS) - right hemisphere": [
+            {
+                "volume": 63,
+                "label": 1
+            }
+        ],
+        "Area hOc6 (POS) - left hemisphere": [
+            {
+                "volume": 64,
+                "label": 1
+            }
+        ],
+        "Area hOc6 (POS) - right hemisphere": [
+            {
+                "volume": 65,
+                "label": 1
+            }
+        ],
+        "Area hPO1 (POS) - left hemisphere": [
+            {
+                "volume": 66,
+                "label": 1
+            }
+        ],
+        "Area hPO1 (POS) - right hemisphere": [
+            {
+                "volume": 67,
+                "label": 1
+            }
+        ],
+        "Area 6ma (preSMA, mesial SFG) - left hemisphere": [
+            {
+                "volume": 68,
+                "label": 1
+            }
+        ],
+        "Area 6ma (preSMA, mesial SFG) - right hemisphere": [
+            {
+                "volume": 69,
+                "label": 1
+            }
+        ],
+        "Area 6mp (SMA, mesial SFG) - left hemisphere": [
+            {
+                "volume": 70,
+                "label": 1
+            }
+        ],
+        "Area 6mp (SMA, mesial SFG) - right hemisphere": [
+            {
+                "volume": 71,
+                "label": 1
+            }
+        ],
+        "Area STS1 (STS) - left hemisphere": [
+            {
+                "volume": 72,
+                "label": 1
+            }
+        ],
+        "Area STS1 (STS) - right hemisphere": [
+            {
+                "volume": 73,
+                "label": 1
+            }
+        ],
+        "Area STS2 (STS) - left hemisphere": [
+            {
+                "volume": 74,
+                "label": 1
+            }
+        ],
+        "Area STS2 (STS) - right hemisphere": [
+            {
+                "volume": 75,
+                "label": 1
+            }
+        ]
+    }
 }
