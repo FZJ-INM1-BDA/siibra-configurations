@@ -7,44 +7,34 @@
 	"volumes": [
 		{
 			"@type": "siibra/volume/v0.0.1",
-			"name": "white matter/left",
+			"variant": "white matter",
 			"urls": {
-				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/lh.white.gii"
+				"gii-mesh": {
+					"left hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/lh.white.gii",
+					"right hemisphere":	"https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/rh.white.gii"
+				}
 			}
 		},
 		{
 			"@type": "siibra/volume/v0.0.1",
-			"name": "white matter/right",
+			"fragment": "left hemisphere",
+			"variant": "pial",
 			"urls": {
-				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/rh.white.gii"
+				"gii-mesh": {
+					"left hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/lh.pial.gii",
+					"right hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/rh.pial.gii"
+				}
 			}
 		},
 		{
 			"@type": "siibra/volume/v0.0.1",
-			"name": "pial/left",
+			"fragment": "left hemisphere",
+			"variant": "inflated",
 			"urls": {
-				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/lh.pial.gii"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"name": "pial/right",
-			"urls": {
-				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/rh.pial.gii"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"name": "inflated/left",
-			"urls": {
-				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa7-translated-inflated/lh.inflated.surf.gii"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"name": "inflated/right",
-			"urls": {
-				"gii-mesh": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa7-translated-inflated/rh.inflated.surf.gii"
+				"gii-mesh": {
+					"left hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa7-translated-inflated/lh.inflated.surf.gii",
+					"right hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa7-translated-inflated/rh.inflated.surf.gii"
+				}
 			}
 		}
 	]
