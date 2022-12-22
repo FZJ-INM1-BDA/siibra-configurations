@@ -35,12 +35,12 @@ def check_url(url: str, regionname: str):
 def check_volume(arg):
     full_filname, vol_idx, volume, indices = arg
     try:
-        assert PRECOMPUTED in volume.get("urls"), f"volume should have neuroglancer/precompmesh, but does not. url keys are: {volume.get('urls').keys()}"
-        precomp_url = volume["urls"][PRECOMPUTED]
+        assert PRECOMPUTED in volume.get("providers"), f"volume should have neuroglancer/precompmesh, but does not. url keys are: {volume.get('providers').keys()}"
+        precomp_url = volume["providers"][PRECOMPUTED]
         resp = requests.get(f"{precomp_url}/info")
         resp.raise_for_status()
         precomp_info = resp.json()
-        assert ("mesh" in precomp_info) == (PRECOMPMESH in volume.get("urls")), f"Error in: {full_filname}: mesh key exist in precomputed: {'mesh' in precomp_info}, precomputed mesh url exists: {PRECOMPMESH in volume.get('urls')}"
+        assert ("mesh" in precomp_info) == (PRECOMPMESH in volume.get("providers")), f"Error in: {full_filname} volidx: {vol_idx}: mesh key exist in precomputed: {'mesh' in precomp_info}, precomputed mesh url exists: {PRECOMPMESH in volume.get('providers')}"
 
         if "mesh" in precomp_info:
             mesh_path = precomp_info["mesh"]
@@ -87,7 +87,7 @@ def main():
         (full_filname, vol_idx, volume, map_json.get("indices") )
         for full_filname, _, map_json in iterate_jsons(PATH_TO_MAPS)
         for vol_idx, volume in enumerate(map_json.get("volumes"))
-        if PRECOMPUTED in volume.get("urls") or PRECOMPMESH in volume.get("urls")
+        if PRECOMPUTED in volume.get("providers") or PRECOMPMESH in volume.get("providers")
     ]
 
     print(f"Main: {len(args)} maps.")
