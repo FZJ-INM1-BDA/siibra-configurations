@@ -1,201 +1,201 @@
 {
-  "@type": "siibra/snapshots/ebrainsquery/v1",
-  "formats": [
-    "NIFTI"
-  ],
-  "datasetDOI": [
-    {
-      "cite": "Choi, H.-J., Zilles, K., Mohlberg, H., Schleicher, A., Fink, G. R., Armstrong, E., & Amunts, K. (2006). Cytoarchitectonic identification and probabilistic mapping of two distinct areas within the anterior ventral bank of the human intraparietal sulcus. The Journal of Comparative Neurology, 495(1), 53\u201369. ",
-      "doi": "10.1002/cne.20849"
-    }
-  ],
-  "activity": [
-    {
-      "protocols": [
-        "histology"
-      ],
-      "preparation": [
-        "Ex vivo"
-      ]
-    },
-    {
-      "protocols": [
-        "imaging"
-      ],
-      "preparation": [
-        "Ex vivo"
-      ]
-    },
-    {
-      "protocols": [
-        "brain mapping"
-      ],
-      "preparation": [
-        "Ex vivo"
-      ]
-    }
-  ],
-  "referenceSpaces": [
-    {
-      "name": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
-    },
-    {
-      "name": "MNI Colin 27",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
-    }
-  ],
-  "methods": [
-    "silver staining",
-    "magnetic resonance imaging (MRI)",
-    "probability mapping",
-    "cytoarchitectonic mapping"
-  ],
-  "custodians": [
-    {
-      "schema.org/shortName": "Amunts, K.",
-      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
-      "name": "Amunts, Katrin",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
-      "shortName": "Amunts, K."
-    }
-  ],
-  "project": [
-    "Julich-Brain: cytoarchitectonic probabilistic maps of the human brain"
-  ],
-  "description": "This dataset contains the distinct architectonic Area hIP1 (IPS) in the individual, single subject template of the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space. As part of the Julich-Brain cytoarchitectonic atlas, the area was identified using cytoarchitectonic analysis on cell-body-stained histological sections of 10 human postmortem brains obtained from the body donor program of the University of D\u00fcsseldorf. The results of the cytoarchitectonic analysis were then mapped to both reference spaces, where each voxel was assigned the probability to belong to Area hIP1 (IPS). The probability map of Area hIP1 (IPS) are provided in the NifTi format for each brain reference space and hemisphere. The Julich-Brain atlas relies on a modular, flexible and adaptive framework containing workflows to create the probabilistic brain maps for these structures. Note that methodological improvements and integration of new brain structures may lead to small deviations in earlier released datasets.\n\nOther available data versions of Area hIP1 (IPS):\nChoi et al. (2018) [Data set, v6.0] [DOI: 10.25493/VWV1-FYY](https://doi.org/10.25493%2FVWV1-FYY)\n\nThe most probable delineation of Area hIP1 (IPS) derived from the calculation of a maximum probability map of all currently released Julich-Brain brain structures can be found here:\nAmunts et al. (2019) [Data set, v1.13] [DOI: 10.25493/Q3ZS-NV6](https://doi.org/10.25493%2FQ3ZS-NV6)\nAmunts et al. (2019) [Data set, v1.18] [DOI: 10.25493/8EGG-ZAR](https://doi.org/10.25493%2F8EGG-ZAR)\nAmunts et al. (2020) [Data set, v2.2] [DOI: 10.25493/TAKY-64D](https://doi.org/10.25493%2FTAKY-64D)",
-  "parcellationAtlas": [
-    {
-      "name": "Julich-Brain Atlas",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
-      "id": [
-        "deec923ec31a82f89a9c7c76a6fefd6b",
-        "e2d45e028b6da0f6d9fdb9491a4de80a"
-      ]
-    }
-  ],
-  "licenseInfo": [
-    {
-      "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    }
-  ],
-  "embargoStatus": [
-    {
-      "identifier": [
-        "b24ce0cd392a5b0b8dedc66c25213594",
-        "b24ce0cd392a5b0b8dedc66c25213594"
-      ],
-      "name": "Free",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
-    }
-  ],
-  "license": [],
-  "parcellationRegion": [
-    {
-      "species": [],
-      "name": "Area hIP1 (IPS)",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/7722c71f-fe84-4deb-8f6b-98e2aecf2e31"
-    }
-  ],
-  "species": [
-    "Homo sapiens"
-  ],
-  "name": "Probabilistic cytoarchitectonic map of Area hIP1 (IPS) (v6.1)",
-  "files": [
-    {
-      "byteSize": 101596.0,
-      "name": "Area-hIP1_r_N10_nlin2MNI152ASYM2009C_6.1_publicP_a411667d98b0ebc9b772565131414de1.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hIP1_pub/6.1/Area-hIP1_r_N10_nlin2MNI152ASYM2009C_6.1_publicP_a411667d98b0ebc9b772565131414de1.nii.gz",
-      "contentType": "application/octet-stream"
-    },
-    {
-      "byteSize": 110950.0,
-      "name": "Area-hIP1_r_N10_nlin2Stdcolin27_6.1_publicP_667c85bcddc6c019b2bdd45fc499737a.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hIP1_pub/6.1/Area-hIP1_r_N10_nlin2Stdcolin27_6.1_publicP_667c85bcddc6c019b2bdd45fc499737a.nii.gz",
-      "contentType": "application/octet-stream"
-    },
-    {
-      "byteSize": 102474.0,
-      "name": "Area-hIP1_l_N10_nlin2MNI152ASYM2009C_6.1_publicP_5c0b00a1393dc8c54505db7207f1097c.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hIP1_pub/6.1/Area-hIP1_l_N10_nlin2MNI152ASYM2009C_6.1_publicP_5c0b00a1393dc8c54505db7207f1097c.nii.gz",
-      "contentType": "application/octet-stream"
-    },
-    {
-      "byteSize": 23.0,
-      "name": "subjects_Area-hIP1.csv",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hIP1_pub/6.1/subjects_Area-hIP1.csv",
-      "contentType": "text/csv"
-    },
-    {
-      "byteSize": 112318.0,
-      "name": "Area-hIP1_l_N10_nlin2Stdcolin27_6.1_publicP_828db42625a675c3a954c6be2e2b3b88.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hIP1_pub/6.1/Area-hIP1_l_N10_nlin2Stdcolin27_6.1_publicP_828db42625a675c3a954c6be2e2b3b88.nii.gz",
-      "contentType": "application/octet-stream"
-    }
-  ],
-  "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/3367db70-cd25-4834-9646-9604308dfa02",
-  "contributors": [
-    {
-      "schema.org/shortName": "Amunts, K.",
-      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
-      "name": "Amunts, Katrin",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
-      "shortName": "Amunts, K."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "9165911ac5faff2d4dc0f426030c9bc1",
-      "name": "Armstrong, E.",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/0db92da2-30b7-43cd-a9b5-edf67ba77a6a",
-      "shortName": "Armstrong, E."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "a34ce9d5dbb7daf8e3ea15095abacbd5",
-      "name": "Fink, Gereon R.",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/54014779-37c5-4d2a-882e-2b96382d98e0",
-      "shortName": "Fink, G."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "46f600ef63191d2b80362caa4686a2ec",
-      "name": "Schleicher, Axel",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f000487e-a9b4-4dee-8a2d-68f71019af0b",
-      "shortName": "Schleicher, A."
-    },
-    {
-      "schema.org/shortName": "Mohlberg, H.",
-      "identifier": "22bc11ef3726cc89459f83e66e88961b",
-      "name": "Mohlberg, Hartmut",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d2be3785-5b4b-4451-87be-62b30442ed30",
-      "shortName": "Mohlberg, H."
-    },
-    {
-      "schema.org/shortName": "Zilles, K.",
-      "identifier": "2457b4a7cf0b3fa199dcc3c88180dc9f",
-      "name": "Zilles, Karl",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/bacae1fc-d8ff-4050-8388-7d826592c62c",
-      "shortName": "Zilles, K."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "2817ac687ec61159c9fbedbf883185c9",
-      "name": "Choi, Hi-Jae",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/e625664b-410d-483f-93c1-03752ba9a454",
-      "shortName": "Choi, H."
-    }
-  ],
-  "id": "3367db70-cd25-4834-9646-9604308dfa02",
-  "kgReference": [
-    "10.25493/92FE-7S6"
-  ],
-  "publications": [
-    {
-      "name": "Cytoarchitectonic identification and probabilistic mapping of two distinct areas within the anterior ventral bank of the human intraparietal sulcus",
-      "cite": "Choi, H.-J., Zilles, K., Mohlberg, H., Schleicher, A., Fink, G. R., Armstrong, E., & Amunts, K. (2006). Cytoarchitectonic identification and probabilistic mapping of two distinct areas within the anterior ventral bank of the human intraparietal sulcus. The Journal of Comparative Neurology, 495(1), 53\u201369. ",
-      "doi": "10.1002/cne.20849"
-    }
-  ]
+	"@type": "siibra/snapshots/ebrainsquery/v1",
+	"formats": [
+		"NIFTI"
+	],
+	"datasetDOI": [
+		{
+			"cite": "Choi, H.-J., Zilles, K., Mohlberg, H., Schleicher, A., Fink, G. R., Armstrong, E., & Amunts, K. (2006). Cytoarchitectonic identification and probabilistic mapping of two distinct areas within the anterior ventral bank of the human intraparietal sulcus. The Journal of Comparative Neurology, 495(1), 53\u201369. ",
+			"doi": "10.1002/cne.20849"
+		}
+	],
+	"activity": [
+		{
+			"protocols": [
+				"histology"
+			],
+			"preparation": [
+				"Ex vivo"
+			]
+		},
+		{
+			"protocols": [
+				"imaging"
+			],
+			"preparation": [
+				"Ex vivo"
+			]
+		},
+		{
+			"protocols": [
+				"brain mapping"
+			],
+			"preparation": [
+				"Ex vivo"
+			]
+		}
+	],
+	"referenceSpaces": [
+		{
+			"name": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+		},
+		{
+			"name": "MNI Colin 27",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
+		}
+	],
+	"methods": [
+		"silver staining",
+		"magnetic resonance imaging (MRI)",
+		"probability mapping",
+		"cytoarchitectonic mapping"
+	],
+	"custodians": [
+		{
+			"schema.org/shortName": "Amunts, K.",
+			"identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+			"name": "Amunts, Katrin",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+			"shortName": "Amunts, K."
+		}
+	],
+	"project": [
+		"Julich-Brain: cytoarchitectonic probabilistic maps of the human brain"
+	],
+	"description": "This dataset contains the distinct architectonic Area hIP1 (IPS) in the individual, single subject template of the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space. As part of the Julich-Brain cytoarchitectonic atlas, the area was identified using cytoarchitectonic analysis on cell-body-stained histological sections of 10 human postmortem brains obtained from the body donor program of the University of D\u00fcsseldorf. The results of the cytoarchitectonic analysis were then mapped to both reference spaces, where each voxel was assigned the probability to belong to Area hIP1 (IPS). The probability map of Area hIP1 (IPS) are provided in the NifTi format for each brain reference space and hemisphere. The Julich-Brain atlas relies on a modular, flexible and adaptive framework containing workflows to create the probabilistic brain maps for these structures. Note that methodological improvements and integration of new brain structures may lead to small deviations in earlier released datasets.\n\nOther available data versions of Area hIP1 (IPS):\nChoi et al. (2018) [Data set, v6.0] [DOI: 10.25493/VWV1-FYY](https://doi.org/10.25493%2FVWV1-FYY)\n\nThe most probable delineation of Area hIP1 (IPS) derived from the calculation of a maximum probability map of all currently released Julich-Brain brain structures can be found here:\nAmunts et al. (2019) [Data set, v1.13] [DOI: 10.25493/Q3ZS-NV6](https://doi.org/10.25493%2FQ3ZS-NV6)\nAmunts et al. (2019) [Data set, v1.18] [DOI: 10.25493/8EGG-ZAR](https://doi.org/10.25493%2F8EGG-ZAR)\nAmunts et al. (2020) [Data set, v2.2] [DOI: 10.25493/TAKY-64D](https://doi.org/10.25493%2FTAKY-64D)",
+	"parcellationAtlas": [
+		{
+			"name": "Julich-Brain Atlas",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
+			"id": [
+				"deec923ec31a82f89a9c7c76a6fefd6b",
+				"e2d45e028b6da0f6d9fdb9491a4de80a"
+			]
+		}
+	],
+	"licenseInfo": [
+		{
+			"name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+			"url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+		}
+	],
+	"embargoStatus": [
+		{
+			"identifier": [
+				"b24ce0cd392a5b0b8dedc66c25213594",
+				"b24ce0cd392a5b0b8dedc66c25213594"
+			],
+			"name": "Free",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
+		}
+	],
+	"license": [],
+	"parcellationRegion": [
+		{
+			"species": [],
+			"name": "Area hIP1 (IPS)",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/7722c71f-fe84-4deb-8f6b-98e2aecf2e31"
+		}
+	],
+	"species": [
+		"Homo sapiens"
+	],
+	"name": "Probabilistic cytoarchitectonic map of Area hIP1 (IPS) (v6.1)",
+	"files": [
+		{
+			"byteSize": 101596.0,
+			"name": "Area-hIP1_r_N10_nlin2MNI152ASYM2009C_6.1_publicP_a411667d98b0ebc9b772565131414de1.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hIP1_pub/6.1/Area-hIP1_r_N10_nlin2MNI152ASYM2009C_6.1_publicP_a411667d98b0ebc9b772565131414de1.nii.gz",
+			"contentType": "application/octet-stream"
+		},
+		{
+			"byteSize": 110950.0,
+			"name": "Area-hIP1_r_N10_nlin2Stdcolin27_6.1_publicP_667c85bcddc6c019b2bdd45fc499737a.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hIP1_pub/6.1/Area-hIP1_r_N10_nlin2Stdcolin27_6.1_publicP_667c85bcddc6c019b2bdd45fc499737a.nii.gz",
+			"contentType": "application/octet-stream"
+		},
+		{
+			"byteSize": 102474.0,
+			"name": "Area-hIP1_l_N10_nlin2MNI152ASYM2009C_6.1_publicP_5c0b00a1393dc8c54505db7207f1097c.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hIP1_pub/6.1/Area-hIP1_l_N10_nlin2MNI152ASYM2009C_6.1_publicP_5c0b00a1393dc8c54505db7207f1097c.nii.gz",
+			"contentType": "application/octet-stream"
+		},
+		{
+			"byteSize": 23.0,
+			"name": "subjects_Area-hIP1.csv",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hIP1_pub/6.1/subjects_Area-hIP1.csv",
+			"contentType": "text/csv"
+		},
+		{
+			"byteSize": 112318.0,
+			"name": "Area-hIP1_l_N10_nlin2Stdcolin27_6.1_publicP_828db42625a675c3a954c6be2e2b3b88.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hIP1_pub/6.1/Area-hIP1_l_N10_nlin2Stdcolin27_6.1_publicP_828db42625a675c3a954c6be2e2b3b88.nii.gz",
+			"contentType": "application/octet-stream"
+		}
+	],
+	"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/3367db70-cd25-4834-9646-9604308dfa02",
+	"contributors": [
+		{
+			"schema.org/shortName": "Amunts, K.",
+			"identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+			"name": "Amunts, Katrin",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+			"shortName": "Amunts, K."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "9165911ac5faff2d4dc0f426030c9bc1",
+			"name": "Armstrong, E.",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/0db92da2-30b7-43cd-a9b5-edf67ba77a6a",
+			"shortName": "Armstrong, E."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "a34ce9d5dbb7daf8e3ea15095abacbd5",
+			"name": "Fink, Gereon R.",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/54014779-37c5-4d2a-882e-2b96382d98e0",
+			"shortName": "Fink, G."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "46f600ef63191d2b80362caa4686a2ec",
+			"name": "Schleicher, Axel",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f000487e-a9b4-4dee-8a2d-68f71019af0b",
+			"shortName": "Schleicher, A."
+		},
+		{
+			"schema.org/shortName": "Mohlberg, H.",
+			"identifier": "22bc11ef3726cc89459f83e66e88961b",
+			"name": "Mohlberg, Hartmut",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d2be3785-5b4b-4451-87be-62b30442ed30",
+			"shortName": "Mohlberg, H."
+		},
+		{
+			"schema.org/shortName": "Zilles, K.",
+			"identifier": "2457b4a7cf0b3fa199dcc3c88180dc9f",
+			"name": "Zilles, Karl",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/bacae1fc-d8ff-4050-8388-7d826592c62c",
+			"shortName": "Zilles, K."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "2817ac687ec61159c9fbedbf883185c9",
+			"name": "Choi, Hi-Jae",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/e625664b-410d-483f-93c1-03752ba9a454",
+			"shortName": "Choi, H."
+		}
+	],
+	"id": "3367db70-cd25-4834-9646-9604308dfa02",
+	"kgReference": [
+		"10.25493/92FE-7S6"
+	],
+	"publications": [
+		{
+			"name": "Cytoarchitectonic identification and probabilistic mapping of two distinct areas within the anterior ventral bank of the human intraparietal sulcus",
+			"cite": "Choi, H.-J., Zilles, K., Mohlberg, H., Schleicher, A., Fink, G. R., Armstrong, E., & Amunts, K. (2006). Cytoarchitectonic identification and probabilistic mapping of two distinct areas within the anterior ventral bank of the human intraparietal sulcus. The Journal of Comparative Neurology, 495(1), 53\u201369. ",
+			"doi": "10.1002/cne.20849"
+		}
+	]
 }

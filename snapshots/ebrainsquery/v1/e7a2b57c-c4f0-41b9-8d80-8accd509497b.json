@@ -1,222 +1,222 @@
 {
-  "@type": "siibra/snapshots/ebrainsquery/v1",
-  "formats": [
-    "NIFTI"
-  ],
-  "datasetDOI": [
-    {
-      "cite": "Lorenz, S., Weiner, K. S., Caspers, J., Mohlberg, H., Schleicher, A., Bludau, S., \u2026 Amunts, K. (2015). Two New Cytoarchitectonic Areas on the Human Mid-Fusiform Gyrus. Cerebral Cortex, bhv225. ",
-      "doi": "10.1093/cercor/bhv225"
-    }
-  ],
-  "activity": [
-    {
-      "protocols": [
-        "histology"
-      ],
-      "preparation": [
-        "Ex vivo"
-      ]
-    },
-    {
-      "protocols": [
-        "imaging"
-      ],
-      "preparation": [
-        "Ex vivo"
-      ]
-    },
-    {
-      "protocols": [
-        "brain mapping"
-      ],
-      "preparation": [
-        "Ex vivo"
-      ]
-    }
-  ],
-  "referenceSpaces": [
-    {
-      "name": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
-    },
-    {
-      "name": "MNI Colin 27",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
-    }
-  ],
-  "methods": [
-    "silver staining",
-    "magnetic resonance imaging (MRI)",
-    "probability mapping",
-    "cytoarchitectonic mapping"
-  ],
-  "custodians": [
-    {
-      "schema.org/shortName": "Amunts, K.",
-      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
-      "name": "Amunts, Katrin",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
-      "shortName": "Amunts, K."
-    }
-  ],
-  "project": [
-    "Julich-Brain: cytoarchitectonic probabilistic maps of the human brain"
-  ],
-  "description": "This dataset contains the distinct architectonic Area FG4 (FusG) in the individual, single subject template of the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space. As part of the Julich-Brain cytoarchitectonic atlas, the area was identified using cytoarchitectonic analysis on cell-body-stained histological sections of 10 human postmortem brains obtained from the body donor program of the University of D\u00fcsseldorf. The results of the cytoarchitectonic analysis were then mapped to both reference spaces, where each voxel was assigned the probability to belong to Area FG4 (FusG). The probability map of Area FG4 (FusG) are provided in the NifTi format for each brain reference space and hemisphere. The Julich-Brain atlas relies on a modular, flexible and adaptive framework containing workflows to create the probabilistic brain maps for these structures. Note that methodological improvements and integration of new brain structures may lead to small deviations in earlier released datasets.\n\nOther available data versions of Area FG4 (FusG):\nLorenz et al. (2018) [Data set, v6.0] [DOI: 10.25493/6A73-MZS](https://doi.org/10.25493%2F6A73-MZS)\n\nThe most probable delineation of Area FG4 (FusG) derived from the calculation of a maximum probability map of all currently released Julich-Brain brain structures can be found here:\nAmunts et al. (2019) [Data set, v1.13] [DOI: 10.25493/Q3ZS-NV6](https://doi.org/10.25493%2FQ3ZS-NV6)\nAmunts et al. (2019) [Data set, v1.18] [DOI: 10.25493/8EGG-ZAR](https://doi.org/10.25493%2F8EGG-ZAR)\nAmunts et al. (2020) [Data set, v2.2] [DOI: 10.25493/TAKY-64D](https://doi.org/10.25493%2FTAKY-64D)",
-  "parcellationAtlas": [
-    {
-      "name": "Julich-Brain Atlas",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
-      "id": [
-        "deec923ec31a82f89a9c7c76a6fefd6b",
-        "e2d45e028b6da0f6d9fdb9491a4de80a"
-      ]
-    }
-  ],
-  "licenseInfo": [
-    {
-      "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    }
-  ],
-  "embargoStatus": [
-    {
-      "identifier": [
-        "b24ce0cd392a5b0b8dedc66c25213594",
-        "b24ce0cd392a5b0b8dedc66c25213594"
-      ],
-      "name": "Free",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
-    }
-  ],
-  "license": [],
-  "parcellationRegion": [
-    {
-      "species": [],
-      "name": "Area FG4 (FusG)",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/fa602743-5f6e-49d1-9734-29dffaa95ff5"
-    }
-  ],
-  "species": [
-    "Homo sapiens"
-  ],
-  "name": "Probabilistic cytoarchitectonic map of Area FG4 (FusG) (v6.1)",
-  "files": [
-    {
-      "byteSize": 130913.0,
-      "name": "Area-FG4_r_N10_nlin2Stdcolin27_6.1_publicP_683f9ce4bb17648f79caaafb95e3a967.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-FG4_pub/6.1/Area-FG4_r_N10_nlin2Stdcolin27_6.1_publicP_683f9ce4bb17648f79caaafb95e3a967.nii.gz",
-      "contentType": "application/octet-stream"
-    },
-    {
-      "byteSize": 144690.0,
-      "name": "Area-FG4_l_N10_nlin2Stdcolin27_6.1_publicP_1c321f02425aa7828dce7a5b042bda82.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-FG4_pub/6.1/Area-FG4_l_N10_nlin2Stdcolin27_6.1_publicP_1c321f02425aa7828dce7a5b042bda82.nii.gz",
-      "contentType": "application/octet-stream"
-    },
-    {
-      "byteSize": 21.0,
-      "name": "subjects_Area-FG4.csv",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-FG4_pub/6.1/subjects_Area-FG4.csv",
-      "contentType": "text/csv"
-    },
-    {
-      "byteSize": 130351.0,
-      "name": "Area-FG4_l_N10_nlin2MNI152ASYM2009C_6.1_publicP_2cd9d3a99ed5b800e8c27ab6dd33a5de.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-FG4_pub/6.1/Area-FG4_l_N10_nlin2MNI152ASYM2009C_6.1_publicP_2cd9d3a99ed5b800e8c27ab6dd33a5de.nii.gz",
-      "contentType": "application/octet-stream"
-    },
-    {
-      "byteSize": 111121.0,
-      "name": "Area-FG4_r_N10_nlin2MNI152ASYM2009C_6.1_publicP_f0a0c573824a033925bd4af891146e5c.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-FG4_pub/6.1/Area-FG4_r_N10_nlin2MNI152ASYM2009C_6.1_publicP_f0a0c573824a033925bd4af891146e5c.nii.gz",
-      "contentType": "application/octet-stream"
-    }
-  ],
-  "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/e7a2b57c-c4f0-41b9-8d80-8accd509497b",
-  "contributors": [
-    {
-      "schema.org/shortName": "Amunts, K.",
-      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
-      "name": "Amunts, Katrin",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
-      "shortName": "Amunts, K."
-    },
-    {
-      "schema.org/shortName": "Zilles, K.",
-      "identifier": "2457b4a7cf0b3fa199dcc3c88180dc9f",
-      "name": "Zilles, Karl",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/bacae1fc-d8ff-4050-8388-7d826592c62c",
-      "shortName": "Zilles, K."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "b8c53763dc95a6b4af3ab4057690fac9",
-      "name": "Grill-Spector, Kalanit",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f45aae93-f262-42d3-b6a2-6fe922f6e00c",
-      "shortName": "Grill-Spector, K."
-    },
-    {
-      "schema.org/shortName": "Eickhoff, S. B.",
-      "identifier": "f7e179682ccf98378bb566852f442c93",
-      "name": "Eickhoff, Simon B.",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/99a95057-bd4d-43ab-ad70-b7920ceedc48",
-      "shortName": "Eickhoff, S. B."
-    },
-    {
-      "schema.org/shortName": "Bludau, S.",
-      "identifier": "0c420063c33118f0fd65cabd330e9dd1",
-      "name": "Bludau, Sebastian",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/8e05318b-4e11-454c-a49b-f81e3589dc98",
-      "shortName": "Bludau, S."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "46f600ef63191d2b80362caa4686a2ec",
-      "name": "Schleicher, Axel",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f000487e-a9b4-4dee-8a2d-68f71019af0b",
-      "shortName": "Schleicher, A."
-    },
-    {
-      "schema.org/shortName": "Mohlberg, H.",
-      "identifier": "22bc11ef3726cc89459f83e66e88961b",
-      "name": "Mohlberg, Hartmut",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d2be3785-5b4b-4451-87be-62b30442ed30",
-      "shortName": "Mohlberg, H."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "21ec0b4ae3f94c4d7e701862718f2ae2",
-      "name": "Caspers, Julian",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/c62b7a14-880d-45ec-8e82-967cd3626dd5",
-      "shortName": "Caspers, J."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "dddfaa11fb9c7af6f9e2a54f9e3ef163",
-      "name": "Weiner, Kevin S.",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/041d9e23-1327-40e4-8283-82138eb1db13",
-      "shortName": "Weiner, K."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "c149471847daff78577093fa451d9a94",
-      "name": "Lorenz, Simon",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/e6e71927-86e4-487e-ad0d-d3d1db4dce57",
-      "shortName": "Lorenz, S."
-    }
-  ],
-  "id": "e7a2b57c-c4f0-41b9-8d80-8accd509497b",
-  "kgReference": [
-    "10.25493/13RG-FYV"
-  ],
-  "publications": [
-    {
-      "name": "Two New Cytoarchitectonic Areas on the Human Mid-Fusiform Gyrus",
-      "cite": "Lorenz, S., Weiner, K. S., Caspers, J., Mohlberg, H., Schleicher, A., Bludau, S., \u2026 Amunts, K. (2015). Two New Cytoarchitectonic Areas on the Human Mid-Fusiform Gyrus. Cerebral Cortex, bhv225. ",
-      "doi": "10.1093/cercor/bhv225"
-    }
-  ]
+	"@type": "siibra/snapshots/ebrainsquery/v1",
+	"formats": [
+		"NIFTI"
+	],
+	"datasetDOI": [
+		{
+			"cite": "Lorenz, S., Weiner, K. S., Caspers, J., Mohlberg, H., Schleicher, A., Bludau, S., \u2026 Amunts, K. (2015). Two New Cytoarchitectonic Areas on the Human Mid-Fusiform Gyrus. Cerebral Cortex, bhv225. ",
+			"doi": "10.1093/cercor/bhv225"
+		}
+	],
+	"activity": [
+		{
+			"protocols": [
+				"histology"
+			],
+			"preparation": [
+				"Ex vivo"
+			]
+		},
+		{
+			"protocols": [
+				"imaging"
+			],
+			"preparation": [
+				"Ex vivo"
+			]
+		},
+		{
+			"protocols": [
+				"brain mapping"
+			],
+			"preparation": [
+				"Ex vivo"
+			]
+		}
+	],
+	"referenceSpaces": [
+		{
+			"name": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+		},
+		{
+			"name": "MNI Colin 27",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
+		}
+	],
+	"methods": [
+		"silver staining",
+		"magnetic resonance imaging (MRI)",
+		"probability mapping",
+		"cytoarchitectonic mapping"
+	],
+	"custodians": [
+		{
+			"schema.org/shortName": "Amunts, K.",
+			"identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+			"name": "Amunts, Katrin",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+			"shortName": "Amunts, K."
+		}
+	],
+	"project": [
+		"Julich-Brain: cytoarchitectonic probabilistic maps of the human brain"
+	],
+	"description": "This dataset contains the distinct architectonic Area FG4 (FusG) in the individual, single subject template of the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space. As part of the Julich-Brain cytoarchitectonic atlas, the area was identified using cytoarchitectonic analysis on cell-body-stained histological sections of 10 human postmortem brains obtained from the body donor program of the University of D\u00fcsseldorf. The results of the cytoarchitectonic analysis were then mapped to both reference spaces, where each voxel was assigned the probability to belong to Area FG4 (FusG). The probability map of Area FG4 (FusG) are provided in the NifTi format for each brain reference space and hemisphere. The Julich-Brain atlas relies on a modular, flexible and adaptive framework containing workflows to create the probabilistic brain maps for these structures. Note that methodological improvements and integration of new brain structures may lead to small deviations in earlier released datasets.\n\nOther available data versions of Area FG4 (FusG):\nLorenz et al. (2018) [Data set, v6.0] [DOI: 10.25493/6A73-MZS](https://doi.org/10.25493%2F6A73-MZS)\n\nThe most probable delineation of Area FG4 (FusG) derived from the calculation of a maximum probability map of all currently released Julich-Brain brain structures can be found here:\nAmunts et al. (2019) [Data set, v1.13] [DOI: 10.25493/Q3ZS-NV6](https://doi.org/10.25493%2FQ3ZS-NV6)\nAmunts et al. (2019) [Data set, v1.18] [DOI: 10.25493/8EGG-ZAR](https://doi.org/10.25493%2F8EGG-ZAR)\nAmunts et al. (2020) [Data set, v2.2] [DOI: 10.25493/TAKY-64D](https://doi.org/10.25493%2FTAKY-64D)",
+	"parcellationAtlas": [
+		{
+			"name": "Julich-Brain Atlas",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
+			"id": [
+				"deec923ec31a82f89a9c7c76a6fefd6b",
+				"e2d45e028b6da0f6d9fdb9491a4de80a"
+			]
+		}
+	],
+	"licenseInfo": [
+		{
+			"name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+			"url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+		}
+	],
+	"embargoStatus": [
+		{
+			"identifier": [
+				"b24ce0cd392a5b0b8dedc66c25213594",
+				"b24ce0cd392a5b0b8dedc66c25213594"
+			],
+			"name": "Free",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
+		}
+	],
+	"license": [],
+	"parcellationRegion": [
+		{
+			"species": [],
+			"name": "Area FG4 (FusG)",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/fa602743-5f6e-49d1-9734-29dffaa95ff5"
+		}
+	],
+	"species": [
+		"Homo sapiens"
+	],
+	"name": "Probabilistic cytoarchitectonic map of Area FG4 (FusG) (v6.1)",
+	"files": [
+		{
+			"byteSize": 130913.0,
+			"name": "Area-FG4_r_N10_nlin2Stdcolin27_6.1_publicP_683f9ce4bb17648f79caaafb95e3a967.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-FG4_pub/6.1/Area-FG4_r_N10_nlin2Stdcolin27_6.1_publicP_683f9ce4bb17648f79caaafb95e3a967.nii.gz",
+			"contentType": "application/octet-stream"
+		},
+		{
+			"byteSize": 144690.0,
+			"name": "Area-FG4_l_N10_nlin2Stdcolin27_6.1_publicP_1c321f02425aa7828dce7a5b042bda82.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-FG4_pub/6.1/Area-FG4_l_N10_nlin2Stdcolin27_6.1_publicP_1c321f02425aa7828dce7a5b042bda82.nii.gz",
+			"contentType": "application/octet-stream"
+		},
+		{
+			"byteSize": 21.0,
+			"name": "subjects_Area-FG4.csv",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-FG4_pub/6.1/subjects_Area-FG4.csv",
+			"contentType": "text/csv"
+		},
+		{
+			"byteSize": 130351.0,
+			"name": "Area-FG4_l_N10_nlin2MNI152ASYM2009C_6.1_publicP_2cd9d3a99ed5b800e8c27ab6dd33a5de.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-FG4_pub/6.1/Area-FG4_l_N10_nlin2MNI152ASYM2009C_6.1_publicP_2cd9d3a99ed5b800e8c27ab6dd33a5de.nii.gz",
+			"contentType": "application/octet-stream"
+		},
+		{
+			"byteSize": 111121.0,
+			"name": "Area-FG4_r_N10_nlin2MNI152ASYM2009C_6.1_publicP_f0a0c573824a033925bd4af891146e5c.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-FG4_pub/6.1/Area-FG4_r_N10_nlin2MNI152ASYM2009C_6.1_publicP_f0a0c573824a033925bd4af891146e5c.nii.gz",
+			"contentType": "application/octet-stream"
+		}
+	],
+	"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/e7a2b57c-c4f0-41b9-8d80-8accd509497b",
+	"contributors": [
+		{
+			"schema.org/shortName": "Amunts, K.",
+			"identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+			"name": "Amunts, Katrin",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+			"shortName": "Amunts, K."
+		},
+		{
+			"schema.org/shortName": "Zilles, K.",
+			"identifier": "2457b4a7cf0b3fa199dcc3c88180dc9f",
+			"name": "Zilles, Karl",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/bacae1fc-d8ff-4050-8388-7d826592c62c",
+			"shortName": "Zilles, K."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "b8c53763dc95a6b4af3ab4057690fac9",
+			"name": "Grill-Spector, Kalanit",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f45aae93-f262-42d3-b6a2-6fe922f6e00c",
+			"shortName": "Grill-Spector, K."
+		},
+		{
+			"schema.org/shortName": "Eickhoff, S. B.",
+			"identifier": "f7e179682ccf98378bb566852f442c93",
+			"name": "Eickhoff, Simon B.",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/99a95057-bd4d-43ab-ad70-b7920ceedc48",
+			"shortName": "Eickhoff, S. B."
+		},
+		{
+			"schema.org/shortName": "Bludau, S.",
+			"identifier": "0c420063c33118f0fd65cabd330e9dd1",
+			"name": "Bludau, Sebastian",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/8e05318b-4e11-454c-a49b-f81e3589dc98",
+			"shortName": "Bludau, S."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "46f600ef63191d2b80362caa4686a2ec",
+			"name": "Schleicher, Axel",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f000487e-a9b4-4dee-8a2d-68f71019af0b",
+			"shortName": "Schleicher, A."
+		},
+		{
+			"schema.org/shortName": "Mohlberg, H.",
+			"identifier": "22bc11ef3726cc89459f83e66e88961b",
+			"name": "Mohlberg, Hartmut",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d2be3785-5b4b-4451-87be-62b30442ed30",
+			"shortName": "Mohlberg, H."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "21ec0b4ae3f94c4d7e701862718f2ae2",
+			"name": "Caspers, Julian",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/c62b7a14-880d-45ec-8e82-967cd3626dd5",
+			"shortName": "Caspers, J."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "dddfaa11fb9c7af6f9e2a54f9e3ef163",
+			"name": "Weiner, Kevin S.",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/041d9e23-1327-40e4-8283-82138eb1db13",
+			"shortName": "Weiner, K."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "c149471847daff78577093fa451d9a94",
+			"name": "Lorenz, Simon",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/e6e71927-86e4-487e-ad0d-d3d1db4dce57",
+			"shortName": "Lorenz, S."
+		}
+	],
+	"id": "e7a2b57c-c4f0-41b9-8d80-8accd509497b",
+	"kgReference": [
+		"10.25493/13RG-FYV"
+	],
+	"publications": [
+		{
+			"name": "Two New Cytoarchitectonic Areas on the Human Mid-Fusiform Gyrus",
+			"cite": "Lorenz, S., Weiner, K. S., Caspers, J., Mohlberg, H., Schleicher, A., Bludau, S., \u2026 Amunts, K. (2015). Two New Cytoarchitectonic Areas on the Human Mid-Fusiform Gyrus. Cerebral Cortex, bhv225. ",
+			"doi": "10.1093/cercor/bhv225"
+		}
+	]
 }

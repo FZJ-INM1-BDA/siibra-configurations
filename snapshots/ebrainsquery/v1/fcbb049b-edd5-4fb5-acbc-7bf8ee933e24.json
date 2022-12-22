@@ -1,291 +1,291 @@
 {
-  "@type": "siibra/snapshots/ebrainsquery/v1",
-  "formats": [
-    "NIFTI"
-  ],
-  "datasetDOI": [
-    {
-      "cite": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas.\nNeuroImage, 61(4),1083-99.\n\n",
-      "doi": "10.1016/j.neuroimage.2012.02.071"
-    }
-  ],
-  "activity": [
-    {
-      "protocols": [
-        "brain mapping"
-      ],
-      "preparation": [
-        "In vivo"
-      ]
-    },
-    {
-      "protocols": [
-        "imaging"
-      ],
-      "preparation": [
-        "In vivo"
-      ]
-    }
-  ],
-  "referenceSpaces": [],
-  "methods": [
-    "Spatial atlas registration",
-    "maximum probability mapping",
-    "fiber clustering",
-    "diffusion-weighted magnetic resonance imaging (DWI)",
-    "magnetic resonance imaging (MRI)"
-  ],
-  "custodians": [
-    {
-      "schema.org/shortName": null,
-      "identifier": "5247e07a9e484a7ae8329969efafacd6",
-      "name": "Mangin, Jean-Fran\u00e7ois",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/74297867-6e82-4558-9976-bf0895944ae5",
-      "shortName": "Mangin, J. F."
-    }
-  ],
-  "project": [
-    "Atlas of deep white matter fibre bundles, version 2018"
-  ],
-  "description": "This data contains the maximum probability map of deep white matter fibre bundles (atlas of deep white matter fibre bundles, version 2018), in the MNI ICBM152 reference brain. These bundles were identified by fibre clustering, from the tractography datasets of 78 subjects in Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
-  "parcellationAtlas": [],
-  "licenseInfo": [
-    {
-      "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    }
-  ],
-  "embargoStatus": [
-    {
-      "identifier": [
-        "b24ce0cd392a5b0b8dedc66c25213594",
-        "b24ce0cd392a5b0b8dedc66c25213594"
-      ],
-      "name": "Free",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
-    }
-  ],
-  "license": [],
-  "parcellationRegion": [
-    {
-      "species": [],
-      "name": "Right uncinate fasciculus",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/84ea1a64-03a6-4a7e-9f64-a3d2127ebf3f"
-    },
-    {
-      "species": [],
-      "name": "Right inferior longitudinal fasciculus",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/25326bc6-2b87-4483-9738-89ca249faccd"
-    },
-    {
-      "species": [],
-      "name": "Right inferior fronto-occipital fasciculus",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/34e8f68d-0b00-4e9e-bd43-ccaf10deef6d"
-    },
-    {
-      "species": [],
-      "name": "Right fornix",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/e7e8fd6d-aa43-452e-9fc3-635aa0333910"
-    },
-    {
-      "species": [],
-      "name": "Right temporal cingulate fibres",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/7e965e21-1d9b-4b8d-b77d-4a7ca17603e6"
-    },
-    {
-      "species": [],
-      "name": "Right short cingulate fibres",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/4c5ecae5-17b4-4a65-8b66-c4d0882a2bca"
-    },
-    {
-      "species": [],
-      "name": "Right long cingulate fibres",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/f5ae1188-8a10-4e17-9fa9-47b1dc4e50cd"
-    },
-    {
-      "species": [],
-      "name": "Direct segment of the right arcuate fasciculus",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/17cbf31c-f68b-4753-9014-44aa38e1cdcf"
-    },
-    {
-      "species": [],
-      "name": "Posterior segment of the right arcuate fasciculus",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/2a6ea612-46c1-4a0f-a6f4-5ffc7ff09548"
-    },
-    {
-      "species": [],
-      "name": "Anterior segment of the right arcuate fasciculus",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/9f625fad-9329-4824-8751-8b27dc197d3e"
-    },
-    {
-      "species": [],
-      "name": "Left uncinate fasciculus",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/f36707b5-d4f3-480b-a1c9-651bf8cc49d5"
-    },
-    {
-      "species": [],
-      "name": "Left inferior longitudinal fasciculus",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/d3a458e1-6dbf-418d-bb52-c0b0c6acb920"
-    },
-    {
-      "species": [],
-      "name": "Left inferior fronto-occipital fasciculus",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/524cd5a0-7066-4149-83b8-c0c4aaa12820"
-    },
-    {
-      "species": [],
-      "name": "Left fornix",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/c8d1e4a0-d0c2-4101-a971-3ffb1ba65ef8"
-    },
-    {
-      "species": [],
-      "name": "Left corticospinal tract",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/afbb2642-5e90-412f-9847-3d7a831f8f07"
-    },
-    {
-      "species": [],
-      "name": "Right corticospinal tract",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/2f398c6e-6264-4615-8a28-18b3573d0732"
-    },
-    {
-      "species": [],
-      "name": "Left temporal cingulate fibres",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/2c71b329-5a32-4ba0-aacb-0fac99c46aca"
-    },
-    {
-      "species": [],
-      "name": "Left short cingulate fibres",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/882d13c0-ffe4-4fd8-95a1-ba714cd25fbb"
-    },
-    {
-      "species": [],
-      "name": "Left long cingulate fibres",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/6fa27cc1-2efe-4fd3-83d7-973667a0b925"
-    },
-    {
-      "species": [],
-      "name": "Posterior segment of the left arcuate fasciculus",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/f13ba46b-09ad-48bd-9301-282b0ee74d8d"
-    },
-    {
-      "species": [],
-      "name": "Direct segment of the left arcuate fasciculus",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/7de080e0-fa5e-492f-9cbc-a4d7e498b1d5"
-    },
-    {
-      "species": [],
-      "name": "Anterior segment of the left arcuate fasciculus",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/1ed86a08-d720-427c-9796-ade24e34a36b"
-    }
-  ],
-  "species": [
-    "Homo sapiens"
-  ],
-  "name": "Maximum probability map of deep white matter fibre bundles (atlas of deep white matter fibre bundles, version 2018)",
-  "files": [
-    {
-      "byteSize": 999.0,
-      "name": "labels_DWM.txt",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/labels_DWM.txt",
-      "contentType": "text/plain"
-    },
-    {
-      "byteSize": 80192.0,
-      "name": "long-bundles_maxprob.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-      "contentType": "application/octet-stream"
-    }
-  ],
-  "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/fcbb049b-edd5-4fb5-acbc-7bf8ee933e24",
-  "contributors": [
-    {
-      "schema.org/shortName": null,
-      "identifier": "5247e07a9e484a7ae8329969efafacd6",
-      "name": "Mangin, Jean-Fran\u00e7ois",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/74297867-6e82-4558-9976-bf0895944ae5",
-      "shortName": "Mangin, J. F."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "66ab95f8-2308-4d15-bb09-ae30e92f8e82303708",
-      "name": "Leboyer, Marion ",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/66ab95f8-2308-4d15-bb09-ae30e92f8e82",
-      "shortName": "Leboyer, M."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "1e156ca3-122f-423e-922b-6baab4b9861e303708",
-      "name": "Le Bihan, Denis J.",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/1e156ca3-122f-423e-922b-6baab4b9861e",
-      "shortName": "Le Bihan, D."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "40f3fd03-16e8-425a-b457-83f8d30af81c303708",
-      "name": "Fillard, Pierre",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/40f3fd03-16e8-425a-b457-83f8d30af81c",
-      "shortName": "Fillard, P."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "a4320afe-9d3c-4f36-9f5b-aded5c29b918303708",
-      "name": "Marrakchi-Kacem, Linda ",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/a4320afe-9d3c-4f36-9f5b-aded5c29b918",
-      "shortName": "Marrakchi-Kacem, L."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "96cca02bc178ed9c6e6e5df74984a75a",
-      "name": "Poupon, Cyril",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/9f7b7063-dfcb-4edd-a1f4-ce9e1be94cb7",
-      "shortName": "Poupon, C."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "645c1d87f9f006665c4d69c5119351c1",
-      "name": "Duclap, Delphine",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/7118da60-7f25-41d0-9418-db95e9f074b6",
-      "shortName": "Duclap, D."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "aa4fb1fd82ca7961c688e8b46439a3ca",
-      "name": "Guevara, Pamela",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f8f6f28b-5206-411a-a885-34508c19a011",
-      "shortName": "Guevara, P."
-    }
-  ],
-  "id": "fcbb049b-edd5-4fb5-acbc-7bf8ee933e24",
-  "kgReference": [
-    "10.25493/V5BH-P7P"
-  ],
-  "publications": [
-    {
-      "name": "Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas",
-      "cite": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas.\nNeuroImage, 61(4),1083-99.\n\n",
-      "doi": "10.1016/j.neuroimage.2012.02.071"
-    }
-  ]
+	"@type": "siibra/snapshots/ebrainsquery/v1",
+	"formats": [
+		"NIFTI"
+	],
+	"datasetDOI": [
+		{
+			"cite": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas.\nNeuroImage, 61(4),1083-99.\n\n",
+			"doi": "10.1016/j.neuroimage.2012.02.071"
+		}
+	],
+	"activity": [
+		{
+			"protocols": [
+				"brain mapping"
+			],
+			"preparation": [
+				"In vivo"
+			]
+		},
+		{
+			"protocols": [
+				"imaging"
+			],
+			"preparation": [
+				"In vivo"
+			]
+		}
+	],
+	"referenceSpaces": [],
+	"methods": [
+		"Spatial atlas registration",
+		"maximum probability mapping",
+		"fiber clustering",
+		"diffusion-weighted magnetic resonance imaging (DWI)",
+		"magnetic resonance imaging (MRI)"
+	],
+	"custodians": [
+		{
+			"schema.org/shortName": null,
+			"identifier": "5247e07a9e484a7ae8329969efafacd6",
+			"name": "Mangin, Jean-Fran\u00e7ois",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/74297867-6e82-4558-9976-bf0895944ae5",
+			"shortName": "Mangin, J. F."
+		}
+	],
+	"project": [
+		"Atlas of deep white matter fibre bundles, version 2018"
+	],
+	"description": "This data contains the maximum probability map of deep white matter fibre bundles (atlas of deep white matter fibre bundles, version 2018), in the MNI ICBM152 reference brain. These bundles were identified by fibre clustering, from the tractography datasets of 78 subjects in Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
+	"parcellationAtlas": [],
+	"licenseInfo": [
+		{
+			"name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+			"url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+		}
+	],
+	"embargoStatus": [
+		{
+			"identifier": [
+				"b24ce0cd392a5b0b8dedc66c25213594",
+				"b24ce0cd392a5b0b8dedc66c25213594"
+			],
+			"name": "Free",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
+		}
+	],
+	"license": [],
+	"parcellationRegion": [
+		{
+			"species": [],
+			"name": "Right uncinate fasciculus",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/84ea1a64-03a6-4a7e-9f64-a3d2127ebf3f"
+		},
+		{
+			"species": [],
+			"name": "Right inferior longitudinal fasciculus",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/25326bc6-2b87-4483-9738-89ca249faccd"
+		},
+		{
+			"species": [],
+			"name": "Right inferior fronto-occipital fasciculus",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/34e8f68d-0b00-4e9e-bd43-ccaf10deef6d"
+		},
+		{
+			"species": [],
+			"name": "Right fornix",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/e7e8fd6d-aa43-452e-9fc3-635aa0333910"
+		},
+		{
+			"species": [],
+			"name": "Right temporal cingulate fibres",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/7e965e21-1d9b-4b8d-b77d-4a7ca17603e6"
+		},
+		{
+			"species": [],
+			"name": "Right short cingulate fibres",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/4c5ecae5-17b4-4a65-8b66-c4d0882a2bca"
+		},
+		{
+			"species": [],
+			"name": "Right long cingulate fibres",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/f5ae1188-8a10-4e17-9fa9-47b1dc4e50cd"
+		},
+		{
+			"species": [],
+			"name": "Direct segment of the right arcuate fasciculus",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/17cbf31c-f68b-4753-9014-44aa38e1cdcf"
+		},
+		{
+			"species": [],
+			"name": "Posterior segment of the right arcuate fasciculus",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/2a6ea612-46c1-4a0f-a6f4-5ffc7ff09548"
+		},
+		{
+			"species": [],
+			"name": "Anterior segment of the right arcuate fasciculus",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/9f625fad-9329-4824-8751-8b27dc197d3e"
+		},
+		{
+			"species": [],
+			"name": "Left uncinate fasciculus",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/f36707b5-d4f3-480b-a1c9-651bf8cc49d5"
+		},
+		{
+			"species": [],
+			"name": "Left inferior longitudinal fasciculus",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/d3a458e1-6dbf-418d-bb52-c0b0c6acb920"
+		},
+		{
+			"species": [],
+			"name": "Left inferior fronto-occipital fasciculus",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/524cd5a0-7066-4149-83b8-c0c4aaa12820"
+		},
+		{
+			"species": [],
+			"name": "Left fornix",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/c8d1e4a0-d0c2-4101-a971-3ffb1ba65ef8"
+		},
+		{
+			"species": [],
+			"name": "Left corticospinal tract",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/afbb2642-5e90-412f-9847-3d7a831f8f07"
+		},
+		{
+			"species": [],
+			"name": "Right corticospinal tract",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/2f398c6e-6264-4615-8a28-18b3573d0732"
+		},
+		{
+			"species": [],
+			"name": "Left temporal cingulate fibres",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/2c71b329-5a32-4ba0-aacb-0fac99c46aca"
+		},
+		{
+			"species": [],
+			"name": "Left short cingulate fibres",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/882d13c0-ffe4-4fd8-95a1-ba714cd25fbb"
+		},
+		{
+			"species": [],
+			"name": "Left long cingulate fibres",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/6fa27cc1-2efe-4fd3-83d7-973667a0b925"
+		},
+		{
+			"species": [],
+			"name": "Posterior segment of the left arcuate fasciculus",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/f13ba46b-09ad-48bd-9301-282b0ee74d8d"
+		},
+		{
+			"species": [],
+			"name": "Direct segment of the left arcuate fasciculus",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/7de080e0-fa5e-492f-9cbc-a4d7e498b1d5"
+		},
+		{
+			"species": [],
+			"name": "Anterior segment of the left arcuate fasciculus",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/1ed86a08-d720-427c-9796-ade24e34a36b"
+		}
+	],
+	"species": [
+		"Homo sapiens"
+	],
+	"name": "Maximum probability map of deep white matter fibre bundles (atlas of deep white matter fibre bundles, version 2018)",
+	"files": [
+		{
+			"byteSize": 999.0,
+			"name": "labels_DWM.txt",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/labels_DWM.txt",
+			"contentType": "text/plain"
+		},
+		{
+			"byteSize": 80192.0,
+			"name": "long-bundles_maxprob.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
+			"contentType": "application/octet-stream"
+		}
+	],
+	"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/fcbb049b-edd5-4fb5-acbc-7bf8ee933e24",
+	"contributors": [
+		{
+			"schema.org/shortName": null,
+			"identifier": "5247e07a9e484a7ae8329969efafacd6",
+			"name": "Mangin, Jean-Fran\u00e7ois",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/74297867-6e82-4558-9976-bf0895944ae5",
+			"shortName": "Mangin, J. F."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "66ab95f8-2308-4d15-bb09-ae30e92f8e82303708",
+			"name": "Leboyer, Marion ",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/66ab95f8-2308-4d15-bb09-ae30e92f8e82",
+			"shortName": "Leboyer, M."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "1e156ca3-122f-423e-922b-6baab4b9861e303708",
+			"name": "Le Bihan, Denis J.",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/1e156ca3-122f-423e-922b-6baab4b9861e",
+			"shortName": "Le Bihan, D."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "40f3fd03-16e8-425a-b457-83f8d30af81c303708",
+			"name": "Fillard, Pierre",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/40f3fd03-16e8-425a-b457-83f8d30af81c",
+			"shortName": "Fillard, P."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "a4320afe-9d3c-4f36-9f5b-aded5c29b918303708",
+			"name": "Marrakchi-Kacem, Linda ",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/a4320afe-9d3c-4f36-9f5b-aded5c29b918",
+			"shortName": "Marrakchi-Kacem, L."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "96cca02bc178ed9c6e6e5df74984a75a",
+			"name": "Poupon, Cyril",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/9f7b7063-dfcb-4edd-a1f4-ce9e1be94cb7",
+			"shortName": "Poupon, C."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "645c1d87f9f006665c4d69c5119351c1",
+			"name": "Duclap, Delphine",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/7118da60-7f25-41d0-9418-db95e9f074b6",
+			"shortName": "Duclap, D."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "aa4fb1fd82ca7961c688e8b46439a3ca",
+			"name": "Guevara, Pamela",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f8f6f28b-5206-411a-a885-34508c19a011",
+			"shortName": "Guevara, P."
+		}
+	],
+	"id": "fcbb049b-edd5-4fb5-acbc-7bf8ee933e24",
+	"kgReference": [
+		"10.25493/V5BH-P7P"
+	],
+	"publications": [
+		{
+			"name": "Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas",
+			"cite": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas.\nNeuroImage, 61(4),1083-99.\n\n",
+			"doi": "10.1016/j.neuroimage.2012.02.071"
+		}
+	]
 }

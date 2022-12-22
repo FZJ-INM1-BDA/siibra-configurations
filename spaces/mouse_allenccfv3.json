@@ -7,7 +7,7 @@
 	"volumes": [
 		{
 			"@type": "siibra/volume/v0.0.1",
-			"urls": {
+			"providers": {
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/templates/v3/stpt"
 			}
 		},
@@ -25,7 +25,7 @@
 					]
 				}
 			},
-			"urls": {
+			"providers": {
 				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/parcellations/v3_2017_mesh"
 			}
 		}

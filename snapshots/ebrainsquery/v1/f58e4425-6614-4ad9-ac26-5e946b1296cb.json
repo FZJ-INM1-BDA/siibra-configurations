@@ -1,471 +1,471 @@
 {
-  "@type": "siibra/snapshots/ebrainsquery/v1",
-  "formats": [
-    "NIFTI"
-  ],
-  "datasetDOI": [
-    {
-      "cite": "Guevara, M., Rom\u00e1n, C., Houenou, J., Duclap, D., Poupon, C., Mangin, J., Guevara, P. (2017) Reproducibility of superficial white matter tracts using diffusion-weighted imaging tractography, 147:703-725. ",
-      "doi": "10.1016/j.neuroimage.2016.11.066"
-    }
-  ],
-  "activity": [
-    {
-      "protocols": [
-        "brain mapping"
-      ],
-      "preparation": [
-        "In vivo"
-      ]
-    },
-    {
-      "protocols": [
-        "imaging"
-      ],
-      "preparation": [
-        "In vivo"
-      ]
-    }
-  ],
-  "referenceSpaces": [],
-  "methods": [
-    "Spatial atlas registration",
-    "maximum probability mapping",
-    "parcellation based strategies",
-    "fiber clustering",
-    "diffusion-weighted magnetic resonance imaging (DWI)",
-    "magnetic resonance imaging (MRI)"
-  ],
-  "custodians": [
-    {
-      "schema.org/shortName": null,
-      "identifier": "5247e07a9e484a7ae8329969efafacd6",
-      "name": "Mangin, Jean-Fran\u00e7ois",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/74297867-6e82-4558-9976-bf0895944ae5",
-      "shortName": "Mangin, J. F."
-    }
-  ],
-  "project": [
-    "Atlas of superficial white matter fibre bundles, version 2018"
-  ],
-  "description": "This data contains the maximum probability map of superficial white matter fibre bundles, in the MNI ICBM152 reference brain. These bundles were identified using a hybrid approach, incorporating anatomical information (from cortical regions of interest) and fibre shape (fibre clustering), from the tractography datasets of 78 subjects in the Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
-  "parcellationAtlas": [],
-  "licenseInfo": [
-    {
-      "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    }
-  ],
-  "embargoStatus": [
-    {
-      "identifier": [
-        "b24ce0cd392a5b0b8dedc66c25213594",
-        "b24ce0cd392a5b0b8dedc66c25213594"
-      ],
-      "name": "Free",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
-    }
-  ],
-  "license": [],
-  "parcellationRegion": [
-    {
-      "species": [],
-      "name": "right hemisphere Pars Opercularis (rh_Op)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/a8e62223-0074-40ec-bc09-d8104bb0cf8d"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Transverse Temporal (rh_TT)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/f49b8d89-a3c3-4616-b5b6-c907420e56df"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Supramarginal (rh_SP)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/fbc8c214-e4ec-48a9-a317-a1cbb11cb2c0"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Insula (rh_Ins)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/2e087372-d95f-49c0-ada5-878f7335389a"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Precuneus (rh_PrCu)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/733f38de-ca30-4aee-936e-56bf7ac9bd7f"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Lingual (rh_Li)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/8077ee70-70b4-4fca-b478-70ccf220cd26"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Pars Triangularis (rh_Tr)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/0cee9a8f-ba1a-4f27-b1cf-b188e5ab9afb"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Superior Temporal (rh_ST)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/e0ee4842-a7e4-43b5-8b5b-e8d0d1133eef"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Superior Parietal (rh_SP)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/73bc8bbe-8163-4f68-8e7b-cedd98b58db8"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Supramarginal (rh_SM)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/a5d12e8e-8f93-48df-ae48-d72dbf96981f"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Rostral Middle Frontal (rh_RMF)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/76c650a5-8802-4da3-b3d3-f913b00c4d99"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Rostral Anterior Cingulate (rh_RAC)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/e0033029-4fa6-4c58-b161-a3694eafe2e5"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Precentral (rh_PrC)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/f61d083d-45e6-4742-bead-d14f3e4fdfe6"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Postcentral (rh_PoC)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/852dbc9e-f839-4884-9651-197d1b328f0b"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Posterior Cingulate (rh_PoCi)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/b18b41e4-9870-42d7-a6a7-341002ca8b28"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Middle Temporal (rh_MT)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/8ad29a7d-e711-4c26-8fbd-c9c21c6bec9d"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Middle Orbitofrontal (rh_MOF)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/caf495aa-f0ee-40d4-9dc0-1d29ee686254"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Lateral Occipital (rh_LO)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/acb5af7d-e9ba-463c-9060-8805c54be38e"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Lateral Orbitofrontal (rh_LOF)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/ef822853-fa5a-4bc3-ba33-5da32cc2f5fb"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Superior Frontal (rh_SF)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/346f06ca-3760-4a03-9de0-4966f9fcfadf"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Inferior Temporal (rh_IT)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/ac790f17-d901-41b1-9321-f60e1dad2a1e"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Inferior Parietal (rh_IP)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/5631c9f5-8fe0-4cfb-be1d-17ae70c2f4d2"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Isthmus Cingulate (rh_IC)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/c4adba5a-780c-41ba-a355-523690d77cbc"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Fusiform (rh_Fu)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/5f5cf781-47ee-4297-a3cf-5307f5638cf4"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Cuneus (rh_Cu)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/0a235911-e3b6-4f7b-8209-c5ec310fd081"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Caudal Middle Frontal (rh_CMF)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/f67da66d-6653-4390-9f58-543624f725a7"
-    },
-    {
-      "species": [],
-      "name": "right hemisphere Caudal Anterior Cingulate (rh_CAC)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/2af91d6a-f28d-4644-8b13-c432a67eddca"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Transverse Temporal (lh_TT)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/c1876c39-cbcc-48ff-a7e0-2ceb55e64803"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Insula (lh_Ins)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/6d645f0a-7a36-4d3b-8dc4-c03929a0f3f0"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Rostral Middle (lh_RMF)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/c0c738d7-44aa-41ad-8d46-fa4d2515e7ac"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Lateral Occipital (lh_LO)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/b0980bc5-dc2a-4238-a9eb-e5cc5efe1570"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Superior Frontal (lh_SF)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/4d31f7d4-7c6a-4781-a651-c4394be470ca"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Precuneus (lh_PrCu)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/d78a928d-a9b2-42c8-ba74-74f291321203"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Pars Triangularis (lh_Tr)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/0d683d3a-3f32-46be-af38-21f4a0caca6e"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Superior Temporal (lh_ST)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/4fa9a541-db66-4ae3-9662-30ed163f2833"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Superior Parietal (lh_SP)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/4b908268-a57a-409f-9f78-b5cb70372da7"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Supramarginal (lh_SM)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/c3fdea9f-4c9b-4efe-9064-de0604983238"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Rostral Anterior Cingulate (lh_RAC)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/b217a618-ddeb-4ef7-a775-8d9545f84cb5"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Precentral (lh_PrC)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/e045ddb8-4594-409c-b7aa-77b0f136cd66"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Posterior Cingulate (lh_PoCi)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/4c3bb94b-7c51-4478-9ab9-a8bebc6ba3e4"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Postcentral (lh_PoC)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/8c6979a8-6abc-428b-bff8-5c748df076f0"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Rostral Middle Frontal (lh_RMF)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/15ac9d77-857a-4b58-b909-6a8c30d85103"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Pars Orbitalis (lh_Or)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/44a7d803-25d3-430e-a2d8-30e1db81cb6e"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Pars Opercularis (lh_Op)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/a1a15603-cd24-4065-bcb0-d266778aa17d"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Middle Temporal (lh_MT)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/a862a884-e9a2-4cbd-9cc6-5aa35b66a10b"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Middle Orbitofrontal (lh_MOF)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/2a1e5cfd-b3a4-4318-9b4b-0221e3a5258d"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Lateral Orbitofrontal (lh_LOF)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/3eded8ba-f2c1-470b-a60b-07c12477e74e"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Inferior Temporal (lh_IT)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/ca90308f-5145-43b5-a187-d8f0866b161a"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Inferior Parietal (lh_IP)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/fbc44e35-0612-4ad5-87d4-b80182ddf72a"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Isthmus Cingulate (lh_IC)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/a5cfb60f-5c37-47d1-8dc4-24f9c8d8656b"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Fusiform (lh_Fu)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/07a4c1c9-d1e3-4720-a2c9-c1ba8644f857"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Caudal Middle Frontal (lh_CMF)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/58be0f2a-eb77-4e4a-a78c-bfdbe4de7157"
-    },
-    {
-      "species": [],
-      "name": "left hemisphere Caudal Anterior Cingulate (lh_CAC)",
-      "alias": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/c6f79d20-bad6-4055-afe9-c188b51c4015"
-    }
-  ],
-  "species": [
-    "Homo sapiens"
-  ],
-  "name": "Maximum probability map of superficial white matter fibre bundles (atlas of superficial white matter fibre bundles, version 2018)",
-  "files": [
-    {
-      "byteSize": 1508.0,
-      "name": "labels_SWM.txt",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/mpm_swm/labels_SWM.txt",
-      "contentType": "text/plain"
-    },
-    {
-      "byteSize": 121709.0,
-      "name": "short-bundles_maxprob.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/mpm_swm/short-bundles_maxprob.nii.gz",
-      "contentType": "application/octet-stream"
-    }
-  ],
-  "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/f58e4425-6614-4ad9-ac26-5e946b1296cb",
-  "contributors": [
-    {
-      "schema.org/shortName": null,
-      "identifier": "aa4fb1fd82ca7961c688e8b46439a3ca",
-      "name": "Guevara, Pamela",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f8f6f28b-5206-411a-a885-34508c19a011",
-      "shortName": "Guevara, P."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "5247e07a9e484a7ae8329969efafacd6",
-      "name": "Mangin, Jean-Fran\u00e7ois",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/74297867-6e82-4558-9976-bf0895944ae5",
-      "shortName": "Mangin, J. F."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "96cca02bc178ed9c6e6e5df74984a75a",
-      "name": "Poupon, Cyril",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/9f7b7063-dfcb-4edd-a1f4-ce9e1be94cb7",
-      "shortName": "Poupon, C."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "645c1d87f9f006665c4d69c5119351c1",
-      "name": "Duclap, Delphine",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/7118da60-7f25-41d0-9418-db95e9f074b6",
-      "shortName": "Duclap, D."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "b7d8d136-e5d4-4e36-9aa3-3eb5b1f97ec4303708",
-      "name": "Houenou, Josselin",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/b7d8d136-e5d4-4e36-9aa3-3eb5b1f97ec4",
-      "shortName": "Houenou, J."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "1fb8904c-294d-41d5-a4ac-92c6b6262684",
-      "name": "Rom\u00e1n, Claudio",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/1fb8904c-294d-41d5-a4ac-92c6b6262684",
-      "shortName": "Rom\u00e1n, C."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "d00e3686-448b-4a37-b9f2-3b5b442cd898",
-      "name": "Guevara, Miguel",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d00e3686-448b-4a37-b9f2-3b5b442cd898",
-      "shortName": "Guevara, M."
-    }
-  ],
-  "id": "f58e4425-6614-4ad9-ac26-5e946b1296cb",
-  "kgReference": [
-    "10.25493/ENJ7-ZKM"
-  ],
-  "publications": [
-    {
-      "name": "Reproducibility of superficial white matter tracts using diffusion-weighted imaging tractography",
-      "cite": "Guevara, M., Rom\u00e1n, C., Houenou, J., Duclap, D., Poupon, C., Mangin, J., Guevara, P. (2017) Reproducibility of superficial white matter tracts using diffusion-weighted imaging tractography, 147:703-725. ",
-      "doi": "10.1016/j.neuroimage.2016.11.066"
-    }
-  ]
+	"@type": "siibra/snapshots/ebrainsquery/v1",
+	"formats": [
+		"NIFTI"
+	],
+	"datasetDOI": [
+		{
+			"cite": "Guevara, M., Rom\u00e1n, C., Houenou, J., Duclap, D., Poupon, C., Mangin, J., Guevara, P. (2017) Reproducibility of superficial white matter tracts using diffusion-weighted imaging tractography, 147:703-725. ",
+			"doi": "10.1016/j.neuroimage.2016.11.066"
+		}
+	],
+	"activity": [
+		{
+			"protocols": [
+				"brain mapping"
+			],
+			"preparation": [
+				"In vivo"
+			]
+		},
+		{
+			"protocols": [
+				"imaging"
+			],
+			"preparation": [
+				"In vivo"
+			]
+		}
+	],
+	"referenceSpaces": [],
+	"methods": [
+		"Spatial atlas registration",
+		"maximum probability mapping",
+		"parcellation based strategies",
+		"fiber clustering",
+		"diffusion-weighted magnetic resonance imaging (DWI)",
+		"magnetic resonance imaging (MRI)"
+	],
+	"custodians": [
+		{
+			"schema.org/shortName": null,
+			"identifier": "5247e07a9e484a7ae8329969efafacd6",
+			"name": "Mangin, Jean-Fran\u00e7ois",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/74297867-6e82-4558-9976-bf0895944ae5",
+			"shortName": "Mangin, J. F."
+		}
+	],
+	"project": [
+		"Atlas of superficial white matter fibre bundles, version 2018"
+	],
+	"description": "This data contains the maximum probability map of superficial white matter fibre bundles, in the MNI ICBM152 reference brain. These bundles were identified using a hybrid approach, incorporating anatomical information (from cortical regions of interest) and fibre shape (fibre clustering), from the tractography datasets of 78 subjects in the Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
+	"parcellationAtlas": [],
+	"licenseInfo": [
+		{
+			"name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+			"url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+		}
+	],
+	"embargoStatus": [
+		{
+			"identifier": [
+				"b24ce0cd392a5b0b8dedc66c25213594",
+				"b24ce0cd392a5b0b8dedc66c25213594"
+			],
+			"name": "Free",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
+		}
+	],
+	"license": [],
+	"parcellationRegion": [
+		{
+			"species": [],
+			"name": "right hemisphere Pars Opercularis (rh_Op)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/a8e62223-0074-40ec-bc09-d8104bb0cf8d"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Transverse Temporal (rh_TT)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/f49b8d89-a3c3-4616-b5b6-c907420e56df"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Supramarginal (rh_SP)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/fbc8c214-e4ec-48a9-a317-a1cbb11cb2c0"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Insula (rh_Ins)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/2e087372-d95f-49c0-ada5-878f7335389a"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Precuneus (rh_PrCu)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/733f38de-ca30-4aee-936e-56bf7ac9bd7f"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Lingual (rh_Li)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/8077ee70-70b4-4fca-b478-70ccf220cd26"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Pars Triangularis (rh_Tr)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/0cee9a8f-ba1a-4f27-b1cf-b188e5ab9afb"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Superior Temporal (rh_ST)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/e0ee4842-a7e4-43b5-8b5b-e8d0d1133eef"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Superior Parietal (rh_SP)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/73bc8bbe-8163-4f68-8e7b-cedd98b58db8"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Supramarginal (rh_SM)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/a5d12e8e-8f93-48df-ae48-d72dbf96981f"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Rostral Middle Frontal (rh_RMF)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/76c650a5-8802-4da3-b3d3-f913b00c4d99"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Rostral Anterior Cingulate (rh_RAC)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/e0033029-4fa6-4c58-b161-a3694eafe2e5"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Precentral (rh_PrC)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/f61d083d-45e6-4742-bead-d14f3e4fdfe6"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Postcentral (rh_PoC)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/852dbc9e-f839-4884-9651-197d1b328f0b"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Posterior Cingulate (rh_PoCi)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/b18b41e4-9870-42d7-a6a7-341002ca8b28"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Middle Temporal (rh_MT)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/8ad29a7d-e711-4c26-8fbd-c9c21c6bec9d"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Middle Orbitofrontal (rh_MOF)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/caf495aa-f0ee-40d4-9dc0-1d29ee686254"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Lateral Occipital (rh_LO)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/acb5af7d-e9ba-463c-9060-8805c54be38e"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Lateral Orbitofrontal (rh_LOF)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/ef822853-fa5a-4bc3-ba33-5da32cc2f5fb"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Superior Frontal (rh_SF)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/346f06ca-3760-4a03-9de0-4966f9fcfadf"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Inferior Temporal (rh_IT)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/ac790f17-d901-41b1-9321-f60e1dad2a1e"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Inferior Parietal (rh_IP)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/5631c9f5-8fe0-4cfb-be1d-17ae70c2f4d2"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Isthmus Cingulate (rh_IC)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/c4adba5a-780c-41ba-a355-523690d77cbc"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Fusiform (rh_Fu)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/5f5cf781-47ee-4297-a3cf-5307f5638cf4"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Cuneus (rh_Cu)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/0a235911-e3b6-4f7b-8209-c5ec310fd081"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Caudal Middle Frontal (rh_CMF)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/f67da66d-6653-4390-9f58-543624f725a7"
+		},
+		{
+			"species": [],
+			"name": "right hemisphere Caudal Anterior Cingulate (rh_CAC)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/2af91d6a-f28d-4644-8b13-c432a67eddca"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Transverse Temporal (lh_TT)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/c1876c39-cbcc-48ff-a7e0-2ceb55e64803"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Insula (lh_Ins)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/6d645f0a-7a36-4d3b-8dc4-c03929a0f3f0"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Rostral Middle (lh_RMF)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/c0c738d7-44aa-41ad-8d46-fa4d2515e7ac"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Lateral Occipital (lh_LO)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/b0980bc5-dc2a-4238-a9eb-e5cc5efe1570"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Superior Frontal (lh_SF)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/4d31f7d4-7c6a-4781-a651-c4394be470ca"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Precuneus (lh_PrCu)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/d78a928d-a9b2-42c8-ba74-74f291321203"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Pars Triangularis (lh_Tr)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/0d683d3a-3f32-46be-af38-21f4a0caca6e"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Superior Temporal (lh_ST)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/4fa9a541-db66-4ae3-9662-30ed163f2833"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Superior Parietal (lh_SP)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/4b908268-a57a-409f-9f78-b5cb70372da7"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Supramarginal (lh_SM)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/c3fdea9f-4c9b-4efe-9064-de0604983238"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Rostral Anterior Cingulate (lh_RAC)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/b217a618-ddeb-4ef7-a775-8d9545f84cb5"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Precentral (lh_PrC)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/e045ddb8-4594-409c-b7aa-77b0f136cd66"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Posterior Cingulate (lh_PoCi)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/4c3bb94b-7c51-4478-9ab9-a8bebc6ba3e4"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Postcentral (lh_PoC)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/8c6979a8-6abc-428b-bff8-5c748df076f0"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Rostral Middle Frontal (lh_RMF)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/15ac9d77-857a-4b58-b909-6a8c30d85103"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Pars Orbitalis (lh_Or)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/44a7d803-25d3-430e-a2d8-30e1db81cb6e"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Pars Opercularis (lh_Op)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/a1a15603-cd24-4065-bcb0-d266778aa17d"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Middle Temporal (lh_MT)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/a862a884-e9a2-4cbd-9cc6-5aa35b66a10b"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Middle Orbitofrontal (lh_MOF)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/2a1e5cfd-b3a4-4318-9b4b-0221e3a5258d"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Lateral Orbitofrontal (lh_LOF)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/3eded8ba-f2c1-470b-a60b-07c12477e74e"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Inferior Temporal (lh_IT)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/ca90308f-5145-43b5-a187-d8f0866b161a"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Inferior Parietal (lh_IP)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/fbc44e35-0612-4ad5-87d4-b80182ddf72a"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Isthmus Cingulate (lh_IC)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/a5cfb60f-5c37-47d1-8dc4-24f9c8d8656b"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Fusiform (lh_Fu)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/07a4c1c9-d1e3-4720-a2c9-c1ba8644f857"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Caudal Middle Frontal (lh_CMF)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/58be0f2a-eb77-4e4a-a78c-bfdbe4de7157"
+		},
+		{
+			"species": [],
+			"name": "left hemisphere Caudal Anterior Cingulate (lh_CAC)",
+			"alias": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/c6f79d20-bad6-4055-afe9-c188b51c4015"
+		}
+	],
+	"species": [
+		"Homo sapiens"
+	],
+	"name": "Maximum probability map of superficial white matter fibre bundles (atlas of superficial white matter fibre bundles, version 2018)",
+	"files": [
+		{
+			"byteSize": 1508.0,
+			"name": "labels_SWM.txt",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/mpm_swm/labels_SWM.txt",
+			"contentType": "text/plain"
+		},
+		{
+			"byteSize": 121709.0,
+			"name": "short-bundles_maxprob.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version 2018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"contentType": "application/octet-stream"
+		}
+	],
+	"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/f58e4425-6614-4ad9-ac26-5e946b1296cb",
+	"contributors": [
+		{
+			"schema.org/shortName": null,
+			"identifier": "aa4fb1fd82ca7961c688e8b46439a3ca",
+			"name": "Guevara, Pamela",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f8f6f28b-5206-411a-a885-34508c19a011",
+			"shortName": "Guevara, P."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "5247e07a9e484a7ae8329969efafacd6",
+			"name": "Mangin, Jean-Fran\u00e7ois",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/74297867-6e82-4558-9976-bf0895944ae5",
+			"shortName": "Mangin, J. F."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "96cca02bc178ed9c6e6e5df74984a75a",
+			"name": "Poupon, Cyril",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/9f7b7063-dfcb-4edd-a1f4-ce9e1be94cb7",
+			"shortName": "Poupon, C."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "645c1d87f9f006665c4d69c5119351c1",
+			"name": "Duclap, Delphine",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/7118da60-7f25-41d0-9418-db95e9f074b6",
+			"shortName": "Duclap, D."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "b7d8d136-e5d4-4e36-9aa3-3eb5b1f97ec4303708",
+			"name": "Houenou, Josselin",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/b7d8d136-e5d4-4e36-9aa3-3eb5b1f97ec4",
+			"shortName": "Houenou, J."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "1fb8904c-294d-41d5-a4ac-92c6b6262684",
+			"name": "Rom\u00e1n, Claudio",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/1fb8904c-294d-41d5-a4ac-92c6b6262684",
+			"shortName": "Rom\u00e1n, C."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "d00e3686-448b-4a37-b9f2-3b5b442cd898",
+			"name": "Guevara, Miguel",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d00e3686-448b-4a37-b9f2-3b5b442cd898",
+			"shortName": "Guevara, M."
+		}
+	],
+	"id": "f58e4425-6614-4ad9-ac26-5e946b1296cb",
+	"kgReference": [
+		"10.25493/ENJ7-ZKM"
+	],
+	"publications": [
+		{
+			"name": "Reproducibility of superficial white matter tracts using diffusion-weighted imaging tractography",
+			"cite": "Guevara, M., Rom\u00e1n, C., Houenou, J., Duclap, D., Poupon, C., Mangin, J., Guevara, P. (2017) Reproducibility of superficial white matter tracts using diffusion-weighted imaging tractography, 147:703-725. ",
+			"doi": "10.1016/j.neuroimage.2016.11.066"
+		}
+	]
 }

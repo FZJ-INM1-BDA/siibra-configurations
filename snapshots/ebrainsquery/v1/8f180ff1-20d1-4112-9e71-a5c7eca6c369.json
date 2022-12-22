@@ -1,252 +1,252 @@
 {
-  "@type": "siibra/snapshots/ebrainsquery/v1",
-  "formats": [
-    "NIFTI"
-  ],
-  "datasetDOI": [
-    {
-      "cite": "Amunts, K., Weiss, P. H., Mohlberg, H., Pieperhoff, P., Eickhoff, S., Gurd, J. M., \u2026 Zilles, K. (2004). Analysis of neural mechanisms underlying verbal fluency in cytoarchitectonically defined stereotaxic space\u2014The roles of Brodmann areas 44 and 45. NeuroImage, 22(1), 42\u201356. ",
-      "doi": "10.1016/j.neuroimage.2003.12.031"
-    },
-    {
-      "cite": "Amunts, K., Schleicher, A., B\u00fcrgel, U., Mohlberg, H., Uylings, H. B. M., & Zilles, K. (1999). Broca\u2019s region revisited: Cytoarchitecture and intersubject variability. The Journal of Comparative Neurology, 412(2), 319\u2013341. ",
-      "doi": "10.1002/(SICI)1096-9861(19990920)412:2<319::AID-CNE10>3.0.CO;2-7"
-    }
-  ],
-  "activity": [
-    {
-      "protocols": [
-        "histology"
-      ],
-      "preparation": [
-        "Ex vivo"
-      ]
-    },
-    {
-      "protocols": [
-        "imaging"
-      ],
-      "preparation": [
-        "Ex vivo"
-      ]
-    },
-    {
-      "protocols": [
-        "brain mapping"
-      ],
-      "preparation": [
-        "Ex vivo"
-      ]
-    }
-  ],
-  "referenceSpaces": [
-    {
-      "name": null,
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
-    },
-    {
-      "name": "MNI Colin 27",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
-    }
-  ],
-  "methods": [
-    "silver staining",
-    "magnetic resonance imaging (MRI)",
-    "probability mapping",
-    "cytoarchitectonic mapping"
-  ],
-  "custodians": [
-    {
-      "schema.org/shortName": "Amunts, K.",
-      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
-      "name": "Amunts, Katrin",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
-      "shortName": "Amunts, K."
-    }
-  ],
-  "project": [
-    "Julich-Brain: cytoarchitectonic probabilistic maps of the human brain"
-  ],
-  "description": "This dataset contains the distinct architectonic Area 44 (IFG) in the individual, single subject template of the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space. As part of the Julich-Brain cytoarchitectonic atlas, the area was identified using cytoarchitectonic analysis on cell-body-stained histological sections of 10 human postmortem brains obtained from the body donor program of the University of D\u00fcsseldorf. The results of the cytoarchitectonic analysis were then mapped to both reference spaces, where each voxel was assigned the probability to belong to Area 44 (IFG). The probability map of Area 44 (IFG) are provided in the NifTi format for each brain reference space and hemisphere. The Julich-Brain atlas relies on a modular, flexible and adaptive framework containing workflows to create the probabilistic brain maps for these structures. Note that methodological improvements and integration of new brain structures may lead to small deviations in earlier released datasets.\n\nOther available data versions of Area 44 (IFG):\nAmunts et al. (2018) [Data set, v7.2] [DOI: 10.25493/J2KZ-AZW](https://doi.org/10.25493%2FJ2KZ-AZW)\n\nThe most probable delineation of Area 44 (IFG) derived from the calculation of a maximum probability map of all currently released Julich-Brain brain structures can be found here:\nAmunts et al. (2019) [Data set, v1.13] [DOI: 10.25493/Q3ZS-NV6](https://doi.org/10.25493%2FQ3ZS-NV6)\nAmunts et al. (2019) [Data set, v1.18] [DOI: 10.25493/8EGG-ZAR](https://doi.org/10.25493%2F8EGG-ZAR)\nAmunts et al. (2020) [Data set, v2.2] [DOI: 10.25493/TAKY-64D](https://doi.org/10.25493%2FTAKY-64D)",
-  "parcellationAtlas": [
-    {
-      "name": "Julich-Brain Atlas",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
-      "id": [
-        "deec923ec31a82f89a9c7c76a6fefd6b",
-        "e2d45e028b6da0f6d9fdb9491a4de80a"
-      ]
-    }
-  ],
-  "licenseInfo": [
-    {
-      "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    }
-  ],
-  "embargoStatus": [
-    {
-      "identifier": [
-        "b24ce0cd392a5b0b8dedc66c25213594",
-        "b24ce0cd392a5b0b8dedc66c25213594"
-      ],
-      "name": "Free",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
-    }
-  ],
-  "license": [],
-  "parcellationRegion": [
-    {
-      "species": [],
-      "name": "Area 44 (IFG)",
-      "alias": "",
-      "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/8a6be82c-5947-4fff-8348-cf9bf73e4f40"
-    }
-  ],
-  "species": [
-    "Homo sapiens"
-  ],
-  "name": "Probabilistic cytoarchitectonic map of Area 44 (IFG) (v7.4)",
-  "files": [
-    {
-      "byteSize": 164224.0,
-      "name": "Area-44_l_N10_nlin2Stdcolin27_7.4_publicP_e59cf54b21c0c5b6bc9f28238caca480.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-44_pub/7.4/Area-44_l_N10_nlin2Stdcolin27_7.4_publicP_e59cf54b21c0c5b6bc9f28238caca480.nii.gz",
-      "contentType": "application/octet-stream"
-    },
-    {
-      "byteSize": 20.0,
-      "name": "subjects_Area-44.csv",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-44_pub/7.4/subjects_Area-44.csv",
-      "contentType": "text/csv"
-    },
-    {
-      "byteSize": 132750.0,
-      "name": "Area-44_r_N10_nlin2Stdcolin27_7.4_publicP_a654ac4a5ffb29e71ea8ba6607d8d636.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-44_pub/7.4/Area-44_r_N10_nlin2Stdcolin27_7.4_publicP_a654ac4a5ffb29e71ea8ba6607d8d636.nii.gz",
-      "contentType": "application/octet-stream"
-    },
-    {
-      "byteSize": 147383.0,
-      "name": "Area-44_l_N10_nlin2MNI152ASYM2009C_7.4_publicP_1a7ee2bd006ecd2b0afec1294b1edc4f.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-44_pub/7.4/Area-44_l_N10_nlin2MNI152ASYM2009C_7.4_publicP_1a7ee2bd006ecd2b0afec1294b1edc4f.nii.gz",
-      "contentType": "application/octet-stream"
-    },
-    {
-      "byteSize": 114510.0,
-      "name": "Area-44_r_N10_nlin2MNI152ASYM2009C_7.4_publicP_ecd680988f3750c6003e02836832a9c9.nii.gz",
-      "absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-44_pub/7.4/Area-44_r_N10_nlin2MNI152ASYM2009C_7.4_publicP_ecd680988f3750c6003e02836832a9c9.nii.gz",
-      "contentType": "application/octet-stream"
-    }
-  ],
-  "fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/8f180ff1-20d1-4112-9e71-a5c7eca6c369",
-  "contributors": [
-    {
-      "schema.org/shortName": "Zilles, K.",
-      "identifier": "2457b4a7cf0b3fa199dcc3c88180dc9f",
-      "name": "Zilles, Karl",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/bacae1fc-d8ff-4050-8388-7d826592c62c",
-      "shortName": "Zilles, K."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "a34ce9d5dbb7daf8e3ea15095abacbd5",
-      "name": "Fink, Gereon R.",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/54014779-37c5-4d2a-882e-2b96382d98e0",
-      "shortName": "Fink, G."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "572527acec93ccba7befe3b8fa72d4ca",
-      "name": "Shah, Nadim J.",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/3048fc49-e9c7-43a7-bf7e-ab0aafc6facc",
-      "shortName": "Shah, N. J."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "f4857f941b12d61ca88ad1a82e7babd7",
-      "name": "Marshall, John C.",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/21a544b8-f5bf-4cbd-a372-7cd6004fb691",
-      "shortName": "Marshall, J."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "95d8cba79571f0f80405085123953a71",
-      "name": "Gurd, Jennifer M.",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/07f3992a-c47a-4fce-8345-ef8cc3c01760",
-      "shortName": "Gurd, J."
-    },
-    {
-      "schema.org/shortName": "Eickhoff, S. B.",
-      "identifier": "f7e179682ccf98378bb566852f442c93",
-      "name": "Eickhoff, Simon B.",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/99a95057-bd4d-43ab-ad70-b7920ceedc48",
-      "shortName": "Eickhoff, S. B."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "8f85d02ddf1de227f39d91a83c67f28c",
-      "name": "Pieperhoff, Peter",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/5d838c31-6dcf-44a6-b16b-4d19d770c36b",
-      "shortName": "Pieperhoff, P."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "e8413722f2a01f10c6a48e02fa31cd36",
-      "name": "Uylings, Harry B.M.",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/9e3a4a9a-431e-49c0-a5b7-cc2b1ea07d51",
-      "shortName": "Uylings, H."
-    },
-    {
-      "schema.org/shortName": "Mohlberg, H.",
-      "identifier": "22bc11ef3726cc89459f83e66e88961b",
-      "name": "Mohlberg, Hartmut",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d2be3785-5b4b-4451-87be-62b30442ed30",
-      "shortName": "Mohlberg, H."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "d1d4965e13b1ba7a7c3c93ccd1fb7020",
-      "name": "B\u00fcrgel, Uli",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/8f12ca15-042f-4233-9dfb-871a018f686c",
-      "shortName": "B\u00fcrgel, U."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "5d8b905cb2f32be20209bd524a5e44a5",
-      "name": "Weiss, Peter H.",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/1800970a-ccb4-4878-b542-8e0ceadd87af",
-      "shortName": "Weiss, P."
-    },
-    {
-      "schema.org/shortName": null,
-      "identifier": "46f600ef63191d2b80362caa4686a2ec",
-      "name": "Schleicher, Axel",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f000487e-a9b4-4dee-8a2d-68f71019af0b",
-      "shortName": "Schleicher, A."
-    },
-    {
-      "schema.org/shortName": "Amunts, K.",
-      "identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
-      "name": "Amunts, Katrin",
-      "@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
-      "shortName": "Amunts, K."
-    }
-  ],
-  "id": "8f180ff1-20d1-4112-9e71-a5c7eca6c369",
-  "kgReference": [
-    "10.25493/F9P8-ZVW"
-  ],
-  "publications": [
-    {
-      "name": "Analysis of neural mechanisms underlying verbal fluency in cytoarchitectonically defined stereotaxic space\u2014The roles of Brodmann areas 44 and 45",
-      "cite": "Amunts, K., Weiss, P. H., Mohlberg, H., Pieperhoff, P., Eickhoff, S., Gurd, J. M., \u2026 Zilles, K. (2004). Analysis of neural mechanisms underlying verbal fluency in cytoarchitectonically defined stereotaxic space\u2014The roles of Brodmann areas 44 and 45. NeuroImage, 22(1), 42\u201356. ",
-      "doi": "10.1016/j.neuroimage.2003.12.031"
-    },
-    {
-      "name": "Broca's region revisited: Cytoarchitecture and intersubject variability",
-      "cite": "Amunts, K., Schleicher, A., B\u00fcrgel, U., Mohlberg, H., Uylings, H. B. M., & Zilles, K. (1999). Broca\u2019s region revisited: Cytoarchitecture and intersubject variability. The Journal of Comparative Neurology, 412(2), 319\u2013341. ",
-      "doi": "10.1002/(SICI)1096-9861(19990920)412:2<319::AID-CNE10>3.0.CO;2-7"
-    }
-  ]
+	"@type": "siibra/snapshots/ebrainsquery/v1",
+	"formats": [
+		"NIFTI"
+	],
+	"datasetDOI": [
+		{
+			"cite": "Amunts, K., Weiss, P. H., Mohlberg, H., Pieperhoff, P., Eickhoff, S., Gurd, J. M., \u2026 Zilles, K. (2004). Analysis of neural mechanisms underlying verbal fluency in cytoarchitectonically defined stereotaxic space\u2014The roles of Brodmann areas 44 and 45. NeuroImage, 22(1), 42\u201356. ",
+			"doi": "10.1016/j.neuroimage.2003.12.031"
+		},
+		{
+			"cite": "Amunts, K., Schleicher, A., B\u00fcrgel, U., Mohlberg, H., Uylings, H. B. M., & Zilles, K. (1999). Broca\u2019s region revisited: Cytoarchitecture and intersubject variability. The Journal of Comparative Neurology, 412(2), 319\u2013341. ",
+			"doi": "10.1002/(SICI)1096-9861(19990920)412:2<319::AID-CNE10>3.0.CO;2-7"
+		}
+	],
+	"activity": [
+		{
+			"protocols": [
+				"histology"
+			],
+			"preparation": [
+				"Ex vivo"
+			]
+		},
+		{
+			"protocols": [
+				"imaging"
+			],
+			"preparation": [
+				"Ex vivo"
+			]
+		},
+		{
+			"protocols": [
+				"brain mapping"
+			],
+			"preparation": [
+				"Ex vivo"
+			]
+		}
+	],
+	"referenceSpaces": [
+		{
+			"name": null,
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+		},
+		{
+			"name": "MNI Colin 27",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
+		}
+	],
+	"methods": [
+		"silver staining",
+		"magnetic resonance imaging (MRI)",
+		"probability mapping",
+		"cytoarchitectonic mapping"
+	],
+	"custodians": [
+		{
+			"schema.org/shortName": "Amunts, K.",
+			"identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+			"name": "Amunts, Katrin",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+			"shortName": "Amunts, K."
+		}
+	],
+	"project": [
+		"Julich-Brain: cytoarchitectonic probabilistic maps of the human brain"
+	],
+	"description": "This dataset contains the distinct architectonic Area 44 (IFG) in the individual, single subject template of the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space. As part of the Julich-Brain cytoarchitectonic atlas, the area was identified using cytoarchitectonic analysis on cell-body-stained histological sections of 10 human postmortem brains obtained from the body donor program of the University of D\u00fcsseldorf. The results of the cytoarchitectonic analysis were then mapped to both reference spaces, where each voxel was assigned the probability to belong to Area 44 (IFG). The probability map of Area 44 (IFG) are provided in the NifTi format for each brain reference space and hemisphere. The Julich-Brain atlas relies on a modular, flexible and adaptive framework containing workflows to create the probabilistic brain maps for these structures. Note that methodological improvements and integration of new brain structures may lead to small deviations in earlier released datasets.\n\nOther available data versions of Area 44 (IFG):\nAmunts et al. (2018) [Data set, v7.2] [DOI: 10.25493/J2KZ-AZW](https://doi.org/10.25493%2FJ2KZ-AZW)\n\nThe most probable delineation of Area 44 (IFG) derived from the calculation of a maximum probability map of all currently released Julich-Brain brain structures can be found here:\nAmunts et al. (2019) [Data set, v1.13] [DOI: 10.25493/Q3ZS-NV6](https://doi.org/10.25493%2FQ3ZS-NV6)\nAmunts et al. (2019) [Data set, v1.18] [DOI: 10.25493/8EGG-ZAR](https://doi.org/10.25493%2F8EGG-ZAR)\nAmunts et al. (2020) [Data set, v2.2] [DOI: 10.25493/TAKY-64D](https://doi.org/10.25493%2FTAKY-64D)",
+	"parcellationAtlas": [
+		{
+			"name": "Julich-Brain Atlas",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
+			"id": [
+				"deec923ec31a82f89a9c7c76a6fefd6b",
+				"e2d45e028b6da0f6d9fdb9491a4de80a"
+			]
+		}
+	],
+	"licenseInfo": [
+		{
+			"name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+			"url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+		}
+	],
+	"embargoStatus": [
+		{
+			"identifier": [
+				"b24ce0cd392a5b0b8dedc66c25213594",
+				"b24ce0cd392a5b0b8dedc66c25213594"
+			],
+			"name": "Free",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/embargostatus/v1.0.0/222b535c-2e8f-4892-acf4-39006c5219b9"
+		}
+	],
+	"license": [],
+	"parcellationRegion": [
+		{
+			"species": [],
+			"name": "Area 44 (IFG)",
+			"alias": "",
+			"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/parcellationregion/v1.0.0/8a6be82c-5947-4fff-8348-cf9bf73e4f40"
+		}
+	],
+	"species": [
+		"Homo sapiens"
+	],
+	"name": "Probabilistic cytoarchitectonic map of Area 44 (IFG) (v7.4)",
+	"files": [
+		{
+			"byteSize": 164224.0,
+			"name": "Area-44_l_N10_nlin2Stdcolin27_7.4_publicP_e59cf54b21c0c5b6bc9f28238caca480.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-44_pub/7.4/Area-44_l_N10_nlin2Stdcolin27_7.4_publicP_e59cf54b21c0c5b6bc9f28238caca480.nii.gz",
+			"contentType": "application/octet-stream"
+		},
+		{
+			"byteSize": 20.0,
+			"name": "subjects_Area-44.csv",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-44_pub/7.4/subjects_Area-44.csv",
+			"contentType": "text/csv"
+		},
+		{
+			"byteSize": 132750.0,
+			"name": "Area-44_r_N10_nlin2Stdcolin27_7.4_publicP_a654ac4a5ffb29e71ea8ba6607d8d636.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-44_pub/7.4/Area-44_r_N10_nlin2Stdcolin27_7.4_publicP_a654ac4a5ffb29e71ea8ba6607d8d636.nii.gz",
+			"contentType": "application/octet-stream"
+		},
+		{
+			"byteSize": 147383.0,
+			"name": "Area-44_l_N10_nlin2MNI152ASYM2009C_7.4_publicP_1a7ee2bd006ecd2b0afec1294b1edc4f.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-44_pub/7.4/Area-44_l_N10_nlin2MNI152ASYM2009C_7.4_publicP_1a7ee2bd006ecd2b0afec1294b1edc4f.nii.gz",
+			"contentType": "application/octet-stream"
+		},
+		{
+			"byteSize": 114510.0,
+			"name": "Area-44_r_N10_nlin2MNI152ASYM2009C_7.4_publicP_ecd680988f3750c6003e02836832a9c9.nii.gz",
+			"absolutePath": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-44_pub/7.4/Area-44_r_N10_nlin2MNI152ASYM2009C_7.4_publicP_ecd680988f3750c6003e02836832a9c9.nii.gz",
+			"contentType": "application/octet-stream"
+		}
+	],
+	"fullId": "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/8f180ff1-20d1-4112-9e71-a5c7eca6c369",
+	"contributors": [
+		{
+			"schema.org/shortName": "Zilles, K.",
+			"identifier": "2457b4a7cf0b3fa199dcc3c88180dc9f",
+			"name": "Zilles, Karl",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/bacae1fc-d8ff-4050-8388-7d826592c62c",
+			"shortName": "Zilles, K."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "a34ce9d5dbb7daf8e3ea15095abacbd5",
+			"name": "Fink, Gereon R.",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/54014779-37c5-4d2a-882e-2b96382d98e0",
+			"shortName": "Fink, G."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "572527acec93ccba7befe3b8fa72d4ca",
+			"name": "Shah, Nadim J.",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/3048fc49-e9c7-43a7-bf7e-ab0aafc6facc",
+			"shortName": "Shah, N. J."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "f4857f941b12d61ca88ad1a82e7babd7",
+			"name": "Marshall, John C.",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/21a544b8-f5bf-4cbd-a372-7cd6004fb691",
+			"shortName": "Marshall, J."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "95d8cba79571f0f80405085123953a71",
+			"name": "Gurd, Jennifer M.",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/07f3992a-c47a-4fce-8345-ef8cc3c01760",
+			"shortName": "Gurd, J."
+		},
+		{
+			"schema.org/shortName": "Eickhoff, S. B.",
+			"identifier": "f7e179682ccf98378bb566852f442c93",
+			"name": "Eickhoff, Simon B.",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/99a95057-bd4d-43ab-ad70-b7920ceedc48",
+			"shortName": "Eickhoff, S. B."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "8f85d02ddf1de227f39d91a83c67f28c",
+			"name": "Pieperhoff, Peter",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/5d838c31-6dcf-44a6-b16b-4d19d770c36b",
+			"shortName": "Pieperhoff, P."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "e8413722f2a01f10c6a48e02fa31cd36",
+			"name": "Uylings, Harry B.M.",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/9e3a4a9a-431e-49c0-a5b7-cc2b1ea07d51",
+			"shortName": "Uylings, H."
+		},
+		{
+			"schema.org/shortName": "Mohlberg, H.",
+			"identifier": "22bc11ef3726cc89459f83e66e88961b",
+			"name": "Mohlberg, Hartmut",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/d2be3785-5b4b-4451-87be-62b30442ed30",
+			"shortName": "Mohlberg, H."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "d1d4965e13b1ba7a7c3c93ccd1fb7020",
+			"name": "B\u00fcrgel, Uli",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/8f12ca15-042f-4233-9dfb-871a018f686c",
+			"shortName": "B\u00fcrgel, U."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "5d8b905cb2f32be20209bd524a5e44a5",
+			"name": "Weiss, Peter H.",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/1800970a-ccb4-4878-b542-8e0ceadd87af",
+			"shortName": "Weiss, P."
+		},
+		{
+			"schema.org/shortName": null,
+			"identifier": "46f600ef63191d2b80362caa4686a2ec",
+			"name": "Schleicher, Axel",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/f000487e-a9b4-4dee-8a2d-68f71019af0b",
+			"shortName": "Schleicher, A."
+		},
+		{
+			"schema.org/shortName": "Amunts, K.",
+			"identifier": "e86dc72d5594a43f7a1db1e3945db2bf",
+			"name": "Amunts, Katrin",
+			"@id": "https://nexus.humanbrainproject.org/v0/data/minds/core/person/v1.0.0/01784c79-9a7b-4b47-83b6-0f50c075af81",
+			"shortName": "Amunts, K."
+		}
+	],
+	"id": "8f180ff1-20d1-4112-9e71-a5c7eca6c369",
+	"kgReference": [
+		"10.25493/F9P8-ZVW"
+	],
+	"publications": [
+		{
+			"name": "Analysis of neural mechanisms underlying verbal fluency in cytoarchitectonically defined stereotaxic space\u2014The roles of Brodmann areas 44 and 45",
+			"cite": "Amunts, K., Weiss, P. H., Mohlberg, H., Pieperhoff, P., Eickhoff, S., Gurd, J. M., \u2026 Zilles, K. (2004). Analysis of neural mechanisms underlying verbal fluency in cytoarchitectonically defined stereotaxic space\u2014The roles of Brodmann areas 44 and 45. NeuroImage, 22(1), 42\u201356. ",
+			"doi": "10.1016/j.neuroimage.2003.12.031"
+		},
+		{
+			"name": "Broca's region revisited: Cytoarchitecture and intersubject variability",
+			"cite": "Amunts, K., Schleicher, A., B\u00fcrgel, U., Mohlberg, H., Uylings, H. B. M., & Zilles, K. (1999). Broca\u2019s region revisited: Cytoarchitecture and intersubject variability. The Journal of Comparative Neurology, 412(2), 319\u2013341. ",
+			"doi": "10.1002/(SICI)1096-9861(19990920)412:2<319::AID-CNE10>3.0.CO;2-7"
+		}
+	]
 }
