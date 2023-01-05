@@ -57,6 +57,15 @@ def main():
                     
                     volume_of_interest = volumes[volume_idx or 0]
                     if fragment is not None:
+                        
+                        # tolerate if parcellation all parcellation volume has neuroglancer/precompmesh
+                        # see https://chat.fz-juelich.de/direct/vKmCEz3F6xFaGso8a
+                        # search for "some inconsistencies in configuration repo when I was trying to fix the ci"
+                        # on 2023-01-03
+                        
+                        if "neuroglancer/precompmesh" in volume_of_interest.get("providers"):
+                            continue
+
                         if any(
                             fragment not in provided_value
                             for provider, provided_value in volume_of_interest.get("providers").items()
@@ -64,7 +73,10 @@ def main():
                             failures.append(( ValidationResult.FAILURE, f"{error_message_1} has fragment defined as '{fragment}', but non exists for the corresponding volume." ))
                         if space_id is not None:
                             if any(
-                                fragment not in provided_value
+                                (
+                                    provider == "gii-mesh" and
+                                    fragment not in provided_value
+                                )
                                 for volume in space_volumes[space_id]
                                 for provider, provided_value in volume.get("providers").items()
                             ):

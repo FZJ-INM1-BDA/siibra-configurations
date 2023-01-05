@@ -23,6 +23,10 @@ check_schema:
     git -C $PWD log -n 1
     python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $PWD
 
+check_jsons:
+  stage: test
+  script: python _ci/verify_json.py
+
 check_map_volume_idx:
   stage: test
   script: |
