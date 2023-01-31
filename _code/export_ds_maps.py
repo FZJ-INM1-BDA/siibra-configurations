@@ -88,7 +88,7 @@ def get_map_name(spc_id, parc_id, map_type):
 
 expected_map_types = (
     "labelled",
-    "continuous",
+    "statistical",
 )
 
 expected_volume_type = (
@@ -262,7 +262,7 @@ def process_parc(parc):
             assert vol.get("space_id")
             assert vol.get('map_type')
             assert vol.get("space_id") == "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588" \
-                or vol.get("map_type") == "continuous"
+                or vol.get("map_type") == "statistical"
             with AppendMap(parc.get("@id"), vol.get("space_id"), vol.get("map_type")) as (append_vol, append_region, self_json):
                 idx = append_vol(
                     convert_dataset_to_vol(vol, extra={'ebrains': ebrain_ref} if len(ebrain_ref) > 0 else {}),
