@@ -6,7 +6,7 @@ stages:
 check_schema:
   variables:
     SIIBRA_PYTHON_PATH: $CI_BUILDS_DIR/$CI_CONCURRENT_ID/siibra-python
-    SIIBRA_PYTHON_BRANCH: refactor_v0.4
+    SIIBRA_PYTHON_BRANCH: main
     GIT_DEPTH: 1
     
   stage: test
