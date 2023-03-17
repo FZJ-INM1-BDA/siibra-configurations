@@ -3,6 +3,22 @@ stages:
   - test
   - git-robot
 
+check_connectivity_json:
+  # only check connectivity json if connectivity json files are changed
+  only:
+    changes:
+      - features/connectivity/**/*.json
+  before_script: |
+    echo "[DEVELOP BUILD] Using $SIIBRA_PYTHON_BRANCH branch. In prod, use main branch instead."
+    rm -rf $SIIBRA_PYTHON_PATH
+    git clone -v -b $SIIBRA_PYTHON_BRANCH \
+      https://github.com/FZJ-INM1-BDA/siibra-python.git \
+      $SIIBRA_PYTHON_PATH
+    git -C $SIIBRA_PYTHON_PATH log -n 1
+    pip install -r $SIIBRA_PYTHON_PATH/requirements-test.txt
+    pip install -r $SIIBRA_PYTHON_PATH/requirements.txt
+  script: SIIBRA_USE_CONFIGURATION=$PWD pytest $SIIBRA_PYTHON_PATH/e2e/features/connectivity/test_connectivity.py
+
 check_schema:
   variables:
     SIIBRA_PYTHON_PATH: $CI_BUILDS_DIR/$CI_CONCURRENT_ID/siibra-python
