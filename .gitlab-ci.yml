@@ -3,13 +3,11 @@ stages:
   - test
   - git-robot
 
-check_schema:
+.checkout_siibra:
   variables:
     SIIBRA_PYTHON_PATH: $CI_BUILDS_DIR/$CI_CONCURRENT_ID/siibra-python
     SIIBRA_PYTHON_BRANCH: main
     GIT_DEPTH: 1
-    
-  stage: test
   before_script: |
     echo "[DEVELOP BUILD] Using $SIIBRA_PYTHON_BRANCH branch. In prod, use main branch instead."
     rm -rf $SIIBRA_PYTHON_PATH
@@ -17,8 +15,24 @@ check_schema:
       https://github.com/FZJ-INM1-BDA/siibra-python.git \
       $SIIBRA_PYTHON_PATH
     git -C $SIIBRA_PYTHON_PATH log -n 1
-    pip install -r $SIIBRA_PYTHON_PATH/config_schema/requirements.txt
+
+check_connectivity_json:
+  # only check connectivity json if connectivity json files are changed
+  only:
+    changes:
+      - features/connectivity/**/*.json
+  extends: .checkout_siibra
+  stage: test
   script: |
+    pip install -r $SIIBRA_PYTHON_PATH/requirements-test.txt
+    pip install -r $SIIBRA_PYTHON_PATH/requirements.txt
+    SIIBRA_USE_CONFIGURATION=$PWD pytest $SIIBRA_PYTHON_PATH/e2e/features/connectivity/test_connectivity.py
+
+check_schema:
+  extends: .checkout_siibra
+  stage: test
+  script: |
+    pip install -r $SIIBRA_PYTHON_PATH/config_schema/requirements.txt
     echo python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $PWD
     git -C $PWD log -n 1
     python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $PWD
