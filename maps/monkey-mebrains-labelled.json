@@ -5,111 +5,104 @@
 	"parcellation": {
 		"@id": "minds/core/parcellationatlas/v1.0.0/e3235c039c6f54c3ba151568c829f117"
 	},
+	"species": "macaca fascicularis",
 	"volumes": [
 		{
 			"@type": "siibra/volume/v0.0.1",
 			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20211001-mebrain/precomputed/segmentations/MEBRAINS_segmentation",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20211001-mebrain/precomputed/segmentations/MEBRAINS_segmentation"
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230310-mebrains-segmentations/MEBRAINS_segmentation_mn_fliplr.filtered"
 			}
 		}
 	],
 	"@type": "siibra/map/v0.0.1",
+	"ebrains": {
+		"minds/core/species/v1.0.0": "745712aa-fad1-47c4-8ab6-088063f78f64",
+		"openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+	},
 	"indices": {
-		"Left-Cerebral-White-Matter": [
+		"Lateral_Ventricles": [
 			{
-				"volume": 0,
-				"label": 2
-			}
-		],
-		"Left-Lateral-Ventricle": [
-			{
-				"volume": 0,
 				"label": 4
 			}
 		],
-		"Left-Caudate": [
+		"Caudate": [
 			{
-				"volume": 0,
 				"label": 11
 			}
 		],
-		"Left-Putamen": [
+		"Putamen": [
 			{
-				"volume": 0,
 				"label": 12
 			}
 		],
-		"Left-Amygdala": [
+		"Pallidum": [
 			{
-				"volume": 0,
+				"label": 13
+			}
+		],
+		"Amygdala": [
+			{
 				"label": 18
 			}
 		],
-		"Right-Cerebral-White-Matter": [
+		"Nucleus_Accumbens": [
 			{
-				"volume": 0,
-				"label": 41
-			}
-		],
-		"Right-Lateral-Ventricle": [
-			{
-				"volume": 0,
-				"label": 43
-			}
-		],
-		"Right-Caudate": [
-			{
-				"volume": 0,
-				"label": 50
-			}
-		],
-		"Right-Putamen": [
-			{
-				"volume": 0,
-				"label": 51
-			}
-		],
-		"Right-Amygdala": [
-			{
-				"volume": 0,
-				"label": 54
-			}
-		],
-		"Left-Basal-Forebrain": [
-			{
-				"volume": 0,
 				"label": 91
 			}
 		],
-		"Right-Basal-Forebrain": [
+		"Claustrum": [
 			{
-				"volume": 0,
-				"label": 92
-			}
-		],
-		"Left-Claustrum": [
-			{
-				"volume": 0,
 				"label": 138
 			}
 		],
-		"Right-Claustrum": [
+		"wm_Anterior_Commissure": [
 			{
-				"volume": 0,
-				"label": 139
+				"label": 3000
 			}
 		],
-		"Left-Cerebrai-Gray-Matter": [
+		"Opt": [
 			{
-				"volume": 0,
-				"label": 1017
+				"label": 214
 			}
 		],
-		"Right-Cerebrai-Gray-Matter": [
+		"PG": [
 			{
-				"volume": 0,
-				"label": 2017
+				"label": 215
+			}
+		],
+		"PGop": [
+			{
+				"label": 216
+			}
+		],
+		"PFG": [
+			{
+				"label": 217
+			}
+		],
+		"PF": [
+			{
+				"label": 218
+			}
+		],
+		"PFop": [
+			{
+				"label": 219
+			}
+		],
+		"4a": [
+			{
+				"label": 301
+			}
+		],
+		"4m": [
+			{
+				"label": 302
+			}
+		],
+		"4p": [
+			{
+				"label": 303
 			}
 		]
 	}
