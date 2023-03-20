@@ -51,6 +51,10 @@ region_attr_compliance:
   script:
     - python ./_ci/region_attr_compliance.py
 
+check_maps:
+  stage: test
+  script: python _ci/verify_maps.py
+
 check_maps_precompmesh:
   stage: test
   rules:
