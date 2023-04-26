@@ -41,6 +41,10 @@ check_jsons:
   stage: test
   script: python _ci/verify_json.py
 
+check_ebrains_id:
+  stage: test
+  script: python _ci/verify_ebrains_ids.py
+
 check_map_volume_idx:
   stage: test
   script: |
