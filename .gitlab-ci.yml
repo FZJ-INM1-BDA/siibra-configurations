@@ -16,6 +16,11 @@ stages:
       $SIIBRA_PYTHON_PATH
     git -C $SIIBRA_PYTHON_PATH log -n 1
 
+.install_requirement:
+  before_script: |
+    pip install -U pip
+    pip install -r _ci/requirements.txt
+
 check_connectivity_json:
   # only check connectivity json if connectivity json files are changed
   only:
@@ -40,6 +45,11 @@ check_schema:
 check_jsons:
   stage: test
   script: python _ci/verify_json.py
+
+check_ebrains_id:
+  stage: test
+  extends: .install_requirement
+  script: python _ci/verify_ebrains_ids.py
 
 check_map_volume_idx:
   stage: test
