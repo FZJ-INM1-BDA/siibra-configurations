@@ -16,7 +16,8 @@
 	"decoder": {
 		"@type": "siibra/decoder/csv",
 		"delimiter": ";",
-		"header": 0,
+		"header": null,
+		"skiprows": 1,
 		"engine": "python",
 		"index_col": false
 	},
@@ -121,7 +122,7 @@
 		"Secondary somatosensory area",
 		"Parietal association cortex, medial area",
 		"Parietal association cortex, lateral area",
-		"Parietal association cortex, posterior area ",
+		"Parietal association cortex, posterior area",
 		"Primary visual area",
 		"Secondary visual area, medial part",
 		"Secondary visual area, lateral part",
@@ -169,7 +170,7 @@
 		"Intermediodorsal thalamic nucleus",
 		"Parataenial thalamic nucleus",
 		"Subparafascicular nucleus",
-		"Posterior intralaminar nucleus ",
+		"Posterior intralaminar nucleus",
 		"Rhomboid thalamic nucleus",
 		"Reuniens thalamic nucleus",
 		"Retroreuniens thalamic nucleus",
@@ -221,6 +222,6 @@
 		"Pontine nuclei",
 		"Spinal trigeminal nucleus",
 		"Periventricular gray",
-		"Inferior olive "
+		"Inferior olive"
 	]
 }
