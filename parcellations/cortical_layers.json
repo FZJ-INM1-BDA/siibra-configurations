@@ -1,12 +1,17 @@
 {
-	"name": "BigBrain Cortical Layers Segmentation",
-	"shortName": "BigBrain Cortical Layers",
+	"name": "Automated segmentation of cortical layers of the BigBrain",
+	"shortName": "Cortical layers",
 	"@id": "juelich/iav/atlas/v1.0.0/3",
 	"@type": "siibra/parcellation/v0.0.1",
 	"maps": {
 		"minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588": [
 			"https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_27_cortical_layers"
 		]
+	},
+	"species": "homo sapiens",
+	"ebrains": {
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
 	},
 	"regions": [
 		{
@@ -28,27 +33,87 @@
 				},
 				{
 					"name": "cortical layer 2",
-					"rgb": "#FABEBE"
+					"rgb": "#FABEBE",
+					"children": [
+						{
+							"name": "cortical layer 2 left",
+							"rgb": "#FABEBE"
+						},
+						{
+							"name": "cortical layer 2 right",
+							"rgb": "#FABEBE"
+						}
+					]
 				},
 				{
 					"name": "cortical layer 3",
-					"rgb": "#FFD7B4"
+					"rgb": "#FFD7B4",
+					"children": [
+						{
+							"name": "cortical layer 3 left",
+							"rgb": "#FFD7B4"
+						},
+						{
+							"name": "cortical layer 3 right",
+							"rgb": "#FFD7B4"
+						}
+					]
 				},
 				{
 					"name": "cortical layer 4",
-					"rgb": "#FFFAC8"
+					"rgb": "#FFFAC8",
+					"children": [
+						{
+							"name": "cortical layer 4 left",
+							"rgb": "#FFFAC8"
+						},
+						{
+							"name": "cortical layer 4 right",
+							"rgb": "#FFFAC8"
+						}
+					]
 				},
 				{
 					"name": "cortical layer 5",
-					"rgb": "#008080"
+					"rgb": "#008080",
+					"children": [
+						{
+							"name": "cortical layer 5 left",
+							"rgb": "#008080"
+						},
+						{
+							"name": "cortical layer 5 right",
+							"rgb": "#008080"
+						}
+					]
 				},
 				{
 					"name": "cortical layer 6",
-					"rgb": "#E6BEFF"
+					"rgb": "#E6BEFF",
+					"children": [
+						{
+							"name": "cortical layer 6 left",
+							"rgb": "#E6BEFF"
+						},
+						{
+							"name": "cortical layer 6 right",
+							"rgb": "#E6BEFF"
+						}
+					]
 				},
 				{
 					"name": "non-cortical structures",
-					"rgb": "#FFFFFF"
+					"rgb": "#FFFFFF",
+					"children": [
+						{
+							"name": "non-cortical structures left",
+							"rgb": "#FFFFFF"
+						},
+						{
+							"name": "non-cortical structures right",
+							"rgb": "#FFFFFF"
+						}
+					]
 				}
 			]
 		}

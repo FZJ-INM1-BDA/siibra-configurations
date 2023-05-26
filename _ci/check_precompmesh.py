@@ -35,29 +35,39 @@ def check_url(url: str, regionname: str):
 def check_volume(arg):
     full_filname, vol_idx, volume, indices = arg
     try:
-        assert PRECOMPUTED in volume.get("urls"), f"volume should have neuroglancer/precompmesh, but does not. url keys are: {volume.get('urls').keys()}"
-        precomp_url = volume["urls"][PRECOMPUTED]
-        resp = requests.get(f"{precomp_url}/info")
-        resp.raise_for_status()
-        precomp_info = resp.json()
-        assert ("mesh" in precomp_info) == (PRECOMPMESH in volume.get("urls")), f"Error in: {full_filname}: mesh key exist in precomputed: {'mesh' in precomp_info}, precomputed mesh url exists: {PRECOMPMESH in volume.get('urls')}"
+        assert PRECOMPUTED in volume.get("providers"), f"volume should have neuroglancer/precompmesh, but does not. url keys are: {volume.get('providers').keys()}"
+        precomp_url = volume["providers"][PRECOMPUTED]
 
-        if "mesh" in precomp_info:
-            mesh_path = precomp_info["mesh"]
-            regions_to_check = [(region, mapped_index.get("label"))
-                for region, mapped_indicies in indices.items()
-                for mapped_index in mapped_indicies
-                if mapped_index.get("volume") == vol_idx]
-            
-            print(f"Checking {precomp_url} ... {len(regions_to_check)} labels.")
-            with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
-                indicies_result = ex.map(
-                    check_url,
-                    [f"{precomp_url}/{mesh_path}/{item[1]}:0" for item in regions_to_check],
-                    [item[0] for item in regions_to_check]
-                )
-            failed = [result for result in indicies_result if result[-2] == ValidationResult.FAILED]
-            assert len(failed) == 0, f"""region indices mapping failed, {', '.join([f[-1] for f in failed])}"""
+        def check_provider(url):
+            resp = requests.get(f"{url}/info")
+            resp.raise_for_status()
+            precomp_info = resp.json()
+            assert ("mesh" in precomp_info) == (PRECOMPMESH in volume.get("providers")), f"Error in: {full_filname} volidx: {vol_idx}: mesh key exist in precomputed: {'mesh' in precomp_info}, precomputed mesh url exists: {PRECOMPMESH in volume.get('providers')}"
+
+            if "mesh" in precomp_info:
+                mesh_path = precomp_info["mesh"]
+                regions_to_check = [(region, mapped_index.get("label"))
+                    for region, mapped_indicies in indices.items()
+                    for mapped_index in mapped_indicies
+                    if mapped_index.get("volume") == vol_idx]
+                
+                print(f"Checking {url} ... {len(regions_to_check)} labels.")
+                with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+                    indicies_result = ex.map(
+                        check_url,
+                        [f"{url}/{mesh_path}/{item[1]}:0" for item in regions_to_check],
+                        [item[0] for item in regions_to_check]
+                    )
+                failed = [result for result in indicies_result if result[-2] == ValidationResult.FAILED]
+                assert len(failed) == 0, f"""region indices mapping failed, {', '.join([f[-1] for f in failed])}"""
+
+        if isinstance(precomp_url, dict):
+            for url in precomp_url.values():
+                check_provider(url)
+        elif isinstance(precomp_url, str):
+            check_provider(precomp_url)
+        else:
+            raise ValueError(f"precompurl not a dict nor a str")
         return (
             full_filname, vol_idx, volume, indices,
             ValidationResult.PASSED,
@@ -87,7 +97,7 @@ def main():
         (full_filname, vol_idx, volume, map_json.get("indices") )
         for full_filname, _, map_json in iterate_jsons(PATH_TO_MAPS)
         for vol_idx, volume in enumerate(map_json.get("volumes"))
-        if PRECOMPUTED in volume.get("urls") or PRECOMPMESH in volume.get("urls")
+        if PRECOMPUTED in volume.get("providers") or PRECOMPMESH in volume.get("providers")
     ]
 
     print(f"Main: {len(args)} maps.")

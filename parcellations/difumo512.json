@@ -1,10 +1,11 @@
 {
-	"name": "Dictionary of functional modes 512",
-	"shortName": "DiFuMo 512",
+	"name": "DiFuMo Atlas (512 dimensions)",
+	"shortName": "Functional modes 512",
 	"@id": "minds/core/parcellationatlas/v1.0.0/63b5794f-79a4-4464-8dc1-b32e170f3d16",
 	"@type": "siibra/parcellation/v0.0.1",
 	"description": "DiFuMo (Dictionary of Functional Modes) 512-dimensional atlas presents a parcellation of the brain into 512 elementary structures using sparse dictionary learning. The atlas contains two main components: (1) an image of the 512 spatial components, sampled in MNI space, and (2) anatomical names for these 512 regions. It is meant to serve as an atlas to extract functional signals, eg to create image-derived phenotypes. These modes are optimized to represent well raw BOLD time series, over a with range of experimental conditions.",
 	"modality": "functional modes",
+	"species": "homo sapiens",
 	"regions": [
 		{
 			"name": "Middle frontal gyrus anterior - left hemisphere"
@@ -776,7 +777,10 @@
 		}
 	],
 	"ebrains": {
-		"minds/core/dataset/v1.0.0": "5438792c-ff2a-4554-9f85-af795f870741"
+		"minds/core/dataset/v1.0.0": "5438792c-ff2a-4554-9f85-af795f870741",
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+		"openminds/Dataset": "71a71621-a1a0-49be-83e8-a169810e79f3"
 	},
 	"publications": [
 		{

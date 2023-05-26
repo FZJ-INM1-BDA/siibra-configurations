@@ -1,10 +1,11 @@
 {
-	"name": "Dictionary of functional modes 64",
-	"shortName": "DiFuMo 64",
+	"name": "DiFuMo Atlas (64 dimensions)",
+	"shortName": "Functional modes 64",
 	"@id": "minds/core/parcellationatlas/v1.0.0/d80fbab2-ce7f-4901-a3a2-3c8ef8a3b721",
 	"@type": "siibra/parcellation/v0.0.1",
 	"description": "DiFuMo (Dictionary of Functional Modes) 64-dimensional atlas presents a parcellation of the brain into 64 elementary structures using sparse dictionary learning. The atlas contains two main components: (1) an image of the 64 spatial components, sampled in MNI space, and (2) anatomical names for these 64 regions. It is meant to serve as an atlas to extract functional signals, eg to create image-derived phenotypes. These modes are optimized to represent well raw BOLD time series, over a with range of experimental conditions.",
 	"modality": "functional modes",
+	"species": "homo sapiens",
 	"regions": [
 		{
 			"name": "Superior frontal sulcus"
@@ -200,7 +201,10 @@
 		}
 	],
 	"ebrains": {
-		"minds/core/dataset/v1.0.0": "e472a8c7-d9f9-4e75-9d0b-b137cecbc6a2"
+		"minds/core/dataset/v1.0.0": "e472a8c7-d9f9-4e75-9d0b-b137cecbc6a2",
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+		"openminds/Dataset": "4f9c39f7-af1a-4f45-87f3-f7d784a90dfe"
 	},
 	"publications": [
 		{

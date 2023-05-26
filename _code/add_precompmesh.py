@@ -30,15 +30,15 @@ def main():
     list_of_volumes = [(full_filename, map_json, vol_idx, volume) 
         for full_filename, _, map_json in iterate_jsons(PATH_TO_MAPS)
         for vol_idx, volume in enumerate(map_json.get("volumes", []))
-        if "neuroglancer/precomputed" in volume.get('urls')]
+        if "neuroglancer/precomputed" in volume.get('providers')]
 
     for full_filename, map_json, vol_idx, volume in list_of_volumes:
-        precomp_url = volume["urls"]["neuroglancer/precomputed"]
+        precomp_url = volume["providers"]["neuroglancer/precomputed"]
         precomp_url_to_volume_dict[precomp_url].append(volume)
         full_filenames_to_json[full_filename] = map_json
     
     precomp_urls = [
-        volume["urls"]["neuroglancer/precomputed"]
+        volume["providers"]["neuroglancer/precomputed"]
         for full_filename, map_json, vol_idx, volume in list_of_volumes
     ]
 
@@ -54,8 +54,8 @@ def main():
     for precomp_url, has_mesh in result:
         if has_mesh:
             for volume in precomp_url_to_volume_dict[precomp_url]:
-                urls = volume.get("urls")
-                urls["neuroglancer/precompmesh"] = urls["neuroglancer/precomputed"]
+                providers = volume.get("providers")
+                providers["neuroglancer/precompmesh"] = providers["neuroglancer/precomputed"]
     
     for full_filename, parc_json in full_filenames_to_json.items():
         with open(full_filename, "w") as fp:
