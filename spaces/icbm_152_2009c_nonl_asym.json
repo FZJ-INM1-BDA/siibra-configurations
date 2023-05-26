@@ -2,40 +2,20 @@
 	"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
 	"@type": "siibra/space/v0.0.1",
 	"name": "MNI 152 ICBM 2009c Nonlinear Asymmetric",
-	"shortName": "MNI152 2009c nonl asym",
+	"shortName": "ICBM 2009c nonl asym",
 	"modality": "mri",
+	"species": "homo sapiens",
+	"ebrains": {
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+	},
 	"volumes": [
 		{
 			"@type": "siibra/volume/v0.0.1",
-			"urls": {
+			"providers": {
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/mni_icbm152_t1_tal_nlin_asym_09c_masked",
+				"neuroglancer/precompmesh/surface": "https://neuroglancer.humanbrainproject.eu/precomputed/icbm152_2009c_nonlin_asym 65535",
 				"zip/nii": "http://www.bic.mni.mcgill.ca/~vfonov/icbm/2009/mni_icbm152_nlin_asym_09c_nifti.zip mni_icbm152_t1_tal_nlin_asym_09c.nii"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"detail": {
-				"neuroglancer/precompmesh": {
-					"auxMeshes": [
-						{
-							"name": "Cortex",
-							"labelIndicies": [
-								65500,
-								65510
-							]
-						},
-						{
-							"name": "Sulci",
-							"labelIndicies": [
-								65501,
-								65511
-							]
-						}
-					]
-				}
-			},
-			"urls": {
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/icbm152_2009c_nonlin_asym"
 			}
 		}
 	],

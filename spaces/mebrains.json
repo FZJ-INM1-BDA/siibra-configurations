@@ -1,0 +1,22 @@
+{
+	"@type": "siibra/space/v0.0.1",
+	"@id": "minds/core/referencespace/v1.0.0/MEBRAINS",
+	"name": "MEBRAINS population-based monkey template",
+	"shortName": "MEBRAINS",
+	"modality": "mri",
+	"species": "macaca mulatta",
+	"ebrains": {
+		"minds/core/species/v1.0.0": "745712aa-fad1-47c4-8ab6-088063f78f64",
+		"openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+	},
+	"volumes": [
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230307-mebrains-template/MEBRAINS_T1_masked",
+				"nii": "https://data-proxy.ebrains.eu/api/v1/buckets/d-9414c255-ba26-4b4b-ae0b-7e0a48140b0c/v1.0/MEBRAINS_volume_templates/MEBRAINS_T1_masked.nii.gz",
+				"neuroglancer/precompmesh/surface": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20230313-mebrains-meshes 1"
+			}
+		}
+	]
+}

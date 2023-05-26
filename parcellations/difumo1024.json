@@ -1,10 +1,11 @@
 {
-	"name": "Dictionary of functional modes 1024",
-	"shortName": "DiFuMo 1024",
+	"name": "DiFuMo Atlas (1024 dimensions)",
+	"shortName": "Functional modes 1024",
 	"@id": "minds/core/parcellationatlas/v1.0.0/12fca5c5-b02c-46ce-ab9f-f12babf4c7e1",
 	"@type": "siibra/parcellation/v0.0.1",
 	"description": "DiFuMo (Dictionary of Functional Modes) 1024-dimensional atlas presents a parcellation of the brain into 1024 elementary structures using sparse dictionary learning. The atlas contains two main components: (1) an image of the 1024 spatial components, sampled in MNI space, and (2) anatomical names for these 1024 regions. It is meant to serve as an atlas to extract functional signals, eg to create image-derived phenotypes. These modes are optimized to represent well raw BOLD time series, over a with range of experimental conditions.",
 	"modality": "functional modes",
+	"species": "homo sapiens",
 	"regions": [
 		{
 			"name": "Retrocalcarine cortex - right hemisphere"
@@ -3080,7 +3081,10 @@
 		}
 	],
 	"ebrains": {
-		"minds/core/dataset/v1.0.0": "164ef5c9-bec5-43c7-b258-80798cb0d57b"
+		"minds/core/dataset/v1.0.0": "164ef5c9-bec5-43c7-b258-80798cb0d57b",
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+		"openminds/Dataset": "a02100b7-bbf0-42dc-afb6-c0a607faa682"
 	},
 	"publications": [
 		{

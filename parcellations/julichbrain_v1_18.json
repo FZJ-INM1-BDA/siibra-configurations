@@ -1,14 +1,15 @@
 {
 	"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
 	"@type": "siibra/parcellation/v0.0.1",
-	"name": "Julich-Brain Probabilistic Cytoarchitectonic Maps (v1.18)",
-	"shortName": "Julich-Brain Cytoarchitectonic Maps 1.18",
+	"name": "Whole-brain parcellation of the Julich-Brain Cytoarchitectonic Atlas (v1.18)",
+	"shortName": "Julich-Brain v1.18",
 	"description": "This dataset contains the whole-brain parcellation of the JuBrain Cytoarchitectonic Atlas (Amunts and Zilles, 2015) in the MNI Colin 27 as well as the MNI ICBM 152 2009c nonlinear asymmetric reference space. The parcellation is derived from the individual probability maps (PMs) of the cytoarchitectonic regions released in the JuBrain Atlas, that are further combined into a Maximum Probability Map (MPM). The MPM is calculated by considering for each voxel the probability of all cytoarchitectonic areas released in the atlas, and determining the most probable assignment (Eickhoff 2005). Note that methodological improvements and integration of new brain structures may lead to small deviations in earlier released datasets.",
 	"modality": "cytoarchitecture",
 	"@version": {
 		"name": "1.18",
 		"@prev": null
 	},
+	"species": "homo sapiens",
 	"regions": [
 		{
 			"name": "telencephalon",
@@ -2133,7 +2134,10 @@
 		}
 	],
 	"ebrains": {
-		"minds/core/dataset/v1.0.0": "4ac9f0bc-560d-47e0-8916-7b24da9bb0ce"
+		"minds/core/dataset/v1.0.0": "4ac9f0bc-560d-47e0-8916-7b24da9bb0ce",
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+		"openminds/Dataset": "5a16d948-8d1c-400c-b797-8a7ad29944b2"
 	},
 	"publications": [
 		{

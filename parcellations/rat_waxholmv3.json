@@ -1,14 +1,15 @@
 {
 	"@id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe",
 	"@type": "siibra/parcellation/v0.0.1",
-	"name": "Waxholm Space rat brain atlas v3",
-	"shortName": "Waxholm Space rat brain atlas v3",
+	"name": "Waxholm Space atlas of the Sprague Dawley rat brain delineations (v3)",
+	"shortName": "Waxholm rat v3",
 	"description": "Waxholm Space atlas of the rat brain, with detailed delineations of the ascending auditory system. (40 new structures added, 10 structures revised, in total 118 structures delineated)",
 	"modality": null,
 	"@version": {
 		"name": "3",
 		"@prev": "minds/core/parcellationatlas/v1.0.0/2449a7f0-6dd0-4b5a-8f1e-aec0db03679d"
 	},
+	"species": "rattus norvegicus",
 	"regions": [
 		{
 			"name": "Whole brain",
@@ -648,7 +649,10 @@
 		}
 	],
 	"ebrains": {
-		"minds/core/dataset/v1.0.0": "e80f9946-1aa9-494b-b81a-9048ca9afdbe"
+		"minds/core/dataset/v1.0.0": "e80f9946-1aa9-494b-b81a-9048ca9afdbe",
+		"minds/core/species/v1.0.0": "f3490d7f-8f7f-4b40-b238-963dcac84412",
+		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
+		"openminds/Dataset": "82f91c95-6799-485a-ab9a-010c75f9e790"
 	},
 	"publications": [
 		{

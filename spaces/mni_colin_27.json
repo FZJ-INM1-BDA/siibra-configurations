@@ -4,11 +4,17 @@
 	"name": "MNI Colin 27",
 	"shortName": "MNI Colin 27",
 	"modality": "mri",
+	"species": "homo sapiens",
+	"ebrains": {
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+	},
 	"volumes": [
 		{
 			"@type": "siibra/volume/v0.0.1",
-			"urls": {
+			"providers": {
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/JuBrain/v2.2c/colin27_seg",
+				"neuroglancer/precompmesh/surface": "https://neuroglancer.humanbrainproject.eu/precomputed/JuBrain/colin_auxmesh 1",
 				"zip/nii": "http://packages.bic.mni.mcgill.ca/mni-models/colin27/mni_colin27_1998_nifti.zip colin27_t1_tal_lin.nii"
 			}
 		}

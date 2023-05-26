@@ -26,7 +26,6 @@ space_dict = {
 
 expect_map_index_parc_ids = (
     "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290",
-    "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-25",
     "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
 )
 
@@ -53,7 +52,6 @@ parc_dict = {
     "minds/core/parcellationatlas/v1.0.0/05655b58-3b6f-49db-b285-64b5a0276f83": "ccf2017",
     "juelich/iav/atlas/v1.0.0/4": "isocortex",
     "minds/core/parcellationatlas/v1.0.0/73f41e04-b7ee-4301-a828-4b298ad05ab8": "difumo128",
-    "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-25": "jba25",
     "https://doi.org/10.1016/j.jneumeth.2020.108983/mni152": "vep",
 }
 
@@ -88,7 +86,7 @@ def get_map_name(spc_id, parc_id, map_type):
 
 expected_map_types = (
     "labelled",
-    "continuous",
+    "statistical",
 )
 
 expected_volume_type = (
@@ -262,7 +260,7 @@ def process_parc(parc):
             assert vol.get("space_id")
             assert vol.get('map_type')
             assert vol.get("space_id") == "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588" \
-                or vol.get("map_type") == "continuous"
+                or vol.get("map_type") == "statistical"
             with AppendMap(parc.get("@id"), vol.get("space_id"), vol.get("map_type")) as (append_vol, append_region, self_json):
                 idx = append_vol(
                     convert_dataset_to_vol(vol, extra={'ebrains': ebrain_ref} if len(ebrain_ref) > 0 else {}),
