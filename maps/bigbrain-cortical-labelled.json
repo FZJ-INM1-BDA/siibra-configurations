@@ -9,130 +9,101 @@
 		{
 			"@type": "siibra/volume/v0.0.1",
 			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_27_cortical_layers",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2019_05_27_cortical_layers"
+				"neuroglancer/precomputed": {
+					"left hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
+					"right hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right"
+				},
+				"neuroglancer/precompmesh": {
+					"left hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
+					"right hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right"
+				}
 			}
 		}
 	],
 	"@type": "siibra/map/v0.0.1",
 	"indices": {
-		"cortical layer 1": [
+		"cortical layer 1 - left": [
 			{
+				"fragment": "left hemisphere",
 				"label": 1
 			}
 		],
-		"cortical layer 1 left": [
+		"cortical layer 2 - left": [
 			{
-				"label": 1,
-				"fragment": "fragment_1_0"
-			}
-		],
-		"cortical layer 1 right": [
-			{
-				"label": 1,
-				"fragment": "fragment_1_1"
-			}
-		],
-		"cortical layer 2": [
-			{
+				"fragment": "left hemisphere",
 				"label": 2
 			}
 		],
-		"cortical layer 2 left": [
+		"cortical layer 3 - left": [
 			{
-				"label": 2,
-				"fragment": "fragment_2_0"
-			}
-		],
-		"cortical layer 2 right": [
-			{
-				"label": 2,
-				"fragment": "fragment_2_1"
-			}
-		],
-		"cortical layer 3": [
-			{
+				"fragment": "left hemisphere",
 				"label": 3
 			}
 		],
-		"cortical layer 3 left": [
+		"cortical layer 4 - left": [
 			{
-				"label": 3,
-				"fragment": "fragment_3_0"
-			}
-		],
-		"cortical layer 3 right": [
-			{
-				"label": 3,
-				"fragment": "fragment_3_1"
-			}
-		],
-		"cortical layer 4": [
-			{
+				"fragment": "left hemisphere",
 				"label": 4
 			}
 		],
-		"cortical layer 4 left": [
+		"cortical layer 5 - left": [
 			{
-				"label": 4,
-				"fragment": "fragment_4_0"
-			}
-		],
-		"cortical layer 4 right": [
-			{
-				"label": 4,
-				"fragment": "fragment_4_1"
-			}
-		],
-		"cortical layer 5": [
-			{
+				"fragment": "left hemisphere",
 				"label": 5
 			}
 		],
-		"cortical layer 5 left": [
+		"cortical layer 6 - left": [
 			{
-				"label": 5,
-				"fragment": "fragment_5_0"
-			}
-		],
-		"cortical layer 5 right": [
-			{
-				"label": 5,
-				"fragment": "fragment_5_1"
-			}
-		],
-		"cortical layer 6": [
-			{
+				"fragment": "left hemisphere",
 				"label": 6
 			}
 		],
-		"cortical layer 6 left": [
+		"non-cortical structures - left": [
 			{
-				"label": 6,
-				"fragment": "fragment_6_0"
-			}
-		],
-		"cortical layer 6 right": [
-			{
-				"label": 6,
-				"fragment": "fragment_6_1"
-			}
-		],
-		"non-cortical structures": [
-			{
+				"fragment": "left hemisphere",
 				"label": 7
 			}
 		],
-		"non-cortical structures left": [
+		"cortical layer 1 - right": [
 			{
-				"label": 7,
-				"fragment": "fragment_7_0"
+				"fragment": "right hemisphere",
+				"label": 1
 			}
 		],
-		"non-cortical structures right": [
+		"cortical layer 2 - right": [
 			{
-				"label": 7,
-				"fragment": "fragment_7_1"
+				"fragment": "right hemisphere",
+				"label": 2
+			}
+		],
+		"cortical layer 3 - right": [
+			{
+				"fragment": "right hemisphere",
+				"label": 3
+			}
+		],
+		"cortical layer 4 - right": [
+			{
+				"fragment": "right hemisphere",
+				"label": 4
+			}
+		],
+		"cortical layer 5 - right": [
+			{
+				"fragment": "right hemisphere",
+				"label": 5
+			}
+		],
+		"cortical layer 6 - right": [
+			{
+				"fragment": "right hemisphere",
+				"label": 6
+			}
+		],
+		"non-cortical structures - right": [
+			{
+				"fragment": "right hemisphere",
+				"label": 7
 			}
 		]
 	}
