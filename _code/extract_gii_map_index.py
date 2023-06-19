@@ -1,9 +1,10 @@
 import requests
 from xml.etree import ElementTree as ET
 import json
+from pathlib import Path
 
-rh_url = "https://object.cscs.ch/v1/AUTH_7e4157014a3d4c1f8ffe270b57008fd4/d-7ad727a1-537d-4f80-a69b-ac8b184a823c/fsaverage_surface/rh.JulichBrainAtlas_3.0.2.label.gii"
-lh_url = "https://object.cscs.ch/v1/AUTH_7e4157014a3d4c1f8ffe270b57008fd4/d-7ad727a1-537d-4f80-a69b-ac8b184a823c/fsaverage_surface/lh.JulichBrainAtlas_3.0.2.label.gii"
+rh_url = "/home/xgui3783/dev/projects/brainscapes-configurations/rh.JulichBrainAtlas_3.0.2.label.gii" or "https://object.cscs.ch/v1/AUTH_7e4157014a3d4c1f8ffe270b57008fd4/d-7ad727a1-537d-4f80-a69b-ac8b184a823c/fsaverage_surface/rh.JulichBrainAtlas_3.0.2.label.gii"
+lh_url = "/home/xgui3783/dev/projects/brainscapes-configurations/lh.JulichBrainAtlas_3.0.2.label.gii" or "https://object.cscs.ch/v1/AUTH_7e4157014a3d4c1f8ffe270b57008fd4/d-7ad727a1-537d-4f80-a69b-ac8b184a823c/fsaverage_surface/lh.JulichBrainAtlas_3.0.2.label.gii"
 
 path_to_map = "maps/fsaverage-jba30-labelled.json"
 path_to_parcellation = "parcellations/julichbrain_v3_0_2.json"
@@ -30,9 +31,14 @@ def main():
     indices = {}
     for hem in [lh_url, rh_url]:
         fragment = "left hemisphere" if hem == lh_url else "right hemisphere"
-        resp = requests.get(hem)
-        resp.raise_for_status()
-        tree = ET.ElementTree(ET.fromstring(resp.text))
+        if Path(hem).is_file():
+            with open(Path(hem), "r") as fp:
+                content = fp.read()
+        else:
+            resp = requests.get(hem)
+            resp.raise_for_status()
+            content=resp.text
+        tree = ET.ElementTree(ET.fromstring(content))
         labels = tree.findall(".//LabelTable/*")
         for label in labels:
             if label.get("Key") == "0":
