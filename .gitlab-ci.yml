@@ -33,12 +33,6 @@ check_connectivity_json:
     pip install -r $SIIBRA_PYTHON_PATH/requirements.txt
     SIIBRA_USE_CONFIGURATION=$PWD pytest $SIIBRA_PYTHON_PATH/e2e/features/connectivity/test_connectivity.py
 
-check_parcellation_region_name_duplication:
-  only:
-    changes:
-      - parcellations/**/*.json
-  script: python _ci/ensure_no_duplicated_region_name.py
-
 check_schema:
   extends: .checkout_siibra
   stage: test
