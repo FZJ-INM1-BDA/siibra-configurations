@@ -18,6 +18,7 @@ ds_ids_of_interest = [
     "307effe7-4834-42bb-8e66-f2c0b006be1a",
     "2ebf072e-5424-4b4a-9f08-0e3d86d060d4",
 
+    "02d80977-a6c0-44c3-aa50-b739e48559f7",
 ]
 
 key = "openminds/Dataset"
