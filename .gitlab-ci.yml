@@ -184,6 +184,10 @@ deploy:okd:start_new_worker_pods:
           --param FLAVOR=rc \
           --param QUEUE_NAME=$queue \
           --param SIIBRA_API_WORKER_IMAGE=docker-registry.ebrains.eu/siibra/siibra-api:rc-worker
+
+        echo "Setting env var to dc"
+        oc get dc -l "siibraapi_version=$API_VERSION,queue_name=$queue"
+        oc set env dc -l "siibraapi_version=$API_VERSION,queue_name=$queue" SIIBRA_USE_CONFIGURATION=/siibra-api-volume/brainscapes-configurations
       else
         echo "$existing DC found, skipping..."
       fi
