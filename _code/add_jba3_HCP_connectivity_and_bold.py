@@ -3,11 +3,26 @@ import json
 import os
 from siibra.retrieval.requests import EbrainsRequest, DECODERS
 from typing import Tuple, List, Dict
+import re
+from io import BytesIO
+
 
 LOCAL_CONFIG_FOLDER = os.path.abspath("")
 siibra.use_configuration(LOCAL_CONFIG_FOLDER)
 
-REGION_LIST = siibra.get_map('julich 3', 'mni152', 'labelled').regions
+conn_zip_url = "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/julich_brain_3/314-JuBrain_SC-FC.zip"
+bold_zip_url = "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/julich_brain_3/314-Julich-Brain_BOLD.zip"
+
+req = siibra.retrieval.requests.ZipfileRequest(
+    conn_zip_url,
+    "314-JuBrain/0ImageProcessing/Link.txt",
+    func=lambda b: b
+)
+REGION_LIST = [
+    line.decode().strip().split(maxsplit=1)[-1]
+    for line in BytesIO(req.data).readlines()
+    if re.match(r'^\d+ +\w+', line.decode())
+]
 
 def create_jba3_duplicate(
         config: dict, zip_url: str, str2replace: str, dataset_uuid: str
@@ -34,7 +49,7 @@ def create_jba3_duplicate(
 def main():
     conn_dataset_uuid = "0f1ccc4a-9a11-4697-b43f-9c9c8ac543e6"
     connectivity_folder = f"{LOCAL_CONFIG_FOLDER}/features/connectivity/regional"
-    conn_zip_url = "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/julich_brain_3/314-JuBrain_SC-FC.zip"
+    
     for conn_type in os.listdir(connectivity_folder):
         conn_type_folder = os.path.join(connectivity_folder, conn_type)
         for file in os.listdir(conn_type_folder):
@@ -52,7 +67,6 @@ def main():
 
     BOLD_dataset_uuid = "0f1ccc4a-9a11-4697-b43f-9c9c8ac543e6"
     BOLD_folder = f"{LOCAL_CONFIG_FOLDER}/features/tabular/activity_timeseries/bold"
-    bold_zip_url = "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/julich_brain_3/314-Julich-Brain_BOLD.zip"
     for file in os.listdir(BOLD_folder):
         file_path = os.path.join(BOLD_folder, file)
         with open(file_path, "r") as fp:
