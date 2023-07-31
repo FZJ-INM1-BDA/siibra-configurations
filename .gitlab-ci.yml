@@ -25,8 +25,9 @@ stages:
 ci:test:check_connectivity_json:
   # only check connectivity json if connectivity json files are changed
   rules:
-    - changes:
-      - features/connectivity/**/*.json
+  - if: $CI_PIPELINE_SOURCE == "push"
+    changes:
+    - features/connectivity/**/*.json
   extends: .checkout_siibra
   stage: test
   script: |
@@ -69,9 +70,9 @@ ci:test:check_maps:
 ci:test:check_maps_precompmesh:
   stage: test
   rules:
-    - changes:
-        paths:
-          - maps/*.json
+  - if: $CI_PIPELINE_SOURCE == "push"
+    changes:
+    - maps/*.json
   script: |
     pip install -U pip
     pip install -r _ci/requirements.txt
