@@ -3,11 +3,11 @@ from xml.etree import ElementTree as ET
 import json
 from pathlib import Path
 
-rh_url = "/home/xgui3783/dev/projects/brainscapes-configurations/rh.JulichBrainAtlas_3.0.2.label.gii" or "https://object.cscs.ch/v1/AUTH_7e4157014a3d4c1f8ffe270b57008fd4/d-7ad727a1-537d-4f80-a69b-ac8b184a823c/fsaverage_surface/rh.JulichBrainAtlas_3.0.2.label.gii"
-lh_url = "/home/xgui3783/dev/projects/brainscapes-configurations/lh.JulichBrainAtlas_3.0.2.label.gii" or "https://object.cscs.ch/v1/AUTH_7e4157014a3d4c1f8ffe270b57008fd4/d-7ad727a1-537d-4f80-a69b-ac8b184a823c/fsaverage_surface/lh.JulichBrainAtlas_3.0.2.label.gii"
+rh_url = "https://object.cscs.ch/v1/AUTH_7e4157014a3d4c1f8ffe270b57008fd4/d-d69b70e2-3002-4eaf-9c61-9c56f019bbc8/fsaverage_surface/rh.JulichBrainAtlas_3.0.3.label.gii"
+lh_url = "https://object.cscs.ch/v1/AUTH_7e4157014a3d4c1f8ffe270b57008fd4/d-d69b70e2-3002-4eaf-9c61-9c56f019bbc8/fsaverage_surface/lh.JulichBrainAtlas_3.0.3.label.gii"
 
 path_to_map = "maps/fsaverage-jba30-labelled.json"
-path_to_parcellation = "parcellations/julichbrain_v3_0_2.json"
+path_to_parcellation = "parcellations/julichbrain_v3_0_3.json"
 
 region_name_mapping = {
 }
