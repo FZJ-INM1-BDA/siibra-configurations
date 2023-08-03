@@ -10,8 +10,8 @@
 			"@type": "siibra/volume/v0.0.1",
 			"providers": {
 				"gii-label": {
-					"left hemisphere": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-7ad727a1-537d-4f80-a69b-ac8b184a823c/fsaverage_surface/lh.JulichBrainAtlas_3.0.2.label.gii",
-					"right hemisphere": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-7ad727a1-537d-4f80-a69b-ac8b184a823c/fsaverage_surface/rh.JulichBrainAtlas_3.0.2.label.gii"
+					"left hemisphere": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-d69b70e2-3002-4eaf-9c61-9c56f019bbc8/fsaverage_surface/lh.JulichBrainAtlas_3.0.3.label.gii",
+					"right hemisphere": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-d69b70e2-3002-4eaf-9c61-9c56f019bbc8/fsaverage_surface/rh.JulichBrainAtlas_3.0.3.label.gii"
 				}
 			}
 		}
@@ -102,7 +102,7 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area TPJ (STG/SMG) - left hemisphere": [
+		"Area TPJ (STG,SMG) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 13,
@@ -172,27 +172,6 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Entorhinal Cortex - left hemisphere": [
-			{
-				"volume": 0,
-				"label": 25,
-				"fragment": "left hemisphere"
-			}
-		],
-		"CA1 (Hippocampus) - left hemisphere": [
-			{
-				"volume": 0,
-				"label": 27,
-				"fragment": "left hemisphere"
-			}
-		],
-		"HATA (Hippocampus) - left hemisphere": [
-			{
-				"volume": 0,
-				"label": 28,
-				"fragment": "left hemisphere"
-			}
-		],
 		"Area OP4 (POperc) - left hemisphere": [
 			{
 				"volume": 0,
@@ -207,10 +186,31 @@
 				"fragment": "left hemisphere"
 			}
 		],
+		"Area OP2 (POperc) - left hemisphere": [
+			{
+				"volume": 0,
+				"label": 25,
+				"fragment": "left hemisphere"
+			}
+		],
 		"Area OP3 (POperc) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 26,
+				"fragment": "left hemisphere"
+			}
+		],
+		"Area FG2 (FusG) - left hemisphere": [
+			{
+				"volume": 0,
+				"label": 27,
+				"fragment": "left hemisphere"
+			}
+		],
+		"Area FG1 (FusG) - left hemisphere": [
+			{
+				"volume": 0,
+				"label": 28,
 				"fragment": "left hemisphere"
 			}
 		],
@@ -655,20 +655,6 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"HC-Transsubiculum (Hippocampus) - left hemisphere": [
-			{
-				"volume": 0,
-				"label": 99,
-				"fragment": "left hemisphere"
-			}
-		],
-		"Tuberculum (Basal Forebrain) - left hemisphere": [
-			{
-				"volume": 0,
-				"label": 100,
-				"fragment": "left hemisphere"
-			}
-		],
 		"Area Fo4 (OFC) - left hemisphere": [
 			{
 				"volume": 0,
@@ -715,6 +701,20 @@
 			{
 				"volume": 0,
 				"label": 98,
+				"fragment": "left hemisphere"
+			}
+		],
+		"Area 8v1 (MFG) - left hemisphere": [
+			{
+				"volume": 0,
+				"label": 99,
+				"fragment": "left hemisphere"
+			}
+		],
+		"Area Ig3 (Insula) - left hemisphere": [
+			{
+				"volume": 0,
+				"label": 100,
 				"fragment": "left hemisphere"
 			}
 		],
@@ -823,20 +823,6 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"CGL (Metathalamus) - left hemisphere": [
-			{
-				"volume": 0,
-				"label": 126,
-				"fragment": "left hemisphere"
-			}
-		],
-		"CGM (Metathalamus) - left hemisphere": [
-			{
-				"volume": 0,
-				"label": 127,
-				"fragment": "left hemisphere"
-			}
-		],
 		"Area Id9 (Insula) - left hemisphere": [
 			{
 				"volume": 0,
@@ -904,6 +890,27 @@
 			{
 				"volume": 0,
 				"label": 125,
+				"fragment": "left hemisphere"
+			}
+		],
+		"Frontal-to-Temporal-II (GapMap) - left hemisphere": [
+			{
+				"volume": 0,
+				"label": 126,
+				"fragment": "left hemisphere"
+			}
+		],
+		"CorpusCallosumMask - left hemisphere": [
+			{
+				"volume": 0,
+				"label": 127,
+				"fragment": "left hemisphere"
+			}
+		],
+		"BrainStemMask - left hemisphere": [
+			{
+				"volume": 0,
+				"label": 128,
 				"fragment": "left hemisphere"
 			}
 		],
@@ -991,7 +998,7 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area TPJ (STG/SMG) - right hemisphere": [
+		"Area TPJ (STG,SMG) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 13,
@@ -1061,27 +1068,6 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Entorhinal Cortex - right hemisphere": [
-			{
-				"volume": 0,
-				"label": 25,
-				"fragment": "right hemisphere"
-			}
-		],
-		"CA1 (Hippocampus) - right hemisphere": [
-			{
-				"volume": 0,
-				"label": 27,
-				"fragment": "right hemisphere"
-			}
-		],
-		"HATA (Hippocampus) - right hemisphere": [
-			{
-				"volume": 0,
-				"label": 28,
-				"fragment": "right hemisphere"
-			}
-		],
 		"Area OP4 (POperc) - right hemisphere": [
 			{
 				"volume": 0,
@@ -1096,10 +1082,31 @@
 				"fragment": "right hemisphere"
 			}
 		],
+		"Area OP2 (POperc) - right hemisphere": [
+			{
+				"volume": 0,
+				"label": 25,
+				"fragment": "right hemisphere"
+			}
+		],
 		"Area OP3 (POperc) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 26,
+				"fragment": "right hemisphere"
+			}
+		],
+		"Area FG2 (FusG) - right hemisphere": [
+			{
+				"volume": 0,
+				"label": 27,
+				"fragment": "right hemisphere"
+			}
+		],
+		"Area FG1 (FusG) - right hemisphere": [
+			{
+				"volume": 0,
+				"label": 28,
 				"fragment": "right hemisphere"
 			}
 		],
@@ -1544,20 +1551,6 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"HC-Transsubiculum (Hippocampus) - right hemisphere": [
-			{
-				"volume": 0,
-				"label": 99,
-				"fragment": "right hemisphere"
-			}
-		],
-		"Tuberculum (Basal Forebrain) - right hemisphere": [
-			{
-				"volume": 0,
-				"label": 100,
-				"fragment": "right hemisphere"
-			}
-		],
 		"Area Fo4 (OFC) - right hemisphere": [
 			{
 				"volume": 0,
@@ -1604,6 +1597,20 @@
 			{
 				"volume": 0,
 				"label": 98,
+				"fragment": "right hemisphere"
+			}
+		],
+		"Area 8v1 (MFG) - right hemisphere": [
+			{
+				"volume": 0,
+				"label": 99,
+				"fragment": "right hemisphere"
+			}
+		],
+		"Area Ig3 (Insula) - right hemisphere": [
+			{
+				"volume": 0,
+				"label": 100,
 				"fragment": "right hemisphere"
 			}
 		],
@@ -1712,20 +1719,6 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"CGL (Metathalamus) - right hemisphere": [
-			{
-				"volume": 0,
-				"label": 126,
-				"fragment": "right hemisphere"
-			}
-		],
-		"CGM (Metathalamus) - right hemisphere": [
-			{
-				"volume": 0,
-				"label": 127,
-				"fragment": "right hemisphere"
-			}
-		],
 		"Area Id9 (Insula) - right hemisphere": [
 			{
 				"volume": 0,
@@ -1793,6 +1786,27 @@
 			{
 				"volume": 0,
 				"label": 125,
+				"fragment": "right hemisphere"
+			}
+		],
+		"Frontal-to-Temporal-II (GapMap) - right hemisphere": [
+			{
+				"volume": 0,
+				"label": 126,
+				"fragment": "right hemisphere"
+			}
+		],
+		"CorpusCallosumMask - right hemisphere": [
+			{
+				"volume": 0,
+				"label": 127,
+				"fragment": "right hemisphere"
+			}
+		],
+		"BrainStemMask - right hemisphere": [
+			{
+				"volume": 0,
+				"label": 128,
 				"fragment": "right hemisphere"
 			}
 		]
