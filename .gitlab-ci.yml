@@ -37,8 +37,9 @@ ci:test:check_connectivity_json:
 
 ci:test:check_parcellation_region_name_duplication:
   rules:
+  - if: $CI_PIPELINE_SOURCE == "push"
     changes:
-      - parcellations/**/*.json
+    - parcellations/**/*.json
   script:
     - python _ci/ensure_no_duplicated_region_name.py
 
