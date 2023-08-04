@@ -39,7 +39,8 @@ ci:test:check_parcellation_region_name_duplication:
   rules:
     changes:
       - parcellations/**/*.json
-  script: python _ci/ensure_no_duplicated_region_name.py
+  script:
+    - python _ci/ensure_no_duplicated_region_name.py
 
 ci:test:check_schema:
   extends: .checkout_siibra
