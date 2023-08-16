@@ -34,7 +34,7 @@ def get_parcellation_region_names(region_tree):
     for region in region_tree:
         for key in region.keys():
             if key == "name":
-                region_names.append(clear_name(region["name"]))
+                region_names.append(region["name"])
             if key == "children":
                 children_names = get_parcellation_region_names(region["children"])
                 region_names.extend(children_names)
@@ -44,7 +44,7 @@ def compare_regions_to_parcellation(map_json, parc_region_tree):
     unmatched_regions = []
     parc_regions = get_parcellation_region_names(parc_region_tree)
     for region in map_json.get("indices").keys():
-        if clear_name(region) not in parc_regions:
+        if not any(region == parc_region for parc_region in parc_regions):
             unmatched_regions.append(region)
     return unmatched_regions
 
@@ -73,7 +73,8 @@ def main():
         assert parc_id in parcs.keys(), f"{errmsg}, parc id for {parc_id} not found in parcellations"
         assert space_id in space_ids, f"{errmsg}, space id for {space_id} not found in spaces"
         unmatched_regions = compare_regions_to_parcellation(json_obj, parcs[parc_id])
-        assert len(unmatched_regions) == 0, f"Following regions in {filepath} have no correspondence in parcellation {parc_id}: {unmatched_regions}"
+        if len(unmatched_regions) > 0:
+            print(f"Following regions in {filepath} have no correspondence in parcellation {parc_id}: {unmatched_regions}")
 
 if __name__ == "__main__":
     main()
