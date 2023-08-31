@@ -22,10 +22,19 @@ stages:
     pip install -U pip
     pip install -r _ci/requirements.txt
 
+ci:checklist:generate-update:
+  only:
+  - tags
+  trigger:
+    include:
+    - local: .gitlab-ci.release-checklist.yml
+    strategy: depend
+
 ci:test:check_connectivity_json:
   # only check connectivity json if connectivity json files are changed
+  # pipeline source needs to be set to merge request event, or else it will trigger everytime
   rules:
-  - if: $CI_PIPELINE_SOURCE == "push"
+  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     changes:
     - features/connectivity/**/*.json
   extends: .checkout_siibra
