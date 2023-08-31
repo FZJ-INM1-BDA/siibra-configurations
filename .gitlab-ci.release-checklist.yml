@@ -1,0 +1,91 @@
+image: python:3.8
+
+variables:
+  RELEASE_CHECKLIST_TAG: release-checklist
+  RELEASE_TAG_ENV: '.latest-tag.env'
+  OPENED_IID_ENV: '.all-opened.env'
+
+stages:
+- collection
+- update
+- createnew
+
+.install-dep:
+  before_script: |
+    apt-get update -y && apt-get install -y jq
+    pip install requests
+
+get-latest-tag:
+  extends: .install-dep
+  rules:
+  - if: $CI_PIPELINE_SOURCE == "parent_pipeline"
+  stage: collection
+  artifacts:
+    paths:
+    - $RELEASE_TAG_ENV
+  script: |
+    url="$CI_API_V4_URL/projects/$CI_PROJECT_ID/repository/tags"
+    echo "url: $url"
+    newest_tag=$(curl -s $url | jq -r ".[0].name")
+    echo "newest_tag $newest_tag"
+    echo "export NEWEST_TAG=$newest_tag" >> $RELEASE_TAG_ENV
+
+get-all-opened:
+  rules:
+  - if: $CI_PIPELINE_SOURCE == "parent_pipeline"
+  stage: collection
+  extends: .install-dep
+  artifacts:
+    paths:
+    - $OPENED_IID_ENV
+  script: |
+    url="$CI_API_V4_URL/projects/$CI_PROJECT_ID/issues?labels=${RELEASE_CHECKLIST_TAG}&state=opened"
+    echo "url: $url"
+    all_issues_id=$(curl -s $url | jq -r ".[].iid")
+    echo "all_issues_id $all_issues_id"
+    echo "ALL_IID=$all_issues_id" >> $OPENED_IID_ENV
+
+close-existing-issues:
+  stage: update
+  extends: .install-dep
+  dependencies:
+  - get-all-opened
+  - get-latest-tag
+  rules:
+  - if: $CI_PIPELINE_SOURCE == "parent_pipeline"
+  script: |
+    if [[ -z "$RELEASE_CHECKLIST_CI_TOKEN" ]]
+    then
+      echo "RELEASE_CHECKLIST_CI_TOKEN not set, terminating!"
+      exit 1
+    fi
+    cat $RELEASE_TAG_ENV
+    cat $OPENED_IID_ENV
+    
+    source $OPENED_IID_ENV
+    echo ALL_IID: $ALL_IID
+
+    for iid in $ALL_IID
+    do
+      url="$CI_API_V4_URL/projects/$CI_PROJECT_ID/issues/$iid"
+      echo Closing issue id: $iid with url: $url
+      curl -v -XPUT -H "PRIVATE-TOKEN: $RELEASE_CHECKLIST_CI_TOKEN" ${url}?state_event=close
+    done
+
+open-new-issue:
+  stage: createnew
+  extends: .install-dep
+  dependencies:
+  - get-latest-tag
+  rules:
+  - if: $CI_PIPELINE_SOURCE == "parent_pipeline"
+  script: |
+    if [[ -z "$RELEASE_CHECKLIST_CI_TOKEN" ]]
+    then
+      echo "RELEASE_CHECKLIST_CI_TOKEN not set, terminating!"
+      exit 1
+    fi
+    cat $RELEASE_TAG_ENV
+    source $RELEASE_TAG_ENV 
+    python ./_ci/create_new_issue.py
+    
