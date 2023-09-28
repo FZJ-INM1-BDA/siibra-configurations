@@ -1,0 +1,653 @@
+{
+	"@id": "minds/core/parcellationatlas/v1.0.0/887da8eb4c36d944ef626ed5293db3ef",
+	"@type": "siibra/parcellation/v0.0.1",
+	"name": "MarsAtlas cortical parcellation model",
+	"shortName": "MarsAtlas",
+	"modality": "HIP-HOP",
+	"species": "homo sapiens",
+	"description": "A cortical parcellation model based on macroanatomical information and test its validity on visuomotor-related cortical functional networks. The parcellation model is based on a recently developed cortical parameterization method (Auzias et al., [2013]: IEEE Trans Med Imaging 32:873\u2013887), called HIP-HOP. This method exploits a set of primary and secondary sulci to create an orthogonal coordinate system on the cortical surface. A natural parcellation scheme arises from the axes of the HIP-HOP model running along the fundus of selected sulci. The resulting parcellation scheme, called MarsAtlas, complies with dorsoventral/rostrocaudal direction fields and allows inter-subject matching.",
+	"publications": [
+		{
+			"name": "MarsAtlas: A cortical parcellation atlas for functional mapping",
+			"url": "https://doi.org/10.1002/hbm.23121",
+			"authors": [
+				"Guillaume Auzias",
+				"Olivier Coulon",
+				"Andrea Brovelli"
+			],
+			"description": "The brainstem is one of the most densely packed areas of the central nervous system in terms of gray, but also white, matter structures and, therefore, is a highly functional hub. It has mainly been studied by the means of histological techniques, which requires several hundreds of slices with a loss of the 3D coherence of the whole specimen. Access to the inner structure of the brainstem is possible using Magnetic Resonance Imaging (MRI), but this method has a limited spatial resolution and contrast in vivo. Here, we scanned an ex vivo specimen using an ultra-high field (11.7T) preclinical MRI scanner providing data at a mesoscopic scale for anatomical T2-weighted (100\u00a0\u00b5m and 185\u00a0\u00b5m isotropic) and diffusion-weighted imaging (300\u00a0\u00b5m isotropic). We then proposed a hierarchical segmentation of the inner gray matter of the brainstem and defined a set of rules for each segmented anatomical class. These rules were gathered in a freely accessible web-based application, WIKIBrainStem (https://fibratlas.univ- tours.fr/brainstems/index.html), for 99 structures, from which 13 were subdivided into 29 substructures. This segmentation is, to date, the most detailed one developed from ex vivo MRI of the brainstem. This should be regarded as a tool that will be complemented by future results of alternative methods, such as Optical Coherence Tomography, Polarized Light Imaging or histology\u2026 This is a mandatory step prior to segmenting multiple specimens, which will be used to create a probabilistic automated segmentation method of ex vivo, but also in vivo, brainstem and may be used for targeting anatomical structures of interest in managing some degenerative or psychiatric disorders.",
+			"citation": "Auzias, G., Coulon, O. and Brovelli, A. (2016), MarsAtlas: A cortical parcellation atlas for functional mapping. Hum. Brain Mapp., 37: 1573-1592. https://doi.org/10.1002/hbm.23121"
+		}
+	],
+	"regions": [
+		{
+			"name": "Caudal Medial Visual Cortex",
+			"children": [
+				{
+					"name": "Caudal Medial Visual Cortex - left hemisphere",
+					"rgb": "#ff0000"
+				},
+				{
+					"name": "Caudal Medial Visual Cortex - right hemisphere",
+					"rgb": "#ff0000"
+				}
+			]
+		},
+		{
+			"name": "Lateral Visual Cortex",
+			"children": [
+				{
+					"name": "Lateral Visual Cortex - left hemisphere",
+					"rgb": "#00ff00"
+				},
+				{
+					"name": "Lateral Visual Cortex - right hemisphere",
+					"rgb": "#00ff00"
+				}
+			]
+		},
+		{
+			"name": "Superior Visual Cortex",
+			"children": [
+				{
+					"name": "Superior Visual Cortex - left hemisphere",
+					"rgb": "#ef7729"
+				},
+				{
+					"name": "Superior Visual Cortex - right hemisphere",
+					"rgb": "#ef7729"
+				}
+			]
+		},
+		{
+			"name": "Cuneus",
+			"children": [
+				{
+					"name": "Cuneus - left hemisphere",
+					"rgb": "#d219f5"
+				},
+				{
+					"name": "Cuneus - right hemisphere",
+					"rgb": "#d219f5"
+				}
+			]
+		},
+		{
+			"name": "Rostral Medial Visual Cortex",
+			"children": [
+				{
+					"name": "Rostral Medial Visual Cortex - left hemisphere",
+					"rgb": "#a7754a"
+				},
+				{
+					"name": "Rostral Medial Visual Cortex - right hemisphere",
+					"rgb": "#a7754a"
+				}
+			]
+		},
+		{
+			"name": "Medial Inferior Temporal Cortex",
+			"children": [
+				{
+					"name": "Medial Inferior Temporal Cortex - left hemisphere",
+					"rgb": "#ffda2f"
+				},
+				{
+					"name": "Medial Inferior Temporal Cortex - right hemisphere",
+					"rgb": "#ffda2f"
+				}
+			]
+		},
+		{
+			"name": "Rostral Inferior Temporal Cortex",
+			"children": [
+				{
+					"name": "Rostral Inferior Temporal Cortex - left hemisphere",
+					"rgb": "#001ec8"
+				},
+				{
+					"name": "Rostral Inferior Temporal Cortex - right hemisphere",
+					"rgb": "#001ec8"
+				}
+			]
+		},
+		{
+			"name": "Caudal Middle Temporal Cortex",
+			"children": [
+				{
+					"name": "Caudal Middle Temporal Cortex - left hemisphere",
+					"rgb": "#91fafa"
+				},
+				{
+					"name": "Caudal Middle Temporal Cortex - right hemisphere",
+					"rgb": "#91fafa"
+				}
+			]
+		},
+		{
+			"name": "Caudal Superior Temporal Cortex",
+			"children": [
+				{
+					"name": "Caudal Superior Temporal Cortex - left hemisphere",
+					"rgb": "#ff90c3"
+				},
+				{
+					"name": "Caudal Superior Temporal Cortex - right hemisphere",
+					"rgb": "#ff90c3"
+				}
+			]
+		},
+		{
+			"name": "Rostral Superior Temporal Cortex",
+			"children": [
+				{
+					"name": "Rostral Superior Temporal Cortex - left hemisphere",
+					"rgb": "#fafa91"
+				},
+				{
+					"name": "Rostral Superior Temporal Cortex - right hemisphere",
+					"rgb": "#fafa91"
+				}
+			]
+		},
+		{
+			"name": "Rostral Middle Temporal Cortex",
+			"children": [
+				{
+					"name": "Rostral Middle Temporal Cortex - left hemisphere",
+					"rgb": "#9393b3"
+				},
+				{
+					"name": "Rostral Middle Temporal Cortex - right hemisphere",
+					"rgb": "#9393b3"
+				}
+			]
+		},
+		{
+			"name": "Ventral Inferior Parietal Cortex",
+			"children": [
+				{
+					"name": "Ventral Inferior Parietal Cortex - left hemisphere",
+					"rgb": "#fdee05"
+				},
+				{
+					"name": "Ventral Inferior Parietal Cortex - right hemisphere",
+					"rgb": "#fdee05"
+				}
+			]
+		},
+		{
+			"name": "Dorsal Inferior Parietal Cortex",
+			"children": [
+				{
+					"name": "Dorsal Inferior Parietal Cortex - left hemisphere",
+					"rgb": "#e518fe"
+				},
+				{
+					"name": "Dorsal Inferior Parietal Cortex - right hemisphere",
+					"rgb": "#e518fe"
+				}
+			]
+		},
+		{
+			"name": "Superior Parietal Cortex",
+			"children": [
+				{
+					"name": "Superior Parietal Cortex - left hemisphere",
+					"rgb": "#00fa00"
+				},
+				{
+					"name": "Superior Parietal Cortex - right hemisphere",
+					"rgb": "#00fa00"
+				}
+			]
+		},
+		{
+			"name": "Medial Superior Parietal Cortex",
+			"children": [
+				{
+					"name": "Medial Superior Parietal Cortex - left hemisphere",
+					"rgb": "#7d6432"
+				},
+				{
+					"name": "Medial Superior Parietal Cortex - right hemisphere",
+					"rgb": "#7d6432"
+				}
+			]
+		},
+		{
+			"name": "Medial Parietal Cortex",
+			"children": [
+				{
+					"name": "Medial Parietal Cortex - left hemisphere",
+					"rgb": "#420faf"
+				},
+				{
+					"name": "Medial Parietal Cortex - right hemisphere",
+					"rgb": "#420faf"
+				}
+			]
+		},
+		{
+			"name": "Ventral Somatosensory Cortex",
+			"children": [
+				{
+					"name": "Ventral Somatosensory Cortex - left hemisphere",
+					"rgb": "#05da29"
+				},
+				{
+					"name": "Ventral Somatosensory Cortex - right hemisphere",
+					"rgb": "#05da29"
+				}
+			]
+		},
+		{
+			"name": "Dorsolateral Somatosensory Cortex",
+			"children": [
+				{
+					"name": "Dorsolateral Somatosensory Cortex - left hemisphere",
+					"rgb": "#13dbf3"
+				},
+				{
+					"name": "Dorsolateral Somatosensory Cortex - right hemisphere",
+					"rgb": "#13dbf3"
+				}
+			]
+		},
+		{
+			"name": "Dorsomedial Somatosensory Cortex",
+			"children": [
+				{
+					"name": "Dorsomedial Somatosensory Cortex - left hemisphere",
+					"rgb": "#fa0000"
+				},
+				{
+					"name": "Dorsomedial Somatosensory Cortex - right hemisphere",
+					"rgb": "#fa0000"
+				}
+			]
+		},
+		{
+			"name": "Isthmus Cingulate Cortex",
+			"children": [
+				{
+					"name": "Isthmus Cingulate Cortex - left hemisphere",
+					"rgb": "#17fa17"
+				},
+				{
+					"name": "Isthmus Cingulate Cortex - right hemisphere",
+					"rgb": "#17fa17"
+				}
+			]
+		},
+		{
+			"name": "Posterior Cingulate Cortex",
+			"children": [
+				{
+					"name": "Posterior Cingulate Cortex - left hemisphere",
+					"rgb": "#ffd44f"
+				},
+				{
+					"name": "Posterior Cingulate Cortex - right hemisphere",
+					"rgb": "#ffd44f"
+				}
+			]
+		},
+		{
+			"name": "Mid Cingulate Cortex",
+			"children": [
+				{
+					"name": "Mid Cingulate Cortex - left hemisphere",
+					"rgb": "#420f06"
+				},
+				{
+					"name": "Mid Cingulate Cortex - right hemisphere",
+					"rgb": "#420f06"
+				}
+			]
+		},
+		{
+			"name": "Anterior Cingulate Cortex",
+			"children": [
+				{
+					"name": "Anterior Cingulate Cortex - left hemisphere",
+					"rgb": "#002aff"
+				},
+				{
+					"name": "Anterior Cingulate Cortex - right hemisphere",
+					"rgb": "#002aff"
+				}
+			]
+		},
+		{
+			"name": "Ventral Motor Cortex",
+			"children": [
+				{
+					"name": "Ventral Motor Cortex - left hemisphere",
+					"rgb": "#302460"
+				},
+				{
+					"name": "Ventral Motor Cortex - right hemisphere",
+					"rgb": "#302460"
+				}
+			]
+		},
+		{
+			"name": "Dorsolateral Motor Cortex",
+			"children": [
+				{
+					"name": "Dorsolateral Motor Cortex - left hemisphere",
+					"rgb": "#a89fae"
+				},
+				{
+					"name": "Dorsolateral Motor Cortex - right hemisphere",
+					"rgb": "#a89fae"
+				}
+			]
+		},
+		{
+			"name": "Dorsomedial Motor Cortex",
+			"children": [
+				{
+					"name": "Dorsomedial Motor Cortex - left hemisphere",
+					"rgb": "#ff53db"
+				},
+				{
+					"name": "Dorsomedial Motor Cortex - right hemisphere",
+					"rgb": "#ff53db"
+				}
+			]
+		},
+		{
+			"name": "Rostral Ventral Premotor Cortex",
+			"children": [
+				{
+					"name": "Rostral Ventral Premotor Cortex - left hemisphere",
+					"rgb": "#f8bc7c"
+				},
+				{
+					"name": "Rostral Ventral Premotor Cortex - right hemisphere",
+					"rgb": "#f8bc7c"
+				}
+			]
+		},
+		{
+			"name": "Dorsolateral Premotor Cortex",
+			"children": [
+				{
+					"name": "Dorsolateral Premotor Cortex - left hemisphere",
+					"rgb": "#fa00fa"
+				},
+				{
+					"name": "Dorsolateral Premotor Cortex - right hemisphere",
+					"rgb": "#fa00fa"
+				}
+			]
+		},
+		{
+			"name": "Dorsomedial Premotor Cortex",
+			"children": [
+				{
+					"name": "Dorsomedial Premotor Cortex - left hemisphere",
+					"rgb": "#fafa00"
+				},
+				{
+					"name": "Dorsomedial Premotor Cortex - right hemisphere",
+					"rgb": "#fafa00"
+				}
+			]
+		},
+		{
+			"name": "Caudal Dorsolateral Prefrontal Cortex",
+			"children": [
+				{
+					"name": "Caudal Dorsolateral Prefrontal Cortex - left hemisphere",
+					"rgb": "#00fa00"
+				},
+				{
+					"name": "Caudal Dorsolateral Prefrontal Cortex - right hemisphere",
+					"rgb": "#00fa00"
+				}
+			]
+		},
+		{
+			"name": "Caudal Dorsomedial Prefrontal Cortex",
+			"children": [
+				{
+					"name": "Caudal Dorsomedial Prefrontal Cortex - left hemisphere",
+					"rgb": "#ff7e00"
+				},
+				{
+					"name": "Caudal Dorsomedial Prefrontal Cortex - right hemisphere",
+					"rgb": "#ff7e00"
+				}
+			]
+		},
+		{
+			"name": "Rostral Ventrolateral Prefrontal Cortex",
+			"children": [
+				{
+					"name": "Rostral Ventrolateral Prefrontal Cortex - left hemisphere",
+					"rgb": "#0000fa"
+				},
+				{
+					"name": "Rostral Ventrolateral Prefrontal Cortex - right hemisphere",
+					"rgb": "#0000fa"
+				}
+			]
+		},
+		{
+			"name": "Rostral Dorsolateral Inferior Prefrontal Cortex",
+			"children": [
+				{
+					"name": "Rostral Dorsolateral Inferior Prefrontal Cortex - left hemisphere",
+					"rgb": "#582b01"
+				},
+				{
+					"name": "Rostral Dorsolateral Inferior Prefrontal Cortex - right hemisphere",
+					"rgb": "#582b01"
+				}
+			]
+		},
+		{
+			"name": "Rostral Dorsolateral Superior Prefrontal Cortex",
+			"children": [
+				{
+					"name": "Rostral Dorsolateral Superior Prefrontal Cortex - left hemisphere",
+					"rgb": "#fa0000"
+				},
+				{
+					"name": "Rostral Dorsolateral Superior Prefrontal Cortex - right hemisphere",
+					"rgb": "#fa0000"
+				}
+			]
+		},
+		{
+			"name": "Rostral Dorsal Prefrontal Cortex",
+			"children": [
+				{
+					"name": "Rostral Dorsal Prefrontal Cortex - left hemisphere",
+					"rgb": "#00ad00"
+				},
+				{
+					"name": "Rostral Dorsal Prefrontal Cortex - right hemisphere",
+					"rgb": "#00ad00"
+				}
+			]
+		},
+		{
+			"name": "Rostral Medial Prefrontal Cortex",
+			"children": [
+				{
+					"name": "Rostral Medial Prefrontal Cortex - left hemisphere",
+					"rgb": "#fafa00"
+				},
+				{
+					"name": "Rostral Medial Prefrontal Cortex - right hemisphere",
+					"rgb": "#fafa00"
+				}
+			]
+		},
+		{
+			"name": "Ventrolateral Orbito Frontal Cortex",
+			"children": [
+				{
+					"name": "Ventrolateral Orbito Frontal Cortex - left hemisphere",
+					"rgb": "#6dc418"
+				},
+				{
+					"name": "Ventrolateral Orbito Frontal Cortex - right hemisphere",
+					"rgb": "#6dc418"
+				}
+			]
+		},
+		{
+			"name": "Ventral Orbito Frontal Cortex",
+			"children": [
+				{
+					"name": "Ventral Orbito Frontal Cortex - left hemisphere",
+					"rgb": "#bc2b8f"
+				},
+				{
+					"name": "Ventral Orbito Frontal Cortex - right hemisphere",
+					"rgb": "#bc2b8f"
+				}
+			]
+		},
+		{
+			"name": "Ventromedial Orbito Frontal Cortex",
+			"children": [
+				{
+					"name": "Ventromedial Orbito Frontal Cortex - left hemisphere",
+					"rgb": "#d2e700"
+				},
+				{
+					"name": "Ventromedial Orbito Frontal Cortex - right hemisphere",
+					"rgb": "#d2e700"
+				}
+			]
+		},
+		{
+			"name": "Ventromedial Prefrontal Cortex",
+			"children": [
+				{
+					"name": "Ventromedial Prefrontal Cortex - left hemisphere",
+					"rgb": "#bc8f01"
+				},
+				{
+					"name": "Ventromedial Prefrontal Cortex - right hemisphere",
+					"rgb": "#bc8f01"
+				}
+			]
+		},
+		{
+			"name": "Insular Cortex",
+			"children": [
+				{
+					"name": "Insular Cortex - left hemisphere",
+					"rgb": "#12f3f3"
+				},
+				{
+					"name": "Insular Cortex - right hemisphere",
+					"rgb": "#12f3f3"
+				}
+			]
+		},
+		{
+			"name": "Subcortical structures",
+			"children": [
+				{
+					"name": "Thalamus",
+					"children": [
+						{
+							"name": "Thalamus - left hemisphere",
+							"rgb": "#ff0000"
+						},
+						{
+							"name": "Thalamus - right hemisphere",
+							"rgb": "#ef7729"
+						}
+					]
+				},
+				{
+					"name": "Caudate",
+					"children": [
+						{
+							"name": "Caudate - left hemisphere",
+							"rgb": "#9393b3"
+						},
+						{
+							"name": "Caudate - right hemisphere",
+							"rgb": "#d219f5"
+						}
+					]
+				},
+				{
+					"name": "Puttamen",
+					"children": [
+						{
+							"name": "Puttamen - left hemisphere",
+							"rgb": "#17fa17"
+						},
+						{
+							"name": "Puttamen - right hemisphere",
+							"rgb": "#a7754a"
+						}
+					]
+				},
+				{
+					"name": "Pallidum",
+					"children": [
+						{
+							"name": "Pallidum - left hemisphere",
+							"rgb": "#fdee05"
+						},
+						{
+							"name": "Pallidum - right hemisphere",
+							"rgb": "#ffda2f"
+						}
+					]
+				},
+				{
+					"name": "Hippocampus",
+					"children": [
+						{
+							"name": "Hippocampus - left hemisphere",
+							"rgb": "#e518fe"
+						},
+						{
+							"name": "Hippocampus - right hemisphere",
+							"rgb": "#001ec8"
+						}
+					]
+				},
+				{
+					"name": "Amygdala",
+					"children": [
+						{
+							"name": "Amygdala - left hemisphere",
+							"rgb": "#00fa00"
+						},
+						{
+							"name": "Amygdala - right hemisphere",
+							"rgb": "#91fafa"
+						}
+					]
+				},
+				{
+					"name": "Accumbens",
+					"children": [
+						{
+							"name": "Accumbens - left hemisphere",
+							"rgb": "#7d6432"
+						},
+						{
+							"name": "Accumbens - right hemisphere",
+							"rgb": "#ff90c3"
+						}
+					]
+				}
+			]
+		}
+	]
+}
