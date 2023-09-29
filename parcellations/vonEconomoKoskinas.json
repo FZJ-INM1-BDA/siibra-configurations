@@ -1,0 +1,597 @@
+{
+	"@id": "minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456",
+	"@type": "siibra/parcellation/v0.0.1",
+	"name": "Von Economo - Koskinas Brain Atlas",
+	"shortName": "Von Economo - Koskinas",
+	"species": "homo sapiens",
+	"description": "The cerebral cortex displays substantial variation in cellular architecture, a regional patterning that has been of great interest to anatomists for centuries. In 1925, Constantin von Economo and George Koskinas published a detailed atlas of the human cerebral cortex, describing a cytoarchitectonic division of the cortical mantle into over 40 distinct areas. Von Economo and Koskinas accompanied their seminal work with large photomicrographic plates of their histological slides, together with tables containing for each described region detailed morphological layer- specific information on neuronal count, neuron size and thickness of the cortical mantle. Here, we aimed to make this legacy data accessible and relatable to in vivo neuroimaging data by constructing a digital Von Economo \u2013 Koskinas atlas compatible with the widely used FreeSurfer software suite. In this technical note we describe the procedures used for manual segmentation of the Von Economo \u2013 Koskinas atlas onto individual T1 scans and the subsequent construction of the digital atlas. We provide the files needed to run the atlas on new FreeSurfer data, together with some simple code of how to apply the atlas to T1 scans within the FreeSurfer software suite. The digital Von Economo \u2013 Koskinas atlas is easily applicable to modern day anatomical MRI data and is made publicly available online.",
+	"publications": [
+		{
+			"name": "An MRI Von Economo \u2013 Koskinas atlas",
+			"url": "https://doi.org/10.1016/j.neuroimage.2016.12.069",
+			"authors": [
+				"Lianne H. Scholtens",
+				"Marcel A. de Reus",
+				"Siemon C. de Lange",
+				"Ruben Schmidt",
+				"Martijn P. van den Heuvel"
+			],
+			"description": "The cerebral cortex displays substantial variation in cellular architecture, a regional patterning that has been of great interest to anatomists for centuries. In 1925, Constantin von Economo and George Koskinas published a detailed atlas of the human cerebral cortex, describing a cytoarchitectonic division of the cortical mantle into over 40 distinct areas. Von Economo and Koskinas accompanied their seminal work with large photomicrographic plates of their histological slides, together with tables containing for each described region detailed morphological layer- specific information on neuronal count, neuron size and thickness of the cortical mantle. Here, we aimed to make this legacy data accessible and relatable to in vivo neuroimaging data by constructing a digital Von Economo \u2013 Koskinas atlas compatible with the widely used FreeSurfer software suite. In this technical note we describe the procedures used for manual segmentation of the Von Economo \u2013 Koskinas atlas onto individual T1 scans and the subsequent construction of the digital atlas. We provide the files needed to run the atlas on new FreeSurfer data, together with some simple code of how to apply the atlas to T1 scans within the FreeSurfer software suite. The digital Von Economo \u2013 Koskinas atlas is easily applicable to modern day anatomical MRI data and is made publicly available online.",
+			"citation": "Scholtens, L. H., de Reus, M. A., de Lange, S. C., Schmidt, R., & van den Heuvel, M. P. (2018). An mri von economo\u2013koskinas atlas. NeuroImage, 170, 249-256."
+		}
+	],
+	"regions": [
+		{
+			"name": "Unknown",
+			"children": [
+				{
+					"name": "Unknown - left hemisphere",
+					"rgb": "#000000"
+				},
+				{
+					"name": "Unknown - right hemisphere",
+					"rgb": "#000000"
+				}
+			]
+		},
+		{
+			"name": "FA: Area praecentralis",
+			"children": [
+				{
+					"name": "FA: Area praecentralis - left hemisphere",
+					"rgb": "#cee29c"
+				},
+				{
+					"name": "FA: Area praecentralis - right hemisphere",
+					"rgb": "#cee29c"
+				}
+			]
+		},
+		{
+			"name": "FB: Area frontalis agranularis",
+			"children": [
+				{
+					"name": "FB: Area frontalis agranularis - left hemisphere",
+					"rgb": "#c8db8a"
+				},
+				{
+					"name": "FB: Area frontalis agranularis - right hemisphere",
+					"rgb": "#c8db8a"
+				}
+			]
+		},
+		{
+			"name": "FC: Area frontalis intermedia",
+			"children": [
+				{
+					"name": "FC: Area frontalis intermedia - left hemisphere",
+					"rgb": "#bbcc73"
+				},
+				{
+					"name": "FC: Area frontalis intermedia - right hemisphere",
+					"rgb": "#bbcc73"
+				}
+			]
+		},
+		{
+			"name": "FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca",
+			"children": [
+				{
+					"name": "FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca - left hemisphere",
+					"rgb": "#55c1aa"
+				},
+				{
+					"name": "FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca - right hemisphere",
+					"rgb": "#55c1aa"
+				}
+			]
+		},
+		{
+			"name": "FD: Area frontalis granularis",
+			"children": [
+				{
+					"name": "FD: Area frontalis granularis - left hemisphere",
+					"rgb": "#0dc96f"
+				},
+				{
+					"name": "FD: Area frontalis granularis - right hemisphere",
+					"rgb": "#0dc96f"
+				}
+			]
+		},
+		{
+			"name": "FDdelta: Area frontalis granularis media",
+			"children": [
+				{
+					"name": "FDdelta: Area frontalis granularis media - left hemisphere",
+					"rgb": "#138450"
+				},
+				{
+					"name": "FDdelta: Area frontalis granularis media - right hemisphere",
+					"rgb": "#138450"
+				}
+			]
+		},
+		{
+			"name": "FDT: Area frontalis granularis triangularis",
+			"children": [
+				{
+					"name": "FDT: Area frontalis granularis triangularis - left hemisphere",
+					"rgb": "#45a87b"
+				},
+				{
+					"name": "FDT: Area frontalis granularis triangularis - right hemisphere",
+					"rgb": "#45a87b"
+				}
+			]
+		},
+		{
+			"name": "FE: Area frontopolaris",
+			"children": [
+				{
+					"name": "FE: Area frontopolaris - left hemisphere",
+					"rgb": "#1bb28a"
+				},
+				{
+					"name": "FE: Area frontopolaris - right hemisphere",
+					"rgb": "#1bb28a"
+				}
+			]
+		},
+		{
+			"name": "FF: Area orbitalis (granularis)",
+			"children": [
+				{
+					"name": "FF: Area orbitalis (granularis) - left hemisphere",
+					"rgb": "#31acc0"
+				},
+				{
+					"name": "FF: Area orbitalis (granularis) - right hemisphere",
+					"rgb": "#31acc0"
+				}
+			]
+		},
+		{
+			"name": "FG: Area gyri recti (Ar. recta)",
+			"children": [
+				{
+					"name": "FG: Area gyri recti (Ar. recta) - left hemisphere",
+					"rgb": "#3d7f76"
+				},
+				{
+					"name": "FG: Area gyri recti (Ar. recta) - right hemisphere",
+					"rgb": "#3d7f76"
+				}
+			]
+		},
+		{
+			"name": "FH: Area praefrontalis",
+			"children": [
+				{
+					"name": "FH: Area praefrontalis - left hemisphere",
+					"rgb": "#4d876a"
+				},
+				{
+					"name": "FH: Area praefrontalis - right hemisphere",
+					"rgb": "#4d876a"
+				}
+			]
+		},
+		{
+			"name": "FJK: Area frontoinsularis + Area piriformis frontalis",
+			"children": [
+				{
+					"name": "FJK: Area frontoinsularis + Area piriformis frontalis - left hemisphere",
+					"rgb": "#1d9a87"
+				},
+				{
+					"name": "FJK: Area frontoinsularis + Area piriformis frontalis - right hemisphere",
+					"rgb": "#1d9a87"
+				}
+			]
+		},
+		{
+			"name": "FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis",
+			"children": [
+				{
+					"name": "FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis - left hemisphere",
+					"rgb": "#509192"
+				},
+				{
+					"name": "FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis - right hemisphere",
+					"rgb": "#509192"
+				}
+			]
+		},
+		{
+			"name": "HA: Area uncinata",
+			"children": [
+				{
+					"name": "HA: Area uncinata - left hemisphere",
+					"rgb": "#293765"
+				},
+				{
+					"name": "HA: Area uncinata - right hemisphere",
+					"rgb": "#293765"
+				}
+			]
+		},
+		{
+			"name": "HB: Area parauncinata",
+			"children": [
+				{
+					"name": "HB: Area parauncinata - left hemisphere",
+					"rgb": "#32487f"
+				},
+				{
+					"name": "HB: Area parauncinata - right hemisphere",
+					"rgb": "#32487f"
+				}
+			]
+		},
+		{
+			"name": "HC: Area rhinalis limitans",
+			"children": [
+				{
+					"name": "HC: Area rhinalis limitans - left hemisphere",
+					"rgb": "#3c5792"
+				},
+				{
+					"name": "HC: Area rhinalis limitans - right hemisphere",
+					"rgb": "#3c5792"
+				}
+			]
+		},
+		{
+			"name": "IA: Area insulae praecentralis",
+			"children": [
+				{
+					"name": "IA: Area insulae praecentralis - left hemisphere",
+					"rgb": "#cc3dd3"
+				},
+				{
+					"name": "IA: Area insulae praecentralis - right hemisphere",
+					"rgb": "#cc3dd3"
+				}
+			]
+		},
+		{
+			"name": "IB: Area insulae postcentralis",
+			"children": [
+				{
+					"name": "IB: Area insulae postcentralis - left hemisphere",
+					"rgb": "#894387"
+				},
+				{
+					"name": "IB: Area insulae postcentralis - right hemisphere",
+					"rgb": "#894387"
+				}
+			]
+		},
+		{
+			"name": "LA1: Area limbicus anterior agranularis - praecingularis",
+			"children": [
+				{
+					"name": "LA1: Area limbicus anterior agranularis - praecingularis - left hemisphere",
+					"rgb": "#7cd7f6"
+				},
+				{
+					"name": "LA1: Area limbicus anterior agranularis - praecingularis - right hemisphere",
+					"rgb": "#7cd7f6"
+				}
+			]
+		},
+		{
+			"name": "LA2: Area limbicus anterior agranularis - cingularis anterior",
+			"children": [
+				{
+					"name": "LA2: Area limbicus anterior agranularis - cingularis anterior - left hemisphere",
+					"rgb": "#a2ddf9"
+				},
+				{
+					"name": "LA2: Area limbicus anterior agranularis - cingularis anterior - right hemisphere",
+					"rgb": "#a2ddf9"
+				}
+			]
+		},
+		{
+			"name": "LC1: Area cingularis posterior dorsalis",
+			"children": [
+				{
+					"name": "LC1: Area cingularis posterior dorsalis - left hemisphere",
+					"rgb": "#0085b9"
+				},
+				{
+					"name": "LC1: Area cingularis posterior dorsalis - right hemisphere",
+					"rgb": "#0085b9"
+				}
+			]
+		},
+		{
+			"name": "LC2: Area cingularis posterior ventralis",
+			"children": [
+				{
+					"name": "LC2: Area cingularis posterior ventralis - left hemisphere",
+					"rgb": "#44a5e3"
+				},
+				{
+					"name": "LC2: Area cingularis posterior ventralis - right hemisphere",
+					"rgb": "#44a5e3"
+				}
+			]
+		},
+		{
+			"name": "LC3: Area cingularis limitans posterior",
+			"children": [
+				{
+					"name": "LC3: Area cingularis limitans posterior - left hemisphere",
+					"rgb": "#76b3d7"
+				},
+				{
+					"name": "LC3: Area cingularis limitans posterior - right hemisphere",
+					"rgb": "#76b3d7"
+				}
+			]
+		},
+		{
+			"name": "LD: Area retrosplenialis agranularis",
+			"children": [
+				{
+					"name": "LD: Area retrosplenialis agranularis - left hemisphere",
+					"rgb": "#7ad4d7"
+				},
+				{
+					"name": "LD: Area retrosplenialis agranularis - right hemisphere",
+					"rgb": "#7ad4d7"
+				}
+			]
+		},
+		{
+			"name": "LE: Area retrosplenialis granulosa",
+			"children": [
+				{
+					"name": "LE: Area retrosplenialis granulosa - left hemisphere",
+					"rgb": "#a9dbe0"
+				},
+				{
+					"name": "LE: Area retrosplenialis granulosa - right hemisphere",
+					"rgb": "#a9dbe0"
+				}
+			]
+		},
+		{
+			"name": "OA: Area peristriata",
+			"children": [
+				{
+					"name": "OA: Area peristriata - left hemisphere",
+					"rgb": "#fdfcbb"
+				},
+				{
+					"name": "OA: Area peristriata - right hemisphere",
+					"rgb": "#fdfcbb"
+				}
+			]
+		},
+		{
+			"name": "OB: Area parastriata",
+			"children": [
+				{
+					"name": "OB: Area parastriata - left hemisphere",
+					"rgb": "#fbfa92"
+				},
+				{
+					"name": "OB: Area parastriata - right hemisphere",
+					"rgb": "#fbfa92"
+				}
+			]
+		},
+		{
+			"name": "OC: Area striata (granulosa)",
+			"children": [
+				{
+					"name": "OC: Area striata (granulosa) - left hemisphere",
+					"rgb": "#f7de47"
+				},
+				{
+					"name": "OC: Area striata (granulosa) - right hemisphere",
+					"rgb": "#f7de47"
+				}
+			]
+		},
+		{
+			"name": "PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis ",
+			"children": [
+				{
+					"name": "PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis  - left hemisphere",
+					"rgb": "#e62a85"
+				},
+				{
+					"name": "PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis  - right hemisphere",
+					"rgb": "#e62a85"
+				}
+			]
+		},
+		{
+			"name": "PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa",
+			"children": [
+				{
+					"name": "PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa - left hemisphere",
+					"rgb": "#f74394"
+				},
+				{
+					"name": "PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa - right hemisphere",
+					"rgb": "#f74394"
+				}
+			]
+		},
+		{
+			"name": "PC: Area postcentralis intermedia",
+			"children": [
+				{
+					"name": "PC: Area postcentralis intermedia - left hemisphere",
+					"rgb": "#ef5796"
+				},
+				{
+					"name": "PC: Area postcentralis intermedia - right hemisphere",
+					"rgb": "#ef5796"
+				}
+			]
+		},
+		{
+			"name": "PD: Area postcentralis caudalis",
+			"children": [
+				{
+					"name": "PD: Area postcentralis caudalis - left hemisphere",
+					"rgb": "#bc3579"
+				},
+				{
+					"name": "PD: Area postcentralis caudalis - right hemisphere",
+					"rgb": "#bc3579"
+				}
+			]
+		},
+		{
+			"name": "PE: Area parietalis superior",
+			"children": [
+				{
+					"name": "PE: Area parietalis superior - left hemisphere",
+					"rgb": "#f8a7d2"
+				},
+				{
+					"name": "PE: Area parietalis superior - right hemisphere",
+					"rgb": "#f8a7d2"
+				}
+			]
+		},
+		{
+			"name": "PF: Area supramarginalis",
+			"children": [
+				{
+					"name": "PF: Area supramarginalis - left hemisphere",
+					"rgb": "#fab4e0"
+				},
+				{
+					"name": "PF: Area supramarginalis - right hemisphere",
+					"rgb": "#fab4e0"
+				}
+			]
+		},
+		{
+			"name": "PG: Area angularis",
+			"children": [
+				{
+					"name": "PG: Area angularis - left hemisphere",
+					"rgb": "#f8c1e0"
+				},
+				{
+					"name": "PG: Area angularis - right hemisphere",
+					"rgb": "#f8c1e0"
+				}
+			]
+		},
+		{
+			"name": "PH: Area parietalis (temporo-occipital) basalis",
+			"children": [
+				{
+					"name": "PH: Area parietalis (temporo-occipital) basalis - left hemisphere",
+					"rgb": "#e84982"
+				},
+				{
+					"name": "PH: Area parietalis (temporo-occipital) basalis - right hemisphere",
+					"rgb": "#e84982"
+				}
+			]
+		},
+		{
+			"name": "TA: Area temporalis superior",
+			"children": [
+				{
+					"name": "TA: Area temporalis superior - left hemisphere",
+					"rgb": "#f05566"
+				},
+				{
+					"name": "TA: Area temporalis superior - right hemisphere",
+					"rgb": "#f05566"
+				}
+			]
+		},
+		{
+			"name": "TB: Area supratemporalis magnocellularis simplex",
+			"children": [
+				{
+					"name": "TB: Area supratemporalis magnocellularis simplex - left hemisphere",
+					"rgb": "#e94162"
+				},
+				{
+					"name": "TB: Area supratemporalis magnocellularis simplex - right hemisphere",
+					"rgb": "#e94162"
+				}
+			]
+		},
+		{
+			"name": "TC: Area supratemporalis granulosa",
+			"children": [
+				{
+					"name": "TC: Area supratemporalis granulosa - left hemisphere",
+					"rgb": "#ef406b"
+				},
+				{
+					"name": "TC: Area supratemporalis granulosa - right hemisphere",
+					"rgb": "#ef406b"
+				}
+			]
+		},
+		{
+			"name": "TD: Area supratemporalis intercalata",
+			"children": [
+				{
+					"name": "TD: Area supratemporalis intercalata - left hemisphere",
+					"rgb": "#f54f71"
+				},
+				{
+					"name": "TD: Area supratemporalis intercalata - right hemisphere",
+					"rgb": "#f54f71"
+				}
+			]
+		},
+		{
+			"name": "TE: Area temporalis propria",
+			"children": [
+				{
+					"name": "TE: Area temporalis propria - left hemisphere",
+					"rgb": "#ebb588"
+				},
+				{
+					"name": "TE: Area temporalis propria - right hemisphere",
+					"rgb": "#ebb588"
+				}
+			]
+		},
+		{
+			"name": "TF: Area fusiformis",
+			"children": [
+				{
+					"name": "TF: Area fusiformis - left hemisphere",
+					"rgb": "#b82f4f"
+				},
+				{
+					"name": "TF: Area fusiformis - right hemisphere",
+					"rgb": "#b82f4f"
+				}
+			]
+		},
+		{
+			"name": "TG: Area temporoporalis",
+			"children": [
+				{
+					"name": "TG: Area temporoporalis - left hemisphere",
+					"rgb": "#f7c67f"
+				},
+				{
+					"name": "TG: Area temporoporalis - right hemisphere",
+					"rgb": "#f7c67f"
+				}
+			]
+		}
+	]
+}
