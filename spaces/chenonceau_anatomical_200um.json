@@ -1,0 +1,20 @@
+{
+	"@id": "minds/core/referencespace/v1.0.0/10c52ca3-6409-267f-62eb-7da2c4da34d5",
+	"@type": "siibra/space/v0.0.1",
+	"name": "CHENONCEAU: post mortem anatomical UHF MRI - 200um",
+	"shortName": "chenonceau200um",
+	"modality": "Multiple-shell diffusion UHF MRI",
+	"species": "homo sapiens",
+	"ebrains": {
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+		"openminds/Species": "1be7069f-fd40-4f15-b3b3-80904d95e360"
+	},
+	"volumes": [
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/chenonceau-anatomy-200um/anatomy_200um"
+			}
+		}
+	]
+}
