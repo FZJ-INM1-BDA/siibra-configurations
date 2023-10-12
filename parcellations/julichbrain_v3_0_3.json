@@ -3,7 +3,7 @@
 	"@type": "siibra/parcellation/v0.0.1",
 	"name": "Julich-Brain Cytoarchitectonic Atlas (v3.0.3)",
 	"shortName": "Julich-Brain v3.0.3",
-	"description": "not yet",
+	"description": "This dataset contains the Julich-Brain Atlas, Cytoarchitectonic maps in different coordinate spaces. The parcellation provided by the Atlas is derived from the individually released probability maps (PMs) of cytoarchitectonically defined cortical and subcortical brain regions. For the whole-brain parcellation, the available PMs are combined into a maximum probability map (MPM) by considering for each voxel the probability of all cytoarchitectonic brain regions, and determining the most probable assignment. In later versions of this dataset, gap maps complement the maximum probability map of the cytoarchitectonically defined brain regions to achieve full cortical coverage. \nThere are two sets of PMs with a different degree of parcellation included. The set with 157 PMs corresponds to the usual granularity of the Julich-Brain Atlas. This set was used for the calculation of the MPM. Furthermore, a set with 175 PMs is included. This dataset contains, for some regions, more detailed cytoarchitectonic parcellations. For technical reasons, this finer parcellation is only representable via individual PMs due to the spatial resolution of the reference space, i.e., the MPM for the set of 175 PMs is not available. \nIn addition, a set of cortical areas of the MPM is available on the FreeSurfer fsaverage surface. \nNote that methodological improvements and integration of new brain structures may lead to small deviations in the parcellation between released versions of this dataset.",
 	"modality": "cytoarchitecture",
 	"@version": {
 		"name": "3.0.3",
@@ -6380,6 +6380,7 @@
 	],
 	"ebrains": {
 		"openminds/DatasetVersion": "d69b70e2-3002-4eaf-9c61-9c56f019bbc8",
+		"openminds/Dataset": "5a16d948-8d1c-400c-b797-8a7ad29944b2",
 		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
 		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
 		"openminds/BrainAtlasVersion": [
