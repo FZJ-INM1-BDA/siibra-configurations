@@ -6,7 +6,7 @@ stages:
 .checkout_siibra:
   variables:
     SIIBRA_PYTHON_PATH: $CI_BUILDS_DIR/$CI_CONCURRENT_ID/siibra-python
-    SIIBRA_PYTHON_BRANCH: main
+    SIIBRA_PYTHON_BRANCH: v0.4EOL
     GIT_DEPTH: 1
   before_script: |
     echo "[DEVELOP BUILD] Using $SIIBRA_PYTHON_BRANCH branch. In prod, use main branch instead."
