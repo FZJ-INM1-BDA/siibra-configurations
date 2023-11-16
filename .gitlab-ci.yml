@@ -120,7 +120,7 @@ mirror:push_to_mirror:
   rules:
   - if: $OKD_JSC_ENDPOINT == null || $OKD_JSC_TOKEN == null
     when: never
-  - if: $CI_COMMIT_REF_NAME == "master"
+  - if: $CI_COMMIT_REF_NAME == "v0_4_EOL"
     changes:
     - "**/*.json"
   before_script:
