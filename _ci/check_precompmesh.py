@@ -7,59 +7,70 @@ from enum import Enum
 PATH_TO_MAPS = "./maps"
 MAX_WORKERS = 4
 
+
 class ValidationResult(Enum):
-    PASSED="PASSED"
-    FAILED="FAILED"
-    SKIPPED="SKIPPED"
+    PASSED = "PASSED"
+    FAILED = "FAILED"
+    SKIPPED = "SKIPPED"
+
 
 PRECOMPMESH = "neuroglancer/precompmesh"
 PRECOMPUTED = "neuroglancer/precomputed"
+
 
 def check_url(url: str, regionname: str):
     try:
         resp = requests.get(url)
         resp.raise_for_status()
         assert "fragments" in resp.json()
-        return (
-            url, regionname,
-            ValidationResult.PASSED,
-            None
-        )
+        return (url, regionname, ValidationResult.PASSED, None)
     except Exception as e:
-        return (
-            url, regionname,
-            ValidationResult.FAILED,
-            str(e)
-        )
+        return (url, regionname, ValidationResult.FAILED, str(e))
+
 
 def check_volume(arg):
     full_filname, vol_idx, volume, indices = arg
     try:
-        assert PRECOMPUTED in volume.get("providers"), f"volume should have neuroglancer/precompmesh, but does not. url keys are: {volume.get('providers').keys()}"
+        assert PRECOMPUTED in volume.get(
+            "providers"
+        ), f"volume should have neuroglancer/precompmesh, but does not. url keys are: {volume.get('providers').keys()}"
         precomp_url = volume["providers"][PRECOMPUTED]
 
         def check_provider(url):
             resp = requests.get(f"{url}/info")
             resp.raise_for_status()
             precomp_info = resp.json()
-            assert ("mesh" in precomp_info) == (PRECOMPMESH in volume.get("providers")), f"Error in: {full_filname} volidx: {vol_idx}: mesh key exist in precomputed: {'mesh' in precomp_info}, precomputed mesh url exists: {PRECOMPMESH in volume.get('providers')}"
+            assert ("mesh" in precomp_info) == (
+                PRECOMPMESH in volume.get("providers")
+            ), f"Error in: {full_filname} volidx: {vol_idx}: mesh key exist in precomputed: {'mesh' in precomp_info}, precomputed mesh url exists: {PRECOMPMESH in volume.get('providers')}"
 
             if "mesh" in precomp_info:
                 mesh_path = precomp_info["mesh"]
-                regions_to_check = [(region, mapped_index.get("label"))
+                regions_to_check = [
+                    (region, mapped_index.get("label"))
                     for region, mapped_indicies in indices.items()
                     for mapped_index in mapped_indicies
-                    if mapped_index.get("volume") == vol_idx]
-                
+                    if mapped_index.get("volume") == vol_idx
+                ]
+
                 print(f"Checking {url} ... {len(regions_to_check)} labels.")
                 with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
                     indicies_result = ex.map(
                         check_url,
-                        [f"{url}/{mesh_path}/{item[1]}:0" for item in regions_to_check],
-                        [item[0] for item in regions_to_check]
+                        [
+                            f"{url}/{mesh_path}/{item[1]}:0"
+                            for item in regions_to_check
+                        ],
+                        [item[0] for item in regions_to_check],
                     )
-                failed = [result for result in indicies_result if result[-2] == ValidationResult.FAILED]
-                assert len(failed) == 0, f"""region indices mapping failed, {', '.join([f[-1] for f in failed])}"""
+                failed = [
+                    result
+                    for result in indicies_result
+                    if result[-2] == ValidationResult.FAILED
+                ]
+                assert (
+                    len(failed) == 0
+                ), f"""region indices mapping failed, {', '.join([f[-1] for f in failed])}"""
 
         if isinstance(precomp_url, dict):
             for url in precomp_url.values():
@@ -67,20 +78,19 @@ def check_volume(arg):
         elif isinstance(precomp_url, str):
             check_provider(precomp_url)
         else:
-            raise ValueError(f"precompurl not a dict nor a str")
+            raise ValueError("precompurl not a dict nor a str")
         return (
             full_filname, vol_idx, volume, indices,
-            ValidationResult.PASSED,
-            None
+            ValidationResult.PASSED, None
         )
     except Exception as e:
         return (
             full_filname, vol_idx, volume, indices,
-            ValidationResult.FAILED,
-            str(e)
+            ValidationResult.FAILED, str(e)
         )
 
-def iterate_jsons(path_to_walk:str="."):
+
+def iterate_jsons(path_to_walk: str = "."):
     for dirpath, dirnames, filenames in os.walk(path_to_walk):
         for filename in filenames:
             if not filename.endswith(".json"):
@@ -94,10 +104,11 @@ def iterate_jsons(path_to_walk:str="."):
 
 def main():
     args = [
-        (full_filname, vol_idx, volume, map_json.get("indices") )
+        (full_filname, vol_idx, volume, map_json.get("indices"))
         for full_filname, _, map_json in iterate_jsons(PATH_TO_MAPS)
         for vol_idx, volume in enumerate(map_json.get("volumes"))
-        if PRECOMPUTED in volume.get("providers") or PRECOMPMESH in volume.get("providers")
+        if PRECOMPUTED in volume.get("providers")
+        or PRECOMPMESH in volume.get("providers")
     ]
 
     print(f"Main: {len(args)} maps.")
@@ -108,10 +119,15 @@ def main():
     failed = [r for r in result if r[-2] == ValidationResult.FAILED]
     skipped = [r for r in result if r[-2] == ValidationResult.SKIPPED]
 
-    print(f"PASSED: {len(passed)}, FAILED: {len(failed)}, SKIPPED: {len(skipped)}, TOTAL: {len(args)} {len(result)}")
+    print(
+        f"PASSED: {len(passed)}, FAILED: {len(failed)}, "
+        f"SKIPPED: {len(skipped)}, TOTAL: {len(args)} {len(result)}"
+    )
     with open("./missing.txt", "w") as fp:
         fp.write("\n".join([f[-1] for f in failed]))
         fp.write("\n")
     assert len(failed) == 0, "\n".join([f[-1] for f in failed])
+
+
 if __name__ == "__main__":
     main()

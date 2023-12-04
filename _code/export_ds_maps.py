@@ -202,7 +202,7 @@ def expand_region(region):
 break_point = (
     "Ch 123 (Basal Forebrain) - left hemisphere",
     "Ch 123 (Basal Forebrain) - right hemisphere",
-    "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210616-julichbrain-v2.9.0-complete-mpm/precomputed/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_publicDOI_7f7bae194464eb71431c9916614d5f89",
+    "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/precomputed/data-repo-ng-bot/20210616-julichbrain-v2.9.0-complete-mpm/precomputed/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_publicDOI_7f7bae194464eb71431c9916614d5f89",
 )
 
 def process_parc(parc):
