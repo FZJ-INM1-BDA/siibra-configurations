@@ -13,18 +13,16 @@ jobs:
         python-version: '3.10'
     
     - name: checkout siibra
-      env:
-        SIIBRA_PYTHON_PATH:  ./_ci/siibra-python
-        SIIBRA_PYTHON_BRANCH: main
       uses: actions/checkout@v4
       with:
         repository: FZJ-INM1-BDA/siibra-python
-        path: "$SIIBRA_PYTHON_PATH"
+        path: ./ci_build_dir/siibra-python
         fetch-depth: 1
         clean: True
+        ref: 'main'
 
     - name: Install requirements
-      run: pip install -r $SIIBRA_PYTHON_PATH/config_schema/requirements.txt
+      run: pip install -r ./ci_build_dir/siibra-python/config_schema/requirements.txt
   
     - name: check schema
-      run: python $SIIBRA_PYTHON_PATH/config_schema/check_schema.py $PWD
+      run: python ./ci_build_dir/siibra-python/config_schema/check_schema.py ./
