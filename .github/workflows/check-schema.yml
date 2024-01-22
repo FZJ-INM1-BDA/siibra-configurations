@@ -14,12 +14,12 @@ jobs:
     
     - name: checkout siibra
       env:
-        SIIBRA_PYTHON_PATH: $CI_BUILDS_DIR/$CI_CONCURRENT_ID/siibra-python
+        SIIBRA_PYTHON_PATH:  ./_ci/siibra-python
         SIIBRA_PYTHON_BRANCH: main
       uses: actions/checkout@v4
       with:
         repository: FZJ-INM1-BDA/siibra-python
-        path: $SIIBRA_PYTHON_PATH
+        path: "$SIIBRA_PYTHON_PATH"
         fetch-depth: 1
         clean: True
 
