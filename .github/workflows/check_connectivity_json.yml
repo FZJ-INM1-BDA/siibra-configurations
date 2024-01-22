@@ -1,0 +1,36 @@
+name: '[test] test configuration'
+
+on: 
+  pull_request:
+    paths:
+      - 'features/connectivity/**/*.json'
+
+jobs:
+  check_connectivity_json:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: checkout siibra
+      env:
+        SIIBRA_PYTHON_PATH: $CI_BUILDS_DIR/$CI_CONCURRENT_ID/siibra-python
+        SIIBRA_PYTHON_BRANCH: main
+      uses: actions/checkout@v4
+      with:
+        repository: FZJ-INM1-BDA/siibra-python
+        path: '$SIIBRA_PYTHON_PATH'
+        fetch-depth: 1
+        clean: True
+    
+    - name: Install siibra-python testing requirements
+      run: |
+          pip install -r $SIIBRA_PYTHON_PATH/requirements-test.txt
+          pip install -r $SIIBRA_PYTHON_PATH/requirements.txt
+    
+    - name: connectivity test
+      run: |
+        SIIBRA_USE_CONFIGURATION=$PWD pytest $SIIBRA_PYTHON_PATH/e2e/features/connectivity/test_connectivity.py
