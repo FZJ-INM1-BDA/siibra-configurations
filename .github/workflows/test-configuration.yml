@@ -1,0 +1,82 @@
+name: '[test] test configuration'
+
+on: [push]
+jobs:
+  check_jsons:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - run: |
+        pip install -U pip
+        pip install -r _ci/requirements.txt
+        python _ci/verify_json.py
+  
+  check_ebrains_id:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - run: |
+        pip install -U pip
+        pip install -r _ci/requirements.txt
+        python _ci/verify_ebrains_ids.py
+  
+  region_attr_compliance:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - run: |
+        pip install -U pip
+        pip install -r _ci/requirements.txt
+        python _ci/region_attr_compliance.py
+
+  check_map_volume_idx:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - run: |
+        pip install -U pip
+        pip install -r _ci/requirements.txt
+        python _ci/verify_volume_idx.py
+
+  check_maps:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - run: |
+        pip install -U pip
+        pip install -r _ci/requirements.txt
+        python _ci/verify_maps.py
+  
+  check_maps_precompmesh:
+    runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.modified, 'maps/**.json')
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - run: |
+        pip install -U pip
+        pip install -r _ci/requirements.txt
+        python _ci/check_precompmesh.py
