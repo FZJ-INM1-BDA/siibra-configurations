@@ -19,7 +19,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: FZJ-INM1-BDA/siibra-python
-        path: '$SIIBRA_PYTHON_PATH'
+        path: $SIIBRA_PYTHON_PATH
         fetch-depth: 1
         clean: True
 
