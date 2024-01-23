@@ -1,4 +1,4 @@
-name: '[test] test configuration'
+name: '[test] check maps precompmesh'
 
 on:
   push:
@@ -8,7 +8,6 @@ on:
 jobs:
   check_maps_precompmesh:
     runs-on: ubuntu-latest
-    if: contains(github.event.head_commit.modified, 'maps/**.json')
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.10
