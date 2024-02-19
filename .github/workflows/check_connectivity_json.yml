@@ -15,22 +15,23 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: checkout siibra
-      env:
-        SIIBRA_PYTHON_PATH: $CI_BUILDS_DIR/$CI_CONCURRENT_ID/siibra-python
-        SIIBRA_PYTHON_BRANCH: main
+    - name: checkout siibra-python
       uses: actions/checkout@v4
       with:
         repository: FZJ-INM1-BDA/siibra-python
-        path: '$SIIBRA_PYTHON_PATH'
+        path:  siibra-python-${{ github.run_id }}-${{ github.run_number }}
         fetch-depth: 1
         clean: True
+        ref: 'main'
+    
+    - name: move siibra-python one up from workspace
+      run: mv siibra-python-${{ github.run_id }}-${{ github.run_number }} ../siibra-python
     
     - name: Install siibra-python testing requirements
       run: |
-          pip install -r $SIIBRA_PYTHON_PATH/requirements-test.txt
-          pip install -r $SIIBRA_PYTHON_PATH/requirements.txt
+          pip install -r ../siibra-python/requirements-test.txt
+          pip install -r ../siibra-python/requirements.txt
     
     - name: connectivity test
       run: |
-        SIIBRA_USE_CONFIGURATION=$PWD pytest $SIIBRA_PYTHON_PATH/e2e/features/connectivity/test_connectivity.py
+        SIIBRA_USE_CONFIGURATION=${{ github.workspace }} pytest ../siibra-python/e2e/features/connectivity/test_connectivity.py
