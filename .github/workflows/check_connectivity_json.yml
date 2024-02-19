@@ -1,4 +1,4 @@
-name: '[test] test configuration'
+name: '[test] check connectivity'
 
 on: 
   pull_request:
@@ -32,6 +32,7 @@ jobs:
           pip install -r ../siibra-python/requirements-test.txt
           pip install -r ../siibra-python/requirements.txt
     
-    - name: connectivity test
+    - name: connectivity e2e test
       run: |
-        SIIBRA_USE_CONFIGURATION=${{ github.workspace }} pytest ../siibra-python/e2e/features/connectivity/test_connectivity.py
+        SIIBRA_USE_CONFIGURATION='./'
+        pytest ../siibra-python/e2e/features/connectivity/test_connectivity.py
