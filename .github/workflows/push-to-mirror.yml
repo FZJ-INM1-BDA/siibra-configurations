@@ -1,0 +1,36 @@
+name: '[mirror] push to mirror'
+
+on:
+  push:
+    branches:
+      - master
+    tags:
+      '**'
+  workflow_run:
+    workflows: ["test configuration"]
+    branches: [master]
+    types: 
+      - completed
+
+jobs:
+  push_to_mirror:
+    runs-on: ubuntu-latest
+    environment: gitlab_mirror
+    steps:
+    - name: before script
+      run: |
+        'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+        eval $(ssh-agent -s)
+        git config --global user.email "inm1-bda@fz-juelich.de"
+        git config --global user.name "inm1 bda - gitlab bot"
+        mkdir -p ~/.ssh
+        ssh-keyscan $GITLAB_MIRROR_HOST >> gitlab-known-hosts
+        cat gitlab-known-hosts >> ~/.ssh/known_hosts
+
+    - name: script
+      run: |
+        git fetch --tags -f
+        git fetch origin master
+        if ! git ls-remote ebrains > /dev/null; then git remote add ebrains https://jugitpusher:${GITLAB_MIRROR_TOKEN}@${GITLAB_MIRROR_HOST}/${GITLAB_MIRROR_REPO_PATH}; fi
+        git push ebrains --tags -f
+        git push ebrains HEAD:master -f 
