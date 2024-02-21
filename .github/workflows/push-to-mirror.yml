@@ -2,18 +2,19 @@ name: '[mirror] push to mirror'
 
 on:
   push:
-    branches:
-      - master
-    tags:
-      '**'
-  workflow_run:
-    workflows: ["test configuration"]
-    branches: [master]
-    types: 
-      - completed
+    branches: ["master"]
+    tags: ["*"]
+
+env:
+  EBRAINS_GITLAB_HOST: ${{ vars.EBRAINS_GITLAB_HOST }}
+  EBRAINS_GITLAB_REPO: ri/tech-hub/apps/siibra/siibra-configurations-mirror.git
 
 jobs:
+  # n.b. we use access token, rather than https://github.com/valtech-sd/git-sync
+  # because it does not seem possible to add project wide ssh key
+  # and using personal key is not very flesible
   push_to_mirror:
+    if: ${{ env.EBRAINS_GITLAB_HOST != '' }}
     runs-on: ubuntu-latest
     environment: gitlab_mirror
     steps:
@@ -24,13 +25,13 @@ jobs:
         git config --global user.email "inm1-bda@fz-juelich.de"
         git config --global user.name "inm1 bda - gitlab bot"
         mkdir -p ~/.ssh
-        ssh-keyscan $GITLAB_MIRROR_HOST >> gitlab-known-hosts
+        ssh-keyscan ${{ env.GITLAB_MIRROR_HOST }} >> gitlab-known-hosts
         cat gitlab-known-hosts >> ~/.ssh/known_hosts
 
     - name: script
       run: |
         git fetch --tags -f
         git fetch origin master
-        if ! git ls-remote ebrains > /dev/null; then git remote add ebrains https://jugitpusher:${GITLAB_MIRROR_TOKEN}@${GITLAB_MIRROR_HOST}/${GITLAB_MIRROR_REPO_PATH}; fi
+        if ! git ls-remote ebrains > /dev/null; then git remote add ebrains https://jugitpusher:${{ secrets.EBRAINS_GITLAB_PUSH_TOKEN }}@${{ env.GITLAB_MIRROR_HOST }}/${{ env.EBRAINS_GITLAB_REPO }}; fi
         git push ebrains --tags -f
         git push ebrains HEAD:master -f 
