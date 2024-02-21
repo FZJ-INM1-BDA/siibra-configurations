@@ -13,21 +13,34 @@ env:
 
 jobs:
 
+  # workflow and siibra-python will likely break with tag including /
+  # workflow: see sed
+  # siibra-python: see reftag escaping
+  sanitiy-check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: "checks tag does not contain slash"
+      run: |
+        echo ${{ env.TAG_NAME }} | grep -Fq "/" && exit 1 || exit 0
+
   get-all-opened:
     runs-on: ubuntu-latest
+    needs:
+    - sanitiy-check
+    if: success()
     outputs:
       OPEN_ISSUES: ${{ steps.get-all-issues.outputs.ALL_ISSUES }}
     steps:
     - name: 'Getting all opened issue matching ${{ env.RELEASE_CHECKLIST_TAG }} in ${{ env.REPO }}'
       id: 'get-all-issues'
       run: |
-        id_body=$(gh issue list \
+        issue=$(gh issue list \
           --repo ${{ env.REPO }} \
           --label '${{ env.RELEASE_CHECKLIST_TAG }}' \
-          --json 'id,body,number,url')
+          --json 'id,body,number,url,title')
         echo Found:
-        echo $id_body
-        echo "ALL_ISSUES=$id_body" >> $GITHUB_OUTPUT
+        echo $issue
+        echo "ALL_ISSUES=$issue" >> $GITHUB_OUTPUT
   
   update-existing-body:
     runs-on: ubuntu-latest
@@ -39,12 +52,13 @@ jobs:
         echo Found open issues: $OPEN_ISSUES
         for issue in $(echo $OPEN_ISSUES | jq -c '.[]')
         then
-          id=$(echo $issue | jq -r '.id')
           url=$(echo $issue | jq -r '.url')
 
           new_issue_body=$(echo $issue | jq -r '.body' | sed '1s/master/${{ env.TAG_NAME }}/')
+          new_title=$(echo $issue | jq -r '.title' | sed 's/v???/${{ env.TAG_NAME }}/')
 
           echo update issue $url
+          echo new_title=$new_title
           echo new_issue_body: $new_issue_body
 
           echo -e $new_issue_body | gh issue edit "$url" -F -
@@ -62,9 +76,8 @@ jobs:
         then
           url=$(echo $issue | jq -r '.url')
 
-          echo $id_body | jq -r '.body' | grep -Fq "<person name>"
+          echo $issue | jq -r '.body' | grep -Fq "<person name>"
           validated=$(echo $?)
-
           
           new_comment="Thank you ${{ env.ACTOR }} for the release."
           if [[ "$validated" != "0" ]]
@@ -86,10 +99,10 @@ jobs:
       run: |
         OPEN_ISSUES=${{ needs.get-all-opened.outputs.OPEN_ISSUES }}
         echo Found open issues: $OPEN_ISSUES
-        for id_body in $(echo $OPEN_ISSUES | jq -c '.[]')
+        for issue in $(echo $OPEN_ISSUES | jq -c '.[]')
         then
-          id=$(echo $id_body | jq -r '.id')
-          url=$(echo $id_body | jq -r '.url')
+          id=$(echo $issue | jq -r '.id')
+          url=$(echo $issue | jq -r '.url')
 
           gh issue close $url -r completed
         fi
@@ -101,7 +114,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - run: |
-        new_issue=$(sed '1s/LATEST_TAG_PLACEHOLDER/siibra-1.0.0/' release_checklist.md)
+        new_issue=$(sed '1s/LATEST_TAG_PLACEHOLDER/${{ env.TAG_NAME }}/' release_checklist.md)
 
         echo -e new_issue: $new_issue
 
