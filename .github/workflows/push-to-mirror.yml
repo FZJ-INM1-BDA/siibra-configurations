@@ -3,7 +3,7 @@ name: '[mirror] push to mirror'
 on:
   push:
     branches: ["master"]
-    tags: ["*"]
+    tags: ["**"]
 
 env:
   EBRAINS_GITLAB_HOST: ${{ vars.EBRAINS_GITLAB_HOST }}
