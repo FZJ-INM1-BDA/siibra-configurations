@@ -5,6 +5,9 @@ on:
     branches: ["master"]
     tags: ["**"]
 
+env:
+  EBRAINS_GITLAB_REPO: ri/tech-hub/apps/siibra/siibra-configurations-mirror.git
+
 jobs:
   # n.b. we use access token, rather than https://github.com/valtech-sd/git-sync
   # because it does not seem possible to add project wide ssh key
@@ -12,7 +15,6 @@ jobs:
   push_to_mirror:
     if: ${{ vars.EBRAINS_GITLAB_HOST != '' }}
     runs-on: ubuntu-latest
-    environment: gitlab_mirror
     steps:
     - name: before script
       run: |
@@ -28,6 +30,6 @@ jobs:
       run: |
         git fetch --tags -f
         git fetch origin master
-        if ! git ls-remote ebrains > /dev/null; then git remote add ebrains https://jugitpusher:${{ secrets.EBRAINS_GITLAB_PUSH_TOKEN }}@${{ vars.EBRAINS_GITLAB_HOST }}/${{ secrets.GITLAB_MIRROR_REPO_PATH }}; fi
+        if ! git ls-remote ebrains > /dev/null; then git remote add ebrains https://jugitpusher:${{ secrets.EBRAINS_GITLAB_PUSH_TOKEN }}@${{ vars.EBRAINS_GITLAB_HOST }}/${{ env.EBRAINS_GITLAB_REPO }}; fi
         git push ebrains --tags -f
         git push ebrains HEAD:master -f 
