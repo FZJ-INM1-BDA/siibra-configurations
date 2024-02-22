@@ -1,0 +1,79 @@
+name: '[test] test configuration'
+
+on: [push]
+jobs:
+  check_jsons:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Install requirements
+      run: |
+          pip install -U pip
+          pip install -r _ci/requirements.txt
+    - name: Verify json
+      run: python _ci/verify_json.py
+  
+  check_ebrains_id:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Install requirements
+      run: |
+          pip install -U pip
+          pip install -r _ci/requirements.txt
+    - name: Verify EBRAINS IDs
+      run: python _ci/verify_ebrains_ids.py
+  
+  region_attr_compliance:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Install requirements
+      run: |
+          pip install -U pip
+          pip install -r _ci/requirements.txt
+    - name: Region attribute compliance
+      run: python _ci/region_attr_compliance.py
+
+  check_map_volume_idx:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Install requirements
+      run: |
+          pip install -U pip
+          pip install -r _ci/requirements.txt
+    - name: Verify map volume indices
+      run: python _ci/verify_volume_idx.py
+
+  check_maps:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Install requirements
+      run: |
+          pip install -U pip
+          pip install -r _ci/requirements.txt
+    - name: Verify maps
+      run: python _ci/verify_maps.py
+

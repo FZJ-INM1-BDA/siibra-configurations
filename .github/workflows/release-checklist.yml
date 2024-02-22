@@ -1,0 +1,125 @@
+name: '[ci] release-checklist'
+
+on:
+  push:
+    tags: ["**"]
+
+env:
+  RELEASE_CHECKLIST_TAG: release-checklist
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  REPO: ${{ github.repository }}
+  ACTOR: ${{ github.actor }}
+  TAG_NAME: ${{ github.ref_name }}
+
+jobs:
+
+  # workflow and siibra-python will likely break with tag including /
+  # workflow: see sed
+  # siibra-python: see reftag escaping
+  sanitiy-check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: "checks tag does not contain slash"
+      run: |
+        echo ${{ env.TAG_NAME }} | grep -Fq "/" && exit 1 || exit 0
+
+  get-all-opened:
+    runs-on: ubuntu-latest
+    needs:
+    - sanitiy-check
+    if: success()
+    outputs:
+      OPEN_ISSUES: ${{ steps.get-all-issues.outputs.ALL_ISSUES }}
+    steps:
+    - name: 'Getting all opened issue matching ${{ env.RELEASE_CHECKLIST_TAG }} in ${{ env.REPO }}'
+      id: 'get-all-issues'
+      run: |
+        issue=$(gh issue list \
+          --repo ${{ env.REPO }} \
+          --label '${{ env.RELEASE_CHECKLIST_TAG }}' \
+          --json 'id,body,number,url,title')
+        echo Found:
+        echo $issue
+        echo "ALL_ISSUES=$issue" >> $GITHUB_OUTPUT
+  
+  update-existing-body:
+    runs-on: ubuntu-latest
+    needs:
+    - get-all-opened
+    steps:
+    - run: |
+        OPEN_ISSUES=${{ needs.get-all-opened.outputs.OPEN_ISSUES }}
+        echo Found open issues: $OPEN_ISSUES
+        for issue in $(echo $OPEN_ISSUES | jq -c '.[]')
+        then
+          url=$(echo $issue | jq -r '.url')
+
+          new_issue_body=$(echo $issue | jq -r '.body' | sed '1s/master/${{ env.TAG_NAME }}/')
+          new_title=$(echo $issue | jq -r '.title' | sed 's/v???/${{ env.TAG_NAME }}/')
+
+          echo update issue $url
+          echo new_title=$new_title
+          echo new_issue_body: $new_issue_body
+
+          echo -e $new_issue_body | gh issue edit "$url" -F -
+        fi
+
+  add-comment-existing:
+    runs-on: ubuntu-latest
+    needs:
+    - get-all-opened
+    steps:
+    - run: |
+        OPEN_ISSUES=${{ needs.get-all-opened.outputs.OPEN_ISSUES }}
+        echo Found open issues: $OPEN_ISSUES
+        for issue in $(echo $OPEN_ISSUES | jq -c '.[]')
+        then
+          url=$(echo $issue | jq -r '.url')
+
+          echo $issue | jq -r '.body' | grep -Fq "<person name>"
+          validated=$(echo $?)
+          
+          new_comment="Thank you ${{ env.ACTOR }} for the release."
+          if [[ "$validated" != "0" ]]
+          then
+            new_comment="$new_comment\\n\\nCan you double check you have validated the release?"
+          fi
+          
+          echo update issue $url
+          echo -e new_comment: \\n\\n bar $new_comment
+          echo -e $new_comment | gh issue comment $url -F -
+        fi
+
+  close-existing:
+    runs-on: ubuntu-latest
+    needs:
+    - get-all-opened
+    steps:
+    - name: "Add comment to issue"
+      run: |
+        OPEN_ISSUES=${{ needs.get-all-opened.outputs.OPEN_ISSUES }}
+        echo Found open issues: $OPEN_ISSUES
+        for issue in $(echo $OPEN_ISSUES | jq -c '.[]')
+        then
+          id=$(echo $issue | jq -r '.id')
+          url=$(echo $issue | jq -r '.url')
+
+          gh issue close $url -r completed
+        fi
+
+  open-new:
+    runs-on: ubuntu-latest
+    needs:
+    - get-all-opened
+    steps:
+    - uses: actions/checkout@v4
+    - run: |
+        new_issue=$(sed '1s/LATEST_TAG_PLACEHOLDER/${{ env.TAG_NAME }}/' release_checklist.md)
+
+        echo -e new_issue: $new_issue
+
+        echo -e new_issue | gh issue create \
+          -R ${{ env.REPO }} \
+          -l '${{ env.RELEASE_CHECKLIST_TAG }}' \
+          -t '[release checklist] v???' \
+          -F -

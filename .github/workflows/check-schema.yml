@@ -1,0 +1,31 @@
+name: '[test] check schema'
+
+on: [push]
+jobs:
+  check_schema:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: checkout siibra-python
+      uses: actions/checkout@v4
+      with:
+        repository: FZJ-INM1-BDA/siibra-python
+        path:  siibra-python-${{ github.run_id }}-${{ github.run_number }}
+        fetch-depth: 1
+        clean: True
+        ref: 'main'
+    
+    - name: move siibra-python one up from workspace
+      run: mv siibra-python-${{ github.run_id }}-${{ github.run_number }} ../siibra-python
+
+    - name: Install requirements
+      run: pip install -r ../siibra-python/config_schema/requirements.txt
+  
+    - name: check schema
+      run: python ../siibra-python/config_schema/check_schema.py ./
