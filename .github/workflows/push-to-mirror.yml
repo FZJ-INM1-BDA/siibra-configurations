@@ -16,16 +16,9 @@ jobs:
     if: ${{ vars.EBRAINS_GITLAB_HOST != '' }}
     runs-on: ubuntu-latest
     steps:
-    # - name: before script
-    #   run: |
-    #     'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
-    #     eval $(ssh-agent -s)
-    #     git config --global user.email "inm1-bda@fz-juelich.de"
-    #     git config --global user.name "inm1 bda - gitlab bot"
-    #     mkdir -p ~/.ssh
-    #     ssh-keyscan ${{ vars.EBRAINS_GITLAB_HOST }} >> gitlab-known-hosts
-    #     cat gitlab-known-hosts >> ~/.ssh/known_hosts
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
     - name: mirror to remote
       run: |
         git fetch --tags -f
