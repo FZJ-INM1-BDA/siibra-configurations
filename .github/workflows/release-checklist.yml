@@ -118,7 +118,7 @@ jobs:
 
         echo -e new_issue: $new_issue
 
-        echo -e new_issue | gh issue create \
+        echo -e $new_issue | gh issue create \
           -R ${{ env.REPO }} \
           -l '${{ env.RELEASE_CHECKLIST_TAG }}' \
           -t '[release checklist] v???' \
