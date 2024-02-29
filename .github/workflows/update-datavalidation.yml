@@ -1,0 +1,16 @@
+name: '[ci/cd] restart data validation VM'
+
+on:
+  push:
+    branches:
+      - "master"
+  workflow_run:
+    types: [completed]
+    workflows: ['[test] test configuration']
+
+jobs:
+  restart-data-validation:
+    runs-on: siibra-data-validation
+    steps:
+    - run: |
+        /bin/bash -c "cd /softwares/software && ./restart.sh"
