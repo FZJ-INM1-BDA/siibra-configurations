@@ -1,0 +1,45 @@
+name: '[cron] update KG proxy'
+
+on:
+  schedule:
+    - cron: '5 4 * * 0' # every Sunday at 4am
+
+env:
+  EBRAINS_CCFLOW_CLIENT_ID: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_ID }}
+  EBRAINS_CCFLOW_CLIENT_SECRET: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_SECRET }}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+        - artefacts-dir: "ebrainsquery/v3/AtlasAnnotation"
+          query-id: "eb4dd5b4-9364-4357-ac37-c61833831a82"
+
+        - artefacts-dir: "ebrainsquery/v3/ParcellationEntity"
+          query-id: "d236e213-c048-4331-bfd9-b45c60bc3d03"
+          
+        - artefacts-dir: "ebrainsquery/v3/ParcellationEntityVersion"
+          query-id: "5e80bb84-68cf-4425-859b-5306f6838693"
+
+        - artefacts-dir: "ebrainsquery/v3/CustomAnatomicalEntity"
+          query-id: "d7cdc1d6-0aa5-498a-94ff-0291b95db13d"
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: 'Install dependencies'
+      run: |
+        pip install ebrains-drive
+        pip install git+https://github.com/xgui3783/ebrains-iam-util.git
+    - name: 'Fetch and Sync to KG proxy'
+      run: |
+        export EBRAINS_QUERY_ID=${{ matrix.query-id }}
+        export EBRAINS_ARTEFACTS_DIR=${{ matrix.artefacts-dir }}
+        export EBRAINS_CCFLOW_CLIENT_ID=${{ env.EBRAINS_CCFLOW_CLIENT_ID }}
+        export EBRAINS_CCFLOW_CLIENT_SECRET=${{ env.EBRAINS_CCFLOW_CLIENT_SECRET }}
+
+        python _ci/cron_sync_kg_proxy.py
