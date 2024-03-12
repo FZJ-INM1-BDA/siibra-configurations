@@ -48,7 +48,7 @@ jobs:
     - get-all-opened
     steps:
     - run: |
-        OPEN_RELEASE_ISSUES=${{ needs.get-all-opened.outputs.OPEN_RELEASE_ISSUES }}
+        OPEN_RELEASE_ISSUES='${{ needs.get-all-opened.outputs.OPEN_RELEASE_ISSUES }}'
         echo Found open issues: $OPEN_RELEASE_ISSUES
         for issue in $(echo $OPEN_RELEASE_ISSUES | jq -c '.[]')
         do
@@ -70,7 +70,7 @@ jobs:
     - get-all-opened
     steps:
     - run: |
-        OPEN_RELEASE_ISSUES=${{ needs.get-all-opened.outputs.OPEN_RELEASE_ISSUES }}
+        OPEN_RELEASE_ISSUES='${{ needs.get-all-opened.outputs.OPEN_RELEASE_ISSUES }}'
         echo Found open issues: $OPEN_RELEASE_ISSUES
         for issue in $(echo $OPEN_RELEASE_ISSUES | jq -c '.[]')
         do
@@ -97,7 +97,7 @@ jobs:
     steps:
     - name: "Add comment to issue"
       run: |
-        OPEN_RELEASE_ISSUES=${{ needs.get-all-opened.outputs.OPEN_RELEASE_ISSUES }}
+        OPEN_RELEASE_ISSUES='${{ needs.get-all-opened.outputs.OPEN_RELEASE_ISSUES }}'
         echo Found open issues: $OPEN_RELEASE_ISSUES
         for issue in $(echo $OPEN_RELEASE_ISSUES | jq -c '.[]')
         do
