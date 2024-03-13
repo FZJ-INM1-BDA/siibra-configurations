@@ -16,7 +16,7 @@ jobs:
       matrix:
         include:
         - artefacts-dir: "ebrainsquery/v3/AtlasAnnotation"
-          query-id: "eb4dd5b4-9364-4357-ac37-c61833831a82"
+          query-id: "66c69c41-ad91-4915-ac23-897fd0c60211"
 
         - artefacts-dir: "ebrainsquery/v3/ParcellationEntity"
           query-id: "d236e213-c048-4331-bfd9-b45c60bc3d03"
@@ -43,3 +43,31 @@ jobs:
         export EBRAINS_CCFLOW_CLIENT_SECRET=${{ env.EBRAINS_CCFLOW_CLIENT_SECRET }}
 
         python _ci/cron_sync_kg_proxy.py
+  
+  latest-siibra-release:
+    runs-on: ubuntu-latest
+    outputs:
+      LATEST_TAG: ${{ steps.get-latest-tag.outputs.LATEST_TAG }}
+    steps:
+    - id: get-latest-tag
+      run: |
+        LATEST_TAG=$(gh release -R fzj-inm1-bda/siibra-python ls --jq '.[0].tagName' --json 'tagName')
+        echo LATEST_TAG=$LATEST_TAG
+        echo "LATEST_TAG=$LATEST_TAG" >> $GITHUB_OUTPUT
+
+  check-region-e2e:
+    runs-on: ubuntu-latest
+    needs:
+    - update
+    - latest-siibra-release
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        repository: 'fzj-inm1-bda/siibra-python'
+        ref: ${{ needs.latest-siibra-release.outputs.LATEST_TAG }}
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+    - run: pip install -U pip && pip install -e . && pip install pytest
+    - run: pytest e2e/core/test_region.py
+
