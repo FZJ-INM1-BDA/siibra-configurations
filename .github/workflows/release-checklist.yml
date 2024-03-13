@@ -50,12 +50,18 @@ jobs:
     - run: |
         OPEN_RELEASE_ISSUES='${{ needs.get-all-opened.outputs.OPEN_RELEASE_ISSUES }}'
         echo Found open issues: $OPEN_RELEASE_ISSUES
-        for issue in $(echo $OPEN_RELEASE_ISSUES | jq -c '.[]')
+        for issue in $(echo "$OPEN_RELEASE_ISSUES" | jq -c '.[]' | base64 -w 0)
         do
+          issue=$(echo $issue | base64 -d)
+
           url=$(echo $issue | jq -r '.url')
+          echo url=$url
 
           new_issue_body=$(echo $issue | jq -r '.body' | sed '1s/master/${{ env.TAG_NAME }}/')
+          echo new_issue_body=$new_issue_body
+          
           new_title=$(echo $issue | jq -r '.title' | sed 's/v???/${{ env.TAG_NAME }}/')
+          echo new_title=$new_title
 
           echo update issue $url
           echo new_title=$new_title
@@ -72,8 +78,10 @@ jobs:
     - run: |
         OPEN_RELEASE_ISSUES='${{ needs.get-all-opened.outputs.OPEN_RELEASE_ISSUES }}'
         echo Found open issues: $OPEN_RELEASE_ISSUES
-        for issue in $(echo $OPEN_RELEASE_ISSUES | jq -c '.[]')
+        for issue in $(echo "$OPEN_RELEASE_ISSUES" | jq -c '.[]' | base64 -w 0)
         do
+          issue=$(echo $issue | base64 -d)
+
           url=$(echo $issue | jq -r '.url')
 
           echo $issue | jq -r '.body' | grep -Fq "<person name>"
@@ -99,8 +107,10 @@ jobs:
       run: |
         OPEN_RELEASE_ISSUES='${{ needs.get-all-opened.outputs.OPEN_RELEASE_ISSUES }}'
         echo Found open issues: $OPEN_RELEASE_ISSUES
-        for issue in $(echo $OPEN_RELEASE_ISSUES | jq -c '.[]')
+        for issue in $(echo "$OPEN_RELEASE_ISSUES" | jq -c '.[]' | base64 -w 0)
         do
+          issue=$(echo $issue | base64 -d)
+
           id=$(echo $issue | jq -r '.id')
           url=$(echo $issue | jq -r '.url')
 
