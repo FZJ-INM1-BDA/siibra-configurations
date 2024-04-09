@@ -11,11 +11,11 @@
 	},
 	"publications": [
 		{
-			"citation": "Papp, E. A., Leergaard, T. B., Calabrese, E., Johnson, G. A., & Bjaalie, J. G. (2014). Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage, 97, 374–386. https://doi.org/10.1016/j.neuroimage.2014.04.001",
+			"citation": "Papp, E. A., Leergaard, T. B., Calabrese, E., Johnson, G. A., & Bjaalie, J. G. (2014). Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage, 97, 374\u2013386. https://doi.org/10.1016/j.neuroimage.2014.04.001",
 			"url": "https://doi.org/10.1016/j.neuroimage.2014.04.001"
 		},
 		{
-			"citation": "Papp, E. A., Leergaard, T. B., Calabrese, E., Allan Johnson, G., & Bjaalie, J. G. (2015). Addendum to “Waxholm Space atlas of the Sprague Dawley rat brain” [NeuroImage 97 (2014) 374-386]. NeuroImage, 105, 561-562. https://doi.org/10.1016/j.neuroimage.2014.10.017",
+			"citation": "Papp, E. A., Leergaard, T. B., Calabrese, E., Allan Johnson, G., & Bjaalie, J. G. (2015). Addendum to \u201cWaxholm Space atlas of the Sprague Dawley rat brain\u201d [NeuroImage 97 (2014) 374-386]. NeuroImage, 105, 561-562. https://doi.org/10.1016/j.neuroimage.2014.10.017",
 			"url": "https://doi.org/10.1016/j.neuroimage.2014.10.017"
 		}
 	],
@@ -24,6 +24,24 @@
 			"@type": "siibra/volume/v0.0.1",
 			"providers": {
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/templates/v1.01/t2star_masked"
+			},
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+				},
+				"coordinates": [
+					[
+						-9.550781,
+						-24.355468,
+						-9.707031
+					],
+					[
+						10.449219,
+						15.644532000000002,
+						10.292969
+					]
+				]
 			}
 		}
 	]
