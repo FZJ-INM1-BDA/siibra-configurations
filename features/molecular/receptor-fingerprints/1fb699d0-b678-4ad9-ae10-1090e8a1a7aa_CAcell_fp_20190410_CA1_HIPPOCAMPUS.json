@@ -1,0 +1,27 @@
+{
+	"@type": "siibra/feature/fingerprint/receptor/v0.1",
+	"attributes": [
+		{
+			"@type": "siibra/attr/meta/regionspec",
+			"region": "CA1 (Hippocampus)"
+		},
+		{
+			"@type": "siibra/attr/meta/speciesspec",
+			"name": "Homo sapiens"
+		},
+		{
+			"@type": "siibra/attr/meta/ebrains",
+			"links": {
+				"minds/core/dataset/v1.0.0": "1fb699d0-b678-4ad9-ae10-1090e8a1a7aa",
+				"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+				"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+				"openminds/DatasetVersion": "1fb699d0-b678-4ad9-ae10-1090e8a1a7aa"
+			}
+		}	,
+		{
+			"@type": "siibra/attr/data/tabular",
+			"format": "tsv",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-CAcell_pub/v1.0/CAcell_fp_20190410.tsv"
+		}
+	]
+}

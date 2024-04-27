@@ -1,0 +1,27 @@
+{
+	"@type": "siibra/feature/fingerprint/receptor/v0.1",
+	"attributes": [
+		{
+			"@type": "siibra/attr/meta/regionspec",
+			"region": "CA2 (Hippocampus)"
+		},
+		{
+			"@type": "siibra/attr/meta/speciesspec",
+			"name": "Homo sapiens"
+		},
+		{
+			"@type": "siibra/attr/meta/ebrains",
+			"links": {
+				"minds/core/dataset/v1.0.0": "64248cf8-3b45-4dea-96fe-537de16f07dd",
+				"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+				"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+				"openminds/DatasetVersion": "64248cf8-3b45-4dea-96fe-537de16f07dd"
+			}
+		}	,
+		{
+			"@type": "siibra/attr/data/tabular",
+			"format": "tsv",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-CAmol_pub/v2.0/CAmol_fp_20200214.tsv"
+		}
+	]
+}
