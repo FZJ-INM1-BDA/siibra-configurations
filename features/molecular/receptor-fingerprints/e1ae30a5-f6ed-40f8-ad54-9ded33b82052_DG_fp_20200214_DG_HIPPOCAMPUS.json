@@ -25,7 +25,16 @@
 		{
 			"@type": "siibra/attr/data/tabular",
 			"format": "tsv",
-			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-DG_pub/v2.0/DG_fp_20200214.tsv"
+			"index_column": 0,
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-DG_pub/v2.0/DG_fp_20200214.tsv",
+			"plot_options": {
+				"kind": "bar",
+				"yerr": "density (sd)",
+				"xlabel": "receptor",
+				"ylabel": "density (fmol/mg protein)",
+				"grid": true,
+				"legend": false
+			}
 		}
 	]
 }
