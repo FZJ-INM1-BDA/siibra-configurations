@@ -1,9 +1,13 @@
 {
-	"@type": "siibra/feature/fingerprint/receptor/v0.1",
+	"@type": "siibra/feature/v0.2",
 	"attributes": [
 		{
+			"@type": "siibra/attr/meta/modality",
+			"name": "Neurotransmitter receptor density fingerprint"
+		},
+		{
 			"@type": "siibra/attr/meta/regionspec",
-			"region": "Cornu ammonis 2"
+			"name": "Cornu ammonis 2"
 		},
 		{
 			"@type": "siibra/attr/meta/speciesspec",
@@ -11,13 +15,13 @@
 		},
 		{
 			"@type": "siibra/attr/meta/ebrains",
-			"links": {
+			"ids": {
 				"minds/core/dataset/v1.0.0": "8ab1b930-19c0-4f59-a24c-a89b3b5aec6d",
 				"minds/core/species/v1.0.0": "f3490d7f-8f7f-4b40-b238-963dcac84412",
 				"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
 				"openminds/DatasetVersion": "8ab1b930-19c0-4f59-a24c-a89b3b5aec6d"
 			}
-		}	,
+		},
 		{
 			"@type": "siibra/attr/data/tabular",
 			"format": "tsv",

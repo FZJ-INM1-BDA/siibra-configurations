@@ -1,9 +1,13 @@
 {
-	"@type": "siibra/feature/fingerprint/receptor/v0.1",
+	"@type": "siibra/feature/v0.2",
 	"attributes": [
 		{
+			"@type": "siibra/attr/meta/modality",
+			"name": "Neurotransmitter receptor density fingerprint"
+		},
+		{
 			"@type": "siibra/attr/meta/regionspec",
-			"region": "striatum"
+			"name": "striatum"
 		},
 		{
 			"@type": "siibra/attr/meta/speciesspec",
@@ -11,7 +15,7 @@
 		},
 		{
 			"@type": "siibra/attr/meta/ebrains",
-			"links": {
+			"ids": {
 				"minds/core/dataset/v1.0.0": "fccc0563-9d29-41de-892e-9f92a8dbe922",
 				"minds/core/species/v1.0.0": "ab532423-1fd7-4255-8c6f-f99dc6df814f"
 			}

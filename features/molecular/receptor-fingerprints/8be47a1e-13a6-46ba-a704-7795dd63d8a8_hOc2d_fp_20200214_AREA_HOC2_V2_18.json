@@ -1,9 +1,13 @@
 {
-	"@type": "siibra/feature/fingerprint/receptor/v0.1",
+	"@type": "siibra/feature/v0.2",
 	"attributes": [
 		{
+			"@type": "siibra/attr/meta/modality",
+			"name": "Neurotransmitter receptor density fingerprint"
+		},
+		{
 			"@type": "siibra/attr/meta/regionspec",
-			"region": "Area hOc2 (V2, 18)"
+			"name": "Area hOc2 (V2, 18)"
 		},
 		{
 			"@type": "siibra/attr/meta/speciesspec",
@@ -11,13 +15,13 @@
 		},
 		{
 			"@type": "siibra/attr/meta/ebrains",
-			"links": {
+			"ids": {
 				"minds/core/dataset/v1.0.0": "8be47a1e-13a6-46ba-a704-7795dd63d8a8",
 				"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
 				"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
 				"openminds/Dataset": "2e158126-2eb2-4ec2-9222-d9d11f90b81f"
 			}
-		}	,
+		},
 		{
 			"@type": "siibra/attr/data/tabular",
 			"format": "tsv",

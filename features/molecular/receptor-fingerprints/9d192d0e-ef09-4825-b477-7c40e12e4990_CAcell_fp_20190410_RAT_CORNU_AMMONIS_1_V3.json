@@ -1,24 +1,31 @@
 {
-	"@type": "siibra/feature/fingerprint/receptor/v0.1",
-	"region": "Cornu ammonis 1"
-},
-{
-	"@type": "siibra/attr/meta/speciesspec",
-	"name": "Rattus norvegicus"
-},
-{
-	"@type": "siibra/attr/meta/ebrains",
-	"links": {
-		"minds/core/dataset/v1.0.0": "9d192d0e-ef09-4825-b477-7c40e12e4990",
-		"minds/core/species/v1.0.0": "f3490d7f-8f7f-4b40-b238-963dcac84412",
-		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
-		"openminds/DatasetVersion": "9d192d0e-ef09-4825-b477-7c40e12e4990"
-	}
-}	,
-{
-	"@type": "siibra/attr/data/tabular",
-	"format": "tsv",
-	"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-rat-CAcell_pub/v1.0/CAcell_fp_20190410.tsv"
-}
+	"@type": "siibra/feature/v0.2",
+	"attributes": [
+		{
+			"@type": "siibra/attr/meta/modality",
+			"name": "Neurotransmitter receptor density fingerprint"
+		},
+		{
+			"@type": "siibra/attr/meta/regionspec",
+			"name": "Cornu ammonis 1"
+		},
+		{
+			"@type": "siibra/attr/meta/speciesspec",
+			"name": "Rattus norvegicus"
+		},
+		{
+			"@type": "siibra/attr/meta/ebrains",
+			"ids": {
+				"minds/core/dataset/v1.0.0": "9d192d0e-ef09-4825-b477-7c40e12e4990",
+				"minds/core/species/v1.0.0": "f3490d7f-8f7f-4b40-b238-963dcac84412",
+				"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
+				"openminds/DatasetVersion": "9d192d0e-ef09-4825-b477-7c40e12e4990"
+			}
+		},
+		{
+			"@type": "siibra/attr/data/tabular",
+			"format": "tsv",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-rat-CAcell_pub/v1.0/CAcell_fp_20190410.tsv"
+		}
 	]
 }
