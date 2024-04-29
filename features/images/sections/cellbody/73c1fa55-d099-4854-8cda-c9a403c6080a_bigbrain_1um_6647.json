@@ -1,15 +1,24 @@
 {
-	"@type": "siibra/feature/section/v0.1",
-	"name": "#6647: selected 1 micron scans of BigBrain histological sections (v1.0)",
-	"modality": "cell body staining",
-	"ebrains": {
-		"openminds/DatasetVersion": "73c1fa55-d099-4854-8cda-c9a403c6080a",
-		"openminds/Dataset": "95f07031-34f0-40f0-a170-f91b5d08d0d5"
-	},
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
-	},
-	"providers": {
-		"neuroglancer/precomputed": "https://1um.brainatlas.eu/registered_sections/bigbrain/B20_6647/precomputed"
-	}
+    "@type": "siibra/feature/v0.2",
+    "name": "#6647: selected 1 micron scans of BigBrain histological sections (v1.0)",
+    "attributes": [
+        {
+            "@type": "siibra/attr/meta/modality",
+            "name": "cell body staining"
+        },
+        {
+            "@type": "siibra/attr/meta/ebrains",
+            "ids": {
+                "openminds/DatasetVersion": "73c1fa55-d099-4854-8cda-c9a403c6080a",
+                "openminds/Dataset": "95f07031-34f0-40f0-a170-f91b5d08d0d5"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/voi",
+            "space": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+            "providers": {
+                "neuroglancer/precomputed": "https://1um.brainatlas.eu/registered_sections/bigbrain/B20_6647/precomputed"
+            }
+        }
+    ]
 }

@@ -1,15 +1,24 @@
 {
-	"@type": "siibra/feature/voi/v0.1",
-	"name": "CHENONCEAU: post mortem anatomical UHF MRI - 150um",
-	"modality": "T2 weighted MRI",
-	"ebrains": {
-		"openminds/Species": "1be7069f-fd40-4f15-b3b3-80904d95e360",
-		"openminds/DatasetVersion": "1be7069f-fd40-4f15-b3b3-80904d95e360"
-	},
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
-	},
-	"providers": {
-		"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/chenonceau-anatomy-150-um/anatomy_150um"
-	}
+    "@type": "siibra/feature/v0.2",
+    "name": "CHENONCEAU: post mortem anatomical UHF MRI - 150um",
+    "attributes": [
+        {
+            "@type": "siibra/attr/meta/modality",
+            "name": "T2 weighted MRI"
+        },
+        {
+            "@type": "siibra/attr/meta/ebrains",
+            "ids": {
+                "openminds/Species": "1be7069f-fd40-4f15-b3b3-80904d95e360",
+                "openminds/DatasetVersion": "1be7069f-fd40-4f15-b3b3-80904d95e360"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/voi",
+            "space": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+            "providers": {
+                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/chenonceau-anatomy-150-um/anatomy_150um"
+            }
+        }
+    ]
 }
