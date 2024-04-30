@@ -25,8 +25,11 @@
 		},
 		{
 			"@type": "siibra/attr/data/tabular",
-			"format": "tsv",
-			"index_column": 0,
+			"format": "csv",
+			"parse_options": {
+				"sep": "\t",
+				"index_col": 0
+			},
 			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-FG2_pub/v1.0/FG2_fp_20180321.tsv",
 			"plot_options": {
 				"kind": "bar",

@@ -24,8 +24,11 @@
         },
         {
             "@type": "siibra/attr/data/tabular",
-            "format": "tsv",
-            "index_column": 0,
+            "format": "csv",
+			"parse_options": {
+				"sep": "\t",
+				"index_col": 0
+			},
             "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-44d_pub/v1.0/44d_pr_examples/M3/44d_pr_M3.tsv",
             "plot_options": {}
         }

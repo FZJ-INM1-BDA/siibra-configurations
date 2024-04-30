@@ -22,8 +22,11 @@
 		},
 		{
 			"@type": "siibra/attr/data/tabular",
-			"format": "tsv",
-			"index_column": 0,
+			"format": "csv",
+			"parse_options": {
+				"sep": "\t",
+				"index_col": 0
+			},
 			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-bc_3H_LY2119620_pub/bc_3H_LY2119620_Cb_20200206.tsv",
 			"plot_options": {
 				"kind": "bar",
