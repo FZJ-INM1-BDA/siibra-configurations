@@ -46,7 +46,9 @@
                 ]
             },
             "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc5/v1.0/1351/0002/segments.txt",
-            "x-siibra/celldensityprofile": "segments"
+            "x-siibra/celldensity/section": "1351",
+            "x-siibra/celldensity/patch": "0002",
+            "x-siibra/celldensity": "segments"
         },
         {
             "@type": "siibra/attr/data/tabular",
@@ -59,10 +61,13 @@
                     "Name",
                     "Area(micron**2)",
                     "AvgThickness(micron)"
-                ]
+                ],
+                "index_col": 0
             },
             "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc5/v1.0/1351/0002/layerinfo.txt",
-            "x-siibra/celldensityprofile": "layerinfo"
+            "x-siibra/celldensity/section": "1351",
+            "x-siibra/celldensity/patch": "0002",
+            "x-siibra/celldensity": "layerinfo"
         },
         {
             "@type": "x-siibra/celldensityprofile",
