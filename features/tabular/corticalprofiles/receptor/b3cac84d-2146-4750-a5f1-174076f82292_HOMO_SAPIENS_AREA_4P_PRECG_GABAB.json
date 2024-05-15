@@ -2,15 +2,15 @@
     "@type": "siibra/feature/v0.2",
     "attributes": [
         {
-            "@type": "siibra/attr/meta/modality",
-            "name": "Neurotransmitter receptor density profile"
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "Neurotransmitter receptor density profile"
         },
         {
-            "@type": "siibra/attr/meta/regionspec",
-            "name": "Area 4p (PreCG)"
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Area 4p (PreCG)"
         },
         {
-            "@type": "siibra/attr/meta/ebrains",
+            "@type": "siibra/attr/desc/ebrains/v0.1",
             "ids": {
                 "minds/core/dataset/v1.0.0": "b3cac84d-2146-4750-a5f1-174076f82292",
                 "minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
@@ -19,16 +19,16 @@
             }
         },
         {
-            "@type": "siibra/attr/meta/speciesspec",
-            "name": "Homo sapiens"
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "Homo sapiens"
         },
         {
-            "@type": "siibra/attr/data/tabular",
+            "@type": "siibra/attr/data/tabular/v0.1",
             "format": "csv",
-			"parse_options": {
-				"sep": "\t",
-				"index_col": 0
-			},
+            "parse_options": {
+                "sep": "\t",
+                "index_col": 0
+            },
             "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-4p_pub/v1.0/4p_pr_examples/GABAB/4p_pr_GABAB.tsv",
             "plot_options": {}
         }

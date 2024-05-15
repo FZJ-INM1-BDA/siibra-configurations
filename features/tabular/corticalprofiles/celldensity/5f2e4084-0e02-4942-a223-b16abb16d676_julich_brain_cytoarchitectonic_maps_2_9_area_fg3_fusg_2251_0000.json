@@ -2,15 +2,15 @@
     "@type": "siibra/feature/v0.2",
     "attributes": [
         {
-            "@type": "siibra/attr/meta/modality",
-            "name": "Segmented cell body density"
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "Segmented cell body density"
         },
         {
-            "@type": "siibra/attr/meta/regionspec",
-            "name": "Area FG3 (FusG)"
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Area FG3 (FusG)"
         },
         {
-            "@type": "siibra/attr/meta/ebrains",
+            "@type": "siibra/attr/desc/ebrains/v0.1",
             "ids": {
                 "minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
                 "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
@@ -19,7 +19,7 @@
             }
         },
         {
-            "@type": "siibra/attr/meta/point",
+            "@type": "siibra/attr/loc/point/v0.1",
             "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
             "coordinate": [
                 30.920869827270508,
@@ -28,11 +28,12 @@
             ]
         },
         {
-            "@type": "siibra/attr/data/layerboundary",
+            "@type": "siibra/attr/loc/layerboundary/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
             "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_FG3/v1.0/2251/0000/"
         },
         {
-            "@type": "siibra/attr/data/tabular",
+            "@type": "siibra/attr/data/tabular/v0.1",
             "format": "csv",
             "parse_options": {
                 "comment": "#",
@@ -51,7 +52,7 @@
             "x-siibra/celldensity": "segments"
         },
         {
-            "@type": "siibra/attr/data/tabular",
+            "@type": "siibra/attr/data/tabular/v0.1",
             "format": "csv",
             "parse_options": {
                 "comment": "#",
@@ -70,7 +71,7 @@
             "x-siibra/celldensity": "layerinfo"
         },
         {
-            "@type": "x-siibra/celldensityprofile",
+            "@type": "x-siibra/celldensityprofile/v0.1",
             "section": "2251",
             "patch": "0000"
         }
