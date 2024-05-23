@@ -1,26 +1,83 @@
 {
-	"@id": "dbd06025-e811-489e-8dc7-b2b4c2960853--5c8878b9d8a744f06173c4346a1dd32b",
-	"@type": "siibra/feature/profile/celldensity/v0.1",
-	"region": "Area 44 (IFG)",
-	"unit": "detected cells / 0.1mm3",
-	"location": {
-		"@type": "siibra/location/point/v0.1",
-		"space": {
-			"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
-		},
-		"coordinate": [
-			-54.90747833251953,
-			22.700000762939453,
-			14.188457489013672
-		]
-	},
-	"ebrains": {
-		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-		"openminds/Dataset": "bdc8b2cd-55a5-4d04-a5ed-1ce67d462ca3",
-		"openminds/DatasetVersion": "dbd06025-e811-489e-8dc7-b2b4c2960853"
-	},
-	"file": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Broca_44/v1.0/4636/0003/segments.txt",
-	"patch": "0003",
-	"section": "4636"
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "dbd06025-e811-489e-8dc7-b2b4c2960853--5c8878b9d8a744f06173c4346a1dd32b"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "Segmented cell body density"
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Area 44 (IFG)"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/Dataset": "bdc8b2cd-55a5-4d04-a5ed-1ce67d462ca3",
+                "openminds/DatasetVersion": "dbd06025-e811-489e-8dc7-b2b4c2960853"
+            }
+        },
+        {
+            "@type": "siibra/attr/loc/point/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+            "coordinate": [
+                -54.90747833251953,
+                22.700000762939453,
+                14.188457489013672
+            ]
+        },
+        {
+            "@type": "siibra/attr/loc/layerboundary/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Broca_44/v1.0/4636/0003/"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "x",
+                    "y",
+                    "area(micron**2)",
+                    "layer",
+                    "label"
+                ]
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Broca_44/v1.0/4636/0003/segments.txt",
+            "x-siibra/celldensity/section": "4636",
+            "x-siibra/celldensity/patch": "0003",
+            "x-siibra/celldensity": "segments"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "Number",
+                    "Name",
+                    "Area(micron**2)",
+                    "AvgThickness(micron)"
+                ],
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Broca_44/v1.0/4636/0003/layerinfo.txt",
+            "x-siibra/celldensity/section": "4636",
+            "x-siibra/celldensity/patch": "0003",
+            "x-siibra/celldensity": "layerinfo"
+        },
+        {
+            "@type": "x-siibra/celldensityprofile/v0.1",
+            "section": "4636",
+            "patch": "0003"
+        }
+    ]
 }

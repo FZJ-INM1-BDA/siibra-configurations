@@ -1,16 +1,44 @@
 {
-	"@id": "b08a7dbc-7c75-4ce7-905b-690b2b1e8957--8ff1e1d8bcb26296027b475ec744b83c",
-	"@type": "siibra/feature/voi/v0.1",
-	"name": "Fiber structures of a human hippocampus based on joint DMRI, 3D-PLI, and TPFM acquisitions",
-	"modality": "T2 weighted MRI",
-	"ebrains": {
-		"minds/core/dataset/v1.0.0": "b08a7dbc-7c75-4ce7-905b-690b2b1e8957",
-		"openminds/Dataset": "546b6484-9183-4ada-bca7-1cf563edad91"
-	},
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
-	},
-	"providers": {
-		"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI-MRI"
-	}
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "b08a7dbc-7c75-4ce7-905b-690b2b1e8957--8ff1e1d8bcb26296027b475ec744b83c"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "T2 weighted MRI"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/dataset/v1.0.0": "b08a7dbc-7c75-4ce7-905b-690b2b1e8957",
+                "openminds/Dataset": "546b6484-9183-4ada-bca7-1cf563edad91"
+            }
+        },
+        {
+            "@type": "siibra/attr/loc/boundingbox/v0.1",
+            "minpoint": [
+                11.020745,
+                -20.42822710882504,
+                -32.682974
+            ],
+            "maxpoint": [
+                60.75936868788104,
+                20.94681330366981,
+                24.08156560488289
+            ],
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "format": "neuroglancer/precomputed",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI-MRI",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "Fiber structures of a human hippocampus based on joint DMRI, 3D-PLI, and TPFM acquisitions"
+        }
+    ]
 }

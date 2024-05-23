@@ -1,16 +1,44 @@
 {
-	"@id": "7e065c31-aff6-4211-b777-dcb5050b4617--45bd80b4cce75815ff75209063881b96",
-	"@type": "siibra/feature/voi/v0.1",
-	"name": "Human Hippocampus scanned by Phase Contrast X-ray Tomography",
-	"modality": "XPCT",
-	"ebrains": {
-		"openminds/DatasetVersion": "7e065c31-aff6-4211-b777-dcb5050b4617",
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
-	},
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
-	},
-	"providers": {
-		"neuroglancer/precomputed": "https://1um.brainatlas.eu/salditt/AD_10_PB_7x7-stitch/precomputed"
-	}
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "7e065c31-aff6-4211-b777-dcb5050b4617--45bd80b4cce75815ff75209063881b96"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "XPCT"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "openminds/DatasetVersion": "7e065c31-aff6-4211-b777-dcb5050b4617",
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+            }
+        },
+        {
+            "@type": "siibra/attr/loc/boundingbox/v0.1",
+            "minpoint": [
+                -27.572548,
+                -4.104859485533643,
+                -17.912043708023365
+            ],
+            "maxpoint": [
+                -17.537656613282444,
+                -2.8009591900178568,
+                -7.881163432399751
+            ],
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "format": "neuroglancer/precomputed",
+            "url": "https://1um.brainatlas.eu/salditt/AD_10_PB_7x7-stitch/precomputed",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "Human Hippocampus scanned by Phase Contrast X-ray Tomography"
+        }
+    ]
 }

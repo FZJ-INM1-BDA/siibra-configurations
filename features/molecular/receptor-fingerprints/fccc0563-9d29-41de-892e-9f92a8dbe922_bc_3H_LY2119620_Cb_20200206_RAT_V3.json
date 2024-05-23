@@ -1,0 +1,45 @@
+{
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "fccc0563-9d29-41de-892e-9f92a8dbe922--9758112d0d5b02d34fc772f0bb868dd7"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "Neurotransmitter receptor density fingerprint"
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "cerebellum"
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "Rattus norvegicus"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/dataset/v1.0.0": "fccc0563-9d29-41de-892e-9f92a8dbe922",
+                "minds/core/species/v1.0.0": "ab532423-1fd7-4255-8c6f-f99dc6df814f"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "sep": "\t",
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-bc_3H_LY2119620_pub/bc_3H_LY2119620_Cb_20200206.tsv",
+            "plot_options": {
+                "kind": "bar",
+                "yerr": "density (sd)",
+                "xlabel": "receptor",
+                "ylabel": "density (fmol/mg protein)",
+                "grid": true,
+                "legend": false
+            }
+        }
+    ]
+}

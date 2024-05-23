@@ -1,94 +1,462 @@
 {
-	"@id": "f2cd6b97-e42d-41af-a01b-5caf2d692e28--d709ae845a8c961fae7a913cf2859dbe",
-	"@type": "siibra/feature/fingerprint/celldensity/v0.1",
-	"region": "Area hOc1 (V1, 17, CalcS)",
-	"unit": "detected cells / 0.1mm3",
-	"location": {
-		"@type": "siibra/location/pointset/v0.1",
-		"space": {
-			"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
-		},
-		"coordinates": [
-			[
-				13.229360580444336,
-				-63.70000076293945,
-				6.014106750488281
-			],
-			[
-				13.452011108398438,
-				-65.5,
-				7.272993564605713
-			],
-			[
-				19.09100914001465,
-				-64.9000015258789,
-				-0.36307409405708313
-			],
-			[
-				14.474964141845703,
-				-60.400001525878906,
-				8.105033874511719
-			],
-			[
-				20.199174880981445,
-				-64.5999984741211,
-				-0.44111010432243347
-			],
-			[
-				14.780386924743652,
-				-58.29999923706055,
-				5.0198073387146
-			],
-			[
-				12.853570938110352,
-				-65.19999694824219,
-				8.625871658325195
-			],
-			[
-				-3.9482669830322266,
-				-42.70000076293945,
-				9.710223197937012
-			],
-			[
-				13.53404426574707,
-				-64.30000305175781,
-				5.984400749206543
-			],
-			[
-				13.238324165344238,
-				-65.80000305175781,
-				8.006086349487305
-			]
-		]
-	},
-	"ebrains": {
-		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-		"openminds/Dataset": "dc358cb8-2bbb-40f1-998c-356c9e13e4c6",
-		"openminds/DatasetVersion": "f2cd6b97-e42d-41af-a01b-5caf2d692e28"
-	},
-	"segmentfiles": [
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0316/0003/segments.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0226/0003/segments.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0256/0002/segments.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0481/0003/segments.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0271/0002/segments.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0586/0004/segments.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0241/0003/segments.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/1366/0002/segments.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0286/0003/segments.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0211/0003/segments.txt"
-	],
-	"layerfiles": [
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0316/0003/layerinfo.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0226/0003/layerinfo.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0256/0002/layerinfo.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0481/0003/layerinfo.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0271/0002/layerinfo.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0586/0004/layerinfo.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0241/0003/layerinfo.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/1366/0002/layerinfo.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0286/0003/layerinfo.txt",
-		"https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0211/0003/layerinfo.txt"
-	]
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "f2cd6b97-e42d-41af-a01b-5caf2d692e28--d709ae845a8c961fae7a913cf2859dbe"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "Cell body density"
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Area hOc1 (V1, 17, CalcS)"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/Dataset": "dc358cb8-2bbb-40f1-998c-356c9e13e4c6",
+                "openminds/DatasetVersion": "f2cd6b97-e42d-41af-a01b-5caf2d692e28"
+            }
+        },
+        {
+            "@type": "siibra/attr/loc/pointcloud/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+            "coordinates": [
+                [
+                    13.229360580444336,
+                    -63.70000076293945,
+                    6.014106750488281
+                ],
+                [
+                    13.452011108398438,
+                    -65.5,
+                    7.272993564605713
+                ],
+                [
+                    19.09100914001465,
+                    -64.9000015258789,
+                    -0.36307409405708313
+                ],
+                [
+                    14.474964141845703,
+                    -60.400001525878906,
+                    8.105033874511719
+                ],
+                [
+                    20.199174880981445,
+                    -64.5999984741211,
+                    -0.44111010432243347
+                ],
+                [
+                    14.780386924743652,
+                    -58.29999923706055,
+                    5.0198073387146
+                ],
+                [
+                    12.853570938110352,
+                    -65.19999694824219,
+                    8.625871658325195
+                ],
+                [
+                    -3.9482669830322266,
+                    -42.70000076293945,
+                    9.710223197937012
+                ],
+                [
+                    13.53404426574707,
+                    -64.30000305175781,
+                    5.984400749206543
+                ],
+                [
+                    13.238324165344238,
+                    -65.80000305175781,
+                    8.006086349487305
+                ]
+            ]
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "x",
+                    "y",
+                    "area(micron**2)",
+                    "layer",
+                    "label"
+                ]
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0316/0003/segments.txt",
+            "x-siibra/celldensity": "segments",
+            "x-siibra/celldensity/section": "0316",
+            "x-siibra/celldensity/patch": "0003"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "Number",
+                    "Name",
+                    "Area(micron**2)",
+                    "AvgThickness(micron)"
+                ],
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0316/0003/layerinfo.txt",
+            "x-siibra/celldensity": "layerinfo",
+            "x-siibra/celldensity/section": "0316",
+            "x-siibra/celldensity/patch": "0003"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "x",
+                    "y",
+                    "area(micron**2)",
+                    "layer",
+                    "label"
+                ]
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0226/0003/segments.txt",
+            "x-siibra/celldensity": "segments",
+            "x-siibra/celldensity/section": "0226",
+            "x-siibra/celldensity/patch": "0003"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "Number",
+                    "Name",
+                    "Area(micron**2)",
+                    "AvgThickness(micron)"
+                ],
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0226/0003/layerinfo.txt",
+            "x-siibra/celldensity": "layerinfo",
+            "x-siibra/celldensity/section": "0226",
+            "x-siibra/celldensity/patch": "0003"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "x",
+                    "y",
+                    "area(micron**2)",
+                    "layer",
+                    "label"
+                ]
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0256/0002/segments.txt",
+            "x-siibra/celldensity": "segments",
+            "x-siibra/celldensity/section": "0256",
+            "x-siibra/celldensity/patch": "0002"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "Number",
+                    "Name",
+                    "Area(micron**2)",
+                    "AvgThickness(micron)"
+                ],
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0256/0002/layerinfo.txt",
+            "x-siibra/celldensity": "layerinfo",
+            "x-siibra/celldensity/section": "0256",
+            "x-siibra/celldensity/patch": "0002"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "x",
+                    "y",
+                    "area(micron**2)",
+                    "layer",
+                    "label"
+                ]
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0481/0003/segments.txt",
+            "x-siibra/celldensity": "segments",
+            "x-siibra/celldensity/section": "0481",
+            "x-siibra/celldensity/patch": "0003"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "Number",
+                    "Name",
+                    "Area(micron**2)",
+                    "AvgThickness(micron)"
+                ],
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0481/0003/layerinfo.txt",
+            "x-siibra/celldensity": "layerinfo",
+            "x-siibra/celldensity/section": "0481",
+            "x-siibra/celldensity/patch": "0003"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "x",
+                    "y",
+                    "area(micron**2)",
+                    "layer",
+                    "label"
+                ]
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0271/0002/segments.txt",
+            "x-siibra/celldensity": "segments",
+            "x-siibra/celldensity/section": "0271",
+            "x-siibra/celldensity/patch": "0002"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "Number",
+                    "Name",
+                    "Area(micron**2)",
+                    "AvgThickness(micron)"
+                ],
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0271/0002/layerinfo.txt",
+            "x-siibra/celldensity": "layerinfo",
+            "x-siibra/celldensity/section": "0271",
+            "x-siibra/celldensity/patch": "0002"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "x",
+                    "y",
+                    "area(micron**2)",
+                    "layer",
+                    "label"
+                ]
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0586/0004/segments.txt",
+            "x-siibra/celldensity": "segments",
+            "x-siibra/celldensity/section": "0586",
+            "x-siibra/celldensity/patch": "0004"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "Number",
+                    "Name",
+                    "Area(micron**2)",
+                    "AvgThickness(micron)"
+                ],
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0586/0004/layerinfo.txt",
+            "x-siibra/celldensity": "layerinfo",
+            "x-siibra/celldensity/section": "0586",
+            "x-siibra/celldensity/patch": "0004"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "x",
+                    "y",
+                    "area(micron**2)",
+                    "layer",
+                    "label"
+                ]
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0241/0003/segments.txt",
+            "x-siibra/celldensity": "segments",
+            "x-siibra/celldensity/section": "0241",
+            "x-siibra/celldensity/patch": "0003"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "Number",
+                    "Name",
+                    "Area(micron**2)",
+                    "AvgThickness(micron)"
+                ],
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0241/0003/layerinfo.txt",
+            "x-siibra/celldensity": "layerinfo",
+            "x-siibra/celldensity/section": "0241",
+            "x-siibra/celldensity/patch": "0003"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "x",
+                    "y",
+                    "area(micron**2)",
+                    "layer",
+                    "label"
+                ]
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/1366/0002/segments.txt",
+            "x-siibra/celldensity": "segments",
+            "x-siibra/celldensity/section": "1366",
+            "x-siibra/celldensity/patch": "0002"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "Number",
+                    "Name",
+                    "Area(micron**2)",
+                    "AvgThickness(micron)"
+                ],
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/1366/0002/layerinfo.txt",
+            "x-siibra/celldensity": "layerinfo",
+            "x-siibra/celldensity/section": "1366",
+            "x-siibra/celldensity/patch": "0002"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "x",
+                    "y",
+                    "area(micron**2)",
+                    "layer",
+                    "label"
+                ]
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0286/0003/segments.txt",
+            "x-siibra/celldensity": "segments",
+            "x-siibra/celldensity/section": "0286",
+            "x-siibra/celldensity/patch": "0003"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "Number",
+                    "Name",
+                    "Area(micron**2)",
+                    "AvgThickness(micron)"
+                ],
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0286/0003/layerinfo.txt",
+            "x-siibra/celldensity": "layerinfo",
+            "x-siibra/celldensity/section": "0286",
+            "x-siibra/celldensity/patch": "0003"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "x",
+                    "y",
+                    "area(micron**2)",
+                    "layer",
+                    "label"
+                ]
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0211/0003/segments.txt",
+            "x-siibra/celldensity": "segments",
+            "x-siibra/celldensity/section": "0211",
+            "x-siibra/celldensity/patch": "0003"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "Number",
+                    "Name",
+                    "Area(micron**2)",
+                    "AvgThickness(micron)"
+                ],
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc1/v1.0/0211/0003/layerinfo.txt",
+            "x-siibra/celldensity": "layerinfo",
+            "x-siibra/celldensity/section": "0211",
+            "x-siibra/celldensity/patch": "0003"
+        }
+    ]
 }

@@ -1,0 +1,47 @@
+{
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "19d1f3bd-8825-4baf-863f-97393d03ef28--64f9a66ffcca34c6cc338ec483b09ca8"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "Neurotransmitter receptor density fingerprint"
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Area TE 2.1 (STG)"
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "Homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/dataset/v1.0.0": "19d1f3bd-8825-4baf-863f-97393d03ef28",
+                "minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/Dataset": "210ad41e-a718-44d1-8c46-d60f0ff230de"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "sep": "\t",
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-TE2_1_pub/v1.0/TE2_1_fp_20180405.tsv",
+            "plot_options": {
+                "kind": "bar",
+                "yerr": "density (sd)",
+                "xlabel": "receptor",
+                "ylabel": "density (fmol/mg protein)",
+                "grid": true,
+                "legend": false
+            }
+        }
+    ]
+}

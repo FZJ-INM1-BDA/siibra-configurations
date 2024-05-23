@@ -1,26 +1,83 @@
 {
-	"@id": "80177f7b-02e4-41f3-ad48-15b4409ebf6b--92a6290c3b14a4497e3ebe7166aa91e4",
-	"@type": "siibra/feature/profile/celldensity/v0.1",
-	"region": "Area hOc5 (LOC)",
-	"unit": "detected cells / 0.1mm3",
-	"location": {
-		"@type": "siibra/location/point/v0.1",
-		"space": {
-			"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
-		},
-		"coordinate": [
-			-39.4430046081543,
-			-40.0,
-			2.983738422393799
-		]
-	},
-	"ebrains": {
-		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-		"openminds/Dataset": "cdd6ca05-af8f-4b47-9199-009281f69d46",
-		"openminds/DatasetVersion": "80177f7b-02e4-41f3-ad48-15b4409ebf6b"
-	},
-	"file": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc5/v1.0/1501/0000/segments.txt",
-	"patch": "0000",
-	"section": "1501"
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "80177f7b-02e4-41f3-ad48-15b4409ebf6b--92a6290c3b14a4497e3ebe7166aa91e4"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "Segmented cell body density"
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Area hOc5 (LOC)"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/Dataset": "cdd6ca05-af8f-4b47-9199-009281f69d46",
+                "openminds/DatasetVersion": "80177f7b-02e4-41f3-ad48-15b4409ebf6b"
+            }
+        },
+        {
+            "@type": "siibra/attr/loc/point/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+            "coordinate": [
+                -39.4430046081543,
+                -40.0,
+                2.983738422393799
+            ]
+        },
+        {
+            "@type": "siibra/attr/loc/layerboundary/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc5/v1.0/1501/0000/"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "x",
+                    "y",
+                    "area(micron**2)",
+                    "layer",
+                    "label"
+                ]
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc5/v1.0/1501/0000/segments.txt",
+            "x-siibra/celldensity/section": "1501",
+            "x-siibra/celldensity/patch": "0000",
+            "x-siibra/celldensity": "segments"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "Number",
+                    "Name",
+                    "Area(micron**2)",
+                    "AvgThickness(micron)"
+                ],
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc5/v1.0/1501/0000/layerinfo.txt",
+            "x-siibra/celldensity/section": "1501",
+            "x-siibra/celldensity/patch": "0000",
+            "x-siibra/celldensity": "layerinfo"
+        },
+        {
+            "@type": "x-siibra/celldensityprofile/v0.1",
+            "section": "1501",
+            "patch": "0000"
+        }
+    ]
 }

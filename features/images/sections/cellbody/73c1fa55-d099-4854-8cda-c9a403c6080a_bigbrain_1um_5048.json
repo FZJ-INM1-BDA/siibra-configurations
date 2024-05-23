@@ -1,16 +1,44 @@
 {
-	"@id": "73c1fa55-d099-4854-8cda-c9a403c6080a--6622c41e57081dc02b5ce35b6e53f062",
-	"@type": "siibra/feature/section/v0.1",
-	"name": "#5048: selected 1 micron scans of BigBrain histological sections (v1.0)",
-	"modality": "cell body staining",
-	"ebrains": {
-		"openminds/DatasetVersion": "73c1fa55-d099-4854-8cda-c9a403c6080a",
-		"openminds/Dataset": "95f07031-34f0-40f0-a170-f91b5d08d0d5"
-	},
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
-	},
-	"providers": {
-		"neuroglancer/precomputed": "https://1um.brainatlas.eu/registered_sections/bigbrain/B20_5048/precomputed"
-	}
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "73c1fa55-d099-4854-8cda-c9a403c6080a--6622c41e57081dc02b5ce35b6e53f062"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "cell body staining"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "openminds/DatasetVersion": "73c1fa55-d099-4854-8cda-c9a403c6080a",
+                "openminds/Dataset": "95f07031-34f0-40f0-a170-f91b5d08d0d5"
+            }
+        },
+        {
+            "@type": "siibra/attr/loc/boundingbox/v0.1",
+            "minpoint": [
+                -70.6771833333333,
+                30.929999999999996,
+                -58.7882833333333
+            ],
+            "maxpoint": [
+                68.4428166666667,
+                30.949999999999996,
+                62.1117166666667
+            ],
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "format": "neuroglancer/precomputed",
+            "url": "https://1um.brainatlas.eu/registered_sections/bigbrain/B20_5048/precomputed",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "#5048: selected 1 micron scans of BigBrain histological sections (v1.0)"
+        }
+    ]
 }

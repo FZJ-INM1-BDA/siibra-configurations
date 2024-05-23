@@ -1,14 +1,40 @@
 {
-	"@id": "7c517b3f-a7eb-4723-9111-3f49340e98d6--781553bf552fa60047d210b965c00cb5",
-	"@type": "siibra/feature/profile/receptor/v0.1",
-	"region": "Area 7A (SPL)",
-	"receptor": "M1",
-	"species": "Homo sapiens",
-	"ebrains": {
-		"minds/core/dataset/v1.0.0": "7c517b3f-a7eb-4723-9111-3f49340e98d6",
-		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-		"openminds/Dataset": "cef0b36b-3c3b-4cf3-9bbb-2fb9fd95c3c1"
-	},
-	"file": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-7A_pub/v1.0/7A_pr_examples/M1/7A_pr_M1.tsv"
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "7c517b3f-a7eb-4723-9111-3f49340e98d6--781553bf552fa60047d210b965c00cb5"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "Neurotransmitter receptor density profile"
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Area 7A (SPL)"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/dataset/v1.0.0": "7c517b3f-a7eb-4723-9111-3f49340e98d6",
+                "minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/Dataset": "cef0b36b-3c3b-4cf3-9bbb-2fb9fd95c3c1"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "Homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "sep": "\t",
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-7A_pub/v1.0/7A_pr_examples/M1/7A_pr_M1.tsv",
+            "plot_options": {}
+        }
+    ]
 }
