@@ -1,122 +1,336 @@
 {
-	"name": "Cortical layer segmentation of the BigBrain model",
-	"shortName": "Cortical layers",
-	"@id": "juelich/iav/atlas/v1.0.0/3",
-	"@type": "siibra/parcellation/v0.0.1",
-	"species": "homo sapiens",
-	"ebrains": {
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-		"openminds/DatasetVersion": "13e6ec48-4fec-4e9a-9bcf-45036d3c8ef9"
-	},
-	"publications": [
-		{
-			"citation": "Wagstyl, K., Larocque, S., Cucurull, G., Lepage, C., Cohen, J. P., Bludau, S., Palomero-Gallagher, N., Lewis, L. B., Funck, T., Spitzer, H., Dickscheid, T., Fletcher, P. C., Romero, A., Zilles, K., Amunts, K., Bengio, Y., & Evans, A. C. (2020). BigBrain 3D atlas of cortical layers: Cortical and laminar thickness gradients diverge in sensory and motor cortices. PLOS Biology, 18(4), e3000678. https://doi.org/10.1371/journal.pbio.3000678",
-			"url": "https://doi.org/10.1371/journal.pbio.3000678"
-		}
-	],
-	"regions": [
-		{
-			"name": "telencephalon",
-			"children": [
-				{
-					"name": "cortical layer 1",
-					"rgb": "#808000",
-					"children": [
-						{
-							"name": "cortical layer 1 - left",
-							"rgb": "#808000"
-						},
-						{
-							"name": "cortical layer 1 - right",
-							"rgb": "#808000"
-						}
-					]
-				},
-				{
-					"name": "cortical layer 2",
-					"rgb": "#FABEBE",
-					"children": [
-						{
-							"name": "cortical layer 2 - left",
-							"rgb": "#FABEBE"
-						},
-						{
-							"name": "cortical layer 2 - right",
-							"rgb": "#FABEBE"
-						}
-					]
-				},
-				{
-					"name": "cortical layer 3",
-					"rgb": "#FFD7B4",
-					"children": [
-						{
-							"name": "cortical layer 3 - left",
-							"rgb": "#FFD7B4"
-						},
-						{
-							"name": "cortical layer 3 - right",
-							"rgb": "#FFD7B4"
-						}
-					]
-				},
-				{
-					"name": "cortical layer 4",
-					"rgb": "#FFFAC8",
-					"children": [
-						{
-							"name": "cortical layer 4 - left",
-							"rgb": "#FFFAC8"
-						},
-						{
-							"name": "cortical layer 4 - right",
-							"rgb": "#FFFAC8"
-						}
-					]
-				},
-				{
-					"name": "cortical layer 5",
-					"rgb": "#008080",
-					"children": [
-						{
-							"name": "cortical layer 5 - left",
-							"rgb": "#008080"
-						},
-						{
-							"name": "cortical layer 5 - right",
-							"rgb": "#008080"
-						}
-					]
-				},
-				{
-					"name": "cortical layer 6",
-					"rgb": "#E6BEFF",
-					"children": [
-						{
-							"name": "cortical layer 6 - left",
-							"rgb": "#E6BEFF"
-						},
-						{
-							"name": "cortical layer 6 - right",
-							"rgb": "#E6BEFF"
-						}
-					]
-				},
-				{
-					"name": "non-cortical structures",
-					"rgb": "#FFFFFF",
-					"children": [
-						{
-							"name": "non-cortical structures - left",
-							"rgb": "#FFFFFF"
-						},
-						{
-							"name": "non-cortical structures - right",
-							"rgb": "#FFFFFF"
-						}
-					]
-				}
-			]
-		}
-	]
+    "@type": "siibra/atlases/parcellation/v0.1",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "juelich/iav/atlas/v1.0.0/3"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "Cortical layer segmentation of the BigBrain model",
+            "shortform": "Cortical layers"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": null
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/DatasetVersion": "13e6ec48-4fec-4e9a-9bcf-45036d3c8ef9"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/publication/v0.1",
+            "citation": "Wagstyl, K., Larocque, S., Cucurull, G., Lepage, C., Cohen, J. P., Bludau, S., Palomero-Gallagher, N., Lewis, L. B., Funck, T., Spitzer, H., Dickscheid, T., Fletcher, P. C., Romero, A., Zilles, K., Amunts, K., Bengio, Y., & Evans, A. C. (2020). BigBrain 3D atlas of cortical layers: Cortical and laminar thickness gradients diverge in sensory and motor cortices. PLOS Biology, 18(4), e3000678. https://doi.org/10.1371/journal.pbio.3000678",
+            "doi": {
+                "doi": "https://doi.org/10.1371/journal.pbio.3000678"
+            }
+        }
+    ],
+    "regions": [
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "telencephalon"
+                }
+            ],
+            "children": [
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "cortical layer 1"
+                        },
+                        {
+                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                            "value": "#808000"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "cortical layer 1 - left"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#808000"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "cortical layer 1 - right"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#808000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "cortical layer 2"
+                        },
+                        {
+                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                            "value": "#FABEBE"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "cortical layer 2 - left"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FABEBE"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "cortical layer 2 - right"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FABEBE"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "cortical layer 3"
+                        },
+                        {
+                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                            "value": "#FFD7B4"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "cortical layer 3 - left"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFD7B4"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "cortical layer 3 - right"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFD7B4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "cortical layer 4"
+                        },
+                        {
+                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                            "value": "#FFFAC8"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "cortical layer 4 - left"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFFAC8"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "cortical layer 4 - right"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFFAC8"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "cortical layer 5"
+                        },
+                        {
+                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                            "value": "#008080"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "cortical layer 5 - left"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#008080"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "cortical layer 5 - right"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#008080"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "cortical layer 6"
+                        },
+                        {
+                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                            "value": "#E6BEFF"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "cortical layer 6 - left"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#E6BEFF"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "cortical layer 6 - right"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#E6BEFF"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "non-cortical structures"
+                        },
+                        {
+                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                            "value": "#FFFFFF"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "non-cortical structures - left"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFFFFF"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "non-cortical structures - right"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFFFFF"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -1,203 +1,514 @@
 {
-	"@id": "juelich/iav/atlas/v1.0.0/5",
-	"@type": "siibra/parcellation/v0.0.1",
-	"name": "Deep white matter fibre bundles",
-	"shortName": "Deep fibre bundles",
-	"description": "This data contains the maximum probability map of deep white matter fibre bundles (atlas of deep white matter fibre bundles, version 2018), in the MNI ICBM152 reference brain. These bundles were identified by fibre clustering, from the tractography datasets of 78 subjects in Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
-	"modality": "fibre architecture",
-	"species": "homo sapiens",
-	"regions": [
-		{
-			"name": "Direct segment of the left arcuate fasciculus",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "7de080e0-fa5e-492f-9cbc-a4d7e498b1d5"
-			}
-		},
-		{
-			"name": "Direct segment of the right arcuate fasciculus",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "17cbf31c-f68b-4753-9014-44aa38e1cdcf"
-			}
-		},
-		{
-			"name": "Anterior segment of the left arcuate fasciculus",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "1ed86a08-d720-427c-9796-ade24e34a36b"
-			}
-		},
-		{
-			"name": "Anterior segment of the right arcuate fasciculus",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "9f625fad-9329-4824-8751-8b27dc197d3e"
-			}
-		},
-		{
-			"name": "Posterior segment of the left arcuate fasciculus",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "f13ba46b-09ad-48bd-9301-282b0ee74d8d"
-			}
-		},
-		{
-			"name": "Posterior segment of the right arcuate fasciculus",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "2a6ea612-46c1-4a0f-a6f4-5ffc7ff09548"
-			}
-		},
-		{
-			"name": "Left long cingulate fibres",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "6fa27cc1-2efe-4fd3-83d7-973667a0b925"
-			}
-		},
-		{
-			"name": "Right long cingulate fibres",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "f5ae1188-8a10-4e17-9fa9-47b1dc4e50cd"
-			}
-		},
-		{
-			"name": "Left short cingulate fibres",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "882d13c0-ffe4-4fd8-95a1-ba714cd25fbb"
-			}
-		},
-		{
-			"name": "Right short cingulate fibres",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "4c5ecae5-17b4-4a65-8b66-c4d0882a2bca"
-			}
-		},
-		{
-			"name": "Left temporal cingulate fibres",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "2c71b329-5a32-4ba0-aacb-0fac99c46aca"
-			}
-		},
-		{
-			"name": "Right temporal cingulate fibres",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "7e965e21-1d9b-4b8d-b77d-4a7ca17603e6"
-			}
-		},
-		{
-			"name": "CorpusCallosum_Body"
-		},
-		{
-			"name": "CorpusCallosum_Genu"
-		},
-		{
-			"name": "CorpusCallosum_Rostrum"
-		},
-		{
-			"name": "CorpusCallosum_Splenium"
-		},
-		{
-			"name": "Left corticospinal tract",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "afbb2642-5e90-412f-9847-3d7a831f8f07"
-			}
-		},
-		{
-			"name": "Right corticospinal tract",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "2f398c6e-6264-4615-8a28-18b3573d0732"
-			}
-		},
-		{
-			"name": "ExternalCapsule - Left"
-		},
-		{
-			"name": "ExternalCapsule - Right"
-		},
-		{
-			"name": "Left fornix",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "c8d1e4a0-d0c2-4101-a971-3ffb1ba65ef8"
-			}
-		},
-		{
-			"name": "Right fornix",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "e7e8fd6d-aa43-452e-9fc3-635aa0333910"
-			}
-		},
-		{
-			"name": "Left inferior fronto-occipital fasciculus",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "524cd5a0-7066-4149-83b8-c0c4aaa12820"
-			}
-		},
-		{
-			"name": "Right inferior fronto-occipital fasciculus",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "34e8f68d-0b00-4e9e-bd43-ccaf10deef6d"
-			}
-		},
-		{
-			"name": "Left inferior longitudinal fasciculus",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "d3a458e1-6dbf-418d-bb52-c0b0c6acb920"
-			}
-		},
-		{
-			"name": "Right inferior longitudinal fasciculus",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "25326bc6-2b87-4483-9738-89ca249faccd"
-			}
-		},
-		{
-			"name": "InferiorLongitudinal_Lateral - Left"
-		},
-		{
-			"name": "InferiorLongitudinal_Lateral - Right"
-		},
-		{
-			"name": "MediumLongitudinal - Left"
-		},
-		{
-			"name": "MediumLongitudinal - Right"
-		},
-		{
-			"name": "SpinoThalamicTract - Left"
-		},
-		{
-			"name": "SpinoThalamicTract - Right"
-		},
-		{
-			"name": "ThalamicRadiations_Anterior - Left"
-		},
-		{
-			"name": "ThalamicRadiations_Anterior - Right"
-		},
-		{
-			"name": "ThalamicRadiations_Posterior - Left"
-		},
-		{
-			"name": "ThalamicRadiations_Posterior - Right"
-		},
-		{
-			"name": "Left uncinate fasciculus",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "f36707b5-d4f3-480b-a1c9-651bf8cc49d5"
-			}
-		},
-		{
-			"name": "Right uncinate fasciculus",
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "84ea1a64-03a6-4a7e-9f64-a3d2127ebf3f"
-			}
-		}
-	],
-	"ebrains": {
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-		"openminds/Dataset": "2eff0f98-24e4-4b93-98ae-96cd82256951",
-		"openminds/BrainAtlasVersion": "4eb0bc59-9aa0-4b22-896c-ffeaebec3cce",
-		"openminds/DatasetVersion": "518b0d17-ed31-4a20-91c2-efbe2eb6545a"
-	},
-	"publications": [
-		{
-			"citation": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas. NeuroImage, 61(4),1083-99.",
-			"url": "https://doi.org/10.1016/j.neuroimage.2012.02.071"
-		}
-	]
+    "@type": "siibra/atlases/parcellation/v0.1",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "juelich/iav/atlas/v1.0.0/5"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "Deep white matter fibre bundles",
+            "shortform": "Deep fibre bundles"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "fibre architecture"
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/Dataset": "2eff0f98-24e4-4b93-98ae-96cd82256951",
+                "openminds/BrainAtlasVersion": "4eb0bc59-9aa0-4b22-896c-ffeaebec3cce",
+                "openminds/DatasetVersion": "518b0d17-ed31-4a20-91c2-efbe2eb6545a"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/publication/v0.1",
+            "citation": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas. NeuroImage, 61(4),1083-99.",
+            "doi": {
+                "doi": "https://doi.org/10.1016/j.neuroimage.2012.02.071"
+            }
+        }
+    ],
+    "regions": [
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Direct segment of the left arcuate fasciculus"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "7de080e0-fa5e-492f-9cbc-a4d7e498b1d5"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Direct segment of the right arcuate fasciculus"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "17cbf31c-f68b-4753-9014-44aa38e1cdcf"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Anterior segment of the left arcuate fasciculus"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "1ed86a08-d720-427c-9796-ade24e34a36b"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Anterior segment of the right arcuate fasciculus"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "9f625fad-9329-4824-8751-8b27dc197d3e"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Posterior segment of the left arcuate fasciculus"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "f13ba46b-09ad-48bd-9301-282b0ee74d8d"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Posterior segment of the right arcuate fasciculus"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "2a6ea612-46c1-4a0f-a6f4-5ffc7ff09548"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left long cingulate fibres"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "6fa27cc1-2efe-4fd3-83d7-973667a0b925"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right long cingulate fibres"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "f5ae1188-8a10-4e17-9fa9-47b1dc4e50cd"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left short cingulate fibres"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "882d13c0-ffe4-4fd8-95a1-ba714cd25fbb"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right short cingulate fibres"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "4c5ecae5-17b4-4a65-8b66-c4d0882a2bca"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left temporal cingulate fibres"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "2c71b329-5a32-4ba0-aacb-0fac99c46aca"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right temporal cingulate fibres"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "7e965e21-1d9b-4b8d-b77d-4a7ca17603e6"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "CorpusCallosum_Body"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "CorpusCallosum_Genu"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "CorpusCallosum_Rostrum"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "CorpusCallosum_Splenium"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left corticospinal tract"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "afbb2642-5e90-412f-9847-3d7a831f8f07"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right corticospinal tract"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "2f398c6e-6264-4615-8a28-18b3573d0732"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "ExternalCapsule - Left"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "ExternalCapsule - Right"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left fornix"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "c8d1e4a0-d0c2-4101-a971-3ffb1ba65ef8"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right fornix"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "e7e8fd6d-aa43-452e-9fc3-635aa0333910"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left inferior fronto-occipital fasciculus"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "524cd5a0-7066-4149-83b8-c0c4aaa12820"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right inferior fronto-occipital fasciculus"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "34e8f68d-0b00-4e9e-bd43-ccaf10deef6d"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left inferior longitudinal fasciculus"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "d3a458e1-6dbf-418d-bb52-c0b0c6acb920"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right inferior longitudinal fasciculus"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "25326bc6-2b87-4483-9738-89ca249faccd"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "InferiorLongitudinal_Lateral - Left"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "InferiorLongitudinal_Lateral - Right"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "MediumLongitudinal - Left"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "MediumLongitudinal - Right"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "SpinoThalamicTract - Left"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "SpinoThalamicTract - Right"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "ThalamicRadiations_Anterior - Left"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "ThalamicRadiations_Anterior - Right"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "ThalamicRadiations_Posterior - Left"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "ThalamicRadiations_Posterior - Right"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left uncinate fasciculus"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "f36707b5-d4f3-480b-a1c9-651bf8cc49d5"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right uncinate fasciculus"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "84ea1a64-03a6-4a7e-9f64-a3d2127ebf3f"
+                    }
+                }
+            ]
+        }
+    ]
 }

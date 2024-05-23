@@ -1,747 +1,1874 @@
 {
-	"@id": "juelich/iav/atlas/v1.0.0/6",
-	"@type": "siibra/parcellation/v0.0.1",
-	"name": "Superficial fibre bundles",
-	"shortName": "Superficial fibre bundles",
-	"description": "This data contains the maximum probability map of superficial white matter fibre bundles, in the MNI ICBM152 reference brain. These bundles were identified using a hybrid approach, incorporating anatomical information (from cortical regions of interest) and fibre shape (fibre clustering), from the tractography datasets of 78 subjects in the Neurospin\u2019s ARCHI database. The maximum probability corresponds to the voxels with the highest number of putative fibres going through.",
-	"modality": "fibre architecture",
-	"species": "homo sapiens",
-	"regions": [
-		{
-			"name": "Left Hemisphere",
-			"children": [
-				{
-					"name": "Caudal Middle Frontal - Precuneus",
-					"children": [
-						{
-							"name": "lh_CAC-PrCu_0"
-						}
-					]
-				},
-				{
-					"name": "Caudal Middle Frontal \u2013 Pars Opercularis",
-					"children": [
-						{
-							"name": "lh_CMF-Op_0"
-						}
-					]
-				},
-				{
-					"name": "Caudal Middle Frontal - Poscentral",
-					"children": [
-						{
-							"name": "lh_CMF-PoC_0"
-						}
-					]
-				},
-				{
-					"name": "Caudal Middle Frontal - Precentral",
-					"children": [
-						{
-							"name": "lh_CMF-PrC_0"
-						},
-						{
-							"name": "lh_CMF-PrC_1"
-						}
-					]
-				},
-				{
-					"name": "Caudal Middle Frontal \u2013 Rostral Middle Frontal",
-					"children": [
-						{
-							"name": "lh_CMF-RMF_0"
-						}
-					]
-				},
-				{
-					"name": "Caudal Middle Frontal \u2013 Superior Frontal",
-					"children": [
-						{
-							"name": "lh_CMF-SF_0"
-						}
-					]
-				},
-				{
-					"name": "Fusiform \u2013 Lateral Occipital",
-					"children": [
-						{
-							"name": "lh_Fu-LO_0"
-						}
-					]
-				},
-				{
-					"name": "Isthmus Cingulate - Precuneus",
-					"children": [
-						{
-							"name": "lh_IC-PrCu_0"
-						}
-					]
-				},
-				{
-					"name": "Inferior Parietal \u2013 Inferior Temporal",
-					"children": [
-						{
-							"name": "lh_IP-IT_0"
-						}
-					]
-				},
-				{
-					"name": "Inferior Parietal \u2013 Lateral Occipital",
-					"children": [
-						{
-							"name": "lh_IP-LO_1"
-						}
-					]
-				},
-				{
-					"name": "Inferior Parietal \u2013 Middle Temporal\t",
-					"children": [
-						{
-							"name": "lh_IP-MT_0"
-						}
-					]
-				},
-				{
-					"name": "Inferior Parietal - Supramarginal",
-					"children": [
-						{
-							"name": "lh_IP-SM_0"
-						}
-					]
-				},
-				{
-					"name": "Inferior Pariertal \u2013 Superior Parietal",
-					"children": [
-						{
-							"name": "lh_IP-SP_0"
-						},
-						{
-							"name": "lh_IP-SP_1"
-						}
-					]
-				},
-				{
-					"name": "Inferior Temporal \u2013 Middle Temporal",
-					"children": [
-						{
-							"name": "lh_IT-MT_0"
-						}
-					]
-				},
-				{
-					"name": "Lateral Orbitofrontal \u2013 Pars Orbitalis",
-					"children": [
-						{
-							"name": "lh_LOF-Or_0"
-						}
-					]
-				},
-				{
-					"name": "Lateral Orbitofrontal \u2013 Rostral Middle Frontal",
-					"children": [
-						{
-							"name": "lh_LOF-RMF_0"
-						},
-						{
-							"name": "lh_LOF-RMF_1"
-						}
-					]
-				},
-				{
-					"name": "Lateral Orbitofrontal \u2013 Superior Temporal",
-					"children": [
-						{
-							"name": "lh_LOF-ST_0"
-						}
-					]
-				},
-				{
-					"name": "Middle Orbitofrontal \u2013 Superior Temporal",
-					"children": [
-						{
-							"name": "lh_MOF-ST_0"
-						}
-					]
-				},
-				{
-					"name": "Middle Temporal - Supramarginal",
-					"children": [
-						{
-							"name": "lh_MT-SM_0"
-						}
-					]
-				},
-				{
-					"name": "Middle Temporal \u2013 Superior Temporal",
-					"children": [
-						{
-							"name": "lh_MT-ST_0"
-						}
-					]
-				},
-				{
-					"name": "Pars Opercularis - Insula",
-					"children": [
-						{
-							"name": "lh_Op-Ins_0"
-						}
-					]
-				},
-				{
-					"name": "Pars Opercularis - Precentral`",
-					"children": [
-						{
-							"name": "lh_Op-PrC_0"
-						}
-					]
-				},
-				{
-					"name": "Pars Opercularis \u2013 Superior Frontal",
-					"children": [
-						{
-							"name": "lh_Op-SF_0"
-						}
-					]
-				},
-				{
-					"name": "Pars Orbitalis - Insula",
-					"children": [
-						{
-							"name": "lh_Or-Ins_0"
-						}
-					]
-				},
-				{
-					"name": "Postcentral - Insula",
-					"children": [
-						{
-							"name": "lh_PoC-Ins_0"
-						}
-					]
-				},
-				{
-					"name": "Poscentral - Precuneus",
-					"children": [
-						{
-							"name": "lh_PoCi-PrCu_0"
-						},
-						{
-							"name": "lh_PoCi-PrCu_1"
-						}
-					]
-				},
-				{
-					"name": "Posterior Cingulate \u2013 Rostral Anterior Cingulate",
-					"children": [
-						{
-							"name": "lh_PoCi-RAC_0"
-						}
-					]
-				},
-				{
-					"name": "Posterior Cingulate \u2013 Superior Frontal",
-					"children": [
-						{
-							"name": "lh_PoCi-SF_0"
-						}
-					]
-				},
-				{
-					"name": "Poscentral - Precentral",
-					"children": [
-						{
-							"name": "lh_PoC-PrC_0"
-						},
-						{
-							"name": "lh_PoC-PrC_1"
-						},
-						{
-							"name": "lh_PoC-PrC_2"
-						},
-						{
-							"name": "lh_PoC-PrC_3"
-						}
-					]
-				},
-				{
-					"name": "Poscentral - Supramarginal",
-					"children": [
-						{
-							"name": "lh_PoC-SM_0"
-						},
-						{
-							"name": "lh_PoC-SM_1"
-						}
-					]
-				},
-				{
-					"name": "Precentral - Insula",
-					"children": [
-						{
-							"name": "lh_PrC-Ins_0"
-						}
-					]
-				},
-				{
-					"name": "Precentral \u2013 Superior Frontal",
-					"children": [
-						{
-							"name": "lh_PrC-SF_0"
-						}
-					]
-				},
-				{
-					"name": "Precentral - Supramarginal",
-					"children": [
-						{
-							"name": "lh_PrC-SM_0"
-						}
-					]
-				},
-				{
-					"name": "Rostral Anterior Cingulate \u2013 Superior Frontal",
-					"children": [
-						{
-							"name": "lh_RAC-SF_1"
-						}
-					]
-				},
-				{
-					"name": "Rostral Middle Frontal \u2013 Superior Frontal",
-					"children": [
-						{
-							"name": "lh_RMF-SF_0"
-						},
-						{
-							"name": "lh_RMF-SF_1"
-						}
-					]
-				},
-				{
-					"name": "Supramarginal - Insula",
-					"children": [
-						{
-							"name": "lh_SM-Ins_0"
-						}
-					]
-				},
-				{
-					"name": "Superior Parietal - Supramarginal",
-					"children": [
-						{
-							"name": "lh_SP-SM_0"
-						}
-					]
-				},
-				{
-					"name": "Superior Temporal - Insula",
-					"children": [
-						{
-							"name": "lh_ST-Ins_0"
-						}
-					]
-				},
-				{
-					"name": "Superior Temporal \u2013 Transverse Temporal",
-					"children": [
-						{
-							"name": "lh_ST-TT_0"
-						}
-					]
-				},
-				{
-					"name": "Pars Triangularis - Insula",
-					"children": [
-						{
-							"name": "lh_Tr-Ins_0"
-						}
-					]
-				},
-				{
-					"name": "Pars Triangularis \u2013 Superior Frontal",
-					"children": [
-						{
-							"name": "lh_Tr-SF_0"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Right Hemisphere",
-			"children": [
-				{
-					"name": "Caudal Middle Frontal \u2013 Posterior Cingulate",
-					"children": [
-						{
-							"name": "rh_CAC-PoCi_0"
-						}
-					]
-				},
-				{
-					"name": "Caudal Middle Frontal - Precuneus",
-					"children": [
-						{
-							"name": "rh_CAC-PrCu_0"
-						}
-					]
-				},
-				{
-					"name": "Caudal Middle Frontal - Precentral",
-					"children": [
-						{
-							"name": "rh_CMF-PrC_0"
-						},
-						{
-							"name": "rh_CMF-PrC_1"
-						}
-					]
-				},
-				{
-					"name": "Caudal Middle Frontal \u2013 Rostral Middle Frontal",
-					"children": [
-						{
-							"name": "rh_CMF-RMF_0"
-						}
-					]
-				},
-				{
-					"name": "Caudal Middle Frontal \u2013 Superior Frontal",
-					"children": [
-						{
-							"name": "rh_CMF-SF_0"
-						}
-					]
-				},
-				{
-					"name": "Caudal Middle Frontal \u2013 Superior Frontal\t\t",
-					"children": [
-						{
-							"name": "rh_CMF-SF_1"
-						}
-					]
-				},
-				{
-					"name": "Cuneus - Lingual",
-					"children": [
-						{
-							"name": "rh_Cu-Li_0"
-						}
-					]
-				},
-				{
-					"name": "Fusiform \u2013 Lateral Occipital",
-					"children": [
-						{
-							"name": "rh_Fu-LO_1"
-						}
-					]
-				},
-				{
-					"name": "Isthmus Cingulate - Precuneus",
-					"children": [
-						{
-							"name": "rh_IC-PrCu_0"
-						}
-					]
-				},
-				{
-					"name": "Inferior Parietal \u2013 Inferior Temporal ",
-					"children": [
-						{
-							"name": "rh_IP-IT_0"
-						}
-					]
-				},
-				{
-					"name": "Inferior Parietal \u2013 Lateral Occipital",
-					"children": [
-						{
-							"name": "rh_IP-LO_0"
-						}
-					]
-				},
-				{
-					"name": "Inferior Parietal \u2013 Middle Temporal",
-					"children": [
-						{
-							"name": "rh_IP-MT_0"
-						}
-					]
-				},
-				{
-					"name": "Inferior Parietal - Supramarginal",
-					"children": [
-						{
-							"name": "rh_IP-SM_0"
-						}
-					]
-				},
-				{
-					"name": "Inferior Parietal \u2013 Superior Parietal",
-					"children": [
-						{
-							"name": "rh_IP-SP_0"
-						}
-					]
-				},
-				{
-					"name": "Inferior Temporal \u2013 Middle Temporal",
-					"children": [
-						{
-							"name": "rh_IT-MT_1"
-						},
-						{
-							"name": "rh_IT-MT_2"
-						}
-					]
-				},
-				{
-					"name": "Lateral Orbitofrontal \u2013 Middle Orbitofrontal",
-					"children": [
-						{
-							"name": "rh_LOF-MOF_0"
-						}
-					]
-				},
-				{
-					"name": "Lateral Orbitofrontal \u2013 Rostral Middle Frontal",
-					"children": [
-						{
-							"name": "rh_LOF-RMF_0"
-						},
-						{
-							"name": "rh_LOF-RMF_1"
-						}
-					]
-				},
-				{
-					"name": "Lateral Orbitofrontal \u2013 Superior Temporal",
-					"children": [
-						{
-							"name": "rh_LOF-ST_0"
-						}
-					]
-				},
-				{
-					"name": "Lateral Orbitofrontal \u2013 Superior Parietal",
-					"children": [
-						{
-							"name": "rh_LO-SP_0"
-						}
-					]
-				},
-				{
-					"name": "Middle Orbitofrontal \u2013 Superior Temporal",
-					"children": [
-						{
-							"name": "rh_MOF-ST_0"
-						}
-					]
-				},
-				{
-					"name": "Middle Temporal - Supramarginal",
-					"children": [
-						{
-							"name": "rh_MT-SM_0"
-						}
-					]
-				},
-				{
-					"name": "Middle Temporal \u2013 Superior Temporal",
-					"children": [
-						{
-							"name": "rh_MT-ST_0"
-						}
-					]
-				},
-				{
-					"name": "Pars Opercularis - Insula",
-					"children": [
-						{
-							"name": "rh_Op-Ins_0"
-						}
-					]
-				},
-				{
-					"name": "Pars Opercularis - Precentral",
-					"children": [
-						{
-							"name": "rh_Op-PrC_0"
-						}
-					]
-				},
-				{
-					"name": "Pars Opercularis \u2013 Superior Frontal",
-					"children": [
-						{
-							"name": "rh_Op-SF_0"
-						}
-					]
-				},
-				{
-					"name": "Pars Opercularis \u2013 Pars Triangularis",
-					"children": [
-						{
-							"name": "rh_Op-Tr_0"
-						}
-					]
-				},
-				{
-					"name": "Pars Orbitalis - Insula",
-					"children": [
-						{
-							"name": "rh_Or-Ins_0"
-						}
-					]
-				},
-				{
-					"name": "Posterior Cingulate - Precuneus",
-					"children": [
-						{
-							"name": "rh_PoCi-PrCu_1"
-						},
-						{
-							"name": "rh_PoCi-PrCu_2"
-						}
-					]
-				},
-				{
-					"name": "Posterior Cingulate \u2013 Rostral Anterior Cingulate",
-					"children": [
-						{
-							"name": "rh_PoCi-RAC_0"
-						}
-					]
-				},
-				{
-					"name": "Poscentral - Precentral",
-					"children": [
-						{
-							"name": "rh_PoC-PrC_0"
-						},
-						{
-							"name": "rh_PoC-PrC_1"
-						},
-						{
-							"name": "rh_PoC-PrC_2"
-						}
-					]
-				},
-				{
-					"name": "Postcentral - Supramarginal",
-					"children": [
-						{
-							"name": "rh_PoC-SM_0"
-						}
-					]
-				},
-				{
-					"name": "Postcentral \u2013 Superior Parietal",
-					"children": [
-						{
-							"name": "rh_PoC-SP_0"
-						},
-						{
-							"name": "rh_PoC-SP_1"
-						}
-					]
-				},
-				{
-					"name": "Precentral - Insula",
-					"children": [
-						{
-							"name": "rh_PrC-Ins_0"
-						}
-					]
-				},
-				{
-					"name": "Precentral - Supramarginal\t",
-					"children": [
-						{
-							"name": "rh_PrC-SM_0"
-						}
-					]
-				},
-				{
-					"name": "Precentral \u2013 Superior Parietal",
-					"children": [
-						{
-							"name": "rh_PrC-SP_0"
-						}
-					]
-				},
-				{
-					"name": "Rostral Anterior Cingulate",
-					"children": [
-						{
-							"name": "rh_RAC-SF_0"
-						}
-					]
-				},
-				{
-					"name": "Rostral Middle Frontal \u2013 Superior Frontal",
-					"children": [
-						{
-							"name": "rh_RMF-SF_0"
-						},
-						{
-							"name": "rh_RMF-SF_1"
-						}
-					]
-				},
-				{
-					"name": "Supramarginal - Insula",
-					"children": [
-						{
-							"name": "rh_SM-Ins_0"
-						}
-					]
-				},
-				{
-					"name": "Superior Parietal - Supramarginal",
-					"children": [
-						{
-							"name": "rh_SP-SM_0"
-						}
-					]
-				},
-				{
-					"name": "Superior Temporal \u2013 Transverse Temporal",
-					"children": [
-						{
-							"name": "rh_ST-TT_0"
-						}
-					]
-				},
-				{
-					"name": "Pars Triangularis - Insula",
-					"children": [
-						{
-							"name": "rh_Tr-Ins_0"
-						}
-					]
-				},
-				{
-					"name": "Pars Triangularis \u2013 Superior Frontal",
-					"children": [
-						{
-							"name": "rh_Tr-SF_0"
-						}
-					]
-				}
-			]
-		}
-	],
-	"ebrains": {
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-		"openminds/BrainAtlasVersion": "a0d69a7e-a053-4108-adff-3993ca851fcb",
-		"openminds/DatasetVersion": "f58e4425-6614-4ad9-ac26-5e946b1296cb"
-	},
-	"publications": [
-		{
-			"citation": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas. NeuroImage, 61(4),1083-99.",
-			"url": "https://doi.org/10.1016/j.neuroimage.2012.02.071"
-		}
-	]
+    "@type": "siibra/atlases/parcellation/v0.1",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "juelich/iav/atlas/v1.0.0/6"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "Superficial fibre bundles",
+            "shortform": "Superficial fibre bundles"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "fibre architecture"
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/BrainAtlasVersion": "a0d69a7e-a053-4108-adff-3993ca851fcb",
+                "openminds/DatasetVersion": "f58e4425-6614-4ad9-ac26-5e946b1296cb"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/publication/v0.1",
+            "citation": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas. NeuroImage, 61(4),1083-99.",
+            "doi": {
+                "doi": "https://doi.org/10.1016/j.neuroimage.2012.02.071"
+            }
+        }
+    ],
+    "regions": [
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Hemisphere"
+                }
+            ],
+            "children": [
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Caudal Middle Frontal - Precuneus"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_CAC-PrCu_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Caudal Middle Frontal \u2013 Pars Opercularis"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_CMF-Op_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Caudal Middle Frontal - Poscentral"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_CMF-PoC_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Caudal Middle Frontal - Precentral"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_CMF-PrC_0"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_CMF-PrC_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Caudal Middle Frontal \u2013 Rostral Middle Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_CMF-RMF_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Caudal Middle Frontal \u2013 Superior Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_CMF-SF_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Fusiform \u2013 Lateral Occipital"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_Fu-LO_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Isthmus Cingulate - Precuneus"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_IC-PrCu_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Inferior Parietal \u2013 Inferior Temporal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_IP-IT_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Inferior Parietal \u2013 Lateral Occipital"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_IP-LO_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Inferior Parietal \u2013 Middle Temporal\t"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_IP-MT_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Inferior Parietal - Supramarginal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_IP-SM_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Inferior Pariertal \u2013 Superior Parietal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_IP-SP_0"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_IP-SP_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Inferior Temporal \u2013 Middle Temporal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_IT-MT_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Lateral Orbitofrontal \u2013 Pars Orbitalis"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_LOF-Or_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Lateral Orbitofrontal \u2013 Rostral Middle Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_LOF-RMF_0"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_LOF-RMF_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Lateral Orbitofrontal \u2013 Superior Temporal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_LOF-ST_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Middle Orbitofrontal \u2013 Superior Temporal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_MOF-ST_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Middle Temporal - Supramarginal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_MT-SM_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Middle Temporal \u2013 Superior Temporal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_MT-ST_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Pars Opercularis - Insula"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_Op-Ins_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Pars Opercularis - Precentral`"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_Op-PrC_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Pars Opercularis \u2013 Superior Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_Op-SF_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Pars Orbitalis - Insula"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_Or-Ins_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Postcentral - Insula"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PoC-Ins_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Poscentral - Precuneus"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PoCi-PrCu_0"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PoCi-PrCu_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Posterior Cingulate \u2013 Rostral Anterior Cingulate"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PoCi-RAC_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Posterior Cingulate \u2013 Superior Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PoCi-SF_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Poscentral - Precentral"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PoC-PrC_0"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PoC-PrC_1"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PoC-PrC_2"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PoC-PrC_3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Poscentral - Supramarginal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PoC-SM_0"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PoC-SM_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Precentral - Insula"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PrC-Ins_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Precentral \u2013 Superior Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PrC-SF_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Precentral - Supramarginal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_PrC-SM_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Rostral Anterior Cingulate \u2013 Superior Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_RAC-SF_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Rostral Middle Frontal \u2013 Superior Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_RMF-SF_0"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_RMF-SF_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Supramarginal - Insula"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_SM-Ins_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Superior Parietal - Supramarginal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_SP-SM_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Superior Temporal - Insula"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_ST-Ins_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Superior Temporal \u2013 Transverse Temporal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_ST-TT_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Pars Triangularis - Insula"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_Tr-Ins_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Pars Triangularis \u2013 Superior Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "lh_Tr-SF_0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Hemisphere"
+                }
+            ],
+            "children": [
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Caudal Middle Frontal \u2013 Posterior Cingulate"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_CAC-PoCi_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Caudal Middle Frontal - Precuneus"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_CAC-PrCu_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Caudal Middle Frontal - Precentral"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_CMF-PrC_0"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_CMF-PrC_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Caudal Middle Frontal \u2013 Rostral Middle Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_CMF-RMF_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Caudal Middle Frontal \u2013 Superior Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_CMF-SF_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Caudal Middle Frontal \u2013 Superior Frontal\t\t"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_CMF-SF_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Cuneus - Lingual"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_Cu-Li_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Fusiform \u2013 Lateral Occipital"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_Fu-LO_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Isthmus Cingulate - Precuneus"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_IC-PrCu_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Inferior Parietal \u2013 Inferior Temporal "
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_IP-IT_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Inferior Parietal \u2013 Lateral Occipital"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_IP-LO_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Inferior Parietal \u2013 Middle Temporal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_IP-MT_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Inferior Parietal - Supramarginal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_IP-SM_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Inferior Parietal \u2013 Superior Parietal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_IP-SP_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Inferior Temporal \u2013 Middle Temporal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_IT-MT_1"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_IT-MT_2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Lateral Orbitofrontal \u2013 Middle Orbitofrontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_LOF-MOF_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Lateral Orbitofrontal \u2013 Rostral Middle Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_LOF-RMF_0"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_LOF-RMF_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Lateral Orbitofrontal \u2013 Superior Temporal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_LOF-ST_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Lateral Orbitofrontal \u2013 Superior Parietal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_LO-SP_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Middle Orbitofrontal \u2013 Superior Temporal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_MOF-ST_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Middle Temporal - Supramarginal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_MT-SM_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Middle Temporal \u2013 Superior Temporal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_MT-ST_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Pars Opercularis - Insula"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_Op-Ins_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Pars Opercularis - Precentral"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_Op-PrC_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Pars Opercularis \u2013 Superior Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_Op-SF_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Pars Opercularis \u2013 Pars Triangularis"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_Op-Tr_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Pars Orbitalis - Insula"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_Or-Ins_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Posterior Cingulate - Precuneus"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_PoCi-PrCu_1"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_PoCi-PrCu_2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Posterior Cingulate \u2013 Rostral Anterior Cingulate"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_PoCi-RAC_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Poscentral - Precentral"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_PoC-PrC_0"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_PoC-PrC_1"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_PoC-PrC_2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Postcentral - Supramarginal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_PoC-SM_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Postcentral \u2013 Superior Parietal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_PoC-SP_0"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_PoC-SP_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Precentral - Insula"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_PrC-Ins_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Precentral - Supramarginal\t"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_PrC-SM_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Precentral \u2013 Superior Parietal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_PrC-SP_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Rostral Anterior Cingulate"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_RAC-SF_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Rostral Middle Frontal \u2013 Superior Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_RMF-SF_0"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_RMF-SF_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Supramarginal - Insula"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_SM-Ins_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Superior Parietal - Supramarginal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_SP-SM_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Superior Temporal \u2013 Transverse Temporal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_ST-TT_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Pars Triangularis - Insula"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_Tr-Ins_0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Pars Triangularis \u2013 Superior Frontal"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "rh_Tr-SF_0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

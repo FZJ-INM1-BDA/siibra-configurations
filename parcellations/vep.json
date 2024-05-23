@@ -1,789 +1,2494 @@
 {
-	"@id": "https://doi.org/10.1016/j.jneumeth.2020.108983/mni152",
-	"@type": "siibra/parcellation/v0.0.1",
-	"name": "Virtual Epileptic Patient Atlas",
-	"shortName": "VEP Atlas",
-	"description": "The Virtual Epileptic Patient (VEP) atlas offers an automated brain region parcellation and labeling, which has been developed for the specific use in the domains of epileptology and functional neurosurgery. It is able to apply at individual patient\u2019s level.It comprises 162 brain regions, including 73 cortical and 8 subcortical regions per hemisphere. We demonstrate the successful application of the VEP atlas in a cohort of 50 retrospective patients. The structural organization is complemented by the functional variation of stereotactic intracerebral EEG (SEEG) signal data features establishing brain region-specific 3d-maps. The VEP atlas integrates both anatomical and functional definitions in the same atlas, adapted to applications for epilepsy patients and individualizable.",
-	"species": "homo sapiens",
-	"ebrains": {
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
-	},
-	"regions": [
-		{
-			"name": "Left-Cerebral-White-Matter",
-			"rgb": "#F5F5F5"
-		},
-		{
-			"name": "Left-Lateral-Ventricle",
-			"rgb": "#781286"
-		},
-		{
-			"name": "Left-Inf-Lat-Vent",
-			"rgb": "#C43AFA"
-		},
-		{
-			"name": "Left-Cerebellum-White-Matter",
-			"rgb": "#DCF8A4"
-		},
-		{
-			"name": "Left-Thalamus",
-			"rgb": "#00760E"
-		},
-		{
-			"name": "Left-Putamen",
-			"rgb": "#EC0DB0"
-		},
-		{
-			"name": "Left-Pallidum",
-			"rgb": "#0C30FF"
-		},
-		{
-			"name": "3rd-Ventricle",
-			"rgb": "#CCB68E"
-		},
-		{
-			"name": "4th-Ventricle",
-			"rgb": "#2ACCA4"
-		},
-		{
-			"name": "Brain-Stem",
-			"rgb": "#779FB0"
-		},
-		{
-			"name": "Left-Amygdala",
-			"rgb": "#67FFFF"
-		},
-		{
-			"name": "CSF",
-			"rgb": "#3C3C3C"
-		},
-		{
-			"name": "Left-VentralDC",
-			"rgb": "#A52A2A"
-		},
-		{
-			"name": "Left-vessel",
-			"rgb": "#A020F0"
-		},
-		{
-			"name": "Left-choroid-plexus",
-			"rgb": "#00C8C8"
-		},
-		{
-			"name": "Right-Cerebral-White-Matter",
-			"rgb": "#F5F5F5"
-		},
-		{
-			"name": "Right-Lateral-Ventricle",
-			"rgb": "#781286"
-		},
-		{
-			"name": "Right-Inf-Lat-Vent",
-			"rgb": "#C43AFA"
-		},
-		{
-			"name": "Right-Cerebellum-White-Matter",
-			"rgb": "#DCF8A4"
-		},
-		{
-			"name": "Right-Thalamus",
-			"rgb": "#00760E"
-		},
-		{
-			"name": "Right-Putamen",
-			"rgb": "#EC0DB0"
-		},
-		{
-			"name": "Right-Pallidum",
-			"rgb": "#0D30FF"
-		},
-		{
-			"name": "Right-Amygdala",
-			"rgb": "#67FFFF"
-		},
-		{
-			"name": "Right-VentralDC",
-			"rgb": "#A52A2A"
-		},
-		{
-			"name": "Right-vessel",
-			"rgb": "#A020F0"
-		},
-		{
-			"name": "Right-choroid-plexus",
-			"rgb": "#00C8DD"
-		},
-		{
-			"name": "WM-hypointensities",
-			"rgb": "#C846FF"
-		},
-		{
-			"name": "Optic-Chiasm",
-			"rgb": "#EAA91E"
-		},
-		{
-			"name": "CC_Posterior",
-			"rgb": "#000040"
-		},
-		{
-			"name": "CC_Mid_Posterior",
-			"rgb": "#000070"
-		},
-		{
-			"name": "CC_Central",
-			"rgb": "#0000A0"
-		},
-		{
-			"name": "CC_Mid_Anterior",
-			"rgb": "#0000D0"
-		},
-		{
-			"name": "CC_Anterior",
-			"rgb": "#0000FF"
-		},
-		{
-			"name": "ctx-lh-unknown",
-			"rgb": "#190519"
-		},
-		{
-			"name": "ctx-rh-unknown",
-			"rgb": "#190519"
-		},
-		{
-			"name": "Left-Frontal-pole",
-			"rgb": "#EF5F0C"
-		},
-		{
-			"name": "Left-Orbito-frontal-cortex",
-			"rgb": "#C40A40"
-		},
-		{
-			"name": "Left-Gyrus-rectus",
-			"rgb": "#A9E1CC"
-		},
-		{
-			"name": "Left-F3-Pars-Orbitalis",
-			"rgb": "#B78CBF"
-		},
-		{
-			"name": "Left-F3-Pars-triangularis",
-			"rgb": "#FFFF20"
-		},
-		{
-			"name": "Left-F3-pars-opercularis",
-			"rgb": "#4E745F"
-		},
-		{
-			"name": "Left-Inferior-frontal-sulcus",
-			"rgb": "#AF12B1"
-		},
-		{
-			"name": "Left-F2-rostral",
-			"rgb": "#C93F73"
-		},
-		{
-			"name": "Left-F2-caudal",
-			"rgb": "#D2260C"
-		},
-		{
-			"name": "Left-Middle-frontal-sulcus",
-			"rgb": "#37F9DB"
-		},
-		{
-			"name": "Left-SFS-rostral",
-			"rgb": "#10A44C"
-		},
-		{
-			"name": "Left-SFS-caudal",
-			"rgb": "#D59BA4"
-		},
-		{
-			"name": "Left-F1-mesial-prefrontal",
-			"rgb": "#D51088"
-		},
-		{
-			"name": "Left-PreSMA",
-			"rgb": "#4FFC83"
-		},
-		{
-			"name": "Left-SMA",
-			"rgb": "#6D874B"
-		},
-		{
-			"name": "Left-F1-lateral-prefrontal",
-			"rgb": "#0040FF"
-		},
-		{
-			"name": "Left-F1-lateral-premotor",
-			"rgb": "#AEF818"
-		},
-		{
-			"name": "Left-Subcallosal-area",
-			"rgb": "#9801D4"
-		},
-		{
-			"name": "Left-Precentral-sulcus-inferior-part",
-			"rgb": "#1D11E3"
-		},
-		{
-			"name": "Left-Precentral-sulcus-superior-part",
-			"rgb": "#0805E7"
-		},
-		{
-			"name": "Left-Precentral-gyrus-head-face",
-			"rgb": "#2D72BF"
-		},
-		{
-			"name": "Left-Precentral-gyrus-upper-limb",
-			"rgb": "#FC18AE"
-		},
-		{
-			"name": "Left-Central-sulcus-head-face",
-			"rgb": "#7FB73D"
-		},
-		{
-			"name": "Left-Central-sulcus-upper-limb",
-			"rgb": "#409F3F"
-		},
-		{
-			"name": "Left-Paracentral-lobule",
-			"rgb": "#65E8FA"
-		},
-		{
-			"name": "Left-Central-operculum",
-			"rgb": "#C000E0"
-		},
-		{
-			"name": "Left-Parietal-operculum",
-			"rgb": "#50EC92"
-		},
-		{
-			"name": "Left-Anterior-cingulate-cortex",
-			"rgb": "#C6F031"
-		},
-		{
-			"name": "Left-Middle-cingulate-cortex-anterior-part",
-			"rgb": "#8A23E4"
-		},
-		{
-			"name": "Left-Middle-cingulate-cortex-posterior-part",
-			"rgb": "#87A7D2"
-		},
-		{
-			"name": "Left-Posterior-cingulate-cortex-dorsal",
-			"rgb": "#13BCAF"
-		},
-		{
-			"name": "Left-Posterior-cingulate-cortex-retrosplenial-gyrus",
-			"rgb": "#FF40C0"
-		},
-		{
-			"name": "Left-Insula-gyri-brevi",
-			"rgb": "#856676"
-		},
-		{
-			"name": "Left-Insula-gyri-longi",
-			"rgb": "#F11F91"
-		},
-		{
-			"name": "Left-Temporal-pole",
-			"rgb": "#F0FF3C"
-		},
-		{
-			"name": "Left-T1-planum-polare",
-			"rgb": "#B3BB9C"
-		},
-		{
-			"name": "Left-Gyrus-of-Heschl",
-			"rgb": "#B56BA2"
-		},
-		{
-			"name": "Left-T1-planum-temporale",
-			"rgb": "#39BCD0"
-		},
-		{
-			"name": "Left-T1-lateral-anterior",
-			"rgb": "#F153F6"
-		},
-		{
-			"name": "Left-T1-lateral-posterior",
-			"rgb": "#FFFF60"
-		},
-		{
-			"name": "Left-STS-anterior",
-			"rgb": "#D55A7A"
-		},
-		{
-			"name": "Left-STS-posterior",
-			"rgb": "#6A817E"
-		},
-		{
-			"name": "Left-ITS-anterior",
-			"rgb": "#90C0EC"
-		},
-		{
-			"name": "Left-ITS-posterior",
-			"rgb": "#1F0C76"
-		},
-		{
-			"name": "Left-T2-anterior",
-			"rgb": "#1A66F2"
-		},
-		{
-			"name": "Left-T2-posterior",
-			"rgb": "#387646"
-		},
-		{
-			"name": "Left-T3-anterior",
-			"rgb": "#62C20A"
-		},
-		{
-			"name": "Left-T3-posterior",
-			"rgb": "#3EC0EE"
-		},
-		{
-			"name": "Left-Fusiform-gyrus",
-			"rgb": "#CC34C7"
-		},
-		{
-			"name": "Left-Occipito-temporal-sulcus",
-			"rgb": "#FFC060"
-		},
-		{
-			"name": "Left-Collateral-sulcus",
-			"rgb": "#0A80FF"
-		},
-		{
-			"name": "Left-Lingual-sulcus",
-			"rgb": "#1C3551"
-		},
-		{
-			"name": "Left-Parahippocampal-cortex",
-			"rgb": "#DA8538"
-		},
-		{
-			"name": "Left-Rhinal-cortex",
-			"rgb": "#4CFD77"
-		},
-		{
-			"name": "Left-Postcentral-gyrus",
-			"rgb": "#680CC2"
-		},
-		{
-			"name": "Left-Postcentral-sulcus",
-			"rgb": "#8D94DA"
-		},
-		{
-			"name": "Left-Superior-parietal-lobule-P1",
-			"rgb": "#FFFF00"
-		},
-		{
-			"name": "Left-Supramarginal-anterior",
-			"rgb": "#C00020"
-		},
-		{
-			"name": "Left-Supramarginal-posterior",
-			"rgb": "#37E38B"
-		},
-		{
-			"name": "Left-Angular-gyrus",
-			"rgb": "#73B216"
-		},
-		{
-			"name": "Left-Intraparietal-sulcus",
-			"rgb": "#F3823D"
-		},
-		{
-			"name": "Left-Precuneus",
-			"rgb": "#5E76F5"
-		},
-		{
-			"name": "Left-Marginal-branch-of-the-cingulate-sulcus",
-			"rgb": "#5E0AC1"
-		},
-		{
-			"name": "Left-Parieto-occipital-sulcus",
-			"rgb": "#D73831"
-		},
-		{
-			"name": "Left-Anterior-occipital-sulcus-and-preoccipital-notch",
-			"rgb": "#AFE4EB"
-		},
-		{
-			"name": "Left-O3",
-			"rgb": "#6DF160"
-		},
-		{
-			"name": "Left-O2",
-			"rgb": "#0080FF"
-		},
-		{
-			"name": "Left-O1",
-			"rgb": "#B331A5"
-		},
-		{
-			"name": "Left-Occipital-pole",
-			"rgb": "#873524"
-		},
-		{
-			"name": "Left-Lingual-gyrus",
-			"rgb": "#FFFF3C"
-		},
-		{
-			"name": "Left-Calcarine-sulcus",
-			"rgb": "#0000DC"
-		},
-		{
-			"name": "Left-Cuneus",
-			"rgb": "#2CFB83"
-		},
-		{
-			"name": "Left-Hippocampus-anterior",
-			"rgb": "#F05F0C"
-		},
-		{
-			"name": "Left-Hippocampus-posterior",
-			"rgb": "#C30A40"
-		},
-		{
-			"name": "Left-Caudate-nucleus",
-			"rgb": "#AAE1CC"
-		},
-		{
-			"name": "Left-Nucleus-accumbens",
-			"rgb": "#B88CBF"
-		},
-		{
-			"name": "Left-Cerebellar-cortex",
-			"rgb": "#BE16AD"
-		},
-		{
-			"name": "Right-Frontal-pole",
-			"rgb": "#EF5F0C"
-		},
-		{
-			"name": "Right-Orbito-frontal-cortex",
-			"rgb": "#C40A40"
-		},
-		{
-			"name": "Right-Gyrus-rectus",
-			"rgb": "#A9E1CC"
-		},
-		{
-			"name": "Right-F3-Pars-Orbitalis",
-			"rgb": "#B78CBF"
-		},
-		{
-			"name": "Right-F3-Pars-triangularis",
-			"rgb": "#FFFF20"
-		},
-		{
-			"name": "Right-F3-pars-opercularis",
-			"rgb": "#4E745F"
-		},
-		{
-			"name": "Right-Inferior-frontal-sulcus",
-			"rgb": "#AF12B1"
-		},
-		{
-			"name": "Right-F2-rostral",
-			"rgb": "#C93F73"
-		},
-		{
-			"name": "Right-F2-caudal",
-			"rgb": "#D2260C"
-		},
-		{
-			"name": "Right-Middle-frontal-sulcus",
-			"rgb": "#37F9DB"
-		},
-		{
-			"name": "Right-SFS-rostral",
-			"rgb": "#10A44C"
-		},
-		{
-			"name": "Right-SFS-caudal",
-			"rgb": "#D59BA4"
-		},
-		{
-			"name": "Right-F1-mesial-prefrontal",
-			"rgb": "#D51088"
-		},
-		{
-			"name": "Right-PreSMA",
-			"rgb": "#4FFC83"
-		},
-		{
-			"name": "Right-SMA",
-			"rgb": "#6D874B"
-		},
-		{
-			"name": "Right-F1-lateral-prefrontal",
-			"rgb": "#0040FF"
-		},
-		{
-			"name": "Right-F1-lateral-premotor",
-			"rgb": "#AEF818"
-		},
-		{
-			"name": "Right-Subcallosal-area",
-			"rgb": "#9801D4"
-		},
-		{
-			"name": "Right-Precentral-sulcus-inferior-part",
-			"rgb": "#1D11E3"
-		},
-		{
-			"name": "Right-Precentral-sulcus-superior-part",
-			"rgb": "#0805E7"
-		},
-		{
-			"name": "Right-Precentral-gyrus-head-face",
-			"rgb": "#2D72BF"
-		},
-		{
-			"name": "Right-Precentral-gyrus-upper-limb",
-			"rgb": "#FC18AE"
-		},
-		{
-			"name": "Right-Central-sulcus-head-face",
-			"rgb": "#7FB73D"
-		},
-		{
-			"name": "Right-Central-sulcus-upper-limb",
-			"rgb": "#409F3F"
-		},
-		{
-			"name": "Right-Paracentral-lobule",
-			"rgb": "#65E8FA"
-		},
-		{
-			"name": "Right-Central-operculum",
-			"rgb": "#C000E0"
-		},
-		{
-			"name": "Right-Parietal-operculum",
-			"rgb": "#50EC92"
-		},
-		{
-			"name": "Right-Anterior-cingulate-cortex",
-			"rgb": "#C6F031"
-		},
-		{
-			"name": "Right-Middle-cingulate-cortex-anterior-part",
-			"rgb": "#8A23E4"
-		},
-		{
-			"name": "Right-Middle-cingulate-cortex-posterior-part",
-			"rgb": "#87A7D2"
-		},
-		{
-			"name": "Right-Posterior-cingulate-cortex-dorsal",
-			"rgb": "#13BCAF"
-		},
-		{
-			"name": "Right-Posterior-cingulate-cortex-retrosplenial-gyrus",
-			"rgb": "#FF40C0"
-		},
-		{
-			"name": "Right-Insula-gyri-brevi",
-			"rgb": "#856676"
-		},
-		{
-			"name": "Right-Insula-gyri-longi",
-			"rgb": "#F11F91"
-		},
-		{
-			"name": "Right-Temporal-pole",
-			"rgb": "#F0FF3C"
-		},
-		{
-			"name": "Right-T1-planum-polare",
-			"rgb": "#B3BB9C"
-		},
-		{
-			"name": "Right-Gyrus-of-Heschl",
-			"rgb": "#B56BA2"
-		},
-		{
-			"name": "Right-T1-planum-temporale",
-			"rgb": "#39BCD0"
-		},
-		{
-			"name": "Right-T1-lateral-anterior",
-			"rgb": "#F153F6"
-		},
-		{
-			"name": "Right-T1-lateral-posterior",
-			"rgb": "#FFFF60"
-		},
-		{
-			"name": "Right-STS-anterior",
-			"rgb": "#D55A7A"
-		},
-		{
-			"name": "Right-STS-posterior",
-			"rgb": "#6A817E"
-		},
-		{
-			"name": "Right-ITS-anterior",
-			"rgb": "#90C0EC"
-		},
-		{
-			"name": "Right-ITS-posterior",
-			"rgb": "#1F0C76"
-		},
-		{
-			"name": "Right-T2-anterior",
-			"rgb": "#1A66F2"
-		},
-		{
-			"name": "Right-T2-posterior",
-			"rgb": "#387646"
-		},
-		{
-			"name": "Right-T3-anterior",
-			"rgb": "#62C20A"
-		},
-		{
-			"name": "Right-T3-posterior",
-			"rgb": "#3EC0EE"
-		},
-		{
-			"name": "Right-Fusiform-gyrus",
-			"rgb": "#CC34C7"
-		},
-		{
-			"name": "Right-Occipito-temporal-sulcus",
-			"rgb": "#FFC060"
-		},
-		{
-			"name": "Right-Collateral-sulcus",
-			"rgb": "#0A80FF"
-		},
-		{
-			"name": "Right-Lingual-sulcus",
-			"rgb": "#1C3551"
-		},
-		{
-			"name": "Right-Parahippocampal-cortex",
-			"rgb": "#DA8538"
-		},
-		{
-			"name": "Right-Rhinal-cortex",
-			"rgb": "#4CFD77"
-		},
-		{
-			"name": "Right-Postcentral-gyrus",
-			"rgb": "#680CC2"
-		},
-		{
-			"name": "Right-Postcentral-sulcus",
-			"rgb": "#8D94DA"
-		},
-		{
-			"name": "Right-Superior-parietal-lobule-P1",
-			"rgb": "#FFFF00"
-		},
-		{
-			"name": "Right-Supramarginal-anterior",
-			"rgb": "#C00020"
-		},
-		{
-			"name": "Right-Supramarginal-posterior",
-			"rgb": "#37E38B"
-		},
-		{
-			"name": "Right-Angular-gyrus",
-			"rgb": "#73B216"
-		},
-		{
-			"name": "Right-Intraparietal-sulcus",
-			"rgb": "#F3823D"
-		},
-		{
-			"name": "Right-Precuneus",
-			"rgb": "#5E76F5"
-		},
-		{
-			"name": "Right-Marginal-branch-of-the-cingulate-sulcus",
-			"rgb": "#5E0AC1"
-		},
-		{
-			"name": "Right-Parieto-occipital-sulcus",
-			"rgb": "#D73831"
-		},
-		{
-			"name": "Right-Anterior-occipital-sulcus-and-preoccipital-notch",
-			"rgb": "#AFE4EB"
-		},
-		{
-			"name": "Right-O3",
-			"rgb": "#6DF160"
-		},
-		{
-			"name": "Right-O2",
-			"rgb": "#0080FF"
-		},
-		{
-			"name": "Right-O1",
-			"rgb": "#B331A5"
-		},
-		{
-			"name": "Right-Occipital-pole",
-			"rgb": "#873524"
-		},
-		{
-			"name": "Right-Lingual-gyrus",
-			"rgb": "#FFFF3C"
-		},
-		{
-			"name": "Right-Calcarine-sulcus",
-			"rgb": "#0000DC"
-		},
-		{
-			"name": "Right-Cuneus",
-			"rgb": "#2CFB83"
-		},
-		{
-			"name": "Right-Hippocampus-anterior",
-			"rgb": "#F05F0C"
-		},
-		{
-			"name": "Right-Hippocampus-posterior",
-			"rgb": "#C30A40"
-		},
-		{
-			"name": "Right-Caudate-nucleus",
-			"rgb": "#AAE1CC"
-		},
-		{
-			"name": "Right-Nucleus-accumbens",
-			"rgb": "#B88CBF"
-		},
-		{
-			"name": "Right-Cerebellar-cortex",
-			"rgb": "#BE16AD"
-		}
-	],
-	"publications": [
-		{
-			"name": "VEP atlas: An anatomic and functional human brain atlas dedicated to epilepsy patients",
-			"url": "https://doi.org/10.1016/j.jneumeth.2020.108983",
-			"authors": [
-				"Huifang E. Wang",
-				"Julia Scholly",
-				"Paul Triebkorn",
-				"Viktor Sip",
-				"Samuel Medina Villalon",
-				"Marmaduke M. Woodman",
-				"Arnaud Le Troter",
-				"Maxime Guye",
-				"Fabrice Bartolomei",
-				"Viktor Jirsa"
-			],
-			"description": "Several automated parcellation atlases of the human brain have been developed over the past decades, based on various criteria, and have been applied in basic and clinical research. Here we present the Virtual Epileptic Patient (VEP) atlas that offers a new automated brain region parcellation and labeling, which has been developed for the specific use in the domains of epileptology and functional neurosurgery and is able to apply at individual patient’s level.",
-			"citation": "Wang HE, Scholly J, Triebkorn P, Sip V, Medina Villalon S, Woodman MM, Le Troter A, Guye M, Bartolomei F, Jirsa V. VEP atlas: An anatomic and functional human brain atlas dedicated to epilepsy patients. J Neurosci Methods. 2021 Jan 15;348:108983. doi: 10.1016/j.jneumeth.2020.108983. Epub 2020 Oct 24. PMID: 33121983."
-		}
-	]
+    "@type": "siibra/atlases/parcellation/v0.1",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "https://doi.org/10.1016/j.jneumeth.2020.108983/mni152"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "Virtual Epileptic Patient Atlas",
+            "shortform": "VEP Atlas"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": null
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/publication/v0.1",
+            "citation": "Wang HE, Scholly J, Triebkorn P, Sip V, Medina Villalon S, Woodman MM, Le Troter A, Guye M, Bartolomei F, Jirsa V. VEP atlas: An anatomic and functional human brain atlas dedicated to epilepsy patients. J Neurosci Methods. 2021 Jan 15;348:108983. doi: 10.1016/j.jneumeth.2020.108983. Epub 2020 Oct 24. PMID: 33121983.",
+            "doi": {
+                "doi": "https://doi.org/10.1016/j.jneumeth.2020.108983"
+            }
+        }
+    ],
+    "regions": [
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Cerebral-White-Matter"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#F5F5F5"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Lateral-Ventricle"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#781286"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Inf-Lat-Vent"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C43AFA"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Cerebellum-White-Matter"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#DCF8A4"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Thalamus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#00760E"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Putamen"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#EC0DB0"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Pallidum"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0C30FF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "3rd-Ventricle"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#CCB68E"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "4th-Ventricle"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#2ACCA4"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Brain-Stem"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#779FB0"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Amygdala"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#67FFFF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "CSF"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#3C3C3C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-VentralDC"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#A52A2A"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-vessel"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#A020F0"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-choroid-plexus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#00C8C8"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Cerebral-White-Matter"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#F5F5F5"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Lateral-Ventricle"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#781286"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Inf-Lat-Vent"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C43AFA"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Cerebellum-White-Matter"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#DCF8A4"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Thalamus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#00760E"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Putamen"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#EC0DB0"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Pallidum"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0D30FF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Amygdala"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#67FFFF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-VentralDC"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#A52A2A"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-vessel"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#A020F0"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-choroid-plexus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#00C8DD"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "WM-hypointensities"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C846FF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Optic-Chiasm"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#EAA91E"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "CC_Posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#000040"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "CC_Mid_Posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#000070"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "CC_Central"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0000A0"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "CC_Mid_Anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0000D0"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "CC_Anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0000FF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "ctx-lh-unknown"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#190519"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "ctx-rh-unknown"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#190519"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Frontal-pole"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#EF5F0C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Orbito-frontal-cortex"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C40A40"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Gyrus-rectus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#A9E1CC"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-F3-Pars-Orbitalis"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#B78CBF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-F3-Pars-triangularis"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FFFF20"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-F3-pars-opercularis"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#4E745F"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Inferior-frontal-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#AF12B1"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-F2-rostral"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C93F73"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-F2-caudal"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#D2260C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Middle-frontal-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#37F9DB"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-SFS-rostral"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#10A44C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-SFS-caudal"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#D59BA4"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-F1-mesial-prefrontal"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#D51088"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-PreSMA"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#4FFC83"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-SMA"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#6D874B"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-F1-lateral-prefrontal"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0040FF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-F1-lateral-premotor"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#AEF818"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Subcallosal-area"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#9801D4"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Precentral-sulcus-inferior-part"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#1D11E3"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Precentral-sulcus-superior-part"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0805E7"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Precentral-gyrus-head-face"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#2D72BF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Precentral-gyrus-upper-limb"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FC18AE"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Central-sulcus-head-face"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#7FB73D"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Central-sulcus-upper-limb"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#409F3F"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Paracentral-lobule"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#65E8FA"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Central-operculum"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C000E0"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Parietal-operculum"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#50EC92"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Anterior-cingulate-cortex"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C6F031"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Middle-cingulate-cortex-anterior-part"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#8A23E4"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Middle-cingulate-cortex-posterior-part"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#87A7D2"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Posterior-cingulate-cortex-dorsal"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#13BCAF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Posterior-cingulate-cortex-retrosplenial-gyrus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FF40C0"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Insula-gyri-brevi"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#856676"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Insula-gyri-longi"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#F11F91"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Temporal-pole"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#F0FF3C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-T1-planum-polare"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#B3BB9C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Gyrus-of-Heschl"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#B56BA2"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-T1-planum-temporale"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#39BCD0"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-T1-lateral-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#F153F6"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-T1-lateral-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FFFF60"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-STS-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#D55A7A"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-STS-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#6A817E"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-ITS-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#90C0EC"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-ITS-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#1F0C76"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-T2-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#1A66F2"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-T2-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#387646"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-T3-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#62C20A"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-T3-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#3EC0EE"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Fusiform-gyrus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#CC34C7"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Occipito-temporal-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FFC060"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Collateral-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0A80FF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Lingual-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#1C3551"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Parahippocampal-cortex"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#DA8538"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Rhinal-cortex"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#4CFD77"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Postcentral-gyrus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#680CC2"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Postcentral-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#8D94DA"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Superior-parietal-lobule-P1"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FFFF00"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Supramarginal-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C00020"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Supramarginal-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#37E38B"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Angular-gyrus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#73B216"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Intraparietal-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#F3823D"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Precuneus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#5E76F5"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Marginal-branch-of-the-cingulate-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#5E0AC1"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Parieto-occipital-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#D73831"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Anterior-occipital-sulcus-and-preoccipital-notch"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#AFE4EB"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-O3"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#6DF160"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-O2"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0080FF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-O1"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#B331A5"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Occipital-pole"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#873524"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Lingual-gyrus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FFFF3C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Calcarine-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0000DC"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Cuneus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#2CFB83"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Hippocampus-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#F05F0C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Hippocampus-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C30A40"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Caudate-nucleus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#AAE1CC"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Nucleus-accumbens"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#B88CBF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left-Cerebellar-cortex"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#BE16AD"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Frontal-pole"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#EF5F0C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Orbito-frontal-cortex"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C40A40"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Gyrus-rectus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#A9E1CC"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-F3-Pars-Orbitalis"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#B78CBF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-F3-Pars-triangularis"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FFFF20"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-F3-pars-opercularis"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#4E745F"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Inferior-frontal-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#AF12B1"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-F2-rostral"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C93F73"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-F2-caudal"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#D2260C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Middle-frontal-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#37F9DB"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-SFS-rostral"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#10A44C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-SFS-caudal"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#D59BA4"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-F1-mesial-prefrontal"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#D51088"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-PreSMA"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#4FFC83"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-SMA"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#6D874B"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-F1-lateral-prefrontal"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0040FF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-F1-lateral-premotor"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#AEF818"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Subcallosal-area"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#9801D4"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Precentral-sulcus-inferior-part"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#1D11E3"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Precentral-sulcus-superior-part"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0805E7"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Precentral-gyrus-head-face"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#2D72BF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Precentral-gyrus-upper-limb"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FC18AE"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Central-sulcus-head-face"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#7FB73D"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Central-sulcus-upper-limb"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#409F3F"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Paracentral-lobule"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#65E8FA"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Central-operculum"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C000E0"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Parietal-operculum"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#50EC92"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Anterior-cingulate-cortex"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C6F031"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Middle-cingulate-cortex-anterior-part"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#8A23E4"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Middle-cingulate-cortex-posterior-part"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#87A7D2"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Posterior-cingulate-cortex-dorsal"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#13BCAF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Posterior-cingulate-cortex-retrosplenial-gyrus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FF40C0"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Insula-gyri-brevi"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#856676"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Insula-gyri-longi"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#F11F91"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Temporal-pole"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#F0FF3C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-T1-planum-polare"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#B3BB9C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Gyrus-of-Heschl"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#B56BA2"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-T1-planum-temporale"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#39BCD0"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-T1-lateral-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#F153F6"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-T1-lateral-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FFFF60"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-STS-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#D55A7A"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-STS-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#6A817E"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-ITS-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#90C0EC"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-ITS-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#1F0C76"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-T2-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#1A66F2"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-T2-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#387646"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-T3-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#62C20A"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-T3-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#3EC0EE"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Fusiform-gyrus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#CC34C7"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Occipito-temporal-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FFC060"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Collateral-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0A80FF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Lingual-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#1C3551"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Parahippocampal-cortex"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#DA8538"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Rhinal-cortex"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#4CFD77"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Postcentral-gyrus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#680CC2"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Postcentral-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#8D94DA"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Superior-parietal-lobule-P1"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FFFF00"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Supramarginal-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C00020"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Supramarginal-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#37E38B"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Angular-gyrus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#73B216"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Intraparietal-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#F3823D"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Precuneus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#5E76F5"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Marginal-branch-of-the-cingulate-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#5E0AC1"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Parieto-occipital-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#D73831"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Anterior-occipital-sulcus-and-preoccipital-notch"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#AFE4EB"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-O3"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#6DF160"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-O2"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0080FF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-O1"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#B331A5"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Occipital-pole"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#873524"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Lingual-gyrus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FFFF3C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Calcarine-sulcus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#0000DC"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Cuneus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#2CFB83"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Hippocampus-anterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#F05F0C"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Hippocampus-posterior"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C30A40"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Caudate-nucleus"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#AAE1CC"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Nucleus-accumbens"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#B88CBF"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right-Cerebellar-cortex"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#BE16AD"
+                }
+            ]
+        }
+    ]
 }

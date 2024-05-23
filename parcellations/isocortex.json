@@ -1,38 +1,64 @@
 {
-	"name": "Isocortex Segmentation",
-	"shortName": "Isocortex",
-	"@id": "juelich/iav/atlas/v1.0.0/4",
-	"@type": "siibra/parcellation/v0.0.1",
-	"type": "parcellation",
-	"species": "homo sapiens",
-	"ebrains": {
-		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
-	},
-	"publications": [
-		{
-			"name": "BigBrain: initial tissue classification and surface extraction (2014)",
-			"url": "https://bigbrain.loris.ca/papers/HBM2014poster.pdf",
-			"authors": [
-				"Lindsay Lewis",
-				"Claude Lepage",
-				"Marc Fournier",
-				"Karl Zilles",
-				"Katrin Amunts",
-				"Alan Evans"
-			],
-			"description": "The BigBrain is a 3D, high-resolution reference tool that provides a new level of neuroanatomical insight into the human brain, presents a variety of novel computational challenges. Here, we have extended its processing pipeline to intensity inhomogeneity correction and cortical surface segmentation. This dataset may be utilized for automated extraction of quantitative morphological indices of cortical substructure over the entire brain, and will allow the extraction of microscopic data for modeling and simulation applications.",
-			"citation": "Lewis LB, Lepage C, Fournier M et al. BigBrain: initial tissue classification and surface extraction. F1000Posters 2014, 5:933 (poster)"
-		}
-	],
-	"regions": [
-		{
-			"name": "Isocortex",
-			"rgb": "#C8C8C8"
-		},
-		{
-			"name": "Non-isocortical structures",
-			"rgb": "#FFFFFF"
-		}
-	]
+    "@type": "siibra/atlases/parcellation/v0.1",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "juelich/iav/atlas/v1.0.0/4"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "Isocortex Segmentation",
+            "shortform": "Isocortex"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": null
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/publication/v0.1",
+            "citation": "Lewis LB, Lepage C, Fournier M et al. BigBrain: initial tissue classification and surface extraction. F1000Posters 2014, 5:933 (poster)",
+            "url": {
+                "url": "https://bigbrain.loris.ca/papers/HBM2014poster.pdf"
+            }
+        }
+    ],
+    "regions": [
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Isocortex"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#C8C8C8"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Non-isocortical structures"
+                },
+                {
+                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                    "value": "#FFFFFF"
+                }
+            ]
+        }
+    ]
 }

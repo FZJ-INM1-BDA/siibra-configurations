@@ -1,319 +1,922 @@
 {
-	"@id": "https://identifiers.org/neurovault.image:1702",
-	"@type": "siibra/parcellation/v0.0.1",
-	"name": "HarvardOxford cort maxprob thr0",
-	"shortName": "HarvardOxford cort maxprob thr0",
-	"description": "Maximum probabilty maps covering 48 cortical structural areas derived from structural data and segmentations provided by the Harvard Center for Morphometric Analysis. T1-weighted images of 21 healthy male and 16 healthy female subjects (ages 18-50) were individually segmented by the CMA using semi-automated tools developed in-house. The T1-weighted images were affine-registered to MNI152 space using FLIRT (FSL), and the transforms then applied to the individual labels. Finally, these were combined across subjects to form population probability maps for each label.",
-	"species": "homo sapiens",
-	"ebrains": {
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
-	},
-	"regions": [
-		{
-			"name": "Left Frontal Pole"
-		},
-		{
-			"name": "Right Frontal Pole"
-		},
-		{
-			"name": "Left Insular Cortex"
-		},
-		{
-			"name": "Right Insular Cortex"
-		},
-		{
-			"name": "Left Superior Frontal Gyrus"
-		},
-		{
-			"name": "Right Superior Frontal Gyrus"
-		},
-		{
-			"name": "Left Middle Frontal Gyrus"
-		},
-		{
-			"name": "Right Middle Frontal Gyrus"
-		},
-		{
-			"name": "Left Inferior Frontal Gyrus, pars triangularis"
-		},
-		{
-			"name": "Right Inferior Frontal Gyrus, pars triangularis"
-		},
-		{
-			"name": "Left Inferior Frontal Gyrus, pars opercularis"
-		},
-		{
-			"name": "Right Inferior Frontal Gyrus, pars opercularis"
-		},
-		{
-			"name": "Left Precentral Gyrus"
-		},
-		{
-			"name": "Right Precentral Gyrus"
-		},
-		{
-			"name": "Left Temporal Pole"
-		},
-		{
-			"name": "Right Temporal Pole"
-		},
-		{
-			"name": "Left Superior Temporal Gyrus, anterior division"
-		},
-		{
-			"name": "Right Superior Temporal Gyrus, anterior division"
-		},
-		{
-			"name": "Left Superior Temporal Gyrus, posterior division"
-		},
-		{
-			"name": "Right Superior Temporal Gyrus, posterior division"
-		},
-		{
-			"name": "Left Middle Temporal Gyrus, anterior division"
-		},
-		{
-			"name": "Right Middle Temporal Gyrus, anterior division"
-		},
-		{
-			"name": "Left Middle Temporal Gyrus, posterior division"
-		},
-		{
-			"name": "Right Middle Temporal Gyrus, posterior division"
-		},
-		{
-			"name": "Left Middle Temporal Gyrus, temporooccipital part"
-		},
-		{
-			"name": "Right Middle Temporal Gyrus, temporooccipital part"
-		},
-		{
-			"name": "Left Inferior Temporal Gyrus, anterior division"
-		},
-		{
-			"name": "Right Inferior Temporal Gyrus, anterior division"
-		},
-		{
-			"name": "Left Inferior Temporal Gyrus, posterior division"
-		},
-		{
-			"name": "Right Inferior Temporal Gyrus, posterior division"
-		},
-		{
-			"name": "Left Inferior Temporal Gyrus, temporooccipital part"
-		},
-		{
-			"name": "Right Inferior Temporal Gyrus, temporooccipital part"
-		},
-		{
-			"name": "Left Postcentral Gyrus"
-		},
-		{
-			"name": "Right Postcentral Gyrus"
-		},
-		{
-			"name": "Left Superior Parietal Lobule"
-		},
-		{
-			"name": "Right Superior Parietal Lobule"
-		},
-		{
-			"name": "Left Supramarginal Gyrus, anterior division"
-		},
-		{
-			"name": "Right Supramarginal Gyrus, anterior division"
-		},
-		{
-			"name": "Left Supramarginal Gyrus, posterior division"
-		},
-		{
-			"name": "Right Supramarginal Gyrus, posterior division"
-		},
-		{
-			"name": "Left Angular Gyrus"
-		},
-		{
-			"name": "Right Angular Gyrus"
-		},
-		{
-			"name": "Left Lateral Occipital Cortex, superior division"
-		},
-		{
-			"name": "Right Lateral Occipital Cortex, superior division"
-		},
-		{
-			"name": "Left Lateral Occipital Cortex, inferior division"
-		},
-		{
-			"name": "Right Lateral Occipital Cortex, inferior division"
-		},
-		{
-			"name": "Left Intracalcarine Cortex"
-		},
-		{
-			"name": "Right Intracalcarine Cortex"
-		},
-		{
-			"name": "Left Frontal Medial Cortex"
-		},
-		{
-			"name": "Right Frontal Medial Cortex"
-		},
-		{
-			"name": "Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)"
-		},
-		{
-			"name": "Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)"
-		},
-		{
-			"name": "Left Subcallosal Cortex"
-		},
-		{
-			"name": "Right Subcallosal Cortex"
-		},
-		{
-			"name": "Left Paracingulate Gyrus"
-		},
-		{
-			"name": "Right Paracingulate Gyrus"
-		},
-		{
-			"name": "Left Cingulate Gyrus, anterior division"
-		},
-		{
-			"name": "Right Cingulate Gyrus, anterior division"
-		},
-		{
-			"name": "Left Cingulate Gyrus, posterior division"
-		},
-		{
-			"name": "Right Cingulate Gyrus, posterior division"
-		},
-		{
-			"name": "Left Precuneous Cortex"
-		},
-		{
-			"name": "Right Precuneous Cortex"
-		},
-		{
-			"name": "Left Cuneal Cortex"
-		},
-		{
-			"name": "Right Cuneal Cortex"
-		},
-		{
-			"name": "Left Frontal Orbital Cortex"
-		},
-		{
-			"name": "Right Frontal Orbital Cortex"
-		},
-		{
-			"name": "Left Parahippocampal Gyrus, anterior division"
-		},
-		{
-			"name": "Right Parahippocampal Gyrus, anterior division"
-		},
-		{
-			"name": "Left Parahippocampal Gyrus, posterior division"
-		},
-		{
-			"name": "Right Parahippocampal Gyrus, posterior division"
-		},
-		{
-			"name": "Left Lingual Gyrus"
-		},
-		{
-			"name": "Right Lingual Gyrus"
-		},
-		{
-			"name": "Left Temporal Fusiform Cortex, anterior division"
-		},
-		{
-			"name": "Right Temporal Fusiform Cortex, anterior division"
-		},
-		{
-			"name": "Left Temporal Fusiform Cortex, posterior division"
-		},
-		{
-			"name": "Right Temporal Fusiform Cortex, posterior division"
-		},
-		{
-			"name": "Left Temporal Occipital Fusiform Cortex"
-		},
-		{
-			"name": "Right Temporal Occipital Fusiform Cortex"
-		},
-		{
-			"name": "Left Occipital Fusiform Gyrus"
-		},
-		{
-			"name": "Right Occipital Fusiform Gyrus"
-		},
-		{
-			"name": "Left Frontal Operculum Cortex"
-		},
-		{
-			"name": "Right Frontal Operculum Cortex"
-		},
-		{
-			"name": "Left Central Opercular Cortex"
-		},
-		{
-			"name": "Right Central Opercular Cortex"
-		},
-		{
-			"name": "Left Parietal Operculum Cortex"
-		},
-		{
-			"name": "Right Parietal Operculum Cortex"
-		},
-		{
-			"name": "Left Planum Polare"
-		},
-		{
-			"name": "Right Planum Polare"
-		},
-		{
-			"name": "Left Heschl's Gyrus (includes H1 and H2)"
-		},
-		{
-			"name": "Right Heschl's Gyrus (includes H1 and H2)"
-		},
-		{
-			"name": "Left Planum Temporale"
-		},
-		{
-			"name": "Right Planum Temporale"
-		},
-		{
-			"name": "Left Supracalcarine Cortex"
-		},
-		{
-			"name": "Right Supracalcarine Cortex"
-		},
-		{
-			"name": "Left Occipital Pole"
-		},
-		{
-			"name": "Right Occipital Pole"
-		}
-	],
-	"publications": [
-		{
-			"citation": "Makris N, Goldstein JM, Kennedy D, Hodge SM, Caviness VS, Faraone SV, Tsuang MT, Seidman LJ. Decreased volume of left and total anterior insular lobule in schizophrenia. Schizophr Res. 2006 Apr;83(2-3):155-71",
-			"url": "https://doi.org/10.1016/j.schres.2005.11.020"
-		},
-		{
-			"citation": "Frazier JA, Chiu S, Breeze JL, Makris N, Lange N, Kennedy DN, Herbert MR, Bent EK, Koneru VK, Dieterich ME, Hodge SM, Rauch SL, Grant PE, Cohen BM, Seidman LJ, Caviness VS, Biederman J. Structural brain magnetic resonance imaging of limbic and thalamic volumes in pediatric bipolar disorder. Am J Psychiatry. 2005 Jul;162(7):1256-65",
-			"url": "https://doi.org/10.1176/appi.ajp.162.7.1256"
-		},
-		{
-			"citation": "Desikan RS, S\u00e9gonne F, Fischl B, Quinn BT, Dickerson BC, Blacker D, Buckner RL, Dale AM, Maguire RP, Hyman BT, Albert MS, Killiany RJ. An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest. Neuroimage. 2006 Jul 1;31(3):968-80.",
-			"url": "https://doi.org/10.1016/j.neuroimage.2006.01.021"
-		},
-		{
-			"citation": "Goldstein JM, Seidman LJ, Makris N, Ahern T, O'Brien LM, Caviness VS Jr, Kennedy DN, Faraone SV, Tsuang MT. Hypothalamic abnormalities in schizophrenia: sex effects and genetic vulnerability. Biol Psychiatry. 2007 Apr 15;61(8):935-45",
-			"url": "https://doi.org/10.1016/j.biopsych.2006.06.027"
-		}
-	]
+    "@type": "siibra/atlases/parcellation/v0.1",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "https://identifiers.org/neurovault.image:1702"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "HarvardOxford cort maxprob thr0",
+            "shortform": "HarvardOxford cort maxprob thr0"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": null
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/publication/v0.1",
+            "citation": "Makris N, Goldstein JM, Kennedy D, Hodge SM, Caviness VS, Faraone SV, Tsuang MT, Seidman LJ. Decreased volume of left and total anterior insular lobule in schizophrenia. Schizophr Res. 2006 Apr;83(2-3):155-71",
+            "doi": {
+                "doi": "https://doi.org/10.1016/j.schres.2005.11.020"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/publication/v0.1",
+            "citation": "Frazier JA, Chiu S, Breeze JL, Makris N, Lange N, Kennedy DN, Herbert MR, Bent EK, Koneru VK, Dieterich ME, Hodge SM, Rauch SL, Grant PE, Cohen BM, Seidman LJ, Caviness VS, Biederman J. Structural brain magnetic resonance imaging of limbic and thalamic volumes in pediatric bipolar disorder. Am J Psychiatry. 2005 Jul;162(7):1256-65",
+            "doi": {
+                "doi": "https://doi.org/10.1176/appi.ajp.162.7.1256"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/publication/v0.1",
+            "citation": "Desikan RS, S\u00e9gonne F, Fischl B, Quinn BT, Dickerson BC, Blacker D, Buckner RL, Dale AM, Maguire RP, Hyman BT, Albert MS, Killiany RJ. An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest. Neuroimage. 2006 Jul 1;31(3):968-80.",
+            "doi": {
+                "doi": "https://doi.org/10.1016/j.neuroimage.2006.01.021"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/publication/v0.1",
+            "citation": "Goldstein JM, Seidman LJ, Makris N, Ahern T, O'Brien LM, Caviness VS Jr, Kennedy DN, Faraone SV, Tsuang MT. Hypothalamic abnormalities in schizophrenia: sex effects and genetic vulnerability. Biol Psychiatry. 2007 Apr 15;61(8):935-45",
+            "doi": {
+                "doi": "https://doi.org/10.1016/j.biopsych.2006.06.027"
+            }
+        }
+    ],
+    "regions": [
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Frontal Pole"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Frontal Pole"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Insular Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Insular Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Superior Frontal Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Superior Frontal Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Middle Frontal Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Middle Frontal Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Inferior Frontal Gyrus, pars triangularis"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Inferior Frontal Gyrus, pars triangularis"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Inferior Frontal Gyrus, pars opercularis"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Inferior Frontal Gyrus, pars opercularis"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Precentral Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Precentral Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Temporal Pole"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Temporal Pole"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Superior Temporal Gyrus, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Superior Temporal Gyrus, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Superior Temporal Gyrus, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Superior Temporal Gyrus, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Middle Temporal Gyrus, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Middle Temporal Gyrus, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Middle Temporal Gyrus, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Middle Temporal Gyrus, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Middle Temporal Gyrus, temporooccipital part"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Middle Temporal Gyrus, temporooccipital part"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Inferior Temporal Gyrus, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Inferior Temporal Gyrus, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Inferior Temporal Gyrus, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Inferior Temporal Gyrus, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Inferior Temporal Gyrus, temporooccipital part"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Inferior Temporal Gyrus, temporooccipital part"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Postcentral Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Postcentral Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Superior Parietal Lobule"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Superior Parietal Lobule"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Supramarginal Gyrus, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Supramarginal Gyrus, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Supramarginal Gyrus, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Supramarginal Gyrus, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Angular Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Angular Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Lateral Occipital Cortex, superior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Lateral Occipital Cortex, superior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Lateral Occipital Cortex, inferior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Lateral Occipital Cortex, inferior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Intracalcarine Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Intracalcarine Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Frontal Medial Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Frontal Medial Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Subcallosal Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Subcallosal Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Paracingulate Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Paracingulate Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Cingulate Gyrus, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Cingulate Gyrus, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Cingulate Gyrus, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Cingulate Gyrus, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Precuneous Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Precuneous Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Cuneal Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Cuneal Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Frontal Orbital Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Frontal Orbital Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Parahippocampal Gyrus, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Parahippocampal Gyrus, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Parahippocampal Gyrus, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Parahippocampal Gyrus, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Lingual Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Lingual Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Temporal Fusiform Cortex, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Temporal Fusiform Cortex, anterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Temporal Fusiform Cortex, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Temporal Fusiform Cortex, posterior division"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Temporal Occipital Fusiform Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Temporal Occipital Fusiform Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Occipital Fusiform Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Occipital Fusiform Gyrus"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Frontal Operculum Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Frontal Operculum Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Central Opercular Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Central Opercular Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Parietal Operculum Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Parietal Operculum Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Planum Polare"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Planum Polare"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Heschl's Gyrus (includes H1 and H2)"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Heschl's Gyrus (includes H1 and H2)"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Planum Temporale"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Planum Temporale"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Supracalcarine Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Supracalcarine Cortex"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Left Occipital Pole"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Right Occipital Pole"
+                }
+            ]
+        }
+    ]
 }

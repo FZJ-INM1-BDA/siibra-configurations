@@ -1,669 +1,1754 @@
 {
-	"@id": "minds/core/parcellationatlas/v1.0.0/11017b35-7056-4593-baad-3934d211daba",
-	"@type": "siibra/parcellation/v0.0.1",
-	"name": "Waxholm Space atlas of the Sprague Dawley rat brain (v1.01)",
-	"shortName": "Waxholm rat v1.01",
-	"description": "Waxholm Space atlas of the Sprague Dawley rat brain, first iteration with major brain regions delineated (76 structures).",
-	"modality": null,
-	"@version": {
-		"name": "1.01",
-		"@prev": null
-	},
-	"species": "rattus norvegicus",
-	"regions": [
-		{
-			"name": "Whole brain",
-			"children": [
-				{
-					"name": "White matter",
-					"children": [
-						{
-							"name": "corpus callosum and associated subcortical white matter",
-							"rgb": "#FF6E00",
-							"ebrains": {
-								"openminds/ParcellationEntity": "210430e8-22ed-4c0a-84cf-47fdb9a3f9df"
-							}
-						},
-						{
-							"name": "Anterior commissure",
-							"children": [
-								{
-									"name": "anterior commissure, anterior part",
-									"rgb": "#7CFC00",
-									"ebrains": {
-										"openminds/ParcellationEntity": "131f3fac-85fb-43ee-9d2b-b70cc03db534"
-									}
-								},
-								{
-									"name": "anterior commissure, posterior part",
-									"rgb": "#FFBA00",
-									"ebrains": {
-										"openminds/ParcellationEntity": "d9e4a309-3f15-48d2-9334-e1c748a46c5f"
-									}
-								},
-								{
-									"name": "anterior commissure, intrabulbar part",
-									"rgb": "#FF4FCE",
-									"ebrains": {
-										"openminds/ParcellationEntity": "e4b3af30-c8d6-4d1c-a18c-a53ec106a1d1"
-									}
-								}
-							],
-							"rgb": "#FFFFFF"
-						},
-						{
-							"name": "Hippocampal white matter",
-							"children": [
-								{
-									"name": "alveus of the hippocampus",
-									"rgb": "#FF00FF",
-									"ebrains": {
-										"openminds/ParcellationEntity": "90e49b7b-d73e-4da0-bb9c-3565109beb11"
-									}
-								},
-								{
-									"name": "ventral hippocampal commissure",
-									"rgb": "#AE00E8",
-									"ebrains": {
-										"openminds/ParcellationEntity": "570b863a-c731-46d6-84fd-f4a79a86de05"
-									}
-								},
-								{
-									"name": "fornix",
-									"rgb": "#15C0FF",
-									"ebrains": {
-										"openminds/ParcellationEntity": "4478c4e3-15b6-438d-8c11-866ed77ce8ab"
-									}
-								},
-								{
-									"name": "fimbria of the hippocampus",
-									"rgb": "#00FF1D",
-									"ebrains": {
-										"openminds/ParcellationEntity": "e0178839-f025-45ad-92a8-2144b922394b"
-									}
-								}
-							],
-							"rgb": "#FFFFFF"
-						},
-						{
-							"name": "Corticofugal pathways",
-							"children": [
-								{
-									"name": "corticofugal pathways",
-									"rgb": "#FF3427"
-								},
-								{
-									"name": "pyramidal decussation",
-									"rgb": "#7209D4",
-									"ebrains": {
-										"openminds/ParcellationEntity": "550a23b8-523b-4ad5-8e3e-3b290a4e3c7b"
-									}
-								}
-							],
-							"rgb": "#FFFFFF"
-						},
-						{
-							"name": "Medial lemniscus",
-							"children": [
-								{
-									"name": "medial lemniscus",
-									"rgb": "#D4FF00",
-									"ebrains": {
-										"openminds/ParcellationEntity": "193ee3b6-89ab-4489-9225-8df482e9d9d2"
-									}
-								},
-								{
-									"name": "medial lemniscus decussation",
-									"rgb": "#4196FF",
-									"ebrains": {
-										"openminds/ParcellationEntity": "2869da3f-7856-4579-bf99-96187127ff58"
-									}
-								}
-							],
-							"rgb": "#FFFFFF"
-						},
-						{
-							"name": "Thalamic tracts",
-							"children": [
-								{
-									"name": "mammillothalamic tract",
-									"rgb": "#EEBA00",
-									"ebrains": {
-										"openminds/ParcellationEntity": "264b93e4-577d-4608-a102-16e3576e2baa"
-									}
-								},
-								{
-									"name": "commissural stria terminalis",
-									"rgb": "#ADFF2F",
-									"ebrains": {
-										"openminds/ParcellationEntity": "bb49a12c-719e-44c8-a878-d17dab5a51d8"
-									}
-								},
-								{
-									"name": "fasciculus retroflexus",
-									"rgb": "#F44345",
-									"ebrains": {
-										"openminds/ParcellationEntity": "d1dc9bc4-39fd-4522-86cb-21427a583e70"
-									}
-								},
-								{
-									"name": "stria medullaris of the thalamus",
-									"rgb": "#FFFC00",
-									"ebrains": {
-										"openminds/ParcellationEntity": "25b766ba-3b1f-4743-a780-de3a7014ca62"
-									}
-								},
-								{
-									"name": "stria terminalis",
-									"rgb": "#EE7533",
-									"ebrains": {
-										"openminds/ParcellationEntity": "95a88a09-9e16-4380-a18f-73d2d1887b97"
-									}
-								},
-								{
-									"name": "habenular commissure",
-									"rgb": "#45EBCA",
-									"ebrains": {
-										"openminds/ParcellationEntity": "3cd42e76-c72a-4c5b-93a9-e701ae592be0"
-									}
-								}
-							],
-							"rgb": "#FFFFFF"
-						},
-						{
-							"name": "posterior commissure",
-							"rgb": "#FF00DA",
-							"ebrains": {
-								"openminds/ParcellationEntity": "701503dd-21ef-4327-b4f5-0b0468336847"
-							}
-						},
-						{
-							"name": "Facial nerve",
-							"children": [
-								{
-									"name": "facial nerve",
-									"rgb": "#00B03F",
-									"ebrains": {
-										"openminds/ParcellationEntity": "d64d9739-fb6d-48b6-b7c0-83262f44d2f6"
-									}
-								},
-								{
-									"name": "ascending fibers of the facial nerve",
-									"rgb": "#B31C35",
-									"ebrains": {
-										"openminds/ParcellationEntity": "e3be2514-7f23-4b9e-8494-c2d3298d16a2"
-									}
-								},
-								{
-									"name": "genu of the facial nerve",
-									"rgb": "#FAF4F7",
-									"ebrains": {
-										"openminds/ParcellationEntity": "ce43833a-df76-41f4-9aa8-1411d55b552c"
-									}
-								}
-							],
-							"rgb": "#FFFFFF"
-						},
-						{
-							"name": "Optic fiber system and supraoptic decussation",
-							"children": [
-								{
-									"name": "optic nerve",
-									"rgb": "#30DA00",
-									"ebrains": {
-										"openminds/ParcellationEntity": "c6e4ac34-5b2e-435f-b74b-e9dd7756a3c2"
-									}
-								},
-								{
-									"name": "optic tract and optic chiasm",
-									"rgb": "#267EFF",
-									"ebrains": {
-										"openminds/ParcellationEntity": "0cad21c9-1555-4eb2-b7e0-1214e5351f0b"
-									}
-								},
-								{
-									"name": "supraoptic decussation",
-									"rgb": "#FAAA40",
-									"ebrains": {
-										"openminds/ParcellationEntity": "a7b46068-d609-4977-8d5f-fc7fbf844791"
-									}
-								}
-							],
-							"rgb": "#FFFFFF"
-						},
-						{
-							"name": "spinal trigeminal tract",
-							"rgb": "#FA8072",
-							"ebrains": {
-								"openminds/ParcellationEntity": "59694ce1-3a9d-4a57-9ac5-52b7d24d01cd"
-							}
-						},
-						{
-							"name": "White matter of the tectum",
-							"children": [
-								{
-									"name": "commissure of the superior colliculus",
-									"rgb": "#21E6FF",
-									"ebrains": {
-										"openminds/ParcellationEntity": "76a9f3ff-e337-42cb-b853-dc04dcf5a76c"
-									}
-								},
-								{
-									"name": "brachium of the superior colliculus",
-									"rgb": "#BC20AD",
-									"ebrains": {
-										"openminds/ParcellationEntity": "02c37aa2-5418-4641-9990-08ddc243528d"
-									}
-								},
-								{
-									"name": "commissure of the inferior colliculus",
-									"rgb": "#93FF27",
-									"ebrains": {
-										"openminds/ParcellationEntity": "4587ceed-679d-4457-a97c-91f6e9d067d3"
-									}
-								}
-							],
-							"rgb": "#FFFFFF"
-						},
-						{
-							"name": "Cerebellar and precerebellar white matter",
-							"children": [
-								{
-									"name": "inferior cerebellar peduncle",
-									"rgb": "#34FF0D",
-									"ebrains": {
-										"openminds/ParcellationEntity": "af620e1c-b359-42bc-afd5-5a97f5ae7b98"
-									}
-								},
-								{
-									"name": "middle cerebellar peduncle",
-									"rgb": "#86CC4C",
-									"ebrains": {
-										"openminds/ParcellationEntity": "aa7e77b2-bfb1-426d-997a-cf54130aa9fa"
-									}
-								},
-								{
-									"name": "transverse fibers of the pons",
-									"rgb": "#80AAFF",
-									"ebrains": {
-										"openminds/ParcellationEntity": "3cd3385b-f024-4bf1-8bc8-ca48256cac49"
-									}
-								}
-							],
-							"rgb": "#FFFFFF"
-						}
-					],
-					"rgb": "#FFFFFF"
-				},
-				{
-					"name": "Gray matter",
-					"children": [
-						{
-							"name": "Olfactory system",
-							"children": [
-								{
-									"name": "glomerular layer of the accessory olfactory bulb",
-									"rgb": "#0F6DE6",
-									"ebrains": {
-										"openminds/ParcellationEntity": "f2b93fba-68e0-4b34-81d9-330f40a731a9"
-									}
-								},
-								{
-									"name": "glomerular layer of the olfactory bulb",
-									"rgb": "#FFE300",
-									"ebrains": {
-										"openminds/ParcellationEntity": "58861456-ef13-41c6-9fbb-049737ef8872"
-									}
-								},
-								{
-									"name": "olfactory bulb",
-									"rgb": "#FF8700",
-									"ebrains": {
-										"openminds/ParcellationEntity": "71888be9-d840-4d59-9cb0-cd6d6d1b4d4b"
-									}
-								}
-							],
-							"rgb": "#808080"
-						},
-						{
-							"name": "Cerebral cortex including the neocortex and the hippocampus",
-							"children": [
-								{
-									"name": "frontal association cortex",
-									"rgb": "#CED307",
-									"ebrains": {
-										"openminds/ParcellationEntity": "1317ae89-0bd6-4b78-88f2-5ffdd47d4a47"
-									}
-								},
-								{
-									"name": "hippocampal formation",
-									"rgb": "#0E47E2",
-									"ebrains": {
-										"openminds/ParcellationEntity": "2b252048-3df6-41fb-8307-a8a7f01ad795"
-									}
-								},
-								{
-									"name": "subiculum",
-									"rgb": "#DDD951",
-									"ebrains": {
-										"openminds/ParcellationEntity": "6f0b2b64-9122-4095-8c0e-8d3135e5bb55"
-									}
-								},
-								{
-									"name": "postrhinal cortex",
-									"rgb": "#89D355",
-									"ebrains": {
-										"openminds/ParcellationEntity": "c5428bf3-cbfb-4be5-b77a-f53e451586f0"
-									}
-								},
-								{
-									"name": "ventral-intermediate entorhinal area",
-									"rgb": "#8B008B",
-									"ebrains": {
-										"openminds/ParcellationEntity": "e4df89a2-b80f-4a9d-9e61-eea3175f2b7f"
-									}
-								},
-								{
-									"name": "medial entorhinal field",
-									"rgb": "#41FF27",
-									"ebrains": {
-										"openminds/ParcellationEntity": "a3d5b9c2-5f96-43cd-938d-84e3297493ac"
-									}
-								},
-								{
-									"name": "caudal entorhinal field",
-									"rgb": "#FFBB0D",
-									"ebrains": {
-										"openminds/ParcellationEntity": "f00f8ce3-9a22-49a1-b54a-db8855622b0a"
-									}
-								},
-								{
-									"name": "neocortex",
-									"rgb": "#03C12D",
-									"ebrains": {
-										"openminds/ParcellationEntity": "edbe8df0-7ea4-4272-b7c6-ee4f6cb78fd3"
-									}
-								},
-								{
-									"name": "cingulate cortex, area 2",
-									"rgb": "#1D68EB",
-									"ebrains": {
-										"openminds/ParcellationEntity": "29791994-de07-4be2-9d79-10a36f1fdfcc"
-									}
-								},
-								{
-									"name": "dorsal-lateral entorhinal area",
-									"rgb": "#2E8B57",
-									"ebrains": {
-										"openminds/ParcellationEntity": "4fafba57-1807-4ea8-9559-59f528fafa43"
-									}
-								},
-								{
-									"name": "dorsal-intermediate entorhinal area",
-									"rgb": "#7F81FF",
-									"ebrains": {
-										"openminds/ParcellationEntity": "03b371bb-dcdb-4fe2-a1e8-d06866b90099"
-									}
-								},
-								{
-									"name": "perirhinal cortex",
-									"rgb": "#DD6479",
-									"ebrains": {
-										"openminds/ParcellationEntity": "48c95cc4-3965-4ba4-8a7e-f1f15e09057f"
-									}
-								}
-							],
-							"rgb": "#808080"
-						},
-						{
-							"name": "striatum",
-							"rgb": "#814FFF",
-							"ebrains": {
-								"openminds/ParcellationEntity": "a0a153c4-9ef3-4113-bf0e-536667b8ea5c"
-							}
-						},
-						{
-							"name": "globus pallidus",
-							"rgb": "#FF91BA",
-							"ebrains": {
-								"openminds/ParcellationEntity": "31f1a7f5-8023-49f3-956c-d48fbf34f68d"
-							}
-						},
-						{
-							"name": "entopeduncular nucleus",
-							"rgb": "#1AE7FF",
-							"ebrains": {
-								"openminds/ParcellationEntity": "2622769d-755a-4402-8431-8e4a96f13275"
-							}
-						},
-						{
-							"name": "subthalamic nucleus",
-							"rgb": "#0000FF",
-							"ebrains": {
-								"openminds/ParcellationEntity": "aa53de33-1526-4864-b7b2-55c69c10ec6d"
-							}
-						},
-						{
-							"name": "basal forebrain region",
-							"rgb": "#E1F00D",
-							"ebrains": {
-								"openminds/ParcellationEntity": "799fa445-0811-4cbe-989b-f25c3788c54f"
-							}
-						},
-						{
-							"name": "septal region",
-							"rgb": "#FF0800",
-							"ebrains": {
-								"openminds/ParcellationEntity": "9a6fea06-bc44-4ee0-94fe-d871176b8a4c"
-							}
-						},
-						{
-							"name": "thalamus",
-							"rgb": "#006400",
-							"ebrains": {
-								"openminds/ParcellationEntity": "cd6a1d0c-35d0-4c29-9ba7-f1c1d1b5a5b0"
-							}
-						},
-						{
-							"name": "bed nucleus of the stria terminalis",
-							"rgb": "#0008B6",
-							"ebrains": {
-								"openminds/ParcellationEntity": "0288a3ea-6aa0-4215-90cd-12503aaa9458"
-							}
-						},
-						{
-							"name": "nucleus of the stria medullaris",
-							"rgb": "#DE07ED",
-							"ebrains": {
-								"openminds/ParcellationEntity": "4144b565-5ccf-48d1-86f8-0c1f59eda78b"
-							}
-						},
-						{
-							"name": "hypothalamic region",
-							"rgb": "#E278A1",
-							"ebrains": {
-								"openminds/ParcellationEntity": "7c8dc96b-c8bf-4e78-9e70-8830bfca8b64"
-							}
-						},
-						{
-							"name": "pineal gland",
-							"rgb": "#DAAA3E",
-							"ebrains": {
-								"openminds/ParcellationEntity": "9499afee-8c63-42b1-8064-f2b4c7a7baf9"
-							}
-						},
-						{
-							"name": "Tectum",
-							"children": [
-								{
-									"name": "inferior colliculus",
-									"rgb": "#EE2F2C",
-									"ebrains": {
-										"openminds/ParcellationEntity": "0f96dc56-133c-4b3b-89d9-42c1f7224425"
-									}
-								},
-								{
-									"name": "pretectal region",
-									"rgb": "#FF571E",
-									"ebrains": {
-										"openminds/ParcellationEntity": "dc0e9a19-a4c7-43a5-80bd-912373db8476"
-									}
-								},
-								{
-									"name": "superficial gray layer of the superior colliculus",
-									"rgb": "#5600DD",
-									"ebrains": {
-										"openminds/ParcellationEntity": "4f14a0e6-a74a-4405-be19-05de43b3742e"
-									}
-								},
-								{
-									"name": "deeper layers of the superior colliculus",
-									"rgb": "#E1970F",
-									"ebrains": {
-										"openminds/ParcellationEntity": "05d05214-db5d-41f0-bbe6-358c9d2877ba"
-									}
-								}
-							],
-							"rgb": "#808080"
-						},
-						{
-							"name": "substantia nigra",
-							"rgb": "#FFBA00",
-							"ebrains": {
-								"openminds/ParcellationEntity": "aede83b1-1ae7-446c-b67f-4fca7c9ef108"
-							}
-						},
-						{
-							"name": "interpeduncular nucleus",
-							"rgb": "#3FC0FF",
-							"ebrains": {
-								"openminds/ParcellationEntity": "0d293eb5-20be-4ba4-b86c-9fa599d3cec4"
-							}
-						},
-						{
-							"name": "periaqueductal gray",
-							"rgb": "#07FF59",
-							"ebrains": {
-								"openminds/ParcellationEntity": "9c4ed9f8-a124-449e-b761-5416399e5aae"
-							}
-						},
-						{
-							"name": "pontine nuclei",
-							"rgb": "#00D70B",
-							"ebrains": {
-								"openminds/ParcellationEntity": "f2b43b03-dfed-4e98-9428-e874629fca1f"
-							}
-						},
-						{
-							"name": "Cerebellum",
-							"children": [
-								{
-									"name": "molecular cell layer of the cerebellum",
-									"rgb": "#FFFF00",
-									"ebrains": {
-										"openminds/ParcellationEntity": "62b5774d-7c3e-40c5-a1e5-31a9de86ff5b"
-									}
-								},
-								{
-									"name": "deeper cerebellum",
-									"rgb": "#00FFFF",
-									"ebrains": {
-										"openminds/ParcellationEntity": "7690d76f-23a5-4886-8279-54313f61e61a"
-									}
-								}
-							],
-							"ebrains": {
-								"minds/core/parcellationregion/v1.0.0": "a844d80f-1d94-41a0-901a-14ae257519db"
-							},
-							"rgb": "#808080"
-						},
-						{
-							"name": "inferior olive",
-							"rgb": "#00F60E",
-							"ebrains": {
-								"openminds/ParcellationEntity": "31bae2f6-6aca-4c80-8d34-aecbc56d0c13"
-							}
-						},
-						{
-							"name": "spinal trigeminal nucleus",
-							"rgb": "#5BF1FF",
-							"ebrains": {
-								"openminds/ParcellationEntity": "72a3c62d-23d5-4825-99f0-c5c777200b04"
-							}
-						},
-						{
-							"name": "periventricular gray",
-							"rgb": "#EB57FF",
-							"ebrains": {
-								"openminds/ParcellationEntity": "bf7e20c2-1e14-4329-b65d-ec2f35035bb4"
-							}
-						},
-						{
-							"name": "brain stem",
-							"rgb": "#9953FF"
-						}
-					],
-					"rgb": "#808080"
-				},
-				{
-					"name": "ventricular system",
-					"rgb": "#022CFF",
-					"ebrains": {
-						"openminds/ParcellationEntity": "1692ffed-65aa-4d47-8039-1f354b817e81"
-					}
-				},
-				{
-					"name": "Spinal cord",
-					"children": [
-						{
-							"name": "spinal cord",
-							"rgb": "#86FF5A",
-							"ebrains": {
-								"openminds/ParcellationEntity": "5c3a6ddb-cc86-4948-95f3-d773da73fdc2"
-							}
-						},
-						{
-							"name": "central canal",
-							"rgb": "#27F4FD",
-							"ebrains": {
-								"openminds/ParcellationEntity": "36e181e5-9999-43ff-9d4f-31431026e814"
-							}
-						}
-					],
-					"rgb": "#86FF5A"
-				},
-				{
-					"name": "inner ear",
-					"rgb": "#00A515",
-					"ebrains": {
-						"openminds/ParcellationEntity": "d31710d5-83d1-4830-9a15-f3e718485ddf"
-					}
-				}
-			],
-			"ebrains": {
-				"minds/core/parcellationregion/v1.0.0": "b2b56201-472c-4f70-842f-cf2133eacaba"
-			}
-		}
-	],
-	"ebrains": {
-		"minds/core/dataset/v1.0.0": "f40e466b-8247-463a-a4cb-56dfe68e7059",
-		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
-		"openminds/Dataset": "82f91c95-6799-485a-ab9a-010c75f9e790",
-		"openminds/BrainAtlasVersion": "b2e2e973-dd89-4a3d-b9af-654847188a07",
-		"openminds/DatasetVersion": "f40e466b-8247-463a-a4cb-56dfe68e7059"
-	},
-	"publications": [
-		{
-			"citation": "https://www.nitrc.org/frs/?group_id=1081",
-			"url": "https://www.nitrc.org/frs/?group_id=1081"
-		},
-		{
-			"citation": "Papp, E. A., Leergaard, T. B., Calabrese, E., Johnson, G. A., & Bjaalie, J. G. (2014). Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage, 97, 374-386. https://doi.org/10.1016/j.neuroimage.2014.04.001",
-			"url": "https://doi.org/10.1016/j.neuroimage.2014.04.001"
-		},
-		{
-			"citation": "Papp, E. A., Leergaard, T. B., Calabrese, E., Allan Johnson, G., & Bjaalie, J. G. (2015). Addendum to “Waxholm Space atlas of the Sprague Dawley rat brain” [NeuroImage 97 (2014) 374-386]. NeuroImage, 105, 561-562. https://doi.org/10.1016/j.neuroimage.2014.10.017",
-			"url": "https://doi.org/10.1016/j.neuroimage.2014.10.017"
-		}
-	]
+    "@type": "siibra/atlases/parcellation/v0.1",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "minds/core/parcellationatlas/v1.0.0/11017b35-7056-4593-baad-3934d211daba"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "Waxholm Space atlas of the Sprague Dawley rat brain (v1.01)",
+            "shortform": "Waxholm rat v1.01"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": null
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "rattus norvegicus"
+        },
+        {
+            "@type": "siibra/attr/desc/version/v0.1",
+            "value": "1.01"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/dataset/v1.0.0": "f40e466b-8247-463a-a4cb-56dfe68e7059",
+                "openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
+                "openminds/Dataset": "82f91c95-6799-485a-ab9a-010c75f9e790",
+                "openminds/BrainAtlasVersion": "b2e2e973-dd89-4a3d-b9af-654847188a07",
+                "openminds/DatasetVersion": "f40e466b-8247-463a-a4cb-56dfe68e7059"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/publication/v0.1",
+            "citation": "https://www.nitrc.org/frs/?group_id=1081",
+            "url": {
+                "url": "https://www.nitrc.org/frs/?group_id=1081"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/publication/v0.1",
+            "citation": "Papp, E. A., Leergaard, T. B., Calabrese, E., Johnson, G. A., & Bjaalie, J. G. (2014). Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage, 97, 374-386. https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "doi": {
+                "doi": "https://doi.org/10.1016/j.neuroimage.2014.04.001"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/publication/v0.1",
+            "citation": "Papp, E. A., Leergaard, T. B., Calabrese, E., Allan Johnson, G., & Bjaalie, J. G. (2015). Addendum to \u201cWaxholm Space atlas of the Sprague Dawley rat brain\u201d [NeuroImage 97 (2014) 374-386]. NeuroImage, 105, 561-562. https://doi.org/10.1016/j.neuroimage.2014.10.017",
+            "doi": {
+                "doi": "https://doi.org/10.1016/j.neuroimage.2014.10.017"
+            }
+        }
+    ],
+    "regions": [
+        {
+            "@type": "siibra/atlases/region/v0.1",
+            "attributes": [
+                {
+                    "@type": "siibra/attr/desc/name/v0.1",
+                    "value": "Whole brain"
+                },
+                {
+                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                    "ids": {
+                        "minds/core/parcellationregion/v1.0.0": "b2b56201-472c-4f70-842f-cf2133eacaba"
+                    }
+                }
+            ],
+            "children": [
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "White matter"
+                        },
+                        {
+                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                            "value": "#FFFFFF"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "corpus callosum and associated subcortical white matter"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "210430e8-22ed-4c0a-84cf-47fdb9a3f9df"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FF6E00"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "Anterior commissure"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFFFFF"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "anterior commissure, anterior part"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "131f3fac-85fb-43ee-9d2b-b70cc03db534"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#7CFC00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "anterior commissure, posterior part"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "d9e4a309-3f15-48d2-9334-e1c748a46c5f"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#FFBA00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "anterior commissure, intrabulbar part"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "e4b3af30-c8d6-4d1c-a18c-a53ec106a1d1"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#FF4FCE"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "Hippocampal white matter"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFFFFF"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "alveus of the hippocampus"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "90e49b7b-d73e-4da0-bb9c-3565109beb11"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#FF00FF"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "ventral hippocampal commissure"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "570b863a-c731-46d6-84fd-f4a79a86de05"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#AE00E8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "fornix"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "4478c4e3-15b6-438d-8c11-866ed77ce8ab"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#15C0FF"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "fimbria of the hippocampus"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "e0178839-f025-45ad-92a8-2144b922394b"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#00FF1D"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "Corticofugal pathways"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFFFFF"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "corticofugal pathways"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#FF3427"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "pyramidal decussation"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "550a23b8-523b-4ad5-8e3e-3b290a4e3c7b"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#7209D4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "Medial lemniscus"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFFFFF"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "medial lemniscus"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "193ee3b6-89ab-4489-9225-8df482e9d9d2"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#D4FF00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "medial lemniscus decussation"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "2869da3f-7856-4579-bf99-96187127ff58"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#4196FF"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "Thalamic tracts"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFFFFF"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "mammillothalamic tract"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "264b93e4-577d-4608-a102-16e3576e2baa"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#EEBA00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "commissural stria terminalis"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "bb49a12c-719e-44c8-a878-d17dab5a51d8"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#ADFF2F"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "fasciculus retroflexus"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "d1dc9bc4-39fd-4522-86cb-21427a583e70"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#F44345"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "stria medullaris of the thalamus"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "25b766ba-3b1f-4743-a780-de3a7014ca62"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#FFFC00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "stria terminalis"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "95a88a09-9e16-4380-a18f-73d2d1887b97"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#EE7533"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "habenular commissure"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "3cd42e76-c72a-4c5b-93a9-e701ae592be0"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#45EBCA"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "posterior commissure"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "701503dd-21ef-4327-b4f5-0b0468336847"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FF00DA"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "Facial nerve"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFFFFF"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "facial nerve"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "d64d9739-fb6d-48b6-b7c0-83262f44d2f6"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#00B03F"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "ascending fibers of the facial nerve"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "e3be2514-7f23-4b9e-8494-c2d3298d16a2"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#B31C35"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "genu of the facial nerve"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "ce43833a-df76-41f4-9aa8-1411d55b552c"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#FAF4F7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "Optic fiber system and supraoptic decussation"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFFFFF"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "optic nerve"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "c6e4ac34-5b2e-435f-b74b-e9dd7756a3c2"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#30DA00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "optic tract and optic chiasm"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "0cad21c9-1555-4eb2-b7e0-1214e5351f0b"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#267EFF"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "supraoptic decussation"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "a7b46068-d609-4977-8d5f-fc7fbf844791"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#FAAA40"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "spinal trigeminal tract"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "59694ce1-3a9d-4a57-9ac5-52b7d24d01cd"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FA8072"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "White matter of the tectum"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFFFFF"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "commissure of the superior colliculus"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "76a9f3ff-e337-42cb-b853-dc04dcf5a76c"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#21E6FF"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "brachium of the superior colliculus"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "02c37aa2-5418-4641-9990-08ddc243528d"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#BC20AD"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "commissure of the inferior colliculus"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "4587ceed-679d-4457-a97c-91f6e9d067d3"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#93FF27"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "Cerebellar and precerebellar white matter"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFFFFF"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "inferior cerebellar peduncle"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "af620e1c-b359-42bc-afd5-5a97f5ae7b98"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#34FF0D"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "middle cerebellar peduncle"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "aa7e77b2-bfb1-426d-997a-cf54130aa9fa"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#86CC4C"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "transverse fibers of the pons"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "3cd3385b-f024-4bf1-8bc8-ca48256cac49"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#80AAFF"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Gray matter"
+                        },
+                        {
+                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                            "value": "#808080"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "Olfactory system"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#808080"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "glomerular layer of the accessory olfactory bulb"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "f2b93fba-68e0-4b34-81d9-330f40a731a9"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#0F6DE6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "glomerular layer of the olfactory bulb"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "58861456-ef13-41c6-9fbb-049737ef8872"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#FFE300"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "olfactory bulb"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "71888be9-d840-4d59-9cb0-cd6d6d1b4d4b"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#FF8700"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "Cerebral cortex including the neocortex and the hippocampus"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#808080"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "frontal association cortex"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "1317ae89-0bd6-4b78-88f2-5ffdd47d4a47"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#CED307"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "hippocampal formation"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "2b252048-3df6-41fb-8307-a8a7f01ad795"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#0E47E2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "subiculum"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "6f0b2b64-9122-4095-8c0e-8d3135e5bb55"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#DDD951"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "postrhinal cortex"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "c5428bf3-cbfb-4be5-b77a-f53e451586f0"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#89D355"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "ventral-intermediate entorhinal area"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "e4df89a2-b80f-4a9d-9e61-eea3175f2b7f"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#8B008B"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "medial entorhinal field"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "a3d5b9c2-5f96-43cd-938d-84e3297493ac"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#41FF27"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "caudal entorhinal field"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "f00f8ce3-9a22-49a1-b54a-db8855622b0a"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#FFBB0D"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "neocortex"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "edbe8df0-7ea4-4272-b7c6-ee4f6cb78fd3"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#03C12D"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "cingulate cortex, area 2"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "29791994-de07-4be2-9d79-10a36f1fdfcc"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#1D68EB"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "dorsal-lateral entorhinal area"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "4fafba57-1807-4ea8-9559-59f528fafa43"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#2E8B57"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "dorsal-intermediate entorhinal area"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "03b371bb-dcdb-4fe2-a1e8-d06866b90099"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#7F81FF"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "perirhinal cortex"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "48c95cc4-3965-4ba4-8a7e-f1f15e09057f"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#DD6479"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "striatum"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "a0a153c4-9ef3-4113-bf0e-536667b8ea5c"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#814FFF"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "globus pallidus"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "31f1a7f5-8023-49f3-956c-d48fbf34f68d"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FF91BA"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "entopeduncular nucleus"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "2622769d-755a-4402-8431-8e4a96f13275"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#1AE7FF"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "subthalamic nucleus"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "aa53de33-1526-4864-b7b2-55c69c10ec6d"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#0000FF"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "basal forebrain region"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "799fa445-0811-4cbe-989b-f25c3788c54f"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#E1F00D"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "septal region"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "9a6fea06-bc44-4ee0-94fe-d871176b8a4c"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FF0800"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "thalamus"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "cd6a1d0c-35d0-4c29-9ba7-f1c1d1b5a5b0"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#006400"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "bed nucleus of the stria terminalis"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "0288a3ea-6aa0-4215-90cd-12503aaa9458"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#0008B6"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "nucleus of the stria medullaris"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "4144b565-5ccf-48d1-86f8-0c1f59eda78b"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#DE07ED"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "hypothalamic region"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "7c8dc96b-c8bf-4e78-9e70-8830bfca8b64"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#E278A1"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "pineal gland"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "9499afee-8c63-42b1-8064-f2b4c7a7baf9"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#DAAA3E"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "Tectum"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#808080"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "inferior colliculus"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "0f96dc56-133c-4b3b-89d9-42c1f7224425"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#EE2F2C"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "pretectal region"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "dc0e9a19-a4c7-43a5-80bd-912373db8476"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#FF571E"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "superficial gray layer of the superior colliculus"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "4f14a0e6-a74a-4405-be19-05de43b3742e"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#5600DD"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "deeper layers of the superior colliculus"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "05d05214-db5d-41f0-bbe6-358c9d2877ba"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#E1970F"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "substantia nigra"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "aede83b1-1ae7-446c-b67f-4fca7c9ef108"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#FFBA00"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "interpeduncular nucleus"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "0d293eb5-20be-4ba4-b86c-9fa599d3cec4"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#3FC0FF"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "periaqueductal gray"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "9c4ed9f8-a124-449e-b761-5416399e5aae"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#07FF59"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "pontine nuclei"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "f2b43b03-dfed-4e98-9428-e874629fca1f"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#00D70B"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "Cerebellum"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "minds/core/parcellationregion/v1.0.0": "a844d80f-1d94-41a0-901a-14ae257519db"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#808080"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "molecular cell layer of the cerebellum"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "62b5774d-7c3e-40c5-a1e5-31a9de86ff5b"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#FFFF00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "siibra/atlases/region/v0.1",
+                                    "attributes": [
+                                        {
+                                            "@type": "siibra/attr/desc/name/v0.1",
+                                            "value": "deeper cerebellum"
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                                            "ids": {
+                                                "openminds/ParcellationEntity": "7690d76f-23a5-4886-8279-54313f61e61a"
+                                            }
+                                        },
+                                        {
+                                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                            "value": "#00FFFF"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "inferior olive"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "31bae2f6-6aca-4c80-8d34-aecbc56d0c13"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#00F60E"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "spinal trigeminal nucleus"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "72a3c62d-23d5-4825-99f0-c5c777200b04"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#5BF1FF"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "periventricular gray"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "bf7e20c2-1e14-4329-b65d-ec2f35035bb4"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#EB57FF"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "brain stem"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#9953FF"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "ventricular system"
+                        },
+                        {
+                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                            "ids": {
+                                "openminds/ParcellationEntity": "1692ffed-65aa-4d47-8039-1f354b817e81"
+                            }
+                        },
+                        {
+                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                            "value": "#022CFF"
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "Spinal cord"
+                        },
+                        {
+                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                            "value": "#86FF5A"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "spinal cord"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "5c3a6ddb-cc86-4948-95f3-d773da73fdc2"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#86FF5A"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "siibra/atlases/region/v0.1",
+                            "attributes": [
+                                {
+                                    "@type": "siibra/attr/desc/name/v0.1",
+                                    "value": "central canal"
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/ebrains/v0.1",
+                                    "ids": {
+                                        "openminds/ParcellationEntity": "36e181e5-9999-43ff-9d4f-31431026e814"
+                                    }
+                                },
+                                {
+                                    "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                                    "value": "#27F4FD"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "siibra/atlases/region/v0.1",
+                    "attributes": [
+                        {
+                            "@type": "siibra/attr/desc/name/v0.1",
+                            "value": "inner ear"
+                        },
+                        {
+                            "@type": "siibra/attr/desc/ebrains/v0.1",
+                            "ids": {
+                                "openminds/ParcellationEntity": "d31710d5-83d1-4830-9a15-f3e718485ddf"
+                            }
+                        },
+                        {
+                            "@type": "siibra/attr/desc/rgbcolor/v0.1",
+                            "value": "#00A515"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
