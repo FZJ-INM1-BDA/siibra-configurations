@@ -1,27 +1,52 @@
 {
-	"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-	"@type": "siibra/space/v0.0.1",
-	"name": "BigBrain microscopic template (histology)",
-	"shortName": "BigBrain",
-	"modality": "histology",
-	"species": "homo sapiens",
-	"volumes": [
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/8bit",
-				"neuroglancer/precompmesh/surface": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif_mesh 100"
-			}
-		}
-	],
-	"ebrains": {
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-		"openminds/DatasetVersion": "d07f9305-1e75-4548-a348-b155fb323d31"
-	},
-	"publications": [
-		{
-			"citation": "Amunts, K., Lepage, C., Borgeat, L., Mohlberg, H., Dickscheid, T., Rousseau, M.-É., Bludau, S., Bazin, P.-L., Lewis, L. B., Oros-Peusquens, A.-M., Shah, N. J., Lippert, T., Zilles, K., & Evans, A. C. (2013). BigBrain: An Ultrahigh-Resolution 3D Human Brain Model. Science, 340(6139), 1472-1475. https://doi.org/10.1126/science.1235381",
-			"url": "https://doi.org/10.1126/science.1235381"
-		}
-	]
+    "@type": "siibra/atlases/space/v0.1",
+    "attributes": [
+        {
+            "@type": "x-siibra/tmp",
+            "publications": [
+                {
+                    "citation": "Amunts, K., Lepage, C., Borgeat, L., Mohlberg, H., Dickscheid, T., Rousseau, M.-\u00c9., Bludau, S., Bazin, P.-L., Lewis, L. B., Oros-Peusquens, A.-M., Shah, N. J., Lippert, T., Zilles, K., & Evans, A. C. (2013). BigBrain: An Ultrahigh-Resolution 3D Human Brain Model. Science, 340(6139), 1472-1475. https://doi.org/10.1126/science.1235381",
+                    "url": "https://doi.org/10.1126/science.1235381"
+                }
+            ]
+        },
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "BigBrain microscopic template (histology)"
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "histology"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/DatasetVersion": "d07f9305-1e75-4548-a348-b155fb323d31"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+            "format": "neuroglancer/precomputed",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/8bit"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+            "format": "neuroglancer/precompmesh",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif_mesh",
+            "archive": {
+                "label": 100
+            }
+        }
+    ]
 }
