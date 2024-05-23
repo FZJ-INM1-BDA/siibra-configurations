@@ -1,54 +1,89 @@
 {
-	"@id": "minds/core/referencespace/v1.0.0/tmp-fsaverage6",
-	"@type": "siibra/space/v0.0.1",
-	"name": "freesurfer fsaverage6",
-	"shortName": "fsaverage6",
-	"modality": "surface",
-	"species": "homo sapiens",
-	"ebrains": {
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
-	},
-	"volumes": [
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"variant": "white matter",
-			"providers": {
-				"gii-mesh": {
-					"left hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage6/lh.white.gii",
-					"right hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage6/rh.white.gii"
-				}
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"variant": "pial",
-			"providers": {
-				"gii-mesh": {
-					"left hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage6/lh.pial.gii",
-					"right hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage6/rh.pial.gii"
-				}
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"variant": "inflated",
-			"providers": {
-				"gii-mesh": {
-					"left hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa6-translated-inflated/lh.inflated.surf.gii",
-					"right hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa6-translated-inflated/rh.inflated.surf.gii"
-				}
-			}
-		}
-	],
-	"publications": [
-		{
-			"name": "FreeSurfer",
-			"url": "https://10.1016/j.neuroimage.2012.01.021",
-			"authors": [
-				"Bruce Fischl"
-			],
-			"description": "FreeSurfer is a suite of tools for the analysis of neuroimaging data that provides an array of algorithms to quantify the functional, connectional and structural properties of the human brain. It has evolved from a package primarily aimed at generating surface representations of the cerebral cortex into one that automatically creates models of most macroscopically visible structures in the human brain given any reasonable T1-weighted input image. It is freely available, runs on a wide variety of hardware and software platforms, and is open source.",
-			"citation": "Fischl B. FreeSurfer. Neuroimage. 2012 Aug 15;62(2):774-81. doi: 10.1016/j.neuroimage.2012.01.021. Epub 2012 Jan 10. PMID: 22248573; PMCID: PMC3685476."
-		}
-	]
+    "@type": "siibra/atlases/space/v0.1",
+    "attributes": [
+        {
+            "@type": "x-siibra/tmp",
+            "value": [
+                {
+                    "name": "FreeSurfer",
+                    "url": "https://10.1016/j.neuroimage.2012.01.021",
+                    "authors": [
+                        "Bruce Fischl"
+                    ],
+                    "description": "FreeSurfer is a suite of tools for the analysis of neuroimaging data that provides an array of algorithms to quantify the functional, connectional and structural properties of the human brain. It has evolved from a package primarily aimed at generating surface representations of the cerebral cortex into one that automatically creates models of most macroscopically visible structures in the human brain given any reasonable T1-weighted input image. It is freely available, runs on a wide variety of hardware and software platforms, and is open source.",
+                    "citation": "Fischl B. FreeSurfer. Neuroimage. 2012 Aug 15;62(2):774-81. doi: 10.1016/j.neuroimage.2012.01.021. Epub 2012 Jan 10. PMID: 22248573; PMCID: PMC3685476."
+                }
+            ]
+        },
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "minds/core/referencespace/v1.0.0/tmp-fsaverage6"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "freesurfer fsaverage6"
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "surface"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage6",
+            "format": "gii-mesh",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage6/lh.white.gii",
+            "x-siibra/volume-variant": "white matter",
+            "x-siibra/volume-fragment": "left hemisphere"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage6",
+            "format": "gii-mesh",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage6/rh.white.gii",
+            "x-siibra/volume-variant": "white matter",
+            "x-siibra/volume-fragment": "right hemisphere"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage6",
+            "format": "gii-mesh",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage6/lh.pial.gii",
+            "x-siibra/volume-variant": "pial",
+            "x-siibra/volume-fragment": "left hemisphere"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage6",
+            "format": "gii-mesh",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage6/rh.pial.gii",
+            "x-siibra/volume-variant": "pial",
+            "x-siibra/volume-fragment": "right hemisphere"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage6",
+            "format": "gii-mesh",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa6-translated-inflated/lh.inflated.surf.gii",
+            "x-siibra/volume-variant": "inflated",
+            "x-siibra/volume-fragment": "left hemisphere"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage6",
+            "format": "gii-mesh",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa6-translated-inflated/rh.inflated.surf.gii",
+            "x-siibra/volume-variant": "inflated",
+            "x-siibra/volume-fragment": "right hemisphere"
+        }
+    ]
 }

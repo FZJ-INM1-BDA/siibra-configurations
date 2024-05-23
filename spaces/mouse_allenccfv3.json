@@ -1,57 +1,81 @@
 {
-	"@id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9",
-	"@type": "siibra/space/v0.0.1",
-	"name": "Allen Mouse Common Coordinate Framework v3",
-	"shortName": "Allen Mouse CCF v3",
-	"modality": "mri",
-	"species": "mus musculus",
-	"ebrains": {
-		"minds/core/species/v1.0.0": "cfc1656c-67d1-4d2c-a17e-efd7ce0df88c",
-		"openminds/Species": "d9875ebd-260e-4337-a637-b62fed4aa91d"
-	},
-	"volumes": [
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/templates/v3/stpt",
-				"neuroglancer/precompmesh/surface": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/parcellations/v3_2017_mesh 997"
-			}
-		}
-	],
-	"publications": [
-		{
-			"name": "The Allen Mouse Brain Common Coordinate Framework: A 3D Reference Atlas",
-			"description": "",
-			"citation": "Wang Q, Ding SL, Li Y, Royall J, Feng D, Lesnar P, Graddis N, Naeemi M, Facer B, Ho A, Dolbeare T, Blanchard B, Dee N, Wakeman W, Hirokawa KE, Szafer A, Sunkin SM, Oh SW, Bernard A, Phillips JW, Hawrylycz M, Koch C, Zeng H, Harris JA, Ng L. The Allen Mouse Brain Common Coordinate Framework: A 3D Reference Atlas. Cell. 2020 May 14;181(4):936-953.e20. doi: 10.1016/j.cell.2020.04.007. Epub 2020 May 7. PMID: 32386544; PMCID: PMC8152789.",
-			"url": "https://doi.org/10.1016/j.cell.2020.04.007",
-			"authors": [
-				"Quanxin Wang",
-				"Song-Lin Ding",
-				"Yang Li",
-				"Josh Royall",
-				"David Feng",
-				"Phil Lesnar",
-				"Nile Graddis",
-				"Maitham Naeemi",
-				"Benjamin Facer",
-				"Anh Ho",
-				"Tim Dolbeare",
-				"Brandon Blanchard",
-				"Nick Dee",
-				"Wayne Wakeman",
-				"Karla E. Hirokawa",
-				"Aaron Szafer",
-				"Susan M. Sunkin",
-				"Seung Wook Oh",
-				"Amy Bernard",
-				"John W. Phillips",
-				"Michael Hawrylycz",
-				"Christof Koch",
-				"Hongkui Zeng",
-				"Julie A. Harris",
-				"Lydia Ng"
-			]
-		}
-	],
-	"description": "The Allen Mouse Common Coordinate Framework v3 2015 includes a full-color, high-resolution anatomical reference atlas accompanied by a systematic, hierarchically organized taxonomy of mouse brain structures. Anatomical annotations in classical histological atlas plates were extracted to create a comprehensive volumetric reference atlas of the mouse brain."
+    "@type": "siibra/atlases/space/v0.1",
+    "attributes": [
+        {
+            "@type": "x-siibra/tmp",
+            "value": [
+                {
+                    "name": "The Allen Mouse Brain Common Coordinate Framework: A 3D Reference Atlas",
+                    "description": "",
+                    "citation": "Wang Q, Ding SL, Li Y, Royall J, Feng D, Lesnar P, Graddis N, Naeemi M, Facer B, Ho A, Dolbeare T, Blanchard B, Dee N, Wakeman W, Hirokawa KE, Szafer A, Sunkin SM, Oh SW, Bernard A, Phillips JW, Hawrylycz M, Koch C, Zeng H, Harris JA, Ng L. The Allen Mouse Brain Common Coordinate Framework: A 3D Reference Atlas. Cell. 2020 May 14;181(4):936-953.e20. doi: 10.1016/j.cell.2020.04.007. Epub 2020 May 7. PMID: 32386544; PMCID: PMC8152789.",
+                    "url": "https://doi.org/10.1016/j.cell.2020.04.007",
+                    "authors": [
+                        "Quanxin Wang",
+                        "Song-Lin Ding",
+                        "Yang Li",
+                        "Josh Royall",
+                        "David Feng",
+                        "Phil Lesnar",
+                        "Nile Graddis",
+                        "Maitham Naeemi",
+                        "Benjamin Facer",
+                        "Anh Ho",
+                        "Tim Dolbeare",
+                        "Brandon Blanchard",
+                        "Nick Dee",
+                        "Wayne Wakeman",
+                        "Karla E. Hirokawa",
+                        "Aaron Szafer",
+                        "Susan M. Sunkin",
+                        "Seung Wook Oh",
+                        "Amy Bernard",
+                        "John W. Phillips",
+                        "Michael Hawrylycz",
+                        "Christof Koch",
+                        "Hongkui Zeng",
+                        "Julie A. Harris",
+                        "Lydia Ng"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "Allen Mouse Common Coordinate Framework v3"
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "mus musculus"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "mri"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/species/v1.0.0": "cfc1656c-67d1-4d2c-a17e-efd7ce0df88c",
+                "openminds/Species": "d9875ebd-260e-4337-a637-b62fed4aa91d"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9",
+            "format": "neuroglancer/precomputed",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/templates/v3/stpt"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9",
+            "format": "neuroglancer/precompmesh",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/parcellations/v3_2017_mesh",
+            "archive_options": {
+                "label": 997
+            }
+        }
+    ]
 }

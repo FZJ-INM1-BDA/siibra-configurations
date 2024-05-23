@@ -1,20 +1,34 @@
 {
-	"@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
-	"@type": "siibra/space/v0.0.1",
-	"name": "Waxholm Space of the Sprague Dawley v1.01",
-	"shortName": "Waxholm rat",
-	"modality": "mri",
-	"species": "rattus norvegicus",
-	"ebrains": {
-		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
-		"openminds/DatasetVersion": "a4a4984f-b1a2-4d28-9c94-fa4767b19c62"
-	},
-	"volumes": [
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/templates/v1.01/t2star_masked"
-			}
-		}
-	]
+    "@type": "siibra/atlases/space/v0.1",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "Waxholm Space of the Sprague Dawley v1.01"
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "rattus norvegicus"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "mri"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
+                "openminds/DatasetVersion": "a4a4984f-b1a2-4d28-9c94-fa4767b19c62"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+            "format": "neuroglancer/precomputed",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/templates/v1.01/t2star_masked"
+        }
+    ]
 }

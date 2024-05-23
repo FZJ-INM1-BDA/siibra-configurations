@@ -1,33 +1,71 @@
 {
-	"@id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-	"@type": "siibra/space/v0.0.1",
-	"name": "MNI Colin 27",
-	"shortName": "MNI Colin 27",
-	"modality": "mri",
-	"species": "homo sapiens",
-	"ebrains": {
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
-	},
-	"volumes": [
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/JuBrain/v2.2c/colin27_seg",
-				"neuroglancer/precompmesh/surface": "https://neuroglancer.humanbrainproject.eu/precomputed/JuBrain/colin_auxmesh 1",
-				"zip/nii": "http://packages.bic.mni.mcgill.ca/mni-models/colin27/mni_colin27_1998_nifti.zip colin27_t1_tal_lin.nii"
-			}
-		}
-	],
-	"description": "A stereotaxic average of 27 T1-weighted MRI scans of the same individual. (Holmes et al., 1998), mapped to fit the MNI305 space.  Although not capturing brain variability, it is well established in neuroscience due to its high definition. HBP provides the JuBrain probabilistic cytoarchitectonic atlas (Amunts et al.) in this space.",
-	"publications": [
-		{
-			"name": "Colin 27 Average Brain, Stereotaxic Registration Model, original 1998 version (Enhancement of MR images using registration for signal averaging)",
-			"description": "This is a stereotaxic average of 27 T1-weighted MRI scans of the same individual.\nIn 1998, a new atlas with much higher definition than MNI305s was created at the MNI. One individual (CJH) was scanned 27 times and the images linearly registered to create an average with high SNR and structure definition (Holmes et al., 1998). This average was linearly registered to the average 305. Ironically, this dataset was not originally intended for use as a stereotaxic template but as the sub- strate for an ROI parcellation scheme to be used with ANIMAL non-linear spatial normalization (Collins et al., 1995), i.e. it was intended for the purpose of segmentation, NOT stereotaxy. As a single brain atlas, it did not capture anatomical variability and was, to some degree, a reversion to the Talairach approach.\nHowever, the high definition proved too attractive to the community and, after non-linear mapping to fit the MNI305 space, it has been adopted by many groups as a stereotaxic template (e.g., AFNI, Cox,; Brainstorm, Tadel et al., 2011; SPM, Litvak et al., 2011; Fieldtrip, Oostenveld et al., 2011).",
-			"citation": "Holmes CJ, Hoge R, Collins L, Woods R, Toga AW, Evans AC. Enhancement of MR images using registration for signal averaging. J Comput Assist Tomogr. 1998 Mar-Apr;22(2):324–33. http://dx.doi.org/10.1097/00004728-199803000-00032",
-			"url": "http://dx.doi.org/10.1097/00004728-199803000-00032",
-			"authors": [
-				"Bruce Fischl"
-			]
-		}
-	]
+    "@type": "siibra/atlases/space/v0.1",
+    "attributes": [
+        {
+            "@type": "x-siibra/tmp",
+            "value": [
+                {
+                    "name": "Colin 27 Average Brain, Stereotaxic Registration Model, original 1998 version (Enhancement of MR images using registration for signal averaging)",
+                    "description": "This is a stereotaxic average of 27 T1-weighted MRI scans of the same individual.\nIn 1998, a new atlas with much higher definition than MNI305s was created at the MNI. One individual (CJH) was scanned 27 times and the images linearly registered to create an average with high SNR and structure definition (Holmes et al., 1998). This average was linearly registered to the average 305. Ironically, this dataset was not originally intended for use as a stereotaxic template but as the sub- strate for an ROI parcellation scheme to be used with ANIMAL non-linear spatial normalization (Collins et al., 1995), i.e. it was intended for the purpose of segmentation, NOT stereotaxy. As a single brain atlas, it did not capture anatomical variability and was, to some degree, a reversion to the Talairach approach.\nHowever, the high definition proved too attractive to the community and, after non-linear mapping to fit the MNI305 space, it has been adopted by many groups as a stereotaxic template (e.g., AFNI, Cox,; Brainstorm, Tadel et al., 2011; SPM, Litvak et al., 2011; Fieldtrip, Oostenveld et al., 2011).",
+                    "citation": "Holmes CJ, Hoge R, Collins L, Woods R, Toga AW, Evans AC. Enhancement of MR images using registration for signal averaging. J Comput Assist Tomogr. 1998 Mar-Apr;22(2):324\u201333. http://dx.doi.org/10.1097/00004728-199803000-00032",
+                    "url": "http://dx.doi.org/10.1097/00004728-199803000-00032",
+                    "authors": [
+                        "Bruce Fischl"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "MNI Colin 27"
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "mri"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
+            "format": "neuroglancer/precomputed",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/JuBrain/v2.2c/colin27_seg"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
+            "format": "neuroglancer/precompmesh",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/JuBrain/colin_auxmesh",
+            "archive_options": {
+                "label": 1
+            }
+        },
+        {
+            "@type": "siibra/attr/data/archive/v0.1",
+            "format": "zip",
+            "url": "http://packages.bic.mni.mcgill.ca/mni-models/colin27/mni_colin27_1998_nifti.zip",
+            "key": "13566860-fa82-4163-b1ff-3c1b57bb08c6"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
+            "format": "nii",
+            "url": "#/attributes/13566860-fa82-4163-b1ff-3c1b57bb08c6",
+            "archive_options": {
+                "file": "colin27_t1_tal_lin.nii"
+            }
+        }
+    ]
 }
