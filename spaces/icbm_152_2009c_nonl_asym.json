@@ -2,34 +2,6 @@
     "@type": "siibra/atlases/space/v0.1",
     "attributes": [
         {
-            "@type": "x-siibra/tmp",
-            "publications": [
-                {
-                    "name": "ICBM 2009c Nonlinear Symmetric template",
-                    "description": "A number of unbiased non-linear averages of the MNI152 database have been generated that combines the attractions of both high-spatial resolution and signal-to-noise while not being subject to the vagaries of any single brain (Fonov et al., 2011). The procedure involved multiple iterations of a process where, at each iteration, individual native MRIs were non-linearly fitted to the average template from the previous iteration, beginning with the MNI152 linear template.",
-                    "license": "Copyright (C) 1993-2004 Louis Collins, McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University. Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies. The authors and McGill University make no representations about the suitability of this software for any purpose. It is provided \u201cas is\u201d without express or implied warranty. The authors are not responsible for any data loss, equipment damage, property loss, or injury to subjects or patients resulting from the use or misuse of this software package. ",
-                    "authors": [
-                        "Vladimir Fonov",
-                        "Alan C. Evans",
-                        "Kelly Botteron",
-                        "C. Robert Almli",
-                        "Robert C. McKinstry",
-                        "D. Louis Collins"
-                    ],
-                    "citation": "",
-                    "url": "https://nist.mni.mcgill.ca/icbm-152-nonlinear-atlases-2009/"
-                },
-                {
-                    "url": "https://doi.org/10.1016/j.neuroimage.2010.07.033",
-                    "citation": "VS Fonov, AC Evans, K Botteron, CR Almli, RC McKinstry, DL Collins and BDCG, Unbiased average age-appropriate atlases for pediatric studies, NeuroImage,Volume 54, Issue 1, January 2011, ISSN 1053-8119"
-                },
-                {
-                    "url": "https://doi.org/10.1016/S1053-8119(09)70884-5",
-                    "citation": "VS Fonov, AC Evans, RC McKinstry, CR Almli and DL Collins, Unbiased nonlinear average age-appropriate brain templates from birth to adulthood, NeuroImage, Volume 47, Supplement 1, July 2009, Page S102 Organization for Human Brain Mapping 2009 Annual Meeting"
-                }
-            ]
-        },
-        {
             "@type": "siibra/attr/desc/id/v0.1",
             "value": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
         },
@@ -53,6 +25,22 @@
             }
         },
         {
+            "@type": "siibra/attr/desc/description/v0.1",
+            "value": "A number of unbiased non-linear averages of the MNI152 database have been generated that combines the attractions of both high-spatial resolution and signal-to-noise while not being subject to the vagaries of any single brain (Fonov et al., 2011). The procedure involved multiple iterations of a process where, at each iteration, individual native MRIs were non-linearly fitted to the average template from the previous iteration, beginning with the MNI152 linear template."
+        },
+        {
+            "@type": "siibra/attr/desc/url/v0.1",
+            "value": "https://nist.mni.mcgill.ca/icbm-152-nonlinear-atlases-2009/"
+        },
+        {
+            "@type": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1016/j.neuroimage.2010.07.033"
+        },
+        {
+            "@type": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1016/S1053-8119(09)70884-5"
+        },
+        {
             "@type": "siibra/attr/data/image/v0.1",
             "space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
             "format": "neuroglancer/precomputed",
@@ -71,13 +59,13 @@
             "@type": "siibra/attr/data/archive/v0.1",
             "format": "zip",
             "url": "http://www.bic.mni.mcgill.ca/~vfonov/icbm/2009/mni_icbm152_nlin_asym_09c_nifti.zip",
-            "key": "fd72ec94-c51c-453b-b824-c6e095bd0229"
+            "key": "eb7e593e-a7b3-4447-b300-ec0bdfaa58ac"
         },
         {
             "@type": "siibra/attr/data/image/v0.1",
             "space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
             "format": "nii",
-            "url": "#/attributes/fd72ec94-c51c-453b-b824-c6e095bd0229",
+            "url": "#/attributes/eb7e593e-a7b3-4447-b300-ec0bdfaa58ac",
             "archive_options": {
                 "file": "mni_icbm152_t1_tal_nlin_asym_09c.nii"
             }
