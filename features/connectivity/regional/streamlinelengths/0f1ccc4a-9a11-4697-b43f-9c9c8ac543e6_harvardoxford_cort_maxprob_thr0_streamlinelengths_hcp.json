@@ -1,327 +1,3998 @@
 {
-	"@type": "siibra/feature/connectivitymatrix/v0.3",
-	"modality": "StreamlineLengths",
-	"paradigm": "",
-	"cohort": "HCP",
-	"parcellation": {
-		"@id": "https://identifiers.org/neurovault.image:1702"
-	},
-	"ebrains": {
-		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-		"openminds/Dataset": "0f1ccc4a-9a11-4697-b43f-9c9c8ac543e6",
-		"openminds/DatasetVersion": "f16e449d-86e1-408b-9487-aa9d72e39901"
-	},
-	"repository": {
-		"@type": "siibra/repository/zippedfile/v1.0.0",
-		"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip"
-	},
-	"decoder": {
-		"@type": "siibra/decoder/csv",
-		"delimiter": "\\s+",
-		"engine": "python",
-		"header": null,
-		"index_col": false
-	},
-	"files": {
-		"000": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/000/Lengths.csv",
-		"001": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/001/Lengths.csv",
-		"002": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/002/Lengths.csv",
-		"003": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/003/Lengths.csv",
-		"004": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/004/Lengths.csv",
-		"005": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/005/Lengths.csv",
-		"006": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/006/Lengths.csv",
-		"007": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/007/Lengths.csv",
-		"008": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/008/Lengths.csv",
-		"009": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/009/Lengths.csv",
-		"010": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/010/Lengths.csv",
-		"011": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/011/Lengths.csv",
-		"012": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/012/Lengths.csv",
-		"013": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/013/Lengths.csv",
-		"014": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/014/Lengths.csv",
-		"015": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/015/Lengths.csv",
-		"016": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/016/Lengths.csv",
-		"017": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/017/Lengths.csv",
-		"018": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/018/Lengths.csv",
-		"019": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/019/Lengths.csv",
-		"020": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/020/Lengths.csv",
-		"021": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/021/Lengths.csv",
-		"022": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/022/Lengths.csv",
-		"023": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/023/Lengths.csv",
-		"024": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/024/Lengths.csv",
-		"025": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/025/Lengths.csv",
-		"026": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/026/Lengths.csv",
-		"027": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/027/Lengths.csv",
-		"028": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/028/Lengths.csv",
-		"029": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/029/Lengths.csv",
-		"030": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/030/Lengths.csv",
-		"031": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/031/Lengths.csv",
-		"032": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/032/Lengths.csv",
-		"033": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/033/Lengths.csv",
-		"034": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/034/Lengths.csv",
-		"035": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/035/Lengths.csv",
-		"036": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/036/Lengths.csv",
-		"037": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/037/Lengths.csv",
-		"038": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/038/Lengths.csv",
-		"039": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/039/Lengths.csv",
-		"040": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/040/Lengths.csv",
-		"041": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/041/Lengths.csv",
-		"042": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/042/Lengths.csv",
-		"043": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/043/Lengths.csv",
-		"044": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/044/Lengths.csv",
-		"045": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/045/Lengths.csv",
-		"046": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/046/Lengths.csv",
-		"047": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/047/Lengths.csv",
-		"048": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/048/Lengths.csv",
-		"049": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/049/Lengths.csv",
-		"050": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/050/Lengths.csv",
-		"051": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/051/Lengths.csv",
-		"052": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/052/Lengths.csv",
-		"053": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/053/Lengths.csv",
-		"054": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/054/Lengths.csv",
-		"055": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/055/Lengths.csv",
-		"056": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/056/Lengths.csv",
-		"057": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/057/Lengths.csv",
-		"058": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/058/Lengths.csv",
-		"059": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/059/Lengths.csv",
-		"060": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/060/Lengths.csv",
-		"061": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/061/Lengths.csv",
-		"062": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/062/Lengths.csv",
-		"063": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/063/Lengths.csv",
-		"064": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/064/Lengths.csv",
-		"065": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/065/Lengths.csv",
-		"066": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/066/Lengths.csv",
-		"067": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/067/Lengths.csv",
-		"068": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/068/Lengths.csv",
-		"069": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/069/Lengths.csv",
-		"070": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/070/Lengths.csv",
-		"071": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/071/Lengths.csv",
-		"072": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/072/Lengths.csv",
-		"073": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/073/Lengths.csv",
-		"074": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/074/Lengths.csv",
-		"075": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/075/Lengths.csv",
-		"076": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/076/Lengths.csv",
-		"077": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/077/Lengths.csv",
-		"078": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/078/Lengths.csv",
-		"079": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/079/Lengths.csv",
-		"080": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/080/Lengths.csv",
-		"081": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/081/Lengths.csv",
-		"082": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/082/Lengths.csv",
-		"083": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/083/Lengths.csv",
-		"084": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/084/Lengths.csv",
-		"085": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/085/Lengths.csv",
-		"086": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/086/Lengths.csv",
-		"087": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/087/Lengths.csv",
-		"088": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/088/Lengths.csv",
-		"089": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/089/Lengths.csv",
-		"090": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/090/Lengths.csv",
-		"091": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/091/Lengths.csv",
-		"092": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/092/Lengths.csv",
-		"093": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/093/Lengths.csv",
-		"094": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/094/Lengths.csv",
-		"095": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/095/Lengths.csv",
-		"096": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/096/Lengths.csv",
-		"097": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/097/Lengths.csv",
-		"098": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/098/Lengths.csv",
-		"099": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/099/Lengths.csv",
-		"100": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/100/Lengths.csv",
-		"101": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/101/Lengths.csv",
-		"102": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/102/Lengths.csv",
-		"103": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/103/Lengths.csv",
-		"104": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/104/Lengths.csv",
-		"105": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/105/Lengths.csv",
-		"106": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/106/Lengths.csv",
-		"107": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/107/Lengths.csv",
-		"108": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/108/Lengths.csv",
-		"109": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/109/Lengths.csv",
-		"110": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/110/Lengths.csv",
-		"111": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/111/Lengths.csv",
-		"112": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/112/Lengths.csv",
-		"113": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/113/Lengths.csv",
-		"114": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/114/Lengths.csv",
-		"115": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/115/Lengths.csv",
-		"116": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/116/Lengths.csv",
-		"117": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/117/Lengths.csv",
-		"118": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/118/Lengths.csv",
-		"119": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/119/Lengths.csv",
-		"120": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/120/Lengths.csv",
-		"121": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/121/Lengths.csv",
-		"122": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/122/Lengths.csv",
-		"123": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/123/Lengths.csv",
-		"124": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/124/Lengths.csv",
-		"125": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/125/Lengths.csv",
-		"126": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/126/Lengths.csv",
-		"127": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/127/Lengths.csv",
-		"128": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/128/Lengths.csv",
-		"129": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/129/Lengths.csv",
-		"130": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/130/Lengths.csv",
-		"131": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/131/Lengths.csv",
-		"132": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/132/Lengths.csv",
-		"133": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/133/Lengths.csv",
-		"134": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/134/Lengths.csv",
-		"135": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/135/Lengths.csv",
-		"136": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/136/Lengths.csv",
-		"137": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/137/Lengths.csv",
-		"138": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/138/Lengths.csv",
-		"139": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/139/Lengths.csv",
-		"140": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/140/Lengths.csv",
-		"141": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/141/Lengths.csv",
-		"142": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/142/Lengths.csv",
-		"143": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/143/Lengths.csv",
-		"144": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/144/Lengths.csv",
-		"145": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/145/Lengths.csv",
-		"146": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/146/Lengths.csv",
-		"147": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/147/Lengths.csv",
-		"148": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/148/Lengths.csv",
-		"149": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/149/Lengths.csv",
-		"150": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/150/Lengths.csv",
-		"151": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/151/Lengths.csv",
-		"152": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/152/Lengths.csv",
-		"153": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/153/Lengths.csv",
-		"154": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/154/Lengths.csv",
-		"155": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/155/Lengths.csv",
-		"156": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/156/Lengths.csv",
-		"157": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/157/Lengths.csv",
-		"158": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/158/Lengths.csv",
-		"159": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/159/Lengths.csv",
-		"160": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/160/Lengths.csv",
-		"161": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/161/Lengths.csv",
-		"162": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/162/Lengths.csv",
-		"163": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/163/Lengths.csv",
-		"164": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/164/Lengths.csv",
-		"165": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/165/Lengths.csv",
-		"166": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/166/Lengths.csv",
-		"167": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/167/Lengths.csv",
-		"168": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/168/Lengths.csv",
-		"169": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/169/Lengths.csv",
-		"170": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/170/Lengths.csv",
-		"171": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/171/Lengths.csv",
-		"172": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/172/Lengths.csv",
-		"173": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/173/Lengths.csv",
-		"174": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/174/Lengths.csv",
-		"175": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/175/Lengths.csv",
-		"176": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/176/Lengths.csv",
-		"177": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/177/Lengths.csv",
-		"178": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/178/Lengths.csv",
-		"179": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/179/Lengths.csv",
-		"180": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/180/Lengths.csv",
-		"181": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/181/Lengths.csv",
-		"182": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/182/Lengths.csv",
-		"183": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/183/Lengths.csv",
-		"184": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/184/Lengths.csv",
-		"185": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/185/Lengths.csv",
-		"186": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/186/Lengths.csv",
-		"187": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/187/Lengths.csv",
-		"188": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/188/Lengths.csv",
-		"189": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/189/Lengths.csv",
-		"190": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/190/Lengths.csv",
-		"191": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/191/Lengths.csv",
-		"192": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/192/Lengths.csv",
-		"193": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/193/Lengths.csv",
-		"194": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/194/Lengths.csv",
-		"195": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/195/Lengths.csv",
-		"196": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/196/Lengths.csv",
-		"197": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/197/Lengths.csv",
-		"198": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/198/Lengths.csv",
-		"199": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/199/Lengths.csv"
-	},
-	"regions": [
-		"Left Frontal Pole",
-		"Right Frontal Pole",
-		"Left Insular Cortex",
-		"Right Insular Cortex",
-		"Left Superior Frontal Gyrus",
-		"Right Superior Frontal Gyrus",
-		"Left Middle Frontal Gyrus",
-		"Right Middle Frontal Gyrus",
-		"Left Inferior Frontal Gyrus, pars triangularis",
-		"Right Inferior Frontal Gyrus, pars triangularis",
-		"Left Inferior Frontal Gyrus, pars opercularis",
-		"Right Inferior Frontal Gyrus, pars opercularis",
-		"Left Precentral Gyrus",
-		"Right Precentral Gyrus",
-		"Left Temporal Pole",
-		"Right Temporal Pole",
-		"Left Superior Temporal Gyrus, anterior division",
-		"Right Superior Temporal Gyrus, anterior division",
-		"Left Superior Temporal Gyrus, posterior division",
-		"Right Superior Temporal Gyrus, posterior division",
-		"Left Middle Temporal Gyrus, anterior division",
-		"Right Middle Temporal Gyrus, anterior division",
-		"Left Middle Temporal Gyrus, posterior division",
-		"Right Middle Temporal Gyrus, posterior division",
-		"Left Middle Temporal Gyrus, temporooccipital part",
-		"Right Middle Temporal Gyrus, temporooccipital part",
-		"Left Inferior Temporal Gyrus, anterior division",
-		"Right Inferior Temporal Gyrus, anterior division",
-		"Left Inferior Temporal Gyrus, posterior division",
-		"Right Inferior Temporal Gyrus, posterior division",
-		"Left Inferior Temporal Gyrus, temporooccipital part",
-		"Right Inferior Temporal Gyrus, temporooccipital part",
-		"Left Postcentral Gyrus",
-		"Right Postcentral Gyrus",
-		"Left Superior Parietal Lobule",
-		"Right Superior Parietal Lobule",
-		"Left Supramarginal Gyrus, anterior division",
-		"Right Supramarginal Gyrus, anterior division",
-		"Left Supramarginal Gyrus, posterior division",
-		"Right Supramarginal Gyrus, posterior division",
-		"Left Angular Gyrus",
-		"Right Angular Gyrus",
-		"Left Lateral Occipital Cortex, superior division",
-		"Right Lateral Occipital Cortex, superior division",
-		"Left Lateral Occipital Cortex, inferior division",
-		"Right Lateral Occipital Cortex, inferior division",
-		"Left Intracalcarine Cortex",
-		"Right Intracalcarine Cortex",
-		"Left Frontal Medial Cortex",
-		"Right Frontal Medial Cortex",
-		"Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)",
-		"Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)",
-		"Left Subcallosal Cortex",
-		"Right Subcallosal Cortex",
-		"Left Paracingulate Gyrus",
-		"Right Paracingulate Gyrus",
-		"Left Cingulate Gyrus, anterior division",
-		"Right Cingulate Gyrus, anterior division",
-		"Left Cingulate Gyrus, posterior division",
-		"Right Cingulate Gyrus, posterior division",
-		"Left Precuneous Cortex",
-		"Right Precuneous Cortex",
-		"Left Cuneal Cortex",
-		"Right Cuneal Cortex",
-		"Left Frontal Orbital Cortex",
-		"Right Frontal Orbital Cortex",
-		"Left Parahippocampal Gyrus, anterior division",
-		"Right Parahippocampal Gyrus, anterior division",
-		"Left Parahippocampal Gyrus, posterior division",
-		"Right Parahippocampal Gyrus, posterior division",
-		"Left Lingual Gyrus",
-		"Right Lingual Gyrus",
-		"Left Temporal Fusiform Cortex, anterior division",
-		"Right Temporal Fusiform Cortex, anterior division",
-		"Left Temporal Fusiform Cortex, posterior division",
-		"Right Temporal Fusiform Cortex, posterior division",
-		"Left Temporal Occipital Fusiform Cortex",
-		"Right Temporal Occipital Fusiform Cortex",
-		"Left Occipital Fusiform Gyrus",
-		"Right Occipital Fusiform Gyrus",
-		"Left Frontal Operculum Cortex",
-		"Right Frontal Operculum Cortex",
-		"Left Central Opercular Cortex",
-		"Right Central Opercular Cortex",
-		"Left Parietal Operculum Cortex",
-		"Right Parietal Operculum Cortex",
-		"Left Planum Polare",
-		"Right Planum Polare",
-		"Left Heschl's Gyrus (includes H1 and H2)",
-		"Right Heschl's Gyrus (includes H1 and H2)",
-		"Left Planum Temporale",
-		"Right Planum Temporale",
-		"Left Supracalcarine Cortex",
-		"Right Supracalcarine Cortex",
-		"Left Occipital Pole",
-		"Right Occipital Pole"
-	],
-	"files_indexed_by": "subject"
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "StreamlineLengths"
+        },
+        {
+            "@type": "siibra/attr/desc/cohort/v0.1",
+            "value": "HCP"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/Dataset": "0f1ccc4a-9a11-4697-b43f-9c9c8ac543e6",
+                "openminds/DatasetVersion": "f16e449d-86e1-408b-9487-aa9d72e39901"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Frontal Pole",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 0
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Frontal Pole",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 1
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Insular Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 2
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Insular Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 3
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Superior Frontal Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 4
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Superior Frontal Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 5
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Middle Frontal Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 6
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Middle Frontal Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 7
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Inferior Frontal Gyrus, pars triangularis",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 8
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Inferior Frontal Gyrus, pars triangularis",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 9
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Inferior Frontal Gyrus, pars opercularis",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 10
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Inferior Frontal Gyrus, pars opercularis",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 11
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Precentral Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 12
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Precentral Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 13
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Temporal Pole",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 14
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Temporal Pole",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 15
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Superior Temporal Gyrus, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 16
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Superior Temporal Gyrus, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 17
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Superior Temporal Gyrus, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 18
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Superior Temporal Gyrus, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 19
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Middle Temporal Gyrus, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 20
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Middle Temporal Gyrus, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 21
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Middle Temporal Gyrus, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 22
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Middle Temporal Gyrus, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 23
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Middle Temporal Gyrus, temporooccipital part",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 24
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Middle Temporal Gyrus, temporooccipital part",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 25
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Inferior Temporal Gyrus, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 26
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Inferior Temporal Gyrus, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 27
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Inferior Temporal Gyrus, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 28
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Inferior Temporal Gyrus, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 29
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Inferior Temporal Gyrus, temporooccipital part",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 30
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Inferior Temporal Gyrus, temporooccipital part",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 31
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Postcentral Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 32
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Postcentral Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 33
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Superior Parietal Lobule",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 34
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Superior Parietal Lobule",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 35
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Supramarginal Gyrus, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 36
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Supramarginal Gyrus, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 37
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Supramarginal Gyrus, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 38
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Supramarginal Gyrus, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 39
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Angular Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 40
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Angular Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 41
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Lateral Occipital Cortex, superior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 42
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Lateral Occipital Cortex, superior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 43
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Lateral Occipital Cortex, inferior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 44
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Lateral Occipital Cortex, inferior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 45
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Intracalcarine Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 46
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Intracalcarine Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 47
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Frontal Medial Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 48
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Frontal Medial Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 49
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 50
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 51
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Subcallosal Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 52
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Subcallosal Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 53
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Paracingulate Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 54
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Paracingulate Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 55
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Cingulate Gyrus, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 56
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Cingulate Gyrus, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 57
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Cingulate Gyrus, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 58
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Cingulate Gyrus, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 59
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Precuneous Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 60
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Precuneous Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 61
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Cuneal Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 62
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Cuneal Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 63
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Frontal Orbital Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 64
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Frontal Orbital Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 65
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Parahippocampal Gyrus, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 66
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Parahippocampal Gyrus, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 67
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Parahippocampal Gyrus, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 68
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Parahippocampal Gyrus, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 69
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Lingual Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 70
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Lingual Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 71
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Temporal Fusiform Cortex, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 72
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Temporal Fusiform Cortex, anterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 73
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Temporal Fusiform Cortex, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 74
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Temporal Fusiform Cortex, posterior division",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 75
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Temporal Occipital Fusiform Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 76
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Temporal Occipital Fusiform Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 77
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Occipital Fusiform Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 78
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Occipital Fusiform Gyrus",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 79
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Frontal Operculum Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 80
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Frontal Operculum Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 81
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Central Opercular Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 82
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Central Opercular Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 83
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Parietal Operculum Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 84
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Parietal Operculum Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 85
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Planum Polare",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 86
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Planum Polare",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 87
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Heschl's Gyrus (includes H1 and H2)",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 88
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Heschl's Gyrus (includes H1 and H2)",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 89
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Planum Temporale",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 90
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Planum Temporale",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 91
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Supracalcarine Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 92
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Supracalcarine Cortex",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 93
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Left Occipital Pole",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 94
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Right Occipital Pole",
+            "parcellation_id": "https://identifiers.org/neurovault.image:1702",
+            "x-siibra/matrix-index-entity/index": 95
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "000",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/000/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "001",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/001/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "002",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/002/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "003",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/003/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "004",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/004/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "005",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/005/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "006",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/006/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "007",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/007/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "008",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/008/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "009",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/009/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "010",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/010/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "011",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/011/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "012",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/012/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "013",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/013/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "014",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/014/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "015",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/015/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "016",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/016/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "017",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/017/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "018",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/018/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "019",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/019/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "020",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/020/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "021",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/021/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "022",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/022/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "023",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/023/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "024",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/024/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "025",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/025/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "026",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/026/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "027",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/027/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "028",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/028/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "029",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/029/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "030",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/030/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "031",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/031/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "032",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/032/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "033",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/033/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "034",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/034/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "035",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/035/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "036",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/036/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "037",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/037/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "038",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/038/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "039",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/039/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "040",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/040/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "041",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/041/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "042",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/042/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "043",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/043/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "044",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/044/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "045",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/045/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "046",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/046/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "047",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/047/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "048",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/048/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "049",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/049/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "050",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/050/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "051",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/051/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "052",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/052/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "053",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/053/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "054",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/054/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "055",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/055/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "056",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/056/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "057",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/057/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "058",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/058/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "059",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/059/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "060",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/060/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "061",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/061/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "062",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/062/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "063",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/063/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "064",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/064/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "065",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/065/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "066",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/066/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "067",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/067/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "068",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/068/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "069",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/069/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "070",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/070/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "071",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/071/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "072",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/072/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "073",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/073/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "074",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/074/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "075",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/075/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "076",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/076/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "077",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/077/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "078",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/078/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "079",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/079/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "080",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/080/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "081",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/081/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "082",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/082/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "083",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/083/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "084",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/084/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "085",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/085/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "086",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/086/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "087",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/087/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "088",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/088/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "089",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/089/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "090",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/090/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "091",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/091/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "092",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/092/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "093",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/093/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "094",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/094/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "095",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/095/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "096",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/096/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "097",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/097/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "098",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/098/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "099",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/099/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "100",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/100/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "101",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/101/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "102",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/102/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "103",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/103/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "104",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/104/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "105",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/105/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "106",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/106/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "107",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/107/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "108",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/108/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "109",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/109/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "110",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/110/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "111",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/111/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "112",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/112/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "113",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/113/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "114",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/114/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "115",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/115/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "116",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/116/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "117",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/117/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "118",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/118/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "119",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/119/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "120",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/120/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "121",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/121/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "122",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/122/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "123",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/123/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "124",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/124/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "125",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/125/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "126",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/126/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "127",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/127/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "128",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/128/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "129",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/129/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "130",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/130/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "131",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/131/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "132",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/132/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "133",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/133/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "134",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/134/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "135",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/135/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "136",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/136/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "137",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/137/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "138",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/138/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "139",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/139/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "140",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/140/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "141",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/141/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "142",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/142/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "143",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/143/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "144",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/144/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "145",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/145/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "146",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/146/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "147",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/147/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "148",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/148/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "149",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/149/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "150",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/150/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "151",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/151/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "152",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/152/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "153",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/153/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "154",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/154/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "155",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/155/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "156",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/156/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "157",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/157/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "158",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/158/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "159",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/159/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "160",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/160/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "161",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/161/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "162",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/162/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "163",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/163/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "164",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/164/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "165",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/165/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "166",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/166/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "167",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/167/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "168",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/168/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "169",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/169/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "170",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/170/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "171",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/171/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "172",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/172/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "173",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/173/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "174",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/174/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "175",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/175/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "176",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/176/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "177",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/177/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "178",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/178/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "179",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/179/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "180",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/180/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "181",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/181/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "182",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/182/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "183",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/183/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "184",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/184/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "185",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/185/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "186",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/186/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "187",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/187/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "188",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/188/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "189",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/189/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "190",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/190/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "191",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/191/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "192",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/192/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "193",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/193/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "194",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/194/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "195",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/195/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "196",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/196/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "197",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/197/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "198",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/198/Lengths.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000059_Atlas_based_HCP_connectomes_v1.1_pub/096-HarvardOxfordMaxProbThr0.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": "\\s+",
+                "engine": "python",
+                "header": null,
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "199",
+            "archive_options": {
+                "format": "zip",
+                "file": "096-HarvardOxfordMaxProbThr0/1StructuralConnectivity/199/Lengths.csv"
+            }
+        }
+    ]
 }

@@ -1,229 +1,1806 @@
 {
-	"@type": "siibra/feature/connectivitymatrix/v0.3",
-	"modality": "TracingConnectivity",
-	"species": "Rattus norvegicus",
-	"cohort": "Orbital-Posterioparietal-Insular anterograde projections",
-	"parcellation": {
-		"@id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4"
-	},
-	"ebrains": {
-		"openminds/DatasetVersion": "37258979-8b9f-4817-9d83-f009019a6c38",
-		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f"
-	},
-	"repository": {
-		"@type": "siibra/repository/zippedfile/v1.0.0",
-		"url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip"
-	},
-	"decoder": {
-		"@type": "siibra/decoder/csv",
-		"delimiter": ";",
-		"header": null,
-		"skiprows": 1,
-		"engine": "python",
-		"index_col": false
-	},
-	"files": {
-		"AntAID: 13985-BDA": "13985-BDA.csv",
-		"AntAID: 14195-PHAL": "14195-PHAL.csv",
-		"LO: F1-BDA": "F1-BDA.csv",
-		"LO: F10-BDA": "F10-BDA.csv",
-		"LO: F13-PHAL": "F13-PHAL.csv",
-		"LO: F19-BDA": "F19-BDA.csv",
-		"LO: F3-PHAL": "F3-PHAL.csv",
-		"LO: F35-BDA": "F35-BDA.csv",
-		"LO: F36-BDA": "F36-BDA.csv",
-		"LO: F37-BDA": "F37-BDA.csv",
-		"LO: F38-BDA": "F38-BDA.csv",
-		"MO: F18-BDA": "F18-BDA.csv",
-		"MO: F25-BDA": "F25-BDA.csv",
-		"MO: F29-BDA": "F29-BDA.csv",
-		"MO: F9-BDA": "F9-BDA.csv",
-		"ParAIP-DI: 18075-BDA": "18075-BDA.csv",
-		"ParAIP: 12949-BDA": "12949-BDA.csv",
-		"ParDI: 13232-PHAL": "13232-PHAL.csv",
-		"ParDI: 13235-PHAL": "13235-PHAL.csv",
-		"ParGI: 13018-PHAL": "13018-PHAL.csv",
-		"PtP: 12877-PHAL": "12877-PHAL.csv",
-		"PtP: 12906-PHAL": "12906-PHAL.csv",
-		"PtP: 20420-BDA": "20420-BDA.csv",
-		"VLO: F30-BDA": "F30-BDA.csv",
-		"VLO: F31-BDA": "F31-BDA.csv",
-		"VLO: F33-BDA": "F33-BDA.csv",
-		"VO: F1-PHAL": "F1-PHAL.csv",
-		"VO: F10-PHAL": "F10-PHAL.csv",
-		"VO: F11-PHAL": "F11-PHAL.csv",
-		"VO: F14-BDA": "F14-BDA.csv",
-		"VO: F16-BDA": "F16-BDA.csv",
-		"VO: F16-PHAL": "F16-PHAL.csv",
-		"VO: F17-BDA": "F17-BDA.csv",
-		"VO: F20-BDA": "F20-BDA.csv",
-		"VO: F23-BDA": "F23-BDA.csv",
-		"VO: F24-PHAL": "F24-PHAL.csv",
-		"VO: F31-PHAL": "F31-PHAL.csv",
-		"VO: F34-BDA": "F34-BDA.csv",
-		"VO: F5-BDA": "F5-BDA.csv",
-		"VO: F6-BDA": "F6-BDA.csv",
-		"lPPC: 13234-BDA": "13234-BDA.csv",
-		"lPPC: 13236-BDA": "13236-BDA.csv",
-		"lPPC: 13238-BDA": "13238-BDA.csv",
-		"lPPC: 14122-PHAL": "14122-PHAL.csv",
-		"mPPC: 13234-PHAL": "13234-PHAL.csv",
-		"mPPC: 13236-PHAL": "13236-PHAL.csv",
-		"mPPC: 13238-PHAL": "13238-PHAL.csv",
-		"mPPC: 13347-PHAL": "13347-PHAL.csv",
-		"mPPC: 14122-BDA": "14122-BDA.csv"
-	},
-	"regions": [
-		"Glomerular layer of the accessory olfactory bulb",
-		"Glomerular layer of the olfactory bulb",
-		"Olfactory bulb, unspecified",
-		"Nucleus of the lateral olfactory tract",
-		"Fasciola cinereum",
-		"Subiculum",
-		"Cornu ammonis 1",
-		"Cornu ammonis 2",
-		"Cornu ammonis 3",
-		"Dentate gyrus",
-		"Postrhinal cortex",
-		"Presubiculum",
-		"Parasubiculum",
-		"Perirhinal area 35",
-		"Perirhinal area 36",
-		"Medial entorhinal cortex",
-		"Lateral entorhinal cortex",
-		"Piriform cortex, layer 1",
-		"Piriform cortex, layer 2",
-		"Piriform cortex, layer 3",
-		"Cingulate area 1",
-		"Cingulate area 2",
-		"Retrosplenial dysgranular area",
-		"Retrosplenial granular area",
-		"Agranular insular cortex, ventral area",
-		"Agranular insular cortex dorsal area",
-		"Agranular insular cortex, posterior area",
-		"Dysgranular insular cortex",
-		"Granular insular cortex",
-		"Frontal association cortex",
-		"Medial orbital area",
-		"Ventral orbital area",
-		"Ventrolateral orbital area",
-		"Lateral orbital area",
-		"Dorsolateral orbital area",
-		"Prelimbic area",
-		"Infralimbic area",
-		"Primary motor area",
-		"Secondary motor area",
-		"Frontal association area 3",
-		"Primary somatosensory area, face representation",
-		"Primary somatosensory area, barrel field",
-		"Primary somatosensory area, dysgranular zone",
-		"Primary somatosensory area, forelimb representation",
-		"Primary somatosensory area, hindlimb representation",
-		"Primary somatosensory area, trunk representation",
-		"Secondary somatosensory area",
-		"Parietal association cortex, medial area",
-		"Parietal association cortex, lateral area",
-		"Parietal association cortex, posterior area",
-		"Primary visual area",
-		"Secondary visual area, medial part",
-		"Secondary visual area, lateral part",
-		"Temporal association cortex",
-		"Primary auditory area",
-		"Secondary auditory area, dorsal part",
-		"Secondary auditory area, ventral part",
-		"Claustrum",
-		"Endopiriform nucleus",
-		"Amygdaloid area, unspecified",
-		"Caudate putamen",
-		"Nucleus accumbens, core",
-		"Nucleus accumbens, shell",
-		"Ventral striatal region, unspecified",
-		"Globus pallidus external, medial part",
-		"Globus pallidus external, lateral part",
-		"Entopeduncular nucleus",
-		"Ventral pallidum",
-		"Basal forebrain region, unspecified",
-		"Bed nucleus of the stria terminalis",
-		"Septal region",
-		"Subthalamic nucleus",
-		"Reticular (pre)thalamic nucleus, unspecified",
-		"Reticular (pre)thalamic nucleus, auditory segment",
-		"Zona incerta, dorsal part",
-		"Zona incerta, ventral part",
-		"Zona incerta, rostral part",
-		"Zona incerta, caudal part",
-		"Zona incerta, A13 dopamine cells",
-		"Zona incerta, A11 dopamine cells",
-		"Fields of Forel",
-		"Pregeniculate nucleus",
-		"Subgeniculate nucleus",
-		"Intergeniculate leaflet",
-		"Lateral habenular nucleus",
-		"Medial habenular nucleus",
-		"Nucleus of the stria medullaris",
-		"Pineal gland",
-		"Anterodorsal thalamic nucleus",
-		"Anteroventral thalamic nucleus, dorsomedial part",
-		"Anteroventral thalamic nucleus, ventrolateral part",
-		"Anteromedial thalamic nucleus",
-		"Interanteromedial thalamic nucleus",
-		"Paraventricular thalamic nuclei (anterior and posterior)",
-		"Intermediodorsal thalamic nucleus",
-		"Parataenial thalamic nucleus",
-		"Subparafascicular nucleus",
-		"Posterior intralaminar nucleus",
-		"Rhomboid thalamic nucleus",
-		"Reuniens thalamic nucleus",
-		"Retroreuniens thalamic nucleus",
-		"Xiphoid thalamic nucleus",
-		"Mediodorsal thalamic nucleus, lateral part",
-		"Mediodorsal thalamic nucleus, central part",
-		"Mediodorsal thalamic nucleus, medial part",
-		"Ventral anterior thalamic nucleus",
-		"Ventromedial thalamic nucleus",
-		"Ventrolateral thalamic nucleus",
-		"Angular thalamic nucleus",
-		"Ventral posteromedial thalamic nucleus",
-		"Ventral posterolateral thalamic nucleus",
-		"Ventral posterior nucleus of the thalamus, parvicellular part",
-		"Submedius thalamic nucleus",
-		"Paracentral thalamic nucleus",
-		"Central medial thalamic nucleus",
-		"Central lateral thalamic nucleus",
-		"Parafascicular thalamic nucleus",
-		"Ethmoid-Limitans nucleus",
-		"Posterior thalamic nucleus",
-		"Posterior thalamic nuclear group, triangular part",
-		"Lateral posterior thalamic nucleus, mediorostral part",
-		"Lateral posterior thalamic nucleus, mediocaudal part",
-		"Lateral posterior thalamic nucleus, lateral part",
-		"Laterodorsal thalamic nucleus, dorsomedial part",
-		"Laterodorsal thalamic nucleus, ventrolateral part",
-		"Dorsal lateral geniculate nucleus",
-		"Medial geniculate body, ventral division",
-		"Medial geniculate body, dorsal division",
-		"Medial geniculate body, marginal zone",
-		"Medial geniculate body, medial division",
-		"Medial geniculate body, suprageniculate nucleus",
-		"Hypothalamic region, unspecified",
-		"Pretectal region",
-		"Inferior colliculus, dorsal cortex",
-		"Inferior colliculus, central nucleus",
-		"Inferior colliculus, external cortex",
-		"Superficial gray layer of the superior colliculus",
-		"Deeper layers of the superior colliculus",
-		"Substantia nigra, reticular part",
-		"Substantia nigra, compact part",
-		"Substantia nigra, lateral part",
-		"Ventral tegmental area",
-		"Peripeduncular nucleus",
-		"Interpeduncular nucleus",
-		"Periaqueductal gray",
-		"Brainstem, unspecified",
-		"Pontine nuclei",
-		"Spinal trigeminal nucleus",
-		"Periventricular gray",
-		"Inferior olive"
-	],
-	"files_indexed_by": "subject"
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "TracingConnectivity"
+        },
+        {
+            "@type": "siibra/attr/desc/cohort/v0.1",
+            "value": "Orbital-Posterioparietal-Insular anterograde projections"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "openminds/DatasetVersion": "37258979-8b9f-4817-9d83-f009019a6c38",
+                "openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "Rattus norvegicus"
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Glomerular layer of the accessory olfactory bulb",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 0
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Glomerular layer of the olfactory bulb",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 1
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Olfactory bulb, unspecified",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 2
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Nucleus of the lateral olfactory tract",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 3
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Fasciola cinereum",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 4
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Subiculum",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 5
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Cornu ammonis 1",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 6
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Cornu ammonis 2",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 7
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Cornu ammonis 3",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 8
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Dentate gyrus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 9
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Postrhinal cortex",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 10
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Presubiculum",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 11
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Parasubiculum",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 12
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Perirhinal area 35",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 13
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Perirhinal area 36",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 14
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Medial entorhinal cortex",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 15
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Lateral entorhinal cortex",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 16
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Piriform cortex, layer 1",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 17
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Piriform cortex, layer 2",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 18
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Piriform cortex, layer 3",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 19
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Cingulate area 1",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 20
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Cingulate area 2",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 21
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Retrosplenial dysgranular area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 22
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Retrosplenial granular area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 23
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Agranular insular cortex, ventral area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 24
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Agranular insular cortex dorsal area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 25
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Agranular insular cortex, posterior area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 26
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Dysgranular insular cortex",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 27
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Granular insular cortex",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 28
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Frontal association cortex",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 29
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Medial orbital area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 30
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Ventral orbital area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 31
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Ventrolateral orbital area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 32
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Lateral orbital area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 33
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Dorsolateral orbital area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 34
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Prelimbic area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 35
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Infralimbic area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 36
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Primary motor area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 37
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Secondary motor area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 38
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Frontal association area 3",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 39
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Primary somatosensory area, face representation",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 40
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Primary somatosensory area, barrel field",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 41
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Primary somatosensory area, dysgranular zone",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 42
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Primary somatosensory area, forelimb representation",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 43
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Primary somatosensory area, hindlimb representation",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 44
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Primary somatosensory area, trunk representation",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 45
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Secondary somatosensory area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 46
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Parietal association cortex, medial area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 47
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Parietal association cortex, lateral area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 48
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Parietal association cortex, posterior area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 49
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Primary visual area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 50
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Secondary visual area, medial part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 51
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Secondary visual area, lateral part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 52
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Temporal association cortex",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 53
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Primary auditory area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 54
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Secondary auditory area, dorsal part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 55
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Secondary auditory area, ventral part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 56
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Claustrum",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 57
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Endopiriform nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 58
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Amygdaloid area, unspecified",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 59
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Caudate putamen",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 60
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Nucleus accumbens, core",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 61
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Nucleus accumbens, shell",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 62
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Ventral striatal region, unspecified",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 63
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Globus pallidus external, medial part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 64
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Globus pallidus external, lateral part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 65
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Entopeduncular nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 66
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Ventral pallidum",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 67
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Basal forebrain region, unspecified",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 68
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Bed nucleus of the stria terminalis",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 69
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Septal region",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 70
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Subthalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 71
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Reticular (pre)thalamic nucleus, unspecified",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 72
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Reticular (pre)thalamic nucleus, auditory segment",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 73
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Zona incerta, dorsal part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 74
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Zona incerta, ventral part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 75
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Zona incerta, rostral part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 76
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Zona incerta, caudal part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 77
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Zona incerta, A13 dopamine cells",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 78
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Zona incerta, A11 dopamine cells",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 79
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Fields of Forel",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 80
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Pregeniculate nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 81
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Subgeniculate nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 82
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Intergeniculate leaflet",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 83
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Lateral habenular nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 84
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Medial habenular nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 85
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Nucleus of the stria medullaris",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 86
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Pineal gland",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 87
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Anterodorsal thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 88
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Anteroventral thalamic nucleus, dorsomedial part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 89
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Anteroventral thalamic nucleus, ventrolateral part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 90
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Anteromedial thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 91
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Interanteromedial thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 92
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Paraventricular thalamic nuclei (anterior and posterior)",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 93
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Intermediodorsal thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 94
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Parataenial thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 95
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Subparafascicular nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 96
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Posterior intralaminar nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 97
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Rhomboid thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 98
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Reuniens thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 99
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Retroreuniens thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 100
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Xiphoid thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 101
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Mediodorsal thalamic nucleus, lateral part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 102
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Mediodorsal thalamic nucleus, central part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 103
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Mediodorsal thalamic nucleus, medial part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 104
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Ventral anterior thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 105
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Ventromedial thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 106
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Ventrolateral thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 107
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Angular thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 108
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Ventral posteromedial thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 109
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Ventral posterolateral thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 110
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Ventral posterior nucleus of the thalamus, parvicellular part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 111
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Submedius thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 112
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Paracentral thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 113
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Central medial thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 114
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Central lateral thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 115
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Parafascicular thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 116
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Ethmoid-Limitans nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 117
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Posterior thalamic nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 118
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Posterior thalamic nuclear group, triangular part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 119
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Lateral posterior thalamic nucleus, mediorostral part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 120
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Lateral posterior thalamic nucleus, mediocaudal part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 121
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Lateral posterior thalamic nucleus, lateral part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 122
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Laterodorsal thalamic nucleus, dorsomedial part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 123
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Laterodorsal thalamic nucleus, ventrolateral part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 124
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Dorsal lateral geniculate nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 125
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Medial geniculate body, ventral division",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 126
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Medial geniculate body, dorsal division",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 127
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Medial geniculate body, marginal zone",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 128
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Medial geniculate body, medial division",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 129
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Medial geniculate body, suprageniculate nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 130
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Hypothalamic region, unspecified",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 131
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Pretectal region",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 132
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Inferior colliculus, dorsal cortex",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 133
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Inferior colliculus, central nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 134
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Inferior colliculus, external cortex",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 135
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Superficial gray layer of the superior colliculus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 136
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Deeper layers of the superior colliculus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 137
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Substantia nigra, reticular part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 138
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Substantia nigra, compact part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 139
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Substantia nigra, lateral part",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 140
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Ventral tegmental area",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 141
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Peripeduncular nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 142
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Interpeduncular nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 143
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Periaqueductal gray",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 144
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Brainstem, unspecified",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 145
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Pontine nuclei",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 146
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Spinal trigeminal nucleus",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 147
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Periventricular gray",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 148
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Inferior olive",
+            "parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4",
+            "x-siibra/matrix-index-entity/index": 149
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "AntAID: 13985-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "13985-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "AntAID: 14195-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "14195-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "LO: F1-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F1-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "LO: F10-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F10-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "LO: F13-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "F13-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "LO: F19-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F19-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "LO: F3-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "F3-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "LO: F35-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F35-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "LO: F36-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F36-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "LO: F37-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F37-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "LO: F38-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F38-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "MO: F18-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F18-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "MO: F25-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F25-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "MO: F29-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F29-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "MO: F9-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F9-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "ParAIP-DI: 18075-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "18075-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "ParAIP: 12949-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "12949-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "ParDI: 13232-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "13232-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "ParDI: 13235-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "13235-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "ParGI: 13018-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "13018-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "PtP: 12877-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "12877-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "PtP: 12906-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "12906-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "PtP: 20420-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "20420-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VLO: F30-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F30-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VLO: F31-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F31-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VLO: F33-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F33-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F1-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "F1-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F10-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "F10-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F11-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "F11-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F14-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F14-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F16-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F16-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F16-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "F16-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F17-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F17-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F20-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F20-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F23-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F23-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F24-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "F24-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F31-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "F31-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F34-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F34-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F5-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F5-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "VO: F6-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "F6-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "lPPC: 13234-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "13234-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "lPPC: 13236-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "13236-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "lPPC: 13238-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "13238-BDA.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "lPPC: 14122-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "14122-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "mPPC: 13234-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "13234-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "mPPC: 13236-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "13236-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "mPPC: 13238-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "13238-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "mPPC: 13347-PHAL",
+            "archive_options": {
+                "format": "zip",
+                "file": "13347-PHAL.csv"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+            "format": "csv",
+            "parse_options": {
+                "delimiter": ";",
+                "header": null,
+                "skiprows": 1,
+                "engine": "python",
+                "index_col": false
+            },
+            "x-siibra/matrix/index/by": "subject",
+            "x-siibra/matrix/index/value": "mPPC: 14122-BDA",
+            "archive_options": {
+                "format": "zip",
+                "file": "14122-BDA.csv"
+            }
+        }
+    ]
 }
