@@ -1,0 +1,81 @@
+{
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "d9063c7f-dfaf-4c55-a359-72b6f2e02bc1--e2e160310a39294109bc62c7043a26bf"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "Segmented cell body density"
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Area hOc2 (V2, 18)"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/Dataset": "d50a7704-c3a1-4ce8-be40-ec85b55608b0",
+                "openminds/DatasetVersion": "d9063c7f-dfaf-4c55-a359-72b6f2e02bc1"
+            }
+        },
+        {
+            "@type": "siibra/attr/loc/point/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+            "coordinate": [
+                -6.312832832336426,
+                -33.70000076293945,
+                0.05384150519967079
+            ]
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "x",
+                    "y",
+                    "area(micron**2)",
+                    "layer",
+                    "label"
+                ]
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc2/v1.0/1816/0002/segments.txt"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "comment": "#",
+                "sep": " ",
+                "names": [
+                    "Number",
+                    "Name",
+                    "Area(micron**2)",
+                    "AvgThickness(micron)"
+                ],
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc2/v1.0/1816/0002/layerinfo.txt"
+        },
+        {
+            "@type": "siibra/attr/loc/layerboundary/v0.1",
+            "base_url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc2/v1.0/1816/0002/"
+        },
+        {
+            "@type": "siibra/attr/desc/aggregateby/v0.1",
+            "key": "BigBrain section",
+            "value": "1816"
+        },
+        {
+            "@type": "siibra/attr/desc/aggregateby/v0.1",
+            "key": "BigBrain patch",
+            "value": "0002"
+        }
+    ]
+}
