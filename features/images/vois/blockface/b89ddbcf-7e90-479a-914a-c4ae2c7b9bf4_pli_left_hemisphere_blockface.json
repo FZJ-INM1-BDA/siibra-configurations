@@ -1,12 +1,37 @@
 {
-	"@id": "d00f42dd5f60f7bf672cc7c3209e2b0a",
-	"@type": "siibra/feature/voi/v0.1",
-	"name": "The Enriched Connectome - Block face images of full sagittal human brain sections",
-	"modality": "blockface",
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
-	},
-	"providers": {
-		"neuroglancer/precomputed": "https://1um.brainatlas.eu/pli-bigbrain/masked/precomputed"
-	}
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "d00f42dd5f60f7bf672cc7c3209e2b0a"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "blockface"
+        },
+        {
+            "@type": "siibra/attr/loc/boundingbox/v0.1",
+            "minpoint": [
+                -86.564752,
+                -91.20650332568056,
+                -61.18963721352467
+            ],
+            "maxpoint": [
+                22.818598475016028,
+                85.54784988358307,
+                75.194496
+            ],
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "format": "neuroglancer/precomputed",
+            "url": "https://1um.brainatlas.eu/pli-bigbrain/masked/precomputed",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "The Enriched Connectome - Block face images of full sagittal human brain sections"
+        }
+    ]
 }

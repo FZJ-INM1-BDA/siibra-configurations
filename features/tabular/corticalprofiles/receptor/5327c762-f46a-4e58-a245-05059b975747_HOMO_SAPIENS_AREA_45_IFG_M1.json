@@ -1,14 +1,40 @@
 {
-	"@id": "5327c762-f46a-4e58-a245-05059b975747--07ce6c15b086c2493d7c770babef583c",
-	"@type": "siibra/feature/profile/receptor/v0.1",
-	"region": "Area 45 (IFG)",
-	"receptor": "M1",
-	"species": "Homo sapiens",
-	"ebrains": {
-		"minds/core/dataset/v1.0.0": "5327c762-f46a-4e58-a245-05059b975747",
-		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-		"openminds/Dataset": "5eec4404-f566-47c9-ba35-183a97d65c6e"
-	},
-	"file": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-45_pub/v1.0/45_pr_examples/M1/45_pr_M1.tsv"
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "5327c762-f46a-4e58-a245-05059b975747--07ce6c15b086c2493d7c770babef583c"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "Neurotransmitter receptor density profile"
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Area 45 (IFG)"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/dataset/v1.0.0": "5327c762-f46a-4e58-a245-05059b975747",
+                "minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/Dataset": "5eec4404-f566-47c9-ba35-183a97d65c6e"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "Homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "sep": "\t",
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-45_pub/v1.0/45_pr_examples/M1/45_pr_M1.tsv",
+            "plot_options": {}
+        }
+    ]
 }

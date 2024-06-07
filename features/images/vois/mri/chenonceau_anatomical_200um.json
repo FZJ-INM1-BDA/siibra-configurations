@@ -1,16 +1,44 @@
 {
-	"@id": "1be7069f-fd40-4f15-b3b3-80904d95e360--7a6ff4bc61742ff6f8271c2c421a90ce",
-	"@type": "siibra/feature/voi/v0.1",
-	"name": "CHENONCEAU: post mortem anatomical UHF MRI - 200um",
-	"modality": "T2 weighted MRI",
-	"ebrains": {
-		"openminds/Species": "1be7069f-fd40-4f15-b3b3-80904d95e360",
-		"openminds/DatasetVersion": "1be7069f-fd40-4f15-b3b3-80904d95e360"
-	},
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
-	},
-	"providers": {
-		"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/chenonceau-anatomy-200um/anatomy_200um"
-	}
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "1be7069f-fd40-4f15-b3b3-80904d95e360--7a6ff4bc61742ff6f8271c2c421a90ce"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "T2 weighted MRI"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "openminds/Species": "1be7069f-fd40-4f15-b3b3-80904d95e360",
+                "openminds/DatasetVersion": "1be7069f-fd40-4f15-b3b3-80904d95e360"
+            }
+        },
+        {
+            "@type": "siibra/attr/loc/boundingbox/v0.1",
+            "minpoint": [
+                -96.6,
+                -132.6,
+                -78.6
+            ],
+            "maxpoint": [
+                96.4,
+                96.4,
+                114.4
+            ],
+            "space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "format": "neuroglancer/precomputed",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/chenonceau-anatomy-200um/anatomy_200um",
+            "space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "CHENONCEAU: post mortem anatomical UHF MRI - 200um"
+        }
+    ]
 }

@@ -1,14 +1,40 @@
 {
-	"@id": "e019ea62-2109-49ad-924a-7e802108cb4b--56aba8e1560441a0d088c9aabb014c0c",
-	"@type": "siibra/feature/profile/receptor/v0.1",
-	"region": "Area PFm (IPL)",
-	"receptor": "GABAB",
-	"species": "Homo sapiens",
-	"ebrains": {
-		"minds/core/dataset/v1.0.0": "e019ea62-2109-49ad-924a-7e802108cb4b",
-		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-		"openminds/Dataset": "3094bb00-af49-4d9d-bd68-72b2c9577cec"
-	},
-	"file": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-PFm_pub/v1.0/PFm_pr_examples/GABAB/PFm_pr_GABAB.tsv"
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "e019ea62-2109-49ad-924a-7e802108cb4b--56aba8e1560441a0d088c9aabb014c0c"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "Neurotransmitter receptor density profile"
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Area PFm (IPL)"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/dataset/v1.0.0": "e019ea62-2109-49ad-924a-7e802108cb4b",
+                "minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/Dataset": "3094bb00-af49-4d9d-bd68-72b2c9577cec"
+            }
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "Homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "sep": "\t",
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-human-PFm_pub/v1.0/PFm_pr_examples/GABAB/PFm_pr_GABAB.tsv",
+            "plot_options": {}
+        }
+    ]
 }

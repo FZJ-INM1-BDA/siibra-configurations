@@ -1,0 +1,47 @@
+{
+    "@type": "siibra/concepts/feature/v0.2",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "8ab1b930-19c0-4f59-a24c-a89b3b5aec6d--47c9961238e2701d6de2c15306caef3a"
+        },
+        {
+            "@type": "siibra/attr/desc/modality/v0.1",
+            "value": "Neurotransmitter receptor density fingerprint"
+        },
+        {
+            "@type": "siibra/attr/desc/regionspec/v0.1",
+            "value": "Cornu ammonis 3"
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "Rattus norvegicus"
+        },
+        {
+            "@type": "siibra/attr/desc/ebrains/v0.1",
+            "ids": {
+                "minds/core/dataset/v1.0.0": "8ab1b930-19c0-4f59-a24c-a89b3b5aec6d",
+                "minds/core/species/v1.0.0": "f3490d7f-8f7f-4b40-b238-963dcac84412",
+                "openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
+                "openminds/DatasetVersion": "8ab1b930-19c0-4f59-a24c-a89b3b5aec6d"
+            }
+        },
+        {
+            "@type": "siibra/attr/data/tabular/v0.1",
+            "format": "csv",
+            "parse_options": {
+                "sep": "\t",
+                "index_col": 0
+            },
+            "url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000045_receptors-rat-CAmol_pub/v1.0/CAmol_fp_20190410.tsv",
+            "plot_options": {
+                "kind": "bar",
+                "yerr": "density (sd)",
+                "xlabel": "receptor",
+                "ylabel": "density (fmol/mg protein)",
+                "grid": true,
+                "legend": false
+            }
+        }
+    ]
+}
