@@ -1,621 +1,2419 @@
 {
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
-	},
-	"parcellation": {
-		"@id": "juelich/iav/atlas/v1.0.0/6"
-	},
-	"volumes": [
+	"@type": "siibra/atlases/parcellation_map/v0.1",
+	"parcellation_id": "juelich/iav/atlas/v1.0.0/6",
+	"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+	"attributes": [
 		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"nii": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob"
-			}
+			"@type": "siibra/attr/desc/id/v0.1",
+			"value": "36222f88-1aee-cf14-66fc-222fa1b83934"
+		},
+		{
+			"@type": "siibra/attr/desc/name/v0.1",
+			"value": "Superficial fibre bundles on MNI 152 ICBM 2009c Nonlinear Asymmetric  - 50.0 regions"
+		},
+		{
+			"@type": "siibra/attr/desc/speciesspec/v0.1",
+			"value": "homo sapiens"
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_CAC-PrCu_0",
+			"x-label": 38
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CAC-PrCu_0",
+			"x-label": 38
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CAC-PrCu_0",
+			"x-label": 38
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_CMF-Op_0",
+			"x-label": 37
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CMF-Op_0",
+			"x-label": 37
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CMF-Op_0",
+			"x-label": 37
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_CMF-PoC_0",
+			"x-label": 62
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CMF-PoC_0",
+			"x-label": 62
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CMF-PoC_0",
+			"x-label": 62
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_CMF-PrC_0",
+			"x-label": 97
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CMF-PrC_0",
+			"x-label": 97
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CMF-PrC_0",
+			"x-label": 97
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_CMF-PrC_1",
+			"x-label": 99
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CMF-PrC_1",
+			"x-label": 99
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CMF-PrC_1",
+			"x-label": 99
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_CMF-RMF_0",
+			"x-label": 49
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CMF-RMF_0",
+			"x-label": 49
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CMF-RMF_0",
+			"x-label": 49
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_CMF-SF_0",
+			"x-label": 68
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CMF-SF_0",
+			"x-label": 68
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_CMF-SF_0",
+			"x-label": 68
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_Fu-LO_0",
+			"x-label": 51
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Fu-LO_0",
+			"x-label": 51
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Fu-LO_0",
+			"x-label": 51
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_IC-PrCu_0",
+			"x-label": 40
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IC-PrCu_0",
+			"x-label": 40
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IC-PrCu_0",
+			"x-label": 40
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_IP-IT_0",
+			"x-label": 59
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IP-IT_0",
+			"x-label": 59
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IP-IT_0",
+			"x-label": 59
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_IP-LO_1",
+			"x-label": 86
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IP-LO_1",
+			"x-label": 86
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IP-LO_1",
+			"x-label": 86
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_IP-MT_0",
+			"x-label": 33
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IP-MT_0",
+			"x-label": 33
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IP-MT_0",
+			"x-label": 33
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_IP-SM_0",
+			"x-label": 80
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IP-SM_0",
+			"x-label": 80
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IP-SM_0",
+			"x-label": 80
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_IP-SP_0",
+			"x-label": 82
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IP-SP_0",
+			"x-label": 82
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IP-SP_0",
+			"x-label": 82
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_IP-SP_1",
+			"x-label": 84
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IP-SP_1",
+			"x-label": 84
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IP-SP_1",
+			"x-label": 84
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_IT-MT_0",
+			"x-label": 89
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IT-MT_0",
+			"x-label": 89
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_IT-MT_0",
+			"x-label": 89
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_LOF-Or_0",
+			"x-label": 48
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_LOF-Or_0",
+			"x-label": 48
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_LOF-Or_0",
+			"x-label": 48
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_LOF-RMF_0",
+			"x-label": 29
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_LOF-RMF_0",
+			"x-label": 29
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_LOF-RMF_0",
+			"x-label": 29
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_LOF-RMF_1",
+			"x-label": 31
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_LOF-RMF_1",
+			"x-label": 31
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_LOF-RMF_1",
+			"x-label": 31
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_LOF-ST_0",
+			"x-label": 25
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_LOF-ST_0",
+			"x-label": 25
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_LOF-ST_0",
+			"x-label": 25
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_MOF-ST_0",
+			"x-label": 12
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_MOF-ST_0",
+			"x-label": 12
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_MOF-ST_0",
+			"x-label": 12
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_MT-SM_0",
+			"x-label": 72
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_MT-SM_0",
+			"x-label": 72
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_MT-SM_0",
+			"x-label": 72
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_MT-ST_0",
+			"x-label": 95
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_MT-ST_0",
+			"x-label": 95
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_MT-ST_0",
+			"x-label": 95
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_Op-Ins_0",
+			"x-label": 27
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Op-Ins_0",
+			"x-label": 27
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Op-Ins_0",
+			"x-label": 27
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_Op-PrC_0",
+			"x-label": 18
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Op-PrC_0",
+			"x-label": 18
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Op-PrC_0",
+			"x-label": 18
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_Op-SF_0",
+			"x-label": 42
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Op-SF_0",
+			"x-label": 42
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Op-SF_0",
+			"x-label": 42
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_Or-Ins_0",
+			"x-label": 16
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Or-Ins_0",
+			"x-label": 16
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Or-Ins_0",
+			"x-label": 16
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PoC-Ins_0",
+			"x-label": 53
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-Ins_0",
+			"x-label": 53
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-Ins_0",
+			"x-label": 53
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PoCi-PrCu_0",
+			"x-label": 44
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoCi-PrCu_0",
+			"x-label": 44
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoCi-PrCu_0",
+			"x-label": 44
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PoCi-PrCu_1",
+			"x-label": 45
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoCi-PrCu_1",
+			"x-label": 45
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoCi-PrCu_1",
+			"x-label": 45
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PoCi-RAC_0",
+			"x-label": 10
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoCi-RAC_0",
+			"x-label": 10
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoCi-RAC_0",
+			"x-label": 10
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PoCi-SF_0",
+			"x-label": 79
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoCi-SF_0",
+			"x-label": 79
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoCi-SF_0",
+			"x-label": 79
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PoC-PrC_0",
+			"x-label": 1
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-PrC_0",
+			"x-label": 1
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-PrC_0",
+			"x-label": 1
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PoC-PrC_1",
+			"x-label": 3
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-PrC_1",
+			"x-label": 3
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-PrC_1",
+			"x-label": 3
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PoC-PrC_2",
+			"x-label": 5
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-PrC_2",
+			"x-label": 5
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-PrC_2",
+			"x-label": 5
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PoC-PrC_3",
+			"x-label": 7
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-PrC_3",
+			"x-label": 7
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-PrC_3",
+			"x-label": 7
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PoC-SM_0",
+			"x-label": 74
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-SM_0",
+			"x-label": 74
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-SM_0",
+			"x-label": 74
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PoC-SM_1",
+			"x-label": 76
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-SM_1",
+			"x-label": 76
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PoC-SM_1",
+			"x-label": 76
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PrC-Ins_0",
+			"x-label": 66
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PrC-Ins_0",
+			"x-label": 66
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PrC-Ins_0",
+			"x-label": 66
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PrC-SF_0",
+			"x-label": 20
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PrC-SF_0",
+			"x-label": 20
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PrC-SF_0",
+			"x-label": 20
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_PrC-SM_0",
+			"x-label": 15
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PrC-SM_0",
+			"x-label": 15
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_PrC-SM_0",
+			"x-label": 15
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_RAC-SF_1",
+			"x-label": 78
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_RAC-SF_1",
+			"x-label": 78
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_RAC-SF_1",
+			"x-label": 78
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_RMF-SF_0",
+			"x-label": 21
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_RMF-SF_0",
+			"x-label": 21
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_RMF-SF_0",
+			"x-label": 21
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_RMF-SF_1",
+			"x-label": 23
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_RMF-SF_1",
+			"x-label": 23
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_RMF-SF_1",
+			"x-label": 23
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_SM-Ins_0",
+			"x-label": 57
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_SM-Ins_0",
+			"x-label": 57
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_SM-Ins_0",
+			"x-label": 57
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_SP-SM_0",
+			"x-label": 93
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_SP-SM_0",
+			"x-label": 93
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_SP-SM_0",
+			"x-label": 93
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_ST-Ins_0",
+			"x-label": 92
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_ST-Ins_0",
+			"x-label": 92
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_ST-Ins_0",
+			"x-label": 92
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_ST-TT_0",
+			"x-label": 35
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_ST-TT_0",
+			"x-label": 35
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_ST-TT_0",
+			"x-label": 35
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_Tr-Ins_0",
+			"x-label": 64
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Tr-Ins_0",
+			"x-label": 64
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Tr-Ins_0",
+			"x-label": 64
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "lh_Tr-SF_0",
+			"x-label": 55
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Tr-SF_0",
+			"x-label": 55
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "lh_Tr-SF_0",
+			"x-label": 55
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_CAC-PoCi_0",
+			"x-label": 8
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CAC-PoCi_0",
+			"x-label": 8
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CAC-PoCi_0",
+			"x-label": 8
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_CAC-PrCu_0",
+			"x-label": 39
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CAC-PrCu_0",
+			"x-label": 39
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CAC-PrCu_0",
+			"x-label": 39
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_CMF-PrC_0",
+			"x-label": 98
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CMF-PrC_0",
+			"x-label": 98
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CMF-PrC_0",
+			"x-label": 98
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_CMF-PrC_1",
+			"x-label": 100
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CMF-PrC_1",
+			"x-label": 100
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CMF-PrC_1",
+			"x-label": 100
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_CMF-RMF_0",
+			"x-label": 50
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CMF-RMF_0",
+			"x-label": 50
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CMF-RMF_0",
+			"x-label": 50
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_CMF-SF_0",
+			"x-label": 69
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CMF-SF_0",
+			"x-label": 69
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CMF-SF_0",
+			"x-label": 69
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_CMF-SF_1",
+			"x-label": 70
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CMF-SF_1",
+			"x-label": 70
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_CMF-SF_1",
+			"x-label": 70
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_Cu-Li_0",
+			"x-label": 61
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Cu-Li_0",
+			"x-label": 61
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Cu-Li_0",
+			"x-label": 61
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_Fu-LO_1",
+			"x-label": 52
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Fu-LO_1",
+			"x-label": 52
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Fu-LO_1",
+			"x-label": 52
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_IC-PrCu_0",
+			"x-label": 41
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IC-PrCu_0",
+			"x-label": 41
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IC-PrCu_0",
+			"x-label": 41
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_IP-IT_0",
+			"x-label": 60
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IP-IT_0",
+			"x-label": 60
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IP-IT_0",
+			"x-label": 60
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_IP-LO_0",
+			"x-label": 85
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IP-LO_0",
+			"x-label": 85
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IP-LO_0",
+			"x-label": 85
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_IP-MT_0",
+			"x-label": 34
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IP-MT_0",
+			"x-label": 34
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IP-MT_0",
+			"x-label": 34
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_IP-SM_0",
+			"x-label": 81
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IP-SM_0",
+			"x-label": 81
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IP-SM_0",
+			"x-label": 81
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_IP-SP_0",
+			"x-label": 83
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IP-SP_0",
+			"x-label": 83
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IP-SP_0",
+			"x-label": 83
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_IT-MT_1",
+			"x-label": 90
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IT-MT_1",
+			"x-label": 90
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IT-MT_1",
+			"x-label": 90
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_IT-MT_2",
+			"x-label": 91
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IT-MT_2",
+			"x-label": 91
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_IT-MT_2",
+			"x-label": 91
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_LOF-MOF_0",
+			"x-label": 71
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_LOF-MOF_0",
+			"x-label": 71
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_LOF-MOF_0",
+			"x-label": 71
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_LOF-RMF_0",
+			"x-label": 30
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_LOF-RMF_0",
+			"x-label": 30
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_LOF-RMF_0",
+			"x-label": 30
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_LOF-RMF_1",
+			"x-label": 32
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_LOF-RMF_1",
+			"x-label": 32
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_LOF-RMF_1",
+			"x-label": 32
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_LOF-ST_0",
+			"x-label": 26
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_LOF-ST_0",
+			"x-label": 26
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_LOF-ST_0",
+			"x-label": 26
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_LO-SP_0",
+			"x-label": 54
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_LO-SP_0",
+			"x-label": 54
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_LO-SP_0",
+			"x-label": 54
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_MOF-ST_0",
+			"x-label": 13
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_MOF-ST_0",
+			"x-label": 13
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_MOF-ST_0",
+			"x-label": 13
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_MT-SM_0",
+			"x-label": 73
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_MT-SM_0",
+			"x-label": 73
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_MT-SM_0",
+			"x-label": 73
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_MT-ST_0",
+			"x-label": 96
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_MT-ST_0",
+			"x-label": 96
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_MT-ST_0",
+			"x-label": 96
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_Op-Ins_0",
+			"x-label": 28
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Op-Ins_0",
+			"x-label": 28
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Op-Ins_0",
+			"x-label": 28
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_Op-PrC_0",
+			"x-label": 19
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Op-PrC_0",
+			"x-label": 19
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Op-PrC_0",
+			"x-label": 19
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_Op-SF_0",
+			"x-label": 43
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Op-SF_0",
+			"x-label": 43
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Op-SF_0",
+			"x-label": 43
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_Op-Tr_0",
+			"x-label": 63
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Op-Tr_0",
+			"x-label": 63
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Op-Tr_0",
+			"x-label": 63
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_Or-Ins_0",
+			"x-label": 17
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Or-Ins_0",
+			"x-label": 17
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Or-Ins_0",
+			"x-label": 17
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_PoCi-PrCu_1",
+			"x-label": 46
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoCi-PrCu_1",
+			"x-label": 46
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoCi-PrCu_1",
+			"x-label": 46
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_PoCi-PrCu_2",
+			"x-label": 47
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoCi-PrCu_2",
+			"x-label": 47
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoCi-PrCu_2",
+			"x-label": 47
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_PoCi-RAC_0",
+			"x-label": 11
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoCi-RAC_0",
+			"x-label": 11
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoCi-RAC_0",
+			"x-label": 11
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_PoC-PrC_0",
+			"x-label": 2
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoC-PrC_0",
+			"x-label": 2
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoC-PrC_0",
+			"x-label": 2
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_PoC-PrC_1",
+			"x-label": 4
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoC-PrC_1",
+			"x-label": 4
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoC-PrC_1",
+			"x-label": 4
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_PoC-PrC_2",
+			"x-label": 6
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoC-PrC_2",
+			"x-label": 6
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoC-PrC_2",
+			"x-label": 6
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_PoC-SM_0",
+			"x-label": 75
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoC-SM_0",
+			"x-label": 75
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoC-SM_0",
+			"x-label": 75
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_PoC-SP_0",
+			"x-label": 87
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoC-SP_0",
+			"x-label": 87
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoC-SP_0",
+			"x-label": 87
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_PoC-SP_1",
+			"x-label": 88
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoC-SP_1",
+			"x-label": 88
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PoC-SP_1",
+			"x-label": 88
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_PrC-Ins_0",
+			"x-label": 67
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PrC-Ins_0",
+			"x-label": 67
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PrC-Ins_0",
+			"x-label": 67
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_PrC-SM_0",
+			"x-label": 14
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PrC-SM_0",
+			"x-label": 14
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PrC-SM_0",
+			"x-label": 14
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_PrC-SP_0",
+			"x-label": 9
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PrC-SP_0",
+			"x-label": 9
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_PrC-SP_0",
+			"x-label": 9
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_RAC-SF_0",
+			"x-label": 77
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_RAC-SF_0",
+			"x-label": 77
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_RAC-SF_0",
+			"x-label": 77
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_RMF-SF_0",
+			"x-label": 22
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_RMF-SF_0",
+			"x-label": 22
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_RMF-SF_0",
+			"x-label": 22
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_RMF-SF_1",
+			"x-label": 24
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_RMF-SF_1",
+			"x-label": 24
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_RMF-SF_1",
+			"x-label": 24
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_SM-Ins_0",
+			"x-label": 58
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_SM-Ins_0",
+			"x-label": 58
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_SM-Ins_0",
+			"x-label": 58
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_SP-SM_0",
+			"x-label": 94
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_SP-SM_0",
+			"x-label": 94
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_SP-SM_0",
+			"x-label": 94
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_ST-TT_0",
+			"x-label": 36
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_ST-TT_0",
+			"x-label": 36
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_ST-TT_0",
+			"x-label": 36
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_Tr-Ins_0",
+			"x-label": 65
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Tr-Ins_0",
+			"x-label": 65
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Tr-Ins_0",
+			"x-label": 65
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
+			"x-regionname": "rh_Tr-SF_0",
+			"x-label": 56
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Tr-SF_0",
+			"x-label": 56
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
+			"x-regionname": "rh_Tr-SF_0",
+			"x-label": 56
 		}
-	],
-	"@type": "siibra/map/v0.0.1",
-	"indices": {
-		"lh_CAC-PrCu_0": [
-			{
-				"volume": 0,
-				"label": 38
-			}
-		],
-		"lh_CMF-Op_0": [
-			{
-				"volume": 0,
-				"label": 37
-			}
-		],
-		"lh_CMF-PoC_0": [
-			{
-				"volume": 0,
-				"label": 62
-			}
-		],
-		"lh_CMF-PrC_0": [
-			{
-				"volume": 0,
-				"label": 97
-			}
-		],
-		"lh_CMF-PrC_1": [
-			{
-				"volume": 0,
-				"label": 99
-			}
-		],
-		"lh_CMF-RMF_0": [
-			{
-				"volume": 0,
-				"label": 49
-			}
-		],
-		"lh_CMF-SF_0": [
-			{
-				"volume": 0,
-				"label": 68
-			}
-		],
-		"lh_Fu-LO_0": [
-			{
-				"volume": 0,
-				"label": 51
-			}
-		],
-		"lh_IC-PrCu_0": [
-			{
-				"volume": 0,
-				"label": 40
-			}
-		],
-		"lh_IP-IT_0": [
-			{
-				"volume": 0,
-				"label": 59
-			}
-		],
-		"lh_IP-LO_1": [
-			{
-				"volume": 0,
-				"label": 86
-			}
-		],
-		"lh_IP-MT_0": [
-			{
-				"volume": 0,
-				"label": 33
-			}
-		],
-		"lh_IP-SM_0": [
-			{
-				"volume": 0,
-				"label": 80
-			}
-		],
-		"lh_IP-SP_0": [
-			{
-				"volume": 0,
-				"label": 82
-			}
-		],
-		"lh_IP-SP_1": [
-			{
-				"volume": 0,
-				"label": 84
-			}
-		],
-		"lh_IT-MT_0": [
-			{
-				"volume": 0,
-				"label": 89
-			}
-		],
-		"lh_LOF-Or_0": [
-			{
-				"volume": 0,
-				"label": 48
-			}
-		],
-		"lh_LOF-RMF_0": [
-			{
-				"volume": 0,
-				"label": 29
-			}
-		],
-		"lh_LOF-RMF_1": [
-			{
-				"volume": 0,
-				"label": 31
-			}
-		],
-		"lh_LOF-ST_0": [
-			{
-				"volume": 0,
-				"label": 25
-			}
-		],
-		"lh_MOF-ST_0": [
-			{
-				"volume": 0,
-				"label": 12
-			}
-		],
-		"lh_MT-SM_0": [
-			{
-				"volume": 0,
-				"label": 72
-			}
-		],
-		"lh_MT-ST_0": [
-			{
-				"volume": 0,
-				"label": 95
-			}
-		],
-		"lh_Op-Ins_0": [
-			{
-				"volume": 0,
-				"label": 27
-			}
-		],
-		"lh_Op-PrC_0": [
-			{
-				"volume": 0,
-				"label": 18
-			}
-		],
-		"lh_Op-SF_0": [
-			{
-				"volume": 0,
-				"label": 42
-			}
-		],
-		"lh_Or-Ins_0": [
-			{
-				"volume": 0,
-				"label": 16
-			}
-		],
-		"lh_PoC-Ins_0": [
-			{
-				"volume": 0,
-				"label": 53
-			}
-		],
-		"lh_PoCi-PrCu_0": [
-			{
-				"volume": 0,
-				"label": 44
-			}
-		],
-		"lh_PoCi-PrCu_1": [
-			{
-				"volume": 0,
-				"label": 45
-			}
-		],
-		"lh_PoCi-RAC_0": [
-			{
-				"volume": 0,
-				"label": 10
-			}
-		],
-		"lh_PoCi-SF_0": [
-			{
-				"volume": 0,
-				"label": 79
-			}
-		],
-		"lh_PoC-PrC_0": [
-			{
-				"volume": 0,
-				"label": 1
-			}
-		],
-		"lh_PoC-PrC_1": [
-			{
-				"volume": 0,
-				"label": 3
-			}
-		],
-		"lh_PoC-PrC_2": [
-			{
-				"volume": 0,
-				"label": 5
-			}
-		],
-		"lh_PoC-PrC_3": [
-			{
-				"volume": 0,
-				"label": 7
-			}
-		],
-		"lh_PoC-SM_0": [
-			{
-				"volume": 0,
-				"label": 74
-			}
-		],
-		"lh_PoC-SM_1": [
-			{
-				"volume": 0,
-				"label": 76
-			}
-		],
-		"lh_PrC-Ins_0": [
-			{
-				"volume": 0,
-				"label": 66
-			}
-		],
-		"lh_PrC-SF_0": [
-			{
-				"volume": 0,
-				"label": 20
-			}
-		],
-		"lh_PrC-SM_0": [
-			{
-				"volume": 0,
-				"label": 15
-			}
-		],
-		"lh_RAC-SF_1": [
-			{
-				"volume": 0,
-				"label": 78
-			}
-		],
-		"lh_RMF-SF_0": [
-			{
-				"volume": 0,
-				"label": 21
-			}
-		],
-		"lh_RMF-SF_1": [
-			{
-				"volume": 0,
-				"label": 23
-			}
-		],
-		"lh_SM-Ins_0": [
-			{
-				"volume": 0,
-				"label": 57
-			}
-		],
-		"lh_SP-SM_0": [
-			{
-				"volume": 0,
-				"label": 93
-			}
-		],
-		"lh_ST-Ins_0": [
-			{
-				"volume": 0,
-				"label": 92
-			}
-		],
-		"lh_ST-TT_0": [
-			{
-				"volume": 0,
-				"label": 35
-			}
-		],
-		"lh_Tr-Ins_0": [
-			{
-				"volume": 0,
-				"label": 64
-			}
-		],
-		"lh_Tr-SF_0": [
-			{
-				"volume": 0,
-				"label": 55
-			}
-		],
-		"rh_CAC-PoCi_0": [
-			{
-				"volume": 0,
-				"label": 8
-			}
-		],
-		"rh_CAC-PrCu_0": [
-			{
-				"volume": 0,
-				"label": 39
-			}
-		],
-		"rh_CMF-PrC_0": [
-			{
-				"volume": 0,
-				"label": 98
-			}
-		],
-		"rh_CMF-PrC_1": [
-			{
-				"volume": 0,
-				"label": 100
-			}
-		],
-		"rh_CMF-RMF_0": [
-			{
-				"volume": 0,
-				"label": 50
-			}
-		],
-		"rh_CMF-SF_0": [
-			{
-				"volume": 0,
-				"label": 69
-			}
-		],
-		"rh_CMF-SF_1": [
-			{
-				"volume": 0,
-				"label": 70
-			}
-		],
-		"rh_Cu-Li_0": [
-			{
-				"volume": 0,
-				"label": 61
-			}
-		],
-		"rh_Fu-LO_1": [
-			{
-				"volume": 0,
-				"label": 52
-			}
-		],
-		"rh_IC-PrCu_0": [
-			{
-				"volume": 0,
-				"label": 41
-			}
-		],
-		"rh_IP-IT_0": [
-			{
-				"volume": 0,
-				"label": 60
-			}
-		],
-		"rh_IP-LO_0": [
-			{
-				"volume": 0,
-				"label": 85
-			}
-		],
-		"rh_IP-MT_0": [
-			{
-				"volume": 0,
-				"label": 34
-			}
-		],
-		"rh_IP-SM_0": [
-			{
-				"volume": 0,
-				"label": 81
-			}
-		],
-		"rh_IP-SP_0": [
-			{
-				"volume": 0,
-				"label": 83
-			}
-		],
-		"rh_IT-MT_1": [
-			{
-				"volume": 0,
-				"label": 90
-			}
-		],
-		"rh_IT-MT_2": [
-			{
-				"volume": 0,
-				"label": 91
-			}
-		],
-		"rh_LOF-MOF_0": [
-			{
-				"volume": 0,
-				"label": 71
-			}
-		],
-		"rh_LOF-RMF_0": [
-			{
-				"volume": 0,
-				"label": 30
-			}
-		],
-		"rh_LOF-RMF_1": [
-			{
-				"volume": 0,
-				"label": 32
-			}
-		],
-		"rh_LOF-ST_0": [
-			{
-				"volume": 0,
-				"label": 26
-			}
-		],
-		"rh_LO-SP_0": [
-			{
-				"volume": 0,
-				"label": 54
-			}
-		],
-		"rh_MOF-ST_0": [
-			{
-				"volume": 0,
-				"label": 13
-			}
-		],
-		"rh_MT-SM_0": [
-			{
-				"volume": 0,
-				"label": 73
-			}
-		],
-		"rh_MT-ST_0": [
-			{
-				"volume": 0,
-				"label": 96
-			}
-		],
-		"rh_Op-Ins_0": [
-			{
-				"volume": 0,
-				"label": 28
-			}
-		],
-		"rh_Op-PrC_0": [
-			{
-				"volume": 0,
-				"label": 19
-			}
-		],
-		"rh_Op-SF_0": [
-			{
-				"volume": 0,
-				"label": 43
-			}
-		],
-		"rh_Op-Tr_0": [
-			{
-				"volume": 0,
-				"label": 63
-			}
-		],
-		"rh_Or-Ins_0": [
-			{
-				"volume": 0,
-				"label": 17
-			}
-		],
-		"rh_PoCi-PrCu_1": [
-			{
-				"volume": 0,
-				"label": 46
-			}
-		],
-		"rh_PoCi-PrCu_2": [
-			{
-				"volume": 0,
-				"label": 47
-			}
-		],
-		"rh_PoCi-RAC_0": [
-			{
-				"volume": 0,
-				"label": 11
-			}
-		],
-		"rh_PoC-PrC_0": [
-			{
-				"volume": 0,
-				"label": 2
-			}
-		],
-		"rh_PoC-PrC_1": [
-			{
-				"volume": 0,
-				"label": 4
-			}
-		],
-		"rh_PoC-PrC_2": [
-			{
-				"volume": 0,
-				"label": 6
-			}
-		],
-		"rh_PoC-SM_0": [
-			{
-				"volume": 0,
-				"label": 75
-			}
-		],
-		"rh_PoC-SP_0": [
-			{
-				"volume": 0,
-				"label": 87
-			}
-		],
-		"rh_PoC-SP_1": [
-			{
-				"volume": 0,
-				"label": 88
-			}
-		],
-		"rh_PrC-Ins_0": [
-			{
-				"volume": 0,
-				"label": 67
-			}
-		],
-		"rh_PrC-SM_0": [
-			{
-				"volume": 0,
-				"label": 14
-			}
-		],
-		"rh_PrC-SP_0": [
-			{
-				"volume": 0,
-				"label": 9
-			}
-		],
-		"rh_RAC-SF_0": [
-			{
-				"volume": 0,
-				"label": 77
-			}
-		],
-		"rh_RMF-SF_0": [
-			{
-				"volume": 0,
-				"label": 22
-			}
-		],
-		"rh_RMF-SF_1": [
-			{
-				"volume": 0,
-				"label": 24
-			}
-		],
-		"rh_SM-Ins_0": [
-			{
-				"volume": 0,
-				"label": 58
-			}
-		],
-		"rh_SP-SM_0": [
-			{
-				"volume": 0,
-				"label": 94
-			}
-		],
-		"rh_ST-TT_0": [
-			{
-				"volume": 0,
-				"label": 36
-			}
-		],
-		"rh_Tr-Ins_0": [
-			{
-				"volume": 0,
-				"label": 65
-			}
-		],
-		"rh_Tr-SF_0": [
-			{
-				"volume": 0,
-				"label": 56
-			}
-		]
-	}
+	]
 }
