@@ -1,252 +1,569 @@
 {
-	"@type": "siibra/map/v0.0.1",
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/tmp-fsaverage"
-	},
-	"parcellation": {
-		"@id": "minds/core/parcellationatlas/v1.0.0/d41d8cd98f00b204e9800998ecf8427e"
-	},
-	"volumes": [
+	"@type": "siibra/atlases/parcellation_map/v0.1",
+	"parcellation_id": "minds/core/parcellationatlas/v1.0.0/d41d8cd98f00b204e9800998ecf8427e",
+	"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+	"maptype": "LABELLED",
+	"attributes": [
 		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"zip/freesurfer-annot": {
-					"left hemisphere": "https://download.brainvoyager.com/data/visfAtlas.zip visfAtlas/FreeSurfer/lh.visfAtlas.annot",
-					"right hemisphere": "https://download.brainvoyager.com/data/visfAtlas.zip visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				}
+			"@type": "siibra/attr/desc/id/v0.1",
+			"value": "4dd134dc-14af-7b25-bf5e-eef4ec6ea4f1"
+		},
+		{
+			"@type": "siibra/attr/desc/name/v0.1",
+			"value": "[PRERELEASE] A Probabilistic Functional Atlas of Human Occipito-Temporal Visual Cortex on freesurfer fsaverage - labelled - 16 regions"
+		},
+		{
+			"@type": "siibra/attr/desc/speciesspec/v0.1",
+			"value": "homo sapiens"
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+			"format": "freesurfer-annot",
+			"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+			"archive_options": {
+				"format": "zip",
+				"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+			}
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+			"format": "freesurfer-annot",
+			"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+			"archive_options": {
+				"format": "zip",
+				"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
 			}
 		}
 	],
-	"indices": {
+	"index_mapping": {
 		"lh_mFus_faces": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#ff0000"
 			}
 		],
 		"lh_pFus_faces": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 2
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 2
+				},
+				"color": "#a00000"
 			}
 		],
 		"lh_IOG_faces": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 3
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 3
+				},
+				"color": "#de2d26"
 			}
 		],
 		"lh_OTS_bodies": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 4
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 4
+				},
+				"color": "#00e600"
 			}
 		],
 		"lh_ITG_bodies": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 5
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 5
+				},
+				"color": "#edf8e9"
 			}
 		],
 		"lh_MTG_bodies": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 6
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 6
+				},
+				"color": "#74c476"
 			}
 		],
 		"lh_LOS_bodies": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 7
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 7
+				},
+				"color": "#31a354"
 			}
 		],
 		"lh_pOTS_characters": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 8
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 8
+				},
+				"color": "#090909"
 			}
 		],
 		"lh_IOS_haracters": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 9
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 9
+				},
+				"color": "#edf8e9"
 			}
 		],
 		"lh_CoS_places": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 10
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 10
+				},
+				"color": "#54278f"
 			}
 		],
 		"lh_hMT": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 11
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 11
+				},
+				"color": "#54278f"
 			}
 		],
 		"lh_v1d": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 12
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 12
+				},
+				"color": "#54278f"
 			}
 		],
 		"lh_v2d": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 13
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 13
+				},
+				"color": "#54278f"
 			}
 		],
 		"lh_v3d": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 14
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 14
+				},
+				"color": "#54278f"
 			}
 		],
 		"lh_v1v": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 15
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 15
+				},
+				"color": "#54278f"
 			}
 		],
 		"lh_v2v": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 16
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 16
+				},
+				"color": "#54278f"
 			}
 		],
 		"lh_v3v": [
 			{
-				"volume": 0,
-				"fragment": "left hemisphere",
-				"label": 17
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 17
+				},
+				"color": "#54278f"
 			}
 		],
 		"rh_mFus_faces": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#ff0000"
 			}
 		],
 		"rh_pFus_faces": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 2
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 2
+				},
+				"color": "#ff0000"
 			}
 		],
 		"rh_IOG_faces": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 3
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 3
+				},
+				"color": "#de2d26"
 			}
 		],
 		"rh_OTS_bodies": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 4
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 4
+				},
+				"color": "#00e600"
 			}
 		],
 		"rh_ITG_bodies": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 5
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 5
+				},
+				"color": "#edf8e9"
 			}
 		],
 		"rh_MTG_bodies": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 6
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 6
+				},
+				"color": "#74c476"
 			}
 		],
 		"rh_LOS_bodies": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 7
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 7
+				},
+				"color": "#31a354"
 			}
 		],
 		"rh_CoS_places": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 8
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 8
+				},
+				"color": "#54278f"
 			}
 		],
 		"rh_TOS_places": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 9
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 9
+				},
+				"color": "#756bb1"
 			}
 		],
 		"rh_hMT": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 10
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 10
+				},
+				"color": "#756bb1"
 			}
 		],
 		"rh_v1d": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 11
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 11
+				},
+				"color": "#756bb1"
 			}
 		],
 		"rh_v2d": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 12
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 12
+				},
+				"color": "#756bb1"
 			}
 		],
 		"rh_v3d": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 13
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 13
+				},
+				"color": "#756bb1"
 			}
 		],
 		"rh_v1v": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 14
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 14
+				},
+				"color": "#756bb1"
 			}
 		],
 		"rh_v2v": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 15
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 15
+				},
+				"color": "#756bb1"
 			}
 		],
 		"rh_v3v": [
 			{
-				"volume": 0,
-				"fragment": "right hemisphere",
-				"label": 16
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "freesurfer-annot",
+				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+				"archive_options": {
+					"format": "zip",
+					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+				},
+				"subimage_options": {
+					"label": 16
+				},
+				"color": "#756bb1"
 			}
 		]
 	}

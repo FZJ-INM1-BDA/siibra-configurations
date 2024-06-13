@@ -1,1797 +1,3585 @@
 {
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/tmp-fsaverage"
-	},
-	"parcellation": {
-		"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290"
-	},
-	"volumes": [
+	"@type": "siibra/atlases/parcellation_map/v0.1",
+	"parcellation_id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290",
+	"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+	"maptype": "LABELLED",
+	"attributes": [
 		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"gii-label": {
-					"left hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
-					"right hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii"
-				}
-			}
+			"@type": "siibra/attr/desc/id/v0.1",
+			"value": "6da7f4cb-4c08-611d-c3ba-97aa7ef5356e"
+		},
+		{
+			"@type": "siibra/attr/desc/name/v0.1",
+			"value": "Julich-Brain Cytoarchitectonic Atlas (v2.9) on freesurfer fsaverage - labelled - 148 regions"
+		},
+		{
+			"@type": "siibra/attr/desc/speciesspec/v0.1",
+			"value": "homo sapiens"
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+			"format": "gii-label",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii"
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+			"format": "gii-label",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii"
 		}
 	],
-	"@type": "siibra/map/v0.0.1",
-	"indices": {
+	"index_mapping": {
 		"Ch 123 (Basal Forebrain) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 286
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 286
+				},
+				"color": "#9FE770"
 			}
 		],
 		"Ch 4 (Basal Forebrain) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 264
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 264
+				},
+				"color": "#56D6EF"
 			}
 		],
 		"LB (Amygdala) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 187
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 187
+				},
+				"color": "#F3619A"
 			}
 		],
 		"CM (Amygdala) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 290
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 290
+				},
+				"color": "#276A00"
 			}
 		],
 		"SF (Amygdala) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 185
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 185
+				},
+				"color": "#58FBF4"
 			}
 		],
 		"VTM (Amygdala) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 228
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 228
+				},
+				"color": "#559CB1"
 			}
 		],
 		"IF (Amygdala) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 237
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 237
+				},
+				"color": "#C8C8C8"
 			}
 		],
 		"MF (Amygdala) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 235
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 235
+				},
+				"color": "#01AA03"
 			}
 		],
 		"BST (Bed Nucleus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 378
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 378
+				},
+				"color": "#16EE06"
 			}
 		],
 		"Frontal-to-Temporal-I (GapMap) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 505
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 505
+				},
+				"color": "#407E64"
 			}
 		],
 		"Area 5L (SPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 130
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 130
+				},
+				"color": "#B8B93A"
 			}
 		],
 		"Area 7M (SPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 135
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 135
+				},
+				"color": "#CD3DEC"
 			}
 		],
 		"Area 7PC (SPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 132
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 132
+				},
+				"color": "#FC591C"
 			}
 		],
 		"Area 5M (SPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 131
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 131
+				},
+				"color": "#E1F54C"
 			}
 		],
 		"Area 7P (SPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 208
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 208
+				},
+				"color": "#34146A"
 			}
 		],
 		"Area 5Ci (SPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 136
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 136
+				},
+				"color": "#4FF292"
 			}
 		],
 		"Area 7A (SPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 134
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 134
+				},
+				"color": "#26CC13"
 			}
 		],
 		"Area OP3 (POperc) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 75
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 75
+				},
+				"color": "#3A7A50"
 			}
 		],
 		"Area OP4 (POperc) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 72
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 72
+				},
+				"color": "#595084"
 			}
 		],
 		"Area OP2 (POperc) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 74
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 74
+				},
+				"color": "#242FDD"
 			}
 		],
 		"Area OP1 (POperc) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 73
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 73
+				},
+				"color": "#FAB622"
 			}
 		],
 		"Area 3b (PostCG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 127
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 127
+				},
+				"color": "#EFF69B"
 			}
 		],
 		"Area 1 (PostCG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 125
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 125
+				},
+				"color": "#E8B9FA"
 			}
 		],
 		"Area 2 (PostCS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 252
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 252
+				},
+				"color": "#170D23"
 			}
 		],
 		"Area 3a (PostCG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 126
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 126
+				},
+				"color": "#BB8532"
 			}
 		],
 		"Area PF (IPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 206
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 206
+				},
+				"color": "#E2D33D"
 			}
 		],
 		"Area PFcm (IPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 113
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 113
+				},
+				"color": "#628078"
 			}
 		],
 		"Area PGa (IPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 110
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 110
+				},
+				"color": "#2AEC83"
 			}
 		],
 		"Area PFt (IPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 109
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 109
+				},
+				"color": "#7887E8"
 			}
 		],
 		"Area PFm (IPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 112
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 112
+				},
+				"color": "#354C91"
 			}
 		],
 		"Area PGp (IPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 108
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 108
+				},
+				"color": "#5C7453"
 			}
 		],
 		"Area PFop (IPL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 111
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 111
+				},
+				"color": "#9299B1"
 			}
 		],
 		"Area hPO1 (POS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 297
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 297
+				},
+				"color": "#99E8EB"
 			}
 		],
 		"Area hIP1 (IPS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 128
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 128
+				},
+				"color": "#429552"
 			}
 		],
 		"Area hIP7 (IPS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 296
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 296
+				},
+				"color": "#47C4DA"
 			}
 		],
 		"Area hIP3 (IPS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 133
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 133
+				},
+				"color": "#71ACE5"
 			}
 		],
 		"Area hIP2 (IPS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 129
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 129
+				},
+				"color": "#7FF5CB"
 			}
 		],
 		"Area hIP4 (IPS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 294
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 294
+				},
+				"color": "#FE34B8"
 			}
 		],
 		"Area hIP5 (IPS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 295
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 295
+				},
+				"color": "#D957D2"
 			}
 		],
 		"Area hIP6 (IPS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 292
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 292
+				},
+				"color": "#EDE925"
 			}
 		],
 		"Area hIP8 (IPS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 293
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 293
+				},
+				"color": "#DF6D03"
 			}
 		],
 		"Area hOc6 (POS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 291
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 291
+				},
+				"color": "#EF421A"
 			}
 		],
 		"Area hOc4d (Cuneus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 119
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 119
+				},
+				"color": "#6DDA0A"
 			}
 		],
 		"Area hOc3d (Cuneus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 120
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 120
+				},
+				"color": "#69BF30"
 			}
 		],
 		"Area hOc3v (LingG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 10
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 10
+				},
+				"color": "#53B39B"
 			}
 		],
 		"Area hOc4v (LingG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 9
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 9
+				},
+				"color": "#DE4D9B"
 			}
 		],
 		"Area hOc2 (V2, 18) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 7
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 7
+				},
+				"color": "#546E16"
 			}
 		],
 		"Area hOc1 (V1, 17, CalcS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 8
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 8
+				},
+				"color": "#BE8493"
 			}
 		],
 		"Area hOc4lp (LOC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 117
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 117
+				},
+				"color": "#6071FD"
 			}
 		],
 		"Area hOc5 (LOC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 6
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 6
+				},
+				"color": "#FF0000"
 			}
 		],
 		"Area hOc4la (LOC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 118
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 118
+				},
+				"color": "#E9A8BD"
 			}
 		],
 		"Area IFJ1 (IFS,PreCS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 248
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 248
+				},
+				"color": "#E500A0"
 			}
 		],
 		"Area IFS4 (IFS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 247
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 247
+				},
+				"color": "#1F497D"
 			}
 		],
 		"Area IFS2 (IFS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 245
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 245
+				},
+				"color": "#FF0000"
 			}
 		],
 		"Area IFS1 (IFS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 244
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 244
+				},
+				"color": "#7030A0"
 			}
 		],
 		"Area IFS3 (IFS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 246
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 246
+				},
+				"color": "#028032"
 			}
 		],
 		"Area IFJ2 (IFS,PreCS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 249
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 249
+				},
+				"color": "#DF6A16"
 			}
 		],
 		"Area 8v2 (MFG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 334
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 334
+				},
+				"color": "#1D6D13"
 			}
 		],
 		"Area 8v1 (MFG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 335
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 335
+				},
+				"color": "#A9BBB4"
 			}
 		],
 		"Area 44 (IFG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 2
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 2
+				},
+				"color": "#364A4B"
 			}
 		],
 		"Area 45 (IFG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#A76792"
 			}
 		],
 		"Area 6d2 (PreCG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 288
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 288
+				},
+				"color": "#AA97B4"
 			}
 		],
 		"Area 6d1 (PreCG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 287
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 287
+				},
+				"color": "#2D211B"
 			}
 		],
 		"Area 6ma (preSMA, mesial SFG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 299
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 299
+				},
+				"color": "#CC6CDE"
 			}
 		],
 		"Area 6d3 (SFS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 289
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 289
+				},
+				"color": "#37EF15"
 			}
 		],
 		"Area Fp1 (FPole) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 212
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 212
+				},
+				"color": "#E20EC8"
 			}
 		],
 		"Area Fp2 (FPole) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 211
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 211
+				},
+				"color": "#EF89D3"
 			}
 		],
 		"Area 6mp (SMA, mesial SFG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 298
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 298
+				},
+				"color": "#4B5F57"
 			}
 		],
 		"Area 4p (PreCG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 123
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 123
+				},
+				"color": "#745C7C"
 			}
 		],
 		"Area 4a (PreCG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 124
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 124
+				},
+				"color": "#76EFB7"
 			}
 		],
 		"Area Fo1 (OFC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 3
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 3
+				},
+				"color": "#07FFB3"
 			}
 		],
 		"Area Fo3 (OFC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 5
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 5
+				},
+				"color": "#B6BDFA"
 			}
 		],
 		"Area Fo2 (OFC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 4
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 4
+				},
+				"color": "#00FF00"
 			}
 		],
 		"Area Op7 (Frontal Operculum) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 350
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 350
+				},
+				"color": "#8674C0"
 			}
 		],
 		"Area Op8 (Frontal Operculum) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 273
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 273
+				},
+				"color": "#1D4CA8"
 			}
 		],
 		"Area Op5 (Frontal Operculum) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 348
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 348
+				},
+				"color": "#DE4EFD"
 			}
 		],
 		"Area Op6 (Frontal Operculum) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 349
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 349
+				},
+				"color": "#8A3F64"
 			}
 		],
 		"Area Op9 (Frontal Operculum) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 274
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 274
+				},
+				"color": "#AF7B22"
 			}
 		],
 		"Area Fo6 (OFC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 326
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 326
+				},
+				"color": "#C79CBB"
 			}
 		],
 		"Area Fo5 (OFC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 325
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 325
+				},
+				"color": "#DB0B5B"
 			}
 		],
 		"Area Fo7 (OFC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 327
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 327
+				},
+				"color": "#40D3BA"
 			}
 		],
 		"Area Fo4 (OFC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 324
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 324
+				},
+				"color": "#A3CC35"
 			}
 		],
 		"Area 8d2 (SFG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 333
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 333
+				},
+				"color": "#C0BAE1"
 			}
 		],
 		"Area 8d1 (SFG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 332
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 332
+				},
+				"color": "#AF8366"
 			}
 		],
 		"Area Ig3 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 336
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 336
+				},
+				"color": "#69FDC5"
 			}
 		],
 		"Area Ig1 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 115
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 115
+				},
+				"color": "#126F28"
 			}
 		],
 		"Area Ig2 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 114
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 114
+				},
+				"color": "#693D52"
 			}
 		],
 		"Area Ia2 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 375
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 375
+				},
+				"color": "#741802"
 			}
 		],
 		"Area Ia1 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 339
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 339
+				},
+				"color": "#47D93E"
 			}
 		],
 		"Area Ia3 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 374
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 374
+				},
+				"color": "#31F75A"
 			}
 		],
 		"Area Id2 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 56
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 56
+				},
+				"color": "#E17E49"
 			}
 		],
 		"Area Id8 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 376
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 376
+				},
+				"color": "#4FBB2A"
 			}
 		],
 		"Area Id1 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 116
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 116
+				},
+				"color": "#8D70D8"
 			}
 		],
 		"Area Id9 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 373
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 373
+				},
+				"color": "#1736AA"
 			}
 		],
 		"Area Id7 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 159
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 159
+				},
+				"color": "#BCFAD8"
 			}
 		],
 		"Area Id5 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 338
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 338
+				},
+				"color": "#700632"
 			}
 		],
 		"Area Id6 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 340
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 340
+				},
+				"color": "#8A7F77"
 			}
 		],
 		"Area Id10 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 377
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 377
+				},
+				"color": "#B365C0"
 			}
 		],
 		"Area Id4 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 337
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 337
+				},
+				"color": "#26AE71"
 			}
 		],
 		"Area Id3 (Insula) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 57
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 57
+				},
+				"color": "#20203A"
 			}
 		],
 		"Area STS2 (STS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 272
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 272
+				},
+				"color": "#3E757B"
 			}
 		],
 		"Area STS1 (STS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 271
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 271
+				},
+				"color": "#CDE404"
 			}
 		],
 		"Area TE 3 (STG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 31
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 31
+				},
+				"color": "#9F686C"
 			}
 		],
 		"Area TE 2.2 (STG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 34
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 34
+				},
+				"color": "#3A687D"
 			}
 		],
 		"Area TE 2.1 (STG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 28
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 28
+				},
+				"color": "#43FE2C"
 			}
 		],
 		"Area TI (STG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 243
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 243
+				},
+				"color": "#566516"
 			}
 		],
 		"Area TeI (STG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 242
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 242
+				},
+				"color": "#174E5C"
 			}
 		],
 		"Area TE 1.2 (HESCHL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 30
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 30
+				},
+				"color": "#CAFBC0"
 			}
 		],
 		"Area TE 1.1 (HESCHL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 33
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 33
+				},
+				"color": "#087144"
 			}
 		],
 		"Area TE 1.0 (HESCHL) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 27
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 27
+				},
+				"color": "#FC54DE"
 			}
 		],
 		"Area Ph3 (PhG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 357
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 357
+				},
+				"color": "#800000"
 			}
 		],
 		"Area Ph1 (PhG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 355
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 355
+				},
+				"color": "#008000"
 			}
 		],
 		"Area Ph2 (PhG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 356
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 356
+				},
+				"color": "#808000"
 			}
 		],
 		"Area FG2 (FusG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 106
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 106
+				},
+				"color": "#A75E95"
 			}
 		],
 		"Area FG3 (FusG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 239
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 239
+				},
+				"color": "#789325"
 			}
 		],
 		"Area FG1 (FusG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 107
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 107
+				},
+				"color": "#83B73A"
 			}
 		],
 		"Area FG4 (FusG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 238
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 238
+				},
+				"color": "#AADCAF"
 			}
 		],
 		"Area CoS1 (CoS) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 358
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 358
+				},
+				"color": "#000080"
 			}
 		],
 		"Area TPJ (STG/SMG) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 29
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 29
+				},
+				"color": "#5FC332"
 			}
 		],
 		"Frontal-to-Occipital (GapMap) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 504
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 504
+				},
+				"color": "#68A15D"
 			}
 		],
 		"Temporal-to-Parietal (GapMap) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 503
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 503
+				},
+				"color": "#4C5AA1"
 			}
 		],
 		"Frontal-I (GapMap) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 500
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 500
+				},
+				"color": "#BAFF19"
 			}
 		],
 		"Frontal-to-Temporal-II (GapMap) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 506
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 506
+				},
+				"color": "#A1184A"
 			}
 		],
 		"Frontal-II (GapMap) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 501
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 501
+				},
+				"color": "#FF870F"
 			}
 		],
 		"Area p24c (pACC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 232
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 232
+				},
+				"color": "#F1A4C3"
 			}
 		],
 		"Area 25 (sACC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 184
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 184
+				},
+				"color": "#AA44DC"
 			}
 		],
 		"Area p24ab (pACC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 231
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 231
+				},
+				"color": "#99C3E5"
 			}
 		],
 		"Area s32 (sACC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 46
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 46
+				},
+				"color": "#C15EFA"
 			}
 		],
 		"Area 33 (ACC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 39
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 39
+				},
+				"color": "#3339F5"
 			}
 		],
 		"Area p32 (pACC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 47
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 47
+				},
+				"color": "#57870E"
 			}
 		],
 		"Area s24 (sACC) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 183
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 183
+				},
+				"color": "#8522C9"
 			}
 		],
 		"HC-Presubiculum (Hippocampus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 63
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 63
+				},
+				"color": "#00FF00"
 			}
 		],
 		"HATA (Hippocampus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 68
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 68
+				},
+				"color": "#890C49"
 			}
 		],
 		"Entorhinal Cortex - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 60
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 60
+				},
+				"color": "#239FD6"
 			}
 		],
 		"CA3 (Hippocampus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 59
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 59
+				},
+				"color": "#E9D3DD"
 			}
 		],
 		"HC-Transsubiculum (Hippocampus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 305
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 305
+				},
+				"color": "#6DFBD4"
 			}
 		],
 		"HC-Subiculum (Hippocampus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 67
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 67
+				},
+				"color": "#FF00FF"
 			}
 		],
 		"HC-Prosubiculum (Hippocampus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 64
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 64
+				},
+				"color": "#0000FF"
 			}
 		],
 		"HC-Parasubiculum (Hippocampus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 62
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 62
+				},
+				"color": "#FF0000"
 			}
 		],
 		"DG (Hippocampus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 61
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 61
+				},
+				"color": "#953778"
 			}
 		],
 		"CA2 (Hippocampus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 58
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 58
+				},
+				"color": "#914365"
 			}
 		],
 		"CA1 (Hippocampus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 66
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 66
+				},
+				"color": "#7D09A7"
 			}
 		],
 		"Interposed Nucleus (Cerebellum) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 251
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 251
+				},
+				"color": "#59C943"
 			}
 		],
 		"Dorsal Dentate Nucleus (Cerebellum) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 240
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 240
+				},
+				"color": "#4B8D35"
 			}
 		],
 		"Ventral Dentate Nucleus (Cerebellum) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 241
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 241
+				},
+				"color": "#E62689"
 			}
 		],
 		"Fastigial Nucleus (Cerebellum) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 219
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 219
+				},
+				"color": "#F9AB2F"
 			}
 		],
 		"CGM (Metathalamus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 368
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 368
+				},
+				"color": "#EE282D"
 			}
 		],
 		"CGL (Metathalamus) - left hemisphere": [
 			{
-				"fragment": "left hemisphere",
-				"label": 367
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 367
+				},
+				"color": "#3F416B"
 			}
 		],
 		"Ch 123 (Basal Forebrain) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 286
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 286
+				},
+				"color": "#9FE770"
 			}
 		],
 		"Ch 4 (Basal Forebrain) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 264
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 264
+				},
+				"color": "#56D6EF"
 			}
 		],
 		"LB (Amygdala) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 187
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 187
+				},
+				"color": "#F3619A"
 			}
 		],
 		"CM (Amygdala) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 290
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 290
+				},
+				"color": "#276A00"
 			}
 		],
 		"SF (Amygdala) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 185
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 185
+				},
+				"color": "#58FBF4"
 			}
 		],
 		"VTM (Amygdala) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 228
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 228
+				},
+				"color": "#559CB1"
 			}
 		],
 		"IF (Amygdala) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 237
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 237
+				},
+				"color": "#C8C8C8"
 			}
 		],
 		"MF (Amygdala) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 235
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 235
+				},
+				"color": "#01AA03"
 			}
 		],
 		"BST (Bed Nucleus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 378
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 378
+				},
+				"color": "#16EE06"
 			}
 		],
 		"Frontal-to-Temporal-I (GapMap) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 505
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 505
+				},
+				"color": "#407E64"
 			}
 		],
 		"Area 5L (SPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 130
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 130
+				},
+				"color": "#B8B93A"
 			}
 		],
 		"Area 7M (SPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 135
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 135
+				},
+				"color": "#CD3DEC"
 			}
 		],
 		"Area 7PC (SPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 132
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 132
+				},
+				"color": "#FC591C"
 			}
 		],
 		"Area 5M (SPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 131
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 131
+				},
+				"color": "#E1F54C"
 			}
 		],
 		"Area 7P (SPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 208
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 208
+				},
+				"color": "#34146A"
 			}
 		],
 		"Area 5Ci (SPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 136
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 136
+				},
+				"color": "#4FF292"
 			}
 		],
 		"Area 7A (SPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 134
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 134
+				},
+				"color": "#26CC13"
 			}
 		],
 		"Area OP3 (POperc) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 75
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 75
+				},
+				"color": "#3A7A50"
 			}
 		],
 		"Area OP4 (POperc) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 72
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 72
+				},
+				"color": "#595084"
 			}
 		],
 		"Area OP2 (POperc) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 74
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 74
+				},
+				"color": "#242FDD"
 			}
 		],
 		"Area OP1 (POperc) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 73
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 73
+				},
+				"color": "#FAB622"
 			}
 		],
 		"Area 3b (PostCG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 127
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 127
+				},
+				"color": "#EFF69B"
 			}
 		],
 		"Area 1 (PostCG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 125
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 125
+				},
+				"color": "#E8B9FA"
 			}
 		],
 		"Area 2 (PostCS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 252
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 252
+				},
+				"color": "#170D23"
 			}
 		],
 		"Area 3a (PostCG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 126
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 126
+				},
+				"color": "#BB8532"
 			}
 		],
 		"Area PF (IPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 206
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 206
+				},
+				"color": "#E2D33D"
 			}
 		],
 		"Area PFcm (IPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 113
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 113
+				},
+				"color": "#628078"
 			}
 		],
 		"Area PGa (IPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 110
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 110
+				},
+				"color": "#2AEC83"
 			}
 		],
 		"Area PFt (IPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 109
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 109
+				},
+				"color": "#7887E8"
 			}
 		],
 		"Area PFm (IPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 112
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 112
+				},
+				"color": "#354C91"
 			}
 		],
 		"Area PGp (IPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 108
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 108
+				},
+				"color": "#5C7453"
 			}
 		],
 		"Area PFop (IPL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 111
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 111
+				},
+				"color": "#9299B1"
 			}
 		],
 		"Area hPO1 (POS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 297
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 297
+				},
+				"color": "#99E8EB"
 			}
 		],
 		"Area hIP1 (IPS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 128
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 128
+				},
+				"color": "#429552"
 			}
 		],
 		"Area hIP7 (IPS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 296
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 296
+				},
+				"color": "#47C4DA"
 			}
 		],
 		"Area hIP3 (IPS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 133
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 133
+				},
+				"color": "#71ACE5"
 			}
 		],
 		"Area hIP2 (IPS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 129
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 129
+				},
+				"color": "#7FF5CB"
 			}
 		],
 		"Area hIP4 (IPS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 294
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 294
+				},
+				"color": "#FE34B8"
 			}
 		],
 		"Area hIP5 (IPS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 295
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 295
+				},
+				"color": "#D957D2"
 			}
 		],
 		"Area hIP6 (IPS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 292
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 292
+				},
+				"color": "#EDE925"
 			}
 		],
 		"Area hIP8 (IPS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 293
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 293
+				},
+				"color": "#DF6D03"
 			}
 		],
 		"Area hOc6 (POS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 291
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 291
+				},
+				"color": "#EF421A"
 			}
 		],
 		"Area hOc4d (Cuneus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 119
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 119
+				},
+				"color": "#6DDA0A"
 			}
 		],
 		"Area hOc3d (Cuneus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 120
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 120
+				},
+				"color": "#69BF30"
 			}
 		],
 		"Area hOc3v (LingG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 10
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 10
+				},
+				"color": "#53B39B"
 			}
 		],
 		"Area hOc4v (LingG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 9
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 9
+				},
+				"color": "#DE4D9B"
 			}
 		],
 		"Area hOc2 (V2, 18) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 7
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 7
+				},
+				"color": "#546E16"
 			}
 		],
 		"Area hOc1 (V1, 17, CalcS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 8
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 8
+				},
+				"color": "#BE8493"
 			}
 		],
 		"Area hOc4lp (LOC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 117
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 117
+				},
+				"color": "#6071FD"
 			}
 		],
 		"Area hOc5 (LOC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 6
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 6
+				},
+				"color": "#FF0000"
 			}
 		],
 		"Area hOc4la (LOC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 118
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 118
+				},
+				"color": "#E9A8BD"
 			}
 		],
 		"Area IFJ1 (IFS,PreCS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 248
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 248
+				},
+				"color": "#E500A0"
 			}
 		],
 		"Area IFS4 (IFS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 247
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 247
+				},
+				"color": "#1F497D"
 			}
 		],
 		"Area IFS2 (IFS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 245
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 245
+				},
+				"color": "#FF0000"
 			}
 		],
 		"Area IFS1 (IFS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 244
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 244
+				},
+				"color": "#7030A0"
 			}
 		],
 		"Area IFS3 (IFS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 246
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 246
+				},
+				"color": "#028032"
 			}
 		],
 		"Area IFJ2 (IFS,PreCS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 249
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 249
+				},
+				"color": "#DF6A16"
 			}
 		],
 		"Area 8v2 (MFG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 334
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 334
+				},
+				"color": "#1D6D13"
 			}
 		],
 		"Area 8v1 (MFG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 335
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 335
+				},
+				"color": "#A9BBB4"
 			}
 		],
 		"Area 44 (IFG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 2
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 2
+				},
+				"color": "#364A4B"
 			}
 		],
 		"Area 45 (IFG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#A76792"
 			}
 		],
 		"Area 6d2 (PreCG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 288
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 288
+				},
+				"color": "#AA97B4"
 			}
 		],
 		"Area 6d1 (PreCG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 287
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 287
+				},
+				"color": "#2D211B"
 			}
 		],
 		"Area 6ma (preSMA, mesial SFG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 299
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 299
+				},
+				"color": "#CC6CDE"
 			}
 		],
 		"Area 6d3 (SFS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 289
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 289
+				},
+				"color": "#37EF15"
 			}
 		],
 		"Area Fp1 (FPole) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 212
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 212
+				},
+				"color": "#E20EC8"
 			}
 		],
 		"Area Fp2 (FPole) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 211
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 211
+				},
+				"color": "#EF89D3"
 			}
 		],
 		"Area 6mp (SMA, mesial SFG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 298
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 298
+				},
+				"color": "#4B5F57"
 			}
 		],
 		"Area 4p (PreCG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 123
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 123
+				},
+				"color": "#745C7C"
 			}
 		],
 		"Area 4a (PreCG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 124
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 124
+				},
+				"color": "#76EFB7"
 			}
 		],
 		"Area Fo1 (OFC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 3
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 3
+				},
+				"color": "#07FFB3"
 			}
 		],
 		"Area Fo3 (OFC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 5
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 5
+				},
+				"color": "#B6BDFA"
 			}
 		],
 		"Area Fo2 (OFC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 4
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 4
+				},
+				"color": "#00FF00"
 			}
 		],
 		"Area Op7 (Frontal Operculum) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 350
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 350
+				},
+				"color": "#8674C0"
 			}
 		],
 		"Area Op8 (Frontal Operculum) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 273
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 273
+				},
+				"color": "#1D4CA8"
 			}
 		],
 		"Area Op5 (Frontal Operculum) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 348
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 348
+				},
+				"color": "#DE4EFD"
 			}
 		],
 		"Area Op6 (Frontal Operculum) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 349
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 349
+				},
+				"color": "#8A3F64"
 			}
 		],
 		"Area Op9 (Frontal Operculum) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 274
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 274
+				},
+				"color": "#AF7B22"
 			}
 		],
 		"Area Fo6 (OFC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 326
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 326
+				},
+				"color": "#C79CBB"
 			}
 		],
 		"Area Fo5 (OFC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 325
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 325
+				},
+				"color": "#DB0B5B"
 			}
 		],
 		"Area Fo7 (OFC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 327
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 327
+				},
+				"color": "#40D3BA"
 			}
 		],
 		"Area Fo4 (OFC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 324
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 324
+				},
+				"color": "#A3CC35"
 			}
 		],
 		"Area 8d2 (SFG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 333
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 333
+				},
+				"color": "#C0BAE1"
 			}
 		],
 		"Area 8d1 (SFG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 332
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 332
+				},
+				"color": "#AF8366"
 			}
 		],
 		"Area Ig3 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 336
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 336
+				},
+				"color": "#69FDC5"
 			}
 		],
 		"Area Ig1 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 115
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 115
+				},
+				"color": "#126F28"
 			}
 		],
 		"Area Ig2 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 114
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 114
+				},
+				"color": "#693D52"
 			}
 		],
 		"Area Ia2 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 375
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 375
+				},
+				"color": "#741802"
 			}
 		],
 		"Area Ia1 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 339
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 339
+				},
+				"color": "#47D93E"
 			}
 		],
 		"Area Ia3 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 374
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 374
+				},
+				"color": "#31F75A"
 			}
 		],
 		"Area Id2 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 56
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 56
+				},
+				"color": "#E17E49"
 			}
 		],
 		"Area Id8 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 376
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 376
+				},
+				"color": "#4FBB2A"
 			}
 		],
 		"Area Id1 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 116
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 116
+				},
+				"color": "#8D70D8"
 			}
 		],
 		"Area Id9 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 373
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 373
+				},
+				"color": "#1736AA"
 			}
 		],
 		"Area Id7 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 159
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 159
+				},
+				"color": "#BCFAD8"
 			}
 		],
 		"Area Id5 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 338
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 338
+				},
+				"color": "#700632"
 			}
 		],
 		"Area Id6 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 340
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 340
+				},
+				"color": "#8A7F77"
 			}
 		],
 		"Area Id10 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 377
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 377
+				},
+				"color": "#B365C0"
 			}
 		],
 		"Area Id4 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 337
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 337
+				},
+				"color": "#26AE71"
 			}
 		],
 		"Area Id3 (Insula) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 57
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 57
+				},
+				"color": "#20203A"
 			}
 		],
 		"Area STS2 (STS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 272
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 272
+				},
+				"color": "#3E757B"
 			}
 		],
 		"Area STS1 (STS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 271
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 271
+				},
+				"color": "#CDE404"
 			}
 		],
 		"Area TE 3 (STG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 31
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 31
+				},
+				"color": "#9F686C"
 			}
 		],
 		"Area TE 2.2 (STG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 34
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 34
+				},
+				"color": "#3A687D"
 			}
 		],
 		"Area TE 2.1 (STG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 28
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 28
+				},
+				"color": "#43FE2C"
 			}
 		],
 		"Area TI (STG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 243
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 243
+				},
+				"color": "#566516"
 			}
 		],
 		"Area TeI (STG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 242
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 242
+				},
+				"color": "#174E5C"
 			}
 		],
 		"Area TE 1.2 (HESCHL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 30
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 30
+				},
+				"color": "#CAFBC0"
 			}
 		],
 		"Area TE 1.1 (HESCHL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 33
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 33
+				},
+				"color": "#087144"
 			}
 		],
 		"Area TE 1.0 (HESCHL) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 27
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 27
+				},
+				"color": "#FC54DE"
 			}
 		],
 		"Area Ph3 (PhG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 357
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 357
+				},
+				"color": "#800000"
 			}
 		],
 		"Area Ph1 (PhG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 355
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 355
+				},
+				"color": "#008000"
 			}
 		],
 		"Area Ph2 (PhG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 356
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 356
+				},
+				"color": "#808000"
 			}
 		],
 		"Area FG2 (FusG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 106
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 106
+				},
+				"color": "#A75E95"
 			}
 		],
 		"Area FG3 (FusG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 239
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 239
+				},
+				"color": "#789325"
 			}
 		],
 		"Area FG1 (FusG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 107
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 107
+				},
+				"color": "#83B73A"
 			}
 		],
 		"Area FG4 (FusG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 238
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 238
+				},
+				"color": "#AADCAF"
 			}
 		],
 		"Area CoS1 (CoS) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 358
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 358
+				},
+				"color": "#000080"
 			}
 		],
 		"Area TPJ (STG/SMG) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 29
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 29
+				},
+				"color": "#5FC332"
 			}
 		],
 		"Frontal-to-Occipital (GapMap) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 504
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 504
+				},
+				"color": "#68A15D"
 			}
 		],
 		"Temporal-to-Parietal (GapMap) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 503
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 503
+				},
+				"color": "#4C5AA1"
 			}
 		],
 		"Frontal-I (GapMap) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 500
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 500
+				},
+				"color": "#BAFF19"
 			}
 		],
 		"Frontal-to-Temporal-II (GapMap) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 506
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 506
+				},
+				"color": "#A1184A"
 			}
 		],
 		"Frontal-II (GapMap) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 501
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 501
+				},
+				"color": "#FF870F"
 			}
 		],
 		"Area p24c (pACC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 232
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 232
+				},
+				"color": "#F1A4C3"
 			}
 		],
 		"Area 25 (sACC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 184
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 184
+				},
+				"color": "#AA44DC"
 			}
 		],
 		"Area p24ab (pACC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 231
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 231
+				},
+				"color": "#99C3E5"
 			}
 		],
 		"Area s32 (sACC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 46
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 46
+				},
+				"color": "#C15EFA"
 			}
 		],
 		"Area 33 (ACC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 39
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 39
+				},
+				"color": "#3339F5"
 			}
 		],
 		"Area p32 (pACC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 47
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 47
+				},
+				"color": "#57870E"
 			}
 		],
 		"Area s24 (sACC) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 183
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 183
+				},
+				"color": "#8522C9"
 			}
 		],
 		"HC-Presubiculum (Hippocampus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 63
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 63
+				},
+				"color": "#00FF00"
 			}
 		],
 		"HATA (Hippocampus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 68
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 68
+				},
+				"color": "#890C49"
 			}
 		],
 		"Entorhinal Cortex - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 60
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 60
+				},
+				"color": "#239FD6"
 			}
 		],
 		"CA3 (Hippocampus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 59
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 59
+				},
+				"color": "#E9D3DD"
 			}
 		],
 		"HC-Transsubiculum (Hippocampus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 305
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 305
+				},
+				"color": "#6DFBD4"
 			}
 		],
 		"HC-Subiculum (Hippocampus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 67
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 67
+				},
+				"color": "#FF00FF"
 			}
 		],
 		"HC-Prosubiculum (Hippocampus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 64
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 64
+				},
+				"color": "#0000FF"
 			}
 		],
 		"HC-Parasubiculum (Hippocampus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 62
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 62
+				},
+				"color": "#FF0000"
 			}
 		],
 		"DG (Hippocampus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 61
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 61
+				},
+				"color": "#953778"
 			}
 		],
 		"CA2 (Hippocampus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 58
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 58
+				},
+				"color": "#914365"
 			}
 		],
 		"CA1 (Hippocampus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 66
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 66
+				},
+				"color": "#7D09A7"
 			}
 		],
 		"Interposed Nucleus (Cerebellum) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 251
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 251
+				},
+				"color": "#59C943"
 			}
 		],
 		"Dorsal Dentate Nucleus (Cerebellum) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 240
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 240
+				},
+				"color": "#4B8D35"
 			}
 		],
 		"Ventral Dentate Nucleus (Cerebellum) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 241
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 241
+				},
+				"color": "#E62689"
 			}
 		],
 		"Fastigial Nucleus (Cerebellum) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 219
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 219
+				},
+				"color": "#F9AB2F"
 			}
 		],
 		"CGM (Metathalamus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 368
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 368
+				},
+				"color": "#EE282D"
 			}
 		],
 		"CGL (Metathalamus) - right hemisphere": [
 			{
-				"fragment": "right hemisphere",
-				"label": 367
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+				"format": "gii-label",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+				"subimage_options": {
+					"label": 367
+				},
+				"color": "#3F416B"
 			}
 		]
 	}
