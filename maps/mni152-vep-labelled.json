@@ -1,2289 +1,1152 @@
 {
-	"@type": "siibra/atlases/parcellation_map/v0.1",
-	"parcellation_id": "https://doi.org/10.1016/j.jneumeth.2020.108983/mni152",
-	"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-	"maptype": "LABELLED",
-	"attributes": [
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+	},
+	"parcellation": {
+		"@id": "https://doi.org/10.1016/j.jneumeth.2020.108983/mni152"
+	},
+	"volumes": [
 		{
-			"@type": "siibra/attr/desc/id/v0.1",
-			"value": "cad56ce9-00a1-30c6-87f4-76ea1d12c1f2"
-		},
-		{
-			"@type": "siibra/attr/desc/name/v0.1",
-			"value": "Virtual Epileptic Patient Atlas on MNI 152 ICBM 2009c Nonlinear Asymmetric - labelled - 94 regions"
-		},
-		{
-			"@type": "siibra/attr/desc/speciesspec/v0.1",
-			"value": "homo sapiens"
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii"
+			}
 		}
 	],
-	"index_mapping": {
+	"@type": "siibra/map/v0.0.1",
+	"indices": {
 		"Left-Cerebral-White-Matter": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 2
-				},
-				"color": "#F5F5F5"
+				"volume": 0,
+				"label": 2
 			}
 		],
 		"Left-Lateral-Ventricle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 4
-				},
-				"color": "#781286"
+				"volume": 0,
+				"label": 4
 			}
 		],
 		"Left-Inf-Lat-Vent": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 5
-				},
-				"color": "#C43AFA"
+				"volume": 0,
+				"label": 5
 			}
 		],
 		"Left-Cerebellum-White-Matter": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 7
-				},
-				"color": "#DCF8A4"
+				"volume": 0,
+				"label": 7
 			}
 		],
 		"Left-Thalamus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 9
-				},
-				"color": "#00760E"
+				"volume": 0,
+				"label": 9
 			}
 		],
 		"Left-Putamen": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 12
-				},
-				"color": "#EC0DB0"
+				"volume": 0,
+				"label": 12
 			}
 		],
 		"Left-Pallidum": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 13
-				},
-				"color": "#0C30FF"
+				"volume": 0,
+				"label": 13
 			}
 		],
 		"3rd-Ventricle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 14
-				},
-				"color": "#CCB68E"
+				"volume": 0,
+				"label": 14
 			}
 		],
 		"4th-Ventricle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 15
-				},
-				"color": "#2ACCA4"
+				"volume": 0,
+				"label": 15
 			}
 		],
 		"Brain-Stem": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 16
-				},
-				"color": "#779FB0"
+				"volume": 0,
+				"label": 16
 			}
 		],
 		"Left-Amygdala": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 18
-				},
-				"color": "#67FFFF"
+				"volume": 0,
+				"label": 18
 			}
 		],
 		"CSF": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 24
-				},
-				"color": "#3C3C3C"
+				"volume": 0,
+				"label": 24
 			}
 		],
 		"Left-VentralDC": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 28
-				},
-				"color": "#A52A2A"
+				"volume": 0,
+				"label": 28
 			}
 		],
 		"Left-vessel": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 30
-				},
-				"color": "#A020F0"
+				"volume": 0,
+				"label": 30
 			}
 		],
 		"Left-choroid-plexus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 31
-				},
-				"color": "#00C8C8"
+				"volume": 0,
+				"label": 31
 			}
 		],
 		"Right-Cerebral-White-Matter": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 41
-				},
-				"color": "#F5F5F5"
+				"volume": 0,
+				"label": 41
 			}
 		],
 		"Right-Lateral-Ventricle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 43
-				},
-				"color": "#781286"
+				"volume": 0,
+				"label": 43
 			}
 		],
 		"Right-Inf-Lat-Vent": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 44
-				},
-				"color": "#C43AFA"
+				"volume": 0,
+				"label": 44
 			}
 		],
 		"Right-Cerebellum-White-Matter": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 46
-				},
-				"color": "#DCF8A4"
+				"volume": 0,
+				"label": 46
 			}
 		],
 		"Right-Thalamus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 48
-				},
-				"color": "#00760E"
+				"volume": 0,
+				"label": 48
 			}
 		],
 		"Right-Putamen": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 51
-				},
-				"color": "#EC0DB0"
+				"volume": 0,
+				"label": 51
 			}
 		],
 		"Right-Pallidum": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 52
-				},
-				"color": "#0D30FF"
+				"volume": 0,
+				"label": 52
 			}
 		],
 		"Right-Amygdala": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 54
-				},
-				"color": "#67FFFF"
+				"volume": 0,
+				"label": 54
 			}
 		],
 		"Right-VentralDC": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 60
-				},
-				"color": "#A52A2A"
+				"volume": 0,
+				"label": 60
 			}
 		],
 		"Right-vessel": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 62
-				},
-				"color": "#A020F0"
+				"volume": 0,
+				"label": 62
 			}
 		],
 		"Right-choroid-plexus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 63
-				},
-				"color": "#00C8DD"
+				"volume": 0,
+				"label": 63
 			}
 		],
 		"WM-hypointensities": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 77
-				},
-				"color": "#C846FF"
+				"volume": 0,
+				"label": 77
 			}
 		],
 		"Optic-Chiasm": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 85
-				},
-				"color": "#EAA91E"
+				"volume": 0,
+				"label": 85
 			}
 		],
 		"CC_Posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 251
-				},
-				"color": "#000040"
+				"volume": 0,
+				"label": 251
 			}
 		],
 		"CC_Mid_Posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 252
-				},
-				"color": "#000070"
+				"volume": 0,
+				"label": 252
 			}
 		],
 		"CC_Central": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 253
-				},
-				"color": "#0000A0"
+				"volume": 0,
+				"label": 253
 			}
 		],
 		"CC_Mid_Anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 254
-				},
-				"color": "#0000D0"
+				"volume": 0,
+				"label": 254
 			}
 		],
 		"CC_Anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 255
-				},
-				"color": "#0000FF"
+				"volume": 0,
+				"label": 255
 			}
 		],
 		"ctx-lh-unknown": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 1000
-				},
-				"color": "#190519"
+				"volume": 0,
+				"label": 1000
 			}
 		],
 		"ctx-rh-unknown": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 2000
-				},
-				"color": "#190519"
+				"volume": 0,
+				"label": 2000
 			}
 		],
 		"Left-Frontal-pole": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71001
-				},
-				"color": "#EF5F0C"
+				"volume": 0,
+				"label": 71001
 			}
 		],
 		"Left-Orbito-frontal-cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71002
-				},
-				"color": "#C40A40"
+				"volume": 0,
+				"label": 71002
 			}
 		],
 		"Left-Gyrus-rectus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71003
-				},
-				"color": "#A9E1CC"
+				"volume": 0,
+				"label": 71003
 			}
 		],
 		"Left-F3-Pars-Orbitalis": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71004
-				},
-				"color": "#B78CBF"
+				"volume": 0,
+				"label": 71004
 			}
 		],
 		"Left-F3-Pars-triangularis": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71005
-				},
-				"color": "#FFFF20"
+				"volume": 0,
+				"label": 71005
 			}
 		],
 		"Left-F3-pars-opercularis": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71006
-				},
-				"color": "#4E745F"
+				"volume": 0,
+				"label": 71006
 			}
 		],
 		"Left-Inferior-frontal-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71007
-				},
-				"color": "#AF12B1"
+				"volume": 0,
+				"label": 71007
 			}
 		],
 		"Left-F2-rostral": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71008
-				},
-				"color": "#C93F73"
+				"volume": 0,
+				"label": 71008
 			}
 		],
 		"Left-F2-caudal": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71009
-				},
-				"color": "#D2260C"
+				"volume": 0,
+				"label": 71009
 			}
 		],
 		"Left-Middle-frontal-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71010
-				},
-				"color": "#37F9DB"
+				"volume": 0,
+				"label": 71010
 			}
 		],
 		"Left-SFS-rostral": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71011
-				},
-				"color": "#10A44C"
+				"volume": 0,
+				"label": 71011
 			}
 		],
 		"Left-SFS-caudal": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71012
-				},
-				"color": "#D59BA4"
+				"volume": 0,
+				"label": 71012
 			}
 		],
 		"Left-F1-mesial-prefrontal": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71013
-				},
-				"color": "#D51088"
+				"volume": 0,
+				"label": 71013
 			}
 		],
 		"Left-PreSMA": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71014
-				},
-				"color": "#4FFC83"
+				"volume": 0,
+				"label": 71014
 			}
 		],
 		"Left-SMA": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71015
-				},
-				"color": "#6D874B"
+				"volume": 0,
+				"label": 71015
 			}
 		],
 		"Left-F1-lateral-prefrontal": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71016
-				},
-				"color": "#0040FF"
+				"volume": 0,
+				"label": 71016
 			}
 		],
 		"Left-F1-lateral-premotor": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71017
-				},
-				"color": "#AEF818"
+				"volume": 0,
+				"label": 71017
 			}
 		],
 		"Left-Subcallosal-area": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71018
-				},
-				"color": "#9801D4"
+				"volume": 0,
+				"label": 71018
 			}
 		],
 		"Left-Precentral-sulcus-inferior-part": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71019
-				},
-				"color": "#1D11E3"
+				"volume": 0,
+				"label": 71019
 			}
 		],
 		"Left-Precentral-sulcus-superior-part": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71020
-				},
-				"color": "#0805E7"
+				"volume": 0,
+				"label": 71020
 			}
 		],
 		"Left-Precentral-gyrus-head-face": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71021
-				},
-				"color": "#2D72BF"
+				"volume": 0,
+				"label": 71021
 			}
 		],
 		"Left-Precentral-gyrus-upper-limb": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71022
-				},
-				"color": "#FC18AE"
+				"volume": 0,
+				"label": 71022
 			}
 		],
 		"Left-Central-sulcus-head-face": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71023
-				},
-				"color": "#7FB73D"
+				"volume": 0,
+				"label": 71023
 			}
 		],
 		"Left-Central-sulcus-upper-limb": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71024
-				},
-				"color": "#409F3F"
+				"volume": 0,
+				"label": 71024
 			}
 		],
 		"Left-Paracentral-lobule": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71025
-				},
-				"color": "#65E8FA"
+				"volume": 0,
+				"label": 71025
 			}
 		],
 		"Left-Central-operculum": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71026
-				},
-				"color": "#C000E0"
+				"volume": 0,
+				"label": 71026
 			}
 		],
 		"Left-Parietal-operculum": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71027
-				},
-				"color": "#50EC92"
+				"volume": 0,
+				"label": 71027
 			}
 		],
 		"Left-Anterior-cingulate-cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71028
-				},
-				"color": "#C6F031"
+				"volume": 0,
+				"label": 71028
 			}
 		],
 		"Left-Middle-cingulate-cortex-anterior-part": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71029
-				},
-				"color": "#8A23E4"
+				"volume": 0,
+				"label": 71029
 			}
 		],
 		"Left-Middle-cingulate-cortex-posterior-part": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71030
-				},
-				"color": "#87A7D2"
+				"volume": 0,
+				"label": 71030
 			}
 		],
 		"Left-Posterior-cingulate-cortex-dorsal": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71031
-				},
-				"color": "#13BCAF"
+				"volume": 0,
+				"label": 71031
 			}
 		],
 		"Left-Posterior-cingulate-cortex-retrosplenial-gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71032
-				},
-				"color": "#FF40C0"
+				"volume": 0,
+				"label": 71032
 			}
 		],
 		"Left-Insula-gyri-brevi": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71033
-				},
-				"color": "#856676"
+				"volume": 0,
+				"label": 71033
 			}
 		],
 		"Left-Insula-gyri-longi": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71034
-				},
-				"color": "#F11F91"
+				"volume": 0,
+				"label": 71034
 			}
 		],
 		"Left-Temporal-pole": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71035
-				},
-				"color": "#F0FF3C"
+				"volume": 0,
+				"label": 71035
 			}
 		],
 		"Left-T1-planum-polare": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71036
-				},
-				"color": "#B3BB9C"
+				"volume": 0,
+				"label": 71036
 			}
 		],
 		"Left-Gyrus-of-Heschl": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71037
-				},
-				"color": "#B56BA2"
+				"volume": 0,
+				"label": 71037
 			}
 		],
 		"Left-T1-planum-temporale": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71038
-				},
-				"color": "#39BCD0"
+				"volume": 0,
+				"label": 71038
 			}
 		],
 		"Left-T1-lateral-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71039
-				},
-				"color": "#F153F6"
+				"volume": 0,
+				"label": 71039
 			}
 		],
 		"Left-T1-lateral-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71040
-				},
-				"color": "#FFFF60"
+				"volume": 0,
+				"label": 71040
 			}
 		],
 		"Left-STS-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71041
-				},
-				"color": "#D55A7A"
+				"volume": 0,
+				"label": 71041
 			}
 		],
 		"Left-STS-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71042
-				},
-				"color": "#6A817E"
+				"volume": 0,
+				"label": 71042
 			}
 		],
 		"Left-ITS-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71043
-				},
-				"color": "#90C0EC"
+				"volume": 0,
+				"label": 71043
 			}
 		],
 		"Left-ITS-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71044
-				},
-				"color": "#1F0C76"
+				"volume": 0,
+				"label": 71044
 			}
 		],
 		"Left-T2-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71045
-				},
-				"color": "#1A66F2"
+				"volume": 0,
+				"label": 71045
 			}
 		],
 		"Left-T2-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71046
-				},
-				"color": "#387646"
+				"volume": 0,
+				"label": 71046
 			}
 		],
 		"Left-T3-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71047
-				},
-				"color": "#62C20A"
+				"volume": 0,
+				"label": 71047
 			}
 		],
 		"Left-T3-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71048
-				},
-				"color": "#3EC0EE"
+				"volume": 0,
+				"label": 71048
 			}
 		],
 		"Left-Fusiform-gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71049
-				},
-				"color": "#CC34C7"
+				"volume": 0,
+				"label": 71049
 			}
 		],
 		"Left-Occipito-temporal-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71050
-				},
-				"color": "#FFC060"
+				"volume": 0,
+				"label": 71050
 			}
 		],
 		"Left-Collateral-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71051
-				},
-				"color": "#0A80FF"
+				"volume": 0,
+				"label": 71051
 			}
 		],
 		"Left-Lingual-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71052
-				},
-				"color": "#1C3551"
+				"volume": 0,
+				"label": 71052
 			}
 		],
 		"Left-Parahippocampal-cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71053
-				},
-				"color": "#DA8538"
+				"volume": 0,
+				"label": 71053
 			}
 		],
 		"Left-Rhinal-cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71054
-				},
-				"color": "#4CFD77"
+				"volume": 0,
+				"label": 71054
 			}
 		],
 		"Left-Postcentral-gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71055
-				},
-				"color": "#680CC2"
+				"volume": 0,
+				"label": 71055
 			}
 		],
 		"Left-Postcentral-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71056
-				},
-				"color": "#8D94DA"
+				"volume": 0,
+				"label": 71056
 			}
 		],
 		"Left-Superior-parietal-lobule-P1": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71057
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 71057
 			}
 		],
 		"Left-Supramarginal-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71058
-				},
-				"color": "#C00020"
+				"volume": 0,
+				"label": 71058
 			}
 		],
 		"Left-Supramarginal-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71059
-				},
-				"color": "#37E38B"
+				"volume": 0,
+				"label": 71059
 			}
 		],
 		"Left-Angular-gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71060
-				},
-				"color": "#73B216"
+				"volume": 0,
+				"label": 71060
 			}
 		],
 		"Left-Intraparietal-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71061
-				},
-				"color": "#F3823D"
+				"volume": 0,
+				"label": 71061
 			}
 		],
 		"Left-Precuneus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71062
-				},
-				"color": "#5E76F5"
+				"volume": 0,
+				"label": 71062
 			}
 		],
 		"Left-Marginal-branch-of-the-cingulate-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71063
-				},
-				"color": "#5E0AC1"
+				"volume": 0,
+				"label": 71063
 			}
 		],
 		"Left-Parieto-occipital-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71064
-				},
-				"color": "#D73831"
+				"volume": 0,
+				"label": 71064
 			}
 		],
 		"Left-Anterior-occipital-sulcus-and-preoccipital-notch": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71065
-				},
-				"color": "#AFE4EB"
+				"volume": 0,
+				"label": 71065
 			}
 		],
 		"Left-O3": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71066
-				},
-				"color": "#6DF160"
+				"volume": 0,
+				"label": 71066
 			}
 		],
 		"Left-O2": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71067
-				},
-				"color": "#0080FF"
+				"volume": 0,
+				"label": 71067
 			}
 		],
 		"Left-O1": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71068
-				},
-				"color": "#B331A5"
+				"volume": 0,
+				"label": 71068
 			}
 		],
 		"Left-Occipital-pole": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71069
-				},
-				"color": "#873524"
+				"volume": 0,
+				"label": 71069
 			}
 		],
 		"Left-Lingual-gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71070
-				},
-				"color": "#FFFF3C"
+				"volume": 0,
+				"label": 71070
 			}
 		],
 		"Left-Calcarine-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71071
-				},
-				"color": "#0000DC"
+				"volume": 0,
+				"label": 71071
 			}
 		],
 		"Left-Cuneus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71072
-				},
-				"color": "#2CFB83"
+				"volume": 0,
+				"label": 71072
 			}
 		],
 		"Left-Hippocampus-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71073
-				},
-				"color": "#F05F0C"
+				"volume": 0,
+				"label": 71073
 			}
 		],
 		"Left-Hippocampus-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71074
-				},
-				"color": "#C30A40"
+				"volume": 0,
+				"label": 71074
 			}
 		],
 		"Left-Caudate-nucleus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71075
-				},
-				"color": "#AAE1CC"
+				"volume": 0,
+				"label": 71075
 			}
 		],
 		"Left-Nucleus-accumbens": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71076
-				},
-				"color": "#B88CBF"
+				"volume": 0,
+				"label": 71076
 			}
 		],
 		"Left-Cerebellar-cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 71077
-				},
-				"color": "#BE16AD"
+				"volume": 0,
+				"label": 71077
 			}
 		],
 		"Right-Frontal-pole": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72001
-				},
-				"color": "#EF5F0C"
+				"volume": 0,
+				"label": 72001
 			}
 		],
 		"Right-Orbito-frontal-cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72002
-				},
-				"color": "#C40A40"
+				"volume": 0,
+				"label": 72002
 			}
 		],
 		"Right-Gyrus-rectus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72003
-				},
-				"color": "#A9E1CC"
+				"volume": 0,
+				"label": 72003
 			}
 		],
 		"Right-F3-Pars-Orbitalis": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72004
-				},
-				"color": "#B78CBF"
+				"volume": 0,
+				"label": 72004
 			}
 		],
 		"Right-F3-Pars-triangularis": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72005
-				},
-				"color": "#FFFF20"
+				"volume": 0,
+				"label": 72005
 			}
 		],
 		"Right-F3-pars-opercularis": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72006
-				},
-				"color": "#4E745F"
+				"volume": 0,
+				"label": 72006
 			}
 		],
 		"Right-Inferior-frontal-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72007
-				},
-				"color": "#AF12B1"
+				"volume": 0,
+				"label": 72007
 			}
 		],
 		"Right-F2-rostral": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72008
-				},
-				"color": "#C93F73"
+				"volume": 0,
+				"label": 72008
 			}
 		],
 		"Right-F2-caudal": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72009
-				},
-				"color": "#D2260C"
+				"volume": 0,
+				"label": 72009
 			}
 		],
 		"Right-Middle-frontal-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72010
-				},
-				"color": "#37F9DB"
+				"volume": 0,
+				"label": 72010
 			}
 		],
 		"Right-SFS-rostral": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72011
-				},
-				"color": "#10A44C"
+				"volume": 0,
+				"label": 72011
 			}
 		],
 		"Right-SFS-caudal": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72012
-				},
-				"color": "#D59BA4"
+				"volume": 0,
+				"label": 72012
 			}
 		],
 		"Right-F1-mesial-prefrontal": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72013
-				},
-				"color": "#D51088"
+				"volume": 0,
+				"label": 72013
 			}
 		],
 		"Right-PreSMA": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72014
-				},
-				"color": "#4FFC83"
+				"volume": 0,
+				"label": 72014
 			}
 		],
 		"Right-SMA": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72015
-				},
-				"color": "#6D874B"
+				"volume": 0,
+				"label": 72015
 			}
 		],
 		"Right-F1-lateral-prefrontal": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72016
-				},
-				"color": "#0040FF"
+				"volume": 0,
+				"label": 72016
 			}
 		],
 		"Right-F1-lateral-premotor": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72017
-				},
-				"color": "#AEF818"
+				"volume": 0,
+				"label": 72017
 			}
 		],
 		"Right-Subcallosal-area": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72018
-				},
-				"color": "#9801D4"
+				"volume": 0,
+				"label": 72018
 			}
 		],
 		"Right-Precentral-sulcus-inferior-part": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72019
-				},
-				"color": "#1D11E3"
+				"volume": 0,
+				"label": 72019
 			}
 		],
 		"Right-Precentral-sulcus-superior-part": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72020
-				},
-				"color": "#0805E7"
+				"volume": 0,
+				"label": 72020
 			}
 		],
 		"Right-Precentral-gyrus-head-face": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72021
-				},
-				"color": "#2D72BF"
+				"volume": 0,
+				"label": 72021
 			}
 		],
 		"Right-Precentral-gyrus-upper-limb": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72022
-				},
-				"color": "#FC18AE"
+				"volume": 0,
+				"label": 72022
 			}
 		],
 		"Right-Central-sulcus-head-face": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72023
-				},
-				"color": "#7FB73D"
+				"volume": 0,
+				"label": 72023
 			}
 		],
 		"Right-Central-sulcus-upper-limb": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72024
-				},
-				"color": "#409F3F"
+				"volume": 0,
+				"label": 72024
 			}
 		],
 		"Right-Paracentral-lobule": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72025
-				},
-				"color": "#65E8FA"
+				"volume": 0,
+				"label": 72025
 			}
 		],
 		"Right-Central-operculum": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72026
-				},
-				"color": "#C000E0"
+				"volume": 0,
+				"label": 72026
 			}
 		],
 		"Right-Parietal-operculum": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72027
-				},
-				"color": "#50EC92"
+				"volume": 0,
+				"label": 72027
 			}
 		],
 		"Right-Anterior-cingulate-cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72028
-				},
-				"color": "#C6F031"
+				"volume": 0,
+				"label": 72028
 			}
 		],
 		"Right-Middle-cingulate-cortex-anterior-part": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72029
-				},
-				"color": "#8A23E4"
+				"volume": 0,
+				"label": 72029
 			}
 		],
 		"Right-Middle-cingulate-cortex-posterior-part": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72030
-				},
-				"color": "#87A7D2"
+				"volume": 0,
+				"label": 72030
 			}
 		],
 		"Right-Posterior-cingulate-cortex-dorsal": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72031
-				},
-				"color": "#13BCAF"
+				"volume": 0,
+				"label": 72031
 			}
 		],
 		"Right-Posterior-cingulate-cortex-retrosplenial-gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72032
-				},
-				"color": "#FF40C0"
+				"volume": 0,
+				"label": 72032
 			}
 		],
 		"Right-Insula-gyri-brevi": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72033
-				},
-				"color": "#856676"
+				"volume": 0,
+				"label": 72033
 			}
 		],
 		"Right-Insula-gyri-longi": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72034
-				},
-				"color": "#F11F91"
+				"volume": 0,
+				"label": 72034
 			}
 		],
 		"Right-Temporal-pole": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72035
-				},
-				"color": "#F0FF3C"
+				"volume": 0,
+				"label": 72035
 			}
 		],
 		"Right-T1-planum-polare": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72036
-				},
-				"color": "#B3BB9C"
+				"volume": 0,
+				"label": 72036
 			}
 		],
 		"Right-Gyrus-of-Heschl": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72037
-				},
-				"color": "#B56BA2"
+				"volume": 0,
+				"label": 72037
 			}
 		],
 		"Right-T1-planum-temporale": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72038
-				},
-				"color": "#39BCD0"
+				"volume": 0,
+				"label": 72038
 			}
 		],
 		"Right-T1-lateral-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72039
-				},
-				"color": "#F153F6"
+				"volume": 0,
+				"label": 72039
 			}
 		],
 		"Right-T1-lateral-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72040
-				},
-				"color": "#FFFF60"
+				"volume": 0,
+				"label": 72040
 			}
 		],
 		"Right-STS-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72041
-				},
-				"color": "#D55A7A"
+				"volume": 0,
+				"label": 72041
 			}
 		],
 		"Right-STS-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72042
-				},
-				"color": "#6A817E"
+				"volume": 0,
+				"label": 72042
 			}
 		],
 		"Right-ITS-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72043
-				},
-				"color": "#90C0EC"
+				"volume": 0,
+				"label": 72043
 			}
 		],
 		"Right-ITS-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72044
-				},
-				"color": "#1F0C76"
+				"volume": 0,
+				"label": 72044
 			}
 		],
 		"Right-T2-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72045
-				},
-				"color": "#1A66F2"
+				"volume": 0,
+				"label": 72045
 			}
 		],
 		"Right-T2-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72046
-				},
-				"color": "#387646"
+				"volume": 0,
+				"label": 72046
 			}
 		],
 		"Right-T3-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72047
-				},
-				"color": "#62C20A"
+				"volume": 0,
+				"label": 72047
 			}
 		],
 		"Right-T3-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72048
-				},
-				"color": "#3EC0EE"
+				"volume": 0,
+				"label": 72048
 			}
 		],
 		"Right-Fusiform-gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72049
-				},
-				"color": "#CC34C7"
+				"volume": 0,
+				"label": 72049
 			}
 		],
 		"Right-Occipito-temporal-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72050
-				},
-				"color": "#FFC060"
+				"volume": 0,
+				"label": 72050
 			}
 		],
 		"Right-Collateral-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72051
-				},
-				"color": "#0A80FF"
+				"volume": 0,
+				"label": 72051
 			}
 		],
 		"Right-Lingual-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72052
-				},
-				"color": "#1C3551"
+				"volume": 0,
+				"label": 72052
 			}
 		],
 		"Right-Parahippocampal-cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72053
-				},
-				"color": "#DA8538"
+				"volume": 0,
+				"label": 72053
 			}
 		],
 		"Right-Rhinal-cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72054
-				},
-				"color": "#4CFD77"
+				"volume": 0,
+				"label": 72054
 			}
 		],
 		"Right-Postcentral-gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72055
-				},
-				"color": "#680CC2"
+				"volume": 0,
+				"label": 72055
 			}
 		],
 		"Right-Postcentral-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72056
-				},
-				"color": "#8D94DA"
+				"volume": 0,
+				"label": 72056
 			}
 		],
 		"Right-Superior-parietal-lobule-P1": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72057
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 72057
 			}
 		],
 		"Right-Supramarginal-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72058
-				},
-				"color": "#C00020"
+				"volume": 0,
+				"label": 72058
 			}
 		],
 		"Right-Supramarginal-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72059
-				},
-				"color": "#37E38B"
+				"volume": 0,
+				"label": 72059
 			}
 		],
 		"Right-Angular-gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72060
-				},
-				"color": "#73B216"
+				"volume": 0,
+				"label": 72060
 			}
 		],
 		"Right-Intraparietal-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72061
-				},
-				"color": "#F3823D"
+				"volume": 0,
+				"label": 72061
 			}
 		],
 		"Right-Precuneus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72062
-				},
-				"color": "#5E76F5"
+				"volume": 0,
+				"label": 72062
 			}
 		],
 		"Right-Marginal-branch-of-the-cingulate-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72063
-				},
-				"color": "#5E0AC1"
+				"volume": 0,
+				"label": 72063
 			}
 		],
 		"Right-Parieto-occipital-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72064
-				},
-				"color": "#D73831"
+				"volume": 0,
+				"label": 72064
 			}
 		],
 		"Right-Anterior-occipital-sulcus-and-preoccipital-notch": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72065
-				},
-				"color": "#AFE4EB"
+				"volume": 0,
+				"label": 72065
 			}
 		],
 		"Right-O3": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72066
-				},
-				"color": "#6DF160"
+				"volume": 0,
+				"label": 72066
 			}
 		],
 		"Right-O2": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72067
-				},
-				"color": "#0080FF"
+				"volume": 0,
+				"label": 72067
 			}
 		],
 		"Right-O1": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72068
-				},
-				"color": "#B331A5"
+				"volume": 0,
+				"label": 72068
 			}
 		],
 		"Right-Occipital-pole": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72069
-				},
-				"color": "#873524"
+				"volume": 0,
+				"label": 72069
 			}
 		],
 		"Right-Lingual-gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72070
-				},
-				"color": "#FFFF3C"
+				"volume": 0,
+				"label": 72070
 			}
 		],
 		"Right-Calcarine-sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72071
-				},
-				"color": "#0000DC"
+				"volume": 0,
+				"label": 72071
 			}
 		],
 		"Right-Cuneus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72072
-				},
-				"color": "#2CFB83"
+				"volume": 0,
+				"label": 72072
 			}
 		],
 		"Right-Hippocampus-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72073
-				},
-				"color": "#F05F0C"
+				"volume": 0,
+				"label": 72073
 			}
 		],
 		"Right-Hippocampus-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72074
-				},
-				"color": "#C30A40"
+				"volume": 0,
+				"label": 72074
 			}
 		],
 		"Right-Caudate-nucleus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72075
-				},
-				"color": "#AAE1CC"
+				"volume": 0,
+				"label": 72075
 			}
 		],
 		"Right-Nucleus-accumbens": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72076
-				},
-				"color": "#B88CBF"
+				"volume": 0,
+				"label": 72076
 			}
 		],
 		"Right-Cerebellar-cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii",
-				"subimage_options": {
-					"label": 72077
-				},
-				"color": "#BE16AD"
+				"volume": 0,
+				"label": 72077
 			}
 		]
 	}

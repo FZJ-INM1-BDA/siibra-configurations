@@ -1,1429 +1,546 @@
 {
-	"@type": "siibra/atlases/parcellation_map/v0.1",
-	"parcellation_id": "minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456",
-	"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-	"maptype": "LABELLED",
-	"attributes": [
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+	},
+	"parcellation": {
+		"@id": "minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456"
+	},
+	"volumes": [
 		{
-			"@type": "siibra/attr/desc/id/v0.1",
-			"value": "5e3a99cb-fa36-665c-1cc0-addd4ec653ac"
-		},
-		{
-			"@type": "siibra/attr/desc/name/v0.1",
-			"value": "Von Economo - Koskinas Brain Atlas on MNI 152 ICBM 2009c Nonlinear Asymmetric - labelled - 44 regions"
-		},
-		{
-			"@type": "siibra/attr/desc/speciesspec/v0.1",
-			"value": "homo sapiens"
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"zip/nii": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip economoMNI152volume.nii.gz"
+			}
 		}
 	],
-	"index_mapping": {
+	"@type": "siibra/map/v0.0.1",
+	"indices": {
 		"Unknown - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1000
-				},
-				"color": "#000000"
+				"volume": 0,
+				"label": 1000
 			}
 		],
 		"FA: Area praecentralis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1002
-				},
-				"color": "#cee29c"
+				"volume": 0,
+				"label": 1002
 			}
 		],
 		"FB: Area frontalis agranularis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1003
-				},
-				"color": "#c8db8a"
+				"volume": 0,
+				"label": 1003
 			}
 		],
 		"FC: Area frontalis intermedia - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1004
-				},
-				"color": "#bbcc73"
+				"volume": 0,
+				"label": 1004
 			}
 		],
 		"FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1005
-				},
-				"color": "#55c1aa"
+				"volume": 0,
+				"label": 1005
 			}
 		],
 		"FD: Area frontalis granularis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1006
-				},
-				"color": "#0dc96f"
+				"volume": 0,
+				"label": 1006
 			}
 		],
 		"FDdelta: Area frontalis granularis media - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1007
-				},
-				"color": "#138450"
+				"volume": 0,
+				"label": 1007
 			}
 		],
 		"FDT: Area frontalis granularis triangularis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1008
-				},
-				"color": "#45a87b"
+				"volume": 0,
+				"label": 1008
 			}
 		],
 		"FE: Area frontopolaris - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1009
-				},
-				"color": "#1bb28a"
+				"volume": 0,
+				"label": 1009
 			}
 		],
 		"FF: Area orbitalis (granularis) - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1010
-				},
-				"color": "#31acc0"
+				"volume": 0,
+				"label": 1010
 			}
 		],
 		"FG: Area gyri recti (Ar. recta) - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1011
-				},
-				"color": "#3d7f76"
+				"volume": 0,
+				"label": 1011
 			}
 		],
 		"FH: Area praefrontalis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1012
-				},
-				"color": "#4d876a"
+				"volume": 0,
+				"label": 1012
 			}
 		],
 		"FJK: Area frontoinsularis + Area piriformis frontalis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1013
-				},
-				"color": "#1d9a87"
+				"volume": 0,
+				"label": 1013
 			}
 		],
 		"FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1014
-				},
-				"color": "#509192"
+				"volume": 0,
+				"label": 1014
 			}
 		],
 		"HA: Area uncinata - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1015
-				},
-				"color": "#293765"
+				"volume": 0,
+				"label": 1015
 			}
 		],
 		"HB: Area parauncinata - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1016
-				},
-				"color": "#32487f"
+				"volume": 0,
+				"label": 1016
 			}
 		],
 		"HC: Area rhinalis limitans - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1017
-				},
-				"color": "#3c5792"
+				"volume": 0,
+				"label": 1017
 			}
 		],
 		"IA: Area insulae praecentralis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1018
-				},
-				"color": "#cc3dd3"
+				"volume": 0,
+				"label": 1018
 			}
 		],
 		"IB: Area insulae postcentralis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1019
-				},
-				"color": "#894387"
+				"volume": 0,
+				"label": 1019
 			}
 		],
 		"LA1: Area limbicus anterior agranularis - praecingularis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1020
-				},
-				"color": "#7cd7f6"
+				"volume": 0,
+				"label": 1020
 			}
 		],
 		"LA2: Area limbicus anterior agranularis - cingularis anterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1021
-				},
-				"color": "#a2ddf9"
+				"volume": 0,
+				"label": 1021
 			}
 		],
 		"LC1: Area cingularis posterior dorsalis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1022
-				},
-				"color": "#0085b9"
+				"volume": 0,
+				"label": 1022
 			}
 		],
 		"LC2: Area cingularis posterior ventralis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1023
-				},
-				"color": "#44a5e3"
+				"volume": 0,
+				"label": 1023
 			}
 		],
 		"LC3: Area cingularis limitans posterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1024
-				},
-				"color": "#76b3d7"
+				"volume": 0,
+				"label": 1024
 			}
 		],
 		"LD: Area retrosplenialis agranularis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1025
-				},
-				"color": "#7ad4d7"
+				"volume": 0,
+				"label": 1025
 			}
 		],
 		"LE: Area retrosplenialis granulosa - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1026
-				},
-				"color": "#a9dbe0"
+				"volume": 0,
+				"label": 1026
 			}
 		],
 		"OA: Area peristriata - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1027
-				},
-				"color": "#fdfcbb"
+				"volume": 0,
+				"label": 1027
 			}
 		],
 		"OB: Area parastriata - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1028
-				},
-				"color": "#fbfa92"
+				"volume": 0,
+				"label": 1028
 			}
 		],
 		"OC: Area striata (granulosa) - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1029
-				},
-				"color": "#f7de47"
+				"volume": 0,
+				"label": 1029
 			}
 		],
 		"PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis  - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1030
-				},
-				"color": "#e62a85"
+				"volume": 0,
+				"label": 1030
 			}
 		],
 		"PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1031
-				},
-				"color": "#f74394"
+				"volume": 0,
+				"label": 1031
 			}
 		],
 		"PC: Area postcentralis intermedia - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1032
-				},
-				"color": "#ef5796"
+				"volume": 0,
+				"label": 1032
 			}
 		],
 		"PD: Area postcentralis caudalis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1033
-				},
-				"color": "#bc3579"
+				"volume": 0,
+				"label": 1033
 			}
 		],
 		"PE: Area parietalis superior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1034
-				},
-				"color": "#f8a7d2"
+				"volume": 0,
+				"label": 1034
 			}
 		],
 		"PF: Area supramarginalis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1035
-				},
-				"color": "#fab4e0"
+				"volume": 0,
+				"label": 1035
 			}
 		],
 		"PG: Area angularis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1036
-				},
-				"color": "#f8c1e0"
+				"volume": 0,
+				"label": 1036
 			}
 		],
 		"PH: Area parietalis (temporo-occipital) basalis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1037
-				},
-				"color": "#e84982"
+				"volume": 0,
+				"label": 1037
 			}
 		],
 		"TA: Area temporalis superior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1038
-				},
-				"color": "#f05566"
+				"volume": 0,
+				"label": 1038
 			}
 		],
 		"TB: Area supratemporalis magnocellularis simplex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1039
-				},
-				"color": "#e94162"
+				"volume": 0,
+				"label": 1039
 			}
 		],
 		"TC: Area supratemporalis granulosa - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1040
-				},
-				"color": "#ef406b"
+				"volume": 0,
+				"label": 1040
 			}
 		],
 		"TD: Area supratemporalis intercalata - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1041
-				},
-				"color": "#f54f71"
+				"volume": 0,
+				"label": 1041
 			}
 		],
 		"TE: Area temporalis propria - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1042
-				},
-				"color": "#ebb588"
+				"volume": 0,
+				"label": 1042
 			}
 		],
 		"TF: Area fusiformis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1043
-				},
-				"color": "#b82f4f"
+				"volume": 0,
+				"label": 1043
 			}
 		],
 		"TG: Area temporoporalis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1044
-				},
-				"color": "#f7c67f"
+				"volume": 0,
+				"label": 1044
 			}
 		],
 		"Unknown - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2000
-				},
-				"color": "#000000"
+				"volume": 0,
+				"label": 2000
 			}
 		],
 		"FA: Area praecentralis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2002
-				},
-				"color": "#cee29c"
+				"volume": 0,
+				"label": 2002
 			}
 		],
 		"FB: Area frontalis agranularis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2003
-				},
-				"color": "#c8db8a"
+				"volume": 0,
+				"label": 2003
 			}
 		],
 		"FC: Area frontalis intermedia - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2004
-				},
-				"color": "#bbcc73"
+				"volume": 0,
+				"label": 2004
 			}
 		],
 		"FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2005
-				},
-				"color": "#55c1aa"
+				"volume": 0,
+				"label": 2005
 			}
 		],
 		"FD: Area frontalis granularis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2006
-				},
-				"color": "#0dc96f"
+				"volume": 0,
+				"label": 2006
 			}
 		],
 		"FDdelta: Area frontalis granularis media - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2007
-				},
-				"color": "#138450"
+				"volume": 0,
+				"label": 2007
 			}
 		],
 		"FDT: Area frontalis granularis triangularis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2008
-				},
-				"color": "#45a87b"
+				"volume": 0,
+				"label": 2008
 			}
 		],
 		"FE: Area frontopolaris - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2009
-				},
-				"color": "#1bb28a"
+				"volume": 0,
+				"label": 2009
 			}
 		],
 		"FF: Area orbitalis (granularis) - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2010
-				},
-				"color": "#31acc0"
+				"volume": 0,
+				"label": 2010
 			}
 		],
 		"FG: Area gyri recti (Ar. recta) - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2011
-				},
-				"color": "#3d7f76"
+				"volume": 0,
+				"label": 2011
 			}
 		],
 		"FH: Area praefrontalis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2012
-				},
-				"color": "#4d876a"
+				"volume": 0,
+				"label": 2012
 			}
 		],
 		"FJK: Area frontoinsularis + Area piriformis frontalis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2013
-				},
-				"color": "#1d9a87"
+				"volume": 0,
+				"label": 2013
 			}
 		],
 		"FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2014
-				},
-				"color": "#509192"
+				"volume": 0,
+				"label": 2014
 			}
 		],
 		"HA: Area uncinata - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2015
-				},
-				"color": "#293765"
+				"volume": 0,
+				"label": 2015
 			}
 		],
 		"HB: Area parauncinata - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2016
-				},
-				"color": "#32487f"
+				"volume": 0,
+				"label": 2016
 			}
 		],
 		"HC: Area rhinalis limitans - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2017
-				},
-				"color": "#3c5792"
+				"volume": 0,
+				"label": 2017
 			}
 		],
 		"IA: Area insulae praecentralis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2018
-				},
-				"color": "#cc3dd3"
+				"volume": 0,
+				"label": 2018
 			}
 		],
 		"IB: Area insulae postcentralis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2019
-				},
-				"color": "#894387"
+				"volume": 0,
+				"label": 2019
 			}
 		],
 		"LA1: Area limbicus anterior agranularis - praecingularis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2020
-				},
-				"color": "#7cd7f6"
+				"volume": 0,
+				"label": 2020
 			}
 		],
 		"LA2: Area limbicus anterior agranularis - cingularis anterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2021
-				},
-				"color": "#a2ddf9"
+				"volume": 0,
+				"label": 2021
 			}
 		],
 		"LC1: Area cingularis posterior dorsalis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2022
-				},
-				"color": "#0085b9"
+				"volume": 0,
+				"label": 2022
 			}
 		],
 		"LC2: Area cingularis posterior ventralis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2023
-				},
-				"color": "#44a5e3"
+				"volume": 0,
+				"label": 2023
 			}
 		],
 		"LC3: Area cingularis limitans posterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2024
-				},
-				"color": "#76b3d7"
+				"volume": 0,
+				"label": 2024
 			}
 		],
 		"LD: Area retrosplenialis agranularis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2025
-				},
-				"color": "#7ad4d7"
+				"volume": 0,
+				"label": 2025
 			}
 		],
 		"LE: Area retrosplenialis granulosa - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2026
-				},
-				"color": "#a9dbe0"
+				"volume": 0,
+				"label": 2026
 			}
 		],
 		"OA: Area peristriata - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2027
-				},
-				"color": "#fdfcbb"
+				"volume": 0,
+				"label": 2027
 			}
 		],
 		"OB: Area parastriata - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2028
-				},
-				"color": "#fbfa92"
+				"volume": 0,
+				"label": 2028
 			}
 		],
 		"OC: Area striata (granulosa) - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2029
-				},
-				"color": "#f7de47"
+				"volume": 0,
+				"label": 2029
 			}
 		],
 		"PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis  - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2030
-				},
-				"color": "#e62a85"
+				"volume": 0,
+				"label": 2030
 			}
 		],
 		"PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2031
-				},
-				"color": "#f74394"
+				"volume": 0,
+				"label": 2031
 			}
 		],
 		"PC: Area postcentralis intermedia - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2032
-				},
-				"color": "#ef5796"
+				"volume": 0,
+				"label": 2032
 			}
 		],
 		"PD: Area postcentralis caudalis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2033
-				},
-				"color": "#bc3579"
+				"volume": 0,
+				"label": 2033
 			}
 		],
 		"PE: Area parietalis superior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2034
-				},
-				"color": "#f8a7d2"
+				"volume": 0,
+				"label": 2034
 			}
 		],
 		"PF: Area supramarginalis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2035
-				},
-				"color": "#fab4e0"
+				"volume": 0,
+				"label": 2035
 			}
 		],
 		"PG: Area angularis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2036
-				},
-				"color": "#f8c1e0"
+				"volume": 0,
+				"label": 2036
 			}
 		],
 		"PH: Area parietalis (temporo-occipital) basalis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2037
-				},
-				"color": "#e84982"
+				"volume": 0,
+				"label": 2037
 			}
 		],
 		"TA: Area temporalis superior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2038
-				},
-				"color": "#f05566"
+				"volume": 0,
+				"label": 2038
 			}
 		],
 		"TB: Area supratemporalis magnocellularis simplex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2039
-				},
-				"color": "#e94162"
+				"volume": 0,
+				"label": 2039
 			}
 		],
 		"TC: Area supratemporalis granulosa - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2040
-				},
-				"color": "#ef406b"
+				"volume": 0,
+				"label": 2040
 			}
 		],
 		"TD: Area supratemporalis intercalata - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2041
-				},
-				"color": "#f54f71"
+				"volume": 0,
+				"label": 2041
 			}
 		],
 		"TE: Area temporalis propria - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2042
-				},
-				"color": "#ebb588"
+				"volume": 0,
+				"label": 2042
 			}
 		],
 		"TF: Area fusiformis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2043
-				},
-				"color": "#b82f4f"
+				"volume": 0,
+				"label": 2043
 			}
 		],
 		"TG: Area temporoporalis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "economoMNI152volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2044
-				},
-				"color": "#f7c67f"
+				"volume": 0,
+				"label": 2044
 			}
 		]
 	}

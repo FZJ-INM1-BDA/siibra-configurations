@@ -1,1173 +1,594 @@
 {
-	"@type": "siibra/atlases/parcellation_map/v0.1",
-	"parcellation_id": "minds/core/parcellationatlas/v1.0.0/887da8eb4c36d944ef626ed5293db3ef",
-	"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-	"maptype": "LABELLED",
-	"attributes": [
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
+	},
+	"parcellation": {
+		"@id": "minds/core/parcellationatlas/v1.0.0/887da8eb4c36d944ef626ed5293db3ef"
+	},
+	"volumes": [
 		{
-			"@type": "siibra/attr/desc/id/v0.1",
-			"value": "3eb22d94-89a0-667c-1923-b47a922346da"
-		},
-		{
-			"@type": "siibra/attr/desc/name/v0.1",
-			"value": "MarsAtlas cortical parcellation model on MNI Colin 27 - labelled - 48 regions"
-		},
-		{
-			"@type": "siibra/attr/desc/speciesspec/v0.1",
-			"value": "homo sapiens"
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii"
+			}
 		}
 	],
-	"index_mapping": {
+	"@type": "siibra/map/v0.0.1",
+	"indices": {
 		"VCcm: Caudal Medial Visual Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 1
-				},
-				"color": "#ff0000"
+				"volume": 0,
+				"label": 1
 			}
 		],
 		"VCcm: Caudal Medial Visual Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 101
-				},
-				"color": "#ff0000"
+				"volume": 0,
+				"label": 101
 			}
 		],
 		"VCl: Lateral Visual Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 2
-				},
-				"color": "#00ff00"
+				"volume": 0,
+				"label": 2
 			}
 		],
 		"VCl: Lateral Visual Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 102
-				},
-				"color": "#00ff00"
+				"volume": 0,
+				"label": 102
 			}
 		],
 		"VCs: Superior Visual Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 3
-				},
-				"color": "#ef7729"
+				"volume": 0,
+				"label": 3
 			}
 		],
 		"VCs: Superior Visual Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 103
-				},
-				"color": "#ef7729"
+				"volume": 0,
+				"label": 103
 			}
 		],
 		"Cu: Cuneus - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 4
-				},
-				"color": "#d219f5"
+				"volume": 0,
+				"label": 4
 			}
 		],
 		"Cu: Cuneus - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 104
-				},
-				"color": "#d219f5"
+				"volume": 0,
+				"label": 104
 			}
 		],
 		"VCrm: Rostral Medial Visual Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 5
-				},
-				"color": "#a7754a"
+				"volume": 0,
+				"label": 5
 			}
 		],
 		"VCrm: Rostral Medial Visual Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 105
-				},
-				"color": "#a7754a"
+				"volume": 0,
+				"label": 105
 			}
 		],
 		"ITCm: Medial Inferior Temporal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 6
-				},
-				"color": "#ffda2f"
+				"volume": 0,
+				"label": 6
 			}
 		],
 		"ITCm: Medial Inferior Temporal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 106
-				},
-				"color": "#ffda2f"
+				"volume": 0,
+				"label": 106
 			}
 		],
 		"ITCr: Rostral Inferior Temporal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 7
-				},
-				"color": "#001ec8"
+				"volume": 0,
+				"label": 7
 			}
 		],
 		"ITCr: Rostral Inferior Temporal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 107
-				},
-				"color": "#001ec8"
+				"volume": 0,
+				"label": 107
 			}
 		],
 		"MTCc: Caudal Middle Temporal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 8
-				},
-				"color": "#91fafa"
+				"volume": 0,
+				"label": 8
 			}
 		],
 		"MTCc: Caudal Middle Temporal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 108
-				},
-				"color": "#91fafa"
+				"volume": 0,
+				"label": 108
 			}
 		],
 		"STCc: Caudal Superior Temporal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 9
-				},
-				"color": "#ff90c3"
+				"volume": 0,
+				"label": 9
 			}
 		],
 		"STCc: Caudal Superior Temporal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 109
-				},
-				"color": "#ff90c3"
+				"volume": 0,
+				"label": 109
 			}
 		],
 		"STCr: Rostral Superior Temporal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 10
-				},
-				"color": "#fafa91"
+				"volume": 0,
+				"label": 10
 			}
 		],
 		"STCr: Rostral Superior Temporal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 110
-				},
-				"color": "#fafa91"
+				"volume": 0,
+				"label": 110
 			}
 		],
 		"MTCr: Rostral Middle Temporal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 11
-				},
-				"color": "#9393b3"
+				"volume": 0,
+				"label": 11
 			}
 		],
 		"MTCr: Rostral Middle Temporal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 111
-				},
-				"color": "#9393b3"
+				"volume": 0,
+				"label": 111
 			}
 		],
 		"IPCv: Ventral Inferior Parietal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 13
-				},
-				"color": "#fdee05"
+				"volume": 0,
+				"label": 13
 			}
 		],
 		"IPCv: Ventral Inferior Parietal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 113
-				},
-				"color": "#fdee05"
+				"volume": 0,
+				"label": 113
 			}
 		],
 		"IPCd: Dorsal Inferior Parietal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 14
-				},
-				"color": "#e518fe"
+				"volume": 0,
+				"label": 14
 			}
 		],
 		"IPCd: Dorsal Inferior Parietal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 114
-				},
-				"color": "#e518fe"
+				"volume": 0,
+				"label": 114
 			}
 		],
 		"SPC: Superior Parietal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 15
-				},
-				"color": "#00fa00"
+				"volume": 0,
+				"label": 15
 			}
 		],
 		"SPC: Superior Parietal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 115
-				},
-				"color": "#00fa00"
+				"volume": 0,
+				"label": 115
 			}
 		],
 		"SPCm: Medial Superior Parietal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 16
-				},
-				"color": "#7d6432"
+				"volume": 0,
+				"label": 16
 			}
 		],
 		"SPCm: Medial Superior Parietal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 116
-				},
-				"color": "#7d6432"
+				"volume": 0,
+				"label": 116
 			}
 		],
 		"PCm: Medial Parietal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 17
-				},
-				"color": "#420faf"
+				"volume": 0,
+				"label": 17
 			}
 		],
 		"PCm: Medial Parietal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 117
-				},
-				"color": "#420faf"
+				"volume": 0,
+				"label": 117
 			}
 		],
 		"Sv: Ventral Somatosensory Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 19
-				},
-				"color": "#05da29"
+				"volume": 0,
+				"label": 19
 			}
 		],
 		"Sv: Ventral Somatosensory Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 119
-				},
-				"color": "#05da29"
+				"volume": 0,
+				"label": 119
 			}
 		],
 		"Sdl: Dorsolateral Somatosensory Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 20
-				},
-				"color": "#13dbf3"
+				"volume": 0,
+				"label": 20
 			}
 		],
 		"Sdl: Dorsolateral Somatosensory Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 120
-				},
-				"color": "#13dbf3"
+				"volume": 0,
+				"label": 120
 			}
 		],
 		"Sdm: Dorsomedial Somatosensory Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 21
-				},
-				"color": "#fa0000"
+				"volume": 0,
+				"label": 21
 			}
 		],
 		"Sdm: Dorsomedial Somatosensory Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 121
-				},
-				"color": "#fa0000"
+				"volume": 0,
+				"label": 121
 			}
 		],
 		"ICC: Isthmus Cingulate Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 12
-				},
-				"color": "#17fa17"
+				"volume": 0,
+				"label": 12
 			}
 		],
 		"ICC: Isthmus Cingulate Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 112
-				},
-				"color": "#17fa17"
+				"volume": 0,
+				"label": 112
 			}
 		],
 		"PCC: Posterior Cingulate Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 18
-				},
-				"color": "#ffd44f"
+				"volume": 0,
+				"label": 18
 			}
 		],
 		"PCC: Posterior Cingulate Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 118
-				},
-				"color": "#ffd44f"
+				"volume": 0,
+				"label": 118
 			}
 		],
 		"MCC: Mid Cingulate Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 30
-				},
-				"color": "#420f06"
+				"volume": 0,
+				"label": 30
 			}
 		],
 		"MCC: Mid Cingulate Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 130
-				},
-				"color": "#420f06"
+				"volume": 0,
+				"label": 130
 			}
 		],
 		"ACC: Anterior Cingulate Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 40
-				},
-				"color": "#002aff"
+				"volume": 0,
+				"label": 40
 			}
 		],
 		"ACC: Anterior Cingulate Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 140
-				},
-				"color": "#002aff"
+				"volume": 0,
+				"label": 140
 			}
 		],
 		"Mv: Ventral Motor Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 22
-				},
-				"color": "#302460"
+				"volume": 0,
+				"label": 22
 			}
 		],
 		"Mv: Ventral Motor Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 122
-				},
-				"color": "#302460"
+				"volume": 0,
+				"label": 122
 			}
 		],
 		"Mdl: Dorsolateral Motor Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 23
-				},
-				"color": "#a89fae"
+				"volume": 0,
+				"label": 23
 			}
 		],
 		"Mdl: Dorsolateral Motor Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 123
-				},
-				"color": "#a89fae"
+				"volume": 0,
+				"label": 123
 			}
 		],
 		"Mdm: Dorsomedial Motor Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 24
-				},
-				"color": "#ff53db"
+				"volume": 0,
+				"label": 24
 			}
 		],
 		"Mdm: Dorsomedial Motor Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 124
-				},
-				"color": "#ff53db"
+				"volume": 0,
+				"label": 124
 			}
 		],
 		"PMrv: Rostral Ventral Premotor Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 25
-				},
-				"color": "#f8bc7c"
+				"volume": 0,
+				"label": 25
 			}
 		],
 		"PMrv: Rostral Ventral Premotor Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 125
-				},
-				"color": "#f8bc7c"
+				"volume": 0,
+				"label": 125
 			}
 		],
 		"PMdl: Dorsolateral Premotor Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 26
-				},
-				"color": "#fa00fa"
+				"volume": 0,
+				"label": 26
 			}
 		],
 		"PMdl: Dorsolateral Premotor Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 126
-				},
-				"color": "#fa00fa"
+				"volume": 0,
+				"label": 126
 			}
 		],
 		"PMdm: Dorsomedial Premotor Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 27
-				},
-				"color": "#fafa00"
+				"volume": 0,
+				"label": 27
 			}
 		],
 		"PMdm: Dorsomedial Premotor Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 127
-				},
-				"color": "#fafa00"
+				"volume": 0,
+				"label": 127
 			}
 		],
 		"PFcdl: Caudal Dorsolateral Prefrontal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 28
-				},
-				"color": "#00fa00"
+				"volume": 0,
+				"label": 28
 			}
 		],
 		"PFcdl: Caudal Dorsolateral Prefrontal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 128
-				},
-				"color": "#00fa00"
+				"volume": 0,
+				"label": 128
 			}
 		],
 		"PFcdm: Caudal Dorsomedial Prefrontal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 29
-				},
-				"color": "#ff7e00"
+				"volume": 0,
+				"label": 29
 			}
 		],
 		"PFcdm: Caudal Dorsomedial Prefrontal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 129
-				},
-				"color": "#ff7e00"
+				"volume": 0,
+				"label": 129
 			}
 		],
 		"PFrvl: Rostral Ventrolateral Prefrontal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 31
-				},
-				"color": "#0000fa"
+				"volume": 0,
+				"label": 31
 			}
 		],
 		"PFrvl: Rostral Ventrolateral Prefrontal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 131
-				},
-				"color": "#0000fa"
+				"volume": 0,
+				"label": 131
 			}
 		],
 		"Pfrdli: Rostral Dorsolateral Inferior Prefrontal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 32
-				},
-				"color": "#582b01"
+				"volume": 0,
+				"label": 32
 			}
 		],
 		"Pfrdli: Rostral Dorsolateral Inferior Prefrontal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 132
-				},
-				"color": "#582b01"
+				"volume": 0,
+				"label": 132
 			}
 		],
 		"Pfrdls: Rostral Dorsolateral Superior Prefrontal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 33
-				},
-				"color": "#fa0000"
+				"volume": 0,
+				"label": 33
 			}
 		],
 		"Pfrdls: Rostral Dorsolateral Superior Prefrontal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 133
-				},
-				"color": "#fa0000"
+				"volume": 0,
+				"label": 133
 			}
 		],
 		"PFrd: Rostral Dorsal Prefrontal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 34
-				},
-				"color": "#00ad00"
+				"volume": 0,
+				"label": 34
 			}
 		],
 		"PFrd: Rostral Dorsal Prefrontal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 134
-				},
-				"color": "#00ad00"
+				"volume": 0,
+				"label": 134
 			}
 		],
 		"PFrm: Rostral Medial Prefrontal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 35
-				},
-				"color": "#fafa00"
+				"volume": 0,
+				"label": 35
 			}
 		],
 		"PFrm: Rostral Medial Prefrontal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 135
-				},
-				"color": "#fafa00"
+				"volume": 0,
+				"label": 135
 			}
 		],
 		"OFCvl: Ventrolateral Orbito Frontal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 36
-				},
-				"color": "#6dc418"
+				"volume": 0,
+				"label": 36
 			}
 		],
 		"OFCvl: Ventrolateral Orbito Frontal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 136
-				},
-				"color": "#6dc418"
+				"volume": 0,
+				"label": 136
 			}
 		],
 		"OFCv: Ventral Orbito Frontal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 37
-				},
-				"color": "#bc2b8f"
+				"volume": 0,
+				"label": 37
 			}
 		],
 		"OFCv: Ventral Orbito Frontal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 137
-				},
-				"color": "#bc2b8f"
+				"volume": 0,
+				"label": 137
 			}
 		],
 		"OFCvm: Ventromedial Orbito Frontal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 38
-				},
-				"color": "#d2e700"
+				"volume": 0,
+				"label": 38
 			}
 		],
 		"OFCvm: Ventromedial Orbito Frontal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 138
-				},
-				"color": "#d2e700"
+				"volume": 0,
+				"label": 138
 			}
 		],
 		"PFCvm: Ventromedial Prefrontal Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 39
-				},
-				"color": "#bc8f01"
+				"volume": 0,
+				"label": 39
 			}
 		],
 		"PFCvm: Ventromedial Prefrontal Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 139
-				},
-				"color": "#bc8f01"
+				"volume": 0,
+				"label": 139
 			}
 		],
 		"Insula: Insular Cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 41
-				},
-				"color": "#12f3f3"
+				"volume": 0,
+				"label": 41
 			}
 		],
 		"Insula: Insular Cortex - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 141
-				},
-				"color": "#12f3f3"
+				"volume": 0,
+				"label": 141
 			}
 		],
 		"Thalamus - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 210
-				},
-				"color": "#ff0000"
+				"volume": 0,
+				"label": 210
 			}
 		],
 		"Thalamus - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 249
-				},
-				"color": "#ef7729"
+				"volume": 0,
+				"label": 249
 			}
 		],
 		"Caudate - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 211
-				},
-				"color": "#9393b3"
+				"volume": 0,
+				"label": 211
 			}
 		],
 		"Caudate - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 250
-				},
-				"color": "#d219f5"
+				"volume": 0,
+				"label": 250
 			}
 		],
 		"Puttamen - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 212
-				},
-				"color": "#17fa17"
+				"volume": 0,
+				"label": 212
 			}
 		],
 		"Puttamen - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 251
-				},
-				"color": "#a7754a"
+				"volume": 0,
+				"label": 251
 			}
 		],
 		"Pallidum - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 213
-				},
-				"color": "#fdee05"
+				"volume": 0,
+				"label": 213
 			}
 		],
 		"Pallidum - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 252
-				},
-				"color": "#ffda2f"
+				"volume": 0,
+				"label": 252
 			}
 		],
 		"Hippocampus - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 217
-				},
-				"color": "#e518fe"
+				"volume": 0,
+				"label": 217
 			}
 		],
 		"Hippocampus - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 253
-				},
-				"color": "#001ec8"
+				"volume": 0,
+				"label": 253
 			}
 		],
 		"Amygdala - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 218
-				},
-				"color": "#00fa00"
+				"volume": 0,
+				"label": 218
 			}
 		],
 		"Amygdala - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 254
-				},
-				"color": "#91fafa"
+				"volume": 0,
+				"label": 254
 			}
 		],
 		"Accumbens - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 226
-				},
-				"color": "#7d6432"
+				"volume": 0,
+				"label": 226
 			}
 		],
 		"Accumbens - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-				"format": "nii",
-				"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-				"subimage_options": {
-					"label": 258
-				},
-				"color": "#ff90c3"
+				"volume": 0,
+				"label": 258
 			}
 		]
 	}

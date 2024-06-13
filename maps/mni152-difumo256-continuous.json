@@ -1,3091 +1,1559 @@
 {
-	"@type": "siibra/atlases/parcellation_map/v0.1",
-	"parcellation_id": "minds/core/parcellationatlas/v1.0.0/141d510f-0342-4f94-ace7-c97d5f160235",
-	"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-	"maptype": "STATISTICAL",
-	"sparsemap": true,
-	"attributes": [
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+	},
+	"parcellation": {
+		"@id": "minds/core/parcellationatlas/v1.0.0/141d510f-0342-4f94-ace7-c97d5f160235"
+	},
+	"@type": "siibra/map/v0.0.1",
+	"sparsemap": {
+		"is_sparsemap": true,
+		"cached": false,
+		"url": ""
+	},
+	"volumes": [
 		{
-			"@type": "siibra/attr/desc/id/v0.1",
-			"value": "dff3917d-a1c7-efc0-a229-e15a66ce3315"
-		},
-		{
-			"@type": "siibra/attr/desc/name/v0.1",
-			"value": "DiFuMo Atlas (256 dimensions) on MNI 152 ICBM 2009c Nonlinear Asymmetric - statistical - 128 regions"
-		},
-		{
-			"@type": "siibra/attr/desc/speciesspec/v0.1",
-			"value": "homo sapiens"
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz"
+			}
 		}
 	],
-	"index_mapping": {
+	"indices": {
 		"Component 1: Middle frontal gyrus anterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"color": "magma"
+				"z": 0,
+				"volume": 0
 			}
 		],
 		"Component 2: Middle frontal gyrus anterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 1
-				},
-				"color": "magma"
+				"z": 1,
+				"volume": 0
 			}
 		],
 		"Component 3: Cerebrospinal fluid (between superior parietal lobule and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 2
-				},
-				"color": "magma"
+				"z": 2,
+				"volume": 0
 			}
 		],
 		"Component 4: Inferior frontal sulcus posterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 3
-				},
-				"color": "magma"
+				"z": 3,
+				"volume": 0
 			}
 		],
 		"Component 5: Superior longitudinal fasciculus II middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 4
-				},
-				"color": "magma"
+				"z": 4,
+				"volume": 0
 			}
 		],
 		"Component 6: Cuneus anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 5
-				},
-				"color": "magma"
+				"z": 5,
+				"volume": 0
 			}
 		],
 		"Component 7: Lateral ventricles anterior horns": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 6
-				},
-				"color": "magma"
+				"z": 6,
+				"volume": 0
 			}
 		],
 		"Component 8: Lateral occipital cortex - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 7
-				},
-				"color": "magma"
+				"z": 7,
+				"volume": 0
 			}
 		],
 		"Component 9: Retrocalcarine cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 8
-				},
-				"color": "magma"
+				"z": 8,
+				"volume": 0
 			}
 		],
 		"Component 10: Collateral sulcus anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 9
-				},
-				"color": "magma"
+				"z": 9,
+				"volume": 0
 			}
 		],
 		"Component 11: Cerebrospinal fluid (between intraparietal sulcus and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 10
-				},
-				"color": "magma"
+				"z": 10,
+				"volume": 0
 			}
 		],
 		"Component 12: Superior frontal gyrus anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 11
-				},
-				"color": "magma"
+				"z": 11,
+				"volume": 0
 			}
 		],
 		"Component 13: Cingulate cortex mid-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 12
-				},
-				"color": "magma"
+				"z": 12,
+				"volume": 0
 			}
 		],
 		"Component 14: Cingulate cortex mid-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 13
-				},
-				"color": "magma"
+				"z": 13,
+				"volume": 0
 			}
 		],
 		"Component 15: Posterior cingulate cortex posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 14
-				},
-				"color": "magma"
+				"z": 14,
+				"volume": 0
 			}
 		],
 		"Component 16: Pars opercularis pars triangularis - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 15
-				},
-				"color": "magma"
+				"z": 15,
+				"volume": 0
 			}
 		],
 		"Component 17: Medial frontal cortex posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 16
-				},
-				"color": "magma"
+				"z": 16,
+				"volume": 0
 			}
 		],
 		"Component 18: Cerebrospinal fluid (between precuneus and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 17
-				},
-				"color": "magma"
+				"z": 17,
+				"volume": 0
 			}
 		],
 		"Component 19: Dorsal visual stream superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 18
-				},
-				"color": "magma"
+				"z": 18,
+				"volume": 0
 			}
 		],
 		"Component 20: Frontal operculum - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 19
-				},
-				"color": "magma"
+				"z": 19,
+				"volume": 0
 			}
 		],
 		"Component 21: Amygdala": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 20
-				},
-				"color": "magma"
+				"z": 20,
+				"volume": 0
 			}
 		],
 		"Component 22: Supramarginal gyrus - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 21
-				},
-				"color": "magma"
+				"z": 21,
+				"volume": 0
 			}
 		],
 		"Component 23: Postcentral gyrus - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 22
-				},
-				"color": "magma"
+				"z": 22,
+				"volume": 0
 			}
 		],
 		"Component 24: Parieto-occipital sulcus middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 23
-				},
-				"color": "magma"
+				"z": 23,
+				"volume": 0
 			}
 		],
 		"Component 25: Occipital pole inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 24
-				},
-				"color": "magma"
+				"z": 24,
+				"volume": 0
 			}
 		],
 		"Component 26: Superior temporal gyrus - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 25
-				},
-				"color": "magma"
+				"z": 25,
+				"volume": 0
 			}
 		],
 		"Component 27: Intraparietal sulcus anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 26
-				},
-				"color": "magma"
+				"z": 26,
+				"volume": 0
 			}
 		],
 		"Component 28: Inferior occipital gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 27
-				},
-				"color": "magma"
+				"z": 27,
+				"volume": 0
 			}
 		],
 		"Component 29: Angular gyrus superior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 28
-				},
-				"color": "magma"
+				"z": 28,
+				"volume": 0
 			}
 		],
 		"Component 30: Postcentral sulcus superior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 29
-				},
-				"color": "magma"
+				"z": 29,
+				"volume": 0
 			}
 		],
 		"Component 31: Superior occipital sulcus - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 30
-				},
-				"color": "magma"
+				"z": 30,
+				"volume": 0
 			}
 		],
 		"Component 32: Anterior cingulate cortex middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 31
-				},
-				"color": "magma"
+				"z": 31,
+				"volume": 0
 			}
 		],
 		"Component 33: Cerebellum IX": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 32
-				},
-				"color": "magma"
+				"z": 32,
+				"volume": 0
 			}
 		],
 		"Component 34: Corpus callosum forceps minor - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 33
-				},
-				"color": "magma"
+				"z": 33,
+				"volume": 0
 			}
 		],
 		"Component 35: Occipitotemporal sulcus posterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 34
-				},
-				"color": "magma"
+				"z": 34,
+				"volume": 0
 			}
 		],
 		"Component 36: Cerebellum VIIb": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 35
-				},
-				"color": "magma"
+				"z": 35,
+				"volume": 0
 			}
 		],
 		"Component 37: Caudate inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 36
-				},
-				"color": "magma"
+				"z": 36,
+				"volume": 0
 			}
 		],
 		"Component 38: Supramarginal gyrus - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 37
-				},
-				"color": "magma"
+				"z": 37,
+				"volume": 0
 			}
 		],
 		"Component 39: Paracingulate gyrus anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 38
-				},
-				"color": "magma"
+				"z": 38,
+				"volume": 0
 			}
 		],
 		"Component 40: Paracingulate gyrus posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 39
-				},
-				"color": "magma"
+				"z": 39,
+				"volume": 0
 			}
 		],
 		"Component 41: Thalamus middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 40
-				},
-				"color": "magma"
+				"z": 40,
+				"volume": 0
 			}
 		],
 		"Component 42: Postcentral sulcus inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 41
-				},
-				"color": "magma"
+				"z": 41,
+				"volume": 0
 			}
 		],
 		"Component 43: Ventromedial prefrontal cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 42
-				},
-				"color": "magma"
+				"z": 42,
+				"volume": 0
 			}
 		],
 		"Component 44: Precentral sulcus medial": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 43
-				},
-				"color": "magma"
+				"z": 43,
+				"volume": 0
 			}
 		],
 		"Component 45: Superior frontal sulcus - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 44
-				},
-				"color": "magma"
+				"z": 44,
+				"volume": 0
 			}
 		],
 		"Component 46: Postcentral sulcus superior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 45
-				},
-				"color": "magma"
+				"z": 45,
+				"volume": 0
 			}
 		],
 		"Component 47: Supramarginal gyrus anterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 46
-				},
-				"color": "magma"
+				"z": 46,
+				"volume": 0
 			}
 		],
 		"Component 48: Frontal operculum - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 47
-				},
-				"color": "magma"
+				"z": 47,
+				"volume": 0
 			}
 		],
 		"Component 49: Lingual gyrus mid-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 48
-				},
-				"color": "magma"
+				"z": 48,
+				"volume": 0
 			}
 		],
 		"Component 50: Cerebellum VIIIb posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 49
-				},
-				"color": "magma"
+				"z": 49,
+				"volume": 0
 			}
 		],
 		"Component 51: Central sulcus superior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 50
-				},
-				"color": "magma"
+				"z": 50,
+				"volume": 0
 			}
 		],
 		"Component 52: Cerebrospinal fluid (between parietal lobe and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 51
-				},
-				"color": "magma"
+				"z": 51,
+				"volume": 0
 			}
 		],
 		"Component 53: Caudate anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 52
-				},
-				"color": "magma"
+				"z": 52,
+				"volume": 0
 			}
 		],
 		"Component 54: Superior frontal sulcus anterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 53
-				},
-				"color": "magma"
+				"z": 53,
+				"volume": 0
 			}
 		],
 		"Component 55: Corona radiata anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 54
-				},
-				"color": "magma"
+				"z": 54,
+				"volume": 0
 			}
 		],
 		"Component 56: Suborbital cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 55
-				},
-				"color": "magma"
+				"z": 55,
+				"volume": 0
 			}
 		],
 		"Component 57: Inferior frontal gyrus - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 56
-				},
-				"color": "magma"
+				"z": 56,
+				"volume": 0
 			}
 		],
 		"Component 58: Caudate superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 57
-				},
-				"color": "magma"
+				"z": 57,
+				"volume": 0
 			}
 		],
 		"Component 59: Fusiform gyrus posterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 58
-				},
-				"color": "magma"
+				"z": 58,
+				"volume": 0
 			}
 		],
 		"Component 60: Genu of callosal body": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 59
-				},
-				"color": "magma"
+				"z": 59,
+				"volume": 0
 			}
 		],
 		"Component 61: Frontal pole superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 60
-				},
-				"color": "magma"
+				"z": 60,
+				"volume": 0
 			}
 		],
 		"Component 62: Lingual gyrus middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 61
-				},
-				"color": "magma"
+				"z": 61,
+				"volume": 0
 			}
 		],
 		"Component 63: Intraparietal sulcus superior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 62
-				},
-				"color": "magma"
+				"z": 62,
+				"volume": 0
 			}
 		],
 		"Component 64: Angular gyrus inferior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 63
-				},
-				"color": "magma"
+				"z": 63,
+				"volume": 0
 			}
 		],
 		"Component 65: Precuneus anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 64
-				},
-				"color": "magma"
+				"z": 64,
+				"volume": 0
 			}
 		],
 		"Component 66: Anterior commissure": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 65
-				},
-				"color": "magma"
+				"z": 65,
+				"volume": 0
 			}
 		],
 		"Component 67: Middle frontal gyrus middle - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 66
-				},
-				"color": "magma"
+				"z": 66,
+				"volume": 0
 			}
 		],
 		"Component 68: Superior frontal gyrus posterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 67
-				},
-				"color": "magma"
+				"z": 67,
+				"volume": 0
 			}
 		],
 		"Component 69: Cerebellum VIIIb anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 68
-				},
-				"color": "magma"
+				"z": 68,
+				"volume": 0
 			}
 		],
 		"Component 70: Parietal operculum": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 69
-				},
-				"color": "magma"
+				"z": 69,
+				"volume": 0
 			}
 		],
 		"Component 71: Isthmus of corpus callosum": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 70
-				},
-				"color": "magma"
+				"z": 70,
+				"volume": 0
 			}
 		],
 		"Component 72: Putamen inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 71
-				},
-				"color": "magma"
+				"z": 71,
+				"volume": 0
 			}
 		],
 		"Component 73: Supramarginal gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 72
-				},
-				"color": "magma"
+				"z": 72,
+				"volume": 0
 			}
 		],
 		"Component 74: Insula": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 73
-				},
-				"color": "magma"
+				"z": 73,
+				"volume": 0
 			}
 		],
 		"Component 75: Inferior frontal sulcus posterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 74
-				},
-				"color": "magma"
+				"z": 74,
+				"volume": 0
 			}
 		],
 		"Component 76: Superior frontal gyrus posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 75
-				},
-				"color": "magma"
+				"z": 75,
+				"volume": 0
 			}
 		],
 		"Component 77: Cuneus posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 76
-				},
-				"color": "magma"
+				"z": 76,
+				"volume": 0
 			}
 		],
 		"Component 78: Lingual gyrus mid-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 77
-				},
-				"color": "magma"
+				"z": 77,
+				"volume": 0
 			}
 		],
 		"Component 79: Frontal pole lateral - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 78
-				},
-				"color": "magma"
+				"z": 78,
+				"volume": 0
 			}
 		],
 		"Component 80: Inferior temporal gyrus posterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 79
-				},
-				"color": "magma"
+				"z": 79,
+				"volume": 0
 			}
 		],
 		"Component 81: Cerebellum Crus I - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 80
-				},
-				"color": "magma"
+				"z": 80,
+				"volume": 0
 			}
 		],
 		"Component 82: Cerebrospinal fluid (between superior frontal gyrus anterior and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 81
-				},
-				"color": "magma"
+				"z": 81,
+				"volume": 0
 			}
 		],
 		"Component 83: Central sulcus inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 82
-				},
-				"color": "magma"
+				"z": 82,
+				"volume": 0
 			}
 		],
 		"Component 84: Superior occipital sulcus inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 83
-				},
-				"color": "magma"
+				"z": 83,
+				"volume": 0
 			}
 		],
 		"Component 85: Ventral visual stream": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 84
-				},
-				"color": "magma"
+				"z": 84,
+				"volume": 0
 			}
 		],
 		"Component 86: Heschl\u2019s gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 85
-				},
-				"color": "magma"
+				"z": 85,
+				"volume": 0
 			}
 		],
 		"Component 87: Central and postcentral sulci mid-superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 86
-				},
-				"color": "magma"
+				"z": 86,
+				"volume": 0
 			}
 		],
 		"Component 88: Cuneus inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 87
-				},
-				"color": "magma"
+				"z": 87,
+				"volume": 0
 			}
 		],
 		"Component 89: Transverse occipital sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 88
-				},
-				"color": "magma"
+				"z": 88,
+				"volume": 0
 			}
 		],
 		"Component 90: Posterior cingulate cortex middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 89
-				},
-				"color": "magma"
+				"z": 89,
+				"volume": 0
 			}
 		],
 		"Component 91: Cerebellum Crus I superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 90
-				},
-				"color": "magma"
+				"z": 90,
+				"volume": 0
 			}
 		],
 		"Component 92: Frontomarginal gyrus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 91
-				},
-				"color": "magma"
+				"z": 91,
+				"volume": 0
 			}
 		],
 		"Component 93: Optic radiation - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 92
-				},
-				"color": "magma"
+				"z": 92,
+				"volume": 0
 			}
 		],
 		"Component 94: Inferior frontal sulcus anterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 93
-				},
-				"color": "magma"
+				"z": 93,
+				"volume": 0
 			}
 		],
 		"Component 95: Hippocampus posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 94
-				},
-				"color": "magma"
+				"z": 94,
+				"volume": 0
 			}
 		],
 		"Component 96: Cerebellum IV": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 95
-				},
-				"color": "magma"
+				"z": 95,
+				"volume": 0
 			}
 		],
 		"Component 97: Superior occipital gyrus - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 96
-				},
-				"color": "magma"
+				"z": 96,
+				"volume": 0
 			}
 		],
 		"Component 98: Forceps minor - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 97
-				},
-				"color": "magma"
+				"z": 97,
+				"volume": 0
 			}
 		],
 		"Component 99: Precentral sulcus superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 98
-				},
-				"color": "magma"
+				"z": 98,
+				"volume": 0
 			}
 		],
 		"Component 100: Central sulcus middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 99
-				},
-				"color": "magma"
+				"z": 99,
+				"volume": 0
 			}
 		],
 		"Component 101: Internal capsule anterior horn - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 100
-				},
-				"color": "magma"
+				"z": 100,
+				"volume": 0
 			}
 		],
 		"Component 102: Posterior cingulate cortex inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 101
-				},
-				"color": "magma"
+				"z": 101,
+				"volume": 0
 			}
 		],
 		"Component 103: Lateral ventricles middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 102
-				},
-				"color": "magma"
+				"z": 102,
+				"volume": 0
 			}
 		],
 		"Component 104: Frontal pole inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 103
-				},
-				"color": "magma"
+				"z": 103,
+				"volume": 0
 			}
 		],
 		"Component 105: Putamen anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 104
-				},
-				"color": "magma"
+				"z": 104,
+				"volume": 0
 			}
 		],
 		"Component 106: Intraparietal sulcus posterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 105
-				},
-				"color": "magma"
+				"z": 105,
+				"volume": 0
 			}
 		],
 		"Component 107: Occipital pole middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 106
-				},
-				"color": "magma"
+				"z": 106,
+				"volume": 0
 			}
 		],
 		"Component 108: Middle temporal gyrus posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 107
-				},
-				"color": "magma"
+				"z": 107,
+				"volume": 0
 			}
 		],
 		"Component 109: Angular gyrus - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 108
-				},
-				"color": "magma"
+				"z": 108,
+				"volume": 0
 			}
 		],
 		"Component 110: Insula anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 109
-				},
-				"color": "magma"
+				"z": 109,
+				"volume": 0
 			}
 		],
 		"Component 111: Retrosplenial cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 110
-				},
-				"color": "magma"
+				"z": 110,
+				"volume": 0
 			}
 		],
 		"Component 112: Inferior occipital gyrus posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 111
-				},
-				"color": "magma"
+				"z": 111,
+				"volume": 0
 			}
 		],
 		"Component 113: Lateral occipital cortex anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 112
-				},
-				"color": "magma"
+				"z": 112,
+				"volume": 0
 			}
 		],
 		"Component 114: Corona radiata": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 113
-				},
-				"color": "magma"
+				"z": 113,
+				"volume": 0
 			}
 		],
 		"Component 115: Superior parts of central and postcentral sulci - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 114
-				},
-				"color": "magma"
+				"z": 114,
+				"volume": 0
 			}
 		],
 		"Component 116: Superior frontal gyrus medial mid-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 115
-				},
-				"color": "magma"
+				"z": 115,
+				"volume": 0
 			}
 		],
 		"Component 117: Collateral sulcus middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 116
-				},
-				"color": "magma"
+				"z": 116,
+				"volume": 0
 			}
 		],
 		"Component 118: Intraparietal sulcus inferior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 117
-				},
-				"color": "magma"
+				"z": 117,
+				"volume": 0
 			}
 		],
 		"Component 119: Calcarine sulcus posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 118
-				},
-				"color": "magma"
+				"z": 118,
+				"volume": 0
 			}
 		],
 		"Component 120: Lateral occipital cortex superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 119
-				},
-				"color": "magma"
+				"z": 119,
+				"volume": 0
 			}
 		],
 		"Component 121: Dorsomedial prefrontal cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 120
-				},
-				"color": "magma"
+				"z": 120,
+				"volume": 0
 			}
 		],
 		"Component 122: Occipital pole superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 121
-				},
-				"color": "magma"
+				"z": 121,
+				"volume": 0
 			}
 		],
 		"Component 123: Callosomarginal sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 122
-				},
-				"color": "magma"
+				"z": 122,
+				"volume": 0
 			}
 		],
 		"Component 124: Intraparietal sulcus posterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 123
-				},
-				"color": "magma"
+				"z": 123,
+				"volume": 0
 			}
 		],
 		"Component 125: Hippocampal fissure": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 124
-				},
-				"color": "magma"
+				"z": 124,
+				"volume": 0
 			}
 		],
 		"Component 126: Angular gyrus posterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 125
-				},
-				"color": "magma"
+				"z": 125,
+				"volume": 0
 			}
 		],
 		"Component 127: Angular gyrus posterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 126
-				},
-				"color": "magma"
+				"z": 126,
+				"volume": 0
 			}
 		],
 		"Component 128: Parieto-occipital sulcus mid-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 127
-				},
-				"color": "magma"
+				"z": 127,
+				"volume": 0
 			}
 		],
 		"Component 129: Precentral sulcus - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 128
-				},
-				"color": "magma"
+				"z": 128,
+				"volume": 0
 			}
 		],
 		"Component 130: Pons superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 129
-				},
-				"color": "magma"
+				"z": 129,
+				"volume": 0
 			}
 		],
 		"Component 131: Suborbital cortex medial": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 130
-				},
-				"color": "magma"
+				"z": 130,
+				"volume": 0
 			}
 		],
 		"Component 132: Insula antero-inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 131
-				},
-				"color": "magma"
+				"z": 131,
+				"volume": 0
 			}
 		],
 		"Component 133: Thalamus medial": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 132
-				},
-				"color": "magma"
+				"z": 132,
+				"volume": 0
 			}
 		],
 		"Component 134: Middle temporal gyrus anterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 133
-				},
-				"color": "magma"
+				"z": 133,
+				"volume": 0
 			}
 		],
 		"Component 135: Superior corona radiata - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 134
-				},
-				"color": "magma"
+				"z": 134,
+				"volume": 0
 			}
 		],
 		"Component 136: Cerebrospinal fluid (between middle frontal gyrus posterior and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 135
-				},
-				"color": "magma"
+				"z": 135,
+				"volume": 0
 			}
 		],
 		"Component 137: Paracentral lobule posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 136
-				},
-				"color": "magma"
+				"z": 136,
+				"volume": 0
 			}
 		],
 		"Component 138: Pons inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 137
-				},
-				"color": "magma"
+				"z": 137,
+				"volume": 0
 			}
 		],
 		"Component 139: Calcarine sulcus middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 138
-				},
-				"color": "magma"
+				"z": 138,
+				"volume": 0
 			}
 		],
 		"Component 140: Lateral ventricles posterior horns": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 139
-				},
-				"color": "magma"
+				"z": 139,
+				"volume": 0
 			}
 		],
 		"Component 141: Inferior frontal gyrus anterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 140
-				},
-				"color": "magma"
+				"z": 140,
+				"volume": 0
 			}
 		],
 		"Component 142: Central and postcentral sulci superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 141
-				},
-				"color": "magma"
+				"z": 141,
+				"volume": 0
 			}
 		],
 		"Component 143: Cerebellum Crus I posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 142
-				},
-				"color": "magma"
+				"z": 142,
+				"volume": 0
 			}
 		],
 		"Component 144: Inferior frontal sulcus anterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 143
-				},
-				"color": "magma"
+				"z": 143,
+				"volume": 0
 			}
 		],
 		"Component 145: Angular gyrus superior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 144
-				},
-				"color": "magma"
+				"z": 144,
+				"volume": 0
 			}
 		],
 		"Component 146: Intermediate primus of Jensen - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 145
-				},
-				"color": "magma"
+				"z": 145,
+				"volume": 0
 			}
 		],
 		"Component 147: Cerebellum Crus I lateral - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 146
-				},
-				"color": "magma"
+				"z": 146,
+				"volume": 0
 			}
 		],
 		"Component 148: Lateral fissure anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 147
-				},
-				"color": "magma"
+				"z": 147,
+				"volume": 0
 			}
 		],
 		"Component 149: Anterior cingulate cortex inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 148
-				},
-				"color": "magma"
+				"z": 148,
+				"volume": 0
 			}
 		],
 		"Component 150: Cerebrospinal fluid (between precentral gyrus and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 149
-				},
-				"color": "magma"
+				"z": 149,
+				"volume": 0
 			}
 		],
 		"Component 151: Parieto-occipital sulcus anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 150
-				},
-				"color": "magma"
+				"z": 150,
+				"volume": 0
 			}
 		],
 		"Component 152: Precentral gyrus superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 151
-				},
-				"color": "magma"
+				"z": 151,
+				"volume": 0
 			}
 		],
 		"Component 153: Cerebrospinal fluid (between parieto-occipital sulcus and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 152
-				},
-				"color": "magma"
+				"z": 152,
+				"volume": 0
 			}
 		],
 		"Component 154: Cerebellum V": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 153
-				},
-				"color": "magma"
+				"z": 153,
+				"volume": 0
 			}
 		],
 		"Component 155: Fusiform gyrus - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 154
-				},
-				"color": "magma"
+				"z": 154,
+				"volume": 0
 			}
 		],
 		"Component 156: Cerebellum Crus II": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 155
-				},
-				"color": "magma"
+				"z": 155,
+				"volume": 0
 			}
 		],
 		"Component 157: Corona radiata anterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 156
-				},
-				"color": "magma"
+				"z": 156,
+				"volume": 0
 			}
 		],
 		"Component 158: Thalamus lateral": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 157
-				},
-				"color": "magma"
+				"z": 157,
+				"volume": 0
 			}
 		],
 		"Component 159: Inferior occipital sulcus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 158
-				},
-				"color": "magma"
+				"z": 158,
+				"volume": 0
 			}
 		],
 		"Component 160: Superior temporal sulcus posterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 159
-				},
-				"color": "magma"
+				"z": 159,
+				"volume": 0
 			}
 		],
 		"Component 161: Cerebellum VI superior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 160
-				},
-				"color": "magma"
+				"z": 160,
+				"volume": 0
 			}
 		],
 		"Component 162: Angular gyrus inferior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 161
-				},
-				"color": "magma"
+				"z": 161,
+				"volume": 0
 			}
 		],
 		"Component 163: Superior temporal gyrus medial": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 162
-				},
-				"color": "magma"
+				"z": 162,
+				"volume": 0
 			}
 		],
 		"Component 164: Middle temporal gyrus anterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 163
-				},
-				"color": "magma"
+				"z": 163,
+				"volume": 0
 			}
 		],
 		"Component 165: Fluid between cerebellum and pons": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 164
-				},
-				"color": "magma"
+				"z": 164,
+				"volume": 0
 			}
 		],
 		"Component 166: Angular gyrus superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 165
-				},
-				"color": "magma"
+				"z": 165,
+				"volume": 0
 			}
 		],
 		"Component 167: Planum temporale - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 166
-				},
-				"color": "magma"
+				"z": 166,
+				"volume": 0
 			}
 		],
 		"Component 168: Hippocampus anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 167
-				},
-				"color": "magma"
+				"z": 167,
+				"volume": 0
 			}
 		],
 		"Component 169: Fornix anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 168
-				},
-				"color": "magma"
+				"z": 168,
+				"volume": 0
 			}
 		],
 		"Component 170: Temporal pole": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 169
-				},
-				"color": "magma"
+				"z": 169,
+				"volume": 0
 			}
 		],
 		"Component 171: Precentral sulcus inferior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 170
-				},
-				"color": "magma"
+				"z": 170,
+				"volume": 0
 			}
 		],
 		"Component 172: Cerebellum Crus I anterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 171
-				},
-				"color": "magma"
+				"z": 171,
+				"volume": 0
 			}
 		],
 		"Component 173: Cerebellum VI anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 172
-				},
-				"color": "magma"
+				"z": 172,
+				"volume": 0
 			}
 		],
 		"Component 174: Middle frontal gyrus posterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 173
-				},
-				"color": "magma"
+				"z": 173,
+				"volume": 0
 			}
 		],
 		"Component 175: Cerebrospinal fluid (between middle frontal gyrus anterior and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 174
-				},
-				"color": "magma"
+				"z": 174,
+				"volume": 0
 			}
 		],
 		"Component 176: Anterior cingulate cortex superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 175
-				},
-				"color": "magma"
+				"z": 175,
+				"volume": 0
 			}
 		],
 		"Component 177: Angular gyrus anterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 176
-				},
-				"color": "magma"
+				"z": 176,
+				"volume": 0
 			}
 		],
 		"Component 178: Posterior cingulate": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 177
-				},
-				"color": "magma"
+				"z": 177,
+				"volume": 0
 			}
 		],
 		"Component 179: Cerebellum Crus II": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 178
-				},
-				"color": "magma"
+				"z": 178,
+				"volume": 0
 			}
 		],
 		"Component 180: Cerebrospinal fluid (between precentral gyrus superior and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 179
-				},
-				"color": "magma"
+				"z": 179,
+				"volume": 0
 			}
 		],
 		"Component 181: Cerebellum VI": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 180
-				},
-				"color": "magma"
+				"z": 180,
+				"volume": 0
 			}
 		],
 		"Component 182: Cerebrospinal fluid (between superior frontal gyrus posterior and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 181
-				},
-				"color": "magma"
+				"z": 181,
+				"volume": 0
 			}
 		],
 		"Component 183: Intraparietal sulcus - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 182
-				},
-				"color": "magma"
+				"z": 182,
+				"volume": 0
 			}
 		],
 		"Component 184: Cuneus superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 183
-				},
-				"color": "magma"
+				"z": 183,
+				"volume": 0
 			}
 		],
 		"Component 185: Frontal pole lateral - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 184
-				},
-				"color": "magma"
+				"z": 184,
+				"volume": 0
 			}
 		],
 		"Component 186: Superior temporal sulcus - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 185
-				},
-				"color": "magma"
+				"z": 185,
+				"volume": 0
 			}
 		],
 		"Component 187: Cerebellum VIIb": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 186
-				},
-				"color": "magma"
+				"z": 186,
+				"volume": 0
 			}
 		],
 		"Component 188: Posterior cingulate cortex superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 187
-				},
-				"color": "magma"
+				"z": 187,
+				"volume": 0
 			}
 		],
 		"Component 189: Superior parietal lobule anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 188
-				},
-				"color": "magma"
+				"z": 188,
+				"volume": 0
 			}
 		],
 		"Component 190: Insula posterior inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 189
-				},
-				"color": "magma"
+				"z": 189,
+				"volume": 0
 			}
 		],
 		"Component 191: Central opercular cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 190
-				},
-				"color": "magma"
+				"z": 190,
+				"volume": 0
 			}
 		],
 		"Component 192: Middle frontal gyrus posterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 191
-				},
-				"color": "magma"
+				"z": 191,
+				"volume": 0
 			}
 		],
 		"Component 193: Lingual gyrus lateral": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 192
-				},
-				"color": "magma"
+				"z": 192,
+				"volume": 0
 			}
 		],
 		"Component 194: Lateral occipital cortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 193
-				},
-				"color": "magma"
+				"z": 193,
+				"volume": 0
 			}
 		],
 		"Component 195: Lingual gyrus medial": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 194
-				},
-				"color": "magma"
+				"z": 194,
+				"volume": 0
 			}
 		],
 		"Component 196: Superior frontal gyrus posterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 195
-				},
-				"color": "magma"
+				"z": 195,
+				"volume": 0
 			}
 		],
 		"Component 197: Parieto-occipital sulcus mid-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 196
-				},
-				"color": "magma"
+				"z": 196,
+				"volume": 0
 			}
 		],
 		"Component 198: Cerebrospinal fluid (between paracentral lobule and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 197
-				},
-				"color": "magma"
+				"z": 197,
+				"volume": 0
 			}
 		],
 		"Component 199: Putamen and globus pallidus": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 198
-				},
-				"color": "magma"
+				"z": 198,
+				"volume": 0
 			}
 		],
 		"Component 200: Cerebellum V": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 199
-				},
-				"color": "magma"
+				"z": 199,
+				"volume": 0
 			}
 		],
 		"Component 201: Cingulate sulcus posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 200
-				},
-				"color": "magma"
+				"z": 200,
+				"volume": 0
 			}
 		],
 		"Component 202: Cerebrospinal fluid (between middle frontal gyrus and skull RH)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 201
-				},
-				"color": "magma"
+				"z": 201,
+				"volume": 0
 			}
 		],
 		"Component 203: Fusiform gyrus - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 202
-				},
-				"color": "magma"
+				"z": 202,
+				"volume": 0
 			}
 		],
 		"Component 204: Planum temporale - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 203
-				},
-				"color": "magma"
+				"z": 203,
+				"volume": 0
 			}
 		],
 		"Component 205: Pericallosal sulcus middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 204
-				},
-				"color": "magma"
+				"z": 204,
+				"volume": 0
 			}
 		],
 		"Component 206: Thalamus inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 205
-				},
-				"color": "magma"
+				"z": 205,
+				"volume": 0
 			}
 		],
 		"Component 207: Middle frontal gyrus posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 206
-				},
-				"color": "magma"
+				"z": 206,
+				"volume": 0
 			}
 		],
 		"Component 208: Superior parietal lobule middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 207
-				},
-				"color": "magma"
+				"z": 207,
+				"volume": 0
 			}
 		],
 		"Component 209: Cerebellum Crus I posterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 208
-				},
-				"color": "magma"
+				"z": 208,
+				"volume": 0
 			}
 		],
 		"Component 210: Precentral sulcus inferior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 209
-				},
-				"color": "magma"
+				"z": 209,
+				"volume": 0
 			}
 		],
 		"Component 211: Cerebellum VI - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 210
-				},
-				"color": "magma"
+				"z": 210,
+				"volume": 0
 			}
 		],
 		"Component 212: Inferior temporal sulcus posterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 211
-				},
-				"color": "magma"
+				"z": 211,
+				"volume": 0
 			}
 		],
 		"Component 213: Lingual gyrus anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 212
-				},
-				"color": "magma"
+				"z": 212,
+				"volume": 0
 			}
 		],
 		"Component 214: Middle frontal gyrus anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 213
-				},
-				"color": "magma"
+				"z": 213,
+				"volume": 0
 			}
 		],
 		"Component 215: Superior parietal lobule posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 214
-				},
-				"color": "magma"
+				"z": 214,
+				"volume": 0
 			}
 		],
 		"Component 216: Parieto-occipital sulcus posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 215
-				},
-				"color": "magma"
+				"z": 215,
+				"volume": 0
 			}
 		],
 		"Component 217: Superior temporal gyrus anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 216
-				},
-				"color": "magma"
+				"z": 216,
+				"volume": 0
 			}
 		],
 		"Component 218: Precuneus inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 217
-				},
-				"color": "magma"
+				"z": 217,
+				"volume": 0
 			}
 		],
 		"Component 219: Paracentral lobule": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 218
-				},
-				"color": "magma"
+				"z": 218,
+				"volume": 0
 			}
 		],
 		"Component 220: Thalamic radiation mid-posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 219
-				},
-				"color": "magma"
+				"z": 219,
+				"volume": 0
 			}
 		],
 		"Component 221: Precentral sulcus superior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 220
-				},
-				"color": "magma"
+				"z": 220,
+				"volume": 0
 			}
 		],
 		"Component 222: Calcarine sulcus mid-anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 221
-				},
-				"color": "magma"
+				"z": 221,
+				"volume": 0
 			}
 		],
 		"Component 223: Cerebellum VI superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 222
-				},
-				"color": "magma"
+				"z": 222,
+				"volume": 0
 			}
 		],
 		"Component 224: Putamen superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 223
-				},
-				"color": "magma"
+				"z": 223,
+				"volume": 0
 			}
 		],
 		"Component 225: Middle temporal gyrus middle - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 224
-				},
-				"color": "magma"
+				"z": 224,
+				"volume": 0
 			}
 		],
 		"Component 226: Insula antero-superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 225
-				},
-				"color": "magma"
+				"z": 225,
+				"volume": 0
 			}
 		],
 		"Component 227: Parietal operculum - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 226
-				},
-				"color": "magma"
+				"z": 226,
+				"volume": 0
 			}
 		],
 		"Component 228: Thalamus superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 227
-				},
-				"color": "magma"
+				"z": 227,
+				"volume": 0
 			}
 		],
 		"Component 229: Dorsomedial prefrontal cortex posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 228
-				},
-				"color": "magma"
+				"z": 228,
+				"volume": 0
 			}
 		],
 		"Component 230: Angular sulcus inferior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 229
-				},
-				"color": "magma"
+				"z": 229,
+				"volume": 0
 			}
 		],
 		"Component 231: Corona radiata posterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 230
-				},
-				"color": "magma"
+				"z": 230,
+				"volume": 0
 			}
 		],
 		"Component 232: Pars opercularis": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 231
-				},
-				"color": "magma"
+				"z": 231,
+				"volume": 0
 			}
 		],
 		"Component 233: Cerebellum VI anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 232
-				},
-				"color": "magma"
+				"z": 232,
+				"volume": 0
 			}
 		],
 		"Component 234: Superior occipital sulcus - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 233
-				},
-				"color": "magma"
+				"z": 233,
+				"volume": 0
 			}
 		],
 		"Component 235: Dorsomedial prefrontal cortex anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 234
-				},
-				"color": "magma"
+				"z": 234,
+				"volume": 0
 			}
 		],
 		"Component 236: Pars orbitalis - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 235
-				},
-				"color": "magma"
+				"z": 235,
+				"volume": 0
 			}
 		],
 		"Component 237: Occipitotemporal gyrus anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 236
-				},
-				"color": "magma"
+				"z": 236,
+				"volume": 0
 			}
 		],
 		"Component 238: Calcarine sulcus anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 237
-				},
-				"color": "magma"
+				"z": 237,
+				"volume": 0
 			}
 		],
 		"Component 239: Precentral gyrus middle": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 238
-				},
-				"color": "magma"
+				"z": 238,
+				"volume": 0
 			}
 		],
 		"Component 240: Lateral occipital cortex inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 239
-				},
-				"color": "magma"
+				"z": 239,
+				"volume": 0
 			}
 		],
 		"Component 241: Precuneus posterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 240
-				},
-				"color": "magma"
+				"z": 240,
+				"volume": 0
 			}
 		],
 		"Component 242: Anterior horizontal ramus lateral fissure - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 241
-				},
-				"color": "magma"
+				"z": 241,
+				"volume": 0
 			}
 		],
 		"Component 243: Postcentral sulcus middle - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 242
-				},
-				"color": "magma"
+				"z": 242,
+				"volume": 0
 			}
 		],
 		"Component 244: Ventromedial prefrontal cortex anterior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 243
-				},
-				"color": "magma"
+				"z": 243,
+				"volume": 0
 			}
 		],
 		"Component 245: Cerebrospinal fluid (between middle frontal gyrus RH and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 244
-				},
-				"color": "magma"
+				"z": 244,
+				"volume": 0
 			}
 		],
 		"Component 246: Cerebrospinal fluid (between precentral and postcentral gyri LH and skull)": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 245
-				},
-				"color": "magma"
+				"z": 245,
+				"volume": 0
 			}
 		],
 		"Component 247: Superior longitudinal fasciculus I posterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 246
-				},
-				"color": "magma"
+				"z": 246,
+				"volume": 0
 			}
 		],
 		"Component 248: Superior frontal sulcus - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 247
-				},
-				"color": "magma"
+				"z": 247,
+				"volume": 0
 			}
 		],
 		"Component 249: Forceps major - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 248
-				},
-				"color": "magma"
+				"z": 248,
+				"volume": 0
 			}
 		],
 		"Component 250: Superior longitudinal fasciculus II - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 249
-				},
-				"color": "magma"
+				"z": 249,
+				"volume": 0
 			}
 		],
 		"Component 251: Supramarginal gyrus anterior - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 250
-				},
-				"color": "magma"
+				"z": 250,
+				"volume": 0
 			}
 		],
 		"Component 252: Callosomarginal sulcus inferior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 251
-				},
-				"color": "magma"
+				"z": 251,
+				"volume": 0
 			}
 		],
 		"Component 253: Superior temporal sulcus posterior - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 252
-				},
-				"color": "magma"
+				"z": 252,
+				"volume": 0
 			}
 		],
 		"Component 254: Superior longitudinal fasciculus I - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 253
-				},
-				"color": "magma"
+				"z": 253,
+				"volume": 0
 			}
 		],
 		"Component 255: Parietal operculum - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 254
-				},
-				"color": "magma"
+				"z": 254,
+				"volume": 0
 			}
 		],
 		"Component 256: Precuneus superior": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000017_DiFuMoAtlases_pub/256/maps.nii.gz",
-				"subimage_options": {
-					"z": 255
-				},
-				"color": "magma"
+				"z": 255,
+				"volume": 0
 			}
 		]
 	}

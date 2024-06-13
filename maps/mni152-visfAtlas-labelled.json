@@ -1,879 +1,217 @@
 {
-	"@type": "siibra/atlases/parcellation_map/v0.1",
-	"parcellation_id": "minds/core/parcellationatlas/v1.0.0/d41d8cd98f00b204e9800998ecf8427e",
-	"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-	"maptype": "LABELLED",
-	"attributes": [
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+	},
+	"parcellation": {
+		"@id": "minds/core/parcellationatlas/v1.0.0/d41d8cd98f00b204e9800998ecf8427e"
+	},
+	"volumes": [
 		{
-			"@type": "siibra/attr/desc/id/v0.1",
-			"value": "f3c2c7a7-f086-37f0-5289-38c40aadea4c"
-		},
-		{
-			"@type": "siibra/attr/desc/name/v0.1",
-			"value": "[PRERELEASE] A Probabilistic Functional Atlas of Human Occipito-Temporal Visual Cortex on MNI 152 ICBM 2009c Nonlinear Asymmetric - labelled - 16 regions"
-		},
-		{
-			"@type": "siibra/attr/desc/speciesspec/v0.1",
-			"value": "homo sapiens"
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"zip/nii": "https://download.brainvoyager.com/data/visfAtlas.zip nifti_volume/visfAtlas_MNI152_volume.nii.gz",
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume"
+			}
 		}
 	],
-	"index_mapping": {
+	"@type": "siibra/map/v0.0.1",
+	"indices": {
 		"lh_mFus_faces": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 1
-				},
-				"color": "#ff0000"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 1
-				},
-				"color": "#ff0000"
+				"volume": 0,
+				"label": 1
 			}
 		],
 		"lh_pFus_faces": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 2
-				},
-				"color": "#a00000"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 2
-				},
-				"color": "#a00000"
+				"volume": 0,
+				"label": 2
 			}
 		],
 		"lh_IOG_faces": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 3
-				},
-				"color": "#de2d26"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 3
-				},
-				"color": "#de2d26"
+				"volume": 0,
+				"label": 3
 			}
 		],
 		"lh_OTS_bodies": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 4
-				},
-				"color": "#00e600"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 4
-				},
-				"color": "#00e600"
+				"volume": 0,
+				"label": 4
 			}
 		],
 		"lh_ITG_bodies": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 5
-				},
-				"color": "#edf8e9"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 5
-				},
-				"color": "#edf8e9"
+				"volume": 0,
+				"label": 5
 			}
 		],
 		"lh_MTG_bodies": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 6
-				},
-				"color": "#74c476"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 6
-				},
-				"color": "#74c476"
+				"volume": 0,
+				"label": 6
 			}
 		],
 		"lh_LOS_bodies": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 7
-				},
-				"color": "#31a354"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 7
-				},
-				"color": "#31a354"
+				"volume": 0,
+				"label": 7
 			}
 		],
 		"lh_pOTS_characters": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 8
-				},
-				"color": "#090909"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 8
-				},
-				"color": "#090909"
+				"volume": 0,
+				"label": 8
 			}
 		],
 		"lh_IOS_haracters": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 9
-				},
-				"color": "#edf8e9"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 9
-				},
-				"color": "#edf8e9"
+				"volume": 0,
+				"label": 9
 			}
 		],
 		"lh_CoS_places": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 10
-				},
-				"color": "#54278f"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 10
-				},
-				"color": "#54278f"
+				"volume": 0,
+				"label": 10
 			}
 		],
 		"lh_hMT_motion": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 11
-				},
-				"color": "#fed976"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 11
-				},
-				"color": "#fed976"
+				"volume": 0,
+				"label": 11
 			}
 		],
 		"lh_v1d_retinotopic": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 12
-				},
-				"color": "#c6dbef"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 12
-				},
-				"color": "#c6dbef"
+				"volume": 0,
+				"label": 12
 			}
 		],
 		"lh_v2d_retinotopic": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 13
-				},
-				"color": "#9ecae1"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 13
-				},
-				"color": "#9ecae1"
+				"volume": 0,
+				"label": 13
 			}
 		],
 		"lh_v3d_retinotopic": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 14
-				},
-				"color": "#6baed6"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 14
-				},
-				"color": "#6baed6"
+				"volume": 0,
+				"label": 14
 			}
 		],
 		"lh_v1v_retinotopic": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 15
-				},
-				"color": "#4292c6"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 15
-				},
-				"color": "#4292c6"
+				"volume": 0,
+				"label": 15
 			}
 		],
 		"lh_v2v_retinotopic": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 16
-				},
-				"color": "#2171b5"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 16
-				},
-				"color": "#2171b5"
+				"volume": 0,
+				"label": 16
 			}
 		],
 		"lh_v3v_retinotopic": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 17
-				},
-				"color": "#084594"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 17
-				},
-				"color": "#084594"
+				"volume": 0,
+				"label": 17
 			}
 		],
 		"rh_mFus_faces": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 18
-				},
-				"color": "#ff0000"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 18
-				},
-				"color": "#ff0000"
+				"volume": 0,
+				"label": 18
 			}
 		],
 		"rh_pFus_faces ": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 19
-				},
-				"color": "#a00000"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 19
-				},
-				"color": "#a00000"
+				"volume": 0,
+				"label": 19
 			}
 		],
 		"rh_IOG_faces": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 20
-				},
-				"color": "#de2d26"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 20
-				},
-				"color": "#de2d26"
+				"volume": 0,
+				"label": 20
 			}
 		],
 		"rh_OTS_bodies": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 21
-				},
-				"color": "#00e600"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 21
-				},
-				"color": "#00e600"
+				"volume": 0,
+				"label": 21
 			}
 		],
 		"rh_ITG_bodies": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 22
-				},
-				"color": "#edf8e9"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 22
-				},
-				"color": "#edf8e9"
+				"volume": 0,
+				"label": 22
 			}
 		],
 		"rh_MTG_bodies": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 23
-				},
-				"color": "#74c476"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 23
-				},
-				"color": "#74c476"
+				"volume": 0,
+				"label": 23
 			}
 		],
 		"rh_LOS_bodies": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 24
-				},
-				"color": "#31a354"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 24
-				},
-				"color": "#31a354"
+				"volume": 0,
+				"label": 24
 			}
 		],
 		"rh_CoS_places": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 25
-				},
-				"color": "#54278f"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 25
-				},
-				"color": "#54278f"
+				"volume": 0,
+				"label": 25
 			}
 		],
 		"rh_TOS_places": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 26
-				},
-				"color": "#756bb1"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 26
-				},
-				"color": "#756bb1"
+				"volume": 0,
+				"label": 26
 			}
 		],
 		"rh_hMT_motion": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 27
-				},
-				"color": "#fed976"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 27
-				},
-				"color": "#fed976"
+				"volume": 0,
+				"label": 27
 			}
 		],
 		"rh_v1d_retinotopic": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 28
-				},
-				"color": "#c6dbef"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 28
-				},
-				"color": "#c6dbef"
+				"volume": 0,
+				"label": 28
 			}
 		],
 		"rh_v2d_retinotopic": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 29
-				},
-				"color": "#9ecae1"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 29
-				},
-				"color": "#9ecae1"
+				"volume": 0,
+				"label": 29
 			}
 		],
 		"rh_v3d_retinotopic": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 30
-				},
-				"color": "#6baed6"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 30
-				},
-				"color": "#6baed6"
+				"volume": 0,
+				"label": 30
 			}
 		],
 		"rh_v1v_retinotopic": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 31
-				},
-				"color": "#4292c6"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 31
-				},
-				"color": "#4292c6"
+				"volume": 0,
+				"label": 31
 			}
 		],
 		"rh_v2v_retinotopic": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 32
-				},
-				"color": "#2171b5"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 32
-				},
-				"color": "#2171b5"
+				"volume": 0,
+				"label": 32
 			}
 		],
 		"rh_v3v_retinotopic": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
-				},
-				"subimage_options": {
-					"label": 33
-				},
-				"color": "#084594"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
-				"subimage_options": {
-					"label": 33
-				},
-				"color": "#084594"
+				"volume": 0,
+				"label": 33
 			}
 		]
 	}

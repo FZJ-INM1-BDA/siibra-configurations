@@ -1,65 +1,31 @@
 {
-	"@type": "siibra/atlases/parcellation_map/v0.1",
-	"parcellation_id": "juelich/iav/atlas/v1.0.0/4",
-	"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-	"maptype": "LABELLED",
-	"attributes": [
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+	},
+	"parcellation": {
+		"@id": "juelich/iav/atlas/v1.0.0/4"
+	},
+	"volumes": [
 		{
-			"@type": "siibra/attr/desc/id/v0.1",
-			"value": "fc4c5af9-f745-7936-5bd2-443f1ca32868"
-		},
-		{
-			"@type": "siibra/attr/desc/name/v0.1",
-			"value": "Isocortex Segmentation on BigBrain microscopic template (histology) - labelled - 1 regions"
-		},
-		{
-			"@type": "siibra/attr/desc/speciesspec/v0.1",
-			"value": "homo sapiens"
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
+				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif"
+			}
 		}
 	],
-	"index_mapping": {
+	"@type": "siibra/map/v0.0.1",
+	"indices": {
 		"Isocortex": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
-				"subimage_options": {
-					"label": 100
-				},
-				"color": "#C8C8C8"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
-				"subimage_options": {
-					"label": 100
-				},
-				"color": "#C8C8C8"
+				"volume": 0,
+				"label": 100
 			}
 		],
 		"Non-isocortical structures": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
-				"subimage_options": {
-					"label": 200
-				},
-				"color": "#FFFFFF"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
-				"subimage_options": {
-					"label": 200
-				},
-				"color": "#FFFFFF"
+				"volume": 0,
+				"label": 200
 			}
 		]
 	}

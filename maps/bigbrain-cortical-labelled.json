@@ -1,329 +1,109 @@
 {
-	"@type": "siibra/atlases/parcellation_map/v0.1",
-	"parcellation_id": "juelich/iav/atlas/v1.0.0/3",
-	"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-	"maptype": "LABELLED",
-	"attributes": [
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+	},
+	"parcellation": {
+		"@id": "juelich/iav/atlas/v1.0.0/3"
+	},
+	"volumes": [
 		{
-			"@type": "siibra/attr/desc/id/v0.1",
-			"value": "d058b2de-27f7-2cee-685e-445dcfd7b2f1"
-		},
-		{
-			"@type": "siibra/attr/desc/name/v0.1",
-			"value": "Cortical layer segmentation of the BigBrain model on BigBrain microscopic template (histology) - labelled - 7 regions"
-		},
-		{
-			"@type": "siibra/attr/desc/speciesspec/v0.1",
-			"value": "homo sapiens"
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"neuroglancer/precomputed": {
+					"left hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
+					"right hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right"
+				},
+				"neuroglancer/precompmesh": {
+					"left hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
+					"right hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right"
+				}
+			}
 		}
 	],
-	"index_mapping": {
+	"@type": "siibra/map/v0.0.1",
+	"indices": {
 		"cortical layer 1 - left": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 1
-				},
-				"color": "#808000"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 1
-				},
-				"color": "#808000"
+				"fragment": "left hemisphere",
+				"label": 1
 			}
 		],
 		"cortical layer 2 - left": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 2
-				},
-				"color": "#FABEBE"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 2
-				},
-				"color": "#FABEBE"
+				"fragment": "left hemisphere",
+				"label": 2
 			}
 		],
 		"cortical layer 3 - left": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 3
-				},
-				"color": "#FFD7B4"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 3
-				},
-				"color": "#FFD7B4"
+				"fragment": "left hemisphere",
+				"label": 3
 			}
 		],
 		"cortical layer 4 - left": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 4
-				},
-				"color": "#FFFAC8"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 4
-				},
-				"color": "#FFFAC8"
+				"fragment": "left hemisphere",
+				"label": 4
 			}
 		],
 		"cortical layer 5 - left": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 5
-				},
-				"color": "#008080"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 5
-				},
-				"color": "#008080"
+				"fragment": "left hemisphere",
+				"label": 5
 			}
 		],
 		"cortical layer 6 - left": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 6
-				},
-				"color": "#E6BEFF"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 6
-				},
-				"color": "#E6BEFF"
+				"fragment": "left hemisphere",
+				"label": 6
 			}
 		],
 		"non-cortical structures - left": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 7
-				},
-				"color": "#FFFFFF"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_left",
-				"subimage_options": {
-					"label": 7
-				},
-				"color": "#FFFFFF"
+				"fragment": "left hemisphere",
+				"label": 7
 			}
 		],
 		"cortical layer 1 - right": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 1
-				},
-				"color": "#808000"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 1
-				},
-				"color": "#808000"
+				"fragment": "right hemisphere",
+				"label": 1
 			}
 		],
 		"cortical layer 2 - right": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 2
-				},
-				"color": "#FABEBE"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 2
-				},
-				"color": "#FABEBE"
+				"fragment": "right hemisphere",
+				"label": 2
 			}
 		],
 		"cortical layer 3 - right": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 3
-				},
-				"color": "#FFD7B4"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 3
-				},
-				"color": "#FFD7B4"
+				"fragment": "right hemisphere",
+				"label": 3
 			}
 		],
 		"cortical layer 4 - right": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 4
-				},
-				"color": "#FFFAC8"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 4
-				},
-				"color": "#FFFAC8"
+				"fragment": "right hemisphere",
+				"label": 4
 			}
 		],
 		"cortical layer 5 - right": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 5
-				},
-				"color": "#008080"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 5
-				},
-				"color": "#008080"
+				"fragment": "right hemisphere",
+				"label": 5
 			}
 		],
 		"cortical layer 6 - right": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 6
-				},
-				"color": "#E6BEFF"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 6
-				},
-				"color": "#E6BEFF"
+				"fragment": "right hemisphere",
+				"label": 6
 			}
 		],
 		"non-cortical structures - right": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 7
-				},
-				"color": "#FFFFFF"
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/cortical_layers_right",
-				"subimage_options": {
-					"label": 7
-				},
-				"color": "#FFFFFF"
+				"fragment": "right hemisphere",
+				"label": 7
 			}
 		]
 	}

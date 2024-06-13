@@ -1,2253 +1,1139 @@
 {
-	"@type": "siibra/atlases/parcellation_map/v0.1",
-	"parcellation_id": "minds/core/parcellationatlas/v1.0.0/e3235c039c6f54c3ba151568c829f117",
-	"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-	"maptype": "LABELLED",
-	"attributes": [
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/MEBRAINS"
+	},
+	"parcellation": {
+		"@id": "minds/core/parcellationatlas/v1.0.0/e3235c039c6f54c3ba151568c829f117"
+	},
+	"species": "macaca fascicularis",
+	"volumes": [
 		{
-			"@type": "siibra/attr/desc/id/v0.1",
-			"value": "47bee280-7aa3-cdcd-6c4a-e63d4377f72f"
-		},
-		{
-			"@type": "siibra/attr/desc/name/v0.1",
-			"value": "MEBRAINS population-based monkey parcellation on MEBRAINS population-based monkey template - labelled - 93 regions"
-		},
-		{
-			"@type": "siibra/attr/desc/speciesspec/v0.1",
-			"value": "macaca mulatta"
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered"
+			}
 		}
 	],
-	"index_mapping": {
+	"@type": "siibra/map/v0.0.1",
+	"ebrains": {
+		"minds/core/species/v1.0.0": "745712aa-fad1-47c4-8ab6-088063f78f64",
+		"openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+	},
+	"indices": {
 		"lateral ventricle - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 4
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 4
 			}
 		],
 		"caudate nucleus - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 11
-				},
-				"color": "#66CDAA"
+				"volume": 0,
+				"label": 11
 			}
 		],
 		"putamen - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 12
-				},
-				"color": "#000080"
+				"volume": 0,
+				"label": 12
 			}
 		],
 		"globus pallidus - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 13
-				},
-				"color": "#008B8B"
+				"volume": 0,
+				"label": 13
 			}
 		],
 		"amygdala - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 18
-				},
-				"color": "#E9967A"
+				"volume": 0,
+				"label": 18
 			}
 		],
 		"nucleus accumbens - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 91
-				},
-				"color": "#FFE4B5"
+				"volume": 0,
+				"label": 91
 			}
 		],
 		"V3d - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 105
-				},
-				"color": "#FF0000"
+				"volume": 0,
+				"label": 105
 			}
 		],
 		"V3A - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 107
-				},
-				"color": "#00BFFF"
+				"volume": 0,
+				"label": 107
 			}
 		],
 		"V4dl - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 108
-				},
-				"color": "#F7DE21"
+				"volume": 0,
+				"label": 108
 			}
 		],
 		"V4dm - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 109
-				},
-				"color": "#D1C566"
+				"volume": 0,
+				"label": 109
 			}
 		],
 		"V6Adl - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 110
-				},
-				"color": "#AC051E"
+				"volume": 0,
+				"label": 110
 			}
 		],
 		"V6Adm - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 111
-				},
-				"color": "#F30A2D"
+				"volume": 0,
+				"label": 111
 			}
 		],
 		"V6Avl - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 112
-				},
-				"color": "#FF5500"
+				"volume": 0,
+				"label": 112
 			}
 		],
 		"V6Avm - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 113
-				},
-				"color": "#FFAA00"
+				"volume": 0,
+				"label": 113
 			}
 		],
 		"V6l - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 114
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 114
 			}
 		],
 		"V6m - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 115
-				},
-				"color": "#FFFF7F"
+				"volume": 0,
+				"label": 115
 			}
 		],
 		"claustrum - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 138
-				},
-				"color": "#0000CD"
+				"volume": 0,
+				"label": 138
 			}
 		],
 		"Opt - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 214
-				},
-				"color": "#FFB743"
+				"volume": 0,
+				"label": 214
 			}
 		],
 		"PG - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 215
-				},
-				"color": "#6B8E23"
+				"volume": 0,
+				"label": 215
 			}
 		],
 		"PGop - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 216
-				},
-				"color": "#4F6FFF"
+				"volume": 0,
+				"label": 216
 			}
 		],
 		"PFG - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 217
-				},
-				"color": "#FF0000"
+				"volume": 0,
+				"label": 217
 			}
 		],
 		"PF - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 218
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 218
 			}
 		],
 		"PFop - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 219
-				},
-				"color": "#FFF5EE"
+				"volume": 0,
+				"label": 219
 			}
 		],
 		"AIP - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 220
-				},
-				"color": "#BA55D3"
+				"volume": 0,
+				"label": 220
 			}
 		],
 		"VIPl - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 221
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 221
 			}
 		],
 		"VIPm - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 222
-				},
-				"color": "#00FFFF"
+				"volume": 0,
+				"label": 222
 			}
 		],
 		"PEipe - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 223
-				},
-				"color": "#5500FF"
+				"volume": 0,
+				"label": 223
 			}
 		],
 		"PEipi - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 224
-				},
-				"color": "#FF0000"
+				"volume": 0,
+				"label": 224
 			}
 		],
 		"MIPd - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 225
-				},
-				"color": "#FF557F"
+				"volume": 0,
+				"label": 225
 			}
 		],
 		"MIPv - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 226
-				},
-				"color": "#D2691E"
+				"volume": 0,
+				"label": 226
 			}
 		],
 		"LIPd - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 227
-				},
-				"color": "#FFE4B5"
+				"volume": 0,
+				"label": 227
 			}
 		],
 		"LIPv - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 228
-				},
-				"color": "#AFEEEE"
+				"volume": 0,
+				"label": 228
 			}
 		],
 		"LOP - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 229
-				},
-				"color": "#00AA00"
+				"volume": 0,
+				"label": 229
 			}
 		],
 		"PIP - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 230
-				},
-				"color": "#AAAA00"
+				"volume": 0,
+				"label": 230
 			}
 		],
 		"PEl - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 231
-				},
-				"color": "#FFAA00"
+				"volume": 0,
+				"label": 231
 			}
 		],
 		"PEla - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 232
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 232
 			}
 		],
 		"PEm - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 233
-				},
-				"color": "#FF6647"
+				"volume": 0,
+				"label": 233
 			}
 		],
 		"PEc - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 234
-				},
-				"color": "#00FFFF"
+				"volume": 0,
+				"label": 234
 			}
 		],
 		"PEci - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 235
-				},
-				"color": "#B0E0E6"
+				"volume": 0,
+				"label": 235
 			}
 		],
 		"TSA - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 236
-				},
-				"color": "#FFAA00"
+				"volume": 0,
+				"label": 236
 			}
 		],
 		"DP - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 238
-				},
-				"color": "#FF557F"
+				"volume": 0,
+				"label": 238
 			}
 		],
 		"4a - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 301
-				},
-				"color": "#DE26E2"
+				"volume": 0,
+				"label": 301
 			}
 		],
 		"4m - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 302
-				},
-				"color": "#ECEC1B"
+				"volume": 0,
+				"label": 302
 			}
 		],
 		"4p - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 303
-				},
-				"color": "#5220E7"
+				"volume": 0,
+				"label": 303
 			}
 		],
 		"F2d - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 304
-				},
-				"color": "#2DD3DB"
+				"volume": 0,
+				"label": 304
 			}
 		],
 		"F2v - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 305
-				},
-				"color": "#6793A1"
+				"volume": 0,
+				"label": 305
 			}
 		],
 		"F3 - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 306
-				},
-				"color": "#FF0055"
+				"volume": 0,
+				"label": 306
 			}
 		],
 		"F4d - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 307
-				},
-				"color": "#B55359"
+				"volume": 0,
+				"label": 307
 			}
 		],
 		"F4s - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 308
-				},
-				"color": "#E8BA1F"
+				"volume": 0,
+				"label": 308
 			}
 		],
 		"F4v - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 309
-				},
-				"color": "#B5F711"
+				"volume": 0,
+				"label": 309
 			}
 		],
 		"F5d - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 310
-				},
-				"color": "#6ADB2C"
+				"volume": 0,
+				"label": 310
 			}
 		],
 		"F5s - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 311
-				},
-				"color": "#0DEBFA"
+				"volume": 0,
+				"label": 311
 			}
 		],
 		"F5v - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 312
-				},
-				"color": "#B652B6"
+				"volume": 0,
+				"label": 312
 			}
 		],
 		"F6 - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 313
-				},
-				"color": "#CE7D3A"
+				"volume": 0,
+				"label": 313
 			}
 		],
 		"F7d - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 314
-				},
-				"color": "#B2FD0B"
+				"volume": 0,
+				"label": 314
 			}
 		],
 		"F7i - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 315
-				},
-				"color": "#845DAB"
+				"volume": 0,
+				"label": 315
 			}
 		],
 		"F7s - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 316
-				},
-				"color": "#D6314A"
+				"volume": 0,
+				"label": 316
 			}
 		],
 		"44 - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 401
-				},
-				"color": "#FF0066"
+				"volume": 0,
+				"label": 401
 			}
 		],
 		"45A - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 402
-				},
-				"color": "#7F6000"
+				"volume": 0,
+				"label": 402
 			}
 		],
 		"45B - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 403
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 403
 			}
 		],
 		"a46df - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 404
-				},
-				"color": "#66FF66"
+				"volume": 0,
+				"label": 404
 			}
 		],
 		"a46d - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 405
-				},
-				"color": "#385723"
+				"volume": 0,
+				"label": 405
 			}
 		],
 		"a46vf - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 406
-				},
-				"color": "#00FFFF"
+				"volume": 0,
+				"label": 406
 			}
 		],
 		"a46v - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 407
-				},
-				"color": "#0070C0"
+				"volume": 0,
+				"label": 407
 			}
 		],
 		"p46df - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 408
-				},
-				"color": "#92D050"
+				"volume": 0,
+				"label": 408
 			}
 		],
 		"p46d - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 409
-				},
-				"color": "#00B050"
+				"volume": 0,
+				"label": 409
 			}
 		],
 		"p46vf - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 410
-				},
-				"color": "#00B0F0"
+				"volume": 0,
+				"label": 410
 			}
 		],
 		"p46v - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 411
-				},
-				"color": "#1F4E79"
+				"volume": 0,
+				"label": 411
 			}
 		],
 		"8Ad - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 412
-				},
-				"color": "#00B0F0"
+				"volume": 0,
+				"label": 412
 			}
 		],
 		"8Av - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 413
-				},
-				"color": "#0070C0"
+				"volume": 0,
+				"label": 413
 			}
 		],
 		"8Bd - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 414
-				},
-				"color": "#C00000"
+				"volume": 0,
+				"label": 414
 			}
 		],
 		"8Bm - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 415
-				},
-				"color": "#FF7C80"
+				"volume": 0,
+				"label": 415
 			}
 		],
 		"8Bs - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 416
-				},
-				"color": "#FF0000"
+				"volume": 0,
+				"label": 416
 			}
 		],
 		"9d - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 417
-				},
-				"color": "#FFC000"
+				"volume": 0,
+				"label": 417
 			}
 		],
 		"9l - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 418
-				},
-				"color": "#843C0C"
+				"volume": 0,
+				"label": 418
 			}
 		],
 		"9m - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 419
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 419
 			}
 		],
 		"10d - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 420
-				},
-				"color": "#FF7C80"
+				"volume": 0,
+				"label": 420
 			}
 		],
 		"10md - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 421
-				},
-				"color": "#7030A0"
+				"volume": 0,
+				"label": 421
 			}
 		],
 		"10mv - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 422
-				},
-				"color": "#FF00FF"
+				"volume": 0,
+				"label": 422
 			}
 		],
 		"10o - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 423
-				},
-				"color": "#C00000"
+				"volume": 0,
+				"label": 423
 			}
 		],
 		"11l - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 424
-				},
-				"color": "#1F4E79"
+				"volume": 0,
+				"label": 424
 			}
 		],
 		"11m - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 425
-				},
-				"color": "#00B0F0"
+				"volume": 0,
+				"label": 425
 			}
 		],
 		"12l - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 426
-				},
-				"color": "#385723"
+				"volume": 0,
+				"label": 426
 			}
 		],
 		"12m - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 427
-				},
-				"color": "#00B050"
+				"volume": 0,
+				"label": 427
 			}
 		],
 		"12o - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 428
-				},
-				"color": "#66FF66"
+				"volume": 0,
+				"label": 428
 			}
 		],
 		"12r - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 429
-				},
-				"color": "#92D050"
+				"volume": 0,
+				"label": 429
 			}
 		],
 		"13b - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 430
-				},
-				"color": "#ED7D31"
+				"volume": 0,
+				"label": 430
 			}
 		],
 		"13a - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 431
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 431
 			}
 		],
 		"13l - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 432
-				},
-				"color": "#FF00FF"
+				"volume": 0,
+				"label": 432
 			}
 		],
 		"13m - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 433
-				},
-				"color": "#7030A0"
+				"volume": 0,
+				"label": 433
 			}
 		],
 		"14r - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 434
-				},
-				"color": "#FF0000"
+				"volume": 0,
+				"label": 434
 			}
 		],
 		"14c - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 435
-				},
-				"color": "#ED7D31"
+				"volume": 0,
+				"label": 435
 			}
 		],
 		"lateral ventricle - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1004
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 1004
 			}
 		],
 		"caudate nucleus - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1011
-				},
-				"color": "#66CDAA"
+				"volume": 0,
+				"label": 1011
 			}
 		],
 		"putamen - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1012
-				},
-				"color": "#000080"
+				"volume": 0,
+				"label": 1012
 			}
 		],
 		"globus pallidus - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1013
-				},
-				"color": "#008B8B"
+				"volume": 0,
+				"label": 1013
 			}
 		],
 		"amygdala - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1018
-				},
-				"color": "#E9967A"
+				"volume": 0,
+				"label": 1018
 			}
 		],
 		"nucleus accumbens - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1091
-				},
-				"color": "#FFE4B5"
+				"volume": 0,
+				"label": 1091
 			}
 		],
 		"V3d - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1105
-				},
-				"color": "#FF0000"
+				"volume": 0,
+				"label": 1105
 			}
 		],
 		"V3A - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1107
-				},
-				"color": "#00BFFF"
+				"volume": 0,
+				"label": 1107
 			}
 		],
 		"V4dl - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1108
-				},
-				"color": "#F7DE21"
+				"volume": 0,
+				"label": 1108
 			}
 		],
 		"V4dm - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1109
-				},
-				"color": "#D1C566"
+				"volume": 0,
+				"label": 1109
 			}
 		],
 		"V6Adl - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1110
-				},
-				"color": "#AC051E"
+				"volume": 0,
+				"label": 1110
 			}
 		],
 		"V6Adm - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1111
-				},
-				"color": "#F30A2D"
+				"volume": 0,
+				"label": 1111
 			}
 		],
 		"V6Avl - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1112
-				},
-				"color": "#FF5500"
+				"volume": 0,
+				"label": 1112
 			}
 		],
 		"V6Avm - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1113
-				},
-				"color": "#FFAA00"
+				"volume": 0,
+				"label": 1113
 			}
 		],
 		"V6l - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1114
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 1114
 			}
 		],
 		"V6m - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1115
-				},
-				"color": "#FFFF7F"
+				"volume": 0,
+				"label": 1115
 			}
 		],
 		"claustrum - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1138
-				},
-				"color": "#0000CD"
+				"volume": 0,
+				"label": 1138
 			}
 		],
 		"Opt - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1214
-				},
-				"color": "#FFB743"
+				"volume": 0,
+				"label": 1214
 			}
 		],
 		"PG - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1215
-				},
-				"color": "#6B8E23"
+				"volume": 0,
+				"label": 1215
 			}
 		],
 		"PGop - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1216
-				},
-				"color": "#4F6FFF"
+				"volume": 0,
+				"label": 1216
 			}
 		],
 		"PFG - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1217
-				},
-				"color": "#FF0000"
+				"volume": 0,
+				"label": 1217
 			}
 		],
 		"PF - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1218
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 1218
 			}
 		],
 		"PFop - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1219
-				},
-				"color": "#FFF5EE"
+				"volume": 0,
+				"label": 1219
 			}
 		],
 		"AIP - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1220
-				},
-				"color": "#BA55D3"
+				"volume": 0,
+				"label": 1220
 			}
 		],
 		"VIPl - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1221
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 1221
 			}
 		],
 		"VIPm - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1222
-				},
-				"color": "#00FFFF"
+				"volume": 0,
+				"label": 1222
 			}
 		],
 		"PEipe - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1223
-				},
-				"color": "#5500FF"
+				"volume": 0,
+				"label": 1223
 			}
 		],
 		"PEipi - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1224
-				},
-				"color": "#FF0000"
+				"volume": 0,
+				"label": 1224
 			}
 		],
 		"MIPd - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1225
-				},
-				"color": "#FF557F"
+				"volume": 0,
+				"label": 1225
 			}
 		],
 		"MIPv - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1226
-				},
-				"color": "#D2691E"
+				"volume": 0,
+				"label": 1226
 			}
 		],
 		"LIPd - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1227
-				},
-				"color": "#FFE4B5"
+				"volume": 0,
+				"label": 1227
 			}
 		],
 		"LIPv - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1228
-				},
-				"color": "#AFEEEE"
+				"volume": 0,
+				"label": 1228
 			}
 		],
 		"LOP - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1229
-				},
-				"color": "#00AA00"
+				"volume": 0,
+				"label": 1229
 			}
 		],
 		"PIP - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1230
-				},
-				"color": "#AAAA00"
+				"volume": 0,
+				"label": 1230
 			}
 		],
 		"PEl - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1231
-				},
-				"color": "#FFAA00"
+				"volume": 0,
+				"label": 1231
 			}
 		],
 		"PEla - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1232
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 1232
 			}
 		],
 		"PEm - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1233
-				},
-				"color": "#FF6647"
+				"volume": 0,
+				"label": 1233
 			}
 		],
 		"PEc - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1234
-				},
-				"color": "#00FFFF"
+				"volume": 0,
+				"label": 1234
 			}
 		],
 		"PEci - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1235
-				},
-				"color": "#B0E0E6"
+				"volume": 0,
+				"label": 1235
 			}
 		],
 		"TSA - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1236
-				},
-				"color": "#FFAA00"
+				"volume": 0,
+				"label": 1236
 			}
 		],
 		"DP - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1238
-				},
-				"color": "#FF557F"
+				"volume": 0,
+				"label": 1238
 			}
 		],
 		"4a - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1301
-				},
-				"color": "#DE26E2"
+				"volume": 0,
+				"label": 1301
 			}
 		],
 		"4m - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1302
-				},
-				"color": "#ECEC1B"
+				"volume": 0,
+				"label": 1302
 			}
 		],
 		"4p - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1303
-				},
-				"color": "#5220E7"
+				"volume": 0,
+				"label": 1303
 			}
 		],
 		"F2d - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1304
-				},
-				"color": "#2DD3DB"
+				"volume": 0,
+				"label": 1304
 			}
 		],
 		"F2v - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1305
-				},
-				"color": "#6793A1"
+				"volume": 0,
+				"label": 1305
 			}
 		],
 		"F3 - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1306
-				},
-				"color": "#FF0055"
+				"volume": 0,
+				"label": 1306
 			}
 		],
 		"F4d - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1307
-				},
-				"color": "#B55359"
+				"volume": 0,
+				"label": 1307
 			}
 		],
 		"F4s - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1308
-				},
-				"color": "#E8BA1F"
+				"volume": 0,
+				"label": 1308
 			}
 		],
 		"F4v - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1309
-				},
-				"color": "#B5F711"
+				"volume": 0,
+				"label": 1309
 			}
 		],
 		"F5d - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1310
-				},
-				"color": "#6ADB2C"
+				"volume": 0,
+				"label": 1310
 			}
 		],
 		"F5s - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1311
-				},
-				"color": "#0DEBFA"
+				"volume": 0,
+				"label": 1311
 			}
 		],
 		"F5v - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1312
-				},
-				"color": "#B652B6"
+				"volume": 0,
+				"label": 1312
 			}
 		],
 		"F6 - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1313
-				},
-				"color": "#CE7D3A"
+				"volume": 0,
+				"label": 1313
 			}
 		],
 		"F7d - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1314
-				},
-				"color": "#B2FD0B"
+				"volume": 0,
+				"label": 1314
 			}
 		],
 		"F7i - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1315
-				},
-				"color": "#845DAB"
+				"volume": 0,
+				"label": 1315
 			}
 		],
 		"F7s - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1316
-				},
-				"color": "#D6314A"
+				"volume": 0,
+				"label": 1316
 			}
 		],
 		"44 - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1401
-				},
-				"color": "#FF0066"
+				"volume": 0,
+				"label": 1401
 			}
 		],
 		"45A - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1402
-				},
-				"color": "#7F6000"
+				"volume": 0,
+				"label": 1402
 			}
 		],
 		"45B - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1403
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 1403
 			}
 		],
 		"a46df - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1404
-				},
-				"color": "#66FF66"
+				"volume": 0,
+				"label": 1404
 			}
 		],
 		"a46d - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1405
-				},
-				"color": "#385723"
+				"volume": 0,
+				"label": 1405
 			}
 		],
 		"a46vf - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1406
-				},
-				"color": "#00FFFF"
+				"volume": 0,
+				"label": 1406
 			}
 		],
 		"a46v - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1407
-				},
-				"color": "#0070C0"
+				"volume": 0,
+				"label": 1407
 			}
 		],
 		"p46df - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1408
-				},
-				"color": "#92D050"
+				"volume": 0,
+				"label": 1408
 			}
 		],
 		"p46d - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1409
-				},
-				"color": "#00B050"
+				"volume": 0,
+				"label": 1409
 			}
 		],
 		"p46vf - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1410
-				},
-				"color": "#00B0F0"
+				"volume": 0,
+				"label": 1410
 			}
 		],
 		"p46v - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1411
-				},
-				"color": "#1F4E79"
+				"volume": 0,
+				"label": 1411
 			}
 		],
 		"8Ad - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1412
-				},
-				"color": "#00B0F0"
+				"volume": 0,
+				"label": 1412
 			}
 		],
 		"8Av - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1413
-				},
-				"color": "#0070C0"
+				"volume": 0,
+				"label": 1413
 			}
 		],
 		"8Bd - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1414
-				},
-				"color": "#C00000"
+				"volume": 0,
+				"label": 1414
 			}
 		],
 		"8Bm - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1415
-				},
-				"color": "#FF7C80"
+				"volume": 0,
+				"label": 1415
 			}
 		],
 		"8Bs - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1416
-				},
-				"color": "#FF0000"
+				"volume": 0,
+				"label": 1416
 			}
 		],
 		"9d - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1417
-				},
-				"color": "#FFC000"
+				"volume": 0,
+				"label": 1417
 			}
 		],
 		"9l - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1418
-				},
-				"color": "#843C0C"
+				"volume": 0,
+				"label": 1418
 			}
 		],
 		"9m - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1419
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 1419
 			}
 		],
 		"10d - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1420
-				},
-				"color": "#FF7C80"
+				"volume": 0,
+				"label": 1420
 			}
 		],
 		"10md - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1421
-				},
-				"color": "#7030A0"
+				"volume": 0,
+				"label": 1421
 			}
 		],
 		"10mv - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1422
-				},
-				"color": "#FF00FF"
+				"volume": 0,
+				"label": 1422
 			}
 		],
 		"10o - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1423
-				},
-				"color": "#C00000"
+				"volume": 0,
+				"label": 1423
 			}
 		],
 		"11l - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1424
-				},
-				"color": "#1F4E79"
+				"volume": 0,
+				"label": 1424
 			}
 		],
 		"11m - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1425
-				},
-				"color": "#00B0F0"
+				"volume": 0,
+				"label": 1425
 			}
 		],
 		"12l - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1426
-				},
-				"color": "#385723"
+				"volume": 0,
+				"label": 1426
 			}
 		],
 		"12m - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1427
-				},
-				"color": "#00B050"
+				"volume": 0,
+				"label": 1427
 			}
 		],
 		"12o - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1428
-				},
-				"color": "#66FF66"
+				"volume": 0,
+				"label": 1428
 			}
 		],
 		"12r - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1429
-				},
-				"color": "#92D050"
+				"volume": 0,
+				"label": 1429
 			}
 		],
 		"13b - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1430
-				},
-				"color": "#ED7D31"
+				"volume": 0,
+				"label": 1430
 			}
 		],
 		"13a - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1431
-				},
-				"color": "#FFFF00"
+				"volume": 0,
+				"label": 1431
 			}
 		],
 		"13l - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1432
-				},
-				"color": "#FF00FF"
+				"volume": 0,
+				"label": 1432
 			}
 		],
 		"13m - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1433
-				},
-				"color": "#7030A0"
+				"volume": 0,
+				"label": 1433
 			}
 		],
 		"14r - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1434
-				},
-				"color": "#FF0000"
+				"volume": 0,
+				"label": 1434
 			}
 		],
 		"14c - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 1435
-				},
-				"color": "#ED7D31"
+				"volume": 0,
+				"label": 1435
 			}
 		],
 		"anterior commissure - left hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 3000
-				},
-				"color": "#D2B48C"
+				"volume": 0,
+				"label": 3000
 			}
 		],
 		"anterior commissure - right hemisphere": [
 			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/MEBRAINS",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered",
-				"subimage_options": {
-					"label": 4000
-				},
-				"color": "#D2B48C"
+				"volume": 0,
+				"label": 4000
 			}
 		]
 	}
