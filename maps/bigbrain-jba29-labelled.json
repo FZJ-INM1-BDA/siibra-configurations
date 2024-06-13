@@ -1,1730 +1,2959 @@
 {
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
-	},
-	"parcellation": {
-		"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290"
-	},
-	"volumes": [
+	"@type": "siibra/atlases/parcellation_map/v0.1",
+	"parcellation_id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290",
+	"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+	"maptype": "LABELLED",
+	"attributes": [
 		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_aaa_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_aaa_left"
-			}
+			"@type": "siibra/attr/desc/id/v0.1",
+			"value": "cc3dde54-cfd4-b1fd-7874-a8a33d5a92f3"
 		},
 		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_aaa_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_aaa_right"
-			}
+			"@type": "siibra/attr/desc/name/v0.1",
+			"value": "Julich-Brain Cytoarchitectonic Atlas (v2.9) on BigBrain microscopic template (histology) - labelled - 60 regions"
 		},
 		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahid_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahid_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahid_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahid_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahiv_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahiv_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahiv_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahiv_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_apir_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_apir_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_apir_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_apir_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_astr_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_astr_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_astr_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_astr_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bl_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bl_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bl_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bl_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bm_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bm_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bm_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bm_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ce_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ce_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ce_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ce_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ice_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ice_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ice_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ice_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_icm_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_icm_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_icm_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_icm_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_iol_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_iol_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_iol_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_iol_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_la_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_la_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_la_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_la_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ld_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ld_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ld_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ld_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_lm_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_lm_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_lm_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_lm_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_me_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_me_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_me_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_me_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_pl_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_pl_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_pl_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_pl_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcod_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcod_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcod_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcod_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcov_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcov_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcov_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcov_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vtm_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vtm_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "cb40a501-b155-4c2f-8df3-0ee7c5f1ed00"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vtm_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vtm_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "cb40a501-b155-4c2f-8df3-0ee7c5f1ed00"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d1_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d1_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "9ac6674e-2d6f-4831-ab25-8af17acca232"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d1_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d1_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "9ac6674e-2d6f-4831-ab25-8af17acca232"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d2_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d2_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "c7647341-25de-4a1f-9302-fbe8932deda0"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d2_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d2_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "c7647341-25de-4a1f-9302-fbe8932deda0"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d3_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d3_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "72bf4008-78a6-41e0-9337-61ec53c39c27"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d3_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d3_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "72bf4008-78a6-41e0-9337-61ec53c39c27"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te10_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te10_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "bfa7f344-016e-48da-bc34-9cd2f7f19148"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te10_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te10_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "bfa7f344-016e-48da-bc34-9cd2f7f19148"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te11_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te11_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "49b5857e-7498-4fe9-8dbe-1cc0fa153091"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te11_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te11_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "49b5857e-7498-4fe9-8dbe-1cc0fa153091"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te12_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te12_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "57ace487-2266-43a2-ad04-597ede6400d8"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te12_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te12_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "57ace487-2266-43a2-ad04-597ede6400d8"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te3_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te3_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "45689ca2-df48-4260-a908-56a9d4eb344e"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te3_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te3_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "45689ca2-df48-4260-a908-56a9d4eb344e"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_dn_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_dn_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_dn_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_dn_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_mn_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_mn_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_mn_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_mn_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_vn_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_vn_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_vn_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_vn_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hippocampus_EC_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hippocampus_EC_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "cdd4e615-dfbf-4109-8042-8a20e6bcbf2e"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hippocampus_EC_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hippocampus_EC_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "cdd4e615-dfbf-4109-8042-8a20e6bcbf2e"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc1_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc1_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "696d6062-3b86-498f-9ca6-e4d67b433396"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc1_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc1_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "696d6062-3b86-498f-9ca6-e4d67b433396"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc2_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc2_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "63093617-9b72-45f5-88e6-f648ad05ae79"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc2_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc2_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "63093617-9b72-45f5-88e6-f648ad05ae79"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc3v_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc3v_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "f746514d-b79a-48e2-9c07-39f7c62459cf"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc3v_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc3v_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "f746514d-b79a-48e2-9c07-39f7c62459cf"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc5_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc5_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "ea8fb74b-0ecc-4801-9522-b4c2cb2a2a5c"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc5_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc5_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "ea8fb74b-0ecc-4801-9522-b4c2cb2a2a5c"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj1_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj1_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj1_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj1_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj2_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj2_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj2_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj2_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs1_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs1_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs1_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs1_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs2_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs2_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs2_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs2_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs3_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs3_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs3_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs3_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs4_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs4_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs4_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs4_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb1_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb1_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb1_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb1_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb2_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb2_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb2_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb2_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb3_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb3_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb3_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb3_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb4_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb4_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb4_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb4_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb5_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb5_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb5_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb5_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb6_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb6_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb6_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb6_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg1_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg1_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg1_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg1_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg2_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg2_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg2_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg2_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "2416cc4c-be1e-4b87-be2e-caf13abd453b"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP4_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP4_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "2416cc4c-be1e-4b87-be2e-caf13abd453b"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP4_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP4_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "7ef95e2f-860f-4411-abfe-1b1d18458e3d"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP5_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP5_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "7ef95e2f-860f-4411-abfe-1b1d18458e3d"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP5_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP5_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "d7270c0b-9294-4cf9-addf-052be3a62da7"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP6_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP6_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "d7270c0b-9294-4cf9-addf-052be3a62da7"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP6_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP6_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "d3c4e8f8-d8b7-4cc8-8dfb-744dc41473f3"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP7_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP7_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "d3c4e8f8-d8b7-4cc8-8dfb-744dc41473f3"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP7_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP7_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "9771cd50-a957-4c77-9aee-c343aa90dae5"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP8_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP8_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "9771cd50-a957-4c77-9aee-c343aa90dae5"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP8_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP8_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "c8e23d85-909c-4efc-a2f4-fb3ed2a5c01f"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hOc6_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hOc6_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "c8e23d85-909c-4efc-a2f4-fb3ed2a5c01f"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hOc6_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hOc6_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "7dae93bd-cea1-44f6-ae5b-1992bb15a732"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hPO1_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hPO1_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "7dae93bd-cea1-44f6-ae5b-1992bb15a732"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hPO1_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hPO1_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs1_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs1_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs1_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs1_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs2_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs2_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs2_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs2_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "0e7d4830-9125-490b-bdf6-1840a5a99933"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_presma_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_presma_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "0e7d4830-9125-490b-bdf6-1840a5a99933"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_presma_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_presma_right"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_sma_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_sma_left"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_sma_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_sma_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "319f7185-736e-432f-a783-d0f5bb2f533b"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te4_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te4_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "319f7185-736e-432f-a783-d0f5bb2f533b"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te4_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te4_right"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "298e8a4e-33ab-4c01-bd7f-9f9174a48604"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te5_left",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te5_left"
-			},
-			"ebrains": {
-				"openminds/DatasetVersion": "298e8a4e-33ab-4c01-bd7f-9f9174a48604"
-			}
-		},
-		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te5_right",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te5_right"
-			}
+			"@type": "siibra/attr/desc/speciesspec/v0.1",
+			"value": "homo sapiens"
 		}
 	],
-	"@type": "siibra/map/v0.0.1",
-	"indices": {
+	"index_mapping": {
 		"AAA (anterior amygdaloid area) - left hemisphere": [
 			{
-				"volume": 0,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_aaa_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#55AB5E"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_aaa_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#55AB5E"
 			}
 		],
 		"AAA (anterior amygdaloid area) - right hemisphere": [
 			{
-				"volume": 1,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_aaa_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#55AB5E"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_aaa_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#55AB5E"
 			}
 		],
 		"AHid (amygdalohippocampal transition area, dorsal part) - left hemisphere": [
 			{
-				"volume": 2,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahid_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#28D8F7"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahid_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#28D8F7"
 			}
 		],
 		"AHid (amygdalohippocampal transition area, dorsal part) - right hemisphere": [
 			{
-				"volume": 3,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahid_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#28D8F7"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahid_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#28D8F7"
 			}
 		],
 		"AHiv (amygdalohippocampal transition area, ventral part) - left hemisphere": [
 			{
-				"volume": 4,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahiv_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#0258F7"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahiv_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#0258F7"
 			}
 		],
 		"AHiv (amygdalohippocampal transition area, ventral part) - right hemisphere": [
 			{
-				"volume": 5,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahiv_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#0258F7"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ahiv_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#0258F7"
 			}
 		],
 		"APir (amygdalopiriform transition area) - left hemisphere": [
 			{
-				"volume": 6,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_apir_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#9090E0"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_apir_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#9090E0"
 			}
 		],
 		"APir (amygdalopiriform transition area) - right hemisphere": [
 			{
-				"volume": 7,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_apir_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#9090E0"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_apir_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#9090E0"
 			}
 		],
 		"AStr (amygdalostriatal transition zone) - left hemisphere": [
 			{
-				"volume": 8,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_astr_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#47091F"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_astr_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#47091F"
 			}
 		],
 		"AStr (amygdalostriatal transition zone) - right hemisphere": [
 			{
-				"volume": 9,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_astr_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#47091F"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_astr_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#47091F"
 			}
 		],
 		"Bl (basolateral nucleus) - left hemisphere": [
 			{
-				"volume": 10,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bl_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#B5F70C"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bl_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#B5F70C"
 			}
 		],
 		"Bl (basolateral nucleus) - right hemisphere": [
 			{
-				"volume": 11,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bl_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#B5F70C"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bl_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#B5F70C"
 			}
 		],
 		"Bm (basomedial nucleus) - left hemisphere": [
 			{
-				"volume": 12,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bm_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FCFC03"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bm_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FCFC03"
 			}
 		],
 		"Bm (basomedial nucleus) - right hemisphere": [
 			{
-				"volume": 13,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bm_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FCFC03"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_bm_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FCFC03"
 			}
 		],
 		"Ce (central nucleus) - left hemisphere": [
 			{
-				"volume": 14,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ce_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FF0841"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ce_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FF0841"
 			}
 		],
 		"Ce (central nucleus) - right hemisphere": [
 			{
-				"volume": 15,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ce_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FF0841"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ce_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FF0841"
 			}
 		],
 		"ice (intermediate central fiber masses) - left hemisphere": [
 			{
-				"volume": 16,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ice_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#D0F2F1"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ice_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#D0F2F1"
 			}
 		],
 		"ice (intermediate central fiber masses) - right hemisphere": [
 			{
-				"volume": 17,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ice_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#D0F2F1"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ice_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#D0F2F1"
 			}
 		],
 		"icm (intermediate caudomedial fiber masses) - left hemisphere": [
 			{
-				"volume": 18,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_icm_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FCFCD4"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_icm_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FCFCD4"
 			}
 		],
 		"icm (intermediate caudomedial fiber masses) - right hemisphere": [
 			{
-				"volume": 19,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_icm_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FCFCD4"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_icm_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FCFCD4"
 			}
 		],
 		"iol (intermediate orolateral fiber masses) - left hemisphere": [
 			{
-				"volume": 20,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_iol_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FFEDE8"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_iol_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FFEDE8"
 			}
 		],
 		"iol (intermediate orolateral fiber masses) - right hemisphere": [
 			{
-				"volume": 21,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_iol_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FFEDE8"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_iol_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FFEDE8"
 			}
 		],
 		"La (lateral nucleus) - left hemisphere": [
 			{
-				"volume": 22,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_la_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#0CF70C"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_la_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#0CF70C"
 			}
 		],
 		"La (lateral nucleus) - right hemisphere": [
 			{
-				"volume": 23,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_la_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#0CF70C"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_la_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#0CF70C"
 			}
 		],
 		"ld (Lamella dorsalis) - left hemisphere": [
 			{
-				"volume": 24,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ld_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#D8F2D0"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ld_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#D8F2D0"
 			}
 		],
 		"ld (Lamella dorsalis) - right hemisphere": [
 			{
-				"volume": 25,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ld_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#D8F2D0"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_ld_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#D8F2D0"
 			}
 		],
 		"lm (Lamella medialis) - left hemisphere": [
 			{
-				"volume": 26,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_lm_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#F2D6AE"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_lm_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#F2D6AE"
 			}
 		],
 		"lm (Lamella medialis) - right hemisphere": [
 			{
-				"volume": 27,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_lm_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#F2D6AE"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_lm_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#F2D6AE"
 			}
 		],
 		"Me (medial nucleus) - left hemisphere": [
 			{
-				"volume": 28,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_me_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#917D17"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_me_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#917D17"
 			}
 		],
 		"Me (medial nucleus) - right hemisphere": [
 			{
-				"volume": 29,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_me_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#917D17"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_me_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#917D17"
 			}
 		],
 		"Pl (paralaminar nucleus) - left hemisphere": [
 			{
-				"volume": 30,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_pl_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#B00C46"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_pl_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#B00C46"
 			}
 		],
 		"Pl (paralaminar nucleus) - right hemisphere": [
 			{
-				"volume": 31,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_pl_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#B00C46"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_pl_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#B00C46"
 			}
 		],
 		"VCod (ventral cortical nucleus, dorsal part) - left hemisphere": [
 			{
-				"volume": 32,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcod_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E00CF7"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcod_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E00CF7"
 			}
 		],
 		"VCod (ventral cortical nucleus, dorsal part) - right hemisphere": [
 			{
-				"volume": 33,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcod_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E00CF7"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcod_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E00CF7"
 			}
 		],
 		"VCov (ventral cortical nucleus, ventral part) - left hemisphere": [
 			{
-				"volume": 34,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcov_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#F7C80C"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcov_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#F7C80C"
 			}
 		],
 		"VCov (ventral cortical nucleus, ventral part) - right hemisphere": [
 			{
-				"volume": 35,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcov_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#F7C80C"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vcov_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#F7C80C"
 			}
 		],
 		"VTM (Amygdala) - left hemisphere": [
 			{
-				"volume": 36,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "cb40a501-b155-4c2f-8df3-0ee7c5f1ed00"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vtm_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#559CB1"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vtm_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#559CB1"
 			}
 		],
 		"VTM (Amygdala) - right hemisphere": [
 			{
-				"volume": 37,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "cb40a501-b155-4c2f-8df3-0ee7c5f1ed00"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vtm_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#559CB1"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/amygdala_vtm_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#559CB1"
 			}
 		],
 		"Area 6d1 (PreCG) - left hemisphere": [
 			{
-				"volume": 38,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "9ac6674e-2d6f-4831-ab25-8af17acca232"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#2D211B"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#2D211B"
 			}
 		],
 		"Area 6d1 (PreCG) - right hemisphere": [
 			{
-				"volume": 39,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "9ac6674e-2d6f-4831-ab25-8af17acca232"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#2D211B"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#2D211B"
 			}
 		],
 		"Area 6d2 (PreCG) - left hemisphere": [
 			{
-				"volume": 40,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "c7647341-25de-4a1f-9302-fbe8932deda0"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#AA97B4"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#AA97B4"
 			}
 		],
 		"Area 6d2 (PreCG) - right hemisphere": [
 			{
-				"volume": 41,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "c7647341-25de-4a1f-9302-fbe8932deda0"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#AA97B4"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#AA97B4"
 			}
 		],
 		"Area 6d3 (SFS) - left hemisphere": [
 			{
-				"volume": 42,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "72bf4008-78a6-41e0-9337-61ec53c39c27"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d3_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#37EF15"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d3_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#37EF15"
 			}
 		],
 		"Area 6d3 (SFS) - right hemisphere": [
 			{
-				"volume": 43,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "72bf4008-78a6-41e0-9337-61ec53c39c27"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d3_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#37EF15"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/area6d_6d3_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#37EF15"
 			}
 		],
 		"Area TE 1.0 (HESCHL) - left hemisphere": [
 			{
-				"volume": 44,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "bfa7f344-016e-48da-bc34-9cd2f7f19148"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te10_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FC54DE"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te10_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FC54DE"
 			}
 		],
 		"Area TE 1.0 (HESCHL) - right hemisphere": [
 			{
-				"volume": 45,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "bfa7f344-016e-48da-bc34-9cd2f7f19148"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te10_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FC54DE"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te10_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FC54DE"
 			}
 		],
 		"Area TE 1.1 (HESCHL) - left hemisphere": [
 			{
-				"volume": 46,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "49b5857e-7498-4fe9-8dbe-1cc0fa153091"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te11_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#087144"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te11_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#087144"
 			}
 		],
 		"Area TE 1.1 (HESCHL) - right hemisphere": [
 			{
-				"volume": 47,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "49b5857e-7498-4fe9-8dbe-1cc0fa153091"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te11_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#087144"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te11_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#087144"
 			}
 		],
 		"Area TE 1.2 (HESCHL) - left hemisphere": [
 			{
-				"volume": 48,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "57ace487-2266-43a2-ad04-597ede6400d8"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te12_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CAFBC0"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te12_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CAFBC0"
 			}
 		],
 		"Area TE 1.2 (HESCHL) - right hemisphere": [
 			{
-				"volume": 49,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "57ace487-2266-43a2-ad04-597ede6400d8"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te12_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CAFBC0"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te12_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CAFBC0"
 			}
 		],
 		"Area TE 3 (STG) - left hemisphere": [
 			{
-				"volume": 50,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "45689ca2-df48-4260-a908-56a9d4eb344e"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te3_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#9F686C"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te3_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#9F686C"
 			}
 		],
 		"Area TE 3 (STG) - right hemisphere": [
 			{
-				"volume": 51,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "45689ca2-df48-4260-a908-56a9d4eb344e"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te3_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#9F686C"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/auditory_Te3_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#9F686C"
 			}
 		],
 		"MGBd (Metathalamus) - left hemisphere": [
 			{
-				"volume": 52,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_dn_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#A88476"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_dn_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#A88476"
 			}
 		],
 		"MGBd (Metathalamus) - right hemisphere": [
 			{
-				"volume": 53,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_dn_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#A88476"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_dn_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#A88476"
 			}
 		],
 		"MGBm (Metathalamus) - left hemisphere": [
 			{
-				"volume": 54,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_mn_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CE8E8C"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_mn_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CE8E8C"
 			}
 		],
 		"MGBm (Metathalamus) - right hemisphere": [
 			{
-				"volume": 55,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_mn_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CE8E8C"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_mn_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CE8E8C"
 			}
 		],
 		"MGBv (Metathalamus) - left hemisphere": [
 			{
-				"volume": 56,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_vn_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E45454"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_vn_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E45454"
 			}
 		],
 		"MGBv (Metathalamus) - right hemisphere": [
 			{
-				"volume": 57,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_vn_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E45454"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/CGM_vn_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E45454"
 			}
 		],
 		"Entorhinal Cortex - left hemisphere": [
 			{
-				"volume": 58,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "cdd4e615-dfbf-4109-8042-8a20e6bcbf2e"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hippocampus_EC_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#239FD6"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hippocampus_EC_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#239FD6"
 			}
 		],
 		"Entorhinal Cortex - right hemisphere": [
 			{
-				"volume": 59,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "cdd4e615-dfbf-4109-8042-8a20e6bcbf2e"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hippocampus_EC_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#239FD6"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hippocampus_EC_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#239FD6"
 			}
 		],
 		"Area hOc1 (V1, 17, CalcS) - left hemisphere": [
 			{
-				"volume": 60,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "696d6062-3b86-498f-9ca6-e4d67b433396"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#BE8493"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#BE8493"
 			}
 		],
 		"Area hOc1 (V1, 17, CalcS) - right hemisphere": [
 			{
-				"volume": 61,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "696d6062-3b86-498f-9ca6-e4d67b433396"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#BE8493"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#BE8493"
 			}
 		],
 		"Area hOc2 (V2, 18) - left hemisphere": [
 			{
-				"volume": 62,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "63093617-9b72-45f5-88e6-f648ad05ae79"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#546E16"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#546E16"
 			}
 		],
 		"Area hOc2 (V2, 18) - right hemisphere": [
 			{
-				"volume": 63,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "63093617-9b72-45f5-88e6-f648ad05ae79"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#546E16"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#546E16"
 			}
 		],
 		"Area hOc3v (LingG) - left hemisphere": [
 			{
-				"volume": 64,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "f746514d-b79a-48e2-9c07-39f7c62459cf"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc3v_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#53B39B"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc3v_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#53B39B"
 			}
 		],
 		"Area hOc3v (LingG) - right hemisphere": [
 			{
-				"volume": 65,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "f746514d-b79a-48e2-9c07-39f7c62459cf"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc3v_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#53B39B"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc3v_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#53B39B"
 			}
 		],
 		"Area hOc5 (LOC) - left hemisphere": [
 			{
-				"volume": 66,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "ea8fb74b-0ecc-4801-9522-b4c2cb2a2a5c"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc5_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FF0000"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc5_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FF0000"
 			}
 		],
 		"Area hOc5 (LOC) - right hemisphere": [
 			{
-				"volume": 67,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "ea8fb74b-0ecc-4801-9522-b4c2cb2a2a5c"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc5_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FF0000"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/hOc5_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FF0000"
 			}
 		],
 		"Area IFJ1 (IFS,PreCS) - left hemisphere": [
 			{
-				"volume": 68,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E500A0"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E500A0"
 			}
 		],
 		"Area IFJ1 (IFS,PreCS) - right hemisphere": [
 			{
-				"volume": 69,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E500A0"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E500A0"
 			}
 		],
 		"Area IFJ2 (IFS,PreCS) - left hemisphere": [
 			{
-				"volume": 70,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#DF6A16"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#DF6A16"
 			}
 		],
 		"Area IFJ2 (IFS,PreCS) - right hemisphere": [
 			{
-				"volume": 71,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#DF6A16"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifj2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#DF6A16"
 			}
 		],
 		"Area IFS1 (IFS) - left hemisphere": [
 			{
-				"volume": 72,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#7030A0"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#7030A0"
 			}
 		],
 		"Area IFS1 (IFS) - right hemisphere": [
 			{
-				"volume": 73,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#7030A0"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#7030A0"
 			}
 		],
 		"Area IFS2 (IFS) - left hemisphere": [
 			{
-				"volume": 74,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FF0000"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FF0000"
 			}
 		],
 		"Area IFS2 (IFS) - right hemisphere": [
 			{
-				"volume": 75,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FF0000"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FF0000"
 			}
 		],
 		"Area IFS3 (IFS) - left hemisphere": [
 			{
-				"volume": 76,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs3_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#028032"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs3_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#028032"
 			}
 		],
 		"Area IFS3 (IFS) - right hemisphere": [
 			{
-				"volume": 77,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs3_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#028032"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs3_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#028032"
 			}
 		],
 		"Area IFS4 (IFS) - left hemisphere": [
 			{
-				"volume": 79,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs4_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#1F497D"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/ifs_ifs4_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#1F497D"
 			}
 		],
 		"CGL.lam1 (Metathalamus) - left hemisphere": [
 			{
-				"volume": 80,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#222E9E"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#222E9E"
 			}
 		],
 		"CGL.lam1 (Metathalamus) - right hemisphere": [
 			{
-				"volume": 81,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#222E9E"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#222E9E"
 			}
 		],
 		"CGL.lam2 (Metathalamus) - left hemisphere": [
 			{
-				"volume": 82,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#4D9EDF"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#4D9EDF"
 			}
 		],
 		"CGL.lam2 (Metathalamus) - right hemisphere": [
 			{
-				"volume": 83,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#4D9EDF"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#4D9EDF"
 			}
 		],
 		"CGL.lam3 (Metathalamus) - left hemisphere": [
 			{
-				"volume": 84,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb3_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#4CA6A6"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb3_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#4CA6A6"
 			}
 		],
 		"CGL.lam3 (Metathalamus) - right hemisphere": [
 			{
-				"volume": 85,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb3_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#4CA6A6"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb3_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#4CA6A6"
 			}
 		],
 		"CGL.lam4 (Metathalamus) - left hemisphere": [
 			{
-				"volume": 86,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb4_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#81CBB2"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb4_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#81CBB2"
 			}
 		],
 		"CGL.lam4 (Metathalamus) - right hemisphere": [
 			{
-				"volume": 87,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb4_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#81CBB2"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb4_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#81CBB2"
 			}
 		],
 		"CGL.lam5 (Metathalamus) - left hemisphere": [
 			{
-				"volume": 88,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb5_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#A5DDD4"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb5_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#A5DDD4"
 			}
 		],
 		"CGL.lam5 (Metathalamus) - right hemisphere": [
 			{
-				"volume": 89,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb5_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#A5DDD4"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb5_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#A5DDD4"
 			}
 		],
 		"CGL.lam6 (Metathalamus) - left hemisphere": [
 			{
-				"volume": 90,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb6_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E4E0D4"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb6_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E4E0D4"
 			}
 		],
 		"CGL.lam6 (Metathalamus) - right hemisphere": [
 			{
-				"volume": 91,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb6_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E4E0D4"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/Lgb6_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#E4E0D4"
 			}
 		],
 		"MFG1 - left hemisphere": [
 			{
-				"volume": 92,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#622181"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#622181"
 			}
 		],
 		"MFG1 - right hemisphere": [
 			{
-				"volume": 93,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#622181"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#622181"
 			}
 		],
 		"MFG2 - left hemisphere": [
 			{
-				"volume": 94,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FFEC00"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FFEC00"
 			}
 		],
 		"MFG2 - right hemisphere": [
 			{
-				"volume": 95,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "2416cc4c-be1e-4b87-be2e-caf13abd453b"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FFEC00"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/mfg2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FFEC00"
 			}
 		],
 		"Area hIP4 (IPS) - left hemisphere": [
 			{
-				"volume": 96,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "2416cc4c-be1e-4b87-be2e-caf13abd453b"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP4_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FE34B8"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP4_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FE34B8"
 			}
 		],
 		"Area hIP4 (IPS) - right hemisphere": [
 			{
-				"volume": 97,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "7ef95e2f-860f-4411-abfe-1b1d18458e3d"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP4_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FE34B8"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP4_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#FE34B8"
 			}
 		],
 		"Area hIP5 (IPS) - left hemisphere": [
 			{
-				"volume": 98,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "7ef95e2f-860f-4411-abfe-1b1d18458e3d"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP5_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#D957D2"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP5_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#D957D2"
 			}
 		],
 		"Area hIP5 (IPS) - right hemisphere": [
 			{
-				"volume": 99,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "d7270c0b-9294-4cf9-addf-052be3a62da7"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP5_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#D957D2"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP5_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#D957D2"
 			}
 		],
 		"Area hIP6 (IPS) - left hemisphere": [
 			{
-				"volume": 100,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "d7270c0b-9294-4cf9-addf-052be3a62da7"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP6_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#EDE925"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP6_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#EDE925"
 			}
 		],
 		"Area hIP6 (IPS) - right hemisphere": [
 			{
-				"volume": 101,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "d3c4e8f8-d8b7-4cc8-8dfb-744dc41473f3"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP6_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#EDE925"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP6_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#EDE925"
 			}
 		],
 		"Area hIP7 (IPS) - left hemisphere": [
 			{
-				"volume": 102,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "d3c4e8f8-d8b7-4cc8-8dfb-744dc41473f3"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP7_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#47C4DA"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP7_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#47C4DA"
 			}
 		],
 		"Area hIP7 (IPS) - right hemisphere": [
 			{
-				"volume": 103,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "9771cd50-a957-4c77-9aee-c343aa90dae5"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP7_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#47C4DA"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP7_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#47C4DA"
 			}
 		],
 		"Area hIP8 (IPS) - left hemisphere": [
 			{
-				"volume": 104,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "9771cd50-a957-4c77-9aee-c343aa90dae5"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP8_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#DF6D03"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP8_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#DF6D03"
 			}
 		],
 		"Area hIP8 (IPS) - right hemisphere": [
 			{
-				"volume": 105,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "c8e23d85-909c-4efc-a2f4-fb3ed2a5c01f"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP8_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#DF6D03"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hIP8_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#DF6D03"
 			}
 		],
 		"Area hOc6 (POS) - left hemisphere": [
 			{
-				"volume": 106,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "c8e23d85-909c-4efc-a2f4-fb3ed2a5c01f"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hOc6_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#EF421A"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hOc6_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#EF421A"
 			}
 		],
 		"Area hOc6 (POS) - right hemisphere": [
 			{
-				"volume": 107,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "7dae93bd-cea1-44f6-ae5b-1992bb15a732"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hOc6_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#EF421A"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hOc6_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#EF421A"
 			}
 		],
 		"Area hPO1 (POS) - left hemisphere": [
 			{
-				"volume": 108,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "7dae93bd-cea1-44f6-ae5b-1992bb15a732"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hPO1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#99E8EB"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hPO1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#99E8EB"
 			}
 		],
 		"Area hPO1 (POS) - right hemisphere": [
 			{
-				"volume": 109,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hPO1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#99E8EB"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/pIPS_hPO1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#99E8EB"
 			}
 		],
 		"SFS1 - left hemisphere": [
 			{
-				"volume": 110,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#00A5E2"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs1_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#00A5E2"
 			}
 		],
 		"SFS1 - right hemisphere": [
 			{
-				"volume": 111,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#00A5E2"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs1_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#00A5E2"
 			}
 		],
 		"SFS2 - left hemisphere": [
 			{
-				"volume": 112,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#F29400"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs2_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#F29400"
 			}
 		],
 		"SFS2 - right hemisphere": [
 			{
-				"volume": 113,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "0e7d4830-9125-490b-bdf6-1840a5a99933"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#F29400"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sfs2_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#F29400"
 			}
 		],
 		"Area 6ma (preSMA, mesial SFG) - left hemisphere": [
 			{
-				"volume": 114,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "0e7d4830-9125-490b-bdf6-1840a5a99933"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_presma_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CC6CDE"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_presma_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CC6CDE"
 			}
 		],
 		"Area 6ma (preSMA, mesial SFG) - right hemisphere": [
 			{
-				"volume": 115,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_presma_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CC6CDE"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_presma_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CC6CDE"
 			}
 		],
 		"Area 6mp (SMA, mesial SFG) - left hemisphere": [
 			{
-				"volume": 116,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_sma_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#4B5F57"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_sma_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#4B5F57"
 			}
 		],
 		"Area 6mp (SMA, mesial SFG) - right hemisphere": [
 			{
-				"volume": 117,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "319f7185-736e-432f-a783-d0f5bb2f533b"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_sma_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#4B5F57"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sma_sma_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#4B5F57"
 			}
 		],
 		"Area STS1 (STS) - left hemisphere": [
 			{
-				"volume": 118,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "319f7185-736e-432f-a783-d0f5bb2f533b"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te4_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CDE404"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te4_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CDE404"
 			}
 		],
 		"Area STS1 (STS) - right hemisphere": [
 			{
-				"volume": 119,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "298e8a4e-33ab-4c01-bd7f-9f9174a48604"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te4_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CDE404"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te4_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#CDE404"
 			}
 		],
 		"Area STS2 (STS) - left hemisphere": [
 			{
-				"volume": 120,
-				"label": 1
+				"@type": "siibra/attr/desc/ebrains/v0.1",
+				"ids": {
+					"openminds/DatasetVersion": "298e8a4e-33ab-4c01-bd7f-9f9174a48604"
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te5_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#3E757B"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te5_left",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#3E757B"
 			}
 		],
 		"Area STS2 (STS) - right hemisphere": [
 			{
-				"volume": 121,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te5_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#3E757B"
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/2022_map_release/sts_Te5_right",
+				"subimage_options": {
+					"label": 1
+				},
+				"color": "#3E757B"
 			}
 		]
 	}

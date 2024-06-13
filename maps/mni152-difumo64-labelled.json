@@ -1,403 +1,1301 @@
 {
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
-	},
-	"parcellation": {
-		"@id": "minds/core/parcellationatlas/v1.0.0/d80fbab2-ce7f-4901-a3a2-3c8ef8a3b721"
-	},
-	"volumes": [
+	"@type": "siibra/atlases/parcellation_map/v0.1",
+	"parcellation_id": "minds/core/parcellationatlas/v1.0.0/d80fbab2-ce7f-4901-a3a2-3c8ef8a3b721",
+	"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+	"maptype": "LABELLED",
+	"attributes": [
 		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
-				"neuroglancer/precompmesh": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354"
-			}
+			"@type": "siibra/attr/desc/id/v0.1",
+			"value": "0ebaa5f2-3e88-6946-c85b-caad9ecc6694"
+		},
+		{
+			"@type": "siibra/attr/desc/name/v0.1",
+			"value": "DiFuMo Atlas (64 dimensions) on MNI 152 ICBM 2009c Nonlinear Asymmetric - labelled - 32 regions"
+		},
+		{
+			"@type": "siibra/attr/desc/speciesspec/v0.1",
+			"value": "homo sapiens"
 		}
 	],
-	"@type": "siibra/map/v0.0.1",
-	"indices": {
+	"index_mapping": {
 		"Component 1: Superior frontal sulcus": [
 			{
-				"label": 1,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 1
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 1
+				}
 			}
 		],
 		"Component 2: Fusiform gyrus": [
 			{
-				"label": 2,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 2
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 2
+				}
 			}
 		],
 		"Component 3: Calcarine cortex posterior": [
 			{
-				"label": 3,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 3
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 3
+				}
 			}
 		],
 		"Component 4: Cingulate cortex posterior": [
 			{
-				"label": 4,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 4
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 4
+				}
 			}
 		],
 		"Component 5: Parieto-occipital sulcus superior": [
 			{
-				"label": 5,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 5
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 5
+				}
 			}
 		],
 		"Component 6: Insula antero-superior": [
 			{
-				"label": 6,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 6
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 6
+				}
 			}
 		],
 		"Component 7: Superior temporal sulcus with angular gyrus": [
 			{
-				"label": 7,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 7
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 7
+				}
 			}
 		],
 		"Component 8: Planum temporale": [
 			{
-				"label": 8,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 8
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 8
+				}
 			}
 		],
 		"Component 9: Cerebellum Crus II": [
 			{
-				"label": 9,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 9
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 9
+				}
 			}
 		],
 		"Component 10: Superior parts of Postcentral and Precentral gyri": [
 			{
-				"label": 10,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 10
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 10
+				}
 			}
 		],
 		"Component 11: Transverse sinus": [
 			{
-				"label": 11,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 11
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 11
+				}
 			}
 		],
 		"Component 12: Paracentral gyrus - right hemisphere": [
 			{
-				"label": 12,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 12
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 12
+				}
 			}
 		],
 		"Component 13: Superior occipital gyrus": [
 			{
-				"label": 13,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 13
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 13
+				}
 			}
 		],
 		"Component 14: Cingulate gyrus mid-posterior": [
 			{
-				"label": 14,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 14
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 14
+				}
 			}
 		],
 		"Component 15: ventricles": [
 			{
-				"label": 15,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 15
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 15
+				}
 			}
 		],
 		"Component 16: Fusiform gyrus posterior": [
 			{
-				"label": 16,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 16
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 16
+				}
 			}
 		],
 		"Component 17: Superior frontal gyrus medial": [
 			{
-				"label": 17,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 17
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 17
+				}
 			}
 		],
 		"Component 18: Precuneus superior": [
 			{
-				"label": 18,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 18
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 18
+				}
 			}
 		],
 		"Component 19: Planum polare": [
 			{
-				"label": 19,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 19
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 19
+				}
 			}
 		],
 		"Component 20: Parieto-occipital sulcus middle": [
 			{
-				"label": 20,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 20
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 20
+				}
 			}
 		],
 		"Component 21: Cerebellum I-V": [
 			{
-				"label": 21,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 21
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 21
+				}
 			}
 		],
 		"Component 22: Superior fornix and isthmus": [
 			{
-				"label": 22,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 22
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 22
+				}
 			}
 		],
 		"Component 23: Anterior Cingulate Cortex": [
 			{
-				"label": 23,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 23
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 23
+				}
 			}
 		],
 		"Component 24: Descending occipital gyrus": [
 			{
-				"label": 24,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 24
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 24
+				}
 			}
 		],
 		"Component 25: Putamen": [
 			{
-				"label": 25,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 25
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 25
+				}
 			}
 		],
 		"Component 26: Cingulate gyrus mid-anterior": [
 			{
-				"label": 26,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 26
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 26
+				}
 			}
 		],
 		"Component 27: Superior parietal lobule posterior": [
 			{
-				"label": 27,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 27
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 27
+				}
 			}
 		],
 		"Component 28: Paracentral lobule": [
 			{
-				"label": 28,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 28
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 28
+				}
 			}
 		],
 		"Component 29: Inferior occipital gyrus": [
 			{
-				"label": 29,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 29
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 29
+				}
 			}
 		],
 		"Component 30: Superior rostral gyrus": [
 			{
-				"label": 30,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 30
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 30
+				}
 			}
 		],
 		"Component 31: Calcarine sulcus anterior": [
 			{
-				"label": 31,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 31
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 31
+				}
 			}
 		],
 		"Component 32: Intraparietal sulcus": [
 			{
-				"label": 32,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 32
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 32
+				}
 			}
 		],
 		"Component 33: Superior parietal lobule anterior": [
 			{
-				"label": 33,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 33
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 33
+				}
 			}
 		],
 		"Component 34: Precentral gyrus medial": [
 			{
-				"label": 34,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 34
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 34
+				}
 			}
 		],
 		"Component 35: Lingual gyrus anterior": [
 			{
-				"label": 35,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 35
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 35
+				}
 			}
 		],
 		"Component 36: Angular gyrus superior": [
 			{
-				"label": 36,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 36
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 36
+				}
 			}
 		],
 		"Component 37: Supramarginal gyrus": [
 			{
-				"label": 37,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 37
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 37
+				}
 			}
 		],
 		"Component 38: Intraparietal sulcus - left hemisphere": [
 			{
-				"label": 38,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 38
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 38
+				}
 			}
 		],
 		"Component 39: Dorsomedial prefrontal cortex antero-superior": [
 			{
-				"label": 39,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 39
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 39
+				}
 			}
 		],
 		"Component 40: Precentral gyrus superior": [
 			{
-				"label": 40,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 40
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 40
+				}
 			}
 		],
 		"Component 41: Postcentral gyrus inferior": [
 			{
-				"label": 41,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 41
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 41
+				}
 			}
 		],
 		"Component 42: Lateral occipital cortex": [
 			{
-				"label": 42,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 42
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 42
+				}
 			}
 		],
 		"Component 43: Callosomarginal sulcus": [
 			{
-				"label": 43,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 43
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 43
+				}
 			}
 		],
 		"Component 44: Paracentral lobule superior": [
 			{
-				"label": 44,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 44
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 44
+				}
 			}
 		],
 		"Component 45: Heschl\u2019s gyrus": [
 			{
-				"label": 45,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 45
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 45
+				}
 			}
 		],
 		"Component 46: Occipital pole": [
 			{
-				"label": 46,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 46
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 46
+				}
 			}
 		],
 		"Component 47: Thalamus": [
 			{
-				"label": 47,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 47
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 47
+				}
 			}
 		],
 		"Component 48: Intraparietal sulcus - right hemisphere": [
 			{
-				"label": 48,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 48
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 48
+				}
 			}
 		],
 		"Component 49: Inferior frontal sulcus": [
 			{
-				"label": 49,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 49
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 49
+				}
 			}
 		],
 		"Component 50: Postcentral gyrus - left hemisphere": [
 			{
-				"label": 50,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 50
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 50
+				}
 			}
 		],
 		"Component 51: Middle frontal gyrus": [
 			{
-				"label": 51,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 51
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 51
+				}
 			}
 		],
 		"Component 52: Inferior frontal gyrus": [
 			{
-				"label": 52,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 52
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 52
+				}
 			}
 		],
 		"Component 53: Parieto-occipital sulcus anterior": [
 			{
-				"label": 53,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 53
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 53
+				}
 			}
 		],
 		"Component 54: Precuneus anterior": [
 			{
-				"label": 54,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 54
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 54
+				}
 			}
 		],
 		"Component 55: Lingual gyrus": [
 			{
-				"label": 55,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 55
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 55
+				}
 			}
 		],
 		"Component 56: Superior occipital sulcus": [
 			{
-				"label": 56,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 56
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 56
+				}
 			}
 		],
 		"Component 57: Superior parietal lobule": [
 			{
-				"label": 57,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 57
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 57
+				}
 			}
 		],
 		"Component 58: Middle frontal gyrus anterior": [
 			{
-				"label": 58,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 58
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 58
+				}
 			}
 		],
 		"Component 59: Angular gyrus inferior": [
 			{
-				"label": 59,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 59
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 59
+				}
 			}
 		],
 		"Component 60: Cuneus": [
 			{
-				"label": 60,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 60
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 60
+				}
 			}
 		],
 		"Component 61: Middle temporal gyrus": [
 			{
-				"label": 61,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 61
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 61
+				}
 			}
 		],
 		"Component 62: Superior frontal gyrus": [
 			{
-				"label": 62,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 62
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 62
+				}
 			}
 		],
 		"Component 63: Central sulcus": [
 			{
-				"label": 63,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 63
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 63
+				}
 			}
 		],
 		"Component 64: Caudate": [
 			{
-				"label": 64,
-				"volume": 0
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precomputed",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 64
+				}
+			},
+			{
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://object.cscs.ch/v1/AUTH_08c08f9f119744cbbf77e216988da3eb/imgsvc-97d7cf5f-9bb7-4143-8b1e-757ab4cb7354",
+				"subimage_options": {
+					"label": 64
+				}
 			}
 		]
 	}

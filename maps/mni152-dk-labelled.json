@@ -1,426 +1,769 @@
 {
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
-	},
-	"parcellation": {
-		"@id": "https://identifiers.org/neurovault.image:23262"
-	},
-	"volumes": [
+	"@type": "siibra/atlases/parcellation_map/v0.1",
+	"parcellation_id": "https://identifiers.org/neurovault.image:23262",
+	"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+	"maptype": "LABELLED",
+	"attributes": [
 		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"nii": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii"
-			}
+			"@type": "siibra/attr/desc/id/v0.1",
+			"value": "f8a8fa9b-a9e7-643a-95c4-0bc72a01630b"
+		},
+		{
+			"@type": "siibra/attr/desc/name/v0.1",
+			"value": "Desikan-Killiany Atlas (2006) on MNI 152 ICBM 2009c Nonlinear Asymmetric - labelled - 34 regions"
+		},
+		{
+			"@type": "siibra/attr/desc/speciesspec/v0.1",
+			"value": "homo sapiens"
 		}
 	],
-	"@type": "siibra/map/v0.0.1",
-	"indices": {
+	"index_mapping": {
 		"left entorhinal": [
 			{
-				"volume": 0,
-				"label": 1006
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1006
+				}
 			}
 		],
 		"right entorhinal": [
 			{
-				"volume": 0,
-				"label": 2006
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2006
+				}
 			}
 		],
 		"left parahippocampal": [
 			{
-				"volume": 0,
-				"label": 1016
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1016
+				}
 			}
 		],
 		"right parahippocampal": [
 			{
-				"volume": 0,
-				"label": 2016
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2016
+				}
 			}
 		],
 		"left fusiform": [
 			{
-				"volume": 0,
-				"label": 1007
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1007
+				}
 			}
 		],
 		"right fusiform": [
 			{
-				"volume": 0,
-				"label": 2007
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2007
+				}
 			}
 		],
 		"left superior temporal": [
 			{
-				"volume": 0,
-				"label": 1030
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1030
+				}
 			}
 		],
 		"right superior temporal": [
 			{
-				"volume": 0,
-				"label": 2030
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2030
+				}
 			}
 		],
 		"left inferior temporal": [
 			{
-				"volume": 0,
-				"label": 1009
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1009
+				}
 			}
 		],
 		"right inferior temporal": [
 			{
-				"volume": 0,
-				"label": 2009
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2009
+				}
 			}
 		],
 		"left middle temporal": [
 			{
-				"volume": 0,
-				"label": 1015
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1015
+				}
 			}
 		],
 		"right middle temporal": [
 			{
-				"volume": 0,
-				"label": 2015
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2015
+				}
 			}
 		],
 		"left transverse temporal": [
 			{
-				"volume": 0,
-				"label": 1034
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1034
+				}
 			}
 		],
 		"right transverse temporal": [
 			{
-				"volume": 0,
-				"label": 2034
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2034
+				}
 			}
 		],
 		"left caudal middle frontal": [
 			{
-				"volume": 0,
-				"label": 1003
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1003
+				}
 			}
 		],
 		"right caudal middle frontal": [
 			{
-				"volume": 0,
-				"label": 2003
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2003
+				}
 			}
 		],
 		"left lateral orbitofrontal": [
 			{
-				"volume": 0,
-				"label": 1012
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1012
+				}
 			}
 		],
 		"right lateral orbitofrontal": [
 			{
-				"volume": 0,
-				"label": 2012
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2012
+				}
 			}
 		],
 		"left medial orbitofrontal": [
 			{
-				"volume": 0,
-				"label": 1014
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1014
+				}
 			}
 		],
 		"right medial orbitofrontal": [
 			{
-				"volume": 0,
-				"label": 2014
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2014
+				}
 			}
 		],
 		"left rostral middle frontal": [
 			{
-				"volume": 0,
-				"label": 1027
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1027
+				}
 			}
 		],
 		"right rostral middle frontal": [
 			{
-				"volume": 0,
-				"label": 2027
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2027
+				}
 			}
 		],
 		"left superior frontal": [
 			{
-				"volume": 0,
-				"label": 1028
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1028
+				}
 			}
 		],
 		"right superior frontal": [
 			{
-				"volume": 0,
-				"label": 2028
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2028
+				}
 			}
 		],
 		"left pars opercularis": [
 			{
-				"volume": 0,
-				"label": 1018
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1018
+				}
 			}
 		],
 		"right pars opercularis": [
 			{
-				"volume": 0,
-				"label": 2018
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2018
+				}
 			}
 		],
 		"left pars orbitalis": [
 			{
-				"volume": 0,
-				"label": 1019
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1019
+				}
 			}
 		],
 		"right pars orbitalis": [
 			{
-				"volume": 0,
-				"label": 2019
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2019
+				}
 			}
 		],
 		"left pars triangularis": [
 			{
-				"volume": 0,
-				"label": 1020
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1020
+				}
 			}
 		],
 		"right pars triangularis": [
 			{
-				"volume": 0,
-				"label": 2020
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2020
+				}
 			}
 		],
 		"left precentral": [
 			{
-				"volume": 0,
-				"label": 1024
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1024
+				}
 			}
 		],
 		"right precentral": [
 			{
-				"volume": 0,
-				"label": 2024
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2024
+				}
 			}
 		],
 		"left paracentral": [
 			{
-				"volume": 0,
-				"label": 1017
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1017
+				}
 			}
 		],
 		"right paracentral": [
 			{
-				"volume": 0,
-				"label": 2017
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2017
+				}
 			}
 		],
 		"left postcentral": [
 			{
-				"volume": 0,
-				"label": 1022
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1022
+				}
 			}
 		],
 		"right postcentral": [
 			{
-				"volume": 0,
-				"label": 2022
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2022
+				}
 			}
 		],
 		"left supramarginal": [
 			{
-				"volume": 0,
-				"label": 1031
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1031
+				}
 			}
 		],
 		"right supramarginal": [
 			{
-				"volume": 0,
-				"label": 2031
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2031
+				}
 			}
 		],
 		"left superior parietal": [
 			{
-				"volume": 0,
-				"label": 1029
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1029
+				}
 			}
 		],
 		"right superior parietal": [
 			{
-				"volume": 0,
-				"label": 2029
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2029
+				}
 			}
 		],
 		"left inferior parietal": [
 			{
-				"volume": 0,
-				"label": 1008
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1008
+				}
 			}
 		],
 		"right inferior parietal": [
 			{
-				"volume": 0,
-				"label": 2008
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2008
+				}
 			}
 		],
 		"left precuneus": [
 			{
-				"volume": 0,
-				"label": 1025
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1025
+				}
 			}
 		],
 		"right precuneus": [
 			{
-				"volume": 0,
-				"label": 2025
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2025
+				}
 			}
 		],
 		"left lingual": [
 			{
-				"volume": 0,
-				"label": 1013
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1013
+				}
 			}
 		],
 		"right lingual": [
 			{
-				"volume": 0,
-				"label": 2013
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2013
+				}
 			}
 		],
 		"left pericalcarine": [
 			{
-				"volume": 0,
-				"label": 1021
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1021
+				}
 			}
 		],
 		"right pericalcarine": [
 			{
-				"volume": 0,
-				"label": 2021
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2021
+				}
 			}
 		],
 		"left cuneus": [
 			{
-				"volume": 0,
-				"label": 1005
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1005
+				}
 			}
 		],
 		"right cuneus": [
 			{
-				"volume": 0,
-				"label": 2005
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2005
+				}
 			}
 		],
 		"left lateral occipital": [
 			{
-				"volume": 0,
-				"label": 1011
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1011
+				}
 			}
 		],
 		"right lateral occipital": [
 			{
-				"volume": 0,
-				"label": 2011
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2011
+				}
 			}
 		],
 		"left rostral anterior cingulate": [
 			{
-				"volume": 0,
-				"label": 1026
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1026
+				}
 			}
 		],
 		"right rostral anterior cingulate": [
 			{
-				"volume": 0,
-				"label": 2026
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2026
+				}
 			}
 		],
 		"left caudal anterior cingulate": [
 			{
-				"volume": 0,
-				"label": 1002
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1002
+				}
 			}
 		],
 		"right caudal anterior cingulate": [
 			{
-				"volume": 0,
-				"label": 2002
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2002
+				}
 			}
 		],
 		"left posterior cingulate": [
 			{
-				"volume": 0,
-				"label": 1023
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1023
+				}
 			}
 		],
 		"right posterior cingulate": [
 			{
-				"volume": 0,
-				"label": 2023
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2023
+				}
 			}
 		],
 		"left isthmus cingulate": [
 			{
-				"volume": 0,
-				"label": 1010
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1010
+				}
 			}
 		],
 		"right isthmus cingulate": [
 			{
-				"volume": 0,
-				"label": 2010
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2010
+				}
 			}
 		],
 		"left insula": [
 			{
-				"volume": 0,
-				"label": 1035
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1035
+				}
 			}
 		],
 		"right insula": [
 			{
-				"volume": 0,
-				"label": 2035
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2035
+				}
 			}
 		],
 		"ctx-lh-bankssts": [
 			{
-				"volume": 0,
-				"label": 1001
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1001
+				}
 			}
 		],
 		"ctx-lh-frontalpole": [
 			{
-				"volume": 0,
-				"label": 1032
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1032
+				}
 			}
 		],
 		"ctx-lh-temporalpole": [
 			{
-				"volume": 0,
-				"label": 1033
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 1033
+				}
 			}
 		],
 		"ctx-rh-bankssts": [
 			{
-				"volume": 0,
-				"label": 2001
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2001
+				}
 			}
 		],
 		"ctx-rh-frontalpole": [
 			{
-				"volume": 0,
-				"label": 2032
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2032
+				}
 			}
 		],
 		"ctx-rh-temporalpole": [
 			{
-				"volume": 0,
-				"label": 2033
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_mni152_3D.nii",
+				"subimage_options": {
+					"label": 2033
+				}
 			}
 		]
 	}
