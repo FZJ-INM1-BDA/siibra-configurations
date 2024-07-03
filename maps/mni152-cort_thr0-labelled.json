@@ -1,594 +1,1083 @@
 {
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
-	},
-	"parcellation": {
-		"@id": "https://identifiers.org/neurovault.image:1702"
-	},
-	"volumes": [
+	"@type": "siibra/atlases/parcellation_map/v0.1",
+	"parcellation_id": "https://identifiers.org/neurovault.image:1702",
+	"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+	"maptype": "labelled",
+	"attributes": [
 		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"nii": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz"
-			}
+			"@type": "siibra/attr/desc/id/v0.1",
+			"value": "b6d9c1f5-d236-2735-a581-a5b7c563cfd3"
+		},
+		{
+			"@type": "siibra/attr/desc/name/v0.1",
+			"value": "HarvardOxford cort maxprob thr0 on MNI 152 ICBM 2009c Nonlinear Asymmetric - labelled - 48 regions"
+		},
+		{
+			"@type": "siibra/attr/desc/speciesspec/v0.1",
+			"value": "homo sapiens"
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+			"format": "nii",
+			"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz"
 		}
 	],
-	"@type": "siibra/map/v0.0.1",
-	"indices": {
+	"region_attributes": {
 		"Left Frontal Pole": [
 			{
-				"volume": 0,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 1
+				}
 			}
 		],
 		"Right Frontal Pole": [
 			{
-				"volume": 0,
-				"label": 2
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 2
+				}
 			}
 		],
 		"Left Insular Cortex": [
 			{
-				"volume": 0,
-				"label": 3
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 3
+				}
 			}
 		],
 		"Right Insular Cortex": [
 			{
-				"volume": 0,
-				"label": 4
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 4
+				}
 			}
 		],
 		"Left Superior Frontal Gyrus": [
 			{
-				"volume": 0,
-				"label": 5
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 5
+				}
 			}
 		],
 		"Right Superior Frontal Gyrus": [
 			{
-				"volume": 0,
-				"label": 6
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 6
+				}
 			}
 		],
 		"Left Middle Frontal Gyrus": [
 			{
-				"volume": 0,
-				"label": 7
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 7
+				}
 			}
 		],
 		"Right Middle Frontal Gyrus": [
 			{
-				"volume": 0,
-				"label": 8
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 8
+				}
 			}
 		],
 		"Left Inferior Frontal Gyrus, pars triangularis": [
 			{
-				"volume": 0,
-				"label": 9
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 9
+				}
 			}
 		],
 		"Right Inferior Frontal Gyrus, pars triangularis": [
 			{
-				"volume": 0,
-				"label": 10
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 10
+				}
 			}
 		],
 		"Left Inferior Frontal Gyrus, pars opercularis": [
 			{
-				"volume": 0,
-				"label": 11
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 11
+				}
 			}
 		],
 		"Right Inferior Frontal Gyrus, pars opercularis": [
 			{
-				"volume": 0,
-				"label": 12
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 12
+				}
 			}
 		],
 		"Left Precentral Gyrus": [
 			{
-				"volume": 0,
-				"label": 13
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 13
+				}
 			}
 		],
 		"Right Precentral Gyrus": [
 			{
-				"volume": 0,
-				"label": 14
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 14
+				}
 			}
 		],
 		"Left Temporal Pole": [
 			{
-				"volume": 0,
-				"label": 15
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 15
+				}
 			}
 		],
 		"Right Temporal Pole": [
 			{
-				"volume": 0,
-				"label": 16
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 16
+				}
 			}
 		],
 		"Left Superior Temporal Gyrus, anterior division": [
 			{
-				"volume": 0,
-				"label": 17
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 17
+				}
 			}
 		],
 		"Right Superior Temporal Gyrus, anterior division": [
 			{
-				"volume": 0,
-				"label": 18
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 18
+				}
 			}
 		],
 		"Left Superior Temporal Gyrus, posterior division": [
 			{
-				"volume": 0,
-				"label": 19
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 19
+				}
 			}
 		],
 		"Right Superior Temporal Gyrus, posterior division": [
 			{
-				"volume": 0,
-				"label": 20
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 20
+				}
 			}
 		],
 		"Left Middle Temporal Gyrus, anterior division": [
 			{
-				"volume": 0,
-				"label": 21
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 21
+				}
 			}
 		],
 		"Right Middle Temporal Gyrus, anterior division": [
 			{
-				"volume": 0,
-				"label": 22
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 22
+				}
 			}
 		],
 		"Left Middle Temporal Gyrus, posterior division": [
 			{
-				"volume": 0,
-				"label": 23
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 23
+				}
 			}
 		],
 		"Right Middle Temporal Gyrus, posterior division": [
 			{
-				"volume": 0,
-				"label": 24
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 24
+				}
 			}
 		],
 		"Left Middle Temporal Gyrus, temporooccipital part": [
 			{
-				"volume": 0,
-				"label": 25
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 25
+				}
 			}
 		],
 		"Right Middle Temporal Gyrus, temporooccipital part": [
 			{
-				"volume": 0,
-				"label": 26
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 26
+				}
 			}
 		],
 		"Left Inferior Temporal Gyrus, anterior division": [
 			{
-				"volume": 0,
-				"label": 27
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 27
+				}
 			}
 		],
 		"Right Inferior Temporal Gyrus, anterior division": [
 			{
-				"volume": 0,
-				"label": 28
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 28
+				}
 			}
 		],
 		"Left Inferior Temporal Gyrus, posterior division": [
 			{
-				"volume": 0,
-				"label": 29
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 29
+				}
 			}
 		],
 		"Right Inferior Temporal Gyrus, posterior division": [
 			{
-				"volume": 0,
-				"label": 30
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 30
+				}
 			}
 		],
 		"Left Inferior Temporal Gyrus, temporooccipital part": [
 			{
-				"volume": 0,
-				"label": 31
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 31
+				}
 			}
 		],
 		"Right Inferior Temporal Gyrus, temporooccipital part": [
 			{
-				"volume": 0,
-				"label": 32
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 32
+				}
 			}
 		],
 		"Left Postcentral Gyrus": [
 			{
-				"volume": 0,
-				"label": 33
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 33
+				}
 			}
 		],
 		"Right Postcentral Gyrus": [
 			{
-				"volume": 0,
-				"label": 34
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 34
+				}
 			}
 		],
 		"Left Superior Parietal Lobule": [
 			{
-				"volume": 0,
-				"label": 35
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 35
+				}
 			}
 		],
 		"Right Superior Parietal Lobule": [
 			{
-				"volume": 0,
-				"label": 36
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 36
+				}
 			}
 		],
 		"Left Supramarginal Gyrus, anterior division": [
 			{
-				"volume": 0,
-				"label": 37
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 37
+				}
 			}
 		],
 		"Right Supramarginal Gyrus, anterior division": [
 			{
-				"volume": 0,
-				"label": 38
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 38
+				}
 			}
 		],
 		"Left Supramarginal Gyrus, posterior division": [
 			{
-				"volume": 0,
-				"label": 39
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 39
+				}
 			}
 		],
 		"Right Supramarginal Gyrus, posterior division": [
 			{
-				"volume": 0,
-				"label": 40
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 40
+				}
 			}
 		],
 		"Left Angular Gyrus": [
 			{
-				"volume": 0,
-				"label": 41
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 41
+				}
 			}
 		],
 		"Right Angular Gyrus": [
 			{
-				"volume": 0,
-				"label": 42
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 42
+				}
 			}
 		],
 		"Left Lateral Occipital Cortex, superior division": [
 			{
-				"volume": 0,
-				"label": 43
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 43
+				}
 			}
 		],
 		"Right Lateral Occipital Cortex, superior division": [
 			{
-				"volume": 0,
-				"label": 44
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 44
+				}
 			}
 		],
 		"Left Lateral Occipital Cortex, inferior division": [
 			{
-				"volume": 0,
-				"label": 45
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 45
+				}
 			}
 		],
 		"Right Lateral Occipital Cortex, inferior division": [
 			{
-				"volume": 0,
-				"label": 46
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 46
+				}
 			}
 		],
 		"Left Intracalcarine Cortex": [
 			{
-				"volume": 0,
-				"label": 47
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 47
+				}
 			}
 		],
 		"Right Intracalcarine Cortex": [
 			{
-				"volume": 0,
-				"label": 48
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 48
+				}
 			}
 		],
 		"Left Frontal Medial Cortex": [
 			{
-				"volume": 0,
-				"label": 49
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 49
+				}
 			}
 		],
 		"Right Frontal Medial Cortex": [
 			{
-				"volume": 0,
-				"label": 50
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 50
+				}
 			}
 		],
 		"Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)": [
 			{
-				"volume": 0,
-				"label": 51
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 51
+				}
 			}
 		],
 		"Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)": [
 			{
-				"volume": 0,
-				"label": 52
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 52
+				}
 			}
 		],
 		"Left Subcallosal Cortex": [
 			{
-				"volume": 0,
-				"label": 53
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 53
+				}
 			}
 		],
 		"Right Subcallosal Cortex": [
 			{
-				"volume": 0,
-				"label": 54
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 54
+				}
 			}
 		],
 		"Left Paracingulate Gyrus": [
 			{
-				"volume": 0,
-				"label": 55
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 55
+				}
 			}
 		],
 		"Right Paracingulate Gyrus": [
 			{
-				"volume": 0,
-				"label": 56
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 56
+				}
 			}
 		],
 		"Left Cingulate Gyrus, anterior division": [
 			{
-				"volume": 0,
-				"label": 57
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 57
+				}
 			}
 		],
 		"Right Cingulate Gyrus, anterior division": [
 			{
-				"volume": 0,
-				"label": 58
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 58
+				}
 			}
 		],
 		"Left Cingulate Gyrus, posterior division": [
 			{
-				"volume": 0,
-				"label": 59
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 59
+				}
 			}
 		],
 		"Right Cingulate Gyrus, posterior division": [
 			{
-				"volume": 0,
-				"label": 60
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 60
+				}
 			}
 		],
 		"Left Precuneous Cortex": [
 			{
-				"volume": 0,
-				"label": 61
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 61
+				}
 			}
 		],
 		"Right Precuneous Cortex": [
 			{
-				"volume": 0,
-				"label": 62
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 62
+				}
 			}
 		],
 		"Left Cuneal Cortex": [
 			{
-				"volume": 0,
-				"label": 63
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 63
+				}
 			}
 		],
 		"Right Cuneal Cortex": [
 			{
-				"volume": 0,
-				"label": 64
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 64
+				}
 			}
 		],
 		"Left Frontal Orbital Cortex": [
 			{
-				"volume": 0,
-				"label": 65
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 65
+				}
 			}
 		],
 		"Right Frontal Orbital Cortex": [
 			{
-				"volume": 0,
-				"label": 66
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 66
+				}
 			}
 		],
 		"Left Parahippocampal Gyrus, anterior division": [
 			{
-				"volume": 0,
-				"label": 67
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 67
+				}
 			}
 		],
 		"Right Parahippocampal Gyrus, anterior division": [
 			{
-				"volume": 0,
-				"label": 68
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 68
+				}
 			}
 		],
 		"Left Parahippocampal Gyrus, posterior division": [
 			{
-				"volume": 0,
-				"label": 69
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 69
+				}
 			}
 		],
 		"Right Parahippocampal Gyrus, posterior division": [
 			{
-				"volume": 0,
-				"label": 70
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 70
+				}
 			}
 		],
 		"Left Lingual Gyrus": [
 			{
-				"volume": 0,
-				"label": 71
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 71
+				}
 			}
 		],
 		"Right Lingual Gyrus": [
 			{
-				"volume": 0,
-				"label": 72
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 72
+				}
 			}
 		],
 		"Left Temporal Fusiform Cortex, anterior division": [
 			{
-				"volume": 0,
-				"label": 73
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 73
+				}
 			}
 		],
 		"Right Temporal Fusiform Cortex, anterior division": [
 			{
-				"volume": 0,
-				"label": 74
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 74
+				}
 			}
 		],
 		"Left Temporal Fusiform Cortex, posterior division": [
 			{
-				"volume": 0,
-				"label": 75
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 75
+				}
 			}
 		],
 		"Right Temporal Fusiform Cortex, posterior division": [
 			{
-				"volume": 0,
-				"label": 76
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 76
+				}
 			}
 		],
 		"Left Temporal Occipital Fusiform Cortex": [
 			{
-				"volume": 0,
-				"label": 77
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 77
+				}
 			}
 		],
 		"Right Temporal Occipital Fusiform Cortex": [
 			{
-				"volume": 0,
-				"label": 78
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 78
+				}
 			}
 		],
 		"Left Occipital Fusiform Gyrus": [
 			{
-				"volume": 0,
-				"label": 79
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 79
+				}
 			}
 		],
 		"Right Occipital Fusiform Gyrus": [
 			{
-				"volume": 0,
-				"label": 80
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 80
+				}
 			}
 		],
 		"Left Frontal Operculum Cortex": [
 			{
-				"volume": 0,
-				"label": 81
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 81
+				}
 			}
 		],
 		"Right Frontal Operculum Cortex": [
 			{
-				"volume": 0,
-				"label": 82
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 82
+				}
 			}
 		],
 		"Left Central Opercular Cortex": [
 			{
-				"volume": 0,
-				"label": 83
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 83
+				}
 			}
 		],
 		"Right Central Opercular Cortex": [
 			{
-				"volume": 0,
-				"label": 84
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 84
+				}
 			}
 		],
 		"Left Parietal Operculum Cortex": [
 			{
-				"volume": 0,
-				"label": 85
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 85
+				}
 			}
 		],
 		"Right Parietal Operculum Cortex": [
 			{
-				"volume": 0,
-				"label": 86
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 86
+				}
 			}
 		],
 		"Left Planum Polare": [
 			{
-				"volume": 0,
-				"label": 87
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 87
+				}
 			}
 		],
 		"Right Planum Polare": [
 			{
-				"volume": 0,
-				"label": 88
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 88
+				}
 			}
 		],
 		"Left Heschl's Gyrus (includes H1 and H2)": [
 			{
-				"volume": 0,
-				"label": 89
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 89
+				}
 			}
 		],
 		"Right Heschl's Gyrus (includes H1 and H2)": [
 			{
-				"volume": 0,
-				"label": 90
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 90
+				}
 			}
 		],
 		"Left Planum Temporale": [
 			{
-				"volume": 0,
-				"label": 91
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 91
+				}
 			}
 		],
 		"Right Planum Temporale": [
 			{
-				"volume": 0,
-				"label": 92
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 92
+				}
 			}
 		],
 		"Left Supracalcarine Cortex": [
 			{
-				"volume": 0,
-				"label": 93
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 93
+				}
 			}
 		],
 		"Right Supracalcarine Cortex": [
 			{
-				"volume": 0,
-				"label": 94
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 94
+				}
 			}
 		],
 		"Left Occipital Pole": [
 			{
-				"volume": 0,
-				"label": 95
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 95
+				}
 			}
 		],
 		"Right Occipital Pole": [
 			{
-				"volume": 0,
-				"label": 96
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+				"format": "nii",
+				"url": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+				"volume_selection_options": {
+					"label": 96
+				}
 			}
 		]
 	}

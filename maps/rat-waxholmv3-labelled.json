@@ -1,727 +1,2629 @@
 {
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
-	},
-	"parcellation": {
-		"@id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe"
-	},
-	"volumes": [
+	"@type": "siibra/atlases/parcellation_map/v0.1",
+	"parcellation_id": "minds/core/parcellationatlas/v1.0.0/ebb923ba-b4d5-4b82-8088-fa9215c2e1fe",
+	"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+	"maptype": "labelled",
+	"attributes": [
 		{
-			"@type": "siibra/volume/v0.0.1",
-			"providers": {
-				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
-				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3"
-			}
+			"@type": "siibra/attr/desc/id/v0.1",
+			"value": "3c0df068-4b81-5b31-bd5f-a86ee4c1a45f"
+		},
+		{
+			"@type": "siibra/attr/desc/name/v0.1",
+			"value": "Waxholm Space atlas of the Sprague Dawley rat brain (v3) on Waxholm Space of the Sprague Dawley v1.01 - labelled - 59 regions"
+		},
+		{
+			"@type": "siibra/attr/desc/speciesspec/v0.1",
+			"value": "rattus norvegicus"
+		},
+		{
+			"@type": "siibra/attr/data/image/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+			"format": "neuroglancer/precomputed",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3"
+		},
+		{
+			"@type": "siibra/attr/data/mesh/v0.1",
+			"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+			"format": "neuroglancer/precompmesh",
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3"
 		}
 	],
-	"@type": "siibra/map/v0.0.1",
-	"indices": {
+	"region_attributes": {
 		"corpus callosum and associated subcortical white matter": [
 			{
-				"volume": 0,
-				"label": 67
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 67
+				},
+				"color": "#FF6E00"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 67
+				},
+				"color": "#FF6E00"
 			}
 		],
 		"anterior commissure, anterior part": [
 			{
-				"volume": 0,
-				"label": 36
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 36
+				},
+				"color": "#7CFC00"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 36
+				},
+				"color": "#7CFC00"
 			}
 		],
 		"anterior commissure, posterior part": [
 			{
-				"volume": 0,
-				"label": 37
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 37
+				},
+				"color": "#FFBA00"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 37
+				},
+				"color": "#FFBA00"
 			}
 		],
 		"anterior commissure": [
 			{
-				"volume": 0,
-				"label": 73
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 73
+				},
+				"color": "#FF4FCE"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 73
+				},
+				"color": "#FF4FCE"
 			}
 		],
 		"alveus of the hippocampus": [
 			{
-				"volume": 0,
-				"label": 6
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 6
+				},
+				"color": "#FF00FF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 6
+				},
+				"color": "#FF00FF"
 			}
 		],
 		"ventral hippocampal commissure": [
 			{
-				"volume": 0,
-				"label": 38
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 38
+				},
+				"color": "#AE00E8"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 38
+				},
+				"color": "#AE00E8"
 			}
 		],
 		"fornix": [
 			{
-				"volume": 0,
-				"label": 52
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 52
+				},
+				"color": "#15C0FF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 52
+				},
+				"color": "#15C0FF"
 			}
 		],
 		"fimbria of the hippocampus": [
 			{
-				"volume": 0,
-				"label": 59
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 59
+				},
+				"color": "#00FF1D"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 59
+				},
+				"color": "#00FF1D"
 			}
 		],
 		"descending corticofugal pathways": [
 			{
-				"volume": 0,
-				"label": 1
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 1
+				},
+				"color": "#FF3427"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 1
+				},
+				"color": "#FF3427"
 			}
 		],
 		"pyramidal decussation": [
 			{
-				"volume": 0,
-				"label": 85
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 85
+				},
+				"color": "#7209D4"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 85
+				},
+				"color": "#7209D4"
 			}
 		],
 		"medial lemniscus": [
 			{
-				"volume": 0,
-				"label": 34
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 34
+				},
+				"color": "#D4FF00"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 34
+				},
+				"color": "#D4FF00"
 			}
 		],
 		"medial lemniscus decussation": [
 			{
-				"volume": 0,
-				"label": 84
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 84
+				},
+				"color": "#4196FF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 84
+				},
+				"color": "#4196FF"
 			}
 		],
 		"mammillothalamic tract": [
 			{
-				"volume": 0,
-				"label": 53
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 53
+				},
+				"color": "#EEBA00"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 53
+				},
+				"color": "#EEBA00"
 			}
 		],
 		"commissural stria terminalis": [
 			{
-				"volume": 0,
-				"label": 54
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 54
+				},
+				"color": "#ADFF2F"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 54
+				},
+				"color": "#ADFF2F"
 			}
 		],
 		"fasciculus retroflexus": [
 			{
-				"volume": 0,
-				"label": 60
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 60
+				},
+				"color": "#F44345"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 60
+				},
+				"color": "#F44345"
 			}
 		],
 		"stria medullaris of the thalamus": [
 			{
-				"volume": 0,
-				"label": 61
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 61
+				},
+				"color": "#00FF00"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 61
+				},
+				"color": "#00FF00"
 			}
 		],
 		"stria terminalis": [
 			{
-				"volume": 0,
-				"label": 62
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 62
+				},
+				"color": "#EE7533"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 62
+				},
+				"color": "#EE7533"
 			}
 		],
 		"habenular commissure": [
 			{
-				"volume": 0,
-				"label": 80
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 80
+				},
+				"color": "#45EBCA"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 80
+				},
+				"color": "#45EBCA"
 			}
 		],
 		"posterior commissure": [
 			{
-				"volume": 0,
-				"label": 63
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 63
+				},
+				"color": "#FF00DA"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 63
+				},
+				"color": "#FF00DA"
 			}
 		],
 		"facial nerve": [
 			{
-				"volume": 0,
-				"label": 35
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 35
+				},
+				"color": "#FF19F0"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 35
+				},
+				"color": "#FF19F0"
 			}
 		],
 		"ascending fibers of the facial nerve": [
 			{
-				"volume": 0,
-				"label": 72
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 72
+				},
+				"color": "#B31C35"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 72
+				},
+				"color": "#B31C35"
 			}
 		],
 		"genu of the facial nerve": [
 			{
-				"volume": 0,
-				"label": 57
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 57
+				},
+				"color": "#FAF4F7"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 57
+				},
+				"color": "#FAF4F7"
 			}
 		],
 		"optic nerve": [
 			{
-				"volume": 0,
-				"label": 41
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 41
+				},
+				"color": "#30DA00"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 41
+				},
+				"color": "#30DA00"
 			}
 		],
 		"optic tract and optic chiasm": [
 			{
-				"volume": 0,
-				"label": 42
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 42
+				},
+				"color": "#267EFF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 42
+				},
+				"color": "#267EFF"
 			}
 		],
 		"supraoptic decussation": [
 			{
-				"volume": 0,
-				"label": 83
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 83
+				},
+				"color": "#FAAA40"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 83
+				},
+				"color": "#FAAA40"
 			}
 		],
 		"spinal trigeminal tract": [
 			{
-				"volume": 0,
-				"label": 76
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 76
+				},
+				"color": "#FA8072"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 76
+				},
+				"color": "#FA8072"
 			}
 		],
 		"commissure of the superior colliculus": [
 			{
-				"volume": 0,
-				"label": 46
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 46
+				},
+				"color": "#21E6FF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 46
+				},
+				"color": "#21E6FF"
 			}
 		],
 		"brachium of the superior colliculus": [
 			{
-				"volume": 0,
-				"label": 68
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 68
+				},
+				"color": "#BC20AD"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 68
+				},
+				"color": "#BC20AD"
 			}
 		],
 		"inferior colliculus, commissure": [
 			{
-				"volume": 0,
-				"label": 69
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 69
+				},
+				"color": "#FF2A27"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 69
+				},
+				"color": "#FF2A27"
 			}
 		],
 		"inferior colliculus, brachium": [
 			{
-				"volume": 0,
-				"label": 146
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 146
+				},
+				"color": "#B03A48"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 146
+				},
+				"color": "#B03A48"
 			}
 		],
 		"inferior cerebellar peduncle": [
 			{
-				"volume": 0,
-				"label": 7
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 7
+				},
+				"color": "#34FF0D"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 7
+				},
+				"color": "#34FF0D"
 			}
 		],
 		"middle cerebellar peduncle": [
 			{
-				"volume": 0,
-				"label": 78
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 78
+				},
+				"color": "#86CC4C"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 78
+				},
+				"color": "#86CC4C"
 			}
 		],
 		"transverse fibers of the pons": [
 			{
-				"volume": 0,
-				"label": 79
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 79
+				},
+				"color": "#80AAFF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 79
+				},
+				"color": "#80AAFF"
 			}
 		],
 		"lateral lemniscus, commissure": [
 			{
-				"volume": 0,
-				"label": 140
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 140
+				},
+				"color": "#FF1D00"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 140
+				},
+				"color": "#FF1D00"
 			}
 		],
 		"lateral lemniscus": [
 			{
-				"volume": 0,
-				"label": 141
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 141
+				},
+				"color": "#FFA600"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 141
+				},
+				"color": "#FFA600"
 			}
 		],
 		"acoustic striae": [
 			{
-				"volume": 0,
-				"label": 129
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 129
+				},
+				"color": "#FFD900"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 129
+				},
+				"color": "#FFD900"
 			}
 		],
 		"trapezoid body": [
 			{
-				"volume": 0,
-				"label": 130
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 130
+				},
+				"color": "#D5FF00"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 130
+				},
+				"color": "#D5FF00"
 			}
 		],
 		"auditory radiation": [
 			{
-				"volume": 0,
-				"label": 157
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 157
+				},
+				"color": "#F49CFF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 157
+				},
+				"color": "#F49CFF"
 			}
 		],
 		"glomerular layer of the accessory olfactory bulb": [
 			{
-				"volume": 0,
-				"label": 64
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 64
+				},
+				"color": "#0F6DE6"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 64
+				},
+				"color": "#0F6DE6"
 			}
 		],
 		"glomerular layer of the olfactory bulb": [
 			{
-				"volume": 0,
-				"label": 65
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 65
+				},
+				"color": "#FFE300"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 65
+				},
+				"color": "#FFE300"
 			}
 		],
 		"olfactory bulb": [
 			{
-				"volume": 0,
-				"label": 66
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 66
+				},
+				"color": "#FF8700"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 66
+				},
+				"color": "#FF8700"
 			}
 		],
 		"frontal association cortex": [
 			{
-				"volume": 0,
-				"label": 77
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 77
+				},
+				"color": "#CED307"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 77
+				},
+				"color": "#CED307"
 			}
 		],
 		"neocortex": [
 			{
-				"volume": 0,
-				"label": 92
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 92
+				},
+				"color": "#03C12D"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 92
+				},
+				"color": "#03C12D"
 			}
 		],
 		"cingulate cortex, area 2": [
 			{
-				"volume": 0,
-				"label": 10
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 10
+				},
+				"color": "#1D68EB"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 10
+				},
+				"color": "#1D68EB"
 			}
 		],
 		"postrhinal cortex": [
 			{
-				"volume": 0,
-				"label": 108
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 108
+				},
+				"color": "#287082"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 108
+				},
+				"color": "#287082"
 			}
 		],
 		"presubiculum": [
 			{
-				"volume": 0,
-				"label": 109
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 109
+				},
+				"color": "#507BAF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 109
+				},
+				"color": "#507BAF"
 			}
 		],
 		"parasubiculum": [
 			{
-				"volume": 0,
-				"label": 110
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 110
+				},
+				"color": "#173660"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 110
+				},
+				"color": "#173660"
 			}
 		],
 		"perirhinal area 35": [
 			{
-				"volume": 0,
-				"label": 112
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 112
+				},
+				"color": "#CD33FF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 112
+				},
+				"color": "#CD33FF"
 			}
 		],
 		"perirhinal area 36": [
 			{
-				"volume": 0,
-				"label": 113
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 113
+				},
+				"color": "#7030A0"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 113
+				},
+				"color": "#7030A0"
 			}
 		],
 		"entorhinal cortex": [
 			{
-				"volume": 0,
-				"label": 114
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 114
+				},
+				"color": "#7ABB33"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 114
+				},
+				"color": "#7ABB33"
 			}
 		],
 		"lateral entorhinal cortex": [
 			{
-				"volume": 0,
-				"label": 115
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 115
+				},
+				"color": "#5A6F2F"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 115
+				},
+				"color": "#5A6F2F"
 			}
 		],
 		"primary auditory cortex": [
 			{
-				"volume": 0,
-				"label": 151
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 151
+				},
+				"color": "#FFD700"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 151
+				},
+				"color": "#FFD700"
 			}
 		],
 		"secondary auditory cortex, dorsal area": [
 			{
-				"volume": 0,
-				"label": 152
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 152
+				},
+				"color": "#F0FFFF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 152
+				},
+				"color": "#F0FFFF"
 			}
 		],
 		"secondary auditory cortex, ventral area": [
 			{
-				"volume": 0,
-				"label": 153
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 153
+				},
+				"color": "#D8BFD8"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 153
+				},
+				"color": "#D8BFD8"
 			}
 		],
 		"cornu ammonis 3": [
 			{
-				"volume": 0,
-				"label": 95
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 95
+				},
+				"color": "#A5836B"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 95
+				},
+				"color": "#A5836B"
 			}
 		],
 		"dentate gyrus": [
 			{
-				"volume": 0,
-				"label": 96
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 96
+				},
+				"color": "#5B2D0A"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 96
+				},
+				"color": "#5B2D0A"
 			}
 		],
 		"cornu ammonis 2": [
 			{
-				"volume": 0,
-				"label": 97
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 97
+				},
+				"color": "#FFFF00"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 97
+				},
+				"color": "#FFFF00"
 			}
 		],
 		"cornu ammonis 1": [
 			{
-				"volume": 0,
-				"label": 98
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 98
+				},
+				"color": "#D9680D"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 98
+				},
+				"color": "#D9680D"
 			}
 		],
 		"fasciola cinereum": [
 			{
-				"volume": 0,
-				"label": 99
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 99
+				},
+				"color": "#FF0000"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 99
+				},
+				"color": "#FF0000"
 			}
 		],
 		"subiculum": [
 			{
-				"volume": 0,
-				"label": 100
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 100
+				},
+				"color": "#FFC000"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 100
+				},
+				"color": "#FFC000"
 			}
 		],
 		"striatum": [
 			{
-				"volume": 0,
-				"label": 30
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 30
+				},
+				"color": "#814FFF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 30
+				},
+				"color": "#814FFF"
 			}
 		],
 		"globus pallidus": [
 			{
-				"volume": 0,
-				"label": 31
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 31
+				},
+				"color": "#FF91BA"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 31
+				},
+				"color": "#FF91BA"
 			}
 		],
 		"entopeduncular nucleus": [
 			{
-				"volume": 0,
-				"label": 32
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 32
+				},
+				"color": "#1AE7FF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 32
+				},
+				"color": "#1AE7FF"
 			}
 		],
 		"subthalamic nucleus": [
 			{
-				"volume": 0,
-				"label": 3
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 3
+				},
+				"color": "#0000FF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 3
+				},
+				"color": "#0000FF"
 			}
 		],
 		"basal forebrain region": [
 			{
-				"volume": 0,
-				"label": 82
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 82
+				},
+				"color": "#E1F00D"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 82
+				},
+				"color": "#E1F00D"
 			}
 		],
 		"septal region": [
 			{
-				"volume": 0,
-				"label": 40
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 40
+				},
+				"color": "#FF0800"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 40
+				},
+				"color": "#FF0800"
 			}
 		],
 		"thalamus": [
 			{
-				"volume": 0,
-				"label": 39
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 39
+				},
+				"color": "#006400"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 39
+				},
+				"color": "#006400"
 			}
 		],
 		"medial geniculate body, medial division": [
 			{
-				"volume": 0,
-				"label": 147
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 147
+				},
+				"color": "#0AF4D9"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 147
+				},
+				"color": "#0AF4D9"
 			}
 		],
 		"medial geniculate body, dorsal division": [
 			{
-				"volume": 0,
-				"label": 148
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 148
+				},
+				"color": "#EFA300"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 148
+				},
+				"color": "#EFA300"
 			}
 		],
 		"medial geniculate body, ventral division": [
 			{
-				"volume": 0,
-				"label": 149
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 149
+				},
+				"color": "#833A1F"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 149
+				},
+				"color": "#833A1F"
 			}
 		],
 		"medial geniculate body, marginal zone": [
 			{
-				"volume": 0,
-				"label": 150
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 150
+				},
+				"color": "#FF2FF2"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 150
+				},
+				"color": "#FF2FF2"
 			}
 		],
 		"reticular thalamic nucleus, auditory segment": [
 			{
-				"volume": 0,
-				"label": 164
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 164
+				},
+				"color": "#6E00FF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 164
+				},
+				"color": "#6E00FF"
 			}
 		],
 		"bed nucleus of the stria terminalis": [
 			{
-				"volume": 0,
-				"label": 93
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 93
+				},
+				"color": "#0008B6"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 93
+				},
+				"color": "#0008B6"
 			}
 		],
 		"nucleus of the stria medullaris": [
 			{
-				"volume": 0,
-				"label": 81
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 81
+				},
+				"color": "#DE07ED"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 81
+				},
+				"color": "#DE07ED"
 			}
 		],
 		"hypothalamic region": [
 			{
-				"volume": 0,
-				"label": 48
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 48
+				},
+				"color": "#E278A1"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 48
+				},
+				"color": "#E278A1"
 			}
 		],
 		"pineal gland": [
 			{
-				"volume": 0,
-				"label": 43
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 43
+				},
+				"color": "#DAAA3E"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 43
+				},
+				"color": "#DAAA3E"
 			}
 		],
 		"inferior colliculus, dorsal cortex": [
 			{
-				"volume": 0,
-				"label": 142
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 142
+				},
+				"color": "#CEFF8E"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 142
+				},
+				"color": "#CEFF8E"
 			}
 		],
 		"inferior colliculus, central nucleus": [
 			{
-				"volume": 0,
-				"label": 143
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 143
+				},
+				"color": "#00EEFF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 143
+				},
+				"color": "#00EEFF"
 			}
 		],
 		"inferior colliculus, external cortex": [
 			{
-				"volume": 0,
-				"label": 145
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 145
+				},
+				"color": "#3088CB"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 145
+				},
+				"color": "#3088CB"
 			}
 		],
 		"pretectal region": [
 			{
-				"volume": 0,
-				"label": 94
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 94
+				},
+				"color": "#FF571E"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 94
+				},
+				"color": "#FF571E"
 			}
 		],
 		"superficial gray layer of the superior colliculus": [
 			{
-				"volume": 0,
-				"label": 50
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 50
+				},
+				"color": "#5600DD"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 50
+				},
+				"color": "#5600DD"
 			}
 		],
 		"deeper layers of the superior colliculus": [
 			{
-				"volume": 0,
-				"label": 55
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 55
+				},
+				"color": "#E1970F"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 55
+				},
+				"color": "#E1970F"
 			}
 		],
 		"substantia nigra": [
 			{
-				"volume": 0,
-				"label": 2
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 2
+				},
+				"color": "#FFBA00"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 2
+				},
+				"color": "#FFBA00"
 			}
 		],
 		"interpeduncular nucleus": [
 			{
-				"volume": 0,
-				"label": 71
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 71
+				},
+				"color": "#3FC0FF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 71
+				},
+				"color": "#3FC0FF"
 			}
 		],
 		"periaqueductal gray": [
 			{
-				"volume": 0,
-				"label": 51
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 51
+				},
+				"color": "#07FF59"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 51
+				},
+				"color": "#07FF59"
 			}
 		],
 		"pontine nuclei": [
 			{
-				"volume": 0,
-				"label": 58
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 58
+				},
+				"color": "#00D70B"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 58
+				},
+				"color": "#00D70B"
 			}
 		],
 		"molecular layer of the cerebellum": [
 			{
-				"volume": 0,
-				"label": 4
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 4
+				},
+				"color": "#FFFF00"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 4
+				},
+				"color": "#FFFF00"
 			}
 		],
 		"granule cell level of the cerebellum": [
 			{
-				"volume": 0,
-				"label": 5
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 5
+				},
+				"color": "#00FFFF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 5
+				},
+				"color": "#00FFFF"
 			}
 		],
 		"inferior olive": [
 			{
-				"volume": 0,
-				"label": 74
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 74
+				},
+				"color": "#00F60E"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 74
+				},
+				"color": "#00F60E"
 			}
 		],
 		"spinal trigeminal nucleus": [
 			{
-				"volume": 0,
-				"label": 75
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 75
+				},
+				"color": "#5BF1FF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 75
+				},
+				"color": "#5BF1FF"
 			}
 		],
 		"periventricular gray": [
 			{
-				"volume": 0,
-				"label": 56
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 56
+				},
+				"color": "#EB57FF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 56
+				},
+				"color": "#EB57FF"
 			}
 		],
 		"brainstem": [
 			{
-				"volume": 0,
-				"label": 47
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 47
+				},
+				"color": "#9953FF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 47
+				},
+				"color": "#9953FF"
 			}
 		],
 		"ventral cochlear nucleus, anterior part": [
 			{
-				"volume": 0,
-				"label": 158
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 158
+				},
+				"color": "#2298FF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 158
+				},
+				"color": "#2298FF"
 			}
 		],
 		"ventral cochlear nucleus, posterior part": [
 			{
-				"volume": 0,
-				"label": 159
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 159
+				},
+				"color": "#00E6CF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 159
+				},
+				"color": "#00E6CF"
 			}
 		],
 		"ventral cochlear nucleus, cap area": [
 			{
-				"volume": 0,
-				"label": 160
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 160
+				},
+				"color": "#00FF6A"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 160
+				},
+				"color": "#00FF6A"
 			}
 		],
 		"ventral cochlear nucleus, granule cell layer": [
 			{
-				"volume": 0,
-				"label": 123
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 123
+				},
+				"color": "#000CFF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 123
+				},
+				"color": "#000CFF"
 			}
 		],
 		"dorsal cochlear nucleus, molecular layer": [
 			{
-				"volume": 0,
-				"label": 126
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 126
+				},
+				"color": "#5C9CD3"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 126
+				},
+				"color": "#5C9CD3"
 			}
 		],
 		"dorsal cochlear nucleus, fusiform and granule layer": [
 			{
-				"volume": 0,
-				"label": 127
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 127
+				},
+				"color": "#00509C"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 127
+				},
+				"color": "#00509C"
 			}
 		],
 		"dorsal cochlear nucleus, deep core": [
 			{
-				"volume": 0,
-				"label": 128
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 128
+				},
+				"color": "#C5EEFF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 128
+				},
+				"color": "#C5EEFF"
 			}
 		],
 		"nucleus of the trapezoid body": [
 			{
-				"volume": 0,
-				"label": 131
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 131
+				},
+				"color": "#00FF51"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 131
+				},
+				"color": "#00FF51"
 			}
 		],
 		"superior paraolivary nucleus": [
 			{
-				"volume": 0,
-				"label": 132
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 132
+				},
+				"color": "#00EEFF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 132
+				},
+				"color": "#00EEFF"
 			}
 		],
 		"medial superior olive": [
 			{
-				"volume": 0,
-				"label": 133
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 133
+				},
+				"color": "#DBEF3D"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 133
+				},
+				"color": "#DBEF3D"
 			}
 		],
 		"lateral superior olive": [
 			{
-				"volume": 0,
-				"label": 134
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 134
+				},
+				"color": "#234CBE"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 134
+				},
+				"color": "#234CBE"
 			}
 		],
 		"superior periolivary region": [
 			{
-				"volume": 0,
-				"label": 135
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 135
+				},
+				"color": "#019915"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 135
+				},
+				"color": "#019915"
 			}
 		],
 		"ventral periolivary nuclei": [
 			{
-				"volume": 0,
-				"label": 136
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 136
+				},
+				"color": "#00AEFF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 136
+				},
+				"color": "#00AEFF"
 			}
 		],
 		"lateral lemniscus, ventral nucleus": [
 			{
-				"volume": 0,
-				"label": 137
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 137
+				},
+				"color": "#FF0073"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 137
+				},
+				"color": "#FF0073"
 			}
 		],
 		"lateral lemniscus, intermediate nucleus": [
 			{
-				"volume": 0,
-				"label": 138
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 138
+				},
+				"color": "#AB105B"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 138
+				},
+				"color": "#AB105B"
 			}
 		],
 		"lateral lemniscus, dorsal nucleus": [
 			{
-				"volume": 0,
-				"label": 139
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 139
+				},
+				"color": "#6C125B"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 139
+				},
+				"color": "#6C125B"
 			}
 		],
 		"nucleus sagulum": [
 			{
-				"volume": 0,
-				"label": 163
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 163
+				},
+				"color": "#63CD00"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 163
+				},
+				"color": "#63CD00"
 			}
 		],
 		"ventricular system": [
 			{
-				"volume": 0,
-				"label": 33
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 33
+				},
+				"color": "#022CFF"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 33
+				},
+				"color": "#022CFF"
 			}
 		],
 		"4th ventricle": [
 			{
-				"volume": 0,
-				"label": 125
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 125
+				},
+				"color": "#341D90"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 125
+				},
+				"color": "#341D90"
 			}
 		],
 		"spinal cord": [
 			{
-				"volume": 0,
-				"label": 45
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 45
+				},
+				"color": "#86FF5A"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 45
+				},
+				"color": "#86FF5A"
 			}
 		],
 		"central canal": [
 			{
-				"volume": 0,
-				"label": 70
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 70
+				},
+				"color": "#27F4FD"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 70
+				},
+				"color": "#27F4FD"
 			}
 		],
 		"vestibular apparatus": [
 			{
-				"volume": 0,
-				"label": 119
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 119
+				},
+				"color": "#009037"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 119
+				},
+				"color": "#009037"
 			}
 		],
 		"cochlea": [
 			{
-				"volume": 0,
-				"label": 120
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 120
+				},
+				"color": "#00FF1D"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 120
+				},
+				"color": "#00FF1D"
 			}
 		],
 		"cochlear nerve": [
 			{
-				"volume": 0,
-				"label": 121
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 121
+				},
+				"color": "#FD9400"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 121
+				},
+				"color": "#FD9400"
 			}
 		],
 		"vestibular nerve": [
 			{
-				"volume": 0,
-				"label": 122
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 122
+				},
+				"color": "#FD3200"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 122
+				},
+				"color": "#FD3200"
 			}
 		],
 		"spiral ganglion": [
 			{
-				"volume": 0,
-				"label": 162
+				"@type": "siibra/attr/data/image/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precomputed",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 162
+				},
+				"color": "#B9FFE9"
+			},
+			{
+				"@type": "siibra/attr/data/mesh/v0.1",
+				"space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
+				"format": "neuroglancer/precompmesh",
+				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
+				"volume_selection_options": {
+					"label": 162
+				},
+				"color": "#B9FFE9"
 			}
 		]
 	}
