@@ -10,8 +10,8 @@
 			"@type": "siibra/volume/v0.0.1",
 			"providers": {
 				"gii-label": {
-					"left hemisphere": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/JulichBrainAtlas_3.1/fsaverage_surface/lh.JulichBrainAtlas_3.1_colin27.label.gii",
-					"right hemisphere": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/JulichBrainAtlas_3.1/fsaverage_surface/rh.JulichBrainAtlas_3.1_colin27.label.gii"
+					"left hemisphere": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-f1fe19e8-99bd-44bc-9616-a52850680777/fsaverage_surface/lh.JulichBrainAtlas_3.1.label.gii",
+					"right hemisphere": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-f1fe19e8-99bd-44bc-9616-a52850680777/fsaverage_surface/rh.JulichBrainAtlas_3.1.label.gii"
 				}
 			}
 		}
@@ -102,7 +102,7 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area TPJ (STG,SMG) - left hemisphere": [
+		"Area TPJ (STG, SMG) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 13,
@@ -564,14 +564,14 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area IFJ1 (IFS,PreCS) - left hemisphere": [
+		"Area IFJ1 (IFS, PreCS) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 79,
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area IFJ2 (IFS,PreCS) - left hemisphere": [
+		"Area IFJ2 (IFS, PreCS) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 80,
@@ -823,7 +823,7 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area 6v0 (PreCG) - left hemisphere": [
+		"Area 6v2 (PreCG) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 116,
@@ -942,7 +942,7 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area FG5  (FusG) - left hemisphere": [
+		"Area FG5 (FusG) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 133,
@@ -1005,7 +1005,7 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area SFG3 (SFG - left hemisphere": [
+		"Area SFG3 (SFG) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 142,
@@ -1026,10 +1026,17 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area MFG5 (MFG,IFG) - left hemisphere": [
+		"Area MFG5 (MFG, IFG) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 145,
+				"fragment": "left hemisphere"
+			}
+		],
+		"Area 6v3 (PreCG) - left hemisphere": [
+			{
+				"volume": 0,
+				"label": 146,
 				"fragment": "left hemisphere"
 			}
 		],
@@ -1117,7 +1124,7 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area TPJ (STG,SMG) - right hemisphere": [
+		"Area TPJ (STG, SMG) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 13,
@@ -1579,14 +1586,14 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area IFJ1 (IFS,PreCS) - right hemisphere": [
+		"Area IFJ1 (IFS, PreCS) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 79,
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area IFJ2 (IFS,PreCS) - right hemisphere": [
+		"Area IFJ2 (IFS, PreCS) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 80,
@@ -1838,7 +1845,7 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area 6v0 (PreCG) - right hemisphere": [
+		"Area 6v2 (PreCG) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 116,
@@ -1957,7 +1964,7 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area FG5  (FusG) - right hemisphere": [
+		"Area FG5 (FusG) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 133,
@@ -2020,7 +2027,7 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area SFG3 (SFG - right hemisphere": [
+		"Area SFG3 (SFG) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 142,
@@ -2041,54 +2048,17 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area MFG5 (MFG,IFG) - right hemisphere": [
+		"Area MFG5 (MFG, IFG) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 145,
 				"fragment": "right hemisphere"
 			}
-		]
-	},
-	"unmappedIndicies": {
-		"Unknown - left hemisphere": [
-			{
-				"volume": 0,
-				"label": 0,
-				"fragment": "left hemisphere"
-			}
 		],
-		"Unknown - right hemisphere": [
-			{
-				"volume": 0,
-				"label": 0,
-				"fragment": "right hemisphere"
-			}
-		],
-		"CorpusCallosumMask - left hemisphere": [
+		"Area 6v3 (PreCG) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 146,
-				"fragment": "left hemisphere"
-			}
-		],
-		"BrainStemMask - left hemisphere": [
-			{
-				"volume": 0,
-				"label": 147,
-				"fragment": "left hemisphere"
-			}
-		],
-		"CorpusCallosumMask - right hemisphere": [
-			{
-				"volume": 0,
-				"label": 146,
-				"fragment": "right hemisphere"
-			}
-		],
-		"BrainStemMask - right hemisphere": [
-			{
-				"volume": 0,
-				"label": 147,
 				"fragment": "right hemisphere"
 			}
 		]
