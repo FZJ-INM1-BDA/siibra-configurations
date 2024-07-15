@@ -36,24 +36,10 @@
             "@type": "siibra/attr/data/mesh/v0.1",
             "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
             "format": "gii-mesh",
-            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/lh.white.gii",
-            "x-siibra/volume-variant": "white matter",
-            "x-siibra/volume-fragment": "left hemisphere"
-        },
-        {
-            "@type": "siibra/attr/data/mesh/v0.1",
-            "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-            "format": "gii-mesh",
-            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/rh.white.gii",
-            "x-siibra/volume-variant": "white matter",
-            "x-siibra/volume-fragment": "right hemisphere"
-        },
-        {
-            "@type": "siibra/attr/data/mesh/v0.1",
-            "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-            "format": "gii-mesh",
             "url": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/lh.pial.gii",
-            "x-siibra/volume-variant": "pial",
+            "mapping": {
+                "pial": {}
+            },
             "x-siibra/volume-fragment": "left hemisphere"
         },
         {
@@ -61,7 +47,29 @@
             "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
             "format": "gii-mesh",
             "url": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/rh.pial.gii",
-            "x-siibra/volume-variant": "pial",
+            "mapping": {
+                "pial": {}
+            },
+            "x-siibra/volume-fragment": "right hemisphere"
+        },
+        {
+            "@type": "siibra/attr/data/mesh/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+            "format": "gii-mesh",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/lh.white.gii",
+            "mapping": {
+                "white matter": {}
+            },
+            "x-siibra/volume-fragment": "left hemisphere"
+        },
+        {
+            "@type": "siibra/attr/data/mesh/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
+            "format": "gii-mesh",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/freesurfer/20210305/fsaverage/fsaverage/rh.white.gii",
+            "mapping": {
+                "white matter": {}
+            },
             "x-siibra/volume-fragment": "right hemisphere"
         },
         {
@@ -69,7 +77,9 @@
             "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
             "format": "gii-mesh",
             "url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa7-translated-inflated/lh.inflated.surf.gii",
-            "x-siibra/volume-variant": "inflated",
+            "mapping": {
+                "inflated": {}
+            },
             "x-siibra/volume-fragment": "left hemisphere"
         },
         {
@@ -77,7 +87,9 @@
             "space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
             "format": "gii-mesh",
             "url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo/20210415-new-freesurfer/fsa7-translated-inflated/rh.inflated.surf.gii",
-            "x-siibra/volume-variant": "inflated",
+            "mapping": {
+                "inflated": {}
+            },
             "x-siibra/volume-fragment": "right hemisphere"
         }
     ]

@@ -20,1123 +20,367 @@
 			"@type": "siibra/attr/data/image/v0.1",
 			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
 			"format": "nii",
-			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz"
+			"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
+			"mapping": {
+				"Direct segment of the left arcuate fasciculus": {
+					"label": 1
+				},
+				"Direct segment of the right arcuate fasciculus": {
+					"label": 31
+				},
+				"Anterior segment of the left arcuate fasciculus": {
+					"label": 2
+				},
+				"Anterior segment of the right arcuate fasciculus": {
+					"label": 32
+				},
+				"Posterior segment of the left arcuate fasciculus": {
+					"label": 3
+				},
+				"Posterior segment of the right arcuate fasciculus": {
+					"label": 33
+				},
+				"Left long cingulate fibres": {
+					"label": 4
+				},
+				"Right long cingulate fibres": {
+					"label": 34
+				},
+				"Left short cingulate fibres": {
+					"label": 5
+				},
+				"Right short cingulate fibres": {
+					"label": 35
+				},
+				"Left temporal cingulate fibres": {
+					"label": 6
+				},
+				"Right temporal cingulate fibres": {
+					"label": 36
+				},
+				"CorpusCallosum_Body": {
+					"label": 7
+				},
+				"CorpusCallosum_Genu": {
+					"label": 8
+				},
+				"CorpusCallosum_Rostrum": {
+					"label": 9
+				},
+				"CorpusCallosum_Splenium": {
+					"label": 10
+				},
+				"Left corticospinal tract": {
+					"label": 11
+				},
+				"Right corticospinal tract": {
+					"label": 41
+				},
+				"ExternalCapsule - Left": {
+					"label": 12
+				},
+				"ExternalCapsule - Right": {
+					"label": 42
+				},
+				"Left fornix": {
+					"label": 13
+				},
+				"Right fornix": {
+					"label": 43
+				},
+				"Left inferior fronto-occipital fasciculus": {
+					"label": 14
+				},
+				"Right inferior fronto-occipital fasciculus": {
+					"label": 44
+				},
+				"Left inferior longitudinal fasciculus": {
+					"label": 15
+				},
+				"Right inferior longitudinal fasciculus": {
+					"label": 45
+				},
+				"InferiorLongitudinal_Lateral - Left": {
+					"label": 16
+				},
+				"InferiorLongitudinal_Lateral - Right": {
+					"label": 46
+				},
+				"MediumLongitudinal - Left": {
+					"label": 17
+				},
+				"MediumLongitudinal - Right": {
+					"label": 47
+				},
+				"SpinoThalamicTract - Left": {
+					"label": 18
+				},
+				"SpinoThalamicTract - Right": {
+					"label": 48
+				},
+				"ThalamicRadiations_Anterior - Left": {
+					"label": 19
+				},
+				"ThalamicRadiations_Anterior - Right": {
+					"label": 49
+				},
+				"ThalamicRadiations_Posterior - Left": {
+					"label": 20
+				},
+				"ThalamicRadiations_Posterior - Right": {
+					"label": 50
+				},
+				"Left uncinate fasciculus": {
+					"label": 21
+				},
+				"Right uncinate fasciculus": {
+					"label": 51
+				}
+			}
 		},
 		{
 			"@type": "siibra/attr/data/image/v0.1",
 			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
 			"format": "neuroglancer/precomputed",
-			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob"
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
+			"mapping": {
+				"Direct segment of the left arcuate fasciculus": {
+					"label": 1
+				},
+				"Direct segment of the right arcuate fasciculus": {
+					"label": 31
+				},
+				"Anterior segment of the left arcuate fasciculus": {
+					"label": 2
+				},
+				"Anterior segment of the right arcuate fasciculus": {
+					"label": 32
+				},
+				"Posterior segment of the left arcuate fasciculus": {
+					"label": 3
+				},
+				"Posterior segment of the right arcuate fasciculus": {
+					"label": 33
+				},
+				"Left long cingulate fibres": {
+					"label": 4
+				},
+				"Right long cingulate fibres": {
+					"label": 34
+				},
+				"Left short cingulate fibres": {
+					"label": 5
+				},
+				"Right short cingulate fibres": {
+					"label": 35
+				},
+				"Left temporal cingulate fibres": {
+					"label": 6
+				},
+				"Right temporal cingulate fibres": {
+					"label": 36
+				},
+				"CorpusCallosum_Body": {
+					"label": 7
+				},
+				"CorpusCallosum_Genu": {
+					"label": 8
+				},
+				"CorpusCallosum_Rostrum": {
+					"label": 9
+				},
+				"CorpusCallosum_Splenium": {
+					"label": 10
+				},
+				"Left corticospinal tract": {
+					"label": 11
+				},
+				"Right corticospinal tract": {
+					"label": 41
+				},
+				"ExternalCapsule - Left": {
+					"label": 12
+				},
+				"ExternalCapsule - Right": {
+					"label": 42
+				},
+				"Left fornix": {
+					"label": 13
+				},
+				"Right fornix": {
+					"label": 43
+				},
+				"Left inferior fronto-occipital fasciculus": {
+					"label": 14
+				},
+				"Right inferior fronto-occipital fasciculus": {
+					"label": 44
+				},
+				"Left inferior longitudinal fasciculus": {
+					"label": 15
+				},
+				"Right inferior longitudinal fasciculus": {
+					"label": 45
+				},
+				"InferiorLongitudinal_Lateral - Left": {
+					"label": 16
+				},
+				"InferiorLongitudinal_Lateral - Right": {
+					"label": 46
+				},
+				"MediumLongitudinal - Left": {
+					"label": 17
+				},
+				"MediumLongitudinal - Right": {
+					"label": 47
+				},
+				"SpinoThalamicTract - Left": {
+					"label": 18
+				},
+				"SpinoThalamicTract - Right": {
+					"label": 48
+				},
+				"ThalamicRadiations_Anterior - Left": {
+					"label": 19
+				},
+				"ThalamicRadiations_Anterior - Right": {
+					"label": 49
+				},
+				"ThalamicRadiations_Posterior - Left": {
+					"label": 20
+				},
+				"ThalamicRadiations_Posterior - Right": {
+					"label": 50
+				},
+				"Left uncinate fasciculus": {
+					"label": 21
+				},
+				"Right uncinate fasciculus": {
+					"label": 51
+				}
+			}
 		},
 		{
 			"@type": "siibra/attr/data/mesh/v0.1",
 			"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
 			"format": "neuroglancer/precompmesh",
-			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob"
+			"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
+			"mapping": {
+				"Direct segment of the left arcuate fasciculus": {
+					"label": 1
+				},
+				"Direct segment of the right arcuate fasciculus": {
+					"label": 31
+				},
+				"Anterior segment of the left arcuate fasciculus": {
+					"label": 2
+				},
+				"Anterior segment of the right arcuate fasciculus": {
+					"label": 32
+				},
+				"Posterior segment of the left arcuate fasciculus": {
+					"label": 3
+				},
+				"Posterior segment of the right arcuate fasciculus": {
+					"label": 33
+				},
+				"Left long cingulate fibres": {
+					"label": 4
+				},
+				"Right long cingulate fibres": {
+					"label": 34
+				},
+				"Left short cingulate fibres": {
+					"label": 5
+				},
+				"Right short cingulate fibres": {
+					"label": 35
+				},
+				"Left temporal cingulate fibres": {
+					"label": 6
+				},
+				"Right temporal cingulate fibres": {
+					"label": 36
+				},
+				"CorpusCallosum_Body": {
+					"label": 7
+				},
+				"CorpusCallosum_Genu": {
+					"label": 8
+				},
+				"CorpusCallosum_Rostrum": {
+					"label": 9
+				},
+				"CorpusCallosum_Splenium": {
+					"label": 10
+				},
+				"Left corticospinal tract": {
+					"label": 11
+				},
+				"Right corticospinal tract": {
+					"label": 41
+				},
+				"ExternalCapsule - Left": {
+					"label": 12
+				},
+				"ExternalCapsule - Right": {
+					"label": 42
+				},
+				"Left fornix": {
+					"label": 13
+				},
+				"Right fornix": {
+					"label": 43
+				},
+				"Left inferior fronto-occipital fasciculus": {
+					"label": 14
+				},
+				"Right inferior fronto-occipital fasciculus": {
+					"label": 44
+				},
+				"Left inferior longitudinal fasciculus": {
+					"label": 15
+				},
+				"Right inferior longitudinal fasciculus": {
+					"label": 45
+				},
+				"InferiorLongitudinal_Lateral - Left": {
+					"label": 16
+				},
+				"InferiorLongitudinal_Lateral - Right": {
+					"label": 46
+				},
+				"MediumLongitudinal - Left": {
+					"label": 17
+				},
+				"MediumLongitudinal - Right": {
+					"label": 47
+				},
+				"SpinoThalamicTract - Left": {
+					"label": 18
+				},
+				"SpinoThalamicTract - Right": {
+					"label": 48
+				},
+				"ThalamicRadiations_Anterior - Left": {
+					"label": 19
+				},
+				"ThalamicRadiations_Anterior - Right": {
+					"label": 49
+				},
+				"ThalamicRadiations_Posterior - Left": {
+					"label": 20
+				},
+				"ThalamicRadiations_Posterior - Right": {
+					"label": 50
+				},
+				"Left uncinate fasciculus": {
+					"label": 21
+				},
+				"Right uncinate fasciculus": {
+					"label": 51
+				}
+			}
 		}
-	],
-	"region_attributes": {
-		"Direct segment of the left arcuate fasciculus": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 1
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 1
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 1
-				}
-			}
-		],
-		"Direct segment of the right arcuate fasciculus": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 31
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 31
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 31
-				}
-			}
-		],
-		"Anterior segment of the left arcuate fasciculus": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 2
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 2
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 2
-				}
-			}
-		],
-		"Anterior segment of the right arcuate fasciculus": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 32
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 32
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 32
-				}
-			}
-		],
-		"Posterior segment of the left arcuate fasciculus": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 3
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 3
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 3
-				}
-			}
-		],
-		"Posterior segment of the right arcuate fasciculus": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 33
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 33
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 33
-				}
-			}
-		],
-		"Left long cingulate fibres": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 4
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 4
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 4
-				}
-			}
-		],
-		"Right long cingulate fibres": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 34
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 34
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 34
-				}
-			}
-		],
-		"Left short cingulate fibres": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 5
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 5
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 5
-				}
-			}
-		],
-		"Right short cingulate fibres": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 35
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 35
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 35
-				}
-			}
-		],
-		"Left temporal cingulate fibres": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 6
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 6
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 6
-				}
-			}
-		],
-		"Right temporal cingulate fibres": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 36
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 36
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 36
-				}
-			}
-		],
-		"CorpusCallosum_Body": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 7
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 7
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 7
-				}
-			}
-		],
-		"CorpusCallosum_Genu": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 8
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 8
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 8
-				}
-			}
-		],
-		"CorpusCallosum_Rostrum": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 9
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 9
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 9
-				}
-			}
-		],
-		"CorpusCallosum_Splenium": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 10
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 10
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 10
-				}
-			}
-		],
-		"Left corticospinal tract": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 11
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 11
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 11
-				}
-			}
-		],
-		"Right corticospinal tract": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 41
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 41
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 41
-				}
-			}
-		],
-		"ExternalCapsule - Left": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 12
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 12
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 12
-				}
-			}
-		],
-		"ExternalCapsule - Right": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 42
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 42
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 42
-				}
-			}
-		],
-		"Left fornix": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 13
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 13
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 13
-				}
-			}
-		],
-		"Right fornix": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 43
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 43
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 43
-				}
-			}
-		],
-		"Left inferior fronto-occipital fasciculus": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 14
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 14
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 14
-				}
-			}
-		],
-		"Right inferior fronto-occipital fasciculus": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 44
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 44
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 44
-				}
-			}
-		],
-		"Left inferior longitudinal fasciculus": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 15
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 15
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 15
-				}
-			}
-		],
-		"Right inferior longitudinal fasciculus": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 45
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 45
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 45
-				}
-			}
-		],
-		"InferiorLongitudinal_Lateral - Left": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 16
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 16
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 16
-				}
-			}
-		],
-		"InferiorLongitudinal_Lateral - Right": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 46
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 46
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 46
-				}
-			}
-		],
-		"MediumLongitudinal - Left": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 17
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 17
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 17
-				}
-			}
-		],
-		"MediumLongitudinal - Right": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 47
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 47
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 47
-				}
-			}
-		],
-		"SpinoThalamicTract - Left": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 18
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 18
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 18
-				}
-			}
-		],
-		"SpinoThalamicTract - Right": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 48
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 48
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 48
-				}
-			}
-		],
-		"ThalamicRadiations_Anterior - Left": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 19
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 19
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 19
-				}
-			}
-		],
-		"ThalamicRadiations_Anterior - Right": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 49
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 49
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 49
-				}
-			}
-		],
-		"ThalamicRadiations_Posterior - Left": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 20
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 20
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 20
-				}
-			}
-		],
-		"ThalamicRadiations_Posterior - Right": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 50
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 50
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 50
-				}
-			}
-		],
-		"Left uncinate fasciculus": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 21
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 21
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 21
-				}
-			}
-		],
-		"Right uncinate fasciculus": [
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "nii",
-				"url": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
-				"volume_selection_options": {
-					"label": 51
-				}
-			},
-			{
-				"@type": "siibra/attr/data/image/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precomputed",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 51
-				}
-			},
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
-				"format": "neuroglancer/precompmesh",
-				"url": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
-				"volume_selection_options": {
-					"label": 51
-				}
-			}
-		]
-	}
+	]
 }

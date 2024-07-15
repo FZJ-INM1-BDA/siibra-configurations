@@ -24,6 +24,76 @@
 			"archive_options": {
 				"format": "zip",
 				"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
+			},
+			"mapping": {
+				"lh_mFus_faces": {
+					"color": "#ff0000",
+					"label": 1
+				},
+				"lh_pFus_faces": {
+					"color": "#a00000",
+					"label": 2
+				},
+				"lh_IOG_faces": {
+					"color": "#de2d26",
+					"label": 3
+				},
+				"lh_OTS_bodies": {
+					"color": "#00e600",
+					"label": 4
+				},
+				"lh_ITG_bodies": {
+					"color": "#edf8e9",
+					"label": 5
+				},
+				"lh_MTG_bodies": {
+					"color": "#74c476",
+					"label": 6
+				},
+				"lh_LOS_bodies": {
+					"color": "#31a354",
+					"label": 7
+				},
+				"lh_pOTS_characters": {
+					"color": "#090909",
+					"label": 8
+				},
+				"lh_IOS_haracters": {
+					"color": "#edf8e9",
+					"label": 9
+				},
+				"lh_CoS_places": {
+					"color": "#54278f",
+					"label": 10
+				},
+				"lh_hMT": {
+					"color": "#54278f",
+					"label": 11
+				},
+				"lh_v1d": {
+					"color": "#54278f",
+					"label": 12
+				},
+				"lh_v2d": {
+					"color": "#54278f",
+					"label": 13
+				},
+				"lh_v3d": {
+					"color": "#54278f",
+					"label": 14
+				},
+				"lh_v1v": {
+					"color": "#54278f",
+					"label": 15
+				},
+				"lh_v2v": {
+					"color": "#54278f",
+					"label": 16
+				},
+				"lh_v3v": {
+					"color": "#54278f",
+					"label": 17
+				}
 			}
 		},
 		{
@@ -34,537 +104,73 @@
 			"archive_options": {
 				"format": "zip",
 				"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
+			},
+			"mapping": {
+				"rh_mFus_faces": {
+					"color": "#ff0000",
+					"label": 1
+				},
+				"rh_pFus_faces": {
+					"color": "#ff0000",
+					"label": 2
+				},
+				"rh_IOG_faces": {
+					"color": "#de2d26",
+					"label": 3
+				},
+				"rh_OTS_bodies": {
+					"color": "#00e600",
+					"label": 4
+				},
+				"rh_ITG_bodies": {
+					"color": "#edf8e9",
+					"label": 5
+				},
+				"rh_MTG_bodies": {
+					"color": "#74c476",
+					"label": 6
+				},
+				"rh_LOS_bodies": {
+					"color": "#31a354",
+					"label": 7
+				},
+				"rh_CoS_places": {
+					"color": "#54278f",
+					"label": 8
+				},
+				"rh_TOS_places": {
+					"color": "#756bb1",
+					"label": 9
+				},
+				"rh_hMT": {
+					"color": "#756bb1",
+					"label": 10
+				},
+				"rh_v1d": {
+					"color": "#756bb1",
+					"label": 11
+				},
+				"rh_v2d": {
+					"color": "#756bb1",
+					"label": 12
+				},
+				"rh_v3d": {
+					"color": "#756bb1",
+					"label": 13
+				},
+				"rh_v1v": {
+					"color": "#756bb1",
+					"label": 14
+				},
+				"rh_v2v": {
+					"color": "#756bb1",
+					"label": 15
+				},
+				"rh_v3v": {
+					"color": "#756bb1",
+					"label": 16
+				}
 			}
 		}
-	],
-	"region_attributes": {
-		"lh_mFus_faces": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 1
-				},
-				"color": "#ff0000"
-			}
-		],
-		"lh_pFus_faces": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 2
-				},
-				"color": "#a00000"
-			}
-		],
-		"lh_IOG_faces": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 3
-				},
-				"color": "#de2d26"
-			}
-		],
-		"lh_OTS_bodies": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 4
-				},
-				"color": "#00e600"
-			}
-		],
-		"lh_ITG_bodies": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 5
-				},
-				"color": "#edf8e9"
-			}
-		],
-		"lh_MTG_bodies": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 6
-				},
-				"color": "#74c476"
-			}
-		],
-		"lh_LOS_bodies": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 7
-				},
-				"color": "#31a354"
-			}
-		],
-		"lh_pOTS_characters": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 8
-				},
-				"color": "#090909"
-			}
-		],
-		"lh_IOS_haracters": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 9
-				},
-				"color": "#edf8e9"
-			}
-		],
-		"lh_CoS_places": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 10
-				},
-				"color": "#54278f"
-			}
-		],
-		"lh_hMT": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 11
-				},
-				"color": "#54278f"
-			}
-		],
-		"lh_v1d": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 12
-				},
-				"color": "#54278f"
-			}
-		],
-		"lh_v2d": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 13
-				},
-				"color": "#54278f"
-			}
-		],
-		"lh_v3d": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 14
-				},
-				"color": "#54278f"
-			}
-		],
-		"lh_v1v": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 15
-				},
-				"color": "#54278f"
-			}
-		],
-		"lh_v2v": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 16
-				},
-				"color": "#54278f"
-			}
-		],
-		"lh_v3v": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/lh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 17
-				},
-				"color": "#54278f"
-			}
-		],
-		"rh_mFus_faces": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 1
-				},
-				"color": "#ff0000"
-			}
-		],
-		"rh_pFus_faces": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 2
-				},
-				"color": "#ff0000"
-			}
-		],
-		"rh_IOG_faces": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 3
-				},
-				"color": "#de2d26"
-			}
-		],
-		"rh_OTS_bodies": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 4
-				},
-				"color": "#00e600"
-			}
-		],
-		"rh_ITG_bodies": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 5
-				},
-				"color": "#edf8e9"
-			}
-		],
-		"rh_MTG_bodies": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 6
-				},
-				"color": "#74c476"
-			}
-		],
-		"rh_LOS_bodies": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 7
-				},
-				"color": "#31a354"
-			}
-		],
-		"rh_CoS_places": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 8
-				},
-				"color": "#54278f"
-			}
-		],
-		"rh_TOS_places": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 9
-				},
-				"color": "#756bb1"
-			}
-		],
-		"rh_hMT": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 10
-				},
-				"color": "#756bb1"
-			}
-		],
-		"rh_v1d": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 11
-				},
-				"color": "#756bb1"
-			}
-		],
-		"rh_v2d": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 12
-				},
-				"color": "#756bb1"
-			}
-		],
-		"rh_v3d": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 13
-				},
-				"color": "#756bb1"
-			}
-		],
-		"rh_v1v": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 14
-				},
-				"color": "#756bb1"
-			}
-		],
-		"rh_v2v": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 15
-				},
-				"color": "#756bb1"
-			}
-		],
-		"rh_v3v": [
-			{
-				"@type": "siibra/attr/data/mesh/v0.1",
-				"space_id": "minds/core/referencespace/v1.0.0/tmp-fsaverage",
-				"format": "freesurfer-annot",
-				"url": "https://download.brainvoyager.com/data/visfAtlas.zip",
-				"archive_options": {
-					"format": "zip",
-					"file": "visfAtlas/FreeSurfer/rh.visfAtlas.annot"
-				},
-				"volume_selection_options": {
-					"label": 16
-				},
-				"color": "#756bb1"
-			}
-		]
-	}
+	]
 }
