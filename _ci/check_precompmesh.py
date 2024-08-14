@@ -3,6 +3,7 @@ import json
 from concurrent.futures import ThreadPoolExecutor
 import requests
 from enum import Enum
+from typing import List
 
 PATH_TO_MAPS = "./maps"
 MAX_WORKERS = 4
@@ -14,71 +15,43 @@ class ValidationResult(Enum):
 
 PRECOMPMESH = "neuroglancer/precompmesh"
 PRECOMPUTED = "neuroglancer/precomputed"
+IMAGE_TYPE = "siibra/attr/data/image/v0.1"
 
-def check_url(url: str, regionname: str):
+def check_url(url: str):
     try:
         resp = requests.get(url)
         resp.raise_for_status()
-        assert "fragments" in resp.json()
+        assert "fragments" in resp.json(), f"fragment key not found for {url}"
         return (
-            url, regionname,
+            url,
             ValidationResult.PASSED,
             None
         )
     except Exception as e:
         return (
-            url, regionname,
+            url,
             ValidationResult.FAILED,
             str(e)
         )
 
-def check_volume(arg):
-    full_filname, vol_idx, volume, indices = arg
-    try:
-        assert PRECOMPUTED in volume.get("providers"), f"volume should have neuroglancer/precompmesh, but does not. url keys are: {volume.get('providers').keys()}"
-        precomp_url = volume["providers"][PRECOMPUTED]
+def check_ng_precomp_volume(url: str, indices: List[int]):
 
-        def check_provider(url):
-            resp = requests.get(f"{url}/info")
-            resp.raise_for_status()
-            precomp_info = resp.json()
-            assert ("mesh" in precomp_info) == (PRECOMPMESH in volume.get("providers")), f"Error in: {full_filname} volidx: {vol_idx}: mesh key exist in precomputed: {'mesh' in precomp_info}, precomputed mesh url exists: {PRECOMPMESH in volume.get('providers')}"
+    resp = requests.get(f"{url}/info")
+    resp.raise_for_status()
+    precomp_info = resp.json()
+    assert "mesh" in precomp_info, f"mesh key does not exist in precompmesh"
 
-            if "mesh" in precomp_info:
-                mesh_path = precomp_info["mesh"]
-                regions_to_check = [(region, mapped_index.get("label"))
-                    for region, mapped_indicies in indices.items()
-                    for mapped_index in mapped_indicies
-                    if mapped_index.get("volume") == vol_idx]
-                
-                print(f"Checking {url} ... {len(regions_to_check)} labels.")
-                with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
-                    indicies_result = ex.map(
-                        check_url,
-                        [f"{url}/{mesh_path}/{item[1]}:0" for item in regions_to_check],
-                        [item[0] for item in regions_to_check]
-                    )
-                failed = [result for result in indicies_result if result[-2] == ValidationResult.FAILED]
-                assert len(failed) == 0, f"""region indices mapping failed, {', '.join([f[-1] for f in failed])}"""
+    mesh_path = precomp_info["mesh"]
 
-        if isinstance(precomp_url, dict):
-            for url in precomp_url.values():
-                check_provider(url)
-        elif isinstance(precomp_url, str):
-            check_provider(precomp_url)
-        else:
-            raise ValueError(f"precompurl not a dict nor a str")
-        return (
-            full_filname, vol_idx, volume, indices,
-            ValidationResult.PASSED,
-            None
-        )
-    except Exception as e:
-        return (
-            full_filname, vol_idx, volume, indices,
-            ValidationResult.FAILED,
-            str(e)
-        )
+    urls_to_check = [f"{url}/{mesh_path}/{idx}:0" for idx in indices]
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+        return [
+            (result, err)
+            for url, result, err in ex.map(
+                check_url,
+                indices
+            )
+        ]
 
 def iterate_jsons(path_to_walk:str="."):
     for dirpath, dirnames, filenames in os.walk(path_to_walk):
@@ -93,25 +66,49 @@ def iterate_jsons(path_to_walk:str="."):
 
 
 def main():
-    args = [
-        (full_filname, vol_idx, volume, map_json.get("indices") )
-        for full_filname, _, map_json in iterate_jsons(PATH_TO_MAPS)
-        for vol_idx, volume in enumerate(map_json.get("volumes"))
-        if PRECOMPUTED in volume.get("providers") or PRECOMPMESH in volume.get("providers")
+    failed = []
+    skipped = []
+    attrs = [
+        (full_filname, attr_idx, attr, 
+        [
+            (regionname, mapping.get("label"))
+            for regionname, mapping in attr.get("mappin", {}).items()
+        ])
+        for full_filname, _, map_json in iterate_jsons()
+        for attr_idx, attr in enumerate(map_json.get("attributes", []))
+        if (
+            attr.get("@type") == IMAGE_TYPE
+            and attr.get("format") == PRECOMPMESH
+        )
     ]
 
-    print(f"Main: {len(args)} maps.")
+    filtered_attrs = []
+    for full_filname, attr_idx, attr, list_t_regionname_label  in attrs:
+        if any(label is None for regionname, label in list_t_regionname_label):
+            failed.append(
+                (ValidationResult.FAILED, f"{full_filname} validation failed. attibute at index {attr_idx}, some mapping does not have label key")
+            )
+            continue
+        filtered_attrs.append(
+            (full_filname, attr_idx, attr, list_t_regionname_label)
+        )
+    urls = [attr.get("url") for full_filname, attr_idx, attr, list_t_regionname_label in filtered_attrs]
+    indices = [[label for regionname, label in list_t_regionname_label]
+               for full_filname, attr_idx, attr, list_t_regionname_label in filtered_attrs]
+
+    print(f"Main: {len(attrs)} maps.")
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
-        result = list(ex.map(check_volume, args))
+        result = [v for ll in list(ex.map(check_ng_precomp_volume, urls, indices))
+                  for v in ll]
 
-    passed = [r for r in result if r[-2] == ValidationResult.PASSED]
-    failed = [r for r in result if r[-2] == ValidationResult.FAILED]
-    skipped = [r for r in result if r[-2] == ValidationResult.SKIPPED]
+    passed = [(r, text) for r, text in result if r == ValidationResult.PASSED]
+    failed += [(r, text) for r, text in result if r == ValidationResult.FAILED]
+    skipped += [(r, text) for r, text in result if r == ValidationResult.SKIPPED]
 
-    print(f"PASSED: {len(passed)}, FAILED: {len(failed)}, SKIPPED: {len(skipped)}, TOTAL: {len(args)} {len(result)}")
+    print(f"PASSED: {len(passed)}, FAILED: {len(failed)}, SKIPPED: {len(skipped)}, TOTAL: {len(attrs)} {len(result)}")
     with open("./missing.txt", "w") as fp:
-        fp.write("\n".join([f[-1] for f in failed]))
+        fp.write("\n".join([text for f, text in failed]))
         fp.write("\n")
-    assert len(failed) == 0, "\n".join([f[-1] for f in failed])
+    assert len(failed) == 0, "\n".join([text for f, text in failed])
 if __name__ == "__main__":
     main()
