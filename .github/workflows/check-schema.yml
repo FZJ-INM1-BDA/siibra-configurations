@@ -22,7 +22,7 @@ jobs:
         ref: 'main'
     
     - name: move siibra-python one up from workspace
-      run: mv siibra-python-${{ github.run_id }}-${{ github.run_number }} ../siibra-schema
+      run: mv siibra-schema-${{ github.run_id }}-${{ github.run_number }} ../siibra-schema
 
     - name: Install requirements
       run: pip install -r ../siibra-schema/requirements.txt

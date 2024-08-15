@@ -1,9 +1,6 @@
 name: '[test] check maps precompmesh'
 
-on:
-  push:
-    paths:
-    - 'maps/**.json'
+on: [push]
 
 jobs:
   check_maps_precompmesh:

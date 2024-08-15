@@ -1,18 +1,14 @@
 {
-    "@type": "siibra/atlases/parcellation/v0.1",
+    "@type": "siibra/atlases/parcellationscheme/v0.1",
     "attributes": [
         {
             "@type": "siibra/attr/desc/id/v0.1",
-            "value": "minds/core/parcellationatlas/v1.0.0/73f41e04-b7ee-4301-a828-4b298ad05ab8"
+            "value": "https://identifiers.org/neurovault.image:1705"
         },
         {
             "@type": "siibra/attr/desc/name/v0.1",
-            "value": "DiFuMo Atlas (128 dimensions)",
-            "shortform": "Functional modes 128"
-        },
-        {
-            "@type": "siibra/attr/desc/modality/v0.1",
-            "value": "functional modes"
+            "value": "HarvardOxford cort maxprob thr25",
+            "shortform": "HarvardOxford cort maxprob thr25"
         },
         {
             "@type": "siibra/attr/desc/speciesspec/v0.1",
@@ -21,13 +17,24 @@
         {
             "@type": "siibra/attr/desc/ebrains/v0.1",
             "ids": {
-                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-                "openminds/DatasetVersion": "b8d0ba16-5543-4594-a6f0-ecbacfc9fb04"
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
             }
         },
         {
             "@type": "siibra/attr/desc/doi/v0.1",
-            "value": "https://doi.org/10.1016/j.neuroimage.2020.117126"
+            "value": "https://doi.org/10.1016/j.schres.2005.11.020"
+        },
+        {
+            "@type": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1176/appi.ajp.162.7.1256"
+        },
+        {
+            "@type": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1016/j.neuroimage.2006.01.021"
+        },
+        {
+            "@type": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1016/j.biopsych.2006.06.027"
         }
     ],
     "regions": [
@@ -36,7 +43,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 1: Middle frontal gyrus lateral - left hemisphere"
+                    "value": "Left Frontal Pole"
                 }
             ]
         },
@@ -45,7 +52,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 2: Middle frontal gyrus anterior"
+                    "value": "Right Frontal Pole"
                 }
             ]
         },
@@ -54,7 +61,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 3: Superior occipital gyrus"
+                    "value": "Left Insular Cortex"
                 }
             ]
         },
@@ -63,7 +70,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 4: Frontal pole lateral - right hemisphere"
+                    "value": "Right Insular Cortex"
                 }
             ]
         },
@@ -72,7 +79,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 5: Superior precentral and postcentral sulci anterior"
+                    "value": "Left Superior Frontal Gyrus"
                 }
             ]
         },
@@ -81,7 +88,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 6: Posterior cingulate cortex antero-inferior"
+                    "value": "Right Superior Frontal Gyrus"
                 }
             ]
         },
@@ -90,7 +97,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 7: Intraparietal sulcus posterior - left hemisphere"
+                    "value": "Left Middle Frontal Gyrus"
                 }
             ]
         },
@@ -99,7 +106,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 8: Parieto-occipital sulcus central"
+                    "value": "Right Middle Frontal Gyrus"
                 }
             ]
         },
@@ -108,7 +115,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 9: Superior frontal sulcus"
+                    "value": "Left Inferior Frontal Gyrus, pars triangularis"
                 }
             ]
         },
@@ -117,7 +124,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 10: Ventromedial prefrontal cortex"
+                    "value": "Right Inferior Frontal Gyrus, pars triangularis"
                 }
             ]
         },
@@ -126,7 +133,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 11: Cerebellum Crus I posterior"
+                    "value": "Left Inferior Frontal Gyrus, pars opercularis"
                 }
             ]
         },
@@ -135,7 +142,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 12: Lingual gyrus posterior"
+                    "value": "Right Inferior Frontal Gyrus, pars opercularis"
                 }
             ]
         },
@@ -144,7 +151,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 13: Lateral occipital cortex superior"
+                    "value": "Left Precentral Gyrus"
                 }
             ]
         },
@@ -153,7 +160,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 14: Lateral frontal pole"
+                    "value": "Right Precentral Gyrus"
                 }
             ]
         },
@@ -162,7 +169,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 15: Precentral gyrus inferior"
+                    "value": "Left Temporal Pole"
                 }
             ]
         },
@@ -171,7 +178,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 16: Precuneus superior"
+                    "value": "Right Temporal Pole"
                 }
             ]
         },
@@ -180,7 +187,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 17: Parieto-occipital sulcus postero-superior"
+                    "value": "Left Superior Temporal Gyrus, anterior division"
                 }
             ]
         },
@@ -189,7 +196,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 18: Postcentral gyrus - right hemisphere"
+                    "value": "Right Superior Temporal Gyrus, anterior division"
                 }
             ]
         },
@@ -198,7 +205,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 19: Cingulate cortex mid-anterior"
+                    "value": "Left Superior Temporal Gyrus, posterior division"
                 }
             ]
         },
@@ -207,7 +214,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 20: Cerebrospinal fluid (superior of Central sulcus)"
+                    "value": "Right Superior Temporal Gyrus, posterior division"
                 }
             ]
         },
@@ -216,7 +223,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 21: Angular gyrus superior - right hemisphere"
+                    "value": "Left Middle Temporal Gyrus, anterior division"
                 }
             ]
         },
@@ -225,7 +232,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 22: Cerebellum Crus I anterior"
+                    "value": "Right Middle Temporal Gyrus, anterior division"
                 }
             ]
         },
@@ -234,7 +241,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 23: Superior temporal gyrus middle"
+                    "value": "Left Middle Temporal Gyrus, posterior division"
                 }
             ]
         },
@@ -243,7 +250,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 24: Angular gyrus posterior"
+                    "value": "Right Middle Temporal Gyrus, posterior division"
                 }
             ]
         },
@@ -252,7 +259,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 25: Lateral occipital cortex inferior"
+                    "value": "Left Middle Temporal Gyrus, temporooccipital part"
                 }
             ]
         },
@@ -261,7 +268,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 26: Middle temporal gyrus - right hemisphere"
+                    "value": "Right Middle Temporal Gyrus, temporooccipital part"
                 }
             ]
         },
@@ -270,7 +277,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 27: Cerebellum VI anterior"
+                    "value": "Left Inferior Temporal Gyrus, anterior division"
                 }
             ]
         },
@@ -279,7 +286,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 28: Cerebellum VI superior"
+                    "value": "Right Inferior Temporal Gyrus, anterior division"
                 }
             ]
         },
@@ -288,7 +295,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 29: Angular gyrus anterior - right hemisphere"
+                    "value": "Left Inferior Temporal Gyrus, posterior division"
                 }
             ]
         },
@@ -297,7 +304,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 30: Cerebrospinal fluid (between anterior part of superior frontal gyrus and skull)"
+                    "value": "Right Inferior Temporal Gyrus, posterior division"
                 }
             ]
         },
@@ -306,7 +313,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 31: Parahippocampal gyrus"
+                    "value": "Left Inferior Temporal Gyrus, temporooccipital part"
                 }
             ]
         },
@@ -315,7 +322,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 32: Inferior frontal gyrus anterior - left hemisphere"
+                    "value": "Right Inferior Temporal Gyrus, temporooccipital part"
                 }
             ]
         },
@@ -324,7 +331,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 33: Posterior cingulate cortex"
+                    "value": "Left Postcentral Gyrus"
                 }
             ]
         },
@@ -333,7 +340,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 34: Occipitotemporal gyrus posterior"
+                    "value": "Right Postcentral Gyrus"
                 }
             ]
         },
@@ -342,7 +349,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 35: Dorsomedial prefrontal cortex antero-superior"
+                    "value": "Left Superior Parietal Lobule"
                 }
             ]
         },
@@ -351,7 +358,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 36: Superior frontal gyrus posterior"
+                    "value": "Right Superior Parietal Lobule"
                 }
             ]
         },
@@ -360,7 +367,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 37: Supramarginal gyrus - left hemisphere"
+                    "value": "Left Supramarginal Gyrus, anterior division"
                 }
             ]
         },
@@ -369,7 +376,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 38: Superior precentral and postcentral sulci posterior"
+                    "value": "Right Supramarginal Gyrus, anterior division"
                 }
             ]
         },
@@ -378,7 +385,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 39: Cerebrospinal fluid (between occipital pole and cerebellum)"
+                    "value": "Left Supramarginal Gyrus, posterior division"
                 }
             ]
         },
@@ -387,7 +394,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 40: Paracingulate gyrus middle"
+                    "value": "Right Supramarginal Gyrus, posterior division"
                 }
             ]
         },
@@ -396,7 +403,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 41: Fusiform gyrus anterior"
+                    "value": "Left Angular Gyrus"
                 }
             ]
         },
@@ -405,7 +412,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 42: Middle temporal gyrus - left hemisphere"
+                    "value": "Right Angular Gyrus"
                 }
             ]
         },
@@ -414,7 +421,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 43: Postcentral gyrus superior - left hemisphere"
+                    "value": "Left Lateral Occipital Cortex, superior division"
                 }
             ]
         },
@@ -423,7 +430,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 44: Angular gyrus superior"
+                    "value": "Right Lateral Occipital Cortex, superior division"
                 }
             ]
         },
@@ -432,7 +439,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 45: Calcarine sulcus anterior"
+                    "value": "Left Lateral Occipital Cortex, inferior division"
                 }
             ]
         },
@@ -441,7 +448,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 46: Intraparietal sulcus - right hemisphere"
+                    "value": "Right Lateral Occipital Cortex, inferior division"
                 }
             ]
         },
@@ -450,7 +457,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 47: Inferior occipital sulcus"
+                    "value": "Left Intracalcarine Cortex"
                 }
             ]
         },
@@ -459,7 +466,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 48: Postcentral sulcus inferior - left hemisphere"
+                    "value": "Right Intracalcarine Cortex"
                 }
             ]
         },
@@ -468,7 +475,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 49: Insula center and lateral fissure"
+                    "value": "Left Frontal Medial Cortex"
                 }
             ]
         },
@@ -477,7 +484,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 50: Superior parietal lobule posterior"
+                    "value": "Right Frontal Medial Cortex"
                 }
             ]
         },
@@ -486,7 +493,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 51: Cerebrospinal fluid (between superior part of superior frontal gyrus and skull)"
+                    "value": "Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)"
                 }
             ]
         },
@@ -495,7 +502,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 52: Posterior cingulate cortex inferior"
+                    "value": "Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)"
                 }
             ]
         },
@@ -504,7 +511,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 53: Inferior frontal sulcus - right hemisphere"
+                    "value": "Left Subcallosal Cortex"
                 }
             ]
         },
@@ -513,7 +520,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 54: Planum temporale - left hemisphere"
+                    "value": "Right Subcallosal Cortex"
                 }
             ]
         },
@@ -522,7 +529,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 55: Cerebellum superior posterior fissure"
+                    "value": "Left Paracingulate Gyrus"
                 }
             ]
         },
@@ -531,7 +538,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 56: Intraparietal sulcus anterior - left hemisphere"
+                    "value": "Right Paracingulate Gyrus"
                 }
             ]
         },
@@ -540,7 +547,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 57: Hippocampal fissure"
+                    "value": "Left Cingulate Gyrus, anterior division"
                 }
             ]
         },
@@ -549,7 +556,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 58: Dorsomedial prefrontal cortex anteromedial"
+                    "value": "Right Cingulate Gyrus, anterior division"
                 }
             ]
         },
@@ -558,7 +565,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 59: Callosomarginal sulcus inferior"
+                    "value": "Left Cingulate Gyrus, posterior division"
                 }
             ]
         },
@@ -567,7 +574,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 60: Paracentral lobule"
+                    "value": "Right Cingulate Gyrus, posterior division"
                 }
             ]
         },
@@ -576,7 +583,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 61: Parieto-occipital sulcus anterior"
+                    "value": "Left Precuneous Cortex"
                 }
             ]
         },
@@ -585,7 +592,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 62: Central sulcus"
+                    "value": "Right Precuneous Cortex"
                 }
             ]
         },
@@ -594,7 +601,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 63: Posterior cingulate cortex superior"
+                    "value": "Left Cuneal Cortex"
                 }
             ]
         },
@@ -603,7 +610,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 64: Lateral fissure anterior"
+                    "value": "Right Cuneal Cortex"
                 }
             ]
         },
@@ -612,7 +619,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 65: Inferior temporal gyrus posterior"
+                    "value": "Left Frontal Orbital Cortex"
                 }
             ]
         },
@@ -621,7 +628,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 66: Cerebrospinal fluid (between Parieto-occipital sulcus and skull)"
+                    "value": "Right Frontal Orbital Cortex"
                 }
             ]
         },
@@ -630,7 +637,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 67: Insula antero-superior"
+                    "value": "Left Parahippocampal Gyrus, anterior division"
                 }
             ]
         },
@@ -639,7 +646,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 68: Planum temporale - right hemisphere"
+                    "value": "Right Parahippocampal Gyrus, anterior division"
                 }
             ]
         },
@@ -648,7 +655,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 69: Anterior cingulate cortex"
+                    "value": "Left Parahippocampal Gyrus, posterior division"
                 }
             ]
         },
@@ -657,7 +664,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 70: Cerebrospinal fluid (between central sulcus and skull)"
+                    "value": "Right Parahippocampal Gyrus, posterior division"
                 }
             ]
         },
@@ -666,7 +673,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 71: Thalamus"
+                    "value": "Left Lingual Gyrus"
                 }
             ]
         },
@@ -675,7 +682,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 72: Calcarine cortex posterior"
+                    "value": "Right Lingual Gyrus"
                 }
             ]
         },
@@ -684,7 +691,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 73: Superior occipital sulcus"
+                    "value": "Left Temporal Fusiform Cortex, anterior division"
                 }
             ]
         },
@@ -693,7 +700,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 74: Postcentral sulcus superior"
+                    "value": "Right Temporal Fusiform Cortex, anterior division"
                 }
             ]
         },
@@ -702,7 +709,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 75: Cuneus"
+                    "value": "Left Temporal Fusiform Cortex, posterior division"
                 }
             ]
         },
@@ -711,7 +718,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 76: Precentral sulcus inferior - left hemisphere"
+                    "value": "Right Temporal Fusiform Cortex, posterior division"
                 }
             ]
         },
@@ -720,7 +727,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 77: Superior parietal sulcus"
+                    "value": "Left Temporal Occipital Fusiform Cortex"
                 }
             ]
         },
@@ -729,7 +736,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 78: Cuneus superior"
+                    "value": "Right Temporal Occipital Fusiform Cortex"
                 }
             ]
         },
@@ -738,7 +745,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 79: Pars triangularis"
+                    "value": "Left Occipital Fusiform Gyrus"
                 }
             ]
         },
@@ -747,7 +754,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 80: Superior temporal sulcus - left hemisphere"
+                    "value": "Right Occipital Fusiform Gyrus"
                 }
             ]
         },
@@ -756,7 +763,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 81: Intraparietal sulcus anterior - right hemisphere"
+                    "value": "Left Frontal Operculum Cortex"
                 }
             ]
         },
@@ -765,7 +772,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 82: Cerebellum IV and V"
+                    "value": "Right Frontal Operculum Cortex"
                 }
             ]
         },
@@ -774,7 +781,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 83: Precentral sulcus superior"
+                    "value": "Left Central Opercular Cortex"
                 }
             ]
         },
@@ -783,7 +790,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 84: Precentral gyrus superior"
+                    "value": "Right Central Opercular Cortex"
                 }
             ]
         },
@@ -792,7 +799,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 85: Calcarine cortex anterior"
+                    "value": "Left Parietal Operculum Cortex"
                 }
             ]
         },
@@ -801,7 +808,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 86: Cerebrospinal fluid (between parietal lobe and skull)"
+                    "value": "Right Parietal Operculum Cortex"
                 }
             ]
         },
@@ -810,7 +817,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 87: Internal capsule"
+                    "value": "Left Planum Polare"
                 }
             ]
         },
@@ -819,7 +826,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 88: Lunate sulcus"
+                    "value": "Right Planum Polare"
                 }
             ]
         },
@@ -828,7 +835,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 89: Superior parietal lobule anterior"
+                    "value": "Left Heschl's Gyrus (includes H1 and H2)"
                 }
             ]
         },
@@ -837,7 +844,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 90: Superior frontal sulcus anterior"
+                    "value": "Right Heschl's Gyrus (includes H1 and H2)"
                 }
             ]
         },
@@ -846,7 +853,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 91: Lingual gyrus"
+                    "value": "Left Planum Temporale"
                 }
             ]
         },
@@ -855,7 +862,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 92: Precuneus anterior"
+                    "value": "Right Planum Temporale"
                 }
             ]
         },
@@ -864,7 +871,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 93: Cerebrospinal fluid (between middle frontal gyrus and skull)"
+                    "value": "Left Supracalcarine Cortex"
                 }
             ]
         },
@@ -873,7 +880,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 94: Caudate"
+                    "value": "Right Supracalcarine Cortex"
                 }
             ]
         },
@@ -882,7 +889,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 95: Retrosplenial cortex"
+                    "value": "Left Occipital Pole"
                 }
             ]
         },
@@ -891,295 +898,7 @@
             "attributes": [
                 {
                     "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 96: Cerebellum Crus II"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 97: Thalamus and globus pallidus"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 98: Putamen anterior"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 99: Planum porale"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 100: Subcallosal cortex"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 101: Superior frontal sulcus anterior - left hemisphere"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 102: Paracingulate gyrus postero-inferior"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 103: Occipital pole superior"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 104: Inferior frontal sulcus posterior - right hemisphere"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 105: Cingulate sulcus posterior"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 106: Middle frontal gyrus - right hemisphere"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 107: Insula anterior"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 108: Inferior occipital gyrus"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 109: Central operculum cortex"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 110: Angular gyrus inferior"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 111: Intracalcarine cortex"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 112: Postcentral sulcus - right hemisphere"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 113: Cerebellum VI"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 114: Supramarginal gyrus anterior - right hemisphere"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 115: Cerebellum IV and middle cerebellar peduncle"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 116: Occipital pole inferior"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 117: Ventromedial prefrontal cortex anterior"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 118: Parieto-occipital sulcus antero-superior"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 119: Paracingulate gyrus postero-superior"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 120: Fusiform gyrus"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 121: Precuneus posterior"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 122: Angular gyrus - left hemisphere"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 123: Inferior frontal sulcus - left hemisphere"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 124: Putamen posterior"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 125: Postcentral gyrus middle"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 126: Superior temporal sulcus posterior - right hemisphere"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 127: Lateral ventricles superior"
-                }
-            ]
-        },
-        {
-            "@type": "siibra/atlases/region/v0.1",
-            "attributes": [
-                {
-                    "@type": "siibra/attr/desc/name/v0.1",
-                    "value": "Component 128: Angular gyrus - right hemisphere"
+                    "value": "Right Occipital Pole"
                 }
             ]
         }
