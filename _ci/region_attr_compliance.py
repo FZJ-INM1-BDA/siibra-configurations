@@ -4,7 +4,7 @@ from os.path import isfile
 def main():
 
     is_json=re.compile(r'\.json$')
-    path_to_parc='./parcellations/'
+    path_to_parc='./parcellationschemes/'
     files = [f for f in os.listdir(path_to_parc)
         if isfile(f'{path_to_parc}{f}') and is_json.search(f) ]
     for f in files:
