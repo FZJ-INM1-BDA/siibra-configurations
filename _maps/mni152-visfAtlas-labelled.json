@@ -1,0 +1,304 @@
+{
+    "@type": "siibra/atlases/parcellationmap/v0.1",
+    "parcellation_id": "minds/core/parcellationatlas/v1.0.0/d41d8cd98f00b204e9800998ecf8427e",
+    "space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+    "maptype": "labelled",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "f3c2c7a7-f086-37f0-5289-38c40aadea4c"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "[PRERELEASE] A Probabilistic Functional Atlas of Human Occipito-Temporal Visual Cortex on MNI 152 ICBM 2009c Nonlinear Asymmetric - labelled - 16 regions"
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+            "format": "nii",
+            "url": "https://download.brainvoyager.com/data/visfAtlas.zip",
+            "archive_options": {
+                "format": "zip",
+                "file": "nifti_volume/visfAtlas_MNI152_volume.nii.gz"
+            },
+            "name": "Labelled map in 33 combined regions"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+            "format": "neuroglancer/precomputed",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume",
+            "name": "Labelled map in 33 combined regions"
+        }
+    ],
+    "region_mapping": {
+        "lh_mFus_faces": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#ff0000",
+                "label": 1
+            }
+        ],
+        "lh_pFus_faces": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#a00000",
+                "label": 2
+            }
+        ],
+        "lh_IOG_faces": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#de2d26",
+                "label": 3
+            }
+        ],
+        "lh_OTS_bodies": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#00e600",
+                "label": 4
+            }
+        ],
+        "lh_ITG_bodies": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#edf8e9",
+                "label": 5
+            }
+        ],
+        "lh_MTG_bodies": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#74c476",
+                "label": 6
+            }
+        ],
+        "lh_LOS_bodies": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#31a354",
+                "label": 7
+            }
+        ],
+        "lh_pOTS_characters": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#090909",
+                "label": 8
+            }
+        ],
+        "lh_IOS_haracters": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#edf8e9",
+                "label": 9
+            }
+        ],
+        "lh_CoS_places": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#54278f",
+                "label": 10
+            }
+        ],
+        "lh_hMT_motion": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#fed976",
+                "label": 11
+            }
+        ],
+        "lh_v1d_retinotopic": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#c6dbef",
+                "label": 12
+            }
+        ],
+        "lh_v2d_retinotopic": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#9ecae1",
+                "label": 13
+            }
+        ],
+        "lh_v3d_retinotopic": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#6baed6",
+                "label": 14
+            }
+        ],
+        "lh_v1v_retinotopic": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#4292c6",
+                "label": 15
+            }
+        ],
+        "lh_v2v_retinotopic": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#2171b5",
+                "label": 16
+            }
+        ],
+        "lh_v3v_retinotopic": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#084594",
+                "label": 17
+            }
+        ],
+        "rh_mFus_faces": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#ff0000",
+                "label": 18
+            }
+        ],
+        "rh_pFus_faces ": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#a00000",
+                "label": 19
+            }
+        ],
+        "rh_IOG_faces": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#de2d26",
+                "label": 20
+            }
+        ],
+        "rh_OTS_bodies": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#00e600",
+                "label": 21
+            }
+        ],
+        "rh_ITG_bodies": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#edf8e9",
+                "label": 22
+            }
+        ],
+        "rh_MTG_bodies": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#74c476",
+                "label": 23
+            }
+        ],
+        "rh_LOS_bodies": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#31a354",
+                "label": 24
+            }
+        ],
+        "rh_CoS_places": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#54278f",
+                "label": 25
+            }
+        ],
+        "rh_TOS_places": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#756bb1",
+                "label": 26
+            }
+        ],
+        "rh_hMT_motion": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#fed976",
+                "label": 27
+            }
+        ],
+        "rh_v1d_retinotopic": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#c6dbef",
+                "label": 28
+            }
+        ],
+        "rh_v2d_retinotopic": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#9ecae1",
+                "label": 29
+            }
+        ],
+        "rh_v3d_retinotopic": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#6baed6",
+                "label": 30
+            }
+        ],
+        "rh_v1v_retinotopic": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#4292c6",
+                "label": 31
+            }
+        ],
+        "rh_v2v_retinotopic": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#2171b5",
+                "label": 32
+            }
+        ],
+        "rh_v3v_retinotopic": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 33 combined regions",
+                "color": "#084594",
+                "label": 33
+            }
+        ]
+    }
+}

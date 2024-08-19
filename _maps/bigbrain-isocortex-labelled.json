@@ -1,0 +1,52 @@
+{
+    "@type": "siibra/atlases/parcellationmap/v0.1",
+    "parcellation_id": "juelich/iav/atlas/v1.0.0/4",
+    "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+    "maptype": "labelled",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "fc4c5af9-f745-7936-5bd2-443f1ca32868"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "Isocortex Segmentation on BigBrain microscopic template (histology) - labelled - 1 regions"
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+            "format": "neuroglancer/precomputed",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
+            "name": "Labelled map in 2 combined regions"
+        },
+        {
+            "@type": "siibra/attr/data/mesh/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+            "format": "neuroglancer/precompmesh",
+            "url": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
+            "name": "Labelled map in 2 combined regions"
+        }
+    ],
+    "region_mapping": {
+        "Isocortex": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 2 combined regions",
+                "color": "#C8C8C8",
+                "label": 100
+            }
+        ],
+        "Non-isocortical structures": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 2 combined regions",
+                "color": "#FFFFFF",
+                "label": 200
+            }
+        ]
+    }
+}
