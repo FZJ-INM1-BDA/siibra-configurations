@@ -11,6 +11,11 @@ on:
         type: string
         description: ""
         required: true
+    secrets:
+      client-id:
+        required: true
+      client-secret:
+        required: true
 
 jobs:
   calculate-sparseindex:
@@ -59,8 +64,8 @@ jobs:
         upload-file: ${{ inputs.filename }}${{ matrix.extension }}
         bucket-name: reference-atlas-data
         dest-path: sparse-indices/${{ inputs.filename }}${{ matrix.extension }}
-        client-id: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_ID }}
-        client-secret: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_SECRET }}
+        client-id: ${{ secrets.client-id }}
+        client-secret: ${{ secrets.client-secret }}
 
   upload-meta-file:
     needs:
@@ -78,5 +83,5 @@ jobs:
         upload-file: ${{ inputs.filename }}
         bucket-name: reference-atlas-data
         dest-path: sparse-indices/${{ inputs.filename }}
-        client-id: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_ID }}
-        client-secret: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_SECRET }}
+        client-id: ${{ secrets.client-id }}
+        client-secret: ${{ secrets.client-secret }}
