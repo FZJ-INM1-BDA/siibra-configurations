@@ -1,13 +1,14 @@
 on:
-  workflow_dispatch:
+  workflow_call:
     inputs:
       parcellation_id:
-        description: ""
+        type: string
         required: true
       space_id:
-        description: ""
+        type: string
         required: true
       filename:
+        type: string
         description: ""
         required: true
 
