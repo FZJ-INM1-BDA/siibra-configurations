@@ -16,7 +16,7 @@ jobs:
   calc-upload-sparseindex:
     needs: check-sparse-index
     strategy:
-      fail-fast: true
+      fail-fast: false
       matrix: ${{ fromJSON(needs.check-sparse-index.outputs.matrix) }}
     uses: ./.github/workflows/calc_upload_sparseindex.yaml
     with:
