@@ -33,8 +33,6 @@ def main():
                         "filename": filename.name,
                         "mapname": name,
                     })
-                    print(json.dumps(print_result))
-                    return
     print(print_result)
     return
 
