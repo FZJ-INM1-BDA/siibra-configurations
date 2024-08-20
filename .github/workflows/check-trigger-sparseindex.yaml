@@ -1,0 +1,25 @@
+on: [push]
+
+jobs:
+
+  check-sparse-index:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.configure-matrix.outputs.matrix }}
+    steps:
+    - uses: actions/checkout@v4
+    - id: configure-matrix
+      run: |
+        matrix=$(python _ci/check_sparse_index.py)
+        echo "matrix=$matrix" >> $GITHUB_OUTPUT
+
+  calc-upload-sparseindex:
+    needs: check-sparse-index
+    strategy:
+      fail-fast: true
+      matrix: ${{ fromJSON(needs.check-sparse-index.outputs.matrix) }}
+    uses: ./.github/workflows/calc_upload_sparseindex.yaml
+    with:
+      parcellation_id: ${{ matrix.parcellation_id }}
+      space_id: ${{ matrix.space_id }}
+      filename: ${{ matrix.filename }}

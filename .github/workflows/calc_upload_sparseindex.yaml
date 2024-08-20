@@ -1,0 +1,81 @@
+on:
+  workflow_dispatch:
+    inputs:
+      parcellation_id:
+        description: ""
+        required: true
+      space_id:
+        description: ""
+        required: true
+      filename:
+        description: ""
+        required: true
+
+jobs:
+  calculate-sparseindex:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/checkout@v4
+      with:
+        repository: fzj-inm1-bda/siibra-python
+        ref: refactor_attr
+        path: siibra-python
+    - uses: actions/setup-python@v5 
+      with:
+        python-version: '3.10'
+    - run: pip install -e ./siibra-python/
+    - run: |
+        python _ci/create_sparse_index.py \
+          ${{ inputs.parcellation_id }} \
+          ${{ inputs.space_id }} \
+          ${{ inputs.filename }}
+    - uses: actions/upload-artifact@v4
+      with:
+        name: ${{ inputs.filename }}
+        path: ${{ inputs.filename }}*
+        retention-days: 1
+        if-no-files-found: error
+
+  upload-data-file:
+    needs: calculate-sparseindex
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        extension:
+        - .sparseindex.alias.json
+        - .sparseindex.probs.txt
+        - .sparseindex.voxel.nii.gz
+
+    steps:
+    - uses: actions/download-artifact@v4
+      with:
+        name: ${{ inputs.filename }}
+
+    - uses: FZJ-INM1-BDA/iav-dep-test/.github/actions/upload_dataproxy@master
+      with:
+        upload-file: ${{ inputs.filename }}${{ matrix.extension }}
+        bucket-name: reference-atlas-data
+        dest-path: sparse-indices/${{ inputs.filename }}${{ matrix.extension }}
+        client-id: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_ID }}
+        client-secret: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_SECRET }}
+
+  upload-meta-file:
+    needs:
+    - calculate-sparseindex
+    - upload-data-file
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/download-artifact@v4
+      with:
+        name: ${{ inputs.filename }}
+
+    - uses: FZJ-INM1-BDA/iav-dep-test/.github/actions/upload_dataproxy@master
+      with:
+        upload-file: ${{ inputs.filename }}
+        bucket-name: reference-atlas-data
+        dest-path: sparse-indices/${{ inputs.filename }}
+        client-id: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_ID }}
+        client-secret: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_SECRET }}
