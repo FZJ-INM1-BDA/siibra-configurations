@@ -11,6 +11,10 @@ on:
         type: string
         description: ""
         required: true
+      mapname:
+        type: string
+        description: ""
+        required: true
     secrets:
       client-id:
         required: true
@@ -35,7 +39,9 @@ jobs:
         python _ci/create_sparse_index.py \
           ${{ inputs.parcellation_id }} \
           ${{ inputs.space_id }} \
-          ${{ inputs.filename }}
+          ${{ inputs.filename }} \
+          statistical \
+          ${{ inputs.mapname }}
     - uses: actions/upload-artifact@v4
       with:
         name: ${{ inputs.filename }}

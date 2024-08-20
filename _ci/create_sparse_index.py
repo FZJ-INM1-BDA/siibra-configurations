@@ -3,8 +3,8 @@ import siibra
 from siibra.atlases.sparsemap import SparseIndex
 from tqdm import tqdm
 
-def create_sparse_index(parc_id: str, space_id: str, filename: str, maptype: str="statistical"):
-    mp = siibra.get_map(parc_id, space_id, maptype)
+def create_sparse_index(parc_id: str, space_id: str, filename: str, maptype: str="statistical", extra_spec: str=""):
+    mp = siibra.get_map(parc_id, space_id, maptype, extra_spec)
 
     spi = SparseIndex(filename, mode="w")
     
