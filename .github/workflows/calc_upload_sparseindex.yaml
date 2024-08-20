@@ -41,7 +41,7 @@ jobs:
           ${{ inputs.space_id }} \
           ${{ inputs.filename }} \
           statistical \
-          ${{ inputs.mapname }}
+          '${{ inputs.mapname }}'
     - uses: actions/upload-artifact@v4
       with:
         name: ${{ inputs.filename }}
