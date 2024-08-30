@@ -1,412 +1,797 @@
 {
-	"@type": "siibra/atlases/parcellationmap/v0.1",
-	"parcellation_id": "minds/core/parcellationatlas/v1.0.0/887da8eb4c36d944ef626ed5293db3ef",
-	"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-	"maptype": "labelled",
-	"attributes": [
-		{
-			"@type": "siibra/attr/desc/id/v0.1",
-			"value": "3eb22d94-89a0-667c-1923-b47a922346da"
-		},
-		{
-			"@type": "siibra/attr/desc/name/v0.1",
-			"value": "MarsAtlas cortical parcellation model on MNI Colin 27 - labelled - 48 regions"
-		},
-		{
-			"@type": "siibra/attr/desc/speciesspec/v0.1",
-			"value": "homo sapiens"
-		},
-		{
-			"@type": "siibra/attr/data/image/v0.1",
-			"space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
-			"format": "nii",
-			"url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
-			"mapping": {
-				"VCcm: Caudal Medial Visual Cortex - left hemisphere": {
-					"color": "#ff0000",
-					"label": 1
-				},
-				"VCcm: Caudal Medial Visual Cortex - right hemisphere": {
-					"color": "#ff0000",
-					"label": 101
-				},
-				"VCl: Lateral Visual Cortex - left hemisphere": {
-					"color": "#00ff00",
-					"label": 2
-				},
-				"VCl: Lateral Visual Cortex - right hemisphere": {
-					"color": "#00ff00",
-					"label": 102
-				},
-				"VCs: Superior Visual Cortex - left hemisphere": {
-					"color": "#ef7729",
-					"label": 3
-				},
-				"VCs: Superior Visual Cortex - right hemisphere": {
-					"color": "#ef7729",
-					"label": 103
-				},
-				"Cu: Cuneus - left hemisphere": {
-					"color": "#d219f5",
-					"label": 4
-				},
-				"Cu: Cuneus - right hemisphere": {
-					"color": "#d219f5",
-					"label": 104
-				},
-				"VCrm: Rostral Medial Visual Cortex - left hemisphere": {
-					"color": "#a7754a",
-					"label": 5
-				},
-				"VCrm: Rostral Medial Visual Cortex - right hemisphere": {
-					"color": "#a7754a",
-					"label": 105
-				},
-				"ITCm: Medial Inferior Temporal Cortex - left hemisphere": {
-					"color": "#ffda2f",
-					"label": 6
-				},
-				"ITCm: Medial Inferior Temporal Cortex - right hemisphere": {
-					"color": "#ffda2f",
-					"label": 106
-				},
-				"ITCr: Rostral Inferior Temporal Cortex - left hemisphere": {
-					"color": "#001ec8",
-					"label": 7
-				},
-				"ITCr: Rostral Inferior Temporal Cortex - right hemisphere": {
-					"color": "#001ec8",
-					"label": 107
-				},
-				"MTCc: Caudal Middle Temporal Cortex - left hemisphere": {
-					"color": "#91fafa",
-					"label": 8
-				},
-				"MTCc: Caudal Middle Temporal Cortex - right hemisphere": {
-					"color": "#91fafa",
-					"label": 108
-				},
-				"STCc: Caudal Superior Temporal Cortex - left hemisphere": {
-					"color": "#ff90c3",
-					"label": 9
-				},
-				"STCc: Caudal Superior Temporal Cortex - right hemisphere": {
-					"color": "#ff90c3",
-					"label": 109
-				},
-				"STCr: Rostral Superior Temporal Cortex - left hemisphere": {
-					"color": "#fafa91",
-					"label": 10
-				},
-				"STCr: Rostral Superior Temporal Cortex - right hemisphere": {
-					"color": "#fafa91",
-					"label": 110
-				},
-				"MTCr: Rostral Middle Temporal Cortex - left hemisphere": {
-					"color": "#9393b3",
-					"label": 11
-				},
-				"MTCr: Rostral Middle Temporal Cortex - right hemisphere": {
-					"color": "#9393b3",
-					"label": 111
-				},
-				"IPCv: Ventral Inferior Parietal Cortex - left hemisphere": {
-					"color": "#fdee05",
-					"label": 13
-				},
-				"IPCv: Ventral Inferior Parietal Cortex - right hemisphere": {
-					"color": "#fdee05",
-					"label": 113
-				},
-				"IPCd: Dorsal Inferior Parietal Cortex - left hemisphere": {
-					"color": "#e518fe",
-					"label": 14
-				},
-				"IPCd: Dorsal Inferior Parietal Cortex - right hemisphere": {
-					"color": "#e518fe",
-					"label": 114
-				},
-				"SPC: Superior Parietal Cortex - left hemisphere": {
-					"color": "#00fa00",
-					"label": 15
-				},
-				"SPC: Superior Parietal Cortex - right hemisphere": {
-					"color": "#00fa00",
-					"label": 115
-				},
-				"SPCm: Medial Superior Parietal Cortex - left hemisphere": {
-					"color": "#7d6432",
-					"label": 16
-				},
-				"SPCm: Medial Superior Parietal Cortex - right hemisphere": {
-					"color": "#7d6432",
-					"label": 116
-				},
-				"PCm: Medial Parietal Cortex - left hemisphere": {
-					"color": "#420faf",
-					"label": 17
-				},
-				"PCm: Medial Parietal Cortex - right hemisphere": {
-					"color": "#420faf",
-					"label": 117
-				},
-				"Sv: Ventral Somatosensory Cortex - left hemisphere": {
-					"color": "#05da29",
-					"label": 19
-				},
-				"Sv: Ventral Somatosensory Cortex - right hemisphere": {
-					"color": "#05da29",
-					"label": 119
-				},
-				"Sdl: Dorsolateral Somatosensory Cortex - left hemisphere": {
-					"color": "#13dbf3",
-					"label": 20
-				},
-				"Sdl: Dorsolateral Somatosensory Cortex - right hemisphere": {
-					"color": "#13dbf3",
-					"label": 120
-				},
-				"Sdm: Dorsomedial Somatosensory Cortex - left hemisphere": {
-					"color": "#fa0000",
-					"label": 21
-				},
-				"Sdm: Dorsomedial Somatosensory Cortex - right hemisphere": {
-					"color": "#fa0000",
-					"label": 121
-				},
-				"ICC: Isthmus Cingulate Cortex - left hemisphere": {
-					"color": "#17fa17",
-					"label": 12
-				},
-				"ICC: Isthmus Cingulate Cortex - right hemisphere": {
-					"color": "#17fa17",
-					"label": 112
-				},
-				"PCC: Posterior Cingulate Cortex - left hemisphere": {
-					"color": "#ffd44f",
-					"label": 18
-				},
-				"PCC: Posterior Cingulate Cortex - right hemisphere": {
-					"color": "#ffd44f",
-					"label": 118
-				},
-				"MCC: Mid Cingulate Cortex - left hemisphere": {
-					"color": "#420f06",
-					"label": 30
-				},
-				"MCC: Mid Cingulate Cortex - right hemisphere": {
-					"color": "#420f06",
-					"label": 130
-				},
-				"ACC: Anterior Cingulate Cortex - left hemisphere": {
-					"color": "#002aff",
-					"label": 40
-				},
-				"ACC: Anterior Cingulate Cortex - right hemisphere": {
-					"color": "#002aff",
-					"label": 140
-				},
-				"Mv: Ventral Motor Cortex - left hemisphere": {
-					"color": "#302460",
-					"label": 22
-				},
-				"Mv: Ventral Motor Cortex - right hemisphere": {
-					"color": "#302460",
-					"label": 122
-				},
-				"Mdl: Dorsolateral Motor Cortex - left hemisphere": {
-					"color": "#a89fae",
-					"label": 23
-				},
-				"Mdl: Dorsolateral Motor Cortex - right hemisphere": {
-					"color": "#a89fae",
-					"label": 123
-				},
-				"Mdm: Dorsomedial Motor Cortex - left hemisphere": {
-					"color": "#ff53db",
-					"label": 24
-				},
-				"Mdm: Dorsomedial Motor Cortex - right hemisphere": {
-					"color": "#ff53db",
-					"label": 124
-				},
-				"PMrv: Rostral Ventral Premotor Cortex - left hemisphere": {
-					"color": "#f8bc7c",
-					"label": 25
-				},
-				"PMrv: Rostral Ventral Premotor Cortex - right hemisphere": {
-					"color": "#f8bc7c",
-					"label": 125
-				},
-				"PMdl: Dorsolateral Premotor Cortex - left hemisphere": {
-					"color": "#fa00fa",
-					"label": 26
-				},
-				"PMdl: Dorsolateral Premotor Cortex - right hemisphere": {
-					"color": "#fa00fa",
-					"label": 126
-				},
-				"PMdm: Dorsomedial Premotor Cortex - left hemisphere": {
-					"color": "#fafa00",
-					"label": 27
-				},
-				"PMdm: Dorsomedial Premotor Cortex - right hemisphere": {
-					"color": "#fafa00",
-					"label": 127
-				},
-				"PFcdl: Caudal Dorsolateral Prefrontal Cortex - left hemisphere": {
-					"color": "#00fa00",
-					"label": 28
-				},
-				"PFcdl: Caudal Dorsolateral Prefrontal Cortex - right hemisphere": {
-					"color": "#00fa00",
-					"label": 128
-				},
-				"PFcdm: Caudal Dorsomedial Prefrontal Cortex - left hemisphere": {
-					"color": "#ff7e00",
-					"label": 29
-				},
-				"PFcdm: Caudal Dorsomedial Prefrontal Cortex - right hemisphere": {
-					"color": "#ff7e00",
-					"label": 129
-				},
-				"PFrvl: Rostral Ventrolateral Prefrontal Cortex - left hemisphere": {
-					"color": "#0000fa",
-					"label": 31
-				},
-				"PFrvl: Rostral Ventrolateral Prefrontal Cortex - right hemisphere": {
-					"color": "#0000fa",
-					"label": 131
-				},
-				"Pfrdli: Rostral Dorsolateral Inferior Prefrontal Cortex - left hemisphere": {
-					"color": "#582b01",
-					"label": 32
-				},
-				"Pfrdli: Rostral Dorsolateral Inferior Prefrontal Cortex - right hemisphere": {
-					"color": "#582b01",
-					"label": 132
-				},
-				"Pfrdls: Rostral Dorsolateral Superior Prefrontal Cortex - left hemisphere": {
-					"color": "#fa0000",
-					"label": 33
-				},
-				"Pfrdls: Rostral Dorsolateral Superior Prefrontal Cortex - right hemisphere": {
-					"color": "#fa0000",
-					"label": 133
-				},
-				"PFrd: Rostral Dorsal Prefrontal Cortex - left hemisphere": {
-					"color": "#00ad00",
-					"label": 34
-				},
-				"PFrd: Rostral Dorsal Prefrontal Cortex - right hemisphere": {
-					"color": "#00ad00",
-					"label": 134
-				},
-				"PFrm: Rostral Medial Prefrontal Cortex - left hemisphere": {
-					"color": "#fafa00",
-					"label": 35
-				},
-				"PFrm: Rostral Medial Prefrontal Cortex - right hemisphere": {
-					"color": "#fafa00",
-					"label": 135
-				},
-				"OFCvl: Ventrolateral Orbito Frontal Cortex - left hemisphere": {
-					"color": "#6dc418",
-					"label": 36
-				},
-				"OFCvl: Ventrolateral Orbito Frontal Cortex - right hemisphere": {
-					"color": "#6dc418",
-					"label": 136
-				},
-				"OFCv: Ventral Orbito Frontal Cortex - left hemisphere": {
-					"color": "#bc2b8f",
-					"label": 37
-				},
-				"OFCv: Ventral Orbito Frontal Cortex - right hemisphere": {
-					"color": "#bc2b8f",
-					"label": 137
-				},
-				"OFCvm: Ventromedial Orbito Frontal Cortex - left hemisphere": {
-					"color": "#d2e700",
-					"label": 38
-				},
-				"OFCvm: Ventromedial Orbito Frontal Cortex - right hemisphere": {
-					"color": "#d2e700",
-					"label": 138
-				},
-				"PFCvm: Ventromedial Prefrontal Cortex - left hemisphere": {
-					"color": "#bc8f01",
-					"label": 39
-				},
-				"PFCvm: Ventromedial Prefrontal Cortex - right hemisphere": {
-					"color": "#bc8f01",
-					"label": 139
-				},
-				"Insula: Insular Cortex - left hemisphere": {
-					"color": "#12f3f3",
-					"label": 41
-				},
-				"Insula: Insular Cortex - right hemisphere": {
-					"color": "#12f3f3",
-					"label": 141
-				},
-				"Thalamus - left hemisphere": {
-					"color": "#ff0000",
-					"label": 210
-				},
-				"Thalamus - right hemisphere": {
-					"color": "#ef7729",
-					"label": 249
-				},
-				"Caudate - left hemisphere": {
-					"color": "#9393b3",
-					"label": 211
-				},
-				"Caudate - right hemisphere": {
-					"color": "#d219f5",
-					"label": 250
-				},
-				"Puttamen - left hemisphere": {
-					"color": "#17fa17",
-					"label": 212
-				},
-				"Puttamen - right hemisphere": {
-					"color": "#a7754a",
-					"label": 251
-				},
-				"Pallidum - left hemisphere": {
-					"color": "#fdee05",
-					"label": 213
-				},
-				"Pallidum - right hemisphere": {
-					"color": "#ffda2f",
-					"label": 252
-				},
-				"Hippocampus - left hemisphere": {
-					"color": "#e518fe",
-					"label": 217
-				},
-				"Hippocampus - right hemisphere": {
-					"color": "#001ec8",
-					"label": 253
-				},
-				"Amygdala - left hemisphere": {
-					"color": "#00fa00",
-					"label": 218
-				},
-				"Amygdala - right hemisphere": {
-					"color": "#91fafa",
-					"label": 254
-				},
-				"Accumbens - left hemisphere": {
-					"color": "#7d6432",
-					"label": 226
-				},
-				"Accumbens - right hemisphere": {
-					"color": "#ff90c3",
-					"label": 258
-				}
-			}
-		}
-	]
+    "@type": "siibra/atlases/parcellationmap/v0.1",
+    "parcellation_id": "minds/core/parcellationatlas/v1.0.0/887da8eb4c36d944ef626ed5293db3ef",
+    "space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
+    "maptype": "labelled",
+    "attributes": [
+        {
+            "@type": "siibra/attr/desc/id/v0.1",
+            "value": "3eb22d94-89a0-667c-1923-b47a922346da"
+        },
+        {
+            "@type": "siibra/attr/desc/name/v0.1",
+            "value": "MarsAtlas cortical parcellation model on MNI Colin 27 - labelled - 48 regions"
+        },
+        {
+            "@type": "siibra/attr/desc/speciesspec/v0.1",
+            "value": "homo sapiens"
+        },
+        {
+            "@type": "siibra/attr/data/image/v0.1",
+            "space_id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
+            "format": "nii",
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii",
+            "name": "Labelled map in 96 combined regions"
+        }
+    ],
+    "region_mapping": {
+        "VCcm: Caudal Medial Visual Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ff0000",
+                "label": 1
+            }
+        ],
+        "VCcm: Caudal Medial Visual Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ff0000",
+                "label": 101
+            }
+        ],
+        "VCl: Lateral Visual Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#00ff00",
+                "label": 2
+            }
+        ],
+        "VCl: Lateral Visual Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#00ff00",
+                "label": 102
+            }
+        ],
+        "VCs: Superior Visual Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ef7729",
+                "label": 3
+            }
+        ],
+        "VCs: Superior Visual Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ef7729",
+                "label": 103
+            }
+        ],
+        "Cu: Cuneus - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#d219f5",
+                "label": 4
+            }
+        ],
+        "Cu: Cuneus - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#d219f5",
+                "label": 104
+            }
+        ],
+        "VCrm: Rostral Medial Visual Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#a7754a",
+                "label": 5
+            }
+        ],
+        "VCrm: Rostral Medial Visual Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#a7754a",
+                "label": 105
+            }
+        ],
+        "ITCm: Medial Inferior Temporal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ffda2f",
+                "label": 6
+            }
+        ],
+        "ITCm: Medial Inferior Temporal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ffda2f",
+                "label": 106
+            }
+        ],
+        "ITCr: Rostral Inferior Temporal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#001ec8",
+                "label": 7
+            }
+        ],
+        "ITCr: Rostral Inferior Temporal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#001ec8",
+                "label": 107
+            }
+        ],
+        "MTCc: Caudal Middle Temporal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#91fafa",
+                "label": 8
+            }
+        ],
+        "MTCc: Caudal Middle Temporal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#91fafa",
+                "label": 108
+            }
+        ],
+        "STCc: Caudal Superior Temporal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ff90c3",
+                "label": 9
+            }
+        ],
+        "STCc: Caudal Superior Temporal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ff90c3",
+                "label": 109
+            }
+        ],
+        "STCr: Rostral Superior Temporal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fafa91",
+                "label": 10
+            }
+        ],
+        "STCr: Rostral Superior Temporal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fafa91",
+                "label": 110
+            }
+        ],
+        "MTCr: Rostral Middle Temporal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#9393b3",
+                "label": 11
+            }
+        ],
+        "MTCr: Rostral Middle Temporal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#9393b3",
+                "label": 111
+            }
+        ],
+        "IPCv: Ventral Inferior Parietal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fdee05",
+                "label": 13
+            }
+        ],
+        "IPCv: Ventral Inferior Parietal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fdee05",
+                "label": 113
+            }
+        ],
+        "IPCd: Dorsal Inferior Parietal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#e518fe",
+                "label": 14
+            }
+        ],
+        "IPCd: Dorsal Inferior Parietal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#e518fe",
+                "label": 114
+            }
+        ],
+        "SPC: Superior Parietal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#00fa00",
+                "label": 15
+            }
+        ],
+        "SPC: Superior Parietal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#00fa00",
+                "label": 115
+            }
+        ],
+        "SPCm: Medial Superior Parietal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#7d6432",
+                "label": 16
+            }
+        ],
+        "SPCm: Medial Superior Parietal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#7d6432",
+                "label": 116
+            }
+        ],
+        "PCm: Medial Parietal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#420faf",
+                "label": 17
+            }
+        ],
+        "PCm: Medial Parietal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#420faf",
+                "label": 117
+            }
+        ],
+        "Sv: Ventral Somatosensory Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#05da29",
+                "label": 19
+            }
+        ],
+        "Sv: Ventral Somatosensory Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#05da29",
+                "label": 119
+            }
+        ],
+        "Sdl: Dorsolateral Somatosensory Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#13dbf3",
+                "label": 20
+            }
+        ],
+        "Sdl: Dorsolateral Somatosensory Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#13dbf3",
+                "label": 120
+            }
+        ],
+        "Sdm: Dorsomedial Somatosensory Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fa0000",
+                "label": 21
+            }
+        ],
+        "Sdm: Dorsomedial Somatosensory Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fa0000",
+                "label": 121
+            }
+        ],
+        "ICC: Isthmus Cingulate Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#17fa17",
+                "label": 12
+            }
+        ],
+        "ICC: Isthmus Cingulate Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#17fa17",
+                "label": 112
+            }
+        ],
+        "PCC: Posterior Cingulate Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ffd44f",
+                "label": 18
+            }
+        ],
+        "PCC: Posterior Cingulate Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ffd44f",
+                "label": 118
+            }
+        ],
+        "MCC: Mid Cingulate Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#420f06",
+                "label": 30
+            }
+        ],
+        "MCC: Mid Cingulate Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#420f06",
+                "label": 130
+            }
+        ],
+        "ACC: Anterior Cingulate Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#002aff",
+                "label": 40
+            }
+        ],
+        "ACC: Anterior Cingulate Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#002aff",
+                "label": 140
+            }
+        ],
+        "Mv: Ventral Motor Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#302460",
+                "label": 22
+            }
+        ],
+        "Mv: Ventral Motor Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#302460",
+                "label": 122
+            }
+        ],
+        "Mdl: Dorsolateral Motor Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#a89fae",
+                "label": 23
+            }
+        ],
+        "Mdl: Dorsolateral Motor Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#a89fae",
+                "label": 123
+            }
+        ],
+        "Mdm: Dorsomedial Motor Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ff53db",
+                "label": 24
+            }
+        ],
+        "Mdm: Dorsomedial Motor Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ff53db",
+                "label": 124
+            }
+        ],
+        "PMrv: Rostral Ventral Premotor Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#f8bc7c",
+                "label": 25
+            }
+        ],
+        "PMrv: Rostral Ventral Premotor Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#f8bc7c",
+                "label": 125
+            }
+        ],
+        "PMdl: Dorsolateral Premotor Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fa00fa",
+                "label": 26
+            }
+        ],
+        "PMdl: Dorsolateral Premotor Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fa00fa",
+                "label": 126
+            }
+        ],
+        "PMdm: Dorsomedial Premotor Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fafa00",
+                "label": 27
+            }
+        ],
+        "PMdm: Dorsomedial Premotor Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fafa00",
+                "label": 127
+            }
+        ],
+        "PFcdl: Caudal Dorsolateral Prefrontal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#00fa00",
+                "label": 28
+            }
+        ],
+        "PFcdl: Caudal Dorsolateral Prefrontal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#00fa00",
+                "label": 128
+            }
+        ],
+        "PFcdm: Caudal Dorsomedial Prefrontal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ff7e00",
+                "label": 29
+            }
+        ],
+        "PFcdm: Caudal Dorsomedial Prefrontal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ff7e00",
+                "label": 129
+            }
+        ],
+        "PFrvl: Rostral Ventrolateral Prefrontal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#0000fa",
+                "label": 31
+            }
+        ],
+        "PFrvl: Rostral Ventrolateral Prefrontal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#0000fa",
+                "label": 131
+            }
+        ],
+        "Pfrdli: Rostral Dorsolateral Inferior Prefrontal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#582b01",
+                "label": 32
+            }
+        ],
+        "Pfrdli: Rostral Dorsolateral Inferior Prefrontal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#582b01",
+                "label": 132
+            }
+        ],
+        "Pfrdls: Rostral Dorsolateral Superior Prefrontal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fa0000",
+                "label": 33
+            }
+        ],
+        "Pfrdls: Rostral Dorsolateral Superior Prefrontal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fa0000",
+                "label": 133
+            }
+        ],
+        "PFrd: Rostral Dorsal Prefrontal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#00ad00",
+                "label": 34
+            }
+        ],
+        "PFrd: Rostral Dorsal Prefrontal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#00ad00",
+                "label": 134
+            }
+        ],
+        "PFrm: Rostral Medial Prefrontal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fafa00",
+                "label": 35
+            }
+        ],
+        "PFrm: Rostral Medial Prefrontal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fafa00",
+                "label": 135
+            }
+        ],
+        "OFCvl: Ventrolateral Orbito Frontal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#6dc418",
+                "label": 36
+            }
+        ],
+        "OFCvl: Ventrolateral Orbito Frontal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#6dc418",
+                "label": 136
+            }
+        ],
+        "OFCv: Ventral Orbito Frontal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#bc2b8f",
+                "label": 37
+            }
+        ],
+        "OFCv: Ventral Orbito Frontal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#bc2b8f",
+                "label": 137
+            }
+        ],
+        "OFCvm: Ventromedial Orbito Frontal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#d2e700",
+                "label": 38
+            }
+        ],
+        "OFCvm: Ventromedial Orbito Frontal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#d2e700",
+                "label": 138
+            }
+        ],
+        "PFCvm: Ventromedial Prefrontal Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#bc8f01",
+                "label": 39
+            }
+        ],
+        "PFCvm: Ventromedial Prefrontal Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#bc8f01",
+                "label": 139
+            }
+        ],
+        "Insula: Insular Cortex - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#12f3f3",
+                "label": 41
+            }
+        ],
+        "Insula: Insular Cortex - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#12f3f3",
+                "label": 141
+            }
+        ],
+        "Thalamus - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ff0000",
+                "label": 210
+            }
+        ],
+        "Thalamus - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ef7729",
+                "label": 249
+            }
+        ],
+        "Caudate - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#9393b3",
+                "label": 211
+            }
+        ],
+        "Caudate - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#d219f5",
+                "label": 250
+            }
+        ],
+        "Puttamen - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#17fa17",
+                "label": 212
+            }
+        ],
+        "Puttamen - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#a7754a",
+                "label": 251
+            }
+        ],
+        "Pallidum - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#fdee05",
+                "label": 213
+            }
+        ],
+        "Pallidum - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ffda2f",
+                "label": 252
+            }
+        ],
+        "Hippocampus - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#e518fe",
+                "label": 217
+            }
+        ],
+        "Hippocampus - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#001ec8",
+                "label": 253
+            }
+        ],
+        "Amygdala - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#00fa00",
+                "label": 218
+            }
+        ],
+        "Amygdala - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#91fafa",
+                "label": 254
+            }
+        ],
+        "Accumbens - left hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#7d6432",
+                "label": 226
+            }
+        ],
+        "Accumbens - right hemisphere": [
+            {
+                "@type": "volume/ref",
+                "target": "Labelled map in 96 combined regions",
+                "color": "#ff90c3",
+                "label": 258
+            }
+        ]
+    }
 }
