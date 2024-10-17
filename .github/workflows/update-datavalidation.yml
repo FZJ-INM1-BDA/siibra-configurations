@@ -11,7 +11,13 @@ on:
 
 jobs:
   restart-data-validation:
-    runs-on: siibra-data-validation
+    runs-on: ubuntu-latest
+    if: ${{ github.event.inputs.runner }} == "siibra-data-validation"
     steps:
     - run: |
-        /bin/bash -c "cd /softwares/software && ./restart.sh"
+        echo ""
+    # data validation will be enabled in the future when the runner is available.
+    # runs-on: siibra-data-validation
+    # steps:
+    # - run: |
+    #     /bin/bash -c "cd /softwares/software && ./restart.sh"
