@@ -12,11 +12,10 @@ on:
 jobs:
   restart-data-validation:
     runs-on: ubuntu-latest
-    if: ${{ github.event.inputs.runner }} == 'siibra-data-validation'
+    if: ${{ github.event.inputs.runner == 'siibra-data-validation' }}
     steps:
     - run: |
-        echo ""
-    # data validation will be enabled in the future when the runner is available.
+        echo "This job runs only if the runner is 'siibra-data-validation'."
     # runs-on: siibra-data-validation
     # steps:
     # - run: |
