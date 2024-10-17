@@ -13,15 +13,5 @@ jobs:
   restart-data-validation:
     runs-on: siibra-data-validation
     steps:
-      - name: Check runner availability
-        id: check_runner
-        run: |
-          echo "Checking if the runner is available..."
-          if ! timeout 300 bash -c 'while true; do sleep 1; done'; then
-            echo "Runner not available for 5 minutes, failing the job."
-            exit 1  # Fail the job if the runner is not available
-          fi
-      - name: restart data validation
-        id: restart_data_validation
-        run: |
-          /bin/bash -c "cd /softwares/software && ./restart.sh"
+    - run: |
+        /bin/bash -c "cd /softwares/software && ./restart.sh"
