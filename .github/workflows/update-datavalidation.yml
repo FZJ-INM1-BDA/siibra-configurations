@@ -12,7 +12,7 @@ on:
 jobs:
   restart-data-validation:
     runs-on: ubuntu-latest
-    if: ${{ github.event.inputs.runner }} == "siibra-data-validation"
+    if: ${{ github.event.inputs.runner }} == 'siibra-data-validation'
     steps:
     - run: |
         echo ""
