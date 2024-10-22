@@ -21,13 +21,14 @@ REPLACE_IN_NAME = {
 
 
 def clear_name(name):
-    """ clean up a region name to the for matching"""
+    """clean up a region name to the for matching"""
     result = name
     for word in REMOVE_FROM_NAME:
         result = result.replace(word, "")
     for search, repl in REPLACE_IN_NAME.items():
         result = result.replace(search, repl)
     return " ".join(w for w in result.split(" ") if len(w))
+
 
 def get_parcellation_region_names(region_tree):
     region_names = []
@@ -40,6 +41,7 @@ def get_parcellation_region_names(region_tree):
                 region_names.extend(children_names)
     return region_names
 
+
 def compare_regions_to_parcellation(map_json, parc_region_tree):
     unmatched_regions = []
     parc_regions = get_parcellation_region_names(parc_region_tree)
@@ -47,6 +49,7 @@ def compare_regions_to_parcellation(map_json, parc_region_tree):
         if not any(region == parc_region for parc_region in parc_regions):
             unmatched_regions.append(region)
     return unmatched_regions
+
 
 def get_json(path: Path):
     for dirname, _, filenames in os.walk(path):
@@ -56,6 +59,7 @@ def get_json(path: Path):
                 continue
             with open(file, "r") as fp:
                 yield json.load(fp=fp), str(file)
+
 
 def main():
     parcs = dict()
@@ -70,11 +74,18 @@ def main():
         parc_id = json_obj.get("parcellation", {}).get("@id")
         assert space_id, f"{errmsg}, space id not defined!"
         assert parc_id, f"{errmsg}, parc id not defined!"
-        assert parc_id in parcs.keys(), f"{errmsg}, parc id for {parc_id} not found in parcellations"
-        assert space_id in space_ids, f"{errmsg}, space id for {space_id} not found in spaces"
+        assert (
+            parc_id in parcs.keys()
+        ), f"{errmsg}, parc id for {parc_id} not found in parcellations"
+        assert (
+            space_id in space_ids
+        ), f"{errmsg}, space id for {space_id} not found in spaces"
         unmatched_regions = compare_regions_to_parcellation(json_obj, parcs[parc_id])
         if len(unmatched_regions) > 0:
-            print(f"Following regions in {filepath} have no correspondence in parcellation {parc_id}: {unmatched_regions}")
+            print(
+                f"Following regions in {filepath} have no correspondence in parcellation {parc_id}: {unmatched_regions}"
+            )
+
 
 if __name__ == "__main__":
     main()

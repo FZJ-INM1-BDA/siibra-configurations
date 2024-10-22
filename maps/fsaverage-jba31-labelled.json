@@ -10,8 +10,8 @@
 			"@type": "siibra/volume/v0.0.1",
 			"providers": {
 				"gii-label": {
-					"left hemisphere": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/JulichBrainAtlas_3.1/fsaverage_surface/lh.JulichBrainAtlas_3.1_colin27.label.gii",
-					"right hemisphere": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/JulichBrainAtlas_3.1/fsaverage_surface/rh.JulichBrainAtlas_3.1_colin27.label.gii"
+					"left hemisphere": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-f1fe19e8-99bd-44bc-9616-a52850680777/fsaverage_surface/lh.JulichBrainAtlas_3.1.label.gii",
+					"right hemisphere": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-f1fe19e8-99bd-44bc-9616-a52850680777/fsaverage_surface/rh.JulichBrainAtlas_3.1.label.gii"
 				}
 			}
 		}
@@ -102,7 +102,7 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area TPJ (STG,SMG) - left hemisphere": [
+		"Area TPJ (STG, SMG) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 13,
@@ -564,14 +564,14 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area IFJ1 (IFS,PreCS) - left hemisphere": [
+		"Area IFJ1 (IFS, PreCS) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 79,
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area IFJ2 (IFS,PreCS) - left hemisphere": [
+		"Area IFJ2 (IFS, PreCS) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 80,
@@ -823,7 +823,7 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area 6v0 (PreCG) - left hemisphere": [
+		"Area 6v2 (PreCG) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 116,
@@ -942,7 +942,7 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area FG5  (FusG) - left hemisphere": [
+		"Area FG5 (FusG) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 133,
@@ -1005,7 +1005,7 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area SFG3 (SFG - left hemisphere": [
+		"Area SFG3 (SFG) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 142,
@@ -1026,10 +1026,17 @@
 				"fragment": "left hemisphere"
 			}
 		],
-		"Area MFG5 (MFG,IFG) - left hemisphere": [
+		"Area MFG5 (MFG, IFG) - left hemisphere": [
 			{
 				"volume": 0,
 				"label": 145,
+				"fragment": "left hemisphere"
+			}
+		],
+		"Area 6v3 (PreCG) - left hemisphere": [
+			{
+				"volume": 0,
+				"label": 146,
 				"fragment": "left hemisphere"
 			}
 		],
@@ -1117,7 +1124,7 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area TPJ (STG,SMG) - right hemisphere": [
+		"Area TPJ (STG, SMG) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 13,
@@ -1579,14 +1586,14 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area IFJ1 (IFS,PreCS) - right hemisphere": [
+		"Area IFJ1 (IFS, PreCS) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 79,
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area IFJ2 (IFS,PreCS) - right hemisphere": [
+		"Area IFJ2 (IFS, PreCS) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 80,
@@ -1838,7 +1845,7 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area 6v0 (PreCG) - right hemisphere": [
+		"Area 6v2 (PreCG) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 116,
@@ -1957,7 +1964,7 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area FG5  (FusG) - right hemisphere": [
+		"Area FG5 (FusG) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 133,
@@ -2020,7 +2027,7 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area SFG3 (SFG - right hemisphere": [
+		"Area SFG3 (SFG) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 142,
@@ -2041,56 +2048,39 @@
 				"fragment": "right hemisphere"
 			}
 		],
-		"Area MFG5 (MFG,IFG) - right hemisphere": [
+		"Area MFG5 (MFG, IFG) - right hemisphere": [
 			{
 				"volume": 0,
 				"label": 145,
 				"fragment": "right hemisphere"
 			}
+		],
+		"Area 6v3 (PreCG) - right hemisphere": [
+			{
+				"volume": 0,
+				"label": 146,
+				"fragment": "right hemisphere"
+			}
 		]
+	},
+	"ebrains": {
+		"openminds/Dataset": "5a16d948-8d1c-400c-b797-8a7ad29944b2",
+		"openminds/DatasetVersion": "f1fe19e8-99bd-44bc-9616-a52850680777",
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
 	},
-	"unmappedIndicies": {
-		"Unknown - left hemisphere": [
-			{
-				"volume": 0,
-				"label": 0,
-				"fragment": "left hemisphere"
-			}
-		],
-		"Unknown - right hemisphere": [
-			{
-				"volume": 0,
-				"label": 0,
-				"fragment": "right hemisphere"
-			}
-		],
-		"CorpusCallosumMask - left hemisphere": [
-			{
-				"volume": 0,
-				"label": 146,
-				"fragment": "left hemisphere"
-			}
-		],
-		"BrainStemMask - left hemisphere": [
-			{
-				"volume": 0,
-				"label": 147,
-				"fragment": "left hemisphere"
-			}
-		],
-		"CorpusCallosumMask - right hemisphere": [
-			{
-				"volume": 0,
-				"label": 146,
-				"fragment": "right hemisphere"
-			}
-		],
-		"BrainStemMask - right hemisphere": [
-			{
-				"volume": 0,
-				"label": 147,
-				"fragment": "right hemisphere"
-			}
-		]
-	}
+	"publications": [
+		{
+			"citation": "Amunts, K., Mohlberg, H., Bludau, S., Zilles, K. (2020). Julich-Brain \u2013 A 3D probabilistic atlas of human brain\u2019s cytoarchitecture. Science 369, 988-992",
+			"url": "https://www.science.org/doi/10.1126/science.abb4588"
+		},
+		{
+			"citation": "Alan C. Evans, Andrew L. Janke, D. Louis Collins, Sylvain Baillet, Brain templates and atlases, NeuroImage, Volume 62, Issue 2, 2012, Pages 911-922, ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2012.01.024.",
+			"url": "https://doi.org/10.1016/j.neuroimage.2012.01.024"
+		},
+		{
+			"citation": "Simon B. Eickhoff, Klaas E. Stephan, Hartmut Mohlberg, Christian Grefkes, Gereon R. Fink, Katrin Amunts, Karl Zilles, A new SPM toolbox for combining probabilistic cytoarchitectonic maps and functional imaging data, NeuroImage, Volume 25, Issue 4, 2005, Pages 1325-1335, ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2004.12.034.",
+			"url": "https://doi.org/10.1016/j.neuroimage.2004.12.034"
+		}
+	]
 }

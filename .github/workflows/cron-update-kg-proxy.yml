@@ -26,6 +26,12 @@ jobs:
 
         - artefacts-dir: "ebrainsquery/v3/CustomAnatomicalEntity"
           query-id: "d7cdc1d6-0aa5-498a-94ff-0291b95db13d"
+
+        - artefacts-dir: "ebrainsquery/v3/Dataset"
+          query-id: "fe925a3a-bfcd-43a9-8eab-f8d4589cedea"
+
+        - artefacts-dir: "ebrainsquery/v3/DatasetVersion"
+          query-id: "64ad0cd6-fbd6-47d3-b247-099e9ce8f313"
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-python@v4
@@ -46,6 +52,8 @@ jobs:
   
   latest-siibra-release:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
     outputs:
       LATEST_TAG: ${{ steps.get-latest-tag.outputs.LATEST_TAG }}
     steps:
