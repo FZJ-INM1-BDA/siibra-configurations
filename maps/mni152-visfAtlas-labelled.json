@@ -11,6 +11,24 @@
 			"providers": {
 				"zip/nii": "https://download.brainvoyager.com/data/visfAtlas.zip nifti_volume/visfAtlas_MNI152_volume.nii.gz",
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20240423-ingest-visfatlas/visfAtlas_MNI152_volume"
+			},
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+				},
+				"coordinates": [
+					[
+						-63.0,
+						-104.0,
+						-24.0
+					],
+					[
+						64.0,
+						-20.0,
+						37.0
+					]
+				]
 			}
 		}
 	],
