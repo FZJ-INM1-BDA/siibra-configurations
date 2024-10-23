@@ -11,6 +11,24 @@
 			"@type": "siibra/volume/v0.0.1",
 			"providers": {
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered"
+			},
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/MEBRAINS"
+				},
+				"coordinates": [
+					[
+						-29.000000765919687,
+						-35.400000765919685,
+						-15.400000002980232
+					],
+					[
+						28.599999234080315,
+						29.399999234080326,
+						24.599999997019772
+					]
+				]
 			}
 		}
 	],
