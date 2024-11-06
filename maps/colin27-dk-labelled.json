@@ -10,6 +10,24 @@
 			"@type": "siibra/volume/v0.0.1",
 			"providers": {
 				"nii": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/master/desikan-killiany/aparc_colin27_3D.nii"
+			},
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
+				},
+				"coordinates": [
+					[
+						-72.5,
+						-110.0,
+						-48.0
+					],
+					[
+						71.5,
+						69.0,
+						87.0
+					]
+				]
 			}
 		}
 	],
@@ -423,5 +441,46 @@
 				"label": 2033
 			}
 		]
-	}
+	},
+	"ebrains": {
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+	},
+	"publications": [
+		{
+			"name": "An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest.",
+			"url": "https://doi.org/10.1016/j.neuroimage.2006.01.021",
+			"authors": [
+				"Rahul S. Desikan",
+				"Florent S\u00e9gonne",
+				"Bruce Fischl",
+				"Brian T. Quinn",
+				"Bradford C. Dickerson",
+				"Deborah Blacker",
+				"Randy L. Buckner",
+				"Anders M. Dale",
+				"R. Paul Maguire",
+				"Bradley T. Hyman",
+				"Marilyn S. Albert",
+				"Ronald J. Killiany"
+			],
+			"description": "In this study, we have assessed the validity and reliability of an automated labeling system that we have developed for subdividing the human cerebral cortex on magnetic resonance images into gyral based regions of interest (ROIs). Using a dataset of 40 MRI scans we manually identified 34 cortical ROIs in each of the individual hemispheres. This information was then encoded in the form of an atlas that was utilized to automatically label ROIs. To examine the validity, as well as the intra- and inter-rater reliability of the automated system, we used both intraclass correlation coefficients (ICC), and a new method known as mean distance maps, to assess the degree of mismatch between the manual and the automated sets of ROIs. When compared with the manual ROIs, the automated ROIs were highly accurate, with an average ICC of 0.835 across all of the ROIs, and a mean distance error of less than 1\u00a0mm. Intra- and inter-rater comparisons yielded little to no difference between the sets of ROIs. These findings suggest that the automated method we have developed for subdividing the human cerebral cortex into standard gyral-based neuroanatomical regions is both anatomically valid and reliable. This method may be useful for both morphometric and functional studies of the cerebral cortex as well as for clinical investigations aimed at tracking the evolution of disease-induced changes over time, including clinical trials in which MRI-based measures are used to examine response to treatment.",
+			"citation": "Desikan RS, S\u00e9gonne F, Fischl B, Quinn BT, Dickerson BC, Blacker D, Buckner RL, Dale AM, Maguire RP, Hyman BT, Albert MS, Killiany RJ. An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest. NeuroImage. 2006;31(3):968-980."
+		},
+		{
+			"name": "Accurate nonlinear mapping between MNI volumetric and FreeSurfer surface coordinate systems",
+			"url": "https://doi.org/10.1002/hbm.24213",
+			"authors": [
+				"Jianxiao Wu",
+				"Gia H. Ngo",
+				"Douglas Greve",
+				"Jingwei Li",
+				"Tong He",
+				"Bruce Fischl",
+				"Simon B. Eickhoff",
+				"B.T. Thomas Yeo"
+			],
+			"description": "The results of most neuroimaging studies are reported in volumetric (e.g., MNI152) or surface (e.g., fsaverage) coordinate systems. Accurate mappings between volumetric and surface coordinate systems can facilitate many applications, such as projecting fMRI group analyses from MNI152/Colin27 to fsaverage for visualization or projecting resting-state fMRI parcellations from fsaverage to MNI152/Colin27 for volumetric analysis of new data. However, there has been surprisingly little research on this topic. Here, we evaluated three approaches for mapping data between MNI152/Colin27 and fsaverage coordinate systems by simulating the above applications: projection of group-average data from MNI152/Colin27 to fsaverage and projection of fsaverage parcellations to MNI152/Colin27. Two of the approaches are currently widely used. A third approach (registration fusion) was previously proposed, but not widely adopted. Two implementations of the registration fusion (RF) approach were considered, with one implementation utilizing the Advanced Normalization Tools (ANTs). We found that RF-ANTs performed the best for mapping between fsaverage and MNI152/Colin27, even for new subjects registered to MNI152/Colin27 using a different software tool (FSL FNIRT). This suggests that RF-ANTs would be useful even for researchers not using ANTs. Finally, it is worth emphasizing that the most optimal approach for mapping data to a coordinate system (e.g., fsaverage) is to register individual subjects directly to the coordinate system, rather than via another coordinate system. Only in scenarios where the optimal approach is not possible (e.g., mapping previously published results from MNI152 to fsaverage), should the approaches evaluated in this manuscript be considered. In these scenarios, we recommend RF-ANTs (https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/registration/Wu2017_RegistrationFusion).",
+			"citation": "Wu J, Ngo GH, Greve D, Li J, He T, Fischl B, Eickhoff SB, Yeo BTT. Accurate nonlinear mapping between MNI volumetric and FreeSurfer surface coordinate systems. Hum Brain Mapp. 2018;39(9):3793-3808."
+		}
+	]
 }

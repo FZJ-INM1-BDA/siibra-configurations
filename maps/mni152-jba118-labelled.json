@@ -21,6 +21,24 @@
 					"left hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/JuBrain/18/icbm152casym/left",
 					"right hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/JuBrain/18/icbm152casym/right"
 				}
+			},
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+				},
+				"coordinates": [
+					[
+						-71.0,
+						-108.0,
+						-46.0
+					],
+					[
+						73.0,
+						75.0,
+						83.0
+					]
+				]
 			}
 		}
 	],
@@ -1350,5 +1368,24 @@
 				"label": 219
 			}
 		]
-	}
+	},
+	"ebrains": {
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+		"openminds/Dataset": "5a16d948-8d1c-400c-b797-8a7ad29944b2",
+		"openminds/DatasetVersion": "4ac9f0bc-560d-47e0-8916-7b24da9bb0ce"
+	},
+	"publications": [
+		{
+			"citation": "Zilles K, Amunts K (2010) Centenary of Brodmann\u2019s map \u2013 conception and fate. Nature Reviews Neuroscience 11(2): 139-145 ",
+			"url": "https://doi.org/10.1038/nrn2776"
+		},
+		{
+			"citation": "Amunts K, Schleicher A, Zilles K (2007) Cytoarchitecture of the cerebral cortex \u2013 more than localization. Neuroimage 37: 1061-1065",
+			"url": "https://doi.org/10.1016/j.neuroimage.2007.02.037"
+		},
+		{
+			"citation": "Zilles K, Schleicher A, Palomero-Gallagher N, Amunts K (2002) Quantitative analysis of cyto- and receptor architecture of the human brain. In: /Brain Mapping: The Methods/, J. C. Mazziotta and A. Toga (eds.), USA: Elsevier, 2002, p. 573-602.",
+			"url": "http://dx.doi.org/10.1016/B978-012693019-1/50023-X"
+		}
+	]
 }

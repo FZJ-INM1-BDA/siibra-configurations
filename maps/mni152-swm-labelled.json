@@ -12,6 +12,24 @@
 				"nii": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_SuperficialWhiteMatterBundles_pub/version%202018/mpm_swm/short-bundles_maxprob.nii.gz",
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob",
 				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/short-bundles_maxprob"
+			},
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+				},
+				"coordinates": [
+					[
+						-69.0,
+						-93.0,
+						-47.0
+					],
+					[
+						70.0,
+						72.0,
+						79.0
+					]
+				]
 			}
 		}
 	],
@@ -617,5 +635,15 @@
 				"label": 56
 			}
 		]
-	}
+	},
+	"ebrains": {
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+		"openminds/DatasetVersion": "f58e4425-6614-4ad9-ac26-5e946b1296cb"
+	},
+	"publications": [
+		{
+			"citation": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas. NeuroImage, 61(4),1083-99.",
+			"url": "https://doi.org/10.1016/j.neuroimage.2012.02.071"
+		}
+	]
 }

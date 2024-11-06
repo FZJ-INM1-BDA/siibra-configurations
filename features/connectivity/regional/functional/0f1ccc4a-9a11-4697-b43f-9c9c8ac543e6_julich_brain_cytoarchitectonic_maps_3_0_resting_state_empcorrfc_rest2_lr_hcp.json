@@ -1,8 +1,9 @@
 {
-	"@type": "siibra/feature/connectivitymatrix/v0.2",
-	"modality": "RestingState",
+	"@type": "siibra/feature/connectivitymatrix/v0.3",
+	"modality": "FunctionalConnectivity",
 	"paradigm": "Resting state (EmpCorrFC REST2-LR)",
 	"cohort": "HCP",
+	"prerelease": true,
 	"parcellation": {
 		"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-300"
 	},
@@ -539,5 +540,6 @@
 		"Frontal-to-Temporal-I (GapMap) right",
 		"Frontal-to-Temporal-II (GapMap) left",
 		"Frontal-to-Temporal-II (GapMap) right"
-	]
+	],
+	"files_indexed_by": "subject"
 }

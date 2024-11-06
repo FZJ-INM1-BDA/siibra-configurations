@@ -1,0 +1,3481 @@
+{
+	"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310",
+	"@type": "siibra/parcellation/v0.0.1",
+	"name": "Julich-Brain Cytoarchitectonic Atlas (v3.1)",
+	"shortName": "Julich-Brain v3.1",
+	"description": "The Julich-Brain Atlas (RRID:SCR_023277) presents in this dataset cytoarchitectonicmaps in several coordinate spaces, such as MNI Colin 27, MNI ICBM 152, andFreeSurfer. These maps originate from peer-reviewed probability maps (PMs) that defineboth cortical and subcortical brain regions. Notably, these probability maps account forthe brain's inter-individual variability by analyzing data from ten post- mortem samples.For a whole-brain parcellation, the available probability maps are combined into amaximum probability map (MPM) by considering for each voxel the probability of allcytoarchitectonic brain regions, and determining the most probable assignment.Continuously evolving, the atlas is regularly updated with new areas. Furthermore, itstands as a reference atlas for the Human Brain Project and is deeply embedded withinthe European research infrastructure platform, EBRAINS. The siibra toolsuite providesan automated access to the Atlas, to speed up your work.",
+	"modality": "cytoarchitecture",
+	"species": "homo sapiens",
+	"@version": {
+		"name": "3.1.0",
+		"@prev": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-300"
+	},
+	"regions": [
+		{
+			"name": "telencephalon",
+			"children": [
+				{
+					"name": "cerebral nuclei",
+					"children": [
+						{
+							"name": "basal ganglia",
+							"children": [
+								{
+									"name": "ventral pallidum",
+									"children": [
+										{
+											"name": "VP (Ventral Pallidum)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "VP (Ventral Pallidum) - right hemisphere"
+												},
+												{
+													"name": "VP (Ventral Pallidum) - left hemisphere"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "ventral striatum",
+									"children": [
+										{
+											"name": "FuCd (Ventral Striatum, Fundus of Caudate Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "FuCd (Ventral Striatum, Fundus of Caudate Nucleus) - right hemisphere"
+												},
+												{
+													"name": "FuCd (Ventral Striatum, Fundus of Caudate Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "AcbM (Ventral Striatum, Medial Accumbens)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "AcbM (Ventral Striatum, Medial Accumbens) - right hemisphere"
+												},
+												{
+													"name": "AcbM (Ventral Striatum, Medial Accumbens) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "AcbL (Ventral Striatum, Lateral Accumbens)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "AcbL (Ventral Striatum, Lateral Accumbens) - right hemisphere"
+												},
+												{
+													"name": "AcbL (Ventral Striatum, Lateral Accumbens) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "FuP (Ventral Striatum, Fundus of Putamen)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "FuP (Ventral Striatum, Fundus of Putamen) - right hemisphere"
+												},
+												{
+													"name": "FuP (Ventral Striatum, Fundus of Putamen) - left hemisphere"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "basal forebrain",
+							"children": [
+								{
+									"name": "sublenticular basal forebrain",
+									"children": [
+										{
+											"name": "Ch 4 (Basal Forebrain)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Ch 4 (Basal Forebrain) - right hemisphere"
+												},
+												{
+													"name": "Ch 4 (Basal Forebrain) - left hemisphere"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "bed nucleus",
+									"children": [
+										{
+											"name": "BST (Basal Forebrain, Bed Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "BST (Basal Forebrain, Bed Nucleus) - right hemisphere"
+												},
+												{
+													"name": "BST (Basal Forebrain, Bed Nucleus) - left hemisphere"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "magnocellular group",
+									"children": [
+										{
+											"name": "Ch 123 (Basal Forebrain)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Ch 123 (Basal Forebrain) - right hemisphere"
+												},
+												{
+													"name": "Ch 123 (Basal Forebrain) - left hemisphere"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "amygdala",
+							"children": [
+								{
+									"name": "amygdaloid groups",
+									"children": [
+										{
+											"name": "CM (Amygdala)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "CM (Amygdala) - right hemisphere",
+													"children": [
+														{
+															"name": "CM.AAA (Amygdala) - right hemisphere"
+														},
+														{
+															"name": "CM.Ce (Amygdala) - right hemisphere"
+														},
+														{
+															"name": "CM.Me (Amygdala) - right hemisphere"
+														}
+													]
+												},
+												{
+													"name": "CM (Amygdala) - left hemisphere",
+													"children": [
+														{
+															"name": "CM.AAA (Amygdala) - left hemisphere"
+														},
+														{
+															"name": "CM.Ce (Amygdala) - left hemisphere"
+														},
+														{
+															"name": "CM.Me (Amygdala) - left hemisphere"
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "LB (Amygdala)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "LB (Amygdala) - right hemisphere",
+													"children": [
+														{
+															"name": "LB.Bl (Amygdala) - right hemisphere"
+														},
+														{
+															"name": "LB.Bm (Amygdala) - right hemisphere"
+														},
+														{
+															"name": "LB.Pl (Amygdala) - right hemisphere"
+														},
+														{
+															"name": "LB.La (Amygdala) - right hemisphere"
+														}
+													]
+												},
+												{
+													"name": "LB (Amygdala) - left hemisphere",
+													"children": [
+														{
+															"name": "LB.Bl (Amygdala) - left hemisphere"
+														},
+														{
+															"name": "LB.Bm (Amygdala) - left hemisphere"
+														},
+														{
+															"name": "LB.Pl (Amygdala) - left hemisphere"
+														},
+														{
+															"name": "LB.La (Amygdala) - left hemisphere"
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "SF (Amygdala)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "SF (Amygdala) - right hemisphere",
+													"children": [
+														{
+															"name": "SF.AHi (Amygdala) - right hemisphere"
+														},
+														{
+															"name": "SF.APir (Amygdala) - right hemisphere"
+														},
+														{
+															"name": "SF.VCo (Amygdala) - right hemisphere"
+														}
+													]
+												},
+												{
+													"name": "SF (Amygdala) - left hemisphere",
+													"children": [
+														{
+															"name": "SF.AHi (Amygdala) - left hemisphere"
+														},
+														{
+															"name": "SF.APir (Amygdala) - left hemisphere"
+														},
+														{
+															"name": "SF.VCo (Amygdala) - left hemisphere"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "amygdalostriatal transition zone",
+									"children": [
+										{
+											"name": "Astr (Amygdala)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Astr (Amygdala) - right hemisphere"
+												},
+												{
+													"name": "Astr (Amygdala) - left hemisphere"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "fiber masses",
+									"children": [
+										{
+											"name": "VTM (Amygdala)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "VTM (Amygdala) - right hemisphere"
+												},
+												{
+													"name": "VTM (Amygdala) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "IF (Amygdala)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "IF (Amygdala) - right hemisphere",
+													"children": [
+														{
+															"name": "IF.ice (Amygdala) - right hemisphere"
+														},
+														{
+															"name": "IF.iol (Amygdala) - right hemisphere"
+														},
+														{
+															"name": "IF.ld (Amygdala) - right hemisphere"
+														}
+													]
+												},
+												{
+													"name": "IF (Amygdala) - left hemisphere",
+													"children": [
+														{
+															"name": "IF.ice (Amygdala) - left hemisphere"
+														},
+														{
+															"name": "IF.iol (Amygdala) - left hemisphere"
+														},
+														{
+															"name": "IF.ld (Amygdala) - left hemisphere"
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "MF (Amygdala)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "MF (Amygdala) - right hemisphere",
+													"children": [
+														{
+															"name": "MF.icm (Amygdala) - right hemisphere"
+														},
+														{
+															"name": "MF.lm (Amygdala) - right hemisphere"
+														}
+													]
+												},
+												{
+													"name": "MF (Amygdala) - left hemisphere",
+													"children": [
+														{
+															"name": "MF.icm (Amygdala) - left hemisphere"
+														},
+														{
+															"name": "MF.lm (Amygdala) - left hemisphere"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "cerebral cortex",
+					"children": [
+						{
+							"name": "parietal lobe",
+							"children": [
+								{
+									"name": "superior parietal lobule",
+									"children": [
+										{
+											"name": "Area 5L (SPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 5L (SPL) - right hemisphere",
+													"rgb": "#b8b839"
+												},
+												{
+													"name": "Area 5L (SPL) - left hemisphere",
+													"rgb": "#b8b839"
+												}
+											]
+										},
+										{
+											"name": "Area 7M (SPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 7M (SPL) - right hemisphere",
+													"rgb": "#cd3ceb"
+												},
+												{
+													"name": "Area 7M (SPL) - left hemisphere",
+													"rgb": "#cd3ceb"
+												}
+											]
+										},
+										{
+											"name": "Area 7PC (SPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 7PC (SPL) - right hemisphere",
+													"rgb": "#fb581c"
+												},
+												{
+													"name": "Area 7PC (SPL) - left hemisphere",
+													"rgb": "#fb581c"
+												}
+											]
+										},
+										{
+											"name": "Area 5M (SPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 5M (SPL) - right hemisphere",
+													"rgb": "#e0f54b"
+												},
+												{
+													"name": "Area 5M (SPL) - left hemisphere",
+													"rgb": "#e0f54b"
+												}
+											]
+										},
+										{
+											"name": "Area 7P (SPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 7P (SPL) - right hemisphere",
+													"rgb": "#34136a"
+												},
+												{
+													"name": "Area 7P (SPL) - left hemisphere",
+													"rgb": "#34136a"
+												}
+											]
+										},
+										{
+											"name": "Area 5Ci (SPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 5Ci (SPL) - right hemisphere",
+													"rgb": "#4ff192"
+												},
+												{
+													"name": "Area 5Ci (SPL) - left hemisphere",
+													"rgb": "#4ff192"
+												}
+											]
+										},
+										{
+											"name": "Area 7A (SPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 7A (SPL) - right hemisphere",
+													"rgb": "#00ccc9"
+												},
+												{
+													"name": "Area 7A (SPL) - left hemisphere",
+													"rgb": "#00ccc9"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "postcentral gyrus",
+									"children": [
+										{
+											"name": "Area 3b (PostCG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 3b (PostCG) - right hemisphere",
+													"rgb": "#f63e00"
+												},
+												{
+													"name": "Area 3b (PostCG) - left hemisphere",
+													"rgb": "#f63e00"
+												}
+											]
+										},
+										{
+											"name": "Area 1 (PostCG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 1 (PostCG) - right hemisphere",
+													"rgb": "#e8b8f9"
+												},
+												{
+													"name": "Area 1 (PostCG) - left hemisphere",
+													"rgb": "#e8b8f9"
+												}
+											]
+										},
+										{
+											"name": "Area 2 (PostCS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 2 (PostCS) - right hemisphere",
+													"rgb": "#7a7022"
+												},
+												{
+													"name": "Area 2 (PostCS) - left hemisphere",
+													"rgb": "#7a7022"
+												}
+											]
+										},
+										{
+											"name": "Area 3a (PostCG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 3a (PostCG) - right hemisphere",
+													"rgb": "#ba8531"
+												},
+												{
+													"name": "Area 3a (PostCG) - left hemisphere",
+													"rgb": "#ba8531"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "parietal operculum",
+									"children": [
+										{
+											"name": "Area Op1 (POperc)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Op1 (POperc) - right hemisphere",
+													"rgb": "#f9b621"
+												},
+												{
+													"name": "Area Op1 (POperc) - left hemisphere",
+													"rgb": "#f9b621"
+												}
+											]
+										},
+										{
+											"name": "Area Op2 (POperc)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Op2 (POperc) - right hemisphere",
+													"rgb": "#232edd"
+												},
+												{
+													"name": "Area Op2 (POperc) - left hemisphere",
+													"rgb": "#232edd"
+												}
+											]
+										},
+										{
+											"name": "Area Op3 (POperc)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Op3 (POperc) - right hemisphere",
+													"rgb": "#397950"
+												},
+												{
+													"name": "Area Op3 (POperc) - left hemisphere",
+													"rgb": "#397950"
+												}
+											]
+										},
+										{
+											"name": "Area Op4 (POperc)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Op4 (POperc) - right hemisphere",
+													"rgb": "#585084"
+												},
+												{
+													"name": "Area Op4 (POperc) - left hemisphere",
+													"rgb": "#585084"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "inferior parietal lobule",
+									"children": [
+										{
+											"name": "Area PF (IPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area PF (IPL) - right hemisphere",
+													"rgb": "#e1d23c"
+												},
+												{
+													"name": "Area PF (IPL) - left hemisphere",
+													"rgb": "#e1d23c"
+												}
+											]
+										},
+										{
+											"name": "Area PFcm (IPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area PFcm (IPL) - right hemisphere",
+													"rgb": "#618078"
+												},
+												{
+													"name": "Area PFcm (IPL) - left hemisphere",
+													"rgb": "#618078"
+												}
+											]
+										},
+										{
+											"name": "Area PGa (IPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area PGa (IPL) - right hemisphere",
+													"rgb": "#2aeb83"
+												},
+												{
+													"name": "Area PGa (IPL) - left hemisphere",
+													"rgb": "#2aeb83"
+												}
+											]
+										},
+										{
+											"name": "Area PFt (IPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area PFt (IPL) - right hemisphere",
+													"rgb": "#7886e8"
+												},
+												{
+													"name": "Area PFt (IPL) - left hemisphere",
+													"rgb": "#7886e8"
+												}
+											]
+										},
+										{
+											"name": "Area PFm (IPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area PFm (IPL) - right hemisphere",
+													"rgb": "#0790b7"
+												},
+												{
+													"name": "Area PFm (IPL) - left hemisphere",
+													"rgb": "#0790b7"
+												}
+											]
+										},
+										{
+											"name": "Area PGp (IPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area PGp (IPL) - right hemisphere",
+													"rgb": "#5c7452"
+												},
+												{
+													"name": "Area PGp (IPL) - left hemisphere",
+													"rgb": "#5c7452"
+												}
+											]
+										},
+										{
+											"name": "Area PFop (IPL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area PFop (IPL) - right hemisphere",
+													"rgb": "#9299b0"
+												},
+												{
+													"name": "Area PFop (IPL) - left hemisphere",
+													"rgb": "#9299b0"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "parieto-occipital sulcus",
+									"children": [
+										{
+											"name": "Area hPO1 (POS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hPO1 (POS) - right hemisphere",
+													"rgb": "#99e8eb"
+												},
+												{
+													"name": "Area hPO1 (POS) - left hemisphere",
+													"rgb": "#99e8eb"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "intraparietal sulcus",
+									"children": [
+										{
+											"name": "Area hIP1 (IPS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hIP1 (IPS) - right hemisphere",
+													"rgb": "#429452"
+												},
+												{
+													"name": "Area hIP1 (IPS) - left hemisphere",
+													"rgb": "#429452"
+												}
+											]
+										},
+										{
+											"name": "Area hIP7 (IPS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hIP7 (IPS) - right hemisphere",
+													"rgb": "#46c4da"
+												},
+												{
+													"name": "Area hIP7 (IPS) - left hemisphere",
+													"rgb": "#46c4da"
+												}
+											]
+										},
+										{
+											"name": "Area hIP3 (IPS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hIP3 (IPS) - right hemisphere",
+													"rgb": "#70ace4"
+												},
+												{
+													"name": "Area hIP3 (IPS) - left hemisphere",
+													"rgb": "#70ace4"
+												}
+											]
+										},
+										{
+											"name": "Area hIP2 (IPS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hIP2 (IPS) - right hemisphere",
+													"rgb": "#f59494"
+												},
+												{
+													"name": "Area hIP2 (IPS) - left hemisphere",
+													"rgb": "#f59494"
+												}
+											]
+										},
+										{
+											"name": "Area hIP4 (IPS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hIP4 (IPS) - right hemisphere",
+													"rgb": "#fd34b8"
+												},
+												{
+													"name": "Area hIP4 (IPS) - left hemisphere",
+													"rgb": "#fd34b8"
+												}
+											]
+										},
+										{
+											"name": "Area hIP5 (IPS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hIP5 (IPS) - right hemisphere",
+													"rgb": "#d956d2"
+												},
+												{
+													"name": "Area hIP5 (IPS) - left hemisphere",
+													"rgb": "#d956d2"
+												}
+											]
+										},
+										{
+											"name": "Area hIP6 (IPS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hIP6 (IPS) - right hemisphere",
+													"rgb": "#ece924"
+												},
+												{
+													"name": "Area hIP6 (IPS) - left hemisphere",
+													"rgb": "#ece924"
+												}
+											]
+										},
+										{
+											"name": "Area hIP8 (IPS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hIP8 (IPS) - right hemisphere",
+													"rgb": "#df6c03"
+												},
+												{
+													"name": "Area hIP8 (IPS) - left hemisphere",
+													"rgb": "#df6c03"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Frontal-to-Occipital (GapMap)",
+							"granularity": "default",
+							"children": [
+								{
+									"name": "Frontal-to-Occipital (GapMap) - right hemisphere",
+									"rgb": "#68a05d"
+								},
+								{
+									"name": "Frontal-to-Occipital (GapMap) - left hemisphere",
+									"rgb": "#68a05d"
+								}
+							]
+						},
+						{
+							"name": "Temporal-to-Parietal (GapMap)",
+							"granularity": "default",
+							"children": [
+								{
+									"name": "Temporal-to-Parietal (GapMap) - right hemisphere",
+									"rgb": "#4b5aa0"
+								},
+								{
+									"name": "Temporal-to-Parietal (GapMap) - left hemisphere",
+									"rgb": "#4b5aa0"
+								}
+							]
+						},
+						{
+							"name": "Frontal-I.2 (GapMap)",
+							"granularity": "default",
+							"children": [
+								{
+									"name": "Frontal-I.2 (GapMap) - right hemisphere",
+									"rgb": "#b9ff18"
+								},
+								{
+									"name": "Frontal-I.2 (GapMap) - left hemisphere",
+									"rgb": "#b9ff18"
+								}
+							]
+						},
+						{
+							"name": "Frontal-to-Temporal-II (GapMap)",
+							"granularity": "default",
+							"children": [
+								{
+									"name": "Frontal-to-Temporal-II (GapMap) - right hemisphere",
+									"rgb": "#a01749"
+								},
+								{
+									"name": "Frontal-to-Temporal-II (GapMap) - left hemisphere",
+									"rgb": "#a01749"
+								}
+							]
+						},
+						{
+							"name": "Frontal-I.1 (GapMap)",
+							"granularity": "default",
+							"children": [
+								{
+									"name": "Frontal-I.1 (GapMap) - right hemisphere",
+									"rgb": "#cd6380"
+								},
+								{
+									"name": "Frontal-I.1 (GapMap) - left hemisphere",
+									"rgb": "#cd6380"
+								}
+							]
+						},
+						{
+							"name": "Frontal-to-Temporal-I (GapMap)",
+							"granularity": "default",
+							"children": [
+								{
+									"name": "Frontal-to-Temporal-I (GapMap) - right hemisphere",
+									"rgb": "#407d63"
+								},
+								{
+									"name": "Frontal-to-Temporal-I (GapMap) - left hemisphere",
+									"rgb": "#407d63"
+								}
+							]
+						},
+						{
+							"name": "Frontal-II (GapMap)",
+							"granularity": "default",
+							"children": [
+								{
+									"name": "Frontal-II (GapMap) - right hemisphere",
+									"rgb": "#ff860f"
+								},
+								{
+									"name": "Frontal-II (GapMap) - left hemisphere",
+									"rgb": "#ff860f"
+								}
+							]
+						},
+						{
+							"name": "frontal lobe",
+							"children": [
+								{
+									"name": "ventral precentral gyrus",
+									"children": [
+										{
+											"name": "Area 6v3 (PreCG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 6v3 (PreCG) - right hemisphere",
+													"rgb": "#c7ab2f"
+												},
+												{
+													"name": "Area 6v3 (PreCG) - left hemisphere",
+													"rgb": "#c7ab2f"
+												}
+											]
+										},
+										{
+											"name": "Area 6v2 (PreCG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 6v2 (PreCG) - right hemisphere",
+													"rgb": "#ce00d0"
+												},
+												{
+													"name": "Area 6v2 (PreCG) - left hemisphere",
+													"rgb": "#ce00d0"
+												}
+											]
+										},
+										{
+											"name": "Area 6r1 (PreCG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 6r1 (PreCG) - right hemisphere",
+													"rgb": "#03c490"
+												},
+												{
+													"name": "Area 6r1 (PreCG) - left hemisphere",
+													"rgb": "#03c490"
+												}
+											]
+										},
+										{
+											"name": "Area 6v1 (PreCG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 6v1 (PreCG) - right hemisphere",
+													"rgb": "#06cdf1"
+												},
+												{
+													"name": "Area 6v1 (PreCG) - left hemisphere",
+													"rgb": "#06cdf1"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "dorsal precentral gyrus",
+									"children": [
+										{
+											"name": "Area 6d2 (PreCG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 6d2 (PreCG) - right hemisphere",
+													"rgb": "#aa96b4"
+												},
+												{
+													"name": "Area 6d2 (PreCG) - left hemisphere",
+													"rgb": "#aa96b4"
+												}
+											]
+										},
+										{
+											"name": "Area 6d1 (PreCG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 6d1 (PreCG) - right hemisphere",
+													"rgb": "#e97100"
+												},
+												{
+													"name": "Area 6d1 (PreCG) - left hemisphere",
+													"rgb": "#e97100"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "posterior medial superior frontal gyrus",
+									"children": [
+										{
+											"name": "Area 6ma (preSMA, mesial SFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 6ma (preSMA, mesial SFG) - right hemisphere",
+													"rgb": "#cc6cde"
+												},
+												{
+													"name": "Area 6ma (preSMA, mesial SFG) - left hemisphere",
+													"rgb": "#cc6cde"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "frontal pole",
+									"children": [
+										{
+											"name": "Area Fp1 (FPole)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Fp1 (FPole) - right hemisphere",
+													"rgb": "#e10ec7"
+												},
+												{
+													"name": "Area Fp1 (FPole) - left hemisphere",
+													"rgb": "#e10ec7"
+												}
+											]
+										},
+										{
+											"name": "Area Fp2 (FPole)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Fp2 (FPole) - right hemisphere",
+													"rgb": "#ee88d2"
+												},
+												{
+													"name": "Area Fp2 (FPole) - left hemisphere",
+													"rgb": "#ee88d2"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "mesial precentral gyrus",
+									"children": [
+										{
+											"name": "Area 6mp (SMA, mesial SFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 6mp (SMA, mesial SFG) - right hemisphere",
+													"rgb": "#4a5f56"
+												},
+												{
+													"name": "Area 6mp (SMA, mesial SFG) - left hemisphere",
+													"rgb": "#4a5f56"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "medial orbitofrontal cortex",
+									"children": [
+										{
+											"name": "Area Fo1 (OFC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Fo1 (OFC) - right hemisphere",
+													"rgb": "#06ffb3"
+												},
+												{
+													"name": "Area Fo1 (OFC) - left hemisphere",
+													"rgb": "#06ffb3"
+												}
+											]
+										},
+										{
+											"name": "Area Fo3 (OFC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Fo3 (OFC) - right hemisphere",
+													"rgb": "#b6bcf9"
+												},
+												{
+													"name": "Area Fo3 (OFC) - left hemisphere",
+													"rgb": "#b6bcf9"
+												}
+											]
+										},
+										{
+											"name": "Area Fo2 (OFC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Fo2 (OFC) - right hemisphere",
+													"rgb": "#00ff00"
+												},
+												{
+													"name": "Area Fo2 (OFC) - left hemisphere",
+													"rgb": "#00ff00"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "precentral gyrus",
+									"children": [
+										{
+											"name": "Area 4p (PreCG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 4p (PreCG) - right hemisphere",
+													"rgb": "#745c7b"
+												},
+												{
+													"name": "Area 4p (PreCG) - left hemisphere",
+													"rgb": "#745c7b"
+												}
+											]
+										},
+										{
+											"name": "Area 4a (PreCG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 4a (PreCG) - right hemisphere",
+													"rgb": "#76eeb7"
+												},
+												{
+													"name": "Area 4a (PreCG) - left hemisphere",
+													"rgb": "#76eeb7"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "frontal operculum ",
+									"children": [
+										{
+											"name": "Area Op10 (Frontal Operculum)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Op10 (Frontal Operculum) - right hemisphere",
+													"rgb": "#bd5a06"
+												},
+												{
+													"name": "Area Op10 (Frontal Operculum) - left hemisphere",
+													"rgb": "#bd5a06"
+												}
+											]
+										},
+										{
+											"name": "Area Op6 (Frontal Operculum)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Op6 (Frontal Operculum) - right hemisphere",
+													"rgb": "#893e63"
+												},
+												{
+													"name": "Area Op6 (Frontal Operculum) - left hemisphere",
+													"rgb": "#893e63"
+												}
+											]
+										},
+										{
+											"name": "Area Op5 (Frontal Operculum)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Op5 (Frontal Operculum) - right hemisphere",
+													"rgb": "#de4efc"
+												},
+												{
+													"name": "Area Op5 (Frontal Operculum) - left hemisphere",
+													"rgb": "#de4efc"
+												}
+											]
+										},
+										{
+											"name": "Area Op7 (Frontal Operculum)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Op7 (Frontal Operculum) - right hemisphere",
+													"rgb": "#8574c0"
+												},
+												{
+													"name": "Area Op7 (Frontal Operculum) - left hemisphere",
+													"rgb": "#8574c0"
+												}
+											]
+										},
+										{
+											"name": "Area Op9 (Frontal Operculum)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Op9 (Frontal Operculum) - right hemisphere",
+													"rgb": "#ae7a21"
+												},
+												{
+													"name": "Area Op9 (Frontal Operculum) - left hemisphere",
+													"rgb": "#ae7a21"
+												}
+											]
+										},
+										{
+											"name": "Area Op8 (Frontal Operculum)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Op8 (Frontal Operculum) - right hemisphere",
+													"rgb": "#1d4ba8"
+												},
+												{
+													"name": "Area Op8 (Frontal Operculum) - left hemisphere",
+													"rgb": "#1d4ba8"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "inferior frontal sulcus",
+									"children": [
+										{
+											"name": "Area IFS4 (IFS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area IFS4 (IFS) - right hemisphere",
+													"rgb": "#1f487c"
+												},
+												{
+													"name": "Area IFS4 (IFS) - left hemisphere",
+													"rgb": "#1f487c"
+												}
+											]
+										},
+										{
+											"name": "Area IFS2 (IFS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area IFS2 (IFS) - right hemisphere",
+													"rgb": "#ff0000"
+												},
+												{
+													"name": "Area IFS2 (IFS) - left hemisphere",
+													"rgb": "#ff0000"
+												}
+											]
+										},
+										{
+											"name": "Area IFS1 (IFS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area IFS1 (IFS) - right hemisphere",
+													"rgb": "#6f2f9f"
+												},
+												{
+													"name": "Area IFS1 (IFS) - left hemisphere",
+													"rgb": "#6f2f9f"
+												}
+											]
+										},
+										{
+											"name": "Area IFJ2 (IFS, PreCS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area IFJ2 (IFS, PreCS) - right hemisphere",
+													"rgb": "#df6a15"
+												},
+												{
+													"name": "Area IFJ2 (IFS, PreCS) - left hemisphere",
+													"rgb": "#df6a15"
+												}
+											]
+										},
+										{
+											"name": "Area IFS3 (IFS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area IFS3 (IFS) - right hemisphere",
+													"rgb": "#028031"
+												},
+												{
+													"name": "Area IFS3 (IFS) - left hemisphere",
+													"rgb": "#028031"
+												}
+											]
+										},
+										{
+											"name": "Area IFJ1 (IFS, PreCS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area IFJ1 (IFS, PreCS) - right hemisphere",
+													"rgb": "#e4009f"
+												},
+												{
+													"name": "Area IFJ1 (IFS, PreCS) - left hemisphere",
+													"rgb": "#e4009f"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "fronto-marginal sulcus",
+									"children": [
+										{
+											"name": "Area MFG2 (MFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area MFG2 (MFG) - right hemisphere",
+													"rgb": "#ffeb00"
+												},
+												{
+													"name": "Area MFG2 (MFG) - left hemisphere",
+													"rgb": "#ffeb00"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "inferior frontal gyrus",
+									"children": [
+										{
+											"name": "Area 44 (IFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 44 (IFG) - right hemisphere",
+													"rgb": "#36494a"
+												},
+												{
+													"name": "Area 44 (IFG) - left hemisphere",
+													"rgb": "#36494a"
+												}
+											]
+										},
+										{
+											"name": "Area 45 (IFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 45 (IFG) - right hemisphere",
+													"rgb": "#a76792"
+												},
+												{
+													"name": "Area 45 (IFG) - left hemisphere",
+													"rgb": "#a76792"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "middle frontal gyrus",
+									"children": [
+										{
+											"name": "Area 8v2 (MFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 8v2 (MFG) - right hemisphere",
+													"rgb": "#e4ac0f"
+												},
+												{
+													"name": "Area 8v2 (MFG) - left hemisphere",
+													"rgb": "#e4ac0f"
+												}
+											]
+										},
+										{
+											"name": "Area 8v1 (MFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 8v1 (MFG) - right hemisphere",
+													"rgb": "#7b315f"
+												},
+												{
+													"name": "Area 8v1 (MFG) - left hemisphere",
+													"rgb": "#7b315f"
+												}
+											]
+										},
+										{
+											"name": "Area MFG4 (MFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area MFG4 (MFG) - right hemisphere",
+													"rgb": "#807800"
+												},
+												{
+													"name": "Area MFG4 (MFG) - left hemisphere",
+													"rgb": "#807800"
+												}
+											]
+										},
+										{
+											"name": "Area MFG1 (MFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area MFG1 (MFG) - right hemisphere",
+													"rgb": "#612081"
+												},
+												{
+													"name": "Area MFG1 (MFG) - left hemisphere",
+													"rgb": "#612081"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "superior frontal sulcus",
+									"children": [
+										{
+											"name": "Area SFS2 (SFS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area SFS2 (SFS) - right hemisphere",
+													"rgb": "#f19300"
+												},
+												{
+													"name": "Area SFS2 (SFS) - left hemisphere",
+													"rgb": "#f19300"
+												}
+											]
+										},
+										{
+											"name": "Area 6d3 (SFS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 6d3 (SFS) - right hemisphere",
+													"rgb": "#eeec1b"
+												},
+												{
+													"name": "Area 6d3 (SFS) - left hemisphere",
+													"rgb": "#eeec1b"
+												}
+											]
+										},
+										{
+											"name": "Area SFS1 (SFS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area SFS1 (SFS) - right hemisphere",
+													"rgb": "#00a4e1"
+												},
+												{
+													"name": "Area SFS1 (SFS) - left hemisphere",
+													"rgb": "#00a4e1"
+												}
+											]
+										},
+										{
+											"name": "Area SFG3 (SFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area SFG3 (SFG) - right hemisphere",
+													"rgb": "#760080"
+												},
+												{
+													"name": "Area SFG3 (SFG) - left hemisphere",
+													"rgb": "#760080"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "middle frontal gyrus, inferior frontal sulcus",
+									"children": [
+										{
+											"name": "Area MFG5 (MFG, IFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area MFG5 (MFG, IFG) - right hemisphere",
+													"rgb": "#007600"
+												},
+												{
+													"name": "Area MFG5 (MFG, IFG) - left hemisphere",
+													"rgb": "#007600"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "superior frontal gyrus",
+									"children": [
+										{
+											"name": "Area SFG2 (SFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area SFG2 (SFG) - right hemisphere",
+													"rgb": "#000080"
+												},
+												{
+													"name": "Area SFG2 (SFG) - left hemisphere",
+													"rgb": "#000080"
+												}
+											]
+										},
+										{
+											"name": "Area 8d2 (SFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 8d2 (SFG) - right hemisphere",
+													"rgb": "#eb2cc5"
+												},
+												{
+													"name": "Area 8d2 (SFG) - left hemisphere",
+													"rgb": "#eb2cc5"
+												}
+											]
+										},
+										{
+											"name": "Area 8d1 (SFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 8d1 (SFG) - right hemisphere",
+													"rgb": "#5e8a82"
+												},
+												{
+													"name": "Area 8d1 (SFG) - left hemisphere",
+													"rgb": "#5e8a82"
+												}
+											]
+										},
+										{
+											"name": "Area SFG4 (SFG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area SFG4 (SFG) - right hemisphere",
+													"rgb": "#802800"
+												},
+												{
+													"name": "Area SFG4 (SFG) - left hemisphere",
+													"rgb": "#802800"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "lateral orbitofrontal cortex",
+									"children": [
+										{
+											"name": "Area Fo6 (OFC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Fo6 (OFC) - right hemisphere",
+													"rgb": "#c69cba"
+												},
+												{
+													"name": "Area Fo6 (OFC) - left hemisphere",
+													"rgb": "#c69cba"
+												}
+											]
+										},
+										{
+											"name": "Area Fo5 (OFC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Fo5 (OFC) - right hemisphere",
+													"rgb": "#db0a5b"
+												},
+												{
+													"name": "Area Fo5 (OFC) - left hemisphere",
+													"rgb": "#db0a5b"
+												}
+											]
+										},
+										{
+											"name": "Area Fo7 (OFC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Fo7 (OFC) - right hemisphere",
+													"rgb": "#40d2b9"
+												},
+												{
+													"name": "Area Fo7 (OFC) - left hemisphere",
+													"rgb": "#40d2b9"
+												}
+											]
+										},
+										{
+											"name": "Area Fo4 (OFC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Fo4 (OFC) - right hemisphere",
+													"rgb": "#a2cc35"
+												},
+												{
+													"name": "Area Fo4 (OFC) - left hemisphere",
+													"rgb": "#a2cc35"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "insula",
+							"children": [
+								{
+									"name": "granular insula",
+									"children": [
+										{
+											"name": "Area Ig3 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Ig3 (Insula) - right hemisphere",
+													"rgb": "#69fcc5"
+												},
+												{
+													"name": "Area Ig3 (Insula) - left hemisphere",
+													"rgb": "#69fcc5"
+												}
+											]
+										},
+										{
+											"name": "Area Ig1 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Ig1 (Insula) - right hemisphere",
+													"rgb": "#126e28"
+												},
+												{
+													"name": "Area Ig1 (Insula) - left hemisphere",
+													"rgb": "#126e28"
+												}
+											]
+										},
+										{
+											"name": "Area Ig2 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Ig2 (Insula) - right hemisphere",
+													"rgb": "#693c52"
+												},
+												{
+													"name": "Area Ig2 (Insula) - left hemisphere",
+													"rgb": "#693c52"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "agranular insula",
+									"children": [
+										{
+											"name": "Area Ia2 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Ia2 (Insula) - right hemisphere",
+													"rgb": "#741702"
+												},
+												{
+													"name": "Area Ia2 (Insula) - left hemisphere",
+													"rgb": "#741702"
+												}
+											]
+										},
+										{
+											"name": "Area Ia1 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Ia1 (Insula) - right hemisphere",
+													"rgb": "#46d93d"
+												},
+												{
+													"name": "Area Ia1 (Insula) - left hemisphere",
+													"rgb": "#46d93d"
+												}
+											]
+										},
+										{
+											"name": "Area Ia3 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Ia3 (Insula) - right hemisphere",
+													"rgb": "#30f75a"
+												},
+												{
+													"name": "Area Ia3 (Insula) - left hemisphere",
+													"rgb": "#30f75a"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "dysgranular insula",
+									"children": [
+										{
+											"name": "Area Id2 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Id2 (Insula) - right hemisphere",
+													"rgb": "#e07d48"
+												},
+												{
+													"name": "Area Id2 (Insula) - left hemisphere",
+													"rgb": "#e07d48"
+												}
+											]
+										},
+										{
+											"name": "Area Id8 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Id8 (Insula) - right hemisphere",
+													"rgb": "#4fba2a"
+												},
+												{
+													"name": "Area Id8 (Insula) - left hemisphere",
+													"rgb": "#4fba2a"
+												}
+											]
+										},
+										{
+											"name": "Area Id1 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Id1 (Insula) - right hemisphere",
+													"rgb": "#8d6fd7"
+												},
+												{
+													"name": "Area Id1 (Insula) - left hemisphere",
+													"rgb": "#8d6fd7"
+												}
+											]
+										},
+										{
+											"name": "Area Id9 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Id9 (Insula) - right hemisphere",
+													"rgb": "#1636aa"
+												},
+												{
+													"name": "Area Id9 (Insula) - left hemisphere",
+													"rgb": "#1636aa"
+												}
+											]
+										},
+										{
+											"name": "Area Id7 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Id7 (Insula) - right hemisphere",
+													"rgb": "#bbf9d7"
+												},
+												{
+													"name": "Area Id7 (Insula) - left hemisphere",
+													"rgb": "#bbf9d7"
+												}
+											]
+										},
+										{
+											"name": "Area Id5 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Id5 (Insula) - right hemisphere",
+													"rgb": "#6f0631"
+												},
+												{
+													"name": "Area Id5 (Insula) - left hemisphere",
+													"rgb": "#6f0631"
+												}
+											]
+										},
+										{
+											"name": "Area Id6 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Id6 (Insula) - right hemisphere",
+													"rgb": "#897e77"
+												},
+												{
+													"name": "Area Id6 (Insula) - left hemisphere",
+													"rgb": "#897e77"
+												}
+											]
+										},
+										{
+											"name": "Area Id10 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Id10 (Insula) - right hemisphere",
+													"rgb": "#b364c0"
+												},
+												{
+													"name": "Area Id10 (Insula) - left hemisphere",
+													"rgb": "#b364c0"
+												}
+											]
+										},
+										{
+											"name": "Area Id4 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Id4 (Insula) - right hemisphere",
+													"rgb": "#25ad70"
+												},
+												{
+													"name": "Area Id4 (Insula) - left hemisphere",
+													"rgb": "#25ad70"
+												}
+											]
+										},
+										{
+											"name": "Area Id3 (Insula)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Id3 (Insula) - right hemisphere",
+													"rgb": "#1f1f39"
+												},
+												{
+													"name": "Area Id3 (Insula) - left hemisphere",
+													"rgb": "#1f1f39"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "temporal lobe",
+							"children": [
+								{
+									"name": "superior temporal sulcus",
+									"children": [
+										{
+											"name": "Area STS2 (STS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area STS2 (STS) - right hemisphere",
+													"rgb": "#12aebd"
+												},
+												{
+													"name": "Area STS2 (STS) - left hemisphere",
+													"rgb": "#12aebd"
+												}
+											]
+										},
+										{
+											"name": "Area STS1 (STS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area STS1 (STS) - right hemisphere",
+													"rgb": "#cde304"
+												},
+												{
+													"name": "Area STS1 (STS) - left hemisphere",
+													"rgb": "#cde304"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "occipito-temporal sulcus",
+									"children": [
+										{
+											"name": "Area OTS1 (OTS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area OTS1 (OTS) - right hemisphere",
+													"rgb": "#660034"
+												},
+												{
+													"name": "Area OTS1 (OTS) - left hemisphere",
+													"rgb": "#660034"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "superior temporal gyrus",
+									"children": [
+										{
+											"name": "Area Te 3 (STG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Te 3 (STG) - right hemisphere",
+													"rgb": "#9f686c"
+												},
+												{
+													"name": "Area Te 3 (STG) - left hemisphere",
+													"rgb": "#9f686c"
+												}
+											]
+										},
+										{
+											"name": "Area Te 2.2 (STG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Te 2.2 (STG) - right hemisphere",
+													"rgb": "#8a3ec0"
+												},
+												{
+													"name": "Area Te 2.2 (STG) - left hemisphere",
+													"rgb": "#8a3ec0"
+												}
+											]
+										},
+										{
+											"name": "Area Te 2.1 (STG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Te 2.1 (STG) - right hemisphere",
+													"rgb": "#43fd2c"
+												},
+												{
+													"name": "Area Te 2.1 (STG) - left hemisphere",
+													"rgb": "#43fd2c"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Heschl's gyrus",
+									"children": [
+										{
+											"name": "Area Te 1.1 (HESCHL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Te 1.1 (HESCHL) - right hemisphere",
+													"rgb": "#077044"
+												},
+												{
+													"name": "Area Te 1.1 (HESCHL) - left hemisphere",
+													"rgb": "#077044"
+												}
+											]
+										},
+										{
+											"name": "Area Te 1.2 (HESCHL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Te 1.2 (HESCHL) - right hemisphere",
+													"rgb": "#c9fac0"
+												},
+												{
+													"name": "Area Te 1.2 (HESCHL) - left hemisphere",
+													"rgb": "#c9fac0"
+												}
+											]
+										},
+										{
+											"name": "Area Te 1.0 (HESCHL)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Te 1.0 (HESCHL) - right hemisphere",
+													"rgb": "#fb53de"
+												},
+												{
+													"name": "Area Te 1.0 (HESCHL) - left hemisphere",
+													"rgb": "#fb53de"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "parahippocampal gyrus",
+									"children": [
+										{
+											"name": "Area Ph1 (PhG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Ph1 (PhG) - right hemisphere",
+													"rgb": "#008000"
+												},
+												{
+													"name": "Area Ph1 (PhG) - left hemisphere",
+													"rgb": "#008000"
+												}
+											]
+										},
+										{
+											"name": "Area Ph2 (PhG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Ph2 (PhG) - right hemisphere",
+													"rgb": "#808000"
+												},
+												{
+													"name": "Area Ph2 (PhG) - left hemisphere",
+													"rgb": "#808000"
+												}
+											]
+										},
+										{
+											"name": "Area Ph3 (PhG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area Ph3 (PhG) - right hemisphere",
+													"rgb": "#800000"
+												},
+												{
+													"name": "Area Ph3 (PhG) - left hemisphere",
+													"rgb": "#800000"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "collateral sulcus",
+									"children": [
+										{
+											"name": "Area CoS1 (CoS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area CoS1 (CoS) - right hemisphere",
+													"rgb": "#007880"
+												},
+												{
+													"name": "Area CoS1 (CoS) - left hemisphere",
+													"rgb": "#007880"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "temporal insula",
+									"children": [
+										{
+											"name": "Area TI (STG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area TI (STG) - right hemisphere",
+													"rgb": "#556415"
+												},
+												{
+													"name": "Area TI (STG) - left hemisphere",
+													"rgb": "#556415"
+												}
+											]
+										},
+										{
+											"name": "Area TeI (STG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area TeI (STG) - right hemisphere",
+													"rgb": "#164e5c"
+												},
+												{
+													"name": "Area TeI (STG) - left hemisphere",
+													"rgb": "#164e5c"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "fusiform gyrus",
+									"children": [
+										{
+											"name": "Area FG5 (FusG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area FG5 (FusG) - right hemisphere",
+													"rgb": "#1ef44b"
+												},
+												{
+													"name": "Area FG5 (FusG) - left hemisphere",
+													"rgb": "#1ef44b"
+												}
+											]
+										},
+										{
+											"name": "Area FG2 (FusG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area FG2 (FusG) - right hemisphere",
+													"rgb": "#a75e94"
+												},
+												{
+													"name": "Area FG2 (FusG) - left hemisphere",
+													"rgb": "#a75e94"
+												}
+											]
+										},
+										{
+											"name": "Area FG3 (FusG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area FG3 (FusG) - right hemisphere",
+													"rgb": "#789224"
+												},
+												{
+													"name": "Area FG3 (FusG) - left hemisphere",
+													"rgb": "#789224"
+												}
+											]
+										},
+										{
+											"name": "Area FG1 (FusG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area FG1 (FusG) - right hemisphere",
+													"rgb": "#83b739"
+												},
+												{
+													"name": "Area FG1 (FusG) - left hemisphere",
+													"rgb": "#83b739"
+												}
+											]
+										},
+										{
+											"name": "Area FG4 (FusG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area FG4 (FusG) - right hemisphere",
+													"rgb": "#aadcae"
+												},
+												{
+													"name": "Area FG4 (FusG) - left hemisphere",
+													"rgb": "#aadcae"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "temporo-parietal junction",
+									"children": [
+										{
+											"name": "Area TPJ (STG, SMG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area TPJ (STG, SMG) - right hemisphere",
+													"rgb": "#5fc331"
+												},
+												{
+													"name": "Area TPJ (STG, SMG) - left hemisphere",
+													"rgb": "#5fc331"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "occipital lobe",
+							"children": [
+								{
+									"name": "occipital cortex",
+									"children": [
+										{
+											"name": "Area hOc2 (V2, 18)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hOc2 (V2, 18) - right hemisphere",
+													"rgb": "#536d15"
+												},
+												{
+													"name": "Area hOc2 (V2, 18) - left hemisphere",
+													"rgb": "#536d15"
+												}
+											]
+										},
+										{
+											"name": "Area hOc1 (V1, 17, CalcS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hOc1 (V1, 17, CalcS) - right hemisphere",
+													"rgb": "#bd8492"
+												},
+												{
+													"name": "Area hOc1 (V1, 17, CalcS) - left hemisphere",
+													"rgb": "#bd8492"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "dorsal occipital cortex",
+									"children": [
+										{
+											"name": "Area hOc6 (POS)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hOc6 (POS) - right hemisphere",
+													"rgb": "#ee421a"
+												},
+												{
+													"name": "Area hOc6 (POS) - left hemisphere",
+													"rgb": "#ee421a"
+												}
+											]
+										},
+										{
+											"name": "Area hOc4d (Cuneus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hOc4d (Cuneus) - right hemisphere",
+													"rgb": "#aa3eda"
+												},
+												{
+													"name": "Area hOc4d (Cuneus) - left hemisphere",
+													"rgb": "#aa3eda"
+												}
+											]
+										},
+										{
+											"name": "Area hOc3d (Cuneus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hOc3d (Cuneus) - right hemisphere",
+													"rgb": "#69be2f"
+												},
+												{
+													"name": "Area hOc3d (Cuneus) - left hemisphere",
+													"rgb": "#69be2f"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "ventral occipital cortex",
+									"children": [
+										{
+											"name": "Area hOc3v (LingG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hOc3v (LingG) - right hemisphere",
+													"rgb": "#52b39b"
+												},
+												{
+													"name": "Area hOc3v (LingG) - left hemisphere",
+													"rgb": "#52b39b"
+												}
+											]
+										},
+										{
+											"name": "Area hOc4v (LingG)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hOc4v (LingG) - right hemisphere",
+													"rgb": "#de4d9b"
+												},
+												{
+													"name": "Area hOc4v (LingG) - left hemisphere",
+													"rgb": "#de4d9b"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "lateral occipital cortex",
+									"children": [
+										{
+											"name": "Area hOc4lp (LOC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hOc4lp (LOC) - right hemisphere",
+													"rgb": "#5f70fc"
+												},
+												{
+													"name": "Area hOc4lp (LOC) - left hemisphere",
+													"rgb": "#5f70fc"
+												}
+											]
+										},
+										{
+											"name": "Area hOc5 (LOC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hOc5 (LOC) - right hemisphere",
+													"rgb": "#ff6218"
+												},
+												{
+													"name": "Area hOc5 (LOC) - left hemisphere",
+													"rgb": "#ff6218"
+												}
+											]
+										},
+										{
+											"name": "Area hOc4la (LOC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area hOc4la (LOC) - right hemisphere",
+													"rgb": "#e9a8bc"
+												},
+												{
+													"name": "Area hOc4la (LOC) - left hemisphere",
+													"rgb": "#e9a8bc"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "limbic lobe",
+							"children": [
+								{
+									"name": "frontal cingulate gyrus",
+									"children": [
+										{
+											"name": "Area p24c (pACC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area p24c (pACC) - right hemisphere",
+													"children": [
+														{
+															"name": "Area p24c.pd24cd (pACC) - right hemisphere"
+														},
+														{
+															"name": "Area p24c.pd24cv (pACC) - right hemisphere"
+														},
+														{
+															"name": "Area p24c.pv24c (pACC) - right hemisphere"
+														}
+													],
+													"rgb": "#f0a3c3"
+												},
+												{
+													"name": "Area p24c (pACC) - left hemisphere",
+													"children": [
+														{
+															"name": "Area p24c.pd24cd (pACC) - left hemisphere"
+														},
+														{
+															"name": "Area p24c.pd24cv (pACC) - left hemisphere"
+														},
+														{
+															"name": "Area p24c.pv24c (pACC) - left hemisphere"
+														}
+													],
+													"rgb": "#f0a3c3"
+												}
+											]
+										},
+										{
+											"name": "Area 25 (sACC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 25 (sACC) - right hemisphere",
+													"children": [
+														{
+															"name": "Area 25.25a (sACC) - right hemisphere"
+														},
+														{
+															"name": "Area 25.25p (sACC) - right hemisphere"
+														}
+													],
+													"rgb": "#aa44dc"
+												},
+												{
+													"name": "Area 25 (sACC) - left hemisphere",
+													"children": [
+														{
+															"name": "Area 25.25a (sACC) - left hemisphere"
+														},
+														{
+															"name": "Area 25.25p (sACC) - left hemisphere"
+														}
+													],
+													"rgb": "#aa44dc"
+												}
+											]
+										},
+										{
+											"name": "Area p24ab (pACC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area p24ab (pACC) - right hemisphere",
+													"children": [
+														{
+															"name": "Area p24ab.p24a (pACC) - right hemisphere"
+														},
+														{
+															"name": "Area p24ab.p24b (pACC) - right hemisphere"
+														}
+													],
+													"rgb": "#99c3e4"
+												},
+												{
+													"name": "Area p24ab (pACC) - left hemisphere",
+													"children": [
+														{
+															"name": "Area p24ab.p24a (pACC) - left hemisphere"
+														},
+														{
+															"name": "Area p24ab.p24b (pACC) - left hemisphere"
+														}
+													],
+													"rgb": "#99c3e4"
+												}
+											]
+										},
+										{
+											"name": "Area s32 (sACC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area s32 (sACC) - right hemisphere",
+													"rgb": "#c15ef9"
+												},
+												{
+													"name": "Area s32 (sACC) - left hemisphere",
+													"rgb": "#c15ef9"
+												}
+											]
+										},
+										{
+											"name": "Area 33 (ACC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area 33 (ACC) - right hemisphere",
+													"rgb": "#3339f5"
+												},
+												{
+													"name": "Area 33 (ACC) - left hemisphere",
+													"rgb": "#3339f5"
+												}
+											]
+										},
+										{
+											"name": "Area p32 (pACC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area p32 (pACC) - right hemisphere",
+													"rgb": "#56860e"
+												},
+												{
+													"name": "Area p32 (pACC) - left hemisphere",
+													"rgb": "#56860e"
+												}
+											]
+										},
+										{
+											"name": "Area s24 (sACC)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area s24 (sACC) - right hemisphere",
+													"children": [
+														{
+															"name": "Area s24.s24a (sACC) - right hemisphere"
+														},
+														{
+															"name": "Area s24.s24b (sACC) - right hemisphere"
+														}
+													],
+													"rgb": "#8521c8"
+												},
+												{
+													"name": "Area s24 (sACC) - left hemisphere",
+													"children": [
+														{
+															"name": "Area s24.s24a (sACC) - left hemisphere"
+														},
+														{
+															"name": "Area s24.s24b (sACC) - left hemisphere"
+														}
+													],
+													"rgb": "#8521c8"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "piriform cortex",
+									"children": [
+										{
+											"name": "Area PirT (PiriformCortexMesial, temporal)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area PirT (PiriformCortexMesial, temporal) - right hemisphere",
+													"children": [
+														{
+															"name": "Area PirT.Tit (PiriformCortexMesial, Piriform temporal Area, Incisura temporalis) - right hemisphere"
+														},
+														{
+															"name": "Area PirT.Tu (PiriformCortexMesial, Piriform temporal Area, Uncus) - right hemisphere"
+														}
+													]
+												},
+												{
+													"name": "Area PirT (PiriformCortexMesial, temporal) - left hemisphere",
+													"children": [
+														{
+															"name": "Area PirT.Tit (PiriformCortexMesial, Piriform temporal Area, Incisura temporalis) - left hemisphere"
+														},
+														{
+															"name": "Area PirT.Tu (PiriformCortexMesial, Piriform temporal Area, Uncus) - left hemisphere"
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "Area PirTB (PiriformCortexMesial, temporobasal)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area PirTB (PiriformCortexMesial, temporobasal) - right hemisphere",
+													"children": [
+														{
+															"name": "Area PirTB.TBd (PiriformCortexMesial, Piriform temporobasal Area, dorsal part) - right hemisphere"
+														},
+														{
+															"name": "Area PirTB.TBv (PiriformCortexMesial, Piriform temporobasal Area, ventral part) - right hemisphere"
+														}
+													]
+												},
+												{
+													"name": "Area PirTB (PiriformCortexMesial, temporobasal) - left hemisphere",
+													"children": [
+														{
+															"name": "Area PirTB.TBd (PiriformCortexMesial, Piriform temporobasal Area, dorsal part) - left hemisphere"
+														},
+														{
+															"name": "Area PirTB.TBv (PiriformCortexMesial, Piriform temporobasal Area, ventral part) - left hemisphere"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "hippocampal formation",
+									"children": [
+										{
+											"name": "HATA (Hippocampus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "HATA (Hippocampus) - right hemisphere"
+												},
+												{
+													"name": "HATA (Hippocampus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "CA3 (Hippocampus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "CA3 (Hippocampus) - right hemisphere",
+													"rgb": "#e9d2dd"
+												},
+												{
+													"name": "CA3 (Hippocampus) - left hemisphere",
+													"rgb": "#e9d2dd"
+												}
+											]
+										},
+										{
+											"name": "TrS (Hippocampus, Transsubiculum)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "TrS (Hippocampus, Transsubiculum) - right hemisphere",
+													"rgb": "#6cfad3"
+												},
+												{
+													"name": "TrS (Hippocampus, Transsubiculum) - left hemisphere",
+													"rgb": "#6cfad3"
+												}
+											]
+										},
+										{
+											"name": "Subc (Hippocampus, Subicular complex)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Subc (Hippocampus, Subicular complex) - right hemisphere",
+													"children": [
+														{
+															"name": "Subc.PaS (Hippocampus, Parasubiculum) - right hemisphere"
+														},
+														{
+															"name": "Subc.PreS (Hippocampus, Presubiculum) - right hemisphere"
+														},
+														{
+															"name": "Subc.ProS (Hippocampus, Prosubiculum) - right hemisphere"
+														},
+														{
+															"name": "Subc.Sub (Hippocampus, Subiculum) - right hemisphere"
+														}
+													],
+													"rgb": "#0000ff"
+												},
+												{
+													"name": "Subc (Hippocampus, Subicular complex) - left hemisphere",
+													"children": [
+														{
+															"name": "Subc.PaS (Hippocampus, Parasubiculum) - left hemisphere"
+														},
+														{
+															"name": "Subc.PreS (Hippocampus, Presubiculum) - left hemisphere"
+														},
+														{
+															"name": "Subc.ProS (Hippocampus, Prosubiculum) - left hemisphere"
+														},
+														{
+															"name": "Subc.Sub (Hippocampus, Subiculum) - left hemisphere"
+														}
+													],
+													"rgb": "#0000ff"
+												}
+											]
+										},
+										{
+											"name": "DG (Hippocampus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "DG (Hippocampus) - right hemisphere",
+													"rgb": "#943778"
+												},
+												{
+													"name": "DG (Hippocampus) - left hemisphere",
+													"rgb": "#943778"
+												}
+											]
+										},
+										{
+											"name": "CA2 (Hippocampus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "CA2 (Hippocampus) - right hemisphere",
+													"rgb": "#914364"
+												},
+												{
+													"name": "CA2 (Hippocampus) - left hemisphere",
+													"rgb": "#914364"
+												}
+											]
+										},
+										{
+											"name": "Area EC (Hippocampal Region, Entorhinal Cortex)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Area EC (Hippocampal Region, Entorhinal Cortex) - right hemisphere",
+													"rgb": "#229fd5"
+												},
+												{
+													"name": "Area EC (Hippocampal Region, Entorhinal Cortex) - left hemisphere",
+													"rgb": "#229fd5"
+												}
+											]
+										},
+										{
+											"name": "CA1 (Hippocampus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "CA1 (Hippocampus) - right hemisphere",
+													"rgb": "#7c08a7"
+												},
+												{
+													"name": "CA1 (Hippocampus) - left hemisphere",
+													"rgb": "#7c08a7"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "olfactory cortex",
+									"children": [
+										{
+											"name": "TuTi (Basal Forebrain, Terminal islands)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "TuTi (Basal Forebrain, Terminal islands) - right hemisphere"
+												},
+												{
+													"name": "TuTi (Basal Forebrain, Terminal islands) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "Tu (Basal Forebrain, Tuberculum)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Tu (Basal Forebrain, Tuberculum) - right hemisphere"
+												},
+												{
+													"name": "Tu (Basal Forebrain, Tuberculum) - left hemisphere"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "mesencephalon",
+			"children": [
+				{
+					"name": "midbrain tegmentum",
+					"children": [
+						{
+							"name": "midbrain",
+							"children": [
+								{
+									"name": "substantia nigra",
+									"children": [
+										{
+											"name": "SNC (Midbrain, Substantia Nigra pars compacta)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "SNC (Midbrain, Substantia Nigra pars compacta) - right hemisphere"
+												},
+												{
+													"name": "SNC (Midbrain, Substantia Nigra pars compacta) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "SNR (Midbrain, Substantia Nigra pars reticulata)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "SNR (Midbrain, Substantia Nigra pars reticulata) - right hemisphere"
+												},
+												{
+													"name": "SNR (Midbrain, Substantia Nigra pars reticulata) - left hemisphere"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "nucleus ruber (parvocellular part)",
+									"children": [
+										{
+											"name": "NRp (Midbrain, Nucleus Ruber, parvocellular part)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "NRp (Midbrain, Nucleus Ruber, parvocellular part) - right hemisphere"
+												},
+												{
+													"name": "NRp (Midbrain, Nucleus Ruber, parvocellular part) - left hemisphere"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "nucleus ruber (magnocellular part)",
+									"children": [
+										{
+											"name": "NRm (Midbrain, Nucleus Ruber, magnocellular part)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "NRm (Midbrain, Nucleus Ruber, magnocellular part) - right hemisphere"
+												},
+												{
+													"name": "NRm (Midbrain, Nucleus Ruber, magnocellular part) - left hemisphere"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "metencephalon",
+			"children": [
+				{
+					"name": "cerebellum",
+					"children": [
+						{
+							"name": "cerebellar nuclei",
+							"children": [
+								{
+									"name": "Ninterp (Cerebellum, Interposed Nucleus)",
+									"granularity": "default",
+									"children": [
+										{
+											"name": "Ninterp (Cerebellum, Interposed Nucleus) - right hemisphere"
+										},
+										{
+											"name": "Ninterp (Cerebellum, Interposed Nucleus) - left hemisphere"
+										}
+									]
+								},
+								{
+									"name": "dentate nucleus",
+									"children": [
+										{
+											"name": "Ndentv (Cerebellum, Ventral Dentate Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Ndentv (Cerebellum, Ventral Dentate Nucleus) - right hemisphere"
+												},
+												{
+													"name": "Ndentv (Cerebellum, Ventral Dentate Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "Ndentd (Cerebellum, Dorsal Dentate Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Ndentd (Cerebellum, Dorsal Dentate Nucleus) - right hemisphere"
+												},
+												{
+													"name": "Ndentd (Cerebellum, Dorsal Dentate Nucleus) - left hemisphere"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "fastigial nucleus",
+									"children": [
+										{
+											"name": "Nfast (Cerebellum, Fastigial Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Nfast (Cerebellum, Fastigial Nucleus) - right hemisphere"
+												},
+												{
+													"name": "Nfast (Cerebellum, Fastigial Nucleus) - left hemisphere"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "diencephalon",
+			"children": [
+				{
+					"name": "subthalamus",
+					"children": [
+						{
+							"name": "STN (Subthalamus)",
+							"granularity": "default",
+							"children": [
+								{
+									"name": "STN (Subthalamus) - right hemisphere"
+								},
+								{
+									"name": "STN (Subthalamus) - left hemisphere"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "thalamus",
+					"children": [
+						{
+							"name": "ventral thalamus",
+							"children": [
+								{
+									"name": "Rt (Thalamus, reticular Nucleus)",
+									"granularity": "default",
+									"children": [
+										{
+											"name": "Rt (Thalamus, reticular Nucleus) - right hemisphere"
+										},
+										{
+											"name": "Rt (Thalamus, reticular Nucleus) - left hemisphere"
+										}
+									]
+								},
+								{
+									"name": "ZI (Thalamus, zona incerta)",
+									"granularity": "default",
+									"children": [
+										{
+											"name": "ZI (Thalamus, zona incerta) - right hemisphere"
+										},
+										{
+											"name": "ZI (Thalamus, zona incerta) - left hemisphere"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "metathalamus",
+							"children": [
+								{
+									"name": "medial geniculate body",
+									"children": [
+										{
+											"name": "CGM (Metathalamus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "CGM (Metathalamus) - right hemisphere"
+												},
+												{
+													"name": "CGM (Metathalamus) - left hemisphere"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "lateral geniculate body",
+									"children": [
+										{
+											"name": "CGL (Metathalamus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "CGL (Metathalamus) - right hemisphere"
+												},
+												{
+													"name": "CGL (Metathalamus) - left hemisphere"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "dorsal thalamus",
+							"children": [
+								{
+									"name": "medial group",
+									"children": [
+										{
+											"name": "MV (Thalamus, medioventral Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "MV (Thalamus, medioventral Nucleus) - right hemisphere"
+												},
+												{
+													"name": "MV (Thalamus, medioventral Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "MD (Thalamus, mediodorsal Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "MD (Thalamus, mediodorsal Nucleus) - right hemisphere"
+												},
+												{
+													"name": "MD (Thalamus, mediodorsal Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "Pv (Thalamus, paraventricular Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Pv (Thalamus, paraventricular Nucleus) - right hemisphere"
+												},
+												{
+													"name": "Pv (Thalamus, paraventricular Nucleus) - left hemisphere"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "posterior group",
+									"children": [
+										{
+											"name": "Po (Thalamus, posterior Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Po (Thalamus, posterior Nucleus) - right hemisphere"
+												},
+												{
+													"name": "Po (Thalamus, posterior Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "PUm (Thalamus, medial pulvinar)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "PUm (Thalamus, medial pulvinar) - right hemisphere"
+												},
+												{
+													"name": "PUm (Thalamus, medial pulvinar) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "PUl (Thalamus, lateral pulvinar)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "PUl (Thalamus, lateral pulvinar) - right hemisphere"
+												},
+												{
+													"name": "PUl (Thalamus, lateral pulvinar) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "Li (Thalamus, limitans Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Li (Thalamus, limitans Nucleus) - right hemisphere"
+												},
+												{
+													"name": "Li (Thalamus, limitans Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "Sg (Thalamus, suprageniculate Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Sg (Thalamus, suprageniculate Nucleus) - right hemisphere"
+												},
+												{
+													"name": "Sg (Thalamus, suprageniculate Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "LP (Thalamus, lateral posterior Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "LP (Thalamus, lateral posterior Nucleus) - right hemisphere"
+												},
+												{
+													"name": "LP (Thalamus, lateral posterior Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "PUi (Thalamus, inferior pulvinar)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "PUi (Thalamus, inferior pulvinar) - right hemisphere"
+												},
+												{
+													"name": "PUi (Thalamus, inferior pulvinar) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "PUa (Thalamus, anterior pulvinar)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "PUa (Thalamus, anterior pulvinar) - right hemisphere"
+												},
+												{
+													"name": "PUa (Thalamus, anterior pulvinar) - left hemisphere"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "anterior group",
+									"children": [
+										{
+											"name": "LD (Thalamus, lateral dorsal Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "LD (Thalamus, lateral dorsal Nucleus) - right hemisphere"
+												},
+												{
+													"name": "LD (Thalamus, lateral dorsal Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "AV (Thalamus, anteroventral Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "AV (Thalamus, anteroventral Nucleus) - right hemisphere"
+												},
+												{
+													"name": "AV (Thalamus, anteroventral Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "AM (Thalamus, anteromedial Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "AM (Thalamus, anteromedial Nucleus) - right hemisphere"
+												},
+												{
+													"name": "AM (Thalamus, anteromedial Nucleus) - left hemisphere"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "ventral group",
+									"children": [
+										{
+											"name": "VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part) - right hemisphere"
+												},
+												{
+													"name": "VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "VPi (Thalamus, ventroposterior inferior Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "VPi (Thalamus, ventroposterior inferior Nucleus) - right hemisphere"
+												},
+												{
+													"name": "VPi (Thalamus, ventroposterior inferior Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "VPL (Thalamus, ventral posterior lateral Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "VPL (Thalamus, ventral posterior lateral Nucleus) - right hemisphere"
+												},
+												{
+													"name": "VPL (Thalamus, ventral posterior lateral Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "VLP (Thalamus, ventral lateral posterior Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "VLP (Thalamus, ventral lateral posterior Nucleus) - right hemisphere"
+												},
+												{
+													"name": "VLP (Thalamus, ventral lateral posterior Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "VIM (Thalamus, ventral intermediate Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "VIM (Thalamus, ventral intermediate Nucleus) - right hemisphere"
+												},
+												{
+													"name": "VIM (Thalamus, ventral intermediate Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "VM (Thalamus, ventral medial Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "VM (Thalamus, ventral medial Nucleus) - right hemisphere"
+												},
+												{
+													"name": "VM (Thalamus, ventral medial Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "VA (Thalamus, ventral anterior Nucleus (ventral))",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "VA (Thalamus, ventral anterior Nucleus (ventral)) - right hemisphere"
+												},
+												{
+													"name": "VA (Thalamus, ventral anterior Nucleus (ventral)) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "VLA (Thalamus, ventral lateral anterior Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "VLA (Thalamus, ventral lateral anterior Nucleus) - right hemisphere"
+												},
+												{
+													"name": "VLA (Thalamus, ventral lateral anterior Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "VAmc (Thalamus, ventral anterior Nucleus, magnocellular part)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) - right hemisphere"
+												},
+												{
+													"name": "VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "VPM (Thalamus, ventral posterior medial Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "VPM (Thalamus, ventral posterior medial Nucleus) - right hemisphere"
+												},
+												{
+													"name": "VPM (Thalamus, ventral posterior medial Nucleus) - left hemisphere"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "intralaminar group",
+									"children": [
+										{
+											"name": "sPf (Thalamus, subparafascicular Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "sPf (Thalamus, subparafascicular Nucleus) - right hemisphere"
+												},
+												{
+													"name": "sPf (Thalamus, subparafascicular Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "Pf (Thalamus, parafascicular Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "Pf (Thalamus, parafascicular Nucleus) - right hemisphere"
+												},
+												{
+													"name": "Pf (Thalamus, parafascicular Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "CM (Thalamus, centromedian Nucleus)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "CM (Thalamus, centromedian Nucleus) - right hemisphere"
+												},
+												{
+													"name": "CM (Thalamus, centromedian Nucleus) - left hemisphere"
+												}
+											]
+										},
+										{
+											"name": "CL (Thalamus, anterior intralaminar nuclei)",
+											"granularity": "default",
+											"children": [
+												{
+													"name": "CL (Thalamus, anterior intralaminar nuclei) - right hemisphere"
+												},
+												{
+													"name": "CL (Thalamus, anterior intralaminar nuclei) - left hemisphere"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"ebrains": {
+		"openminds/Dataset": "5a16d948-8d1c-400c-b797-8a7ad29944b2",
+		"openminds/DatasetVersion": "f1fe19e8-99bd-44bc-9616-a52850680777",
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+	},
+	"publications": [
+		{
+			"citation": "Amunts, K., Mohlberg, H., Bludau, S., Zilles, K. (2020). Julich-Brain \u2013 A 3D probabilistic atlas of human brain\u2019s cytoarchitecture. Science 369, 988-992",
+			"url": "https://www.science.org/doi/10.1126/science.abb4588"
+		},
+		{
+			"citation": "Alan C. Evans, Andrew L. Janke, D. Louis Collins, Sylvain Baillet, Brain templates and atlases, NeuroImage, Volume 62, Issue 2, 2012, Pages 911-922, ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2012.01.024.",
+			"url": "https://doi.org/10.1016/j.neuroimage.2012.01.024"
+		},
+		{
+			"citation": "Simon B. Eickhoff, Klaas E. Stephan, Hartmut Mohlberg, Christian Grefkes, Gereon R. Fink, Katrin Amunts, Karl Zilles, A new SPM toolbox for combining probabilistic cytoarchitectonic maps and functional imaging data, NeuroImage, Volume 25, Issue 4, 2005, Pages 1325-1335, ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2004.12.034.",
+			"url": "https://doi.org/10.1016/j.neuroimage.2004.12.034"
+		}
+	]
+}

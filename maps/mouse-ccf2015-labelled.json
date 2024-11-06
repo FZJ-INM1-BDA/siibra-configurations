@@ -11,6 +11,24 @@
 			"providers": {
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/parcellations/v3_reduced",
 				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/parcellations/v3_reduced"
+			},
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9"
+				},
+				"coordinates": [
+					[
+						-5.137499999999999,
+						-6.4375,
+						-3.4374999999999996
+					],
+					[
+						5.062500000000001,
+						6.3625,
+						3.762500000000001
+					]
+				]
 			}
 		}
 	],
@@ -7876,5 +7894,33 @@
 				"label": 304325711
 			}
 		]
-	}
+	},
+	"ebrains": {
+		"minds/core/species/v1.0.0": "cfc1656c-67d1-4d2c-a17e-efd7ce0df88c",
+		"openminds/Species": "d9875ebd-260e-4337-a637-b62fed4aa91d"
+	},
+	"publications": [
+		{
+			"citation": "Allen Reference Atlas - Mouse Brain [brain atlas]. Available from atlas.brain-map.org",
+			"url": "https://atlas.brain-map.org/"
+		},
+		{
+			"name": "Neuroinformatics of the Allen Mouse Brain Connectivity Atlas",
+			"description": "The Allen Mouse Brain Connectivity Atlas is a mesoscale whole brain axonal projection atlas of the C57Bl/6J mouse brain. Anatomical trajectories throughout the brain were mapped into a common 3D space using a standardized platform to generate a comprehensive and quantitative database of inter-areal and cell-type-specific projections. This connectivity atlas has several desirable features, including brain-wide coverage, validated and versatile experimental techniques, a single standardized data format, a quantifiable and integrated neuroinformatics resource, and an open-access public online database (http://connectivity.brain-map.org/). Meaningful informatics data quantification and comparison is key to effective use and interpretation of connectome data. This relies on successful definition of a high fidelity atlas template and framework, mapping precision of raw data sets into the 3D reference framework, accurate signal detection and quantitative connection strength algorithms, and effective presentation in an integrated online application. Here we describe key informatics pipeline steps in the creation of the Allen Mouse Brain Connectivity Atlas and include basic application use cases.",
+			"citation": "Kuan L, Li Y, Lau C, Feng D, Bernard A, Sunkin SM, Zeng H, Dang C, Hawrylycz M, Ng L. Neuroinformatics of the Allen Mouse Brain Connectivity Atlas. Methods. 2015 Feb;73:4-17. doi: 10.1016/j.ymeth.2014.12.013. Epub 2014 Dec 20. PMID: 25536338.",
+			"url": "https://doi.org/10.1016/j.ymeth.2014.12.013",
+			"authors": [
+				"Leonard Kuan",
+				"Yang Li",
+				"Chris Lau",
+				"David Feng",
+				"Amy Bernard",
+				"Susan M. Sunkin",
+				"Hongkui Zeng",
+				"Chinh Dang",
+				"Michael Hawrylycz",
+				"Lydia Ng"
+			]
+		}
+	]
 }

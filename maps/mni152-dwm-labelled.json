@@ -12,6 +12,24 @@
 				"nii": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000339_DeepWhiteMatterBundles_DWM_pub/version2018/mpm_dwm/long-bundles_maxprob.nii.gz",
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob",
 				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/long-bundles_maxprob"
+			},
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+				},
+				"coordinates": [
+					[
+						-68.0,
+						-94.0,
+						-50.0
+					],
+					[
+						68.0,
+						67.0,
+						70.0
+					]
+				]
 			}
 		}
 	],
@@ -245,5 +263,16 @@
 				"label": 51
 			}
 		]
-	}
+	},
+	"ebrains": {
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+		"openminds/Dataset": "2eff0f98-24e4-4b93-98ae-96cd82256951",
+		"openminds/DatasetVersion": "518b0d17-ed31-4a20-91c2-efbe2eb6545a"
+	},
+	"publications": [
+		{
+			"citation": "Guevara, P., Duclap, D., Poupon, C., Marrakchi-Kacem, L., Fillard, P., Le Bihan, D., Leboyer, M., Houenou, J., Mangin, J.- F (2012). Automatic fiber bundle segmentation in massive tractography datasets using a multi-subject bundle atlas. NeuroImage, 61(4),1083-99.",
+			"url": "https://doi.org/10.1016/j.neuroimage.2012.02.071"
+		}
+	]
 }

@@ -1,15 +1,17 @@
 {
 	"@type": "siibra/feature/timeseries/activity/v0.1",
-	"modality": "Regional BOLD signal",
+	"modality": "RegionalBOLD",
 	"paradigm": "rfMRI_REST2_LR_BOLD",
 	"cohort": "HCP",
 	"timestep": "720 ms",
+	"prerelease": true,
 	"parcellation": {
 		"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-300"
 	},
 	"ebrains": {
 		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+		"openminds/Dataset": "1f832869-0361-4064-8e60-c729590e1013"
 	},
 	"repository": {
 		"@type": "siibra/repository/zippedfile/v1.0.0",
@@ -539,5 +541,6 @@
 		"Frontal-to-Temporal-I (GapMap) right",
 		"Frontal-to-Temporal-II (GapMap) left",
 		"Frontal-to-Temporal-II (GapMap) right"
-	]
+	],
+	"files_indexed_by": "subject"
 }

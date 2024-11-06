@@ -11,6 +11,24 @@
 			"providers": {
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3",
 				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/WHS_SD_rat/parcellations/WHS_SD_rat_atlas_v3"
+			},
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+				},
+				"coordinates": [
+					[
+						-8.30078125,
+						-24.35546875,
+						-6.89453125
+					],
+					[
+						9.19921875,
+						15.33203125,
+						7.48046875
+					]
+				]
 			}
 		}
 	],
@@ -724,5 +742,21 @@
 				"label": 162
 			}
 		]
-	}
+	},
+	"ebrains": {
+		"minds/core/dataset/v1.0.0": "e80f9946-1aa9-494b-b81a-9048ca9afdbe",
+		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
+		"openminds/Dataset": "82f91c95-6799-485a-ab9a-010c75f9e790",
+		"openminds/DatasetVersion": "e80f9946-1aa9-494b-b81a-9048ca9afdbe"
+	},
+	"publications": [
+		{
+			"citation": "https://www.nitrc.org/frs/?group_id=1081",
+			"url": "https://www.nitrc.org/frs/?group_id=1081"
+		},
+		{
+			"citation": "Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56",
+			"url": "https://doi.org/10.1016/j.neuroimage.2019.05.016"
+		}
+	]
 }
