@@ -81,10 +81,7 @@ def main():
             space_id in space_ids
         ), f"{errmsg}, space id for {space_id} not found in spaces"
         unmatched_regions = compare_regions_to_parcellation(json_obj, parcs[parc_id])
-        if len(unmatched_regions) > 0:
-            print(
-                f"Following regions in {filepath} have no correspondence in parcellation {parc_id}: {unmatched_regions}"
-            )
+        assert len(unmatched_regions) == 0, f"Following regions in {filepath} have no correspondence in parcellation {parc_id}: {unmatched_regions}"
 
 
 if __name__ == "__main__":
