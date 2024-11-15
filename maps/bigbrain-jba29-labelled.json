@@ -3925,14 +3925,25 @@
 		]
 	},
 	"ebrains": {
-		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-		"openminds/Dataset": "5a16d948-8d1c-400c-b797-8a7ad29944b2",
-		"openminds/DatasetVersion": "a8932c7e-063c-4131-ab96-996d843998e9"
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
 	},
 	"publications": [
 		{
-			"citation": "Amunts, K., Mohlberg, H., Bludau, S., Zilles, K. (2020). Julich-Brain \u2013 A 3D probabilistic atlas of human brain\u2019s cytoarchitecture. Science 369, 988-992",
-			"url": "https://doi.org/10.1126/science.abb4588"
+			"name": "Convolutional neural networks for cytoarchitectonic brain mapping at large scale",
+			"url": "https://doi.org/10.1016/j.neuroimage.2021.118327",
+			"authors": [
+				"Christian Schiffer",
+				"Hannah Spitzer",
+				"Kai Kiwitz",
+				"Nina Unger",
+				"Konrad Wagstyl",
+				"Alan C. Evans",
+				"Stefan Harmeling",
+				"Katrin Amunts",
+				"Timo Dickscheid"
+			],
+			"description": "Human brain atlases provide spatial reference systems for data characterizing brain organization at different levels, coming from different brains. Cytoarchitecture is a basic principle of the microstructural organization of the brain, as regional differences in the arrangement and composition of neuronal cells are indicators of changes in connectivity and function. Automated scanning procedures and observer-independent methods are prerequisites to reliably identify cytoarchitectonic areas, and to achieve reproducible models of brain segregation. Time becomes a key factor when moving from the analysis of single regions of interest towards high-throughput scanning of large series of whole-brain sections. Here we present a new workflow for mapping cytoarchitectonic areas in large series of cell-body stained histological sections of human postmortem brains. It is based on a Deep Convolutional Neural Network (CNN), which is trained on a pair of section images with annotations, with a large number of un-annotated sections in between. The model learns to create all missing annotations in between with high accuracy, and faster than our previous workflow based on observer-independent mapping. The new workflow does not require preceding 3D-reconstruction of sections, and is robust against histological artefacts. It processes large data sets with sizes in the order of multiple Terabytes efficiently. The workflow was integrated into a web interface, to allow access without expertise in deep learning and batch computing. Applying deep neural networks for cytoarchitectonic mapping opens new perspectives to enable high-resolution models of brain areas, introducing CNNs to identify borders of brain areas.",
+			"citation": "Schiffer, C. et al. Convolutional neural networks for cytoarchitectonic brain mapping at large scale. NeuroImage 240, 118327 (2021)."
 		}
 	]
 }
