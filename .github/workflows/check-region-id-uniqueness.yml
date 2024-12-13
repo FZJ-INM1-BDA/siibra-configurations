@@ -32,7 +32,7 @@ jobs:
           pip install -r ../siibra-python/requirements-test.txt
           pip install -r ../siibra-python/requirements.txt
     
-    - name: connectivity e2e test
+    - name: region id uniqueness test
       run: |
         SIIBRA_USE_CONFIGURATION='./'
         pytest ../siibra-python/e2e/core/test_parcellation.py::test_parc_id_uniqueness
