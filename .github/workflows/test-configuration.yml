@@ -91,3 +91,18 @@ jobs:
           pip install -r _ci/requirements.txt
     - name: Verify neuroglancer urls
       run: python _ci/verify_neuroglancer_urls.py
+
+  ensure_no_duplicated_region_name:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Install requirements
+      run: |
+          pip install -U pip
+          pip install -r _ci/requirements.txt
+    - name: Verify no duplicated region name
+      run: python _ci/ensure_no_duplicated_region_name.py
