@@ -34,6 +34,6 @@ jobs:
     
     - name: region id uniqueness test
       run: |
-        SIIBRA_USE_CONFIGURATION='./'
+        export SIIBRA_USE_CONFIGURATION='./'
         pytest ../siibra-python/e2e/core/test_parcellation.py::test_parc_id_uniqueness
         pytest ../siibra-python/e2e/core/test_parcellation.py::test_region_id_uniqueness
