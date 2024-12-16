@@ -2,6 +2,7 @@ from pathlib import Path
 import json
 from dataclasses import dataclass
 
+
 @dataclass
 class DuplicatedErr:
     filename: str
@@ -17,26 +18,27 @@ class DuplicatedRegionName(Exception):
 
 FAIL_FAST = False
 
-# There is no solution for the following 
+# There is no solution for the following
 XFAIL_LIST = [
-    DuplicatedErr(filename='parcellations\\rat_waxholmv1_01.json', key='corticofugal pathways'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv1_01.json', key='medial lemniscus'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv1_01.json', key='facial nerve'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv1_01.json', key='spinal cord'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv2.json', key='corticofugal pathways'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv2.json', key='medial lemniscus'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv2.json', key='facial nerve'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv2.json', key='spinal cord'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv3.json', key='anterior commissure'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv3.json', key='medial lemniscus'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv3.json', key='facial nerve'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv3.json', key='lateral lemniscus'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv3.json', key='neocortex'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv3.json', key='thalamus'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv3.json', key='brainstem'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv3.json', key='ventricular system'),
-    DuplicatedErr(filename='parcellations\\rat_waxholmv3.json', key='spinal cord'),
+    DuplicatedErr(filename="parcellations/rat_waxholmv1_01.json", key="corticofugal pathways"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv1_01.json", key="medial lemniscus"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv1_01.json", key="facial nerve"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv1_01.json", key="spinal cord"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv2.json", key="corticofugal pathways"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv2.json", key="medial lemniscus"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv2.json", key="facial nerve"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv2.json", key="spinal cord"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv3.json", key="anterior commissure"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv3.json", key="medial lemniscus"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv3.json", key="facial nerve"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv3.json", key="lateral lemniscus"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv3.json", key="neocortex"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv3.json", key="thalamus"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv3.json", key="brainstem"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv3.json", key="ventricular system"),
+    DuplicatedErr(filename="parcellations/rat_waxholmv3.json", key="spinal cord"),
 ]
+
 
 def iterate_over_children(r):
     yield r
@@ -58,7 +60,7 @@ def main():
             for reg in all_regions:
                 reg_name = reg.get("name")
                 if reg_name.lower() in reg_name_set:
-                    error = DuplicatedErr(filename=str(_file), key=reg_name)
+                    error = DuplicatedErr(filename=_file.as_posix(), key=reg_name)
                     if error in XFAIL_LIST:
                         print(f"xfail: {error}")
                         continue
