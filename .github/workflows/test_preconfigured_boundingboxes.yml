@@ -3,8 +3,8 @@ name: '[test] test preconfigured bounding boxes'
 on:
   push:
     paths:
-    - 'maps/**'
-    - 'features/images/**'
+    - 'maps/**.json'
+    - 'features/images/**.json'
     tags: ["**"]
   
 
