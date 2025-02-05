@@ -96,7 +96,7 @@ def populate_cae():
 
     def is_mebrain(region, pev):
         pev_name: str = pev.get("name")
-        return pev_name.endswith(f'{region.get("name")} (MEBRAINS Atlas)')
+        return pev_name and pev_name.endswith(f'{region.get("name")} (MEBRAINS Atlas)')
         
 
     mutate_region = get_mutate_region(file_contents, is_mebrain)
@@ -145,7 +145,6 @@ def main():
         
 
         pevs = []
-
         for _bav in bav:
             print("Processing BAV:", _bav)
             
@@ -168,8 +167,9 @@ def main():
                 f"{pev_name} left",
                 f"{pev_name} - right hemisphere",
                 f"{pev_name} right",
+                pev_name.lower()
             ]
-            return reg.get("name") in possible_pev_names
+            return reg.get("name").lower() in possible_pev_names
             
 
         mutate_regionn = get_mutate_region(pevs, compare_reg)
@@ -185,4 +185,4 @@ def main():
             fp.write("\n")
 
 if __name__ == "__main__":
-    populate_cae()
+    main()
