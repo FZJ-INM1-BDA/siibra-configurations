@@ -1,0 +1,35 @@
+{
+	"@id": "nencki/nm/normalized-thickness/v1",
+	"@type": "siibra/feature/voi/v0.1",
+	"name": "Normalized cortical thickness map (NM1.0)",
+	"modality": "morphometry",
+	"ebrains": {
+		"openminds/Species": "627bac2f-2b4c-4f2d-ae4e-9373a7f430f2"
+	},
+	"space": {
+		"@id": "nencki/nm/referencespace/v1.0.0/MARMOSET_NM_NISSL_2020"
+	},
+	"providers": {
+		"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/buckets/marmoset-nencki-monash-template/features/normalized_thickness"
+	},
+	"regions": [
+    ],
+	"boundingbox": {
+		"@type": "siibra/location/boundingbox/v0.1",
+		"space": {
+			"@id": "nencki/nm/referencespace/v1.0.0/MARMOSET_NM_NISSL_2020"
+		},
+		"coordinates": [
+			[
+				-132.1,
+				-96.1,
+				-78.1
+			],
+			[
+				96.9,
+				96.9,
+				114.9
+			]
+		]
+	}
+}
