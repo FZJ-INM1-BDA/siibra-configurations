@@ -1,4 +1,6 @@
 {
+	"@id": "siibra-map-v0.0.1_mni152-vonEconomoKoskinas-labelled",
+	"name": "An MRI Von Economo \u2013 Koskinas atlas",
 	"space": {
 		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 	},
@@ -10,6 +12,24 @@
 			"@type": "siibra/volume/v0.0.1",
 			"providers": {
 				"zip/nii": "http://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip economoMNI152volume.nii.gz"
+			},
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+				},
+				"coordinates": [
+					[
+						-71.5,
+						-105.5,
+						-51.5
+					],
+					[
+						72.5,
+						74.5,
+						82.5
+					]
+				]
 			}
 		}
 	],
@@ -543,5 +563,21 @@
 				"label": 2044
 			}
 		]
-	}
+	},
+	"publications": [
+		{
+			"name": "An MRI Von Economo \u2013 Koskinas atlas",
+			"url": "https://doi.org/10.1016/j.neuroimage.2016.12.069",
+			"authors": [
+				"Lianne H. Scholtens",
+				"Marcel A. de Reus",
+				"Siemon C. de Lange",
+				"Ruben Schmidt",
+				"Martijn P. van den Heuvel"
+			],
+			"license": "CC BY-NC-SA 4.0 Deed",
+			"description": "The cerebral cortex displays substantial variation in cellular architecture, a regional patterning that has been of great interest to anatomists for centuries. In 1925, Constantin von Economo and George Koskinas published a detailed atlas of the human cerebral cortex, describing a cytoarchitectonic division of the cortical mantle into over 40 distinct areas. Von Economo and Koskinas accompanied their seminal work with large photomicrographic plates of their histological slides, together with tables containing for each described region detailed morphological layer- specific information on neuronal count, neuron size and thickness of the cortical mantle. Here, we aimed to make this legacy data accessible and relatable to in vivo neuroimaging data by constructing a digital Von Economo \u2013 Koskinas atlas compatible with the widely used FreeSurfer software suite. In this technical note we describe the procedures used for manual segmentation of the Von Economo \u2013 Koskinas atlas onto individual T1 scans and the subsequent construction of the digital atlas. We provide the files needed to run the atlas on new FreeSurfer data, together with some simple code of how to apply the atlas to T1 scans within the FreeSurfer software suite. The digital Von Economo \u2013 Koskinas atlas is easily applicable to modern day anatomical MRI data and is made publicly available online.",
+			"citation": "Scholtens, L. H., de Reus, M. A., de Lange, S. C., Schmidt, R., & van den Heuvel, M. P. (2018). An mri von economo\u2013koskinas atlas. NeuroImage, 170, 249-256."
+		}
+	]
 }

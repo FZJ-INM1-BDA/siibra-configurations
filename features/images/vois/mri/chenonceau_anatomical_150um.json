@@ -1,9 +1,10 @@
 {
+	"@id": "1be7069f-fd40-4f15-b3b3-80904d95e360--ccbf7030a276ca09e73b410e15a7f87c",
 	"@type": "siibra/feature/voi/v0.1",
 	"name": "CHENONCEAU: post mortem anatomical UHF MRI - 150um",
 	"modality": "T2 weighted MRI",
 	"ebrains": {
-		"openminds/Species": "1be7069f-fd40-4f15-b3b3-80904d95e360",
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
 		"openminds/DatasetVersion": "1be7069f-fd40-4f15-b3b3-80904d95e360"
 	},
 	"space": {
@@ -11,5 +12,23 @@
 	},
 	"providers": {
 		"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/chenonceau-anatomy-150-um/anatomy_150um"
+	},
+	"boundingbox": {
+		"@type": "siibra/location/boundingbox/v0.1",
+		"space": {
+			"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+		},
+		"coordinates": [
+			[
+				-95.97500000000001,
+				-131.97500000000002,
+				-77.97500000000001
+			],
+			[
+				96.925,
+				96.925,
+				114.925
+			]
+		]
 	}
 }

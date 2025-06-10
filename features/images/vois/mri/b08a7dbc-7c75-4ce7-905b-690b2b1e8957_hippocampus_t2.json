@@ -1,15 +1,35 @@
 {
+	"@id": "b08a7dbc-7c75-4ce7-905b-690b2b1e8957--8ff1e1d8bcb26296027b475ec744b83c",
 	"@type": "siibra/feature/voi/v0.1",
 	"name": "Fiber structures of a human hippocampus based on joint DMRI, 3D-PLI, and TPFM acquisitions",
 	"modality": "T2 weighted MRI",
 	"ebrains": {
 		"minds/core/dataset/v1.0.0": "b08a7dbc-7c75-4ce7-905b-690b2b1e8957",
-		"openminds/Dataset": "546b6484-9183-4ada-bca7-1cf563edad91"
+		"openminds/Dataset": "546b6484-9183-4ada-bca7-1cf563edad91",
+		"openminds/DatasetVersion": "b08a7dbc-7c75-4ce7-905b-690b2b1e8957"
 	},
 	"space": {
 		"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
 	},
 	"providers": {
 		"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/PLI_FOM/BI-MRI"
+	},
+	"boundingbox": {
+		"@type": "siibra/location/boundingbox/v0.1",
+		"space": {
+			"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+		},
+		"coordinates": [
+			[
+				11.04509802734375,
+				-20.403874081481295,
+				-32.65862097265625
+			],
+			[
+				60.78372171522479,
+				20.97116633101356,
+				24.105918632226633
+			]
+		]
 	}
 }

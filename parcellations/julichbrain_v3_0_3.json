@@ -7,7 +7,8 @@
 	"modality": "cytoarchitecture",
 	"@version": {
 		"name": "3.0.3",
-		"@prev": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290"
+		"@prev": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290",
+		"@next": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310"
 	},
 	"species": "homo sapiens",
 	"regions": [
@@ -2517,35 +2518,23 @@
 							"name": "Temporal-to-Parietal",
 							"children": [
 								{
-									"name": "Temporal-to-Parietal",
+									"name": "Temporal-to-Parietal (GapMap)",
+									"rgb": "#4C5AA1",
 									"children": [
 										{
-											"name": "Temporal-to-Parietal (GapMap)",
+											"name": "Temporal-to-Parietal (GapMap) - right hemisphere",
 											"rgb": "#4C5AA1",
-											"children": [
-												{
-													"name": "Temporal-to-Parietal (GapMap) - right hemisphere",
-													"rgb": "#4C5AA1",
-													"ebrains": {
-														"openminds/ParcellationEntityVersion": [
-															"81c5d923-7b70-416d-83de-5343a3cbcd78",
-															"970ad5fc-f0ad-49ab-82c6-aa72d6b068fa",
-															"09212642-98a7-41c2-a558-8e120394ee0b"
-														]
-													}
-												},
-												{
-													"name": "Temporal-to-Parietal (GapMap) - left hemisphere",
-													"rgb": "#4C5AA1",
-													"ebrains": {
-														"openminds/ParcellationEntityVersion": [
-															"81c5d923-7b70-416d-83de-5343a3cbcd78",
-															"970ad5fc-f0ad-49ab-82c6-aa72d6b068fa",
-															"09212642-98a7-41c2-a558-8e120394ee0b"
-														]
-													}
-												}
-											],
+											"ebrains": {
+												"openminds/ParcellationEntityVersion": [
+													"81c5d923-7b70-416d-83de-5343a3cbcd78",
+													"970ad5fc-f0ad-49ab-82c6-aa72d6b068fa",
+													"09212642-98a7-41c2-a558-8e120394ee0b"
+												]
+											}
+										},
+										{
+											"name": "Temporal-to-Parietal (GapMap) - left hemisphere",
+											"rgb": "#4C5AA1",
 											"ebrains": {
 												"openminds/ParcellationEntityVersion": [
 													"81c5d923-7b70-416d-83de-5343a3cbcd78",
@@ -2554,7 +2543,14 @@
 												]
 											}
 										}
-									]
+									],
+									"ebrains": {
+										"openminds/ParcellationEntityVersion": [
+											"81c5d923-7b70-416d-83de-5343a3cbcd78",
+											"970ad5fc-f0ad-49ab-82c6-aa72d6b068fa",
+											"09212642-98a7-41c2-a558-8e120394ee0b"
+										]
+									}
 								}
 							]
 						},
@@ -4870,35 +4866,12 @@
 							"name": "Frontal-to-Temporal",
 							"children": [
 								{
-									"name": "Frontal-to-Temporal",
+									"name": "Frontal-to-Temporal-II (GapMap)",
+									"rgb": "#A1184A",
 									"children": [
 										{
-											"name": "Frontal-to-Temporal-II (GapMap)",
+											"name": "Frontal-to-Temporal-II (GapMap) - right hemisphere",
 											"rgb": "#A1184A",
-											"children": [
-												{
-													"name": "Frontal-to-Temporal-II (GapMap) - right hemisphere",
-													"rgb": "#A1184A",
-													"ebrains": {
-														"openminds/ParcellationEntityVersion": [
-															"de4fd8cf-0910-4208-8f0b-0ae00b741f00",
-															"390eb47c-a525-4061-847c-bd82ff993d28",
-															"18463f6c-469b-4ddb-ae0e-13a3025e8dfb"
-														]
-													}
-												},
-												{
-													"name": "Frontal-to-Temporal-II (GapMap) - left hemisphere",
-													"rgb": "#A1184A",
-													"ebrains": {
-														"openminds/ParcellationEntityVersion": [
-															"de4fd8cf-0910-4208-8f0b-0ae00b741f00",
-															"390eb47c-a525-4061-847c-bd82ff993d28",
-															"18463f6c-469b-4ddb-ae0e-13a3025e8dfb"
-														]
-													}
-												}
-											],
 											"ebrains": {
 												"openminds/ParcellationEntityVersion": [
 													"de4fd8cf-0910-4208-8f0b-0ae00b741f00",
@@ -4908,32 +4881,43 @@
 											}
 										},
 										{
-											"name": "Frontal-to-Temporal-I (GapMap)",
+											"name": "Frontal-to-Temporal-II (GapMap) - left hemisphere",
+											"rgb": "#A1184A",
+											"ebrains": {
+												"openminds/ParcellationEntityVersion": [
+													"de4fd8cf-0910-4208-8f0b-0ae00b741f00",
+													"390eb47c-a525-4061-847c-bd82ff993d28",
+													"18463f6c-469b-4ddb-ae0e-13a3025e8dfb"
+												]
+											}
+										}
+									],
+									"ebrains": {
+										"openminds/ParcellationEntityVersion": [
+											"de4fd8cf-0910-4208-8f0b-0ae00b741f00",
+											"390eb47c-a525-4061-847c-bd82ff993d28",
+											"18463f6c-469b-4ddb-ae0e-13a3025e8dfb"
+										]
+									}
+								},
+								{
+									"name": "Frontal-to-Temporal-I (GapMap)",
+									"rgb": "#407E64",
+									"children": [
+										{
+											"name": "Frontal-to-Temporal-I (GapMap) - right hemisphere",
 											"rgb": "#407E64",
-											"children": [
-												{
-													"name": "Frontal-to-Temporal-I (GapMap) - right hemisphere",
-													"rgb": "#407E64",
-													"ebrains": {
-														"openminds/ParcellationEntityVersion": [
-															"9884bee8-9109-404c-963b-5ecab0faa92f",
-															"7f4b9059-ec66-48d6-9c0a-7ef2ab8ca8b5",
-															"4546964b-e90c-46db-959c-86023407f775"
-														]
-													}
-												},
-												{
-													"name": "Frontal-to-Temporal-I (GapMap) - left hemisphere",
-													"rgb": "#407E64",
-													"ebrains": {
-														"openminds/ParcellationEntityVersion": [
-															"9884bee8-9109-404c-963b-5ecab0faa92f",
-															"7f4b9059-ec66-48d6-9c0a-7ef2ab8ca8b5",
-															"4546964b-e90c-46db-959c-86023407f775"
-														]
-													}
-												}
-											],
+											"ebrains": {
+												"openminds/ParcellationEntityVersion": [
+													"9884bee8-9109-404c-963b-5ecab0faa92f",
+													"7f4b9059-ec66-48d6-9c0a-7ef2ab8ca8b5",
+													"4546964b-e90c-46db-959c-86023407f775"
+												]
+											}
+										},
+										{
+											"name": "Frontal-to-Temporal-I (GapMap) - left hemisphere",
+											"rgb": "#407E64",
 											"ebrains": {
 												"openminds/ParcellationEntityVersion": [
 													"9884bee8-9109-404c-963b-5ecab0faa92f",
@@ -4942,7 +4926,14 @@
 												]
 											}
 										}
-									]
+									],
+									"ebrains": {
+										"openminds/ParcellationEntityVersion": [
+											"9884bee8-9109-404c-963b-5ecab0faa92f",
+											"7f4b9059-ec66-48d6-9c0a-7ef2ab8ca8b5",
+											"4546964b-e90c-46db-959c-86023407f775"
+										]
+									}
 								}
 							]
 						},
@@ -4950,21 +4941,16 @@
 							"name": "Frontal-to-Occipital",
 							"children": [
 								{
-									"name": "Frontal-to-Occipital",
+									"name": "Frontal-to-Occipital (GapMap)",
+									"rgb": "#68A15D",
 									"children": [
 										{
-											"name": "Frontal-to-Occipital (GapMap)",
-											"rgb": "#68A15D",
-											"children": [
-												{
-													"name": "Frontal-to-Occipital (GapMap) - right hemisphere",
-													"rgb": "#68A15D"
-												},
-												{
-													"name": "Frontal-to-Occipital (GapMap) - left hemisphere",
-													"rgb": "#68A15D"
-												}
-											]
+											"name": "Frontal-to-Occipital (GapMap) - right hemisphere",
+											"rgb": "#68A15D"
+										},
+										{
+											"name": "Frontal-to-Occipital (GapMap) - left hemisphere",
+											"rgb": "#68A15D"
 										}
 									]
 								}
@@ -6390,5 +6376,18 @@
 			"ed538f38-5d2e-4efb-b401-1e524468c96c"
 		]
 	},
-	"publications": []
+	"publications": [
+		{
+			"citation": "Amunts, K., Mohlberg, H., Bludau, S., Zilles, K. (2020). Julich-Brain \u2013 A 3D probabilistic atlas of human brain\u2019s cytoarchitecture. Science 369, 988-992",
+			"url": "https://www.science.org/doi/10.1126/science.abb4588"
+		},
+		{
+			"citation": "Alan C. Evans, Andrew L. Janke, D. Louis Collins, Sylvain Baillet, Brain templates and atlases, NeuroImage, Volume 62, Issue 2, 2012, Pages 911-922, ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2012.01.024.",
+			"url": "https://doi.org/10.1016/j.neuroimage.2012.01.024"
+		},
+		{
+			"citation": "Simon B. Eickhoff, Klaas E. Stephan, Hartmut Mohlberg, Christian Grefkes, Gereon R. Fink, Katrin Amunts, Karl Zilles, A new SPM toolbox for combining probabilistic cytoarchitectonic maps and functional imaging data, NeuroImage, Volume 25, Issue 4, 2005, Pages 1325-1335, ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2004.12.034.",
+			"url": "https://doi.org/10.1016/j.neuroimage.2004.12.034"
+		}
+	]
 }

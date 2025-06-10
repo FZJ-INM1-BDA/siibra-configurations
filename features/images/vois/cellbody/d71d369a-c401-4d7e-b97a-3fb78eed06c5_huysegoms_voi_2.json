@@ -1,4 +1,5 @@
 {
+	"@id": "d71d369a-c401-4d7e-b97a-3fb78eed06c5--eb969b7e9c45b8f72fb9a9d224dbac50",
 	"@type": "siibra/feature/voi/v0.1",
 	"name": "VOI2: Cellular level 3D reconstructed volumes at 1\u00b5m resolution within the BigBrain occipital cortex (v1.0)",
 	"region": "hOc2 left",
@@ -12,5 +13,23 @@
 	},
 	"providers": {
 		"neuroglancer/precomputed": "https://1um.brainatlas.eu/cyto_reconstructions/ebrains_release/BB_1um/VOI_2/precomputed"
+	},
+	"boundingbox": {
+		"@type": "siibra/location/boundingbox/v0.1",
+		"space": {
+			"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+		},
+		"coordinates": [
+			[
+				-10.976369,
+				-61.4495,
+				-8.900969120819092
+			],
+			[
+				-2.30187285594368,
+				-55.4495,
+				-1.6928748219795229
+			]
+		]
 	}
 }

@@ -3,6 +3,7 @@
 	"modality": "StreamlineCounts",
 	"paradigm": "",
 	"cohort": "HCP",
+	"prerelease": true,
 	"parcellation": {
 		"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-300"
 	},
@@ -540,5 +541,19 @@
 		"Frontal-to-Temporal-II (GapMap) left",
 		"Frontal-to-Temporal-II (GapMap) right"
 	],
-	"files_indexed_by": "subject"
+	"files_indexed_by": "subject",
+	"publications": [
+		{
+			"name": "Parcellation-induced variation of empirical and simulated brain connectomes at group and subject levels",
+			"description": "Recent developments of whole-brain models have demonstrated their potential when investigating resting-state brain activity. However, it has not been systematically investigated how alternating derivations of the empirical structural and functional connectivity, serving as the model input, from MRI data influence modeling results. Here, we study the influence from one major element: the brain parcellation scheme that reduces the dimensionality of brain networks by grouping thousands of voxels into a few hundred brain regions. We show graph-theoretical statistics derived from the empirical data and modeling results exhibiting a high heterogeneity across parcellations. Furthermore, the network properties of empirical brain connectomes explain the lion\u00e2\u20ac\u2122s share of the variance in the modeling results with respect to the parcellation variation. Such a clear-cut relationship is not observed at the subject-resolved level per parcellation. Finally, the graph-theoretical statistics of the simulated connectome correlate with those of the empirical functional connectivity across parcellations. However, this relation is not one-to-one, and its precision can vary between models. Our results imply that network properties of both empirical connectomes can explain the goodness-of-fit of whole-brain models to empirical data at a global group level but not at a single-subject level, which provides further insights into the personalization of whole-brain models.The structural and functional connectivities of the brain, which reflect the anatomical connections of axonal bundles and the amount of coactivation between brain regions, respectively, only weakly correlate with each other. In order to enhance and investigate this relationship, large-scale whole-brain dynamical models were involved in this branch of research. However, how the definitions of the brain regions parcellated according to a so-called brain atlas influence these models has so far not been systematically assessed. In this article, we show that this influence can be large, and link group-averaged, atlas-induced deviations to network properties extracted from both types of connectivity. Additionally, we demonstrate that the same association does not apply to subject-specific variations. These results may contribute to the further personalization of the whole-brain models.",
+			"url": "https://doi.org/10.1162/netn_a_00202",
+			"authors": [
+				"Domhof, Justin W. M.",
+				"Jung, Kyesam",
+				"Eickhoff, Simon B.",
+				"Popovych, Oleksandr V."
+			],
+			"citation": "Justin W. M. Domhof, Kyesam Jung, Simon B. Eickhoff, Oleksandr V. Popovych; Parcellation-induced variation of empirical and simulated brain connectomes at group and subject levels. Network Neuroscience 2021; 5 (3): 798\u00e2\u20ac\u201c830. doi: https://doi.org/10.1162/netn_a_00202"
+		}
+	]
 }

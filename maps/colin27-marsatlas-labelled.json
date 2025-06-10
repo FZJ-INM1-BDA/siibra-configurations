@@ -1,4 +1,6 @@
 {
+	"@id": "siibra-map-v0.0.1_colin27-marsatlas-labelled",
+	"name": "MarsAtlas: A cortical parcellation atlas for functional mapping",
 	"space": {
 		"@id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
 	},
@@ -10,6 +12,24 @@
 			"@type": "siibra/volume/v0.0.1",
 			"providers": {
 				"nii": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/MarsAtlas/colin27_MNI_MarsAtlas.nii"
+			},
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992"
+				},
+				"coordinates": [
+					[
+						-71.0,
+						-106.0,
+						-53.0
+					],
+					[
+						73.0,
+						74.0,
+						84.0
+					]
+				]
 			}
 		}
 	],
@@ -591,5 +611,18 @@
 				"label": 258
 			}
 		]
-	}
+	},
+	"publications": [
+		{
+			"name": "MarsAtlas: A cortical parcellation atlas for functional mapping",
+			"url": "https://doi.org/10.1002/hbm.23121",
+			"authors": [
+				"Guillaume Auzias",
+				"Olivier Coulon",
+				"Andrea Brovelli"
+			],
+			"description": "The brainstem is one of the most densely packed areas of the central nervous system in terms of gray, but also white, matter structures and, therefore, is a highly functional hub. It has mainly been studied by the means of histological techniques, which requires several hundreds of slices with a loss of the 3D coherence of the whole specimen. Access to the inner structure of the brainstem is possible using Magnetic Resonance Imaging (MRI), but this method has a limited spatial resolution and contrast in vivo. Here, we scanned an ex vivo specimen using an ultra-high field (11.7T) preclinical MRI scanner providing data at a mesoscopic scale for anatomical T2-weighted (100\u00a0\u00b5m and 185\u00a0\u00b5m isotropic) and diffusion-weighted imaging (300\u00a0\u00b5m isotropic). We then proposed a hierarchical segmentation of the inner gray matter of the brainstem and defined a set of rules for each segmented anatomical class. These rules were gathered in a freely accessible web-based application, WIKIBrainStem (https://fibratlas.univ- tours.fr/brainstems/index.html), for 99 structures, from which 13 were subdivided into 29 substructures. This segmentation is, to date, the most detailed one developed from ex vivo MRI of the brainstem. This should be regarded as a tool that will be complemented by future results of alternative methods, such as Optical Coherence Tomography, Polarized Light Imaging or histology\u2026 This is a mandatory step prior to segmenting multiple specimens, which will be used to create a probabilistic automated segmentation method of ex vivo, but also in vivo, brainstem and may be used for targeting anatomical structures of interest in managing some degenerative or psychiatric disorders.",
+			"citation": "Auzias, G., Coulon, O. and Brovelli, A. (2016), MarsAtlas: A cortical parcellation atlas for functional mapping. Hum. Brain Mapp., 37: 1573-1592. https://doi.org/10.1002/hbm.23121"
+		}
+	]
 }
