@@ -1,736 +1,751 @@
 {
-    "@id": "nencki/nm/parcellationatlas/v1.0.0/MARMOSET_NM",
-    "@type": "siibra/parcellation/v0.0.1",
-    "name": "Marmoset Nencki-Monash Template (2020)",
-    "shortName": "marmoset_nm_2020",
-    "description": "This dataset contains the Nencki\u2013Monash template. The template represents a morphological average of 20 brains of young adult individuals obtained by 3D reconstructions generated from Nissl-stained serial sections. The template was generated taking into account morphological features of the individual brains and the borders of clearly defined cytoarchitectural areas. This allows direct estimates of the most likely coordinates of each cortical area, as well as quantification of the margins of error involved in assigning voxels to areas, and preserves quantitative information about the laminar structure of the cortex. The template also provides spatial transformations between other commonly used marmoset brain templates, thus enabling integration with magnetic resonance imaging (MRI) and tracer-based connectivity data.",
-    "modality": "cytoarchitecture",
-    "@version": {
-        "name": "1.0.0"
-    },
-    "species": "Callithrix Jacchus",
-    "regions": [
-        {
-            "name": "Prosencephalon",
-            "rgb": "#00FF28",
-            "children": [
-                {
-                    "name": "Telencephalon",
-                    "rgb": "#0EFF00",
-                    "children": [
-                        {
-                            "name": "Pallium",
-                            "rgb": "#3FFF00",
-                            "children": [
-                                {
-                                    "name": "Dorsal pallium",
-                                    "rgb": "#FFEA59",
-                                    "children": [
-                                        {
-                                            "name": "Medial prefrontal cortex",
-                                            "rgb": "#CF8C00",
-                                            "children": [
-                                                {
-                                                    "name": "Area 14 of cortex, caudal part",
-                                                    "rgb": "#E99400",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 14 of cortex, rostral part",
-                                                    "rgb": "#E9B759",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 25 of cortex",
-                                                    "rgb": "#FFE6B2",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 32 of cortex",
-                                                    "rgb": "#FFB100",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 32 of cortex, ventral part",
-                                                    "rgb": "#FFCF59",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Orbital frontal cortex",
-                                            "rgb": "#FFD62C",
-                                            "children": [
-                                                {
-                                                    "name": "Area 11 of cortex",
-                                                    "rgb": "#E9BF3B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 13 of cortex, lateral part",
-                                                    "rgb": "#E9CF76",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 13 of cortex, medial part",
-                                                    "rgb": "#FFC700",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 13a of cortex",
-                                                    "rgb": "#D4A800",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 13b of cortex",
-                                                    "rgb": "#E9BC00",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Gustatory cortex",
-                                                    "rgb": "#FFDB3B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Orbital periallocortex",
-                                                    "rgb": "#FFE876",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Orbital proisocortex",
-                                                    "rgb": "#FFF3B2",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Posterior cingulate medial and retrosplenial cortical regions",
-                                            "rgb": "#DFD22C",
-                                            "children": [
-                                                {
-                                                    "name": "Area 23 of cortex, ventral part",
-                                                    "rgb": "#FFE73B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 23a of cortex",
-                                                    "rgb": "#FFF6B2",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 23b of cortex",
-                                                    "rgb": "#EFDC3B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 23c of cortex",
-                                                    "rgb": "#DFD576",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 29a-c of cortex",
-                                                    "rgb": "#DFD13B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 29d of cortex",
-                                                    "rgb": "#EFE676",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 30 of cortex",
-                                                    "rgb": "#FFEF00",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 31 of cortex",
-                                                    "rgb": "#FFF876",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Parietal area pg, medial part (cortex)",
-                                                    "rgb": "#DFD600",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Prostriate area",
-                                                    "rgb": "#EFE700",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Posterior parietal cortex",
-                                            "rgb": "#D2DF00",
-                                            "children": [
-                                                {
-                                                    "name": "Anterior intraparietal area of cortex",
-                                                    "rgb": "#FEFF76",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Lateral intraparietal area of cortex ",
-                                                    "rgb": "#DDDF76",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Medial intraparietal area of cortex",
-                                                    "rgb": "#EAEF3B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Occipito-parietal transitional area of cortex",
-                                                    "rgb": "#E6EF00",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Parietal area pe",
-                                                    "rgb": "#E9EF76",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Parietal area pe, caudal part",
-                                                    "rgb": "#D2DF00",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Parietal area pf (cortex)",
-                                                    "rgb": "#D4DF3B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Parietal area pfg (cortex)",
-                                                    "rgb": "#F0FF3B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Parietal area pg",
-                                                    "rgb": "#F8FFB2",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Ventral intraparietal area of cortex",
-                                                    "rgb": "#E6FF00",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Motor and premotor cortical regions",
-                                            "rgb": "#B1CF2C",
-                                            "children": [
-                                                {
-                                                    "name": "Area 4 of cortex, parts a and b (primary motor)",
-                                                    "rgb": "#EDFF76",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 4 of cortex, part c (primary motor) ",
-                                                    "rgb": "#C8E900",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 6 of cortex, dorsocaudal part",
-                                                    "rgb": "#E0FF3B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 6 of cortex, dorsorostral part",
-                                                    "rgb": "#B0D400",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 6 of cortex, medial (supplementary motor) part",
-                                                    "rgb": "#D0FF00",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 6 of cortex, ventral, part a",
-                                                    "rgb": "#C8E93B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 6 of cortex, ventral, part b",
-                                                    "rgb": "#EFFFB2",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 8 of cortex, caudal part",
-                                                    "rgb": "#D0E976",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Somatosensory cortex",
-                                            "rgb": "#B1FF00",
-                                            "children": [
-                                                {
-                                                    "name": "Areas 1 and 2 of cortex",
-                                                    "rgb": "#BDE93B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 3a of cortex (somatosensory)",
-                                                    "rgb": "#CAFF3B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 3b of cortex (somatosensory)",
-                                                    "rgb": "#D8FF76",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Secondary somatosensory cortex, external part",
-                                                    "rgb": "#E8FFB2",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Secondary somatosensory cortex, internal part",
-                                                    "rgb": "#C5E976",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Secondary somatosensory cortex, parietal rostral area",
-                                                    "rgb": "#9DE900",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Secondary somatosensory cortex, parietal ventral area",
-                                                    "rgb": "#A7FF00",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Anterior cingulate cortex",
-                                            "rgb": "#DF6059",
-                                            "children": [
-                                                {
-                                                    "name": "Area 24a of cortex ",
-                                                    "rgb": "#FFB3B2",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 24b of cortex",
-                                                    "rgb": "#DF0800",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 24c of cortex",
-                                                    "rgb": "#FF6359",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 24d of cortex",
-                                                    "rgb": "#FF1600",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Auditory cortex",
-                                            "rgb": "#EF2B00",
-                                            "children": [
-                                                {
-                                                    "name": "Superior temporal rostral area (cortex)",
-                                                    "rgb": "#FF9F85",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Auditory cortex, rostrotemporal medial area",
-                                                    "rgb": "#CF2B00",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Auditory cortex, primary area",
-                                                    "rgb": "#DF1C00",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Auditory cortex, anterolateral area",
-                                                    "rgb": "#EF472C",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Auditory cortex, caudolateral area",
-                                                    "rgb": "#EF6E59",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Auditory cortex, caudomedial area",
-                                                    "rgb": "#EF2300",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Auditory cortex, caudal parabelt area",
-                                                    "rgb": "#FF4D2C",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Auditory cortex, middle lateral area",
-                                                    "rgb": "#FF2900",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Auditory cortex, rostral area",
-                                                    "rgb": "#DF7059",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Auditory cortex, rostromedial area",
-                                                    "rgb": "#DF9585",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Auditory cortex, rostral parabelt",
-                                                    "rgb": "#CF4A2C",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Auditory cortex, rostrotemporal ",
-                                                    "rgb": "#FF7959",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Auditory cortex, rostrotemporal lateral area",
-                                                    "rgb": "#EF9A85",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Temporoparietal transitional area",
-                                                    "rgb": "#DF542C",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Dorsolateral prefrontal cortex",
-                                            "rgb": "#EF8759",
-                                            "children": [
-                                                {
-                                                    "name": "Area 10 of cortex",
-                                                    "rgb": "#FF6D3B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 46 of cortex, dorsal part",
-                                                    "rgb": "#E99676",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 46 of cortex, ventral part",
-                                                    "rgb": "#FF9D76",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 8a of cortex, dorsal part",
-                                                    "rgb": "#E96F3B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 8a of cortex, ventral part",
-                                                    "rgb": "#FFCAB2",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 8b of cortex",
-                                                    "rgb": "#FF5300",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 9 of cortex",
-                                                    "rgb": "#E95000",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Insular cortex",
-                                            "rgb": "#EF802C",
-                                            "children": [
-                                                {
-                                                    "name": "Parainsular cortex, lateral part",
-                                                    "rgb": "#FF6E00",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Parainsular cortex, medial part",
-                                                    "rgb": "#FFB376",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Retroinsular area (cortex)",
-                                                    "rgb": "#E98B3B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Agranular insular cortex",
-                                                    "rgb": "#E95900",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Dysgranular insular cortex",
-                                                    "rgb": "#E9A476",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Granular insular cortex",
-                                                    "rgb": "#D45600",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Insular proisocortex",
-                                                    "rgb": "#FFD2B2",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Temporal proisocortex",
-                                                    "rgb": "#FF973B",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Lateral and inferior temporal cortical region",
-                                            "rgb": "#FFC985",
-                                            "children": [
-                                                {
-                                                    "name": "Area PGa and IPa (fundus of superior temporal ventral area)",
-                                                    "rgb": "#FF9E3B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Temporal area te1 (inferior temporal cortex)",
-                                                    "rgb": "#E9963B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Temporal area te2 (inferior temporal cortex)",
-                                                    "rgb": "#E9B476",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Temporal area te3 (inferior temporal cortex)",
-                                                    "rgb": "#E98000",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Temporal area te, occipital part",
-                                                    "rgb": "#FFDDB2",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Temporo-parieto-occipital association area (superior temporal polysensory cortex)",
-                                                    "rgb": "#FFC576",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Temporopolar proisocortex",
-                                                    "rgb": "#FF9700",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Visual cortex",
-                                            "rgb": "#C1EF85",
-                                            "children": [
-                                                {
-                                                    "name": "Area 19 of cortex, dorsointermediate part",
-                                                    "rgb": "#D1FF85",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 19 of cortex, medial part",
-                                                    "rgb": "#93EF00",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Fundus of superior temporal sulcus area of cortex",
-                                                    "rgb": "#99DF2C",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Medial superior temporal area of cortex",
-                                                    "rgb": "#A9DF59",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Primary visual cortex",
-                                                    "rgb": "#BBFF59",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Visual area 2",
-                                                    "rgb": "#C3EF85",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Visual area 3 (ventrolateral posterior area)",
-                                                    "rgb": "#80DF00",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Visual area 3a (dorsoanterior area)",
-                                                    "rgb": "#A4FF2C",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Visual area 4 (ventrolatereral anterior area)",
-                                                    "rgb": "#8EFF00",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Visual area 4, transitional part (middle temporal crescent)",
-                                                    "rgb": "#98EF2C",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Visual area 5 (middle temporal area)",
-                                                    "rgb": "#B6DF85",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Visual area 6 (dorsomedial area)",
-                                                    "rgb": "#A9EF59",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Visual area 6a (posterior parietal medial area)",
-                                                    "rgb": "#6DCF00",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Ventrolateral prefrontal cortex",
-                                            "rgb": "#A3FF59",
-                                            "children": [
-                                                {
-                                                    "name": "Area 45 of cortex",
-                                                    "rgb": "#72E900",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 47 (old 12) of cortex, lateral part",
-                                                    "rgb": "#D6FFB2",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 47 (old 12) of cortex, medial part",
-                                                    "rgb": "#73FF00",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 47 (old 12) of cortex, orbital part",
-                                                    "rgb": "#A0FF59",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Proisocortical motor region (precentral opercular cortex)",
-                                                    "rgb": "#94E959",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Ventral areas of the temporal lobe",
-                                            "rgb": "#A2DF85",
-                                            "children": [
-                                                {
-                                                    "name": "Area 35 of cortex",
-                                                    "rgb": "#4ED400",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Area 36 of cortex",
-                                                    "rgb": "#A0E976",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Entorhinal cortex",
-                                                    "rgb": "#50E900",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Temporal area tf",
-                                                    "rgb": "#CBFFB2",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Temporal area tf, occipital part",
-                                                    "rgb": "#51FF00",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Temporal area th",
-                                                    "rgb": "#71E93B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Temporal area tl",
-                                                    "rgb": "#75FF3B",
-                                                    "ebrains": {}
-                                                },
-                                                {
-                                                    "name": "Temporal area tl, occipital part",
-                                                    "rgb": "#9DFF76",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    "name": "Pallial amygdala",
-                                    "rgb": "#00C8FF",
-                                    "children": [
-                                        {
-                                            "name": "Lateropallial part",
-                                            "rgb": "#00FF2C",
-                                            "children": [
-                                                {
-                                                    "name": "Amygdalopiriform transition area",
-                                                    "rgb": "#00FF26",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    "name": "Ventral pallium",
-                                    "rgb": "#B2FFE7",
-                                    "children": [
-                                        {
-                                            "name": "Piriform cortex",
-                                            "rgb": "#00FFAB",
-                                            "children": [
-                                                {
-                                                    "name": "Piriform cortex",
-                                                    "rgb": "#00FFA5",
-                                                    "ebrains": {}
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "ebrains": {
-        "minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
-        "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
-    },
-    "publications": [
-        {
-            "citation": "Piotr Majka, Sylwia Bednarek, Jonathan M. Chan, Natalia Jermakow, Cirong Liu, Gabriela Saworska, Katrina H. Worthy, Afonso C. Silva, Daniel K. W\u00f3jcik, Marcello G.P. Rosa, Histology\u2010Based Average Template of the Marmoset Cortex With Probabilistic Localization of Cytoarchitectural Areas, NeuroImage, Volume 226, 2021, 117625, ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2020.117625. (https://www.sciencedirect.com/science/article/pii/S1053811920311101)",
-            "url": "https://doi.org/10.1016/j.neuroimage.2020.117625"
-        }
-    ]
+	"@id": "nencki/nm/parcellationatlas/v1.0.0/MARMOSET_NM",
+	"@type": "siibra/parcellation/v0.0.1",
+	"name": "Marmoset Nencki-Monash Atlas (2020)",
+	"shortName": "marmoset_nm_2020",
+	"description": "This atlas consists of probabilistic localizations of 116 cytoarchitectural areas of the marmoset cerebral cortex, along with the related parcellation of the most likely area at a given location. This probabilistic parcellation was based on Nissl-based cytoarchitecture in twenty individuals who contributed to the template. The taxonomy, nomenclature, and cytoarchitectural criteria were derived from the Paxinos et al. (2012) atlas.",
+	"modality": "cytoarchitecture",
+	"@version": {
+		"name": "1.0.0"
+	},
+	"species": "Callithrix Jacchus",
+	"regions": [
+		{
+			"name": "Prosencephalon",
+			"rgb": "#00FF28",
+			"children": [
+				{
+					"name": "Telencephalon",
+					"rgb": "#0EFF00",
+					"children": [
+						{
+							"name": "Pallium",
+							"rgb": "#3FFF00",
+							"children": [
+								{
+									"name": "Dorsal pallium",
+									"rgb": "#FFEA59",
+									"children": [
+										{
+											"name": "Medial prefrontal cortex",
+											"rgb": "#CF8C00",
+											"children": [
+												{
+													"name": "Area 14 of cortex, caudal part",
+													"rgb": "#E99400",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 14 of cortex, rostral part",
+													"rgb": "#E9B759",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 25 of cortex",
+													"rgb": "#FFE6B2",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 32 of cortex",
+													"rgb": "#FFB100",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 32 of cortex, ventral part",
+													"rgb": "#FFCF59",
+													"ebrains": {}
+												}
+											]
+										},
+										{
+											"name": "Orbital frontal cortex",
+											"rgb": "#FFD62C",
+											"children": [
+												{
+													"name": "Area 11 of cortex",
+													"rgb": "#E9BF3B",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 13 of cortex, lateral part",
+													"rgb": "#E9CF76",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 13 of cortex, medial part",
+													"rgb": "#FFC700",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 13a of cortex",
+													"rgb": "#D4A800",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 13b of cortex",
+													"rgb": "#E9BC00",
+													"ebrains": {}
+												},
+												{
+													"name": "Gustatory cortex",
+													"rgb": "#FFDB3B",
+													"ebrains": {}
+												},
+												{
+													"name": "Orbital periallocortex",
+													"rgb": "#FFE876",
+													"ebrains": {}
+												},
+												{
+													"name": "Orbital proisocortex",
+													"rgb": "#FFF3B2",
+													"ebrains": {}
+												}
+											]
+										},
+										{
+											"name": "Posterior cingulate medial and retrosplenial cortical regions",
+											"rgb": "#DFD22C",
+											"children": [
+												{
+													"name": "Area 23 of cortex, ventral part",
+													"rgb": "#FFE73B",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 23a of cortex",
+													"rgb": "#FFF6B2",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 23b of cortex",
+													"rgb": "#EFDC3B",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 23c of cortex",
+													"rgb": "#DFD576",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 29a-c of cortex",
+													"rgb": "#DFD13B",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 29d of cortex",
+													"rgb": "#EFE676",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 30 of cortex",
+													"rgb": "#FFEF00",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 31 of cortex",
+													"rgb": "#FFF876",
+													"ebrains": {}
+												},
+												{
+													"name": "Parietal area pg, medial part (cortex)",
+													"rgb": "#DFD600",
+													"ebrains": {}
+												},
+												{
+													"name": "Prostriate area",
+													"rgb": "#EFE700",
+													"ebrains": {}
+												}
+											]
+										},
+										{
+											"name": "Posterior parietal cortex",
+											"rgb": "#D2DF00",
+											"children": [
+												{
+													"name": "Anterior intraparietal area of cortex",
+													"rgb": "#FEFF76",
+													"ebrains": {}
+												},
+												{
+													"name": "Lateral intraparietal area of cortex ",
+													"rgb": "#DDDF76",
+													"ebrains": {}
+												},
+												{
+													"name": "Medial intraparietal area of cortex",
+													"rgb": "#EAEF3B",
+													"ebrains": {}
+												},
+												{
+													"name": "Occipito-parietal transitional area of cortex",
+													"rgb": "#E6EF00",
+													"ebrains": {}
+												},
+												{
+													"name": "Parietal area pe",
+													"rgb": "#E9EF76",
+													"ebrains": {}
+												},
+												{
+													"name": "Parietal area pe, caudal part",
+													"rgb": "#D2DF00",
+													"ebrains": {}
+												},
+												{
+													"name": "Parietal area pf (cortex)",
+													"rgb": "#D4DF3B",
+													"ebrains": {}
+												},
+												{
+													"name": "Parietal area pfg (cortex)",
+													"rgb": "#F0FF3B",
+													"ebrains": {}
+												},
+												{
+													"name": "Parietal area pg",
+													"rgb": "#F8FFB2",
+													"ebrains": {}
+												},
+												{
+													"name": "Ventral intraparietal area of cortex",
+													"rgb": "#E6FF00",
+													"ebrains": {}
+												}
+											]
+										},
+										{
+											"name": "Motor and premotor cortical regions",
+											"rgb": "#B1CF2C",
+											"children": [
+												{
+													"name": "Area 4 of cortex, parts a and b (primary motor)",
+													"rgb": "#EDFF76",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 4 of cortex, part c (primary motor) ",
+													"rgb": "#C8E900",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 6 of cortex, dorsocaudal part",
+													"rgb": "#E0FF3B",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 6 of cortex, dorsorostral part",
+													"rgb": "#B0D400",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 6 of cortex, medial (supplementary motor) part",
+													"rgb": "#D0FF00",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 6 of cortex, ventral, part a",
+													"rgb": "#C8E93B",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 6 of cortex, ventral, part b",
+													"rgb": "#EFFFB2",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 8 of cortex, caudal part",
+													"rgb": "#D0E976",
+													"ebrains": {}
+												}
+											]
+										},
+										{
+											"name": "Somatosensory cortex",
+											"rgb": "#B1FF00",
+											"children": [
+												{
+													"name": "Areas 1 and 2 of cortex",
+													"rgb": "#BDE93B",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 3a of cortex (somatosensory)",
+													"rgb": "#CAFF3B",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 3b of cortex (somatosensory)",
+													"rgb": "#D8FF76",
+													"ebrains": {}
+												},
+												{
+													"name": "Secondary somatosensory cortex, external part",
+													"rgb": "#E8FFB2",
+													"ebrains": {}
+												},
+												{
+													"name": "Secondary somatosensory cortex, internal part",
+													"rgb": "#C5E976",
+													"ebrains": {}
+												},
+												{
+													"name": "Secondary somatosensory cortex, parietal rostral area",
+													"rgb": "#9DE900",
+													"ebrains": {}
+												},
+												{
+													"name": "Secondary somatosensory cortex, parietal ventral area",
+													"rgb": "#A7FF00",
+													"ebrains": {}
+												}
+											]
+										},
+										{
+											"name": "Anterior cingulate cortex",
+											"rgb": "#DF6059",
+											"children": [
+												{
+													"name": "Area 24a of cortex ",
+													"rgb": "#FFB3B2",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 24b of cortex",
+													"rgb": "#DF0800",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 24c of cortex",
+													"rgb": "#FF6359",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 24d of cortex",
+													"rgb": "#FF1600",
+													"ebrains": {}
+												}
+											]
+										},
+										{
+											"name": "Auditory cortex",
+											"rgb": "#EF2B00",
+											"children": [
+												{
+													"name": "Superior temporal rostral area (cortex)",
+													"rgb": "#FF9F85",
+													"ebrains": {}
+												},
+												{
+													"name": "Auditory cortex, rostrotemporal medial area",
+													"rgb": "#CF2B00",
+													"ebrains": {}
+												},
+												{
+													"name": "Auditory cortex, primary area",
+													"rgb": "#DF1C00",
+													"ebrains": {}
+												},
+												{
+													"name": "Auditory cortex, anterolateral area",
+													"rgb": "#EF472C",
+													"ebrains": {}
+												},
+												{
+													"name": "Auditory cortex, caudolateral area",
+													"rgb": "#EF6E59",
+													"ebrains": {}
+												},
+												{
+													"name": "Auditory cortex, caudomedial area",
+													"rgb": "#EF2300",
+													"ebrains": {}
+												},
+												{
+													"name": "Auditory cortex, caudal parabelt area",
+													"rgb": "#FF4D2C",
+													"ebrains": {}
+												},
+												{
+													"name": "Auditory cortex, middle lateral area",
+													"rgb": "#FF2900",
+													"ebrains": {}
+												},
+												{
+													"name": "Auditory cortex, rostral area",
+													"rgb": "#DF7059",
+													"ebrains": {}
+												},
+												{
+													"name": "Auditory cortex, rostromedial area",
+													"rgb": "#DF9585",
+													"ebrains": {}
+												},
+												{
+													"name": "Auditory cortex, rostral parabelt",
+													"rgb": "#CF4A2C",
+													"ebrains": {}
+												},
+												{
+													"name": "Auditory cortex, rostrotemporal ",
+													"rgb": "#FF7959",
+													"ebrains": {}
+												},
+												{
+													"name": "Auditory cortex, rostrotemporal lateral area",
+													"rgb": "#EF9A85",
+													"ebrains": {}
+												},
+												{
+													"name": "Temporoparietal transitional area",
+													"rgb": "#DF542C",
+													"ebrains": {}
+												}
+											]
+										},
+										{
+											"name": "Dorsolateral prefrontal cortex",
+											"rgb": "#EF8759",
+											"children": [
+												{
+													"name": "Area 10 of cortex",
+													"rgb": "#FF6D3B",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 46 of cortex, dorsal part",
+													"rgb": "#E99676",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 46 of cortex, ventral part",
+													"rgb": "#FF9D76",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 8a of cortex, dorsal part",
+													"rgb": "#E96F3B",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 8a of cortex, ventral part",
+													"rgb": "#FFCAB2",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 8b of cortex",
+													"rgb": "#FF5300",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 9 of cortex",
+													"rgb": "#E95000",
+													"ebrains": {}
+												}
+											]
+										},
+										{
+											"name": "Insular cortex",
+											"rgb": "#EF802C",
+											"children": [
+												{
+													"name": "Parainsular cortex, lateral part",
+													"rgb": "#FF6E00",
+													"ebrains": {}
+												},
+												{
+													"name": "Parainsular cortex, medial part",
+													"rgb": "#FFB376",
+													"ebrains": {}
+												},
+												{
+													"name": "Retroinsular area (cortex)",
+													"rgb": "#E98B3B",
+													"ebrains": {}
+												},
+												{
+													"name": "Agranular insular cortex",
+													"rgb": "#E95900",
+													"ebrains": {}
+												},
+												{
+													"name": "Dysgranular insular cortex",
+													"rgb": "#E9A476",
+													"ebrains": {}
+												},
+												{
+													"name": "Granular insular cortex",
+													"rgb": "#D45600",
+													"ebrains": {}
+												},
+												{
+													"name": "Insular proisocortex",
+													"rgb": "#FFD2B2",
+													"ebrains": {}
+												},
+												{
+													"name": "Temporal proisocortex",
+													"rgb": "#FF973B",
+													"ebrains": {}
+												}
+											]
+										},
+										{
+											"name": "Lateral and inferior temporal cortical region",
+											"rgb": "#FFC985",
+											"children": [
+												{
+													"name": "Area PGa and IPa (fundus of superior temporal ventral area)",
+													"rgb": "#FF9E3B",
+													"ebrains": {}
+												},
+												{
+													"name": "Temporal area te1 (inferior temporal cortex)",
+													"rgb": "#E9963B",
+													"ebrains": {}
+												},
+												{
+													"name": "Temporal area te2 (inferior temporal cortex)",
+													"rgb": "#E9B476",
+													"ebrains": {}
+												},
+												{
+													"name": "Temporal area te3 (inferior temporal cortex)",
+													"rgb": "#E98000",
+													"ebrains": {}
+												},
+												{
+													"name": "Temporal area te, occipital part",
+													"rgb": "#FFDDB2",
+													"ebrains": {}
+												},
+												{
+													"name": "Temporo-parieto-occipital association area (superior temporal polysensory cortex)",
+													"rgb": "#FFC576",
+													"ebrains": {}
+												},
+												{
+													"name": "Temporopolar proisocortex",
+													"rgb": "#FF9700",
+													"ebrains": {}
+												}
+											]
+										},
+										{
+											"name": "Visual cortex",
+											"rgb": "#C1EF85",
+											"children": [
+												{
+													"name": "Area 19 of cortex, dorsointermediate part",
+													"rgb": "#D1FF85",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 19 of cortex, medial part",
+													"rgb": "#93EF00",
+													"ebrains": {}
+												},
+												{
+													"name": "Fundus of superior temporal sulcus area of cortex",
+													"rgb": "#99DF2C",
+													"ebrains": {}
+												},
+												{
+													"name": "Medial superior temporal area of cortex",
+													"rgb": "#A9DF59",
+													"ebrains": {}
+												},
+												{
+													"name": "Primary visual cortex",
+													"rgb": "#BBFF59",
+													"ebrains": {}
+												},
+												{
+													"name": "Visual area 2",
+													"rgb": "#C3EF85",
+													"ebrains": {}
+												},
+												{
+													"name": "Visual area 3 (ventrolateral posterior area)",
+													"rgb": "#80DF00",
+													"ebrains": {}
+												},
+												{
+													"name": "Visual area 3a (dorsoanterior area)",
+													"rgb": "#A4FF2C",
+													"ebrains": {}
+												},
+												{
+													"name": "Visual area 4 (ventrolatereral anterior area)",
+													"rgb": "#8EFF00",
+													"ebrains": {}
+												},
+												{
+													"name": "Visual area 4, transitional part (middle temporal crescent)",
+													"rgb": "#98EF2C",
+													"ebrains": {}
+												},
+												{
+													"name": "Visual area 5 (middle temporal area)",
+													"rgb": "#B6DF85",
+													"ebrains": {}
+												},
+												{
+													"name": "Visual area 6 (dorsomedial area)",
+													"rgb": "#A9EF59",
+													"ebrains": {}
+												},
+												{
+													"name": "Visual area 6a (posterior parietal medial area)",
+													"rgb": "#6DCF00",
+													"ebrains": {}
+												}
+											]
+										},
+										{
+											"name": "Ventrolateral prefrontal cortex",
+											"rgb": "#A3FF59",
+											"children": [
+												{
+													"name": "Area 45 of cortex",
+													"rgb": "#72E900",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 47 (old 12) of cortex, lateral part",
+													"rgb": "#D6FFB2",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 47 (old 12) of cortex, medial part",
+													"rgb": "#73FF00",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 47 (old 12) of cortex, orbital part",
+													"rgb": "#A0FF59",
+													"ebrains": {}
+												},
+												{
+													"name": "Proisocortical motor region (precentral opercular cortex)",
+													"rgb": "#94E959",
+													"ebrains": {}
+												}
+											]
+										},
+										{
+											"name": "Ventral areas of the temporal lobe",
+											"rgb": "#A2DF85",
+											"children": [
+												{
+													"name": "Area 35 of cortex",
+													"rgb": "#4ED400",
+													"ebrains": {}
+												},
+												{
+													"name": "Area 36 of cortex",
+													"rgb": "#A0E976",
+													"ebrains": {}
+												},
+												{
+													"name": "Entorhinal cortex",
+													"rgb": "#50E900",
+													"ebrains": {}
+												},
+												{
+													"name": "Temporal area tf",
+													"rgb": "#CBFFB2",
+													"ebrains": {}
+												},
+												{
+													"name": "Temporal area tf, occipital part",
+													"rgb": "#51FF00",
+													"ebrains": {}
+												},
+												{
+													"name": "Temporal area th",
+													"rgb": "#71E93B",
+													"ebrains": {}
+												},
+												{
+													"name": "Temporal area tl",
+													"rgb": "#75FF3B",
+													"ebrains": {}
+												},
+												{
+													"name": "Temporal area tl, occipital part",
+													"rgb": "#9DFF76",
+													"ebrains": {}
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Pallial amygdala",
+									"rgb": "#00C8FF",
+									"children": [
+										{
+											"name": "Lateropallial part",
+											"rgb": "#00FF2C",
+											"children": [
+												{
+													"name": "Amygdalopiriform transition area",
+													"rgb": "#00FF26",
+													"ebrains": {}
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Ventral pallium",
+									"rgb": "#B2FFE7",
+									"children": [
+										{
+											"name": "Piriform cortex",
+											"rgb": "#00FFAB",
+											"children": [
+												{
+													"name": "Piriform cortex",
+													"rgb": "#00FFA5",
+													"ebrains": {}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"ebrains": {
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+	},
+	"publications": [
+		{
+			"name": "Histology-Based Average Template of the Marmoset Cortex With Probabilistic Localization of Cytoarchitectural Areas",
+			"description": "This atlas consists of probabilistic localizations of 116 cytoarchitectural areas of the marmoset cerebral cortex, along with the related parcellation of the most likely area at a given location. This probabilistic parcellation was based on Nissl-based cytoarchitecture in twenty individuals who contributed to the template. The taxonomy, nomenclature, and cytoarchitectural criteria were derived from the Paxinos et al. (2012) atlas.",
+			"citation": "Piotr Majka, Sylwia Bednarek, Jonathan M. Chan, Natalia Jermakow, Cirong Liu, Gabriela Saworska, Katrina H. Worthy, Afonso C. Silva, Daniel K. W\u00f3jcik, Marcello G.P. Rosa, Histology-Based Average Template of the Marmoset Cortex With Probabilistic Localization of Cytoarchitectural Areas, NeuroImage, Volume 226, 2021, 117625, ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2020.117625. (https://www.sciencedirect.com/science/article/pii/S1053811920311101)",
+			"url": "https://doi.org/10.1016/j.neuroimage.2020.117625",
+			"authors": [
+				"Piotr Majka",
+				"Sylwia Bednarek",
+				"Jonathan M. Chan",
+				"Natalia Jermakow",
+				"Cirong Liu",
+				"Gabriela Saworska",
+				"Katrina H. Worthy",
+				"Afonso C. Silva",
+				"Daniel K. Wójcik",
+				"Marcello G.P. Rosa"
+			],
+			"copyright": "Creative Commons Attribution 4.0 (CC-BY)"
+		}
+	]
 }
