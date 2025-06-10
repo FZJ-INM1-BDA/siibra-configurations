@@ -3,7 +3,6 @@
     "shortName": "Sulci atlas",
     "@id": "atlas-humansulci",
     "@type": "siibra/parcellation/v0.0.1",
-    "description": "Desc of sulci based atlas",
     "modality": "sulci",
     "species": "homo sapiens",
     "regions": [
@@ -537,8 +536,16 @@
     },
     "publications": [
         {
-            "citation": "citation of https://doi.org/10.1016/j.media.2020.101651",
-            "url": "https://doi.org/10.1016/j.media.2020.101651"
+            "name": "Automatic labeling of cortical sulci using patch- or CNN-based segmentation techniques combined with bottom-up geometric constraints",
+            "url": "https://doi.org/10.1016/j.media.2020.101651",
+            "authors": [
+                "Léonie Borne",
+                "Denis Rivière",
+                "Martial Mancip",
+                "Jean-François Mangin"
+            ],
+            "description": "The extreme variability of the folding pattern of the human cortex makes the recognition of cortical sulci, both automatic and manual, particularly challenging. Reliable identification of the human cortical sulci in its entirety, is extremely difficult and is practiced by only a few experts. Moreover, these sulci correspond to more than a hundred different structures, which makes manual labeling long and fastidious and therefore limits access to large labeled databases to train machine learning. Here, we seek to improve the current model proposed in the Morphologist toolbox, a widely used sulcus recognition toolbox included in the BrainVISA package. Two novel approaches are proposed: patch-based multi-atlas segmentation (MAS) techniques and convolutional neural network (CNN)-based approaches. Both are currently applied for anatomical segmentations because they embed much better representations of inter-subject variability than approaches based on a single template atlas. However, these methods typically focus on voxel-wise labeling, disregarding certain geometrical and topological properties of interest for sulcus morphometry. Therefore, we propose to refine these approaches with domain specific bottom-up geometric constraints provided by the Morphologist toolbox. These constraints are utilized to provide a single sulcus label to each topologically elementary fold, the building blocks of the pattern recognition problem. To eliminate the shortcomings associated with the Morphologist’s pre-segmentation into elementary folds, we complement this regularization scheme using a top-down perspective which triggers an additional cleavage of the elementary folds when required. All the newly proposed models outperform the current Morphologist model, the most efficient being a CNN U-Net-based approach which carries out sulcus recognition within a few seconds.",
+            "citation": "Léonie Borne, Denis Rivière, Martial Mancip, Jean-François Mangin, Automatic labeling of cortical sulci using patch- or CNN-based segmentation techniques combined with bottom-up geometric constraints, Medical Image Analysis, Volume 62, 2020, 101651, ISSN 1361-8415, https://doi.org/10.1016/j.media.2020.101651."
         }
     ]
 }
