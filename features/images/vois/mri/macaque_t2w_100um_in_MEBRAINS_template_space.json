@@ -1,0 +1,34 @@
+{
+	"@type": "siibra/feature/voi/v0.1",
+	"name": "100micron T2-weighted MRI of a macaque brain",
+	"modality": "T2-weighted MRI",
+	"ebrains": {
+		"openminds/Species": "0b6df2b3-5297-40cf-adde-9443d3d8214a"
+	},
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/MEBRAINS"
+	},
+	"providers": {
+		"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/Hi-resMacaqueNeuroSpin/macaque_t2w_100um"
+	},
+	"publications": [
+		{
+			"name": "A road map to manual segmentation of cerebral structures",
+			"description": "A macaque brain specimen (adult female Macaca Fasicularis) was scanned ex vivo using a preclinical ultra high field (UHF) magnetic resonance imaging (MRI) system at 11.7T to obtain mesoscopic T2-weighted anatomical MRI datasets of 100um and 180um isotropic resolution. A pipeline was developed to perform various file conversions (Bruker native format, DICOM format, NIFTI format), to correct images from bias field and to compute diffeomorphic transformations from the native MRI space to the MEBRAINS template space.",
+			"authors": [
+				"Darrault F",
+				"Dannhoff G",
+				"Chauvel M",
+				"Delmaire T",
+				"Louchez S",
+				"Poupon C",
+				"Uszynski I",
+				"Destrieux C",
+				"Maldonado IL",
+				"Andersson F."
+			],
+			"citation": "Darrault F, Dannhoff G, Chauvel M, Delmaire T, Louchez S, Poupon C, Uszynski I, Destrieux C, Maldonado IL, Andersson F. A road map to manual segmentation of cerebral structures. J Anat. 2025 May;246(5):819-828. doi: 10.1111/joa.14167. Epub 2024 Oct 28. PMID: 39465613; PMCID: PMC11996699.",
+			"url": "https://doi.org/10.1111/joa.14167"
+		}
+	]
+}
