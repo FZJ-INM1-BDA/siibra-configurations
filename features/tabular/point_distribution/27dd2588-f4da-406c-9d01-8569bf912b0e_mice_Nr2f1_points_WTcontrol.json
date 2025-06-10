@@ -1,0 +1,40 @@
+{
+	"@type": "siibra/feature/point_distribution/v0.1",
+	"modality": "Nex-Cko - WT control",
+	"species": "Mus musculus",
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9",
+		"transform": [
+			[0.025, 0.0,    0.0,   -5.7375],
+			[0.0,   0.025,  0.0,   -6.6375],
+			[0.0,   0.0,  0.025,   -4.0375],
+			[0.0,   0.0,  0.0,      1.0]
+		]
+	},
+	"ebrains": {
+		"openminds/Species": "d9875ebd-260e-4337-a637-b62fed4aa91d",
+		"openminds/DatasetVersion": "27dd2588-f4da-406c-9d01-8569bf912b0e"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": ",",
+		"engine": "python",
+		"names": ["x", "y", "z"],
+		"index_col": false,
+		"skiprows": 1
+	},
+	"base_url": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-27dd2588-f4da-406c-9d01-8569bf912b0e/WT-controls/",
+	"files": {
+		"WT-control_585025284_MOs": "WT-control_585025284_MOs.csv",
+		"WT-control_141603190_MOs": "WT-control_141603190_MOs.csv",
+		"WT-control_141602484_MOs": "WT-control_141602484_MOs.csv",
+		"WT-control_127866392_SSPbfd": "WT-control_127866392_SSPbfd.csv",
+		"WT-control_127084296_MOp": "WT-control_127084296_MOp.csv",
+		"WT-control_126908007_SSPn": "WT-control_126908007_SSPn.csv",
+		"WT-control_114292355_SSPll": "WT-control_114292355_SSPll.csv",
+		"WT-control_114290938_SSPm": "WT-control_114290938_SSPm.csv",
+		"WT-control_112952510_MOs": "WT-control_112952510_MOs.csv",
+		"WT-control_112229814_SSpul": "WT-control_112229814_SSpul.csv",
+		"WT-control_100141780_MOp": "WT-control_100141780_MOp.csv"
+	}
+}
