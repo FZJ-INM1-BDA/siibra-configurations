@@ -1,0 +1,57 @@
+{
+  "@type": "siibra/feature/point_distribution/v0.1",
+  "modality": "182089608",
+  "species": "Mus musculus",
+  "space": {
+    "@id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9",
+    "transform": [
+      [
+        0.025,
+        0.0,
+        0.0,
+        -5.7375
+      ],
+      [
+        0.0,
+        0.025,
+        0.0,
+        -6.6375
+      ],
+      [
+        0.0,
+        0.0,
+        0.025,
+        -4.0375
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "ebrains": {
+    "openminds/Species": "d9875ebd-260e-4337-a637-b62fed4aa91d",
+    "openminds/DatasetVersion": "0c0b9038-7175-4ac0-a183-28c52675202d"
+  },
+  "decoder": {
+    "@type": "siibra/decoder/csv",
+    "delimiter": ",",
+    "engine": "python",
+    "names": [
+      "x",
+      "y",
+      "z"
+    ],
+    "index_col": false,
+    "skiprows": 1
+  },
+  "base_url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-0c0b9038-7175-4ac0-a183-28c52675202d/182089608",
+  "files": {
+    "182089608_Caudoputamen": "182089608_Caudoputamen.csv",
+    "182089608_PontineNuclei": "182089608_PontineNuclei.csv",
+    "182089608_SuperiorColliculu": "182089608_SuperiorColliculus.csv",
+    "182089608_Thalamu": "182089608_Thalamus.csv"
+  }
+}
