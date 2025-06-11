@@ -2,7 +2,7 @@
 	"@id": "1be7069f-fd40-4f15-b3b3-80904d95e360--585de2a6c5430420df9b2aae987025ab",
 	"@type": "siibra/feature/voi/v0.1",
 	"name": "CHENONCEAU: dti rgb - 200um",
-	"modality": "blockface",
+	"modality": "DTI",
 	"ebrains": {
 		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
 		"openminds/DatasetVersion": "1be7069f-fd40-4f15-b3b3-80904d95e360"
@@ -12,5 +12,23 @@
 	},
 	"providers": {
 		"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/chenonceau_dti_rgb_200um/precomputed"
+	},
+	"boundingbox": {
+		"@type": "siibra/location/boundingbox/v0.1",
+		"space": {
+			"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+		},
+		"coordinates": [
+			[
+				-96.1,
+				-132.1,
+				-78.1
+			],
+			[
+				96.9,
+				96.9,
+				114.9
+			]
+		]
 	}
 }

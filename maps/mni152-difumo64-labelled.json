@@ -1,4 +1,6 @@
 {
+	"@id": "siibra-map-v0.0.1_mni152-difumo64-labelled",
+	"name": "DiFuMo Atlas (64 dimensions) (v1)",
 	"space": {
 		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 	},
@@ -12,9 +14,23 @@
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/difumo/difumo64",
 				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/difumo/difumo64"
 			},
-			"ebrains": {
-				"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
-				"openminds/DatasetVersion": "e472a8c7-d9f9-4e75-9d0b-b137cecbc6a2"
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+				},
+				"coordinates": [
+					[
+						-69.75,
+						-105.75,
+						-38.625
+					],
+					[
+						72.75,
+						72.375,
+						85.125
+					]
+				]
 			}
 		}
 	],
@@ -404,5 +420,15 @@
 				"volume": 0
 			}
 		]
-	}
+	},
+	"ebrains": {
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+		"openminds/DatasetVersion": "e472a8c7-d9f9-4e75-9d0b-b137cecbc6a2"
+	},
+	"publications": [
+		{
+			"citation": "Dadi K, Varoquaux G, Machlouzarides-Shalit A, Gorgolewski KJ, Wassermann D, Thirion B, Mensch A. Fine-grain atlases of functional modes for fMRI analysis. NeuroImage. 2020;221:117126. doi:10.1016/j.neuroimage.2020.117126",
+			"url": "https://doi.org/10.1016/j.neuroimage.2020.117126"
+		}
+	]
 }

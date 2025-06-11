@@ -1,4 +1,6 @@
 {
+	"@id": "siibra-map-v0.0.1_rat-waxholmv4-labelled",
+	"name": "Waxholm Space atlas of the Sprague Dawley rat brain delineations v4",
 	"space": {
 		"@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
 	},
@@ -12,28 +14,23 @@
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210927-waxholm-v4/precomputed/segmentations/WHS_SD_rat_atlas_v4",
 				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210927-waxholm-v4/precomputed/segmentations/WHS_SD_rat_atlas_v4"
 			},
-			"publications": [
-				{
-					"name": "Waxholm Space atlas of the rat brain: a 3D atlas supporting data analysis and integration",
-					"description": "Volumetric brain atlases are increasingly used to integrate and analyze diverse experimental neuroscience data acquired from animal models, but until recently a publicly available digital atlas with complete coverage of the rat brain has been missing. Here we present an update of the Waxholm Space rat brain atlas, a comprehensive open-access volumetric atlas resource. This brain atlas features annotations of 222 structures, of which 112 are new and 57 revised compared to previous versions. It provides a detailed map of the cerebral cortex, hippocampal region, striatopallidal areas, midbrain dopaminergic system, thalamic cell groups, the auditory system and main fiber tracts. We document the criteria underlying the annotations and demonstrate how the atlas with related tools and workflows can be used to support interpretation, integration, analysis and dissemination of experimental rat brain data.",
-					"authors": [
-						"Heidi Kleven",
-						"Ingvild E. Bjerke",
-						"Francisco Clasc\u00e1",
-						"Henk J. Groenewegen",
-						"Jan G. Bjaalie",
-						"Trygve B. Leergaard"
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+				},
+				"coordinates": [
+					[
+						-8.28125,
+						-24.3359375,
+						-6.875
 					],
-					"citation": "Kleven, H., Bjerke, I.E., Clasc\u00e1, F. et al. Waxholm Space atlas of the rat brain: a 3D atlas supporting data analysis and integration. Nat Methods (2023).",
-					"url": "https://doi.org/10.1038/s41592-023-02034-3"
-				}
-			],
-			"ebrains": {
-				"minds/core/dataset/v1.0.0": "413794ff-e7ad-4aef-b57c-0dab29c93c7e",
-				"minds/core/species/v1.0.0": "f3490d7f-8f7f-4b40-b238-963dcac84412",
-				"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
-				"openminds/DatasetVersion": "fadcd2cb-9e8b-4e01-9777-f4d4df8f1ebc",
-				"openminds/Dataset": "82f91c95-6799-485a-ab9a-010c75f9e790"
+					[
+						9.21875,
+						15.3515625,
+						7.5
+					]
+				]
 			}
 		}
 	],
@@ -1377,5 +1374,28 @@
 				"label": 162
 			}
 		]
-	}
+	},
+	"ebrains": {
+		"minds/core/dataset/v1.0.0": "413794ff-e7ad-4aef-b57c-0dab29c93c7e",
+		"minds/core/species/v1.0.0": "f3490d7f-8f7f-4b40-b238-963dcac84412",
+		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
+		"openminds/DatasetVersion": "fadcd2cb-9e8b-4e01-9777-f4d4df8f1ebc",
+		"openminds/Dataset": "82f91c95-6799-485a-ab9a-010c75f9e790"
+	},
+	"publications": [
+		{
+			"name": "Waxholm Space atlas of the rat brain: a 3D atlas supporting data analysis and integration",
+			"description": "Volumetric brain atlases are increasingly used to integrate and analyze diverse experimental neuroscience data acquired from animal models, but until recently a publicly available digital atlas with complete coverage of the rat brain has been missing. Here we present an update of the Waxholm Space rat brain atlas, a comprehensive open-access volumetric atlas resource. This brain atlas features annotations of 222 structures, of which 112 are new and 57 revised compared to previous versions. It provides a detailed map of the cerebral cortex, hippocampal region, striatopallidal areas, midbrain dopaminergic system, thalamic cell groups, the auditory system and main fiber tracts. We document the criteria underlying the annotations and demonstrate how the atlas with related tools and workflows can be used to support interpretation, integration, analysis and dissemination of experimental rat brain data.",
+			"authors": [
+				"Heidi Kleven",
+				"Ingvild E. Bjerke",
+				"Francisco Clasc\u00e1",
+				"Henk J. Groenewegen",
+				"Jan G. Bjaalie",
+				"Trygve B. Leergaard"
+			],
+			"citation": "Kleven, H., Bjerke, I.E., Clasc\u00e1, F. et al. Waxholm Space atlas of the rat brain: a 3D atlas supporting data analysis and integration. Nat Methods (2023).",
+			"url": "https://doi.org/10.1038/s41592-023-02034-3"
+		}
+	]
 }

@@ -1,4 +1,6 @@
 {
+	"@id": "siibra-map-v0.0.1_bigbrain-isocortex-labelled",
+	"name": "BigBrain: initial tissue classification and surface extraction (2014)",
 	"space": {
 		"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
 	},
@@ -12,25 +14,23 @@
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
 				"neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif"
 			},
-			"publications": [
-				{
-					"name": "BigBrain: initial tissue classification and surface extraction (2014)",
-					"url": "https://bigbrain.loris.ca/papers/HBM2014poster.pdf",
-					"authors": [
-						"Lindsay Lewis",
-						"Claude Lepage",
-						"Marc Fournier",
-						"Karl Zilles",
-						"Katrin Amunts",
-						"Alan Evans"
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+				},
+				"coordinates": [
+					[
+						-64.16659999999999,
+						-69.61,
+						-36.277699999999996
 					],
-					"description": "The BigBrain is a 3D, high-resolution reference tool that provides a new level of neuroanatomical insight into the human brain, presents a variety of novel computational challenges. Here, we have extended its processing pipeline to intensity inhomogeneity correction and cortical surface segmentation. This dataset may be utilized for automated extraction of quantitative morphological indices of cortical substructure over the entire brain, and will allow the extraction of microscopic data for modeling and simulation applications.",
-					"citation": "Lewis LB, Lepage C, Fournier M et al. BigBrain: initial tissue classification and surface extraction. F1000Posters 2014, 5:933 (poster)"
-				}
-			],
-			"ebrains": {
-				"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
-				"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+					[
+						65.4334,
+						79.19,
+						54.92230000000001
+					]
+				]
 			}
 		}
 	],
@@ -48,5 +48,25 @@
 				"label": 200
 			}
 		]
-	}
+	},
+	"ebrains": {
+		"minds/core/species/v1.0.0": "0ea4e6ba-2681-4f7d-9fa9-49b915caaac9",
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+	},
+	"publications": [
+		{
+			"name": "BigBrain: initial tissue classification and surface extraction (2014)",
+			"url": "https://bigbrain.loris.ca/papers/HBM2014poster.pdf",
+			"authors": [
+				"Lindsay Lewis",
+				"Claude Lepage",
+				"Marc Fournier",
+				"Karl Zilles",
+				"Katrin Amunts",
+				"Alan Evans"
+			],
+			"description": "The BigBrain is a 3D, high-resolution reference tool that provides a new level of neuroanatomical insight into the human brain, presents a variety of novel computational challenges. Here, we have extended its processing pipeline to intensity inhomogeneity correction and cortical surface segmentation. This dataset may be utilized for automated extraction of quantitative morphological indices of cortical substructure over the entire brain, and will allow the extraction of microscopic data for modeling and simulation applications.",
+			"citation": "Lewis LB, Lepage C, Fournier M et al. BigBrain: initial tissue classification and surface extraction. F1000Posters 2014, 5:933 (poster)"
+		}
+	]
 }

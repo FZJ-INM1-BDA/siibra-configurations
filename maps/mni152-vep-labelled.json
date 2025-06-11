@@ -1,4 +1,6 @@
 {
+	"@id": "siibra-map-v0.0.1_mni152-vep-labelled",
+	"name": "VEP atlas: An anatomic and functional human brain atlas dedicated to epilepsy patients",
 	"space": {
 		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
 	},
@@ -11,28 +13,23 @@
 			"providers": {
 				"nii": "https://jugit.fz-juelich.de/t.dickscheid/brainscapes-datafeatures/-/raw/develop/atlases/vep/aparc+aseg.vep.nii"
 			},
-			"publications": [
-				{
-					"name": "VEP atlas: An anatomic and functional human brain atlas dedicated to epilepsy patients",
-					"url": "https://doi.org/10.1016/j.jneumeth.2020.108983",
-					"authors": [
-						"Huifang E. Wang",
-						"Julia Scholly",
-						"Paul Triebkorn",
-						"Viktor Sip",
-						"Samuel Medina Villalon",
-						"Marmaduke M. Woodman",
-						"Arnaud Le Troter",
-						"Maxime Guye",
-						"Fabrice Bartolomei",
-						"Viktor Jirsa"
+			"boundingbox": {
+				"@type": "siibra/location/boundingbox/v0.1",
+				"space": {
+					"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+				},
+				"coordinates": [
+					[
+						-71.0,
+						-106.0,
+						-73.0
 					],
-					"description": "Several automated parcellation atlases of the human brain have been developed over the past decades, based on various criteria, and have been applied in basic and clinical research. Here we present the Virtual Epileptic Patient (VEP) atlas that offers a new automated brain region parcellation and labeling, which has been developed for the specific use in the domains of epileptology and functional neurosurgery and is able to apply at individual patient\u2019s level.",
-					"citation": "Wang HE, Scholly J, Triebkorn P, Sip V, Medina Villalon S, Woodman MM, Le Troter A, Guye M, Bartolomei F, Jirsa V. VEP atlas: An anatomic and functional human brain atlas dedicated to epilepsy patients. J Neurosci Methods. 2021 Jan 15;348:108983. doi: 10.1016/j.jneumeth.2020.108983. Epub 2020 Oct 24. PMID: 33121983."
-				}
-			],
-			"ebrains": {
-				"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+					[
+						71.0,
+						73.0,
+						80.0
+					]
+				]
 			}
 		}
 	],
@@ -1172,5 +1169,28 @@
 				"label": 72077
 			}
 		]
-	}
+	},
+	"ebrains": {
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+	},
+	"publications": [
+		{
+			"name": "VEP atlas: An anatomic and functional human brain atlas dedicated to epilepsy patients",
+			"url": "https://doi.org/10.1016/j.jneumeth.2020.108983",
+			"authors": [
+				"Huifang E. Wang",
+				"Julia Scholly",
+				"Paul Triebkorn",
+				"Viktor Sip",
+				"Samuel Medina Villalon",
+				"Marmaduke M. Woodman",
+				"Arnaud Le Troter",
+				"Maxime Guye",
+				"Fabrice Bartolomei",
+				"Viktor Jirsa"
+			],
+			"description": "Several automated parcellation atlases of the human brain have been developed over the past decades, based on various criteria, and have been applied in basic and clinical research. Here we present the Virtual Epileptic Patient (VEP) atlas that offers a new automated brain region parcellation and labeling, which has been developed for the specific use in the domains of epileptology and functional neurosurgery and is able to apply at individual patient\u2019s level.",
+			"citation": "Wang HE, Scholly J, Triebkorn P, Sip V, Medina Villalon S, Woodman MM, Le Troter A, Guye M, Bartolomei F, Jirsa V. VEP atlas: An anatomic and functional human brain atlas dedicated to epilepsy patients. J Neurosci Methods. 2021 Jan 15;348:108983. doi: 10.1016/j.jneumeth.2020.108983. Epub 2020 Oct 24. PMID: 33121983."
+		}
+	]
 }

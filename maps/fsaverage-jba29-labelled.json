@@ -1,4 +1,6 @@
 {
+	"@id": "siibra-map-v0.0.1_fsaverage-jba29-labelled",
+	"name": "Julich-Brain Atlas, cytoarchitectonic maps (v2.9)",
 	"space": {
 		"@id": "minds/core/referencespace/v1.0.0/tmp-fsaverage"
 	},
@@ -10,8 +12,8 @@
 			"@type": "siibra/volume/v0.0.1",
 			"providers": {
 				"gii-label": {
-					"left hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
-					"right hemisphere": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/20210628_julichBrainV290_freesurfer_update2/gii/2021_06_28/GapMapPublicMPMAtlas_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii"
+					"left hemisphere": "https://data-proxy.ebrains.eu/api/v1/buckets/p22717-hbp-d000060_SurfaceMaps_freesurfer_JulichBrain_pub/v2.9.1/JulichBrain29_MPM_l_N10_nlin2StdColin27_29_fsaverage_cleaned.gii",
+					"right hemisphere": "https://data-proxy.ebrains.eu/api/v1/buckets/p22717-hbp-d000060_SurfaceMaps_freesurfer_JulichBrain_pub/v2.9.1/JulichBrain29_MPM_r_N10_nlin2StdColin27_29_fsaverage_cleaned.gii"
 				}
 			},
 			"ebrains": {
@@ -1799,5 +1801,16 @@
 				"label": 367
 			}
 		]
-	}
+	},
+	"ebrains": {
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+		"openminds/Dataset": "5a16d948-8d1c-400c-b797-8a7ad29944b2",
+		"openminds/DatasetVersion": "a8932c7e-063c-4131-ab96-996d843998e9"
+	},
+	"publications": [
+		{
+			"citation": "Amunts, K., Mohlberg, H., Bludau, S., Zilles, K. (2020). Julich-Brain \u2013 A 3D probabilistic atlas of human brain\u2019s cytoarchitecture. Science 369, 988-992",
+			"url": "https://doi.org/10.1126/science.abb4588"
+		}
+	]
 }
