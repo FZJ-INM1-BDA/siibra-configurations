@@ -7,7 +7,11 @@
 	"parcellation": {
 		"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310"
 	},
-	"base_url": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/temp/streamline_tracks/",
+	"repository": {
+		"@type": "siibra/repository/dataproxy/v1.0.0",
+		"bucketname": "reference-atlas-data",
+		"folder": "temp/streamline_tracks"
+	},
 	"regions": "JULICH_BRAIN_CYTOARCHITECTONIC_ATLAS_V3_1_RH.tsv",
 	"decoder": {
 		"@type": "siibra/decoder/csv",
