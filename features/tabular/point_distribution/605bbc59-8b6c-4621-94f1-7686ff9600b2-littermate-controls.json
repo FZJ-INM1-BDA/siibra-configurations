@@ -1,0 +1,63 @@
+{
+  "@type": "siibra/feature/point_distribution/v0.1",
+  "modality": "littermate-controls",
+  "species": "Mus musculus",
+  "space": {
+    "@id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9",
+    "transform": [
+      [
+        0.025,
+        0.0,
+        0.0,
+        -5.7375
+      ],
+      [
+        0.0,
+        0.025,
+        0.0,
+        -6.6375
+      ],
+      [
+        0.0,
+        0.0,
+        0.025,
+        -4.0375
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "ebrains": {
+    "openminds/Species": "d9875ebd-260e-4337-a637-b62fed4aa91d",
+    "openminds/DatasetVersion": "605bbc59-8b6c-4621-94f1-7686ff9600b2"
+  },
+  "decoder": {
+    "@type": "siibra/decoder/csv",
+    "delimiter": ",",
+    "engine": "python",
+    "names": [
+      "x",
+      "y",
+      "z"
+    ],
+    "index_col": false,
+    "skiprows": 1
+  },
+  "base_url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-605bbc59-8b6c-4621-94f1-7686ff9600b2/littermate-controls",
+  "files": {
+    "littermate-control_11431_6_SSpu-SSpbfd": "littermate-control_11431_6_SSpu-SSpbfd.csv",
+    "littermate-control_11643_13_MO": "littermate-control_11643_13_MOs.csv",
+    "littermate-control_11796_2_MO": "littermate-control_11796_2_MOs.csv",
+    "littermate-control_11796_8_MOp-MO": "littermate-control_11796_8_MOp-MOs.csv",
+    "littermate-control_11796_9_MOp-MO": "littermate-control_11796_9_MOp-MOs.csv",
+    "littermate-control_18035_1_MO": "littermate-control_18035_1_MOs.csv",
+    "littermate-control_18035_2_MO": "littermate-control_18035_2_MOs.csv",
+    "littermate-control_18035_7_MO": "littermate-control_18035_7_MOs.csv",
+    "littermate-control_19423_2_MOp-MO": "littermate-control_19423_2_MOp-MOs.csv",
+    "littermate-control_19423_3_MOp-MO": "littermate-control_19423_3_MOp-MOs.csv"
+  }
+}
