@@ -1,0 +1,93 @@
+{
+	"@type": "siibra/feature/point_distribution/tracing_connectivity_distribution/v0.1",
+	"modality": "TracingConnectivityDistribution",
+	"species": "Mus musculus",
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9",
+		"transform": [
+			[
+				0.025,
+				0.0,
+				0.0,
+				-5.7375
+			],
+			[
+				0.0,
+				0.025,
+				0.0,
+				-6.6375
+			],
+			[
+				0.0,
+				0.0,
+				0.025,
+				-4.0375
+			],
+			[
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			]
+		]
+	},
+	"ebrains": {
+		"openminds/Species": "d9875ebd-260e-4337-a637-b62fed4aa91d",
+		"openminds/DatasetVersion": "08545586-ca25-474f-8d3a-ae654cdf0d9e"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": ",",
+		"engine": "python",
+		"names": [
+			"x",
+			"y",
+			"z"
+		],
+		"index_col": false,
+		"skiprows": 1
+	},
+	"base_url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-08545586-ca25-474f-8d3a-ae654cdf0d9e",
+	"files": {
+		"M28_BDA": "M28/BDA/M28_BDA.csv",
+		"SS39_BDA": "SS39/BDA/SS39_BDA.csv",
+		"SS40_BDA": "SS40/BDA/SS40_BDA.csv",
+		"SS42_BDA": "SS42/BDA/SS42_BDA.csv",
+		"SS43_BDA": "SS43/BDA/SS43_BDA.csv",
+		"SS45_BDA": "SS45/BDA/SS45_BDA.csv",
+		"SS46_BDA": "SS46/BDA/SS46_BDA.csv",
+		"SS47_BDA": "SS47/BDA/SS47_BDA.csv",
+		"SS48_BDA": "SS48/BDA/SS48_BDA.csv",
+		"SS49_BDA": "SS49/BDA/SS49_BDA.csv",
+		"M18_BDA": "M18/BDA/M18_BDA.csv",
+		"SS50_BDA": "SS50/BDA/SS50_BDA.csv",
+		"M20_BDA": "M20/BDA/M20_BDA.csv",
+		"M21_BDA": "M21/BDA/M21_BDA.csv",
+		"M22_BDA": "M22/BDA/M22_BDA.csv",
+		"M23_BDA": "M23/BDA/M23_BDA.csv",
+		"M25_BDA": "M25/BDA/M25_BDA.csv",
+		"M26_BDA": "M26/BDA/M26_BDA.csv",
+		"M27_BDA": "M27/BDA/M27_BDA.csv",
+		"M02_BDA": "M02/BDA/M02_BDA.csv",
+		"M28_Fr": "M28/Fr/M28_Fr.csv",
+		"SS39_Fr": "SS39/Fr/SS39_Fr.csv",
+		"SS40_Fr": "SS40/Fr/SS40_Fr.csv",
+		"SS42_Fr": "SS42/Fr/SS42_Fr.csv",
+		"SS43_Fr": "SS43/Fr/SS43_Fr.csv",
+		"SS45_Fr": "SS45/Fr/SS45_Fr.csv",
+		"SS46_Fr": "SS46/Fr/SS46_Fr.csv",
+		"SS47_Fr": "SS47/Fr/SS47_Fr.csv",
+		"SS48_Fr": "SS48/Fr/SS48_Fr.csv",
+		"SS49_Fr": "SS49/Fr/SS49_Fr.csv",
+		"M18_Fr": "M18/Fr/M18_Fr.csv",
+		"SS50_Fr": "SS50/Fr/SS50_Fr.csv",
+		"M20_Fr": "M20/Fr/M20_Fr.csv",
+		"M21_Fr": "M21/Fr/M21_Fr.csv",
+		"M22": "M22/Fr/M22.csv",
+		"M23_Fr": "M23/Fr/M23_Fr.csv",
+		"M25_Fr": "M25/Fr/M25_Fr.csv",
+		"M26_Fr": "M26/Fr/M26_Fr.csv",
+		"M27_Fr": "M27/Fr/M27_Fr.csv",
+		"M02_Fr": "M02/Fr/M02_Fr.csv"
+	}
+}
