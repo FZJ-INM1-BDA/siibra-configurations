@@ -1,0 +1,26 @@
+{
+	"@type": "bids/connectivitymatrix/v0.1",
+	"modality": "StreamlineCounts",
+	"cohort": "1000brains",
+	"parcellation": {
+		"@id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310"
+	},
+	"ebrains": {
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+		"openminds/Dataset": "dec1d1e5-dc79-4fa2-b031-2dced0b6bdcd"
+	},
+	"repository": {
+		"@type": "siibra/repository/dataproxy/v1.0.0",
+		"bucketname": "reference-atlas-data",
+		"folder": "temp/Example_dataset_BIDS_connectivity"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": "\\s+",
+		"engine": "python",
+		"header": null,
+		"index_col": false
+	},
+	"regions": "atlases/JulichBrain207/atlas-JulichBrain207_space-MNI152NLin2009cAsym_dseg.tsv",
+	"files_indexed_by": "group"
+}
