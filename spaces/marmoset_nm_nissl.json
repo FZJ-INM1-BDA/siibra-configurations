@@ -1,0 +1,42 @@
+{
+	"@id": "nencki/nm/referencespace/v1.0.0/MARMOSET_NM_NISSL_2020",
+	"@type": "siibra/space/v0.0.1",
+	"name": "Marmoset Nencki-Monash Template (Nissl Histology) 2020",
+	"shortName": "marmoset_nm_nissl_2020",
+	"prerelease": true,
+	"modality": "histology",
+	"species": "Callithrix Jacchus",
+	"volumes": [
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/buckets/marmoset-nencki-monash-template/atlas",
+				"neuroglancer/precompmesh/surface": "https://data-proxy.ebrains.eu/api/v1/buckets/marmoset-nencki-monash-template/segmentations 200"
+			}
+		}
+	],
+	"ebrains": {
+		"openminds/Species": "627bac2f-2b4c-4f2d-ae4e-9373a7f430f2"
+	},
+	"publications": [
+		{
+			"name": "Histology‐Based Average Template of the Marmoset Cortex With Probabilistic Localization of Cytoarchitectural Areas",
+			"description": "The Nencki–Monash (NM) template v1.0 (2020) represents a computational morphological average of 20 gender-balanced young adult brains of the Common Marmoset monkey (Callithrix jacchus), derived from 3D reconstructions based on Nissl-stained serial sections. The dataset includes a Nissl-like color anatomical reference rendered at 50 µm isotropic resolution, estimates of cortical thickness, and spatial transformations between the NM template and selected other templates of the marmoset brain to enhance interoperability. The template is embedded in stereotaxic coordinates defined following Paxinos et al. (2012) definition.",
+			"citation": "Piotr Majka, Sylwia Bednarek, Jonathan M. Chan, Natalia Jermakow, Cirong Liu, Gabriela Saworska, Katrina H. Worthy, Afonso C. Silva, Daniel K. Wójcik, Marcello G.P. Rosa, Histology‐Based Average Template of the Marmoset Cortex With Probabilistic Localization of Cytoarchitectural Areas, NeuroImage, Volume 226, 2021, 117625, ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2020.117625. (https://www.sciencedirect.com/science/article/pii/S1053811920311101)",
+			"url": "https://doi.org/10.1016/j.neuroimage.2020.117625",
+			"authors": [
+				"Piotr Majka",
+				"Sylwia Bednarek",
+				"Jonathan M. Chan",
+				"Natalia Jermakow",
+				"Cirong Liu",
+				"Gabriela Saworska",
+				"Katrina H. Worthy",
+				"Afonso C. Silva",
+				"Daniel K. Wójcik",
+				"Marcello G.P. Rosa"
+			],
+			"license": "Creative Commons Attribution 4.0 (CC-BY)"
+		}
+	]
+}
