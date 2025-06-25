@@ -37,6 +37,7 @@ XFAIL_LIST = [
     DuplicatedErr(filename="parcellations/rat_waxholmv3.json", key="brainstem"),
     DuplicatedErr(filename="parcellations/rat_waxholmv3.json", key="ventricular system"),
     DuplicatedErr(filename="parcellations/rat_waxholmv3.json", key="spinal cord"),
+    DuplicatedErr(filename="parcellations/marmoset_nm.json", key="piriform cortex"),
 ]
 
 
