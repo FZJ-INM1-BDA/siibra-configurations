@@ -1,0 +1,20 @@
+{
+	"@id": "de62abc1-7252-4774-9965-5040f5e8fb6b_macaque_receptor_fingerprint",
+	"@type": "siibra/feature/tabular/v0.1",
+	"modality": "Neurotransmitter receptor density",
+	"parcellation": {
+		"@id": "minds/core/parcellationatlas/v1.0.0/e3235c039c6f54c3ba151568c829f117"
+	},
+	"ebrains": {
+		"openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd",
+		"openminds/DatasetVersion": "de62abc1-7252-4774-9965-5040f5e8fb6b"
+	},
+	"file": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-de62abc1-7252-4774-9965-5040f5e8fb6b/receptor_density_per_neuron/receptors_per_neuron.csv",
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": ",",
+		"engine": "python",
+		"header": 0, 
+		"index_col": 0
+	}
+}
