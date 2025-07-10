@@ -1,0 +1,55 @@
+{
+	"@type": "siibra/feature/point_distribution/tracing_connectivity_distribution/v0.1",
+	"modality": "TracingConnectivityDistribution",
+	"ebrains": {
+		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
+		"openminds/DatasetVersion": "67ed565f-4e0a-41ff-ae2c-2a2854017bc3"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": ",",
+		"engine": "python",
+		"names": [
+			"x",
+			"y",
+			"z"
+		],
+		"index_col": false,
+		"skiprows": 1
+	},
+	"base_url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-67ed565f-4e0a-41ff-ae2c-2a2854017bc3",
+	"files": {
+		"R401_Pha": "R401/Pha/R401_Pha.csv",
+		"R407_Fr": "R407/Fr/R407_Fr.csv"
+	},
+	"transform": {
+		"affine": [
+			[
+				0.025,
+				0.0,
+				0.0,
+				-5.7375
+			],
+			[
+				0.0,
+				0.025,
+				0.0,
+				-6.6375
+			],
+			[
+				0.0,
+				0.0,
+				0.025,
+				-4.0375
+			],
+			[
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			]
+		],
+		"target_space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+	},
+	"region": "Primary somatosensory area, forelimb representation"
+}

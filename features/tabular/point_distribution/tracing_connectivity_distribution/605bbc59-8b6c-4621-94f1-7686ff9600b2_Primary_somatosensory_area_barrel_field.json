@@ -1,0 +1,54 @@
+{
+	"@type": "siibra/feature/point_distribution/tracing_connectivity_distribution/v0.1",
+	"modality": "TracingConnectivityDistribution",
+	"ebrains": {
+		"openminds/Species": "d9875ebd-260e-4337-a637-b62fed4aa91d",
+		"openminds/DatasetVersion": "605bbc59-8b6c-4621-94f1-7686ff9600b2"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": ",",
+		"engine": "python",
+		"names": [
+			"x",
+			"y",
+			"z"
+		],
+		"index_col": false,
+		"skiprows": 1
+	},
+	"base_url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-605bbc59-8b6c-4621-94f1-7686ff9600b2",
+	"files": {
+		"WT-control_127866392_SSPbfd": "WT-controls/WT-control_127866392_SSPbfd.csv"
+	},
+	"transform": {
+		"affine": [
+			[
+				0.025,
+				0.0,
+				0.0,
+				-5.7375
+			],
+			[
+				0.0,
+				0.025,
+				0.0,
+				-6.6375
+			],
+			[
+				0.0,
+				0.0,
+				0.025,
+				-4.0375
+			],
+			[
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			]
+		],
+		"target_space_id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9"
+	},
+	"region": "Primary somatosensory area, barrel field"
+}

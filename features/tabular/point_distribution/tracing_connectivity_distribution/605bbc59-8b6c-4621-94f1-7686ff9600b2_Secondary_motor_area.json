@@ -1,0 +1,67 @@
+{
+	"@type": "siibra/feature/point_distribution/tracing_connectivity_distribution/v0.1",
+	"modality": "TracingConnectivityDistribution",
+	"ebrains": {
+		"openminds/Species": "d9875ebd-260e-4337-a637-b62fed4aa91d",
+		"openminds/DatasetVersion": "605bbc59-8b6c-4621-94f1-7686ff9600b2"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": ",",
+		"engine": "python",
+		"names": [
+			"x",
+			"y",
+			"z"
+		],
+		"index_col": false,
+		"skiprows": 1
+	},
+	"base_url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-605bbc59-8b6c-4621-94f1-7686ff9600b2",
+	"files": {
+		"WT-control_112952510_MOs": "WT-controls/WT-control_112952510_MOs.csv",
+		"WT-control_141603190_MOs": "WT-controls/WT-control_141603190_MOs.csv",
+		"WT-control_141602484_MOs": "WT-controls/WT-control_141602484_MOs.csv",
+		"WT-control_585025284_MOs": "WT-controls/WT-control_585025284_MOs.csv",
+		"littermate-control_11643_13_MOs": "littermate-controls/littermate-control_11643_13_MOs.csv",
+		"littermate-control_18035_7_MOs": "littermate-controls/littermate-control_18035_7_MOs.csv",
+		"littermate-control_18035_2_MOs": "littermate-controls/littermate-control_18035_2_MOs.csv",
+		"littermate-control_11796_2_MOs": "littermate-controls/littermate-control_11796_2_MOs.csv",
+		"littermate-control_18035_1_MOs": "littermate-controls/littermate-control_18035_1_MOs.csv",
+		"Nex-cKO_11643_16_MOs": "Nex-cKO/Nex-cKO_11643_16_MOs.csv",
+		"Nex-cKO_18035_4_MOs": "Nex-cKO/Nex-cKO_18035_4_MOs.csv",
+		"Nex-cKO_18035_3_MOs": "Nex-cKO/Nex-cKO_18035_3_MOs.csv",
+		"Nex-cKO_18035_8_MOs": "Nex-cKO/Nex-cKO_18035_8_MOs.csv",
+		"Nex-cKO_11643_17_MOs": "Nex-cKO/Nex-cKO_11643_17_MOs.csv"
+	},
+	"transform": {
+		"affine": [
+			[
+				0.025,
+				0.0,
+				0.0,
+				-5.7375
+			],
+			[
+				0.0,
+				0.025,
+				0.0,
+				-6.6375
+			],
+			[
+				0.0,
+				0.0,
+				0.025,
+				-4.0375
+			],
+			[
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			]
+		],
+		"target_space_id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9"
+	},
+	"region": "Secondary motor area"
+}

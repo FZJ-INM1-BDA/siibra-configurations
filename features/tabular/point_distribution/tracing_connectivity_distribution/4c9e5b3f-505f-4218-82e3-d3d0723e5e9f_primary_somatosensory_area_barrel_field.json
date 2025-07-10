@@ -1,35 +1,6 @@
 {
 	"@type": "siibra/feature/point_distribution/tracing_connectivity_distribution/v0.1",
 	"modality": "TracingConnectivityDistribution",
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
-		"transform": [
-			[
-				0.025,
-				0.0,
-				0.0,
-				-5.7375
-			],
-			[
-				0.0,
-				0.025,
-				0.0,
-				-6.6375
-			],
-			[
-				0.0,
-				0.0,
-				0.025,
-				-4.0375
-			],
-			[
-				0.0,
-				0.0,
-				0.0,
-				1.0
-			]
-		]
-	},
 	"ebrains": {
 		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
 		"openminds/DatasetVersion": "4c9e5b3f-505f-4218-82e3-d3d0723e5e9f"
@@ -74,5 +45,35 @@
 		"D53_Fr": "D53/Fr/D53_Fr.csv",
 		"D55_BDA": "D55/BDA/D55_BDA.csv",
 		"D55_Fr": "D55/Fr/D55_Fr.csv"
-	}
+	},
+	"transform": {
+		"affine": [
+			[
+				0.025,
+				0.0,
+				0.0,
+				-5.7375
+			],
+			[
+				0.0,
+				0.025,
+				0.0,
+				-6.6375
+			],
+			[
+				0.0,
+				0.0,
+				0.025,
+				-4.0375
+			],
+			[
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			]
+		],
+		"target_space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+	},
+	"region": "primary somatosensory area, barrel field"
 }

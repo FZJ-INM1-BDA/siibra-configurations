@@ -1,0 +1,63 @@
+{
+	"@type": "siibra/feature/point_distribution/tracing_connectivity_distribution/v0.1",
+	"modality": "TracingConnectivityDistribution",
+	"ebrains": {
+		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
+		"openminds/DatasetVersion": "08545586-ca25-474f-8d3a-ae654cdf0d9e"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": ",",
+		"engine": "python",
+		"names": [
+			"x",
+			"y",
+			"z"
+		],
+		"index_col": false,
+		"skiprows": 1
+	},
+	"base_url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-08545586-ca25-474f-8d3a-ae654cdf0d9e",
+	"files": {
+		"SS39_Fr": "SS39/Fr/SS39_Fr.csv",
+		"SS40_Fr": "SS40/Fr/SS40_Fr.csv",
+		"SS42_Fr": "SS42/Fr/SS42_Fr.csv",
+		"SS43_Fr": "SS43/Fr/SS43_Fr.csv",
+		"SS45_Fr": "SS45/Fr/SS45_Fr.csv",
+		"SS46_Fr": "SS46/Fr/SS46_Fr.csv",
+		"SS47_Fr": "SS47/Fr/SS47_Fr.csv",
+		"SS48_Fr": "SS48/Fr/SS48_Fr.csv",
+		"SS49_Fr": "SS49/Fr/SS49_Fr.csv",
+		"SS50_Fr": "SS50/Fr/SS50_Fr.csv"
+	},
+	"transform": {
+		"affine": [
+			[
+				0.025,
+				0.0,
+				0.0,
+				-5.7375
+			],
+			[
+				0.0,
+				0.025,
+				0.0,
+				-6.6375
+			],
+			[
+				0.0,
+				0.0,
+				0.025,
+				-4.0375
+			],
+			[
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			]
+		],
+		"target_space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+	},
+	"region": "secondary somateosensory area"
+}

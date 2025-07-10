@@ -1,9 +1,35 @@
 {
 	"@type": "siibra/feature/point_distribution/tracing_connectivity_distribution/v0.1",
 	"modality": "TracingConnectivityDistribution",
-	"space": {
-		"@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8",
-		"transform": [
+	"ebrains": {
+		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
+		"openminds/DatasetVersion": "67ed565f-4e0a-41ff-ae2c-2a2854017bc3"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": ",",
+		"engine": "python",
+		"names": [
+			"x",
+			"y",
+			"z"
+		],
+		"index_col": false,
+		"skiprows": 1
+	},
+	"base_url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-67ed565f-4e0a-41ff-ae2c-2a2854017bc3",
+	"files": {
+		"R411_BDA": "R411/BDA/R411_BDA.csv",
+		"R411_Fe": "R411/Fe/R411_Fe.csv",
+		"R411_Fr": "R411/Fr/R411_Fr.csv",
+		"R412_BDA": "R412/BDA/R412_BDA.csv",
+		"R412_Fr": "R412/Fr/R412_Fr.csv",
+		"R413_BDA": "R413/BDA/R413_BDA.csv",
+		"R413_Fe": "R413/Fe/R413_Fe.csv",
+		"R413_Fr": "R413/Fr/R413_Fr.csv"
+	},
+	"transform": {
+		"affine": [
 			[
 				0.025,
 				0.0,
@@ -28,47 +54,8 @@
 				0.0,
 				1.0
 			]
-		]
-	},
-	"ebrains": {
-		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
-		"openminds/DatasetVersion": "67ed565f-4e0a-41ff-ae2c-2a2854017bc3"
-	},
-	"decoder": {
-		"@type": "siibra/decoder/csv",
-		"delimiter": ",",
-		"engine": "python",
-		"names": [
-			"x",
-			"y",
-			"z"
 		],
-		"index_col": false,
-		"skiprows": 1
+		"target_space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
 	},
-	"base_url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-67ed565f-4e0a-41ff-ae2c-2a2854017bc3",
-	"files": {
-		"R401_Pha": "R401/Pha/R401_Pha.csv",
-		"R402_BDA": "R402/BDA/R402_BDA.csv",
-		"R403_BDA": "R403/BDA/R403_BDA.csv",
-		"R405_FG": "R405/FG/R405_FG.csv",
-		"R405_Fr": "R405/Fr/R405_Fr.csv",
-		"R406_FB": "R406/FB/R406_FB.csv",
-		"R406_FG": "R406/FG/R406_FG.csv",
-		"R406_Fe": "R406/Fe/R406_Fe.csv",
-		"R406_Fr": "R406/Fr/R406_Fr.csv",
-		"R407_Fe": "R407/Fe/R407_Fe.csv",
-		"R407_Fr": "R407/Fr/R407_Fr.csv",
-		"R409_Fr": "R409/Fr/R409_Fr.csv",
-		"R410_Fr": "R410/Fr/R410_Fr.csv",
-		"R411_BDA": "R411/BDA/R411_BDA.csv",
-		"R411_Fe": "R411/Fe/R411_Fe.csv",
-		"R411_Fr": "R411/Fr/R411_Fr.csv",
-		"R412_BDA": "R412/BDA/R412_BDA.csv",
-		"R412_Fe": "R412/Fe/R412_Fe.csv",
-		"R412_Fr": "R412/Fr/R412_Fr.csv",
-		"R413_BDA": "R413/BDA/R413_BDA.csv",
-		"R413_Fe": "R413/Fe/R413_Fe.csv",
-		"R413_Fr": "R413/Fr/R413_Fr.csv"
-	}
+	"region": "Primary visual area"
 }

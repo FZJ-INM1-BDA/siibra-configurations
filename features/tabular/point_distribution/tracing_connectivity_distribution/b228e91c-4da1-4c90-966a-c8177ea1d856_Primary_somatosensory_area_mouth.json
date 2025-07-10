@@ -1,0 +1,65 @@
+{
+	"@type": "siibra/feature/point_distribution/tracing_connectivity_distribution/v0.1",
+	"modality": "TracingConnectivityDistribution",
+	"ebrains": {
+		"openminds/Species": "d9875ebd-260e-4337-a637-b62fed4aa91d",
+		"openminds/DatasetVersion": "b228e91c-4da1-4c90-966a-c8177ea1d856"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": ",",
+		"engine": "python",
+		"names": [
+			"x",
+			"y",
+			"z"
+		],
+		"index_col": false,
+		"skiprows": 1
+	},
+	"base_url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-b228e91c-4da1-4c90-966a-c8177ea1d856",
+	"files": {
+		"100149969_Caudoputamen": "100149969/100149969_Caudoputamen.csv",
+		"100149969_PontineNuclei": "100149969/100149969_PontineNuclei.csv",
+		"100149969_SuperiorColliculus": "100149969/100149969_SuperiorColliculus.csv",
+		"100149969_Thalamus": "100149969/100149969_Thalamus.csv",
+		"114290938_Caudoputamen": "114290938/114290938_Caudoputamen.csv",
+		"114290938_PontineNuclei": "114290938/114290938_PontineNuclei.csv",
+		"114290938_SuperiorColliculus": "114290938/114290938_SuperiorColliculus.csv",
+		"114290938_Thalamus": "114290938/114290938_Thalamus.csv",
+		"157654817_Caudoputamen": "157654817/157654817_Caudoputamen.csv",
+		"157654817_PontineNuclei": "157654817/157654817_PontineNuclei.csv",
+		"157654817_SuperiorColliculus": "157654817/157654817_SuperiorColliculus.csv",
+		"157654817_Thalamus": "157654817/157654817_Thalamus.csv"
+	},
+	"transform": {
+		"affine": [
+			[
+				0.025,
+				0.0,
+				0.0,
+				-5.7375
+			],
+			[
+				0.0,
+				0.025,
+				0.0,
+				-6.6375
+			],
+			[
+				0.0,
+				0.0,
+				0.025,
+				-4.0375
+			],
+			[
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			]
+		],
+		"target_space_id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9"
+	},
+	"region": "Primary somatosensory area, mouth"
+}
