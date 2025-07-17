@@ -1,0 +1,59 @@
+{
+	"@type": "siibra/feature/point_distribution/cell_distribution/v0.1",
+	"modality": "CellDistribution",
+	"region": "Accessory olfactory bulb",
+	"ebrains": {
+		"openminds/Species": "d9875ebd-260e-4337-a637-b62fed4aa91d",
+		"openminds/DatasetVersion": "c25f0a96-cdf0-4277-ba3c-495de13f3ccd"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": "\t",
+		"engine": "python",
+		"names": [
+			"x",
+			"y",
+			"z"
+		],
+		"index_col": false,
+		"skiprows": 1
+	},
+	"base_url": "https://data-proxy.ebrains.eu/api/v1/buckets/ebrains2-t13-rodent-cell-distribution-an/c25f0a96-cdf0-4277-ba3c-495de13f3ccd",
+	"files": {
+		"81264": "sub-81264_desc-accessory-olfactory-bulb.tsv",
+		"81265": "sub-81265_desc-accessory-olfactory-bulb.tsv",
+		"81265-brainstem": "sub-81265-brainstem_desc-accessory-olfactory-bulb.tsv",
+		"81266": "sub-81266_desc-accessory-olfactory-bulb.tsv",
+		"81267": "sub-81267_desc-accessory-olfactory-bulb.tsv",
+		"81267-colliculi": "sub-81267-colliculi_desc-accessory-olfactory-bulb.tsv"
+	},
+	"transform": {
+		"affine": [
+			[
+				0.025,
+				0.0,
+				0.0,
+				-5.7375
+			],
+			[
+				0.0,
+				0.025,
+				0.0,
+				-6.6375
+			],
+			[
+				0.0,
+				0.0,
+				0.025,
+				-4.0375
+			],
+			[
+				0.0,
+				0.0,
+				0.0,
+				1
+			]
+		],
+		"target_space_id": "minds/core/referencespace/v1.0.0/265d32a0-3d84-40a5-926f-bf89f68212b9"
+	}
+}

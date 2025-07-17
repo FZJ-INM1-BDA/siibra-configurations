@@ -1,0 +1,57 @@
+{
+	"@type": "siibra/feature/point_distribution/cell_distribution/v0.1",
+	"modality": "CellDistribution",
+	"region": "Hypothalamus",
+	"ebrains": {
+		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
+		"openminds/DatasetVersion": "d56d6bd3-1b24-4f1e-97c3-637bf8e9231b"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": "\t",
+		"engine": "python",
+		"names": [
+			"x",
+			"y",
+			"z"
+		],
+		"index_col": false,
+		"skiprows": 1
+	},
+	"base_url": "https://data-proxy.ebrains.eu/api/v1/buckets/ebrains2-t13-rodent-cell-distribution-an/d56d6bd3-1b24-4f1e-97c3-637bf8e9231b",
+	"files": {
+		"25203": "sub-25203_desc-hypothalamus.tsv",
+		"25204": "sub-25204_desc-hypothalamus.tsv",
+		"25205": "sub-25205_desc-hypothalamus.tsv",
+		"25206": "sub-25206_desc-hypothalamus.tsv"
+	},
+	"transform": {
+		"affine": [
+			[
+				0.0390625,
+				0.0,
+				0.0,
+				-9.53125
+			],
+			[
+				0.0,
+				0.0390625,
+				0.0,
+				-24.3359375
+			],
+			[
+				0.0,
+				0.0,
+				0.0390625,
+				-9.6875
+			],
+			[
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			]
+		],
+		"target_space_id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+	}
+}
