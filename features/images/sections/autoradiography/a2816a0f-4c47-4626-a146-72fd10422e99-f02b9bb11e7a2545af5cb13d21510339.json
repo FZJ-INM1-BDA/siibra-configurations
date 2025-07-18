@@ -1,0 +1,63 @@
+{
+    "@id": "a2816a0f-4c47-4626-a146-72fd10422e99--f02b9bb11e7a2545af5cb13d21510339",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "DU wt276 s129 - Regional and laminar distribution of dopamine receptors and uptake sites in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "a2816a0f-4c47-4626-a146-72fd10422e99",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-a2816a0f-4c47-4626-a146-72fd10422e99/DU/img_lin/wt276_mazi_lin_s129.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    -0.02610832312146273,
+                    0.000498674489397919,
+                    -0.001362430948003937,
+                    9.023368794507643
+                ],
+                [
+                    0.0009274875520315129,
+                    0.000924503181905091,
+                    -0.0390149228682271,
+                    -5.479830365792235
+                ],
+                [
+                    -0.000451173828774871,
+                    -0.026956553503014742,
+                    -0.0013632614379536147,
+                    8.29145619354727
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                9.277327702131373,
+                -5.045499659525056,
+                -12.250800837187919
+            ],
+            [
+                9.403358755428858,
+                -4.775358941180556,
+                -5.510299199996277
+            ]
+        ]
+    }
+}

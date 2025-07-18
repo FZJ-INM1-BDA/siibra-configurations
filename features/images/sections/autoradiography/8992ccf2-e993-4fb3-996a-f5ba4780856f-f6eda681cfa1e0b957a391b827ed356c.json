@@ -1,0 +1,63 @@
+{
+    "@id": "8992ccf2-e993-4fb3-996a-f5ba4780856f--f6eda681cfa1e0b957a391b827ed356c",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "A1 receptor wt276 s020 - Regional and laminar distribution of receptors for adenosine in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "8992ccf2-e993-4fb3-996a-f5ba4780856f",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-8992ccf2-e993-4fb3-996a-f5ba4780856f/A1_receptor/img_lin/wt276_dpmg_lin_s020.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    -0.025217368483160744,
+                    0.00035568742505764114,
+                    -0.001362430868963012,
+                    9.766427994337059
+                ],
+                [
+                    0.0008907604099423437,
+                    0.0009632471774306817,
+                    -0.03901492287278975,
+                    2.497469338003042
+                ],
+                [
+                    -0.0002905000028034704,
+                    -0.027922461710653424,
+                    -0.0013632613863686512,
+                    9.769261819562017
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                9.947177525097608,
+                2.9516369699747615,
+                -11.509017265342264
+            ],
+            [
+                10.037461812230982,
+                3.2314636872052214,
+                -4.5270385762925365
+            ]
+        ]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "@id": "eeef583e-0feb-4b67-a921-ff2f82373986--1664bd5e14e4ab6cae070adc63cf0fd7",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "AMPA receptor wt274 s150 - Regional and laminar distribution of receptors for glutamate in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "eeef583e-0feb-4b67-a921-ff2f82373986",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-eeef583e-0feb-4b67-a921-ff2f82373986/AMPA_receptor/img_lin/wt274_ampa_lin_s150.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    -0.027136855761995864,
+                    0.008302212916709992,
+                    0.00136243092759675,
+                    8.836549248970481
+                ],
+                [
+                    -0.0006785204762007024,
+                    0.001316099015724933,
+                    -0.039014922870383606,
+                    -9.295530813844874
+                ],
+                [
+                    -0.007701874012475679,
+                    -0.029368036124251685,
+                    -0.0013632613966316847,
+                    10.405027841261782
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                13.087282262325997,
+                -8.660703040664092,
+                -11.974778946814633
+            ],
+            [
+                15.164197922431093,
+                -8.292663363862475,
+                -4.6314066543550805
+            ]
+        ]
+    }
+}

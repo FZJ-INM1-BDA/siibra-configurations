@@ -1,0 +1,63 @@
+{
+    "@id": "2357f08b-a0f4-40f6-815c-579a8208aa90--0d2c8de8df190e193f8002ef89c362b2",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "BZ wt274 s078 - Regional and laminar distribution of receptors for GABA in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "2357f08b-a0f4-40f6-815c-579a8208aa90",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-2357f08b-a0f4-40f6-815c-579a8208aa90/BZ/img_lin/wt274_flum_lin_s078.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    -0.03097271445293277,
+                    0.002236206371206677,
+                    0.0013624311542053836,
+                    9.1720491445164
+                ],
+                [
+                    -0.001012558772450712,
+                    0.0013268513330703929,
+                    -0.03901492286632014,
+                    -3.0733448870586244
+                ],
+                [
+                    -0.0019756217850291744,
+                    -0.03573806846245043,
+                    -0.0013632612864525895,
+                    10.882030133797809
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                10.321459219316631,
+                -2.4303582247267626,
+                -12.277601491156524
+            ],
+            [
+                10.622473304212532,
+                -2.21354522322901,
+                -7.487337055901712
+            ]
+        ]
+    }
+}

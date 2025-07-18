@@ -1,0 +1,63 @@
+{
+    "@id": "e1e43ae4-2983-44b9-b181-e845e8ffabcb--18535407e741f25796437f36d1e54f96",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "alpha2 receptor wt276 s002 - Regional and laminar distribution of receptors for norepinephrine in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "e1e43ae4-2983-44b9-b181-e845e8ffabcb",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-e1e43ae4-2983-44b9-b181-e845e8ffabcb/alpha2_receptor/img_lin/wt276_uk14_lin_s002.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    -0.0259217003414402,
+                    -0.0005158264201634621,
+                    -0.0013624310808046866,
+                    8.6384234305996
+                ],
+                [
+                    0.0008859814490696259,
+                    0.0012864171921734245,
+                    -0.03900560615050355,
+                    2.5147475469703107
+                ],
+                [
+                    0.00047159757124032493,
+                    -0.030769560889365794,
+                    -0.0016079106417511851,
+                    9.872267865569171
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                8.244001267354237,
+                3.1343875432126005,
+                -13.575745442769318
+            ],
+            [
+                8.374320303475907,
+                3.49499744740646,
+                -5.881747309786116
+            ]
+        ]
+    }
+}

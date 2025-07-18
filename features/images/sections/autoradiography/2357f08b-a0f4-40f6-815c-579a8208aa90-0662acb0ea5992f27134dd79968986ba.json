@@ -1,0 +1,63 @@
+{
+    "@id": "2357f08b-a0f4-40f6-815c-579a8208aa90--0662acb0ea5992f27134dd79968986ba",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "BZ wt279 s118 - Regional and laminar distribution of receptors for GABA in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "2357f08b-a0f4-40f6-815c-579a8208aa90",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-2357f08b-a0f4-40f6-815c-579a8208aa90/BZ/img_lin/wt279_flum_lin_s118.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    0.032466952226574114,
+                    0.00048158852759517943,
+                    -0.0004229807845119776,
+                    -11.437230631421267
+                ],
+                [
+                    0.00026548015697760015,
+                    0.005844426389013745,
+                    0.03846672737678487,
+                    -6.9594435894191875
+                ],
+                [
+                    0.000519044027297872,
+                    -0.03311335487324091,
+                    0.006783131903924819,
+                    10.791824999405804
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                -11.190117109021857,
+                -3.9554084254661226,
+                -10.665628958454302
+            ],
+            [
+                -11.12516126553959,
+                -3.1337885619614965,
+                -6.2216562735360945
+            ]
+        ]
+    }
+}

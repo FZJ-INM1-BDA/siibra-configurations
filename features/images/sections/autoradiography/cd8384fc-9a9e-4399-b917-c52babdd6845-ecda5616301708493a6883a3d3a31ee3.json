@@ -1,0 +1,63 @@
+{
+    "@id": "cd8384fc-9a9e-4399-b917-c52babdd6845--ecda5616301708493a6883a3d3a31ee3",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "5HT2 receptor wt274 s084 - Regional and laminar distribution of receptors for serotonin in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "cd8384fc-9a9e-4399-b917-c52babdd6845",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-cd8384fc-9a9e-4399-b917-c52babdd6845/5HT2_receptor/img_lin/wt274_keta_lin_s084.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    -0.025740349997361016,
+                    0.000524429570166983,
+                    0.0013624308871051278,
+                    8.220658959722112
+                ],
+                [
+                    -0.0008830456040194737,
+                    0.0010672101947522934,
+                    -0.03901636109653108,
+                    -2.4627530072835135
+                ],
+                [
+                    -0.00046631905655817154,
+                    -0.030968910071479814,
+                    -0.0013214594632290997,
+                    9.769431314894213
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                8.489166899647607,
+                -1.9553577486668705,
+                -13.830199619036634
+            ],
+            [
+                8.621636723076458,
+                -1.649538838882266,
+                -6.086650641703452
+            ]
+        ]
+    }
+}

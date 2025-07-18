@@ -1,0 +1,63 @@
+{
+    "@id": "2357f08b-a0f4-40f6-815c-579a8208aa90--ddb106bca773d3c0587a0e0d38e639cc",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "BZ wt279 s038 - Regional and laminar distribution of receptors for GABA in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "2357f08b-a0f4-40f6-815c-579a8208aa90",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-2357f08b-a0f4-40f6-815c-579a8208aa90/BZ/img_lin/wt279_flum_lin_s038.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    0.02925337277970834,
+                    -0.002953509865637611,
+                    -0.0004229809178036598,
+                    -7.413786740038821
+                ],
+                [
+                    0.0007403150282438136,
+                    0.00605213766568296,
+                    0.03846672714174186,
+                    -0.13377109680913435
+                ],
+                [
+                    -0.0023741060628803073,
+                    -0.034505470943639864,
+                    0.006783133228527522,
+                    10.739405242376892
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                -9.328084113889798,
+                2.9770276633519073,
+                -11.620139929101741
+            ],
+            [
+                -8.931890810976553,
+                3.826480837695166,
+                -6.9896236894254695
+            ]
+        ]
+    }
+}

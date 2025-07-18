@@ -1,0 +1,63 @@
+{
+    "@id": "79aea544-230d-4491-9188-9288fe17c942--601a1f69196398ee91ce8756b916c8ce",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "M1 receptor wt273 s003 - Regional and laminar distribution of receptors for acetylcholine in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "79aea544-230d-4491-9188-9288fe17c942",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-79aea544-230d-4491-9188-9288fe17c942/M1_receptor/img_lin/wt273_pire_lin_s003.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    -0.025546061742917712,
+                    0.00021309710646562384,
+                    -0.0019996989031671247,
+                    8.944448567870227
+                ],
+                [
+                    0.0013174336482750344,
+                    0.00644446214824697,
+                    -0.03815652679012414,
+                    1.1689236279149018
+                ],
+                [
+                    0.00010044133894170281,
+                    -0.030329730614021937,
+                    -0.008121549966675736,
+                    12.164228114441489
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                9.05155458747746,
+                4.430331721027226,
+                -10.955148163409902
+            ],
+            [
+                9.106828562997032,
+                6.079603784879093,
+                -3.364593959937743
+            ]
+        ]
+    }
+}

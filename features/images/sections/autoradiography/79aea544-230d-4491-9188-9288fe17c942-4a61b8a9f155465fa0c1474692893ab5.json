@@ -1,0 +1,63 @@
+{
+    "@id": "79aea544-230d-4491-9188-9288fe17c942--4a61b8a9f155465fa0c1474692893ab5",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "alpha4beta2 receptor wt272 s007 - Regional and laminar distribution of receptors for acetylcholine in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "79aea544-230d-4491-9188-9288fe17c942",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-79aea544-230d-4491-9188-9288fe17c942/alpha4beta2_receptor/img_lin/wt272_epib_lin_s007.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    0.0251169136844739,
+                    0.0007431507235226157,
+                    -0.0019996989259074803,
+                    -10.011300744565093
+                ],
+                [
+                    0.0011307876020797056,
+                    0.006350208530544024,
+                    0.03815652677017945,
+                    1.4529299937771656
+                ],
+                [
+                    0.0008716732469862814,
+                    -0.029651460923591083,
+                    0.00812155005478038,
+                    9.907621585102422
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                -9.63280727304742,
+                4.7042367614157055,
+                -12.686791638673984
+            ],
+            [
+                -9.44501989324086,
+                6.3299454208218915,
+                -5.265804857721433
+            ]
+        ]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "@id": "2357f08b-a0f4-40f6-815c-579a8208aa90--91ef7c138c9f747ca0ab68d0c979dc7f",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "BZ wt272 s078 - Regional and laminar distribution of receptors for GABA in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "2357f08b-a0f4-40f6-815c-579a8208aa90",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-2357f08b-a0f4-40f6-815c-579a8208aa90/BZ/img_lin/wt272_flum_lin_s078.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    0.030993230351149037,
+                    -0.0012266017722803856,
+                    -0.001999698813755404,
+                    -10.198605959242343
+                ],
+                [
+                    0.0017754714745721904,
+                    0.007393903606678076,
+                    0.038156526640737536,
+                    -4.678766899038768
+                ],
+                [
+                    -0.000710295222126064,
+                    -0.03503992339638311,
+                    0.00812155069053637,
+                    12.691804969711932
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                -10.995443606493788,
+                -0.8783004452062371,
+                -10.014065391144321
+            ],
+            [
+                -10.82907927019446,
+                0.15063916472936256,
+                -5.310594105338449
+            ]
+        ]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "@id": "a2816a0f-4c47-4626-a146-72fd10422e99--c07c9d4c3433bed70b98b7aa3b42627a",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "DU wt277 s049 - Regional and laminar distribution of dopamine receptors and uptake sites in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "a2816a0f-4c47-4626-a146-72fd10422e99",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-a2816a0f-4c47-4626-a146-72fd10422e99/DU/img_lin/wt277_mazi_lin_s049.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    -0.024998956744081438,
+                    0.0006709061590148967,
+                    -0.0013624309729177216,
+                    9.164634857117278
+                ],
+                [
+                    0.0008911281527731942,
+                    0.0010425855369986922,
+                    -0.03901492286258529,
+                    0.7516899773102992
+                ],
+                [
+                    -0.000519301061212854,
+                    -0.030508053928938544,
+                    -0.0013632615745169964,
+                    10.234759401292198
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                9.506776379559987,
+                1.2464788493910444,
+                -13.013740954133493
+            ],
+            [
+                9.67586535028663,
+                1.5461401565033026,
+                -5.385364210324337
+            ]
+        ]
+    }
+}

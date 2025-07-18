@@ -1,0 +1,63 @@
+{
+    "@id": "2357f08b-a0f4-40f6-815c-579a8208aa90--3bfd2c9889d008f1ae6e7b02b1fe0c4a",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "BZ wt272 s008 - Regional and laminar distribution of receptors for GABA in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "2357f08b-a0f4-40f6-815c-579a8208aa90",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-2357f08b-a0f4-40f6-815c-579a8208aa90/BZ/img_lin/wt272_flum_lin_s008.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    0.031068626620058895,
+                    -0.0015171984940561903,
+                    -0.0019996989618040234,
+                    -9.798553102347235
+                ],
+                [
+                    0.0018495465862920042,
+                    0.007311376818304701,
+                    0.03810433434014478,
+                    0.989479115503924
+                ],
+                [
+                    -0.0009981870586216652,
+                    -0.03367559426034959,
+                    0.008363002738647363,
+                    11.36468977420639
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                -10.78369742545745,
+                4.74752680011254,
+                -10.457095306500147
+            ],
+            [
+                -10.578393128292117,
+                5.765355628105515,
+                -5.9362026728746535
+            ]
+        ]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "@id": "eeef583e-0feb-4b67-a921-ff2f82373986--5845c18dc60b39f4ab59ac541514d284",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "kainate receptor wt279 s151 - Regional and laminar distribution of receptors for glutamate in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "eeef583e-0feb-4b67-a921-ff2f82373986",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-eeef583e-0feb-4b67-a921-ff2f82373986/kainate_receptor/img_lin/wt279_kain_lin_s151.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    0.032778993671602114,
+                    -0.0027838734863989004,
+                    -0.00042298084626349016,
+                    -10.190861576647949
+                ],
+                [
+                    0.0008275365470710051,
+                    0.005728537850613821,
+                    0.038466727332820166,
+                    -10.788078132844838
+                ],
+                [
+                    -0.0026488848861430225,
+                    -0.03265978368093845,
+                    0.006783132149395286,
+                    12.516111877404818
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                -11.9952345766807,
+                -7.843609677629334,
+                -8.647427947843298
+            ],
+            [
+                -11.621772548656983,
+                -7.037518878314261,
+                -4.26423380244815
+            ]
+        ]
+    }
+}

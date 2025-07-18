@@ -1,0 +1,63 @@
+{
+    "@id": "eeef583e-0feb-4b67-a921-ff2f82373986--05790e5a61805d9a97bc376cf0ecb9c9",
+    "@type": "siibra/feature/section/v0.1",
+    "name": "NMDA receptor wt275 s012 - Regional and laminar distribution of receptors for glutamate in the rat brain",
+    "modality": "receptor autoradiography",
+    "ebrains": {
+        "openminds/DatasetVersion": "eeef583e-0feb-4b67-a921-ff2f82373986",
+        "openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+    },
+    "space": {
+        "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+    },
+    "providers": {
+        "tif/2d": {
+            "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-eeef583e-0feb-4b67-a921-ff2f82373986/NMDA_receptor/img_lin/wt275_mk80_lin_s012.tif",
+            "slicing_axis": 2,
+            "transform": [
+                [
+                    -0.02502488654901453,
+                    0.0006413251022645533,
+                    -0.0013624311681229326,
+                    8.457966574648061
+                ],
+                [
+                    0.0008906784588906015,
+                    0.0010750356471337427,
+                    -0.03901492285215039,
+                    2.734662706262845
+                ],
+                [
+                    -0.00048051372462918154,
+                    -0.03140717210303254,
+                    -0.0013632616780650956,
+                    10.889526172938853
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        }
+    },
+    "boundingbox": {
+        "@type": "siibra/location/boundingbox/v0.1",
+        "space": {
+            "@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+        },
+        "coordinates": [
+            [
+                8.78496259583939,
+                3.246066034743171,
+                -13.044102231250006
+            ],
+            [
+                8.94665630257365,
+                3.5538398693787565,
+                -5.190945943813807
+            ]
+        ]
+    }
+}
