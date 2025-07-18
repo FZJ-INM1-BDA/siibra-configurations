@@ -1,0 +1,17 @@
+{
+	"@type": "siibra/feature/profile/celldensity_v2/v0.1",
+	"prerelease": true,
+	"repository": {
+		"@type": "siibra/repository/dataproxy/v1.0.0",
+		"bucketname": "ebrains2-t13-layerwise-cortical-celldens",
+		"folder": ""
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": "\\t",
+		"engine": "python",
+		"header": null,
+		"index_col": 0
+	},
+	"species": "HOMO SAPIENS"
+}
