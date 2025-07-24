@@ -1,0 +1,27 @@
+{
+	"@type": "siibra/feature/point_distribution/cell_distribution_bids/v0.1",
+	"prerelease": true,
+	"modality": "CellDistribution",
+	"repository": {
+		"@type": "siibra/repository/dataproxy/v1.0.0",
+		"bucketname": "ebrains2-t13-layerwise-cortical-celldens",
+		"folder": "derivatives/cells/sub-01/micr/"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": "\\t",
+		"engine": "python",
+		"index_col": 0,
+		"skiprows": 1,
+		"names": [
+			"cell id",
+			"x_patch_um",
+			"y_patch_um",
+			"area_um2",
+			"x",
+			"y",
+			"z"
+		]
+	},
+	"species": "HOMO SAPIENS"
+}
