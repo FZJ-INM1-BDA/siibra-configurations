@@ -10,11 +10,29 @@
 		"openminds/DatasetVersion": "de62abc1-7252-4774-9965-5040f5e8fb6b"
 	},
 	"file": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-de62abc1-7252-4774-9965-5040f5e8fb6b/receptor_density_per_neuron/receptors_per_neuron.csv",
+	"unit": "fmol per neuron",
 	"decoder": {
 		"@type": "siibra/decoder/csv",
 		"delimiter": ",",
 		"engine": "python",
-		"header": 0, 
+		"header": 0,
+		"names": [
+			"Area",
+			"AMPA",
+			"kainate",
+			"NMDA",
+			"GABAa",
+			"GABAb",
+			"BZ",
+			"M1",
+			"M2",
+			"M3",
+			"alpha1",
+			"alpha2",
+			"ser_5HT1A",
+			"ser_5HT2",
+			"D1"
+		],
 		"index_col": 0
 	},
 	"prerelease": true
