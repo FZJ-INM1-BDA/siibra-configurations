@@ -1,9 +1,9 @@
 {
-    "name": "Sulci atlas",
-    "shortName": "Sulci atlas",
+    "name": "Morphologist Brain Sulci Atlas (2018)",
+    "shortName": "Morphologist sulci atlas",
     "@id": "atlas-humansulci",
     "@type": "siibra/parcellation/v0.0.1",
-    "description": "Desc of sulci based atlas",
+    "description": "The BrainVISA/Morphologist Brain Sulci Atlas is a probabilistic map of presence of each sulcus. Sulci have been manually labelled on a dataset of 62 healthy adult subjects, which is the learning data used by the Morphoilogist sulci identification model published in https://doi.org/10.1016/j.media.2020.101651. The sulci nomenclature is thus the one used in this publication. Probabilities are built simply by adding presence maps for each subject of the database (after linear registration to the MNI ICBM152 template), then divided by the number of subjects (62) and then a slight gaussian smoothing (sigma=0.25 mm) has been applied.\nProbabilities generally do not reach 100% because of sulci spatial dispersion (no voxel is in the sulcus for every subject of the database), and because some sulci are not present (or identified) in every subject.",
     "modality": "sulci",
     "species": "homo sapiens",
     "regions": [
