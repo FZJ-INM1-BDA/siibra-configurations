@@ -1,0 +1,61 @@
+{
+    "schema": "siibra/space/v0.1",
+    "id": "minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
+    "name": "MNI Colin 27",
+    "species": "homo sapiens",
+    "attributes": [
+        {
+            "schema": "siibra/attr/desc/modality/v0.1",
+            "value": "mri"
+        },
+        {
+            "schema": "siibra/attr/desc/description/v0.1",
+            "value": "A stereotaxic average of 27 T1-weighted MRI scans of the same individual. (Holmes et al., 1998), mapped to fit the MNI305 space.  Although not capturing brain variability, it is well established in neuroscience due to its high definition. HBP provides the JuBrain probabilistic cytoarchitectonic atlas (Amunts et al.) in this space."
+        },
+        {
+            "schema": "siibra/attr/desc/shortname/v0.1",
+            "value": "MNI Colin 27"
+        },
+        {
+            "schema": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1097/00004728-199803000-00032"
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/JuBrain/v2.2c/colin27_seg",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                }
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/JuBrain/colin_auxmesh",
+            "steps": [
+                {
+                    "key": "neuroglancer-precompmesh",
+                    "labels": [
+                        1
+                    ]
+                },
+                {
+                    "key": "merge-mesh"
+                }
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://packages.bic.mni.mcgill.ca/mni-models/colin27/mni_colin27_1998_nifti.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "colin27_t1_tal_lin.nii"
+                },
+                {
+                    "key": "nifti"
+                }
+            ]
+        }
+    ]
+}

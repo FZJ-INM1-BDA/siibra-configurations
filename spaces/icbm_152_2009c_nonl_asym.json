@@ -10,7 +10,16 @@
         },
         {
             "schema": "siibra/attr/desc/description/v0.1",
-            "value": "A number of unbiased non-linear averages of the MNI152 database have been generated that combines the attractions of both high-spatial resolution and signal-to-noise while not being subject to the vagaries of any single brain (Fonov et al., 2011). The procedure involved multiple iterations of a process where, at each iteration, individual native MRIs were non-linearly fitted to the average template from the previous iteration, beginning with the MNI152 linear template."
+            "value": "An unbiased non-linear average of multiple subjects from the MNI152 database, which provides high-spatial resolution and signal-to-noise while not being biased towards a single brain (Fonov et al., 2011). This template space is widely used as a reference space in neuroimaging. HBP provides the JuBrain probabilistic cytoarchitectonic atlas (Amunts/Zilles, 2015) as well as a probabilistic atlas of large fibre bundles (Guevara, Mangin et al., 2017) in this space."
+        },
+        {
+            "schema": "siibra/attr/desc/shortname/v0.1",
+            "value": "ICBM 2009c nonl asym"
+        },
+        {
+            "schema": "siibra/attr/desc/url/v0.1",
+            "value": "https://nist.mni.mcgill.ca/icbm-152-nonlinear-atlases-2009/",
+            "text": "https://nist.mni.mcgill.ca/icbm-152-nonlinear-atlases-2009/. Accessed 13 December 2024."
         },
         {
             "schema": "siibra/attr/desc/doi/v0.1",
@@ -19,6 +28,43 @@
         {
             "schema": "siibra/attr/desc/doi/v0.1",
             "value": "https://doi.org/10.1016/S1053-8119(09)70884-5"
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/Fiber_Bundle/mni_icbm152_t1_tal_nlin_asym_09c_masked",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                }
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/icbm152_2009c_nonlin_asym",
+            "steps": [
+                {
+                    "key": "neuroglancer-precompmesh",
+                    "labels": [
+                        65535
+                    ]
+                },
+                {
+                    "key": "merge-mesh"
+                }
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.bic.mni.mcgill.ca/~vfonov/icbm/2009/mni_icbm152_nlin_asym_09c_nifti.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "mni_icbm152_nlin_asym_09c/mni_icbm152_t1_tal_nlin_asym_09c.nii"
+                },
+                {
+                    "key": "nifti"
+                }
+            ]
         }
     ]
 }
