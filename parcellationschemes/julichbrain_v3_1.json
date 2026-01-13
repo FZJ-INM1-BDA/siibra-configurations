@@ -1,0 +1,4871 @@
+{
+    "schema": "siibra/parcellationscheme/v0.1",
+    "id": "minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310",
+    "name": "Julich-Brain Cytoarchitectonic Atlas (v3.1)",
+    "species": "homo sapiens",
+    "attributes": [
+        {
+            "schema": "siibra/attr/desc/modality/v0.1",
+            "value": "cytoarchitecture"
+        },
+        {
+            "schema": "siibra/attr/desc/name/v0.1",
+            "value": "Julich-Brain Cytoarchitectonic Atlas (v3.1)",
+            "shortform": "Julich-Brain v3.1"
+        },
+        {
+            "schema": "siibra/attr/desc/description/v0.1",
+            "value": "The Julich-Brain Atlas (RRID:SCR_023277) presents in this dataset cytoarchitectonicmaps in several coordinate spaces, such as MNI Colin 27, MNI ICBM 152, andFreeSurfer. These maps originate from peer-reviewed probability maps (PMs) that defineboth cortical and subcortical brain regions. Notably, these probability maps account forthe brain's inter-individual variability by analyzing data from ten post- mortem samples.For a whole-brain parcellation, the available probability maps are combined into amaximum probability map (MPM) by considering for each voxel the probability of allcytoarchitectonic brain regions, and determining the most probable assignment.Continuously evolving, the atlas is regularly updated with new areas. Furthermore, itstands as a reference atlas for the Human Brain Project and is deeply embedded withinthe European research infrastructure platform, EBRAINS. The siibra toolsuite providesan automated access to the Atlas, to speed up your work."
+        },
+        {
+            "schema": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1126/science.abb4588"
+        },
+        {
+            "schema": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1016/j.neuroimage.2012.01.024"
+        },
+        {
+            "schema": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1016/j.neuroimage.2004.12.034"
+        },
+        {
+            "schema": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.25493/KNSN-XB4"
+        }
+    ],
+    "regions": [
+        {
+            "name": "VP (Ventral Pallidum) - right hemisphere",
+            "parent_id": "VP (Ventral Pallidum)"
+        },
+        {
+            "name": "VP (Ventral Pallidum) - left hemisphere",
+            "parent_id": "VP (Ventral Pallidum)"
+        },
+        {
+            "name": "VP (Ventral Pallidum)",
+            "parent_id": "ventral pallidum"
+        },
+        {
+            "name": "ventral pallidum",
+            "parent_id": "basal ganglia"
+        },
+        {
+            "name": "FuCd (Ventral Striatum, Fundus of Caudate Nucleus) - right hemisphere",
+            "parent_id": "FuCd (Ventral Striatum, Fundus of Caudate Nucleus)"
+        },
+        {
+            "name": "FuCd (Ventral Striatum, Fundus of Caudate Nucleus) - left hemisphere",
+            "parent_id": "FuCd (Ventral Striatum, Fundus of Caudate Nucleus)"
+        },
+        {
+            "name": "FuCd (Ventral Striatum, Fundus of Caudate Nucleus)",
+            "parent_id": "ventral striatum"
+        },
+        {
+            "name": "AcbM (Ventral Striatum, Medial Accumbens) - right hemisphere",
+            "parent_id": "AcbM (Ventral Striatum, Medial Accumbens)"
+        },
+        {
+            "name": "AcbM (Ventral Striatum, Medial Accumbens) - left hemisphere",
+            "parent_id": "AcbM (Ventral Striatum, Medial Accumbens)"
+        },
+        {
+            "name": "AcbM (Ventral Striatum, Medial Accumbens)",
+            "parent_id": "ventral striatum"
+        },
+        {
+            "name": "AcbL (Ventral Striatum, Lateral Accumbens) - right hemisphere",
+            "parent_id": "AcbL (Ventral Striatum, Lateral Accumbens)"
+        },
+        {
+            "name": "AcbL (Ventral Striatum, Lateral Accumbens) - left hemisphere",
+            "parent_id": "AcbL (Ventral Striatum, Lateral Accumbens)"
+        },
+        {
+            "name": "AcbL (Ventral Striatum, Lateral Accumbens)",
+            "parent_id": "ventral striatum"
+        },
+        {
+            "name": "FuP (Ventral Striatum, Fundus of Putamen) - right hemisphere",
+            "parent_id": "FuP (Ventral Striatum, Fundus of Putamen)"
+        },
+        {
+            "name": "FuP (Ventral Striatum, Fundus of Putamen) - left hemisphere",
+            "parent_id": "FuP (Ventral Striatum, Fundus of Putamen)"
+        },
+        {
+            "name": "FuP (Ventral Striatum, Fundus of Putamen)",
+            "parent_id": "ventral striatum"
+        },
+        {
+            "name": "ventral striatum",
+            "parent_id": "basal ganglia"
+        },
+        {
+            "name": "basal ganglia",
+            "parent_id": "cerebral nuclei"
+        },
+        {
+            "name": "Ch 4 (Basal Forebrain) - right hemisphere",
+            "parent_id": "Ch 4 (Basal Forebrain)"
+        },
+        {
+            "name": "Ch 4 (Basal Forebrain) - left hemisphere",
+            "parent_id": "Ch 4 (Basal Forebrain)"
+        },
+        {
+            "name": "Ch 4 (Basal Forebrain)",
+            "parent_id": "sublenticular basal forebrain"
+        },
+        {
+            "name": "sublenticular basal forebrain",
+            "parent_id": "basal forebrain"
+        },
+        {
+            "name": "BST (Basal Forebrain, Bed Nucleus) - right hemisphere",
+            "parent_id": "BST (Basal Forebrain, Bed Nucleus)"
+        },
+        {
+            "name": "BST (Basal Forebrain, Bed Nucleus) - left hemisphere",
+            "parent_id": "BST (Basal Forebrain, Bed Nucleus)"
+        },
+        {
+            "name": "BST (Basal Forebrain, Bed Nucleus)",
+            "parent_id": "bed nucleus"
+        },
+        {
+            "name": "bed nucleus",
+            "parent_id": "basal forebrain"
+        },
+        {
+            "name": "Ch 123 (Basal Forebrain) - right hemisphere",
+            "parent_id": "Ch 123 (Basal Forebrain)"
+        },
+        {
+            "name": "Ch 123 (Basal Forebrain) - left hemisphere",
+            "parent_id": "Ch 123 (Basal Forebrain)"
+        },
+        {
+            "name": "Ch 123 (Basal Forebrain)",
+            "parent_id": "magnocellular group"
+        },
+        {
+            "name": "magnocellular group",
+            "parent_id": "basal forebrain"
+        },
+        {
+            "name": "basal forebrain",
+            "parent_id": "cerebral nuclei"
+        },
+        {
+            "name": "CM.AAA (Amygdala) - right hemisphere",
+            "parent_id": "CM (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "CM.Ce (Amygdala) - right hemisphere",
+            "parent_id": "CM (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "CM.Me (Amygdala) - right hemisphere",
+            "parent_id": "CM (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "CM (Amygdala) - right hemisphere",
+            "parent_id": "CM (Amygdala)"
+        },
+        {
+            "name": "CM.AAA (Amygdala) - left hemisphere",
+            "parent_id": "CM (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "CM.Ce (Amygdala) - left hemisphere",
+            "parent_id": "CM (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "CM.Me (Amygdala) - left hemisphere",
+            "parent_id": "CM (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "CM (Amygdala) - left hemisphere",
+            "parent_id": "CM (Amygdala)"
+        },
+        {
+            "name": "CM (Amygdala)",
+            "parent_id": "amygdaloid groups"
+        },
+        {
+            "name": "LB.Bl (Amygdala) - right hemisphere",
+            "parent_id": "LB (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "LB.Bm (Amygdala) - right hemisphere",
+            "parent_id": "LB (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "LB.Pl (Amygdala) - right hemisphere",
+            "parent_id": "LB (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "LB.La (Amygdala) - right hemisphere",
+            "parent_id": "LB (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "LB (Amygdala) - right hemisphere",
+            "parent_id": "LB (Amygdala)"
+        },
+        {
+            "name": "LB.Bl (Amygdala) - left hemisphere",
+            "parent_id": "LB (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "LB.Bm (Amygdala) - left hemisphere",
+            "parent_id": "LB (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "LB.Pl (Amygdala) - left hemisphere",
+            "parent_id": "LB (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "LB.La (Amygdala) - left hemisphere",
+            "parent_id": "LB (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "LB (Amygdala) - left hemisphere",
+            "parent_id": "LB (Amygdala)"
+        },
+        {
+            "name": "LB (Amygdala)",
+            "parent_id": "amygdaloid groups"
+        },
+        {
+            "name": "SF.AHi (Amygdala) - right hemisphere",
+            "parent_id": "SF (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "SF.APir (Amygdala) - right hemisphere",
+            "parent_id": "SF (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "SF.VCo (Amygdala) - right hemisphere",
+            "parent_id": "SF (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "SF (Amygdala) - right hemisphere",
+            "parent_id": "SF (Amygdala)"
+        },
+        {
+            "name": "SF.AHi (Amygdala) - left hemisphere",
+            "parent_id": "SF (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "SF.APir (Amygdala) - left hemisphere",
+            "parent_id": "SF (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "SF.VCo (Amygdala) - left hemisphere",
+            "parent_id": "SF (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "SF (Amygdala) - left hemisphere",
+            "parent_id": "SF (Amygdala)"
+        },
+        {
+            "name": "SF (Amygdala)",
+            "parent_id": "amygdaloid groups"
+        },
+        {
+            "name": "amygdaloid groups",
+            "parent_id": "amygdala"
+        },
+        {
+            "name": "Astr (Amygdala) - right hemisphere",
+            "parent_id": "Astr (Amygdala)"
+        },
+        {
+            "name": "Astr (Amygdala) - left hemisphere",
+            "parent_id": "Astr (Amygdala)"
+        },
+        {
+            "name": "Astr (Amygdala)",
+            "parent_id": "amygdalostriatal transition zone"
+        },
+        {
+            "name": "amygdalostriatal transition zone",
+            "parent_id": "amygdala"
+        },
+        {
+            "name": "VTM (Amygdala) - right hemisphere",
+            "parent_id": "VTM (Amygdala)"
+        },
+        {
+            "name": "VTM (Amygdala) - left hemisphere",
+            "parent_id": "VTM (Amygdala)"
+        },
+        {
+            "name": "VTM (Amygdala)",
+            "parent_id": "fiber masses"
+        },
+        {
+            "name": "IF.ice (Amygdala) - right hemisphere",
+            "parent_id": "IF (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "IF.iol (Amygdala) - right hemisphere",
+            "parent_id": "IF (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "IF.ld (Amygdala) - right hemisphere",
+            "parent_id": "IF (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "IF (Amygdala) - right hemisphere",
+            "parent_id": "IF (Amygdala)"
+        },
+        {
+            "name": "IF.ice (Amygdala) - left hemisphere",
+            "parent_id": "IF (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "IF.iol (Amygdala) - left hemisphere",
+            "parent_id": "IF (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "IF.ld (Amygdala) - left hemisphere",
+            "parent_id": "IF (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "IF (Amygdala) - left hemisphere",
+            "parent_id": "IF (Amygdala)"
+        },
+        {
+            "name": "IF (Amygdala)",
+            "parent_id": "fiber masses"
+        },
+        {
+            "name": "MF.icm (Amygdala) - right hemisphere",
+            "parent_id": "MF (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "MF.lm (Amygdala) - right hemisphere",
+            "parent_id": "MF (Amygdala) - right hemisphere"
+        },
+        {
+            "name": "MF (Amygdala) - right hemisphere",
+            "parent_id": "MF (Amygdala)"
+        },
+        {
+            "name": "MF.icm (Amygdala) - left hemisphere",
+            "parent_id": "MF (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "MF.lm (Amygdala) - left hemisphere",
+            "parent_id": "MF (Amygdala) - left hemisphere"
+        },
+        {
+            "name": "MF (Amygdala) - left hemisphere",
+            "parent_id": "MF (Amygdala)"
+        },
+        {
+            "name": "MF (Amygdala)",
+            "parent_id": "fiber masses"
+        },
+        {
+            "name": "fiber masses",
+            "parent_id": "amygdala"
+        },
+        {
+            "name": "amygdala",
+            "parent_id": "cerebral nuclei"
+        },
+        {
+            "name": "cerebral nuclei",
+            "parent_id": "telencephalon"
+        },
+        {
+            "name": "Area 5L (SPL) - right hemisphere",
+            "parent_id": "Area 5L (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#b8b839"
+                }
+            ]
+        },
+        {
+            "name": "Area 5L (SPL) - left hemisphere",
+            "parent_id": "Area 5L (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#b8b839"
+                }
+            ]
+        },
+        {
+            "name": "Area 5L (SPL)",
+            "parent_id": "superior parietal lobule"
+        },
+        {
+            "name": "Area 7M (SPL) - right hemisphere",
+            "parent_id": "Area 7M (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#cd3ceb"
+                }
+            ]
+        },
+        {
+            "name": "Area 7M (SPL) - left hemisphere",
+            "parent_id": "Area 7M (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#cd3ceb"
+                }
+            ]
+        },
+        {
+            "name": "Area 7M (SPL)",
+            "parent_id": "superior parietal lobule"
+        },
+        {
+            "name": "Area 7PC (SPL) - right hemisphere",
+            "parent_id": "Area 7PC (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#fb581c"
+                }
+            ]
+        },
+        {
+            "name": "Area 7PC (SPL) - left hemisphere",
+            "parent_id": "Area 7PC (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#fb581c"
+                }
+            ]
+        },
+        {
+            "name": "Area 7PC (SPL)",
+            "parent_id": "superior parietal lobule"
+        },
+        {
+            "name": "Area 5M (SPL) - right hemisphere",
+            "parent_id": "Area 5M (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e0f54b"
+                }
+            ]
+        },
+        {
+            "name": "Area 5M (SPL) - left hemisphere",
+            "parent_id": "Area 5M (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e0f54b"
+                }
+            ]
+        },
+        {
+            "name": "Area 5M (SPL)",
+            "parent_id": "superior parietal lobule"
+        },
+        {
+            "name": "Area 7P (SPL) - right hemisphere",
+            "parent_id": "Area 7P (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#34136a"
+                }
+            ]
+        },
+        {
+            "name": "Area 7P (SPL) - left hemisphere",
+            "parent_id": "Area 7P (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#34136a"
+                }
+            ]
+        },
+        {
+            "name": "Area 7P (SPL)",
+            "parent_id": "superior parietal lobule"
+        },
+        {
+            "name": "Area 5Ci (SPL) - right hemisphere",
+            "parent_id": "Area 5Ci (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#4ff192"
+                }
+            ]
+        },
+        {
+            "name": "Area 5Ci (SPL) - left hemisphere",
+            "parent_id": "Area 5Ci (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#4ff192"
+                }
+            ]
+        },
+        {
+            "name": "Area 5Ci (SPL)",
+            "parent_id": "superior parietal lobule"
+        },
+        {
+            "name": "Area 7A (SPL) - right hemisphere",
+            "parent_id": "Area 7A (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#00ccc9"
+                }
+            ]
+        },
+        {
+            "name": "Area 7A (SPL) - left hemisphere",
+            "parent_id": "Area 7A (SPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#00ccc9"
+                }
+            ]
+        },
+        {
+            "name": "Area 7A (SPL)",
+            "parent_id": "superior parietal lobule"
+        },
+        {
+            "name": "superior parietal lobule",
+            "parent_id": "parietal lobe"
+        },
+        {
+            "name": "Area 3b (PostCG) - right hemisphere",
+            "parent_id": "Area 3b (PostCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f63e00"
+                }
+            ]
+        },
+        {
+            "name": "Area 3b (PostCG) - left hemisphere",
+            "parent_id": "Area 3b (PostCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f63e00"
+                }
+            ]
+        },
+        {
+            "name": "Area 3b (PostCG)",
+            "parent_id": "postcentral gyrus"
+        },
+        {
+            "name": "Area 1 (PostCG) - right hemisphere",
+            "parent_id": "Area 1 (PostCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e8b8f9"
+                }
+            ]
+        },
+        {
+            "name": "Area 1 (PostCG) - left hemisphere",
+            "parent_id": "Area 1 (PostCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e8b8f9"
+                }
+            ]
+        },
+        {
+            "name": "Area 1 (PostCG)",
+            "parent_id": "postcentral gyrus"
+        },
+        {
+            "name": "Area 2 (PostCS) - right hemisphere",
+            "parent_id": "Area 2 (PostCS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#7a7022"
+                }
+            ]
+        },
+        {
+            "name": "Area 2 (PostCS) - left hemisphere",
+            "parent_id": "Area 2 (PostCS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#7a7022"
+                }
+            ]
+        },
+        {
+            "name": "Area 2 (PostCS)",
+            "parent_id": "postcentral gyrus"
+        },
+        {
+            "name": "Area 3a (PostCG) - right hemisphere",
+            "parent_id": "Area 3a (PostCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ba8531"
+                }
+            ]
+        },
+        {
+            "name": "Area 3a (PostCG) - left hemisphere",
+            "parent_id": "Area 3a (PostCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ba8531"
+                }
+            ]
+        },
+        {
+            "name": "Area 3a (PostCG)",
+            "parent_id": "postcentral gyrus"
+        },
+        {
+            "name": "postcentral gyrus",
+            "parent_id": "parietal lobe"
+        },
+        {
+            "name": "Area Op1 (POperc) - right hemisphere",
+            "parent_id": "Area Op1 (POperc)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f9b621"
+                }
+            ]
+        },
+        {
+            "name": "Area Op1 (POperc) - left hemisphere",
+            "parent_id": "Area Op1 (POperc)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f9b621"
+                }
+            ]
+        },
+        {
+            "name": "Area Op1 (POperc)",
+            "parent_id": "parietal operculum"
+        },
+        {
+            "name": "Area Op2 (POperc) - right hemisphere",
+            "parent_id": "Area Op2 (POperc)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#232edd"
+                }
+            ]
+        },
+        {
+            "name": "Area Op2 (POperc) - left hemisphere",
+            "parent_id": "Area Op2 (POperc)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#232edd"
+                }
+            ]
+        },
+        {
+            "name": "Area Op2 (POperc)",
+            "parent_id": "parietal operculum"
+        },
+        {
+            "name": "Area Op3 (POperc) - right hemisphere",
+            "parent_id": "Area Op3 (POperc)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#397950"
+                }
+            ]
+        },
+        {
+            "name": "Area Op3 (POperc) - left hemisphere",
+            "parent_id": "Area Op3 (POperc)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#397950"
+                }
+            ]
+        },
+        {
+            "name": "Area Op3 (POperc)",
+            "parent_id": "parietal operculum"
+        },
+        {
+            "name": "Area Op4 (POperc) - right hemisphere",
+            "parent_id": "Area Op4 (POperc)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#585084"
+                }
+            ]
+        },
+        {
+            "name": "Area Op4 (POperc) - left hemisphere",
+            "parent_id": "Area Op4 (POperc)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#585084"
+                }
+            ]
+        },
+        {
+            "name": "Area Op4 (POperc)",
+            "parent_id": "parietal operculum"
+        },
+        {
+            "name": "parietal operculum",
+            "parent_id": "parietal lobe"
+        },
+        {
+            "name": "Area PF (IPL) - right hemisphere",
+            "parent_id": "Area PF (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e1d23c"
+                }
+            ]
+        },
+        {
+            "name": "Area PF (IPL) - left hemisphere",
+            "parent_id": "Area PF (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e1d23c"
+                }
+            ]
+        },
+        {
+            "name": "Area PF (IPL)",
+            "parent_id": "inferior parietal lobule"
+        },
+        {
+            "name": "Area PFcm (IPL) - right hemisphere",
+            "parent_id": "Area PFcm (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#618078"
+                }
+            ]
+        },
+        {
+            "name": "Area PFcm (IPL) - left hemisphere",
+            "parent_id": "Area PFcm (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#618078"
+                }
+            ]
+        },
+        {
+            "name": "Area PFcm (IPL)",
+            "parent_id": "inferior parietal lobule"
+        },
+        {
+            "name": "Area PGa (IPL) - right hemisphere",
+            "parent_id": "Area PGa (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#2aeb83"
+                }
+            ]
+        },
+        {
+            "name": "Area PGa (IPL) - left hemisphere",
+            "parent_id": "Area PGa (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#2aeb83"
+                }
+            ]
+        },
+        {
+            "name": "Area PGa (IPL)",
+            "parent_id": "inferior parietal lobule"
+        },
+        {
+            "name": "Area PFt (IPL) - right hemisphere",
+            "parent_id": "Area PFt (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#7886e8"
+                }
+            ]
+        },
+        {
+            "name": "Area PFt (IPL) - left hemisphere",
+            "parent_id": "Area PFt (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#7886e8"
+                }
+            ]
+        },
+        {
+            "name": "Area PFt (IPL)",
+            "parent_id": "inferior parietal lobule"
+        },
+        {
+            "name": "Area PFm (IPL) - right hemisphere",
+            "parent_id": "Area PFm (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#0790b7"
+                }
+            ]
+        },
+        {
+            "name": "Area PFm (IPL) - left hemisphere",
+            "parent_id": "Area PFm (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#0790b7"
+                }
+            ]
+        },
+        {
+            "name": "Area PFm (IPL)",
+            "parent_id": "inferior parietal lobule"
+        },
+        {
+            "name": "Area PGp (IPL) - right hemisphere",
+            "parent_id": "Area PGp (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#5c7452"
+                }
+            ]
+        },
+        {
+            "name": "Area PGp (IPL) - left hemisphere",
+            "parent_id": "Area PGp (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#5c7452"
+                }
+            ]
+        },
+        {
+            "name": "Area PGp (IPL)",
+            "parent_id": "inferior parietal lobule"
+        },
+        {
+            "name": "Area PFop (IPL) - right hemisphere",
+            "parent_id": "Area PFop (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#9299b0"
+                }
+            ]
+        },
+        {
+            "name": "Area PFop (IPL) - left hemisphere",
+            "parent_id": "Area PFop (IPL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#9299b0"
+                }
+            ]
+        },
+        {
+            "name": "Area PFop (IPL)",
+            "parent_id": "inferior parietal lobule"
+        },
+        {
+            "name": "inferior parietal lobule",
+            "parent_id": "parietal lobe"
+        },
+        {
+            "name": "Area hPO1 (POS) - right hemisphere",
+            "parent_id": "Area hPO1 (POS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#99e8eb"
+                }
+            ]
+        },
+        {
+            "name": "Area hPO1 (POS) - left hemisphere",
+            "parent_id": "Area hPO1 (POS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#99e8eb"
+                }
+            ]
+        },
+        {
+            "name": "Area hPO1 (POS)",
+            "parent_id": "parieto-occipital sulcus"
+        },
+        {
+            "name": "parieto-occipital sulcus",
+            "parent_id": "parietal lobe"
+        },
+        {
+            "name": "Area hIP1 (IPS) - right hemisphere",
+            "parent_id": "Area hIP1 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#429452"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP1 (IPS) - left hemisphere",
+            "parent_id": "Area hIP1 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#429452"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP1 (IPS)",
+            "parent_id": "intraparietal sulcus"
+        },
+        {
+            "name": "Area hIP7 (IPS) - right hemisphere",
+            "parent_id": "Area hIP7 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#46c4da"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP7 (IPS) - left hemisphere",
+            "parent_id": "Area hIP7 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#46c4da"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP7 (IPS)",
+            "parent_id": "intraparietal sulcus"
+        },
+        {
+            "name": "Area hIP3 (IPS) - right hemisphere",
+            "parent_id": "Area hIP3 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#70ace4"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP3 (IPS) - left hemisphere",
+            "parent_id": "Area hIP3 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#70ace4"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP3 (IPS)",
+            "parent_id": "intraparietal sulcus"
+        },
+        {
+            "name": "Area hIP2 (IPS) - right hemisphere",
+            "parent_id": "Area hIP2 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f59494"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP2 (IPS) - left hemisphere",
+            "parent_id": "Area hIP2 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f59494"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP2 (IPS)",
+            "parent_id": "intraparietal sulcus"
+        },
+        {
+            "name": "Area hIP4 (IPS) - right hemisphere",
+            "parent_id": "Area hIP4 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#fd34b8"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP4 (IPS) - left hemisphere",
+            "parent_id": "Area hIP4 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#fd34b8"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP4 (IPS)",
+            "parent_id": "intraparietal sulcus"
+        },
+        {
+            "name": "Area hIP5 (IPS) - right hemisphere",
+            "parent_id": "Area hIP5 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#d956d2"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP5 (IPS) - left hemisphere",
+            "parent_id": "Area hIP5 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#d956d2"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP5 (IPS)",
+            "parent_id": "intraparietal sulcus"
+        },
+        {
+            "name": "Area hIP6 (IPS) - right hemisphere",
+            "parent_id": "Area hIP6 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ece924"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP6 (IPS) - left hemisphere",
+            "parent_id": "Area hIP6 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ece924"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP6 (IPS)",
+            "parent_id": "intraparietal sulcus"
+        },
+        {
+            "name": "Area hIP8 (IPS) - right hemisphere",
+            "parent_id": "Area hIP8 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#df6c03"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP8 (IPS) - left hemisphere",
+            "parent_id": "Area hIP8 (IPS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#df6c03"
+                }
+            ]
+        },
+        {
+            "name": "Area hIP8 (IPS)",
+            "parent_id": "intraparietal sulcus"
+        },
+        {
+            "name": "intraparietal sulcus",
+            "parent_id": "parietal lobe"
+        },
+        {
+            "name": "parietal lobe",
+            "parent_id": "cerebral cortex"
+        },
+        {
+            "name": "Frontal-to-Occipital (GapMap) - right hemisphere",
+            "parent_id": "Frontal-to-Occipital (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#68a05d"
+                }
+            ]
+        },
+        {
+            "name": "Frontal-to-Occipital (GapMap) - left hemisphere",
+            "parent_id": "Frontal-to-Occipital (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#68a05d"
+                }
+            ]
+        },
+        {
+            "name": "Frontal-to-Occipital (GapMap)",
+            "parent_id": "cerebral cortex"
+        },
+        {
+            "name": "Temporal-to-Parietal (GapMap) - right hemisphere",
+            "parent_id": "Temporal-to-Parietal (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#4b5aa0"
+                }
+            ]
+        },
+        {
+            "name": "Temporal-to-Parietal (GapMap) - left hemisphere",
+            "parent_id": "Temporal-to-Parietal (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#4b5aa0"
+                }
+            ]
+        },
+        {
+            "name": "Temporal-to-Parietal (GapMap)",
+            "parent_id": "cerebral cortex"
+        },
+        {
+            "name": "Frontal-I.2 (GapMap) - right hemisphere",
+            "parent_id": "Frontal-I.2 (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#b9ff18"
+                }
+            ]
+        },
+        {
+            "name": "Frontal-I.2 (GapMap) - left hemisphere",
+            "parent_id": "Frontal-I.2 (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#b9ff18"
+                }
+            ]
+        },
+        {
+            "name": "Frontal-I.2 (GapMap)",
+            "parent_id": "cerebral cortex"
+        },
+        {
+            "name": "Frontal-to-Temporal-II (GapMap) - right hemisphere",
+            "parent_id": "Frontal-to-Temporal-II (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#a01749"
+                }
+            ]
+        },
+        {
+            "name": "Frontal-to-Temporal-II (GapMap) - left hemisphere",
+            "parent_id": "Frontal-to-Temporal-II (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#a01749"
+                }
+            ]
+        },
+        {
+            "name": "Frontal-to-Temporal-II (GapMap)",
+            "parent_id": "cerebral cortex"
+        },
+        {
+            "name": "Frontal-I.1 (GapMap) - right hemisphere",
+            "parent_id": "Frontal-I.1 (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#cd6380"
+                }
+            ]
+        },
+        {
+            "name": "Frontal-I.1 (GapMap) - left hemisphere",
+            "parent_id": "Frontal-I.1 (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#cd6380"
+                }
+            ]
+        },
+        {
+            "name": "Frontal-I.1 (GapMap)",
+            "parent_id": "cerebral cortex"
+        },
+        {
+            "name": "Frontal-to-Temporal-I (GapMap) - right hemisphere",
+            "parent_id": "Frontal-to-Temporal-I (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#407d63"
+                }
+            ]
+        },
+        {
+            "name": "Frontal-to-Temporal-I (GapMap) - left hemisphere",
+            "parent_id": "Frontal-to-Temporal-I (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#407d63"
+                }
+            ]
+        },
+        {
+            "name": "Frontal-to-Temporal-I (GapMap)",
+            "parent_id": "cerebral cortex"
+        },
+        {
+            "name": "Frontal-II (GapMap) - right hemisphere",
+            "parent_id": "Frontal-II (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ff860f"
+                }
+            ]
+        },
+        {
+            "name": "Frontal-II (GapMap) - left hemisphere",
+            "parent_id": "Frontal-II (GapMap)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ff860f"
+                }
+            ]
+        },
+        {
+            "name": "Frontal-II (GapMap)",
+            "parent_id": "cerebral cortex"
+        },
+        {
+            "name": "Area 6v3 (PreCG) - right hemisphere",
+            "parent_id": "Area 6v3 (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#c7ab2f"
+                }
+            ]
+        },
+        {
+            "name": "Area 6v3 (PreCG) - left hemisphere",
+            "parent_id": "Area 6v3 (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#c7ab2f"
+                }
+            ]
+        },
+        {
+            "name": "Area 6v3 (PreCG)",
+            "parent_id": "ventral precentral gyrus"
+        },
+        {
+            "name": "Area 6v2 (PreCG) - right hemisphere",
+            "parent_id": "Area 6v2 (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ce00d0"
+                }
+            ]
+        },
+        {
+            "name": "Area 6v2 (PreCG) - left hemisphere",
+            "parent_id": "Area 6v2 (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ce00d0"
+                }
+            ]
+        },
+        {
+            "name": "Area 6v2 (PreCG)",
+            "parent_id": "ventral precentral gyrus"
+        },
+        {
+            "name": "Area 6r1 (PreCG) - right hemisphere",
+            "parent_id": "Area 6r1 (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#03c490"
+                }
+            ]
+        },
+        {
+            "name": "Area 6r1 (PreCG) - left hemisphere",
+            "parent_id": "Area 6r1 (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#03c490"
+                }
+            ]
+        },
+        {
+            "name": "Area 6r1 (PreCG)",
+            "parent_id": "ventral precentral gyrus"
+        },
+        {
+            "name": "Area 6v1 (PreCG) - right hemisphere",
+            "parent_id": "Area 6v1 (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#06cdf1"
+                }
+            ]
+        },
+        {
+            "name": "Area 6v1 (PreCG) - left hemisphere",
+            "parent_id": "Area 6v1 (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#06cdf1"
+                }
+            ]
+        },
+        {
+            "name": "Area 6v1 (PreCG)",
+            "parent_id": "ventral precentral gyrus"
+        },
+        {
+            "name": "ventral precentral gyrus",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area 6d2 (PreCG) - right hemisphere",
+            "parent_id": "Area 6d2 (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#aa96b4"
+                }
+            ]
+        },
+        {
+            "name": "Area 6d2 (PreCG) - left hemisphere",
+            "parent_id": "Area 6d2 (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#aa96b4"
+                }
+            ]
+        },
+        {
+            "name": "Area 6d2 (PreCG)",
+            "parent_id": "dorsal precentral gyrus"
+        },
+        {
+            "name": "Area 6d1 (PreCG) - right hemisphere",
+            "parent_id": "Area 6d1 (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e97100"
+                }
+            ]
+        },
+        {
+            "name": "Area 6d1 (PreCG) - left hemisphere",
+            "parent_id": "Area 6d1 (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e97100"
+                }
+            ]
+        },
+        {
+            "name": "Area 6d1 (PreCG)",
+            "parent_id": "dorsal precentral gyrus"
+        },
+        {
+            "name": "dorsal precentral gyrus",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area 6ma (preSMA, mesial SFG) - right hemisphere",
+            "parent_id": "Area 6ma (preSMA, mesial SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#cc6cde"
+                }
+            ]
+        },
+        {
+            "name": "Area 6ma (preSMA, mesial SFG) - left hemisphere",
+            "parent_id": "Area 6ma (preSMA, mesial SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#cc6cde"
+                }
+            ]
+        },
+        {
+            "name": "Area 6ma (preSMA, mesial SFG)",
+            "parent_id": "posterior medial superior frontal gyrus"
+        },
+        {
+            "name": "posterior medial superior frontal gyrus",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area Fp1 (FPole) - right hemisphere",
+            "parent_id": "Area Fp1 (FPole)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e10ec7"
+                }
+            ]
+        },
+        {
+            "name": "Area Fp1 (FPole) - left hemisphere",
+            "parent_id": "Area Fp1 (FPole)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e10ec7"
+                }
+            ]
+        },
+        {
+            "name": "Area Fp1 (FPole)",
+            "parent_id": "frontal pole"
+        },
+        {
+            "name": "Area Fp2 (FPole) - right hemisphere",
+            "parent_id": "Area Fp2 (FPole)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ee88d2"
+                }
+            ]
+        },
+        {
+            "name": "Area Fp2 (FPole) - left hemisphere",
+            "parent_id": "Area Fp2 (FPole)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ee88d2"
+                }
+            ]
+        },
+        {
+            "name": "Area Fp2 (FPole)",
+            "parent_id": "frontal pole"
+        },
+        {
+            "name": "frontal pole",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area 6mp (SMA, mesial SFG) - right hemisphere",
+            "parent_id": "Area 6mp (SMA, mesial SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#4a5f56"
+                }
+            ]
+        },
+        {
+            "name": "Area 6mp (SMA, mesial SFG) - left hemisphere",
+            "parent_id": "Area 6mp (SMA, mesial SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#4a5f56"
+                }
+            ]
+        },
+        {
+            "name": "Area 6mp (SMA, mesial SFG)",
+            "parent_id": "mesial precentral gyrus"
+        },
+        {
+            "name": "mesial precentral gyrus",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area Fo1 (OFC) - right hemisphere",
+            "parent_id": "Area Fo1 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#06ffb3"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo1 (OFC) - left hemisphere",
+            "parent_id": "Area Fo1 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#06ffb3"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo1 (OFC)",
+            "parent_id": "medial orbitofrontal cortex"
+        },
+        {
+            "name": "Area Fo3 (OFC) - right hemisphere",
+            "parent_id": "Area Fo3 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#b6bcf9"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo3 (OFC) - left hemisphere",
+            "parent_id": "Area Fo3 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#b6bcf9"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo3 (OFC)",
+            "parent_id": "medial orbitofrontal cortex"
+        },
+        {
+            "name": "Area Fo2 (OFC) - right hemisphere",
+            "parent_id": "Area Fo2 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#00ff00"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo2 (OFC) - left hemisphere",
+            "parent_id": "Area Fo2 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#00ff00"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo2 (OFC)",
+            "parent_id": "medial orbitofrontal cortex"
+        },
+        {
+            "name": "medial orbitofrontal cortex",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area 4p (PreCG) - right hemisphere",
+            "parent_id": "Area 4p (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#745c7b"
+                }
+            ]
+        },
+        {
+            "name": "Area 4p (PreCG) - left hemisphere",
+            "parent_id": "Area 4p (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#745c7b"
+                }
+            ]
+        },
+        {
+            "name": "Area 4p (PreCG)",
+            "parent_id": "precentral gyrus"
+        },
+        {
+            "name": "Area 4a (PreCG) - right hemisphere",
+            "parent_id": "Area 4a (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#76eeb7"
+                }
+            ]
+        },
+        {
+            "name": "Area 4a (PreCG) - left hemisphere",
+            "parent_id": "Area 4a (PreCG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#76eeb7"
+                }
+            ]
+        },
+        {
+            "name": "Area 4a (PreCG)",
+            "parent_id": "precentral gyrus"
+        },
+        {
+            "name": "precentral gyrus",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area Op10 (Frontal Operculum) - right hemisphere",
+            "parent_id": "Area Op10 (Frontal Operculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#bd5a06"
+                }
+            ]
+        },
+        {
+            "name": "Area Op10 (Frontal Operculum) - left hemisphere",
+            "parent_id": "Area Op10 (Frontal Operculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#bd5a06"
+                }
+            ]
+        },
+        {
+            "name": "Area Op10 (Frontal Operculum)",
+            "parent_id": "frontal operculum "
+        },
+        {
+            "name": "Area Op6 (Frontal Operculum) - right hemisphere",
+            "parent_id": "Area Op6 (Frontal Operculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#893e63"
+                }
+            ]
+        },
+        {
+            "name": "Area Op6 (Frontal Operculum) - left hemisphere",
+            "parent_id": "Area Op6 (Frontal Operculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#893e63"
+                }
+            ]
+        },
+        {
+            "name": "Area Op6 (Frontal Operculum)",
+            "parent_id": "frontal operculum "
+        },
+        {
+            "name": "Area Op5 (Frontal Operculum) - right hemisphere",
+            "parent_id": "Area Op5 (Frontal Operculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#de4efc"
+                }
+            ]
+        },
+        {
+            "name": "Area Op5 (Frontal Operculum) - left hemisphere",
+            "parent_id": "Area Op5 (Frontal Operculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#de4efc"
+                }
+            ]
+        },
+        {
+            "name": "Area Op5 (Frontal Operculum)",
+            "parent_id": "frontal operculum "
+        },
+        {
+            "name": "Area Op7 (Frontal Operculum) - right hemisphere",
+            "parent_id": "Area Op7 (Frontal Operculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#8574c0"
+                }
+            ]
+        },
+        {
+            "name": "Area Op7 (Frontal Operculum) - left hemisphere",
+            "parent_id": "Area Op7 (Frontal Operculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#8574c0"
+                }
+            ]
+        },
+        {
+            "name": "Area Op7 (Frontal Operculum)",
+            "parent_id": "frontal operculum "
+        },
+        {
+            "name": "Area Op9 (Frontal Operculum) - right hemisphere",
+            "parent_id": "Area Op9 (Frontal Operculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ae7a21"
+                }
+            ]
+        },
+        {
+            "name": "Area Op9 (Frontal Operculum) - left hemisphere",
+            "parent_id": "Area Op9 (Frontal Operculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ae7a21"
+                }
+            ]
+        },
+        {
+            "name": "Area Op9 (Frontal Operculum)",
+            "parent_id": "frontal operculum "
+        },
+        {
+            "name": "Area Op8 (Frontal Operculum) - right hemisphere",
+            "parent_id": "Area Op8 (Frontal Operculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1d4ba8"
+                }
+            ]
+        },
+        {
+            "name": "Area Op8 (Frontal Operculum) - left hemisphere",
+            "parent_id": "Area Op8 (Frontal Operculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1d4ba8"
+                }
+            ]
+        },
+        {
+            "name": "Area Op8 (Frontal Operculum)",
+            "parent_id": "frontal operculum "
+        },
+        {
+            "name": "frontal operculum ",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area IFS4 (IFS) - right hemisphere",
+            "parent_id": "Area IFS4 (IFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1f487c"
+                }
+            ]
+        },
+        {
+            "name": "Area IFS4 (IFS) - left hemisphere",
+            "parent_id": "Area IFS4 (IFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1f487c"
+                }
+            ]
+        },
+        {
+            "name": "Area IFS4 (IFS)",
+            "parent_id": "inferior frontal sulcus"
+        },
+        {
+            "name": "Area IFS2 (IFS) - right hemisphere",
+            "parent_id": "Area IFS2 (IFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ff0000"
+                }
+            ]
+        },
+        {
+            "name": "Area IFS2 (IFS) - left hemisphere",
+            "parent_id": "Area IFS2 (IFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ff0000"
+                }
+            ]
+        },
+        {
+            "name": "Area IFS2 (IFS)",
+            "parent_id": "inferior frontal sulcus"
+        },
+        {
+            "name": "Area IFS1 (IFS) - right hemisphere",
+            "parent_id": "Area IFS1 (IFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#6f2f9f"
+                }
+            ]
+        },
+        {
+            "name": "Area IFS1 (IFS) - left hemisphere",
+            "parent_id": "Area IFS1 (IFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#6f2f9f"
+                }
+            ]
+        },
+        {
+            "name": "Area IFS1 (IFS)",
+            "parent_id": "inferior frontal sulcus"
+        },
+        {
+            "name": "Area IFJ2 (IFS, PreCS) - right hemisphere",
+            "parent_id": "Area IFJ2 (IFS, PreCS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#df6a15"
+                }
+            ]
+        },
+        {
+            "name": "Area IFJ2 (IFS, PreCS) - left hemisphere",
+            "parent_id": "Area IFJ2 (IFS, PreCS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#df6a15"
+                }
+            ]
+        },
+        {
+            "name": "Area IFJ2 (IFS, PreCS)",
+            "parent_id": "inferior frontal sulcus"
+        },
+        {
+            "name": "Area IFS3 (IFS) - right hemisphere",
+            "parent_id": "Area IFS3 (IFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#028031"
+                }
+            ]
+        },
+        {
+            "name": "Area IFS3 (IFS) - left hemisphere",
+            "parent_id": "Area IFS3 (IFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#028031"
+                }
+            ]
+        },
+        {
+            "name": "Area IFS3 (IFS)",
+            "parent_id": "inferior frontal sulcus"
+        },
+        {
+            "name": "Area IFJ1 (IFS, PreCS) - right hemisphere",
+            "parent_id": "Area IFJ1 (IFS, PreCS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e4009f"
+                }
+            ]
+        },
+        {
+            "name": "Area IFJ1 (IFS, PreCS) - left hemisphere",
+            "parent_id": "Area IFJ1 (IFS, PreCS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e4009f"
+                }
+            ]
+        },
+        {
+            "name": "Area IFJ1 (IFS, PreCS)",
+            "parent_id": "inferior frontal sulcus"
+        },
+        {
+            "name": "inferior frontal sulcus",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area MFG2 (MFG) - right hemisphere",
+            "parent_id": "Area MFG2 (MFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ffeb00"
+                }
+            ]
+        },
+        {
+            "name": "Area MFG2 (MFG) - left hemisphere",
+            "parent_id": "Area MFG2 (MFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ffeb00"
+                }
+            ]
+        },
+        {
+            "name": "Area MFG2 (MFG)",
+            "parent_id": "fronto-marginal sulcus"
+        },
+        {
+            "name": "fronto-marginal sulcus",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area 44 (IFG) - right hemisphere",
+            "parent_id": "Area 44 (IFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#36494a"
+                }
+            ]
+        },
+        {
+            "name": "Area 44 (IFG) - left hemisphere",
+            "parent_id": "Area 44 (IFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#36494a"
+                }
+            ]
+        },
+        {
+            "name": "Area 44 (IFG)",
+            "parent_id": "inferior frontal gyrus"
+        },
+        {
+            "name": "Area 45 (IFG) - right hemisphere",
+            "parent_id": "Area 45 (IFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#a76792"
+                }
+            ]
+        },
+        {
+            "name": "Area 45 (IFG) - left hemisphere",
+            "parent_id": "Area 45 (IFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#a76792"
+                }
+            ]
+        },
+        {
+            "name": "Area 45 (IFG)",
+            "parent_id": "inferior frontal gyrus"
+        },
+        {
+            "name": "inferior frontal gyrus",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area 8v2 (MFG) - right hemisphere",
+            "parent_id": "Area 8v2 (MFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e4ac0f"
+                }
+            ]
+        },
+        {
+            "name": "Area 8v2 (MFG) - left hemisphere",
+            "parent_id": "Area 8v2 (MFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e4ac0f"
+                }
+            ]
+        },
+        {
+            "name": "Area 8v2 (MFG)",
+            "parent_id": "middle frontal gyrus"
+        },
+        {
+            "name": "Area 8v1 (MFG) - right hemisphere",
+            "parent_id": "Area 8v1 (MFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#7b315f"
+                }
+            ]
+        },
+        {
+            "name": "Area 8v1 (MFG) - left hemisphere",
+            "parent_id": "Area 8v1 (MFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#7b315f"
+                }
+            ]
+        },
+        {
+            "name": "Area 8v1 (MFG)",
+            "parent_id": "middle frontal gyrus"
+        },
+        {
+            "name": "Area MFG4 (MFG) - right hemisphere",
+            "parent_id": "Area MFG4 (MFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#807800"
+                }
+            ]
+        },
+        {
+            "name": "Area MFG4 (MFG) - left hemisphere",
+            "parent_id": "Area MFG4 (MFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#807800"
+                }
+            ]
+        },
+        {
+            "name": "Area MFG4 (MFG)",
+            "parent_id": "middle frontal gyrus"
+        },
+        {
+            "name": "Area MFG1 (MFG) - right hemisphere",
+            "parent_id": "Area MFG1 (MFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#612081"
+                }
+            ]
+        },
+        {
+            "name": "Area MFG1 (MFG) - left hemisphere",
+            "parent_id": "Area MFG1 (MFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#612081"
+                }
+            ]
+        },
+        {
+            "name": "Area MFG1 (MFG)",
+            "parent_id": "middle frontal gyrus"
+        },
+        {
+            "name": "middle frontal gyrus",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area SFS2 (SFS) - right hemisphere",
+            "parent_id": "Area SFS2 (SFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f19300"
+                }
+            ]
+        },
+        {
+            "name": "Area SFS2 (SFS) - left hemisphere",
+            "parent_id": "Area SFS2 (SFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f19300"
+                }
+            ]
+        },
+        {
+            "name": "Area SFS2 (SFS)",
+            "parent_id": "superior frontal sulcus"
+        },
+        {
+            "name": "Area 6d3 (SFS) - right hemisphere",
+            "parent_id": "Area 6d3 (SFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#eeec1b"
+                }
+            ]
+        },
+        {
+            "name": "Area 6d3 (SFS) - left hemisphere",
+            "parent_id": "Area 6d3 (SFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#eeec1b"
+                }
+            ]
+        },
+        {
+            "name": "Area 6d3 (SFS)",
+            "parent_id": "superior frontal sulcus"
+        },
+        {
+            "name": "Area SFS1 (SFS) - right hemisphere",
+            "parent_id": "Area SFS1 (SFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#00a4e1"
+                }
+            ]
+        },
+        {
+            "name": "Area SFS1 (SFS) - left hemisphere",
+            "parent_id": "Area SFS1 (SFS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#00a4e1"
+                }
+            ]
+        },
+        {
+            "name": "Area SFS1 (SFS)",
+            "parent_id": "superior frontal sulcus"
+        },
+        {
+            "name": "Area SFG3 (SFG) - right hemisphere",
+            "parent_id": "Area SFG3 (SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#760080"
+                }
+            ]
+        },
+        {
+            "name": "Area SFG3 (SFG) - left hemisphere",
+            "parent_id": "Area SFG3 (SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#760080"
+                }
+            ]
+        },
+        {
+            "name": "Area SFG3 (SFG)",
+            "parent_id": "superior frontal sulcus"
+        },
+        {
+            "name": "superior frontal sulcus",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area MFG5 (MFG, IFG) - right hemisphere",
+            "parent_id": "Area MFG5 (MFG, IFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#007600"
+                }
+            ]
+        },
+        {
+            "name": "Area MFG5 (MFG, IFG) - left hemisphere",
+            "parent_id": "Area MFG5 (MFG, IFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#007600"
+                }
+            ]
+        },
+        {
+            "name": "Area MFG5 (MFG, IFG)",
+            "parent_id": "middle frontal gyrus, inferior frontal sulcus"
+        },
+        {
+            "name": "middle frontal gyrus, inferior frontal sulcus",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area SFG2 (SFG) - right hemisphere",
+            "parent_id": "Area SFG2 (SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#000080"
+                }
+            ]
+        },
+        {
+            "name": "Area SFG2 (SFG) - left hemisphere",
+            "parent_id": "Area SFG2 (SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#000080"
+                }
+            ]
+        },
+        {
+            "name": "Area SFG2 (SFG)",
+            "parent_id": "superior frontal gyrus"
+        },
+        {
+            "name": "Area 8d2 (SFG) - right hemisphere",
+            "parent_id": "Area 8d2 (SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#eb2cc5"
+                }
+            ]
+        },
+        {
+            "name": "Area 8d2 (SFG) - left hemisphere",
+            "parent_id": "Area 8d2 (SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#eb2cc5"
+                }
+            ]
+        },
+        {
+            "name": "Area 8d2 (SFG)",
+            "parent_id": "superior frontal gyrus"
+        },
+        {
+            "name": "Area 8d1 (SFG) - right hemisphere",
+            "parent_id": "Area 8d1 (SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#5e8a82"
+                }
+            ]
+        },
+        {
+            "name": "Area 8d1 (SFG) - left hemisphere",
+            "parent_id": "Area 8d1 (SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#5e8a82"
+                }
+            ]
+        },
+        {
+            "name": "Area 8d1 (SFG)",
+            "parent_id": "superior frontal gyrus"
+        },
+        {
+            "name": "Area SFG4 (SFG) - right hemisphere",
+            "parent_id": "Area SFG4 (SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#802800"
+                }
+            ]
+        },
+        {
+            "name": "Area SFG4 (SFG) - left hemisphere",
+            "parent_id": "Area SFG4 (SFG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#802800"
+                }
+            ]
+        },
+        {
+            "name": "Area SFG4 (SFG)",
+            "parent_id": "superior frontal gyrus"
+        },
+        {
+            "name": "superior frontal gyrus",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "Area Fo6 (OFC) - right hemisphere",
+            "parent_id": "Area Fo6 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#c69cba"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo6 (OFC) - left hemisphere",
+            "parent_id": "Area Fo6 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#c69cba"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo6 (OFC)",
+            "parent_id": "lateral orbitofrontal cortex"
+        },
+        {
+            "name": "Area Fo5 (OFC) - right hemisphere",
+            "parent_id": "Area Fo5 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#db0a5b"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo5 (OFC) - left hemisphere",
+            "parent_id": "Area Fo5 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#db0a5b"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo5 (OFC)",
+            "parent_id": "lateral orbitofrontal cortex"
+        },
+        {
+            "name": "Area Fo7 (OFC) - right hemisphere",
+            "parent_id": "Area Fo7 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#40d2b9"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo7 (OFC) - left hemisphere",
+            "parent_id": "Area Fo7 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#40d2b9"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo7 (OFC)",
+            "parent_id": "lateral orbitofrontal cortex"
+        },
+        {
+            "name": "Area Fo4 (OFC) - right hemisphere",
+            "parent_id": "Area Fo4 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#a2cc35"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo4 (OFC) - left hemisphere",
+            "parent_id": "Area Fo4 (OFC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#a2cc35"
+                }
+            ]
+        },
+        {
+            "name": "Area Fo4 (OFC)",
+            "parent_id": "lateral orbitofrontal cortex"
+        },
+        {
+            "name": "lateral orbitofrontal cortex",
+            "parent_id": "frontal lobe"
+        },
+        {
+            "name": "frontal lobe",
+            "parent_id": "cerebral cortex"
+        },
+        {
+            "name": "Area Ig3 (Insula) - right hemisphere",
+            "parent_id": "Area Ig3 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#69fcc5"
+                }
+            ]
+        },
+        {
+            "name": "Area Ig3 (Insula) - left hemisphere",
+            "parent_id": "Area Ig3 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#69fcc5"
+                }
+            ]
+        },
+        {
+            "name": "Area Ig3 (Insula)",
+            "parent_id": "granular insula"
+        },
+        {
+            "name": "Area Ig1 (Insula) - right hemisphere",
+            "parent_id": "Area Ig1 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#126e28"
+                }
+            ]
+        },
+        {
+            "name": "Area Ig1 (Insula) - left hemisphere",
+            "parent_id": "Area Ig1 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#126e28"
+                }
+            ]
+        },
+        {
+            "name": "Area Ig1 (Insula)",
+            "parent_id": "granular insula"
+        },
+        {
+            "name": "Area Ig2 (Insula) - right hemisphere",
+            "parent_id": "Area Ig2 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#693c52"
+                }
+            ]
+        },
+        {
+            "name": "Area Ig2 (Insula) - left hemisphere",
+            "parent_id": "Area Ig2 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#693c52"
+                }
+            ]
+        },
+        {
+            "name": "Area Ig2 (Insula)",
+            "parent_id": "granular insula"
+        },
+        {
+            "name": "granular insula",
+            "parent_id": "insula"
+        },
+        {
+            "name": "Area Ia2 (Insula) - right hemisphere",
+            "parent_id": "Area Ia2 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#741702"
+                }
+            ]
+        },
+        {
+            "name": "Area Ia2 (Insula) - left hemisphere",
+            "parent_id": "Area Ia2 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#741702"
+                }
+            ]
+        },
+        {
+            "name": "Area Ia2 (Insula)",
+            "parent_id": "agranular insula"
+        },
+        {
+            "name": "Area Ia1 (Insula) - right hemisphere",
+            "parent_id": "Area Ia1 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#46d93d"
+                }
+            ]
+        },
+        {
+            "name": "Area Ia1 (Insula) - left hemisphere",
+            "parent_id": "Area Ia1 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#46d93d"
+                }
+            ]
+        },
+        {
+            "name": "Area Ia1 (Insula)",
+            "parent_id": "agranular insula"
+        },
+        {
+            "name": "Area Ia3 (Insula) - right hemisphere",
+            "parent_id": "Area Ia3 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#30f75a"
+                }
+            ]
+        },
+        {
+            "name": "Area Ia3 (Insula) - left hemisphere",
+            "parent_id": "Area Ia3 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#30f75a"
+                }
+            ]
+        },
+        {
+            "name": "Area Ia3 (Insula)",
+            "parent_id": "agranular insula"
+        },
+        {
+            "name": "agranular insula",
+            "parent_id": "insula"
+        },
+        {
+            "name": "Area Id2 (Insula) - right hemisphere",
+            "parent_id": "Area Id2 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e07d48"
+                }
+            ]
+        },
+        {
+            "name": "Area Id2 (Insula) - left hemisphere",
+            "parent_id": "Area Id2 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e07d48"
+                }
+            ]
+        },
+        {
+            "name": "Area Id2 (Insula)",
+            "parent_id": "dysgranular insula"
+        },
+        {
+            "name": "Area Id8 (Insula) - right hemisphere",
+            "parent_id": "Area Id8 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#4fba2a"
+                }
+            ]
+        },
+        {
+            "name": "Area Id8 (Insula) - left hemisphere",
+            "parent_id": "Area Id8 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#4fba2a"
+                }
+            ]
+        },
+        {
+            "name": "Area Id8 (Insula)",
+            "parent_id": "dysgranular insula"
+        },
+        {
+            "name": "Area Id1 (Insula) - right hemisphere",
+            "parent_id": "Area Id1 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#8d6fd7"
+                }
+            ]
+        },
+        {
+            "name": "Area Id1 (Insula) - left hemisphere",
+            "parent_id": "Area Id1 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#8d6fd7"
+                }
+            ]
+        },
+        {
+            "name": "Area Id1 (Insula)",
+            "parent_id": "dysgranular insula"
+        },
+        {
+            "name": "Area Id9 (Insula) - right hemisphere",
+            "parent_id": "Area Id9 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1636aa"
+                }
+            ]
+        },
+        {
+            "name": "Area Id9 (Insula) - left hemisphere",
+            "parent_id": "Area Id9 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1636aa"
+                }
+            ]
+        },
+        {
+            "name": "Area Id9 (Insula)",
+            "parent_id": "dysgranular insula"
+        },
+        {
+            "name": "Area Id7 (Insula) - right hemisphere",
+            "parent_id": "Area Id7 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#bbf9d7"
+                }
+            ]
+        },
+        {
+            "name": "Area Id7 (Insula) - left hemisphere",
+            "parent_id": "Area Id7 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#bbf9d7"
+                }
+            ]
+        },
+        {
+            "name": "Area Id7 (Insula)",
+            "parent_id": "dysgranular insula"
+        },
+        {
+            "name": "Area Id5 (Insula) - right hemisphere",
+            "parent_id": "Area Id5 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#6f0631"
+                }
+            ]
+        },
+        {
+            "name": "Area Id5 (Insula) - left hemisphere",
+            "parent_id": "Area Id5 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#6f0631"
+                }
+            ]
+        },
+        {
+            "name": "Area Id5 (Insula)",
+            "parent_id": "dysgranular insula"
+        },
+        {
+            "name": "Area Id6 (Insula) - right hemisphere",
+            "parent_id": "Area Id6 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#897e77"
+                }
+            ]
+        },
+        {
+            "name": "Area Id6 (Insula) - left hemisphere",
+            "parent_id": "Area Id6 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#897e77"
+                }
+            ]
+        },
+        {
+            "name": "Area Id6 (Insula)",
+            "parent_id": "dysgranular insula"
+        },
+        {
+            "name": "Area Id10 (Insula) - right hemisphere",
+            "parent_id": "Area Id10 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#b364c0"
+                }
+            ]
+        },
+        {
+            "name": "Area Id10 (Insula) - left hemisphere",
+            "parent_id": "Area Id10 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#b364c0"
+                }
+            ]
+        },
+        {
+            "name": "Area Id10 (Insula)",
+            "parent_id": "dysgranular insula"
+        },
+        {
+            "name": "Area Id4 (Insula) - right hemisphere",
+            "parent_id": "Area Id4 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#25ad70"
+                }
+            ]
+        },
+        {
+            "name": "Area Id4 (Insula) - left hemisphere",
+            "parent_id": "Area Id4 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#25ad70"
+                }
+            ]
+        },
+        {
+            "name": "Area Id4 (Insula)",
+            "parent_id": "dysgranular insula"
+        },
+        {
+            "name": "Area Id3 (Insula) - right hemisphere",
+            "parent_id": "Area Id3 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1f1f39"
+                }
+            ]
+        },
+        {
+            "name": "Area Id3 (Insula) - left hemisphere",
+            "parent_id": "Area Id3 (Insula)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1f1f39"
+                }
+            ]
+        },
+        {
+            "name": "Area Id3 (Insula)",
+            "parent_id": "dysgranular insula"
+        },
+        {
+            "name": "dysgranular insula",
+            "parent_id": "insula"
+        },
+        {
+            "name": "insula",
+            "parent_id": "cerebral cortex"
+        },
+        {
+            "name": "Area STS2 (STS) - right hemisphere",
+            "parent_id": "Area STS2 (STS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#12aebd"
+                }
+            ]
+        },
+        {
+            "name": "Area STS2 (STS) - left hemisphere",
+            "parent_id": "Area STS2 (STS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#12aebd"
+                }
+            ]
+        },
+        {
+            "name": "Area STS2 (STS)",
+            "parent_id": "superior temporal sulcus"
+        },
+        {
+            "name": "Area STS1 (STS) - right hemisphere",
+            "parent_id": "Area STS1 (STS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#cde304"
+                }
+            ]
+        },
+        {
+            "name": "Area STS1 (STS) - left hemisphere",
+            "parent_id": "Area STS1 (STS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#cde304"
+                }
+            ]
+        },
+        {
+            "name": "Area STS1 (STS)",
+            "parent_id": "superior temporal sulcus"
+        },
+        {
+            "name": "superior temporal sulcus",
+            "parent_id": "temporal lobe"
+        },
+        {
+            "name": "Area OTS1 (OTS) - right hemisphere",
+            "parent_id": "Area OTS1 (OTS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#660034"
+                }
+            ]
+        },
+        {
+            "name": "Area OTS1 (OTS) - left hemisphere",
+            "parent_id": "Area OTS1 (OTS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#660034"
+                }
+            ]
+        },
+        {
+            "name": "Area OTS1 (OTS)",
+            "parent_id": "occipito-temporal sulcus"
+        },
+        {
+            "name": "occipito-temporal sulcus",
+            "parent_id": "temporal lobe"
+        },
+        {
+            "name": "Area Te 3 (STG) - right hemisphere",
+            "parent_id": "Area Te 3 (STG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#9f686c"
+                }
+            ]
+        },
+        {
+            "name": "Area Te 3 (STG) - left hemisphere",
+            "parent_id": "Area Te 3 (STG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#9f686c"
+                }
+            ]
+        },
+        {
+            "name": "Area Te 3 (STG)",
+            "parent_id": "superior temporal gyrus"
+        },
+        {
+            "name": "Area Te 2.2 (STG) - right hemisphere",
+            "parent_id": "Area Te 2.2 (STG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#8a3ec0"
+                }
+            ]
+        },
+        {
+            "name": "Area Te 2.2 (STG) - left hemisphere",
+            "parent_id": "Area Te 2.2 (STG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#8a3ec0"
+                }
+            ]
+        },
+        {
+            "name": "Area Te 2.2 (STG)",
+            "parent_id": "superior temporal gyrus"
+        },
+        {
+            "name": "Area Te 2.1 (STG) - right hemisphere",
+            "parent_id": "Area Te 2.1 (STG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#43fd2c"
+                }
+            ]
+        },
+        {
+            "name": "Area Te 2.1 (STG) - left hemisphere",
+            "parent_id": "Area Te 2.1 (STG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#43fd2c"
+                }
+            ]
+        },
+        {
+            "name": "Area Te 2.1 (STG)",
+            "parent_id": "superior temporal gyrus"
+        },
+        {
+            "name": "superior temporal gyrus",
+            "parent_id": "temporal lobe"
+        },
+        {
+            "name": "Area Te 1.1 (HESCHL) - right hemisphere",
+            "parent_id": "Area Te 1.1 (HESCHL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#077044"
+                }
+            ]
+        },
+        {
+            "name": "Area Te 1.1 (HESCHL) - left hemisphere",
+            "parent_id": "Area Te 1.1 (HESCHL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#077044"
+                }
+            ]
+        },
+        {
+            "name": "Area Te 1.1 (HESCHL)",
+            "parent_id": "Heschl's gyrus"
+        },
+        {
+            "name": "Area Te 1.2 (HESCHL) - right hemisphere",
+            "parent_id": "Area Te 1.2 (HESCHL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#c9fac0"
+                }
+            ]
+        },
+        {
+            "name": "Area Te 1.2 (HESCHL) - left hemisphere",
+            "parent_id": "Area Te 1.2 (HESCHL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#c9fac0"
+                }
+            ]
+        },
+        {
+            "name": "Area Te 1.2 (HESCHL)",
+            "parent_id": "Heschl's gyrus"
+        },
+        {
+            "name": "Area Te 1.0 (HESCHL) - right hemisphere",
+            "parent_id": "Area Te 1.0 (HESCHL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#fb53de"
+                }
+            ]
+        },
+        {
+            "name": "Area Te 1.0 (HESCHL) - left hemisphere",
+            "parent_id": "Area Te 1.0 (HESCHL)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#fb53de"
+                }
+            ]
+        },
+        {
+            "name": "Area Te 1.0 (HESCHL)",
+            "parent_id": "Heschl's gyrus"
+        },
+        {
+            "name": "Heschl's gyrus",
+            "parent_id": "temporal lobe"
+        },
+        {
+            "name": "Area Ph1 (PhG) - right hemisphere",
+            "parent_id": "Area Ph1 (PhG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#008000"
+                }
+            ]
+        },
+        {
+            "name": "Area Ph1 (PhG) - left hemisphere",
+            "parent_id": "Area Ph1 (PhG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#008000"
+                }
+            ]
+        },
+        {
+            "name": "Area Ph1 (PhG)",
+            "parent_id": "parahippocampal gyrus"
+        },
+        {
+            "name": "Area Ph2 (PhG) - right hemisphere",
+            "parent_id": "Area Ph2 (PhG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#808000"
+                }
+            ]
+        },
+        {
+            "name": "Area Ph2 (PhG) - left hemisphere",
+            "parent_id": "Area Ph2 (PhG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#808000"
+                }
+            ]
+        },
+        {
+            "name": "Area Ph2 (PhG)",
+            "parent_id": "parahippocampal gyrus"
+        },
+        {
+            "name": "Area Ph3 (PhG) - right hemisphere",
+            "parent_id": "Area Ph3 (PhG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#800000"
+                }
+            ]
+        },
+        {
+            "name": "Area Ph3 (PhG) - left hemisphere",
+            "parent_id": "Area Ph3 (PhG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#800000"
+                }
+            ]
+        },
+        {
+            "name": "Area Ph3 (PhG)",
+            "parent_id": "parahippocampal gyrus"
+        },
+        {
+            "name": "parahippocampal gyrus",
+            "parent_id": "temporal lobe"
+        },
+        {
+            "name": "Area CoS1 (CoS) - right hemisphere",
+            "parent_id": "Area CoS1 (CoS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#007880"
+                }
+            ]
+        },
+        {
+            "name": "Area CoS1 (CoS) - left hemisphere",
+            "parent_id": "Area CoS1 (CoS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#007880"
+                }
+            ]
+        },
+        {
+            "name": "Area CoS1 (CoS)",
+            "parent_id": "collateral sulcus"
+        },
+        {
+            "name": "collateral sulcus",
+            "parent_id": "temporal lobe"
+        },
+        {
+            "name": "Area TI (STG) - right hemisphere",
+            "parent_id": "Area TI (STG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#556415"
+                }
+            ]
+        },
+        {
+            "name": "Area TI (STG) - left hemisphere",
+            "parent_id": "Area TI (STG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#556415"
+                }
+            ]
+        },
+        {
+            "name": "Area TI (STG)",
+            "parent_id": "temporal insula"
+        },
+        {
+            "name": "Area TeI (STG) - right hemisphere",
+            "parent_id": "Area TeI (STG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#164e5c"
+                }
+            ]
+        },
+        {
+            "name": "Area TeI (STG) - left hemisphere",
+            "parent_id": "Area TeI (STG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#164e5c"
+                }
+            ]
+        },
+        {
+            "name": "Area TeI (STG)",
+            "parent_id": "temporal insula"
+        },
+        {
+            "name": "temporal insula",
+            "parent_id": "temporal lobe"
+        },
+        {
+            "name": "Area FG5 (FusG) - right hemisphere",
+            "parent_id": "Area FG5 (FusG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1ef44b"
+                }
+            ]
+        },
+        {
+            "name": "Area FG5 (FusG) - left hemisphere",
+            "parent_id": "Area FG5 (FusG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1ef44b"
+                }
+            ]
+        },
+        {
+            "name": "Area FG5 (FusG)",
+            "parent_id": "fusiform gyrus"
+        },
+        {
+            "name": "Area FG2 (FusG) - right hemisphere",
+            "parent_id": "Area FG2 (FusG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#a75e94"
+                }
+            ]
+        },
+        {
+            "name": "Area FG2 (FusG) - left hemisphere",
+            "parent_id": "Area FG2 (FusG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#a75e94"
+                }
+            ]
+        },
+        {
+            "name": "Area FG2 (FusG)",
+            "parent_id": "fusiform gyrus"
+        },
+        {
+            "name": "Area FG3 (FusG) - right hemisphere",
+            "parent_id": "Area FG3 (FusG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#789224"
+                }
+            ]
+        },
+        {
+            "name": "Area FG3 (FusG) - left hemisphere",
+            "parent_id": "Area FG3 (FusG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#789224"
+                }
+            ]
+        },
+        {
+            "name": "Area FG3 (FusG)",
+            "parent_id": "fusiform gyrus"
+        },
+        {
+            "name": "Area FG1 (FusG) - right hemisphere",
+            "parent_id": "Area FG1 (FusG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#83b739"
+                }
+            ]
+        },
+        {
+            "name": "Area FG1 (FusG) - left hemisphere",
+            "parent_id": "Area FG1 (FusG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#83b739"
+                }
+            ]
+        },
+        {
+            "name": "Area FG1 (FusG)",
+            "parent_id": "fusiform gyrus"
+        },
+        {
+            "name": "Area FG4 (FusG) - right hemisphere",
+            "parent_id": "Area FG4 (FusG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#aadcae"
+                }
+            ]
+        },
+        {
+            "name": "Area FG4 (FusG) - left hemisphere",
+            "parent_id": "Area FG4 (FusG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#aadcae"
+                }
+            ]
+        },
+        {
+            "name": "Area FG4 (FusG)",
+            "parent_id": "fusiform gyrus"
+        },
+        {
+            "name": "fusiform gyrus",
+            "parent_id": "temporal lobe"
+        },
+        {
+            "name": "Area TPJ (STG, SMG) - right hemisphere",
+            "parent_id": "Area TPJ (STG, SMG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#5fc331"
+                }
+            ]
+        },
+        {
+            "name": "Area TPJ (STG, SMG) - left hemisphere",
+            "parent_id": "Area TPJ (STG, SMG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#5fc331"
+                }
+            ]
+        },
+        {
+            "name": "Area TPJ (STG, SMG)",
+            "parent_id": "temporo-parietal junction"
+        },
+        {
+            "name": "temporo-parietal junction",
+            "parent_id": "temporal lobe"
+        },
+        {
+            "name": "temporal lobe",
+            "parent_id": "cerebral cortex"
+        },
+        {
+            "name": "Area hOc2 (V2, 18) - right hemisphere",
+            "parent_id": "Area hOc2 (V2, 18)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#536d15"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc2 (V2, 18) - left hemisphere",
+            "parent_id": "Area hOc2 (V2, 18)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#536d15"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc2 (V2, 18)",
+            "parent_id": "occipital cortex"
+        },
+        {
+            "name": "Area hOc1 (V1, 17, CalcS) - right hemisphere",
+            "parent_id": "Area hOc1 (V1, 17, CalcS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#bd8492"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc1 (V1, 17, CalcS) - left hemisphere",
+            "parent_id": "Area hOc1 (V1, 17, CalcS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#bd8492"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc1 (V1, 17, CalcS)",
+            "parent_id": "occipital cortex"
+        },
+        {
+            "name": "occipital cortex",
+            "parent_id": "occipital lobe"
+        },
+        {
+            "name": "Area hOc6 (POS) - right hemisphere",
+            "parent_id": "Area hOc6 (POS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ee421a"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc6 (POS) - left hemisphere",
+            "parent_id": "Area hOc6 (POS)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ee421a"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc6 (POS)",
+            "parent_id": "dorsal occipital cortex"
+        },
+        {
+            "name": "Area hOc4d (Cuneus) - right hemisphere",
+            "parent_id": "Area hOc4d (Cuneus)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#aa3eda"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc4d (Cuneus) - left hemisphere",
+            "parent_id": "Area hOc4d (Cuneus)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#aa3eda"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc4d (Cuneus)",
+            "parent_id": "dorsal occipital cortex"
+        },
+        {
+            "name": "Area hOc3d (Cuneus) - right hemisphere",
+            "parent_id": "Area hOc3d (Cuneus)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#69be2f"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc3d (Cuneus) - left hemisphere",
+            "parent_id": "Area hOc3d (Cuneus)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#69be2f"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc3d (Cuneus)",
+            "parent_id": "dorsal occipital cortex"
+        },
+        {
+            "name": "dorsal occipital cortex",
+            "parent_id": "occipital lobe"
+        },
+        {
+            "name": "Area hOc3v (LingG) - right hemisphere",
+            "parent_id": "Area hOc3v (LingG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#52b39b"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc3v (LingG) - left hemisphere",
+            "parent_id": "Area hOc3v (LingG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#52b39b"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc3v (LingG)",
+            "parent_id": "ventral occipital cortex"
+        },
+        {
+            "name": "Area hOc4v (LingG) - right hemisphere",
+            "parent_id": "Area hOc4v (LingG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#de4d9b"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc4v (LingG) - left hemisphere",
+            "parent_id": "Area hOc4v (LingG)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#de4d9b"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc4v (LingG)",
+            "parent_id": "ventral occipital cortex"
+        },
+        {
+            "name": "ventral occipital cortex",
+            "parent_id": "occipital lobe"
+        },
+        {
+            "name": "Area hOc4lp (LOC) - right hemisphere",
+            "parent_id": "Area hOc4lp (LOC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#5f70fc"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc4lp (LOC) - left hemisphere",
+            "parent_id": "Area hOc4lp (LOC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#5f70fc"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc4lp (LOC)",
+            "parent_id": "lateral occipital cortex"
+        },
+        {
+            "name": "Area hOc5 (LOC) - right hemisphere",
+            "parent_id": "Area hOc5 (LOC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ff6218"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc5 (LOC) - left hemisphere",
+            "parent_id": "Area hOc5 (LOC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ff6218"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc5 (LOC)",
+            "parent_id": "lateral occipital cortex"
+        },
+        {
+            "name": "Area hOc4la (LOC) - right hemisphere",
+            "parent_id": "Area hOc4la (LOC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e9a8bc"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc4la (LOC) - left hemisphere",
+            "parent_id": "Area hOc4la (LOC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e9a8bc"
+                }
+            ]
+        },
+        {
+            "name": "Area hOc4la (LOC)",
+            "parent_id": "lateral occipital cortex"
+        },
+        {
+            "name": "lateral occipital cortex",
+            "parent_id": "occipital lobe"
+        },
+        {
+            "name": "occipital lobe",
+            "parent_id": "cerebral cortex"
+        },
+        {
+            "name": "Area p24c.pd24cd (pACC) - right hemisphere",
+            "parent_id": "Area p24c (pACC) - right hemisphere"
+        },
+        {
+            "name": "Area p24c.pd24cv (pACC) - right hemisphere",
+            "parent_id": "Area p24c (pACC) - right hemisphere"
+        },
+        {
+            "name": "Area p24c.pv24c (pACC) - right hemisphere",
+            "parent_id": "Area p24c (pACC) - right hemisphere"
+        },
+        {
+            "name": "Area p24c (pACC) - right hemisphere",
+            "parent_id": "Area p24c (pACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f0a3c3"
+                }
+            ]
+        },
+        {
+            "name": "Area p24c.pd24cd (pACC) - left hemisphere",
+            "parent_id": "Area p24c (pACC) - left hemisphere"
+        },
+        {
+            "name": "Area p24c.pd24cv (pACC) - left hemisphere",
+            "parent_id": "Area p24c (pACC) - left hemisphere"
+        },
+        {
+            "name": "Area p24c.pv24c (pACC) - left hemisphere",
+            "parent_id": "Area p24c (pACC) - left hemisphere"
+        },
+        {
+            "name": "Area p24c (pACC) - left hemisphere",
+            "parent_id": "Area p24c (pACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f0a3c3"
+                }
+            ]
+        },
+        {
+            "name": "Area p24c (pACC)",
+            "parent_id": "frontal cingulate gyrus"
+        },
+        {
+            "name": "Area 25.25a (sACC) - right hemisphere",
+            "parent_id": "Area 25 (sACC) - right hemisphere"
+        },
+        {
+            "name": "Area 25.25p (sACC) - right hemisphere",
+            "parent_id": "Area 25 (sACC) - right hemisphere"
+        },
+        {
+            "name": "Area 25 (sACC) - right hemisphere",
+            "parent_id": "Area 25 (sACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#aa44dc"
+                }
+            ]
+        },
+        {
+            "name": "Area 25.25a (sACC) - left hemisphere",
+            "parent_id": "Area 25 (sACC) - left hemisphere"
+        },
+        {
+            "name": "Area 25.25p (sACC) - left hemisphere",
+            "parent_id": "Area 25 (sACC) - left hemisphere"
+        },
+        {
+            "name": "Area 25 (sACC) - left hemisphere",
+            "parent_id": "Area 25 (sACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#aa44dc"
+                }
+            ]
+        },
+        {
+            "name": "Area 25 (sACC)",
+            "parent_id": "frontal cingulate gyrus"
+        },
+        {
+            "name": "Area p24ab.p24a (pACC) - right hemisphere",
+            "parent_id": "Area p24ab (pACC) - right hemisphere"
+        },
+        {
+            "name": "Area p24ab.p24b (pACC) - right hemisphere",
+            "parent_id": "Area p24ab (pACC) - right hemisphere"
+        },
+        {
+            "name": "Area p24ab (pACC) - right hemisphere",
+            "parent_id": "Area p24ab (pACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#99c3e4"
+                }
+            ]
+        },
+        {
+            "name": "Area p24ab.p24a (pACC) - left hemisphere",
+            "parent_id": "Area p24ab (pACC) - left hemisphere"
+        },
+        {
+            "name": "Area p24ab.p24b (pACC) - left hemisphere",
+            "parent_id": "Area p24ab (pACC) - left hemisphere"
+        },
+        {
+            "name": "Area p24ab (pACC) - left hemisphere",
+            "parent_id": "Area p24ab (pACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#99c3e4"
+                }
+            ]
+        },
+        {
+            "name": "Area p24ab (pACC)",
+            "parent_id": "frontal cingulate gyrus"
+        },
+        {
+            "name": "Area s32 (sACC) - right hemisphere",
+            "parent_id": "Area s32 (sACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#c15ef9"
+                }
+            ]
+        },
+        {
+            "name": "Area s32 (sACC) - left hemisphere",
+            "parent_id": "Area s32 (sACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#c15ef9"
+                }
+            ]
+        },
+        {
+            "name": "Area s32 (sACC)",
+            "parent_id": "frontal cingulate gyrus"
+        },
+        {
+            "name": "Area 33 (ACC) - right hemisphere",
+            "parent_id": "Area 33 (ACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#3339f5"
+                }
+            ]
+        },
+        {
+            "name": "Area 33 (ACC) - left hemisphere",
+            "parent_id": "Area 33 (ACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#3339f5"
+                }
+            ]
+        },
+        {
+            "name": "Area 33 (ACC)",
+            "parent_id": "frontal cingulate gyrus"
+        },
+        {
+            "name": "Area p32 (pACC) - right hemisphere",
+            "parent_id": "Area p32 (pACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#56860e"
+                }
+            ]
+        },
+        {
+            "name": "Area p32 (pACC) - left hemisphere",
+            "parent_id": "Area p32 (pACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#56860e"
+                }
+            ]
+        },
+        {
+            "name": "Area p32 (pACC)",
+            "parent_id": "frontal cingulate gyrus"
+        },
+        {
+            "name": "Area s24.s24a (sACC) - right hemisphere",
+            "parent_id": "Area s24 (sACC) - right hemisphere"
+        },
+        {
+            "name": "Area s24.s24b (sACC) - right hemisphere",
+            "parent_id": "Area s24 (sACC) - right hemisphere"
+        },
+        {
+            "name": "Area s24 (sACC) - right hemisphere",
+            "parent_id": "Area s24 (sACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#8521c8"
+                }
+            ]
+        },
+        {
+            "name": "Area s24.s24a (sACC) - left hemisphere",
+            "parent_id": "Area s24 (sACC) - left hemisphere"
+        },
+        {
+            "name": "Area s24.s24b (sACC) - left hemisphere",
+            "parent_id": "Area s24 (sACC) - left hemisphere"
+        },
+        {
+            "name": "Area s24 (sACC) - left hemisphere",
+            "parent_id": "Area s24 (sACC)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#8521c8"
+                }
+            ]
+        },
+        {
+            "name": "Area s24 (sACC)",
+            "parent_id": "frontal cingulate gyrus"
+        },
+        {
+            "name": "frontal cingulate gyrus",
+            "parent_id": "limbic lobe"
+        },
+        {
+            "name": "Area PirT.Tit (PiriformCortexMesial, Piriform temporal Area, Incisura temporalis) - right hemisphere",
+            "parent_id": "Area PirT (PiriformCortexMesial, temporal) - right hemisphere"
+        },
+        {
+            "name": "Area PirT.Tu (PiriformCortexMesial, Piriform temporal Area, Uncus) - right hemisphere",
+            "parent_id": "Area PirT (PiriformCortexMesial, temporal) - right hemisphere"
+        },
+        {
+            "name": "Area PirT (PiriformCortexMesial, temporal) - right hemisphere",
+            "parent_id": "Area PirT (PiriformCortexMesial, temporal)"
+        },
+        {
+            "name": "Area PirT.Tit (PiriformCortexMesial, Piriform temporal Area, Incisura temporalis) - left hemisphere",
+            "parent_id": "Area PirT (PiriformCortexMesial, temporal) - left hemisphere"
+        },
+        {
+            "name": "Area PirT.Tu (PiriformCortexMesial, Piriform temporal Area, Uncus) - left hemisphere",
+            "parent_id": "Area PirT (PiriformCortexMesial, temporal) - left hemisphere"
+        },
+        {
+            "name": "Area PirT (PiriformCortexMesial, temporal) - left hemisphere",
+            "parent_id": "Area PirT (PiriformCortexMesial, temporal)"
+        },
+        {
+            "name": "Area PirT (PiriformCortexMesial, temporal)",
+            "parent_id": "piriform cortex"
+        },
+        {
+            "name": "Area PirTB.TBd (PiriformCortexMesial, Piriform temporobasal Area, dorsal part) - right hemisphere",
+            "parent_id": "Area PirTB (PiriformCortexMesial, temporobasal) - right hemisphere"
+        },
+        {
+            "name": "Area PirTB.TBv (PiriformCortexMesial, Piriform temporobasal Area, ventral part) - right hemisphere",
+            "parent_id": "Area PirTB (PiriformCortexMesial, temporobasal) - right hemisphere"
+        },
+        {
+            "name": "Area PirTB (PiriformCortexMesial, temporobasal) - right hemisphere",
+            "parent_id": "Area PirTB (PiriformCortexMesial, temporobasal)"
+        },
+        {
+            "name": "Area PirTB.TBd (PiriformCortexMesial, Piriform temporobasal Area, dorsal part) - left hemisphere",
+            "parent_id": "Area PirTB (PiriformCortexMesial, temporobasal) - left hemisphere"
+        },
+        {
+            "name": "Area PirTB.TBv (PiriformCortexMesial, Piriform temporobasal Area, ventral part) - left hemisphere",
+            "parent_id": "Area PirTB (PiriformCortexMesial, temporobasal) - left hemisphere"
+        },
+        {
+            "name": "Area PirTB (PiriformCortexMesial, temporobasal) - left hemisphere",
+            "parent_id": "Area PirTB (PiriformCortexMesial, temporobasal)"
+        },
+        {
+            "name": "Area PirTB (PiriformCortexMesial, temporobasal)",
+            "parent_id": "piriform cortex"
+        },
+        {
+            "name": "piriform cortex",
+            "parent_id": "limbic lobe"
+        },
+        {
+            "name": "HATA (Hippocampus) - right hemisphere",
+            "parent_id": "HATA (Hippocampus)"
+        },
+        {
+            "name": "HATA (Hippocampus) - left hemisphere",
+            "parent_id": "HATA (Hippocampus)"
+        },
+        {
+            "name": "HATA (Hippocampus)",
+            "parent_id": "hippocampal formation"
+        },
+        {
+            "name": "CA3 (Hippocampus) - right hemisphere",
+            "parent_id": "CA3 (Hippocampus)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e9d2dd"
+                }
+            ]
+        },
+        {
+            "name": "CA3 (Hippocampus) - left hemisphere",
+            "parent_id": "CA3 (Hippocampus)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e9d2dd"
+                }
+            ]
+        },
+        {
+            "name": "CA3 (Hippocampus)",
+            "parent_id": "hippocampal formation"
+        },
+        {
+            "name": "TrS (Hippocampus, Transsubiculum) - right hemisphere",
+            "parent_id": "TrS (Hippocampus, Transsubiculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#6cfad3"
+                }
+            ]
+        },
+        {
+            "name": "TrS (Hippocampus, Transsubiculum) - left hemisphere",
+            "parent_id": "TrS (Hippocampus, Transsubiculum)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#6cfad3"
+                }
+            ]
+        },
+        {
+            "name": "TrS (Hippocampus, Transsubiculum)",
+            "parent_id": "hippocampal formation"
+        },
+        {
+            "name": "Subc.PaS (Hippocampus, Parasubiculum) - right hemisphere",
+            "parent_id": "Subc (Hippocampus, Subicular complex) - right hemisphere"
+        },
+        {
+            "name": "Subc.PreS (Hippocampus, Presubiculum) - right hemisphere",
+            "parent_id": "Subc (Hippocampus, Subicular complex) - right hemisphere"
+        },
+        {
+            "name": "Subc.ProS (Hippocampus, Prosubiculum) - right hemisphere",
+            "parent_id": "Subc (Hippocampus, Subicular complex) - right hemisphere"
+        },
+        {
+            "name": "Subc.Sub (Hippocampus, Subiculum) - right hemisphere",
+            "parent_id": "Subc (Hippocampus, Subicular complex) - right hemisphere"
+        },
+        {
+            "name": "Subc (Hippocampus, Subicular complex) - right hemisphere",
+            "parent_id": "Subc (Hippocampus, Subicular complex)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#0000ff"
+                }
+            ]
+        },
+        {
+            "name": "Subc.PaS (Hippocampus, Parasubiculum) - left hemisphere",
+            "parent_id": "Subc (Hippocampus, Subicular complex) - left hemisphere"
+        },
+        {
+            "name": "Subc.PreS (Hippocampus, Presubiculum) - left hemisphere",
+            "parent_id": "Subc (Hippocampus, Subicular complex) - left hemisphere"
+        },
+        {
+            "name": "Subc.ProS (Hippocampus, Prosubiculum) - left hemisphere",
+            "parent_id": "Subc (Hippocampus, Subicular complex) - left hemisphere"
+        },
+        {
+            "name": "Subc.Sub (Hippocampus, Subiculum) - left hemisphere",
+            "parent_id": "Subc (Hippocampus, Subicular complex) - left hemisphere"
+        },
+        {
+            "name": "Subc (Hippocampus, Subicular complex) - left hemisphere",
+            "parent_id": "Subc (Hippocampus, Subicular complex)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#0000ff"
+                }
+            ]
+        },
+        {
+            "name": "Subc (Hippocampus, Subicular complex)",
+            "parent_id": "hippocampal formation"
+        },
+        {
+            "name": "DG (Hippocampus) - right hemisphere",
+            "parent_id": "DG (Hippocampus)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#943778"
+                }
+            ]
+        },
+        {
+            "name": "DG (Hippocampus) - left hemisphere",
+            "parent_id": "DG (Hippocampus)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#943778"
+                }
+            ]
+        },
+        {
+            "name": "DG (Hippocampus)",
+            "parent_id": "hippocampal formation"
+        },
+        {
+            "name": "CA2 (Hippocampus) - right hemisphere",
+            "parent_id": "CA2 (Hippocampus)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#914364"
+                }
+            ]
+        },
+        {
+            "name": "CA2 (Hippocampus) - left hemisphere",
+            "parent_id": "CA2 (Hippocampus)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#914364"
+                }
+            ]
+        },
+        {
+            "name": "CA2 (Hippocampus)",
+            "parent_id": "hippocampal formation"
+        },
+        {
+            "name": "Area EC (Hippocampal Region, Entorhinal Cortex) - right hemisphere",
+            "parent_id": "Area EC (Hippocampal Region, Entorhinal Cortex)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#229fd5"
+                }
+            ]
+        },
+        {
+            "name": "Area EC (Hippocampal Region, Entorhinal Cortex) - left hemisphere",
+            "parent_id": "Area EC (Hippocampal Region, Entorhinal Cortex)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#229fd5"
+                }
+            ]
+        },
+        {
+            "name": "Area EC (Hippocampal Region, Entorhinal Cortex)",
+            "parent_id": "hippocampal formation"
+        },
+        {
+            "name": "CA1 (Hippocampus) - right hemisphere",
+            "parent_id": "CA1 (Hippocampus)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#7c08a7"
+                }
+            ]
+        },
+        {
+            "name": "CA1 (Hippocampus) - left hemisphere",
+            "parent_id": "CA1 (Hippocampus)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#7c08a7"
+                }
+            ]
+        },
+        {
+            "name": "CA1 (Hippocampus)",
+            "parent_id": "hippocampal formation"
+        },
+        {
+            "name": "hippocampal formation",
+            "parent_id": "limbic lobe"
+        },
+        {
+            "name": "TuTi (Basal Forebrain, Terminal islands) - right hemisphere",
+            "parent_id": "TuTi (Basal Forebrain, Terminal islands)"
+        },
+        {
+            "name": "TuTi (Basal Forebrain, Terminal islands) - left hemisphere",
+            "parent_id": "TuTi (Basal Forebrain, Terminal islands)"
+        },
+        {
+            "name": "TuTi (Basal Forebrain, Terminal islands)",
+            "parent_id": "olfactory cortex"
+        },
+        {
+            "name": "Tu (Basal Forebrain, Tuberculum) - right hemisphere",
+            "parent_id": "Tu (Basal Forebrain, Tuberculum)"
+        },
+        {
+            "name": "Tu (Basal Forebrain, Tuberculum) - left hemisphere",
+            "parent_id": "Tu (Basal Forebrain, Tuberculum)"
+        },
+        {
+            "name": "Tu (Basal Forebrain, Tuberculum)",
+            "parent_id": "olfactory cortex"
+        },
+        {
+            "name": "olfactory cortex",
+            "parent_id": "limbic lobe"
+        },
+        {
+            "name": "limbic lobe",
+            "parent_id": "cerebral cortex"
+        },
+        {
+            "name": "cerebral cortex",
+            "parent_id": "telencephalon"
+        },
+        {
+            "name": "telencephalon"
+        },
+        {
+            "name": "SNC (Midbrain, Substantia Nigra pars compacta) - right hemisphere",
+            "parent_id": "SNC (Midbrain, Substantia Nigra pars compacta)"
+        },
+        {
+            "name": "SNC (Midbrain, Substantia Nigra pars compacta) - left hemisphere",
+            "parent_id": "SNC (Midbrain, Substantia Nigra pars compacta)"
+        },
+        {
+            "name": "SNC (Midbrain, Substantia Nigra pars compacta)",
+            "parent_id": "substantia nigra"
+        },
+        {
+            "name": "SNR (Midbrain, Substantia Nigra pars reticulata) - right hemisphere",
+            "parent_id": "SNR (Midbrain, Substantia Nigra pars reticulata)"
+        },
+        {
+            "name": "SNR (Midbrain, Substantia Nigra pars reticulata) - left hemisphere",
+            "parent_id": "SNR (Midbrain, Substantia Nigra pars reticulata)"
+        },
+        {
+            "name": "SNR (Midbrain, Substantia Nigra pars reticulata)",
+            "parent_id": "substantia nigra"
+        },
+        {
+            "name": "substantia nigra",
+            "parent_id": "midbrain"
+        },
+        {
+            "name": "NRp (Midbrain, Nucleus Ruber, parvocellular part) - right hemisphere",
+            "parent_id": "NRp (Midbrain, Nucleus Ruber, parvocellular part)"
+        },
+        {
+            "name": "NRp (Midbrain, Nucleus Ruber, parvocellular part) - left hemisphere",
+            "parent_id": "NRp (Midbrain, Nucleus Ruber, parvocellular part)"
+        },
+        {
+            "name": "NRp (Midbrain, Nucleus Ruber, parvocellular part)",
+            "parent_id": "nucleus ruber (parvocellular part)"
+        },
+        {
+            "name": "nucleus ruber (parvocellular part)",
+            "parent_id": "midbrain"
+        },
+        {
+            "name": "NRm (Midbrain, Nucleus Ruber, magnocellular part) - right hemisphere",
+            "parent_id": "NRm (Midbrain, Nucleus Ruber, magnocellular part)"
+        },
+        {
+            "name": "NRm (Midbrain, Nucleus Ruber, magnocellular part) - left hemisphere",
+            "parent_id": "NRm (Midbrain, Nucleus Ruber, magnocellular part)"
+        },
+        {
+            "name": "NRm (Midbrain, Nucleus Ruber, magnocellular part)",
+            "parent_id": "nucleus ruber (magnocellular part)"
+        },
+        {
+            "name": "nucleus ruber (magnocellular part)",
+            "parent_id": "midbrain"
+        },
+        {
+            "name": "midbrain",
+            "parent_id": "midbrain tegmentum"
+        },
+        {
+            "name": "midbrain tegmentum",
+            "parent_id": "mesencephalon"
+        },
+        {
+            "name": "mesencephalon"
+        },
+        {
+            "name": "Ninterp (Cerebellum, Interposed Nucleus) - right hemisphere",
+            "parent_id": "Ninterp (Cerebellum, Interposed Nucleus)"
+        },
+        {
+            "name": "Ninterp (Cerebellum, Interposed Nucleus) - left hemisphere",
+            "parent_id": "Ninterp (Cerebellum, Interposed Nucleus)"
+        },
+        {
+            "name": "Ninterp (Cerebellum, Interposed Nucleus)",
+            "parent_id": "cerebellar nuclei"
+        },
+        {
+            "name": "Ndentv (Cerebellum, Ventral Dentate Nucleus) - right hemisphere",
+            "parent_id": "Ndentv (Cerebellum, Ventral Dentate Nucleus)"
+        },
+        {
+            "name": "Ndentv (Cerebellum, Ventral Dentate Nucleus) - left hemisphere",
+            "parent_id": "Ndentv (Cerebellum, Ventral Dentate Nucleus)"
+        },
+        {
+            "name": "Ndentv (Cerebellum, Ventral Dentate Nucleus)",
+            "parent_id": "dentate nucleus"
+        },
+        {
+            "name": "Ndentd (Cerebellum, Dorsal Dentate Nucleus) - right hemisphere",
+            "parent_id": "Ndentd (Cerebellum, Dorsal Dentate Nucleus)"
+        },
+        {
+            "name": "Ndentd (Cerebellum, Dorsal Dentate Nucleus) - left hemisphere",
+            "parent_id": "Ndentd (Cerebellum, Dorsal Dentate Nucleus)"
+        },
+        {
+            "name": "Ndentd (Cerebellum, Dorsal Dentate Nucleus)",
+            "parent_id": "dentate nucleus"
+        },
+        {
+            "name": "dentate nucleus",
+            "parent_id": "cerebellar nuclei"
+        },
+        {
+            "name": "Nfast (Cerebellum, Fastigial Nucleus) - right hemisphere",
+            "parent_id": "Nfast (Cerebellum, Fastigial Nucleus)"
+        },
+        {
+            "name": "Nfast (Cerebellum, Fastigial Nucleus) - left hemisphere",
+            "parent_id": "Nfast (Cerebellum, Fastigial Nucleus)"
+        },
+        {
+            "name": "Nfast (Cerebellum, Fastigial Nucleus)",
+            "parent_id": "fastigial nucleus"
+        },
+        {
+            "name": "fastigial nucleus",
+            "parent_id": "cerebellar nuclei"
+        },
+        {
+            "name": "cerebellar nuclei",
+            "parent_id": "cerebellum"
+        },
+        {
+            "name": "cerebellum",
+            "parent_id": "metencephalon"
+        },
+        {
+            "name": "metencephalon"
+        },
+        {
+            "name": "STN (Subthalamus) - right hemisphere",
+            "parent_id": "STN (Subthalamus)"
+        },
+        {
+            "name": "STN (Subthalamus) - left hemisphere",
+            "parent_id": "STN (Subthalamus)"
+        },
+        {
+            "name": "STN (Subthalamus)",
+            "parent_id": "subthalamus"
+        },
+        {
+            "name": "subthalamus",
+            "parent_id": "diencephalon"
+        },
+        {
+            "name": "Rt (Thalamus, reticular Nucleus) - right hemisphere",
+            "parent_id": "Rt (Thalamus, reticular Nucleus)"
+        },
+        {
+            "name": "Rt (Thalamus, reticular Nucleus) - left hemisphere",
+            "parent_id": "Rt (Thalamus, reticular Nucleus)"
+        },
+        {
+            "name": "Rt (Thalamus, reticular Nucleus)",
+            "parent_id": "ventral thalamus"
+        },
+        {
+            "name": "ZI (Thalamus, zona incerta) - right hemisphere",
+            "parent_id": "ZI (Thalamus, zona incerta)"
+        },
+        {
+            "name": "ZI (Thalamus, zona incerta) - left hemisphere",
+            "parent_id": "ZI (Thalamus, zona incerta)"
+        },
+        {
+            "name": "ZI (Thalamus, zona incerta)",
+            "parent_id": "ventral thalamus"
+        },
+        {
+            "name": "ventral thalamus",
+            "parent_id": "thalamus"
+        },
+        {
+            "name": "CGM (Metathalamus) - right hemisphere",
+            "parent_id": "CGM (Metathalamus)"
+        },
+        {
+            "name": "CGM (Metathalamus) - left hemisphere",
+            "parent_id": "CGM (Metathalamus)"
+        },
+        {
+            "name": "CGM (Metathalamus)",
+            "parent_id": "medial geniculate body"
+        },
+        {
+            "name": "medial geniculate body",
+            "parent_id": "metathalamus"
+        },
+        {
+            "name": "CGL (Metathalamus) - right hemisphere",
+            "parent_id": "CGL (Metathalamus)"
+        },
+        {
+            "name": "CGL (Metathalamus) - left hemisphere",
+            "parent_id": "CGL (Metathalamus)"
+        },
+        {
+            "name": "CGL (Metathalamus)",
+            "parent_id": "lateral geniculate body"
+        },
+        {
+            "name": "lateral geniculate body",
+            "parent_id": "metathalamus"
+        },
+        {
+            "name": "metathalamus",
+            "parent_id": "thalamus"
+        },
+        {
+            "name": "MV (Thalamus, medioventral Nucleus) - right hemisphere",
+            "parent_id": "MV (Thalamus, medioventral Nucleus)"
+        },
+        {
+            "name": "MV (Thalamus, medioventral Nucleus) - left hemisphere",
+            "parent_id": "MV (Thalamus, medioventral Nucleus)"
+        },
+        {
+            "name": "MV (Thalamus, medioventral Nucleus)",
+            "parent_id": "medial group"
+        },
+        {
+            "name": "MD (Thalamus, mediodorsal Nucleus) - right hemisphere",
+            "parent_id": "MD (Thalamus, mediodorsal Nucleus)"
+        },
+        {
+            "name": "MD (Thalamus, mediodorsal Nucleus) - left hemisphere",
+            "parent_id": "MD (Thalamus, mediodorsal Nucleus)"
+        },
+        {
+            "name": "MD (Thalamus, mediodorsal Nucleus)",
+            "parent_id": "medial group"
+        },
+        {
+            "name": "Pv (Thalamus, paraventricular Nucleus) - right hemisphere",
+            "parent_id": "Pv (Thalamus, paraventricular Nucleus)"
+        },
+        {
+            "name": "Pv (Thalamus, paraventricular Nucleus) - left hemisphere",
+            "parent_id": "Pv (Thalamus, paraventricular Nucleus)"
+        },
+        {
+            "name": "Pv (Thalamus, paraventricular Nucleus)",
+            "parent_id": "medial group"
+        },
+        {
+            "name": "medial group",
+            "parent_id": "dorsal thalamus"
+        },
+        {
+            "name": "Po (Thalamus, posterior Nucleus) - right hemisphere",
+            "parent_id": "Po (Thalamus, posterior Nucleus)"
+        },
+        {
+            "name": "Po (Thalamus, posterior Nucleus) - left hemisphere",
+            "parent_id": "Po (Thalamus, posterior Nucleus)"
+        },
+        {
+            "name": "Po (Thalamus, posterior Nucleus)",
+            "parent_id": "posterior group"
+        },
+        {
+            "name": "PUm (Thalamus, medial pulvinar) - right hemisphere",
+            "parent_id": "PUm (Thalamus, medial pulvinar)"
+        },
+        {
+            "name": "PUm (Thalamus, medial pulvinar) - left hemisphere",
+            "parent_id": "PUm (Thalamus, medial pulvinar)"
+        },
+        {
+            "name": "PUm (Thalamus, medial pulvinar)",
+            "parent_id": "posterior group"
+        },
+        {
+            "name": "PUl (Thalamus, lateral pulvinar) - right hemisphere",
+            "parent_id": "PUl (Thalamus, lateral pulvinar)"
+        },
+        {
+            "name": "PUl (Thalamus, lateral pulvinar) - left hemisphere",
+            "parent_id": "PUl (Thalamus, lateral pulvinar)"
+        },
+        {
+            "name": "PUl (Thalamus, lateral pulvinar)",
+            "parent_id": "posterior group"
+        },
+        {
+            "name": "Li (Thalamus, limitans Nucleus) - right hemisphere",
+            "parent_id": "Li (Thalamus, limitans Nucleus)"
+        },
+        {
+            "name": "Li (Thalamus, limitans Nucleus) - left hemisphere",
+            "parent_id": "Li (Thalamus, limitans Nucleus)"
+        },
+        {
+            "name": "Li (Thalamus, limitans Nucleus)",
+            "parent_id": "posterior group"
+        },
+        {
+            "name": "Sg (Thalamus, suprageniculate Nucleus) - right hemisphere",
+            "parent_id": "Sg (Thalamus, suprageniculate Nucleus)"
+        },
+        {
+            "name": "Sg (Thalamus, suprageniculate Nucleus) - left hemisphere",
+            "parent_id": "Sg (Thalamus, suprageniculate Nucleus)"
+        },
+        {
+            "name": "Sg (Thalamus, suprageniculate Nucleus)",
+            "parent_id": "posterior group"
+        },
+        {
+            "name": "LP (Thalamus, lateral posterior Nucleus) - right hemisphere",
+            "parent_id": "LP (Thalamus, lateral posterior Nucleus)"
+        },
+        {
+            "name": "LP (Thalamus, lateral posterior Nucleus) - left hemisphere",
+            "parent_id": "LP (Thalamus, lateral posterior Nucleus)"
+        },
+        {
+            "name": "LP (Thalamus, lateral posterior Nucleus)",
+            "parent_id": "posterior group"
+        },
+        {
+            "name": "PUi (Thalamus, inferior pulvinar) - right hemisphere",
+            "parent_id": "PUi (Thalamus, inferior pulvinar)"
+        },
+        {
+            "name": "PUi (Thalamus, inferior pulvinar) - left hemisphere",
+            "parent_id": "PUi (Thalamus, inferior pulvinar)"
+        },
+        {
+            "name": "PUi (Thalamus, inferior pulvinar)",
+            "parent_id": "posterior group"
+        },
+        {
+            "name": "PUa (Thalamus, anterior pulvinar) - right hemisphere",
+            "parent_id": "PUa (Thalamus, anterior pulvinar)"
+        },
+        {
+            "name": "PUa (Thalamus, anterior pulvinar) - left hemisphere",
+            "parent_id": "PUa (Thalamus, anterior pulvinar)"
+        },
+        {
+            "name": "PUa (Thalamus, anterior pulvinar)",
+            "parent_id": "posterior group"
+        },
+        {
+            "name": "posterior group",
+            "parent_id": "dorsal thalamus"
+        },
+        {
+            "name": "LD (Thalamus, lateral dorsal Nucleus) - right hemisphere",
+            "parent_id": "LD (Thalamus, lateral dorsal Nucleus)"
+        },
+        {
+            "name": "LD (Thalamus, lateral dorsal Nucleus) - left hemisphere",
+            "parent_id": "LD (Thalamus, lateral dorsal Nucleus)"
+        },
+        {
+            "name": "LD (Thalamus, lateral dorsal Nucleus)",
+            "parent_id": "anterior group"
+        },
+        {
+            "name": "AV (Thalamus, anteroventral Nucleus) - right hemisphere",
+            "parent_id": "AV (Thalamus, anteroventral Nucleus)"
+        },
+        {
+            "name": "AV (Thalamus, anteroventral Nucleus) - left hemisphere",
+            "parent_id": "AV (Thalamus, anteroventral Nucleus)"
+        },
+        {
+            "name": "AV (Thalamus, anteroventral Nucleus)",
+            "parent_id": "anterior group"
+        },
+        {
+            "name": "AM (Thalamus, anteromedial Nucleus) - right hemisphere",
+            "parent_id": "AM (Thalamus, anteromedial Nucleus)"
+        },
+        {
+            "name": "AM (Thalamus, anteromedial Nucleus) - left hemisphere",
+            "parent_id": "AM (Thalamus, anteromedial Nucleus)"
+        },
+        {
+            "name": "AM (Thalamus, anteromedial Nucleus)",
+            "parent_id": "anterior group"
+        },
+        {
+            "name": "anterior group",
+            "parent_id": "dorsal thalamus"
+        },
+        {
+            "name": "VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part) - right hemisphere",
+            "parent_id": "VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part)"
+        },
+        {
+            "name": "VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part) - left hemisphere",
+            "parent_id": "VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part)"
+        },
+        {
+            "name": "VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part)",
+            "parent_id": "ventral group"
+        },
+        {
+            "name": "VPi (Thalamus, ventroposterior inferior Nucleus) - right hemisphere",
+            "parent_id": "VPi (Thalamus, ventroposterior inferior Nucleus)"
+        },
+        {
+            "name": "VPi (Thalamus, ventroposterior inferior Nucleus) - left hemisphere",
+            "parent_id": "VPi (Thalamus, ventroposterior inferior Nucleus)"
+        },
+        {
+            "name": "VPi (Thalamus, ventroposterior inferior Nucleus)",
+            "parent_id": "ventral group"
+        },
+        {
+            "name": "VPL (Thalamus, ventral posterior lateral Nucleus) - right hemisphere",
+            "parent_id": "VPL (Thalamus, ventral posterior lateral Nucleus)"
+        },
+        {
+            "name": "VPL (Thalamus, ventral posterior lateral Nucleus) - left hemisphere",
+            "parent_id": "VPL (Thalamus, ventral posterior lateral Nucleus)"
+        },
+        {
+            "name": "VPL (Thalamus, ventral posterior lateral Nucleus)",
+            "parent_id": "ventral group"
+        },
+        {
+            "name": "VLP (Thalamus, ventral lateral posterior Nucleus) - right hemisphere",
+            "parent_id": "VLP (Thalamus, ventral lateral posterior Nucleus)"
+        },
+        {
+            "name": "VLP (Thalamus, ventral lateral posterior Nucleus) - left hemisphere",
+            "parent_id": "VLP (Thalamus, ventral lateral posterior Nucleus)"
+        },
+        {
+            "name": "VLP (Thalamus, ventral lateral posterior Nucleus)",
+            "parent_id": "ventral group"
+        },
+        {
+            "name": "VIM (Thalamus, ventral intermediate Nucleus) - right hemisphere",
+            "parent_id": "VIM (Thalamus, ventral intermediate Nucleus)"
+        },
+        {
+            "name": "VIM (Thalamus, ventral intermediate Nucleus) - left hemisphere",
+            "parent_id": "VIM (Thalamus, ventral intermediate Nucleus)"
+        },
+        {
+            "name": "VIM (Thalamus, ventral intermediate Nucleus)",
+            "parent_id": "ventral group"
+        },
+        {
+            "name": "VM (Thalamus, ventral medial Nucleus) - right hemisphere",
+            "parent_id": "VM (Thalamus, ventral medial Nucleus)"
+        },
+        {
+            "name": "VM (Thalamus, ventral medial Nucleus) - left hemisphere",
+            "parent_id": "VM (Thalamus, ventral medial Nucleus)"
+        },
+        {
+            "name": "VM (Thalamus, ventral medial Nucleus)",
+            "parent_id": "ventral group"
+        },
+        {
+            "name": "VA (Thalamus, ventral anterior Nucleus (ventral)) - right hemisphere",
+            "parent_id": "VA (Thalamus, ventral anterior Nucleus (ventral))"
+        },
+        {
+            "name": "VA (Thalamus, ventral anterior Nucleus (ventral)) - left hemisphere",
+            "parent_id": "VA (Thalamus, ventral anterior Nucleus (ventral))"
+        },
+        {
+            "name": "VA (Thalamus, ventral anterior Nucleus (ventral))",
+            "parent_id": "ventral group"
+        },
+        {
+            "name": "VLA (Thalamus, ventral lateral anterior Nucleus) - right hemisphere",
+            "parent_id": "VLA (Thalamus, ventral lateral anterior Nucleus)"
+        },
+        {
+            "name": "VLA (Thalamus, ventral lateral anterior Nucleus) - left hemisphere",
+            "parent_id": "VLA (Thalamus, ventral lateral anterior Nucleus)"
+        },
+        {
+            "name": "VLA (Thalamus, ventral lateral anterior Nucleus)",
+            "parent_id": "ventral group"
+        },
+        {
+            "name": "VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) - right hemisphere",
+            "parent_id": "VAmc (Thalamus, ventral anterior Nucleus, magnocellular part)"
+        },
+        {
+            "name": "VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) - left hemisphere",
+            "parent_id": "VAmc (Thalamus, ventral anterior Nucleus, magnocellular part)"
+        },
+        {
+            "name": "VAmc (Thalamus, ventral anterior Nucleus, magnocellular part)",
+            "parent_id": "ventral group"
+        },
+        {
+            "name": "VPM (Thalamus, ventral posterior medial Nucleus) - right hemisphere",
+            "parent_id": "VPM (Thalamus, ventral posterior medial Nucleus)"
+        },
+        {
+            "name": "VPM (Thalamus, ventral posterior medial Nucleus) - left hemisphere",
+            "parent_id": "VPM (Thalamus, ventral posterior medial Nucleus)"
+        },
+        {
+            "name": "VPM (Thalamus, ventral posterior medial Nucleus)",
+            "parent_id": "ventral group"
+        },
+        {
+            "name": "ventral group",
+            "parent_id": "dorsal thalamus"
+        },
+        {
+            "name": "sPf (Thalamus, subparafascicular Nucleus) - right hemisphere",
+            "parent_id": "sPf (Thalamus, subparafascicular Nucleus)"
+        },
+        {
+            "name": "sPf (Thalamus, subparafascicular Nucleus) - left hemisphere",
+            "parent_id": "sPf (Thalamus, subparafascicular Nucleus)"
+        },
+        {
+            "name": "sPf (Thalamus, subparafascicular Nucleus)",
+            "parent_id": "intralaminar group"
+        },
+        {
+            "name": "Pf (Thalamus, parafascicular Nucleus) - right hemisphere",
+            "parent_id": "Pf (Thalamus, parafascicular Nucleus)"
+        },
+        {
+            "name": "Pf (Thalamus, parafascicular Nucleus) - left hemisphere",
+            "parent_id": "Pf (Thalamus, parafascicular Nucleus)"
+        },
+        {
+            "name": "Pf (Thalamus, parafascicular Nucleus)",
+            "parent_id": "intralaminar group"
+        },
+        {
+            "name": "CM (Thalamus, centromedian Nucleus) - right hemisphere",
+            "parent_id": "CM (Thalamus, centromedian Nucleus)"
+        },
+        {
+            "name": "CM (Thalamus, centromedian Nucleus) - left hemisphere",
+            "parent_id": "CM (Thalamus, centromedian Nucleus)"
+        },
+        {
+            "name": "CM (Thalamus, centromedian Nucleus)",
+            "parent_id": "intralaminar group"
+        },
+        {
+            "name": "CL (Thalamus, anterior intralaminar nuclei) - right hemisphere",
+            "parent_id": "CL (Thalamus, anterior intralaminar nuclei)"
+        },
+        {
+            "name": "CL (Thalamus, anterior intralaminar nuclei) - left hemisphere",
+            "parent_id": "CL (Thalamus, anterior intralaminar nuclei)"
+        },
+        {
+            "name": "CL (Thalamus, anterior intralaminar nuclei)",
+            "parent_id": "intralaminar group"
+        },
+        {
+            "name": "intralaminar group",
+            "parent_id": "dorsal thalamus"
+        },
+        {
+            "name": "dorsal thalamus",
+            "parent_id": "thalamus"
+        },
+        {
+            "name": "thalamus",
+            "parent_id": "diencephalon"
+        },
+        {
+            "name": "diencephalon"
+        }
+    ]
+}

@@ -5,1638 +5,1031 @@
     "species": "homo sapiens",
     "attributes": [
         {
+            "schema": "siibra/attr/desc/name/v0.1",
+            "value": "Von Economo - Koskinas Brain Atlas",
+            "shortform": "Von Economo - Koskinas"
+        },
+        {
+            "schema": "siibra/attr/desc/description/v0.1",
+            "value": "The cerebral cortex displays substantial variation in cellular architecture, a regional patterning that has been of great interest to anatomists for centuries. In 1925, Constantin von Economo and George Koskinas published a detailed atlas of the human cerebral cortex, describing a cytoarchitectonic division of the cortical mantle into over 40 distinct areas. Von Economo and Koskinas accompanied their seminal work with large photomicrographic plates of their histological slides, together with tables containing for each described region detailed morphological layer- specific information on neuronal count, neuron size and thickness of the cortical mantle. Here, we aimed to make this legacy data accessible and relatable to in vivo neuroimaging data by constructing a digital Von Economo \u2013 Koskinas atlas compatible with the widely used FreeSurfer software suite. In this technical note we describe the procedures used for manual segmentation of the Von Economo \u2013 Koskinas atlas onto individual T1 scans and the subsequent construction of the digital atlas. We provide the files needed to run the atlas on new FreeSurfer data, together with some simple code of how to apply the atlas to T1 scans within the FreeSurfer software suite. The digital Von Economo \u2013 Koskinas atlas is easily applicable to modern day anatomical MRI data and is made publicly available online."
+        },
+        {
             "schema": "siibra/attr/desc/doi/v0.1",
             "value": "https://doi.org/10.1016/j.neuroimage.2016.12.069"
         }
     ],
     "regions": [
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "Unknown - left hemisphere",
+            "parent_id": "Unknown",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "Unknown"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "Unknown - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#000000"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "Unknown - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#000000"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#000000"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "Unknown - right hemisphere",
+            "parent_id": "Unknown",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "FA: Area praecentralis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FA: Area praecentralis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#cee29c"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FA: Area praecentralis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#cee29c"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#000000"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "Unknown"
+        },
+        {
+            "name": "FA: Area praecentralis - left hemisphere",
+            "parent_id": "FA: Area praecentralis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "FB: Area frontalis agranularis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FB: Area frontalis agranularis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#c8db8a"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FB: Area frontalis agranularis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#c8db8a"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#cee29c"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FA: Area praecentralis - right hemisphere",
+            "parent_id": "FA: Area praecentralis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "FC: Area frontalis intermedia"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FC: Area frontalis intermedia - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#bbcc73"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FC: Area frontalis intermedia - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#bbcc73"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#cee29c"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FA: Area praecentralis"
+        },
+        {
+            "name": "FB: Area frontalis agranularis - left hemisphere",
+            "parent_id": "FB: Area frontalis agranularis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#55c1aa"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#55c1aa"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#c8db8a"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FB: Area frontalis agranularis - right hemisphere",
+            "parent_id": "FB: Area frontalis agranularis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "FD: Area frontalis granularis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FD: Area frontalis granularis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#0dc96f"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FD: Area frontalis granularis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#0dc96f"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#c8db8a"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FB: Area frontalis agranularis"
+        },
+        {
+            "name": "FC: Area frontalis intermedia - left hemisphere",
+            "parent_id": "FC: Area frontalis intermedia",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "FDdelta: Area frontalis granularis media"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FDdelta: Area frontalis granularis media - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#138450"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FDdelta: Area frontalis granularis media - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#138450"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#bbcc73"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FC: Area frontalis intermedia - right hemisphere",
+            "parent_id": "FC: Area frontalis intermedia",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "FDT: Area frontalis granularis triangularis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FDT: Area frontalis granularis triangularis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#45a87b"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FDT: Area frontalis granularis triangularis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#45a87b"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#bbcc73"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FC: Area frontalis intermedia"
+        },
+        {
+            "name": "FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca - left hemisphere",
+            "parent_id": "FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "FE: Area frontopolaris"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FE: Area frontopolaris - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#1bb28a"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FE: Area frontopolaris - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#1bb28a"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#55c1aa"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca - right hemisphere",
+            "parent_id": "FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "FF: Area orbitalis (granularis)"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FF: Area orbitalis (granularis) - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#31acc0"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FF: Area orbitalis (granularis) - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#31acc0"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#55c1aa"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca"
+        },
+        {
+            "name": "FD: Area frontalis granularis - left hemisphere",
+            "parent_id": "FD: Area frontalis granularis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "FG: Area gyri recti (Ar. recta)"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FG: Area gyri recti (Ar. recta) - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#3d7f76"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FG: Area gyri recti (Ar. recta) - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#3d7f76"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#0dc96f"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FD: Area frontalis granularis - right hemisphere",
+            "parent_id": "FD: Area frontalis granularis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "FH: Area praefrontalis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FH: Area praefrontalis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#4d876a"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FH: Area praefrontalis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#4d876a"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#0dc96f"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FD: Area frontalis granularis"
+        },
+        {
+            "name": "FDdelta: Area frontalis granularis media - left hemisphere",
+            "parent_id": "FDdelta: Area frontalis granularis media",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "FJK: Area frontoinsularis + Area piriformis frontalis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FJK: Area frontoinsularis + Area piriformis frontalis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#1d9a87"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FJK: Area frontoinsularis + Area piriformis frontalis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#1d9a87"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#138450"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FDdelta: Area frontalis granularis media - right hemisphere",
+            "parent_id": "FDdelta: Area frontalis granularis media",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#509192"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#509192"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#138450"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FDdelta: Area frontalis granularis media"
+        },
+        {
+            "name": "FDT: Area frontalis granularis triangularis - left hemisphere",
+            "parent_id": "FDT: Area frontalis granularis triangularis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "HA: Area uncinata"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "HA: Area uncinata - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#293765"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "HA: Area uncinata - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#293765"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#45a87b"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FDT: Area frontalis granularis triangularis - right hemisphere",
+            "parent_id": "FDT: Area frontalis granularis triangularis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "HB: Area parauncinata"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "HB: Area parauncinata - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#32487f"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "HB: Area parauncinata - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#32487f"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#45a87b"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FDT: Area frontalis granularis triangularis"
+        },
+        {
+            "name": "FE: Area frontopolaris - left hemisphere",
+            "parent_id": "FE: Area frontopolaris",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "HC: Area rhinalis limitans"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "HC: Area rhinalis limitans - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#3c5792"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "HC: Area rhinalis limitans - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#3c5792"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1bb28a"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FE: Area frontopolaris - right hemisphere",
+            "parent_id": "FE: Area frontopolaris",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "IA: Area insulae praecentralis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "IA: Area insulae praecentralis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#cc3dd3"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "IA: Area insulae praecentralis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#cc3dd3"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1bb28a"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FE: Area frontopolaris"
+        },
+        {
+            "name": "FF: Area orbitalis (granularis) - left hemisphere",
+            "parent_id": "FF: Area orbitalis (granularis)",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "IB: Area insulae postcentralis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "IB: Area insulae postcentralis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#894387"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "IB: Area insulae postcentralis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#894387"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#31acc0"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FF: Area orbitalis (granularis) - right hemisphere",
+            "parent_id": "FF: Area orbitalis (granularis)",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "LA1: Area limbicus anterior agranularis - praecingularis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LA1: Area limbicus anterior agranularis - praecingularis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#7cd7f6"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LA1: Area limbicus anterior agranularis - praecingularis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#7cd7f6"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#31acc0"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FF: Area orbitalis (granularis)"
+        },
+        {
+            "name": "FG: Area gyri recti (Ar. recta) - left hemisphere",
+            "parent_id": "FG: Area gyri recti (Ar. recta)",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "LA2: Area limbicus anterior agranularis - cingularis anterior"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LA2: Area limbicus anterior agranularis - cingularis anterior - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#a2ddf9"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LA2: Area limbicus anterior agranularis - cingularis anterior - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#a2ddf9"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#3d7f76"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FG: Area gyri recti (Ar. recta) - right hemisphere",
+            "parent_id": "FG: Area gyri recti (Ar. recta)",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "LC1: Area cingularis posterior dorsalis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LC1: Area cingularis posterior dorsalis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#0085b9"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LC1: Area cingularis posterior dorsalis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#0085b9"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#3d7f76"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FG: Area gyri recti (Ar. recta)"
+        },
+        {
+            "name": "FH: Area praefrontalis - left hemisphere",
+            "parent_id": "FH: Area praefrontalis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "LC2: Area cingularis posterior ventralis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LC2: Area cingularis posterior ventralis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#44a5e3"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LC2: Area cingularis posterior ventralis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#44a5e3"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#4d876a"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FH: Area praefrontalis - right hemisphere",
+            "parent_id": "FH: Area praefrontalis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "LC3: Area cingularis limitans posterior"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LC3: Area cingularis limitans posterior - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#76b3d7"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LC3: Area cingularis limitans posterior - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#76b3d7"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#4d876a"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FH: Area praefrontalis"
+        },
+        {
+            "name": "FJK: Area frontoinsularis + Area piriformis frontalis - left hemisphere",
+            "parent_id": "FJK: Area frontoinsularis + Area piriformis frontalis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "LD: Area retrosplenialis agranularis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LD: Area retrosplenialis agranularis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#7ad4d7"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LD: Area retrosplenialis agranularis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#7ad4d7"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1d9a87"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FJK: Area frontoinsularis + Area piriformis frontalis - right hemisphere",
+            "parent_id": "FJK: Area frontoinsularis + Area piriformis frontalis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "LE: Area retrosplenialis granulosa"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LE: Area retrosplenialis granulosa - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#a9dbe0"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "LE: Area retrosplenialis granulosa - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#a9dbe0"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#1d9a87"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FJK: Area frontoinsularis + Area piriformis frontalis"
+        },
+        {
+            "name": "FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis - left hemisphere",
+            "parent_id": "FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "OA: Area peristriata"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "OA: Area peristriata - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#fdfcbb"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "OA: Area peristriata - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#fdfcbb"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#509192"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis - right hemisphere",
+            "parent_id": "FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "OB: Area parastriata"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "OB: Area parastriata - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#fbfa92"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "OB: Area parastriata - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#fbfa92"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#509192"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis"
+        },
+        {
+            "name": "HA: Area uncinata - left hemisphere",
+            "parent_id": "HA: Area uncinata",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "OC: Area striata (granulosa)"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "OC: Area striata (granulosa) - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f7de47"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "OC: Area striata (granulosa) - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f7de47"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#293765"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "HA: Area uncinata - right hemisphere",
+            "parent_id": "HA: Area uncinata",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis "
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis  - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#e62a85"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis  - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#e62a85"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#293765"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "HA: Area uncinata"
+        },
+        {
+            "name": "HB: Area parauncinata - left hemisphere",
+            "parent_id": "HB: Area parauncinata",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f74394"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f74394"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#32487f"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "HB: Area parauncinata - right hemisphere",
+            "parent_id": "HB: Area parauncinata",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "PC: Area postcentralis intermedia"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PC: Area postcentralis intermedia - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#ef5796"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PC: Area postcentralis intermedia - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#ef5796"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#32487f"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "HB: Area parauncinata"
+        },
+        {
+            "name": "HC: Area rhinalis limitans - left hemisphere",
+            "parent_id": "HC: Area rhinalis limitans",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "PD: Area postcentralis caudalis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PD: Area postcentralis caudalis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#bc3579"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PD: Area postcentralis caudalis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#bc3579"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#3c5792"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "HC: Area rhinalis limitans - right hemisphere",
+            "parent_id": "HC: Area rhinalis limitans",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "PE: Area parietalis superior"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PE: Area parietalis superior - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f8a7d2"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PE: Area parietalis superior - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f8a7d2"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#3c5792"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "HC: Area rhinalis limitans"
+        },
+        {
+            "name": "IA: Area insulae praecentralis - left hemisphere",
+            "parent_id": "IA: Area insulae praecentralis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "PF: Area supramarginalis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PF: Area supramarginalis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#fab4e0"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PF: Area supramarginalis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#fab4e0"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#cc3dd3"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "IA: Area insulae praecentralis - right hemisphere",
+            "parent_id": "IA: Area insulae praecentralis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "PG: Area angularis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PG: Area angularis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f8c1e0"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PG: Area angularis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f8c1e0"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#cc3dd3"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "IA: Area insulae praecentralis"
+        },
+        {
+            "name": "IB: Area insulae postcentralis - left hemisphere",
+            "parent_id": "IB: Area insulae postcentralis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "PH: Area parietalis (temporo-occipital) basalis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PH: Area parietalis (temporo-occipital) basalis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#e84982"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "PH: Area parietalis (temporo-occipital) basalis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#e84982"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#894387"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "IB: Area insulae postcentralis - right hemisphere",
+            "parent_id": "IB: Area insulae postcentralis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "TA: Area temporalis superior"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TA: Area temporalis superior - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f05566"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TA: Area temporalis superior - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f05566"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#894387"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "IB: Area insulae postcentralis"
+        },
+        {
+            "name": "LA1: Area limbicus anterior agranularis - praecingularis - left hemisphere",
+            "parent_id": "LA1: Area limbicus anterior agranularis - praecingularis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "TB: Area supratemporalis magnocellularis simplex"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TB: Area supratemporalis magnocellularis simplex - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#e94162"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TB: Area supratemporalis magnocellularis simplex - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#e94162"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#7cd7f6"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "LA1: Area limbicus anterior agranularis - praecingularis - right hemisphere",
+            "parent_id": "LA1: Area limbicus anterior agranularis - praecingularis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "TC: Area supratemporalis granulosa"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TC: Area supratemporalis granulosa - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#ef406b"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TC: Area supratemporalis granulosa - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#ef406b"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#7cd7f6"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "LA1: Area limbicus anterior agranularis - praecingularis"
+        },
+        {
+            "name": "LA2: Area limbicus anterior agranularis - cingularis anterior - left hemisphere",
+            "parent_id": "LA2: Area limbicus anterior agranularis - cingularis anterior",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "TD: Area supratemporalis intercalata"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TD: Area supratemporalis intercalata - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f54f71"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TD: Area supratemporalis intercalata - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f54f71"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#a2ddf9"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "LA2: Area limbicus anterior agranularis - cingularis anterior - right hemisphere",
+            "parent_id": "LA2: Area limbicus anterior agranularis - cingularis anterior",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "TE: Area temporalis propria"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TE: Area temporalis propria - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#ebb588"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TE: Area temporalis propria - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#ebb588"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#a2ddf9"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "LA2: Area limbicus anterior agranularis - cingularis anterior"
+        },
+        {
+            "name": "LC1: Area cingularis posterior dorsalis - left hemisphere",
+            "parent_id": "LC1: Area cingularis posterior dorsalis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "TF: Area fusiformis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TF: Area fusiformis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#b82f4f"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TF: Area fusiformis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#b82f4f"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#0085b9"
                 }
             ]
         },
         {
-            "schema": "siibra/atlases/region/v0.1",
+            "name": "LC1: Area cingularis posterior dorsalis - right hemisphere",
+            "parent_id": "LC1: Area cingularis posterior dorsalis",
             "attributes": [
                 {
-                    "schema": "siibra/attr/desc/name/v0.1",
-                    "value": "TG: Area temporoporalis"
-                }
-            ],
-            "children": [
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TG: Area temporoporalis - left hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f7c67f"
-                        }
-                    ]
-                },
-                {
-                    "schema": "siibra/atlases/region/v0.1",
-                    "attributes": [
-                        {
-                            "schema": "siibra/attr/desc/name/v0.1",
-                            "value": "TG: Area temporoporalis - right hemisphere"
-                        },
-                        {
-                            "schema": "siibra/attr/desc/rgbcolor/v0.1",
-                            "value": "#f7c67f"
-                        }
-                    ]
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#0085b9"
                 }
             ]
+        },
+        {
+            "name": "LC1: Area cingularis posterior dorsalis"
+        },
+        {
+            "name": "LC2: Area cingularis posterior ventralis - left hemisphere",
+            "parent_id": "LC2: Area cingularis posterior ventralis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#44a5e3"
+                }
+            ]
+        },
+        {
+            "name": "LC2: Area cingularis posterior ventralis - right hemisphere",
+            "parent_id": "LC2: Area cingularis posterior ventralis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#44a5e3"
+                }
+            ]
+        },
+        {
+            "name": "LC2: Area cingularis posterior ventralis"
+        },
+        {
+            "name": "LC3: Area cingularis limitans posterior - left hemisphere",
+            "parent_id": "LC3: Area cingularis limitans posterior",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#76b3d7"
+                }
+            ]
+        },
+        {
+            "name": "LC3: Area cingularis limitans posterior - right hemisphere",
+            "parent_id": "LC3: Area cingularis limitans posterior",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#76b3d7"
+                }
+            ]
+        },
+        {
+            "name": "LC3: Area cingularis limitans posterior"
+        },
+        {
+            "name": "LD: Area retrosplenialis agranularis - left hemisphere",
+            "parent_id": "LD: Area retrosplenialis agranularis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#7ad4d7"
+                }
+            ]
+        },
+        {
+            "name": "LD: Area retrosplenialis agranularis - right hemisphere",
+            "parent_id": "LD: Area retrosplenialis agranularis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#7ad4d7"
+                }
+            ]
+        },
+        {
+            "name": "LD: Area retrosplenialis agranularis"
+        },
+        {
+            "name": "LE: Area retrosplenialis granulosa - left hemisphere",
+            "parent_id": "LE: Area retrosplenialis granulosa",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#a9dbe0"
+                }
+            ]
+        },
+        {
+            "name": "LE: Area retrosplenialis granulosa - right hemisphere",
+            "parent_id": "LE: Area retrosplenialis granulosa",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#a9dbe0"
+                }
+            ]
+        },
+        {
+            "name": "LE: Area retrosplenialis granulosa"
+        },
+        {
+            "name": "OA: Area peristriata - left hemisphere",
+            "parent_id": "OA: Area peristriata",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#fdfcbb"
+                }
+            ]
+        },
+        {
+            "name": "OA: Area peristriata - right hemisphere",
+            "parent_id": "OA: Area peristriata",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#fdfcbb"
+                }
+            ]
+        },
+        {
+            "name": "OA: Area peristriata"
+        },
+        {
+            "name": "OB: Area parastriata - left hemisphere",
+            "parent_id": "OB: Area parastriata",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#fbfa92"
+                }
+            ]
+        },
+        {
+            "name": "OB: Area parastriata - right hemisphere",
+            "parent_id": "OB: Area parastriata",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#fbfa92"
+                }
+            ]
+        },
+        {
+            "name": "OB: Area parastriata"
+        },
+        {
+            "name": "OC: Area striata (granulosa) - left hemisphere",
+            "parent_id": "OC: Area striata (granulosa)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f7de47"
+                }
+            ]
+        },
+        {
+            "name": "OC: Area striata (granulosa) - right hemisphere",
+            "parent_id": "OC: Area striata (granulosa)",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f7de47"
+                }
+            ]
+        },
+        {
+            "name": "OC: Area striata (granulosa)"
+        },
+        {
+            "name": "PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis  - left hemisphere",
+            "parent_id": "PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis ",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e62a85"
+                }
+            ]
+        },
+        {
+            "name": "PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis  - right hemisphere",
+            "parent_id": "PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis ",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e62a85"
+                }
+            ]
+        },
+        {
+            "name": "PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis "
+        },
+        {
+            "name": "PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa - left hemisphere",
+            "parent_id": "PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f74394"
+                }
+            ]
+        },
+        {
+            "name": "PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa - right hemisphere",
+            "parent_id": "PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f74394"
+                }
+            ]
+        },
+        {
+            "name": "PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa"
+        },
+        {
+            "name": "PC: Area postcentralis intermedia - left hemisphere",
+            "parent_id": "PC: Area postcentralis intermedia",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ef5796"
+                }
+            ]
+        },
+        {
+            "name": "PC: Area postcentralis intermedia - right hemisphere",
+            "parent_id": "PC: Area postcentralis intermedia",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ef5796"
+                }
+            ]
+        },
+        {
+            "name": "PC: Area postcentralis intermedia"
+        },
+        {
+            "name": "PD: Area postcentralis caudalis - left hemisphere",
+            "parent_id": "PD: Area postcentralis caudalis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#bc3579"
+                }
+            ]
+        },
+        {
+            "name": "PD: Area postcentralis caudalis - right hemisphere",
+            "parent_id": "PD: Area postcentralis caudalis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#bc3579"
+                }
+            ]
+        },
+        {
+            "name": "PD: Area postcentralis caudalis"
+        },
+        {
+            "name": "PE: Area parietalis superior - left hemisphere",
+            "parent_id": "PE: Area parietalis superior",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f8a7d2"
+                }
+            ]
+        },
+        {
+            "name": "PE: Area parietalis superior - right hemisphere",
+            "parent_id": "PE: Area parietalis superior",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f8a7d2"
+                }
+            ]
+        },
+        {
+            "name": "PE: Area parietalis superior"
+        },
+        {
+            "name": "PF: Area supramarginalis - left hemisphere",
+            "parent_id": "PF: Area supramarginalis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#fab4e0"
+                }
+            ]
+        },
+        {
+            "name": "PF: Area supramarginalis - right hemisphere",
+            "parent_id": "PF: Area supramarginalis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#fab4e0"
+                }
+            ]
+        },
+        {
+            "name": "PF: Area supramarginalis"
+        },
+        {
+            "name": "PG: Area angularis - left hemisphere",
+            "parent_id": "PG: Area angularis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f8c1e0"
+                }
+            ]
+        },
+        {
+            "name": "PG: Area angularis - right hemisphere",
+            "parent_id": "PG: Area angularis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f8c1e0"
+                }
+            ]
+        },
+        {
+            "name": "PG: Area angularis"
+        },
+        {
+            "name": "PH: Area parietalis (temporo-occipital) basalis - left hemisphere",
+            "parent_id": "PH: Area parietalis (temporo-occipital) basalis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e84982"
+                }
+            ]
+        },
+        {
+            "name": "PH: Area parietalis (temporo-occipital) basalis - right hemisphere",
+            "parent_id": "PH: Area parietalis (temporo-occipital) basalis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e84982"
+                }
+            ]
+        },
+        {
+            "name": "PH: Area parietalis (temporo-occipital) basalis"
+        },
+        {
+            "name": "TA: Area temporalis superior - left hemisphere",
+            "parent_id": "TA: Area temporalis superior",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f05566"
+                }
+            ]
+        },
+        {
+            "name": "TA: Area temporalis superior - right hemisphere",
+            "parent_id": "TA: Area temporalis superior",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f05566"
+                }
+            ]
+        },
+        {
+            "name": "TA: Area temporalis superior"
+        },
+        {
+            "name": "TB: Area supratemporalis magnocellularis simplex - left hemisphere",
+            "parent_id": "TB: Area supratemporalis magnocellularis simplex",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e94162"
+                }
+            ]
+        },
+        {
+            "name": "TB: Area supratemporalis magnocellularis simplex - right hemisphere",
+            "parent_id": "TB: Area supratemporalis magnocellularis simplex",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#e94162"
+                }
+            ]
+        },
+        {
+            "name": "TB: Area supratemporalis magnocellularis simplex"
+        },
+        {
+            "name": "TC: Area supratemporalis granulosa - left hemisphere",
+            "parent_id": "TC: Area supratemporalis granulosa",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ef406b"
+                }
+            ]
+        },
+        {
+            "name": "TC: Area supratemporalis granulosa - right hemisphere",
+            "parent_id": "TC: Area supratemporalis granulosa",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ef406b"
+                }
+            ]
+        },
+        {
+            "name": "TC: Area supratemporalis granulosa"
+        },
+        {
+            "name": "TD: Area supratemporalis intercalata - left hemisphere",
+            "parent_id": "TD: Area supratemporalis intercalata",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f54f71"
+                }
+            ]
+        },
+        {
+            "name": "TD: Area supratemporalis intercalata - right hemisphere",
+            "parent_id": "TD: Area supratemporalis intercalata",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f54f71"
+                }
+            ]
+        },
+        {
+            "name": "TD: Area supratemporalis intercalata"
+        },
+        {
+            "name": "TE: Area temporalis propria - left hemisphere",
+            "parent_id": "TE: Area temporalis propria",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ebb588"
+                }
+            ]
+        },
+        {
+            "name": "TE: Area temporalis propria - right hemisphere",
+            "parent_id": "TE: Area temporalis propria",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#ebb588"
+                }
+            ]
+        },
+        {
+            "name": "TE: Area temporalis propria"
+        },
+        {
+            "name": "TF: Area fusiformis - left hemisphere",
+            "parent_id": "TF: Area fusiformis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#b82f4f"
+                }
+            ]
+        },
+        {
+            "name": "TF: Area fusiformis - right hemisphere",
+            "parent_id": "TF: Area fusiformis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#b82f4f"
+                }
+            ]
+        },
+        {
+            "name": "TF: Area fusiformis"
+        },
+        {
+            "name": "TG: Area temporoporalis - left hemisphere",
+            "parent_id": "TG: Area temporoporalis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f7c67f"
+                }
+            ]
+        },
+        {
+            "name": "TG: Area temporoporalis - right hemisphere",
+            "parent_id": "TG: Area temporoporalis",
+            "attributes": [
+                {
+                    "schema": "siibra/attr/desc/rgb/v0.1",
+                    "value": "#f7c67f"
+                }
+            ]
+        },
+        {
+            "name": "TG: Area temporoporalis"
         }
     ]
 }
