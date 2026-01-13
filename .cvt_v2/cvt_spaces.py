@@ -1,8 +1,13 @@
 from pathlib import Path
 import json
+import requests
+
 
 ignore_urls = ("https://nist.mni.mcgill.ca/icbm-152-nonlinear-atlases-2009/",)
 
+
+sess = requests.Session()
+dsv_url = "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/ebrainsquery/v3/DatasetVersion/{dsv_uuid}.json"
 
 def cvt_vol(vol: dict):
 
@@ -97,7 +102,11 @@ def cvt_sp(sp: dict):
         attr.append({"schema": "siibra/attr/desc/description/v0.1", "value": desc})
 
     if shortname := sp.get("shortName"):
-        attr.append({"schema": "siibra/attr/desc/shortname/v0.1", "value": shortname})
+        attr.append({
+            "schema": "siibra/attr/desc/name/v0.1",
+            "value": sp["name"],
+            "shortform": shortname
+        })
 
     for pub in sp.get("publications", []):
         url: str = pub.get("url")
@@ -118,6 +127,12 @@ def cvt_sp(sp: dict):
         )
     for vol in sp["volumes"]:
         attr.extend(cvt_vol(vol))
+    
+    if dsv_uuid := sp.get("ebrains", {}).get("openminds/DatasetVersion"):
+        resp = sess.get(dsv_url.format(dsv_uuid=dsv_uuid))
+        resp.raise_for_status()
+        doi_url = resp.json()["doi"][0]["identifier"]
+        attr.append({"schema": "siibra/attr/desc/doi/v0.1", "value": doi_url})
     
     n_d["attributes"] = attr
 
