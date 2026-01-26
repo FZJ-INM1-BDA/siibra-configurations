@@ -1,0 +1,89 @@
+{
+    "schema": "siibra/annotationset/v0.1",
+    "id": "siibra-map-v0.0.1_bigbrain-isocortex-labelled",
+    "name": "BigBrain: initial tissue classification and surface extraction (2014)",
+    "species": "homo sapien",
+    "attributes": [
+        {
+            "schema": "siibra/attr/desc/url/v0.1",
+            "value": "https://bigbrain.loris.ca/papers/HBM2014poster.pdf",
+            "text": "Lewis LB, Lepage C, Fournier M et al. BigBrain: initial tissue classification and surface extraction. F1000Posters 2014, 5:933 (poster)"
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        100
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/juelich/iav/atlas/v1.0.0/4::Isocortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        100
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/juelich/iav/atlas/v1.0.0/4::Isocortex",
+                "tmp/contenttypes/neuroglancer.precompmesh"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        200
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/juelich/iav/atlas/v1.0.0/4::Non-isocortical structures",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/BigBrainRelease.2015/classif",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        200
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/juelich/iav/atlas/v1.0.0/4::Non-isocortical structures",
+                "tmp/contenttypes/neuroglancer.precompmesh"
+            ]
+        }
+    ]
+}

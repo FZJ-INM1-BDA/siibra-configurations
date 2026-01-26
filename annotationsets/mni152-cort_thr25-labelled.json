@@ -1,0 +1,2429 @@
+{
+    "schema": "siibra/annotationset/v0.1",
+    "id": "siibra-map-v0.0.1_mni152-cort_thr25-labelled",
+    "name": "Harvard-Oxford cortical and subcortical structural atlases",
+    "species": "homo sapien",
+    "attributes": [
+        {
+            "schema": "siibra/attr/desc/url/v0.1",
+            "value": "https://neurovault.org/collections/262",
+            "text": "Makris N, Goldstein JM, Kennedy D, Hodge SM, Caviness VS, Faraone SV, Tsuang MT, Seidman LJ. Decreased volume of left and total anterior insular lobule in schizophrenia. Schizophr Res. 2006 Apr;83(2-3):155-71 Frazier JA, Chiu S, Breeze JL, Makris N, Lange N, Kennedy DN, Herbert MR, Bent EK, Koneru VK, Dieterich ME, Hodge SM, Rauch SL, Grant PE, Cohen BM, Seidman LJ, Caviness VS, Biederman J. Structural brain magnetic resonance imaging of limbic and thalamic volumes in pediatric bipolar disorder. Am J Psychiatry. 2005 Jul;162(7):1256-65 Desikan RS, S\u00e9gonne F, Fischl B, Quinn BT, Dickerson BC, Blacker D, Buckner RL, Dale AM, Maguire RP, Hyman BT, Albert MS, Killiany RJ. An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest. Neuroimage. 2006 Jul 1;31(3):968-80. Goldstein JM, Seidman LJ, Makris N, Ahern T, O'Brien LM, Caviness VS Jr, Kennedy DN, Faraone SV, Tsuang MT. Hypothalamic abnormalities in schizophrenia: sex effects and genetic vulnerability. Biol Psychiatry. 2007 Apr 15;61(8):935-45"
+        },
+        {
+            "schema": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1016/j.schres.2005.11.020"
+        },
+        {
+            "schema": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1176/appi.ajp.162.7.1256"
+        },
+        {
+            "schema": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1016/j.neuroimage.2006.01.021"
+        },
+        {
+            "schema": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1016/j.biopsych.2006.06.027"
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Frontal Pole",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Frontal Pole",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        3
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Insular Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        4
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Insular Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        5
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Superior Frontal Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        6
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Superior Frontal Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        7
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Middle Frontal Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        8
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Middle Frontal Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        9
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Inferior Frontal Gyrus, pars triangularis",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        10
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Inferior Frontal Gyrus, pars triangularis",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        11
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Inferior Frontal Gyrus, pars opercularis",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        12
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Inferior Frontal Gyrus, pars opercularis",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        13
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Precentral Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        14
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Precentral Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        15
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Temporal Pole",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        16
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Temporal Pole",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        17
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Superior Temporal Gyrus, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        18
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Superior Temporal Gyrus, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        19
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Superior Temporal Gyrus, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        20
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Superior Temporal Gyrus, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        21
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Middle Temporal Gyrus, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        22
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Middle Temporal Gyrus, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        23
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Middle Temporal Gyrus, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        24
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Middle Temporal Gyrus, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        25
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Middle Temporal Gyrus, temporooccipital part",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        26
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Middle Temporal Gyrus, temporooccipital part",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        27
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Inferior Temporal Gyrus, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        28
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Inferior Temporal Gyrus, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        29
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Inferior Temporal Gyrus, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        30
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Inferior Temporal Gyrus, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        31
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Inferior Temporal Gyrus, temporooccipital part",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        32
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Inferior Temporal Gyrus, temporooccipital part",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        33
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Postcentral Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        34
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Postcentral Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        35
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Superior Parietal Lobule",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        36
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Superior Parietal Lobule",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        37
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Supramarginal Gyrus, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        38
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Supramarginal Gyrus, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        39
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Supramarginal Gyrus, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        40
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Supramarginal Gyrus, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        41
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Angular Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        42
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Angular Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        43
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Lateral Occipital Cortex, superior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        44
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Lateral Occipital Cortex, superior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        45
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Lateral Occipital Cortex, inferior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        46
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Lateral Occipital Cortex, inferior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        47
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Intracalcarine Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        48
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Intracalcarine Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        49
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Frontal Medial Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        50
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Frontal Medial Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        51
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        52
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        53
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Subcallosal Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        54
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Subcallosal Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        55
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Paracingulate Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        56
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Paracingulate Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        57
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Cingulate Gyrus, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        58
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Cingulate Gyrus, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        59
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Cingulate Gyrus, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        60
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Cingulate Gyrus, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        61
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Precuneous Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        62
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Precuneous Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        63
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Cuneal Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        64
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Cuneal Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        65
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Frontal Orbital Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        66
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Frontal Orbital Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        67
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Parahippocampal Gyrus, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        68
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Parahippocampal Gyrus, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        69
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Parahippocampal Gyrus, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        70
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Parahippocampal Gyrus, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        71
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Lingual Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        72
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Lingual Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        73
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Temporal Fusiform Cortex, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        74
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Temporal Fusiform Cortex, anterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        75
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Temporal Fusiform Cortex, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        76
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Temporal Fusiform Cortex, posterior division",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        77
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Temporal Occipital Fusiform Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        78
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Temporal Occipital Fusiform Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        79
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Occipital Fusiform Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        80
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Occipital Fusiform Gyrus",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        81
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Frontal Operculum Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        82
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Frontal Operculum Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        83
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Central Opercular Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        84
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Central Opercular Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        85
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Parietal Operculum Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        86
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Parietal Operculum Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        87
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Planum Polare",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        88
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Planum Polare",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        89
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Heschl's Gyrus (includes H1 and H2)",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        90
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Heschl's Gyrus (includes H1 and H2)",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        91
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Planum Temporale",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        92
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Planum Temporale",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        93
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Supracalcarine Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        94
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Supracalcarine Cortex",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        95
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Left Occipital Pole",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neurovault.org/media/images/262/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz",
+            "steps": [
+                {
+                    "key": "file"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        96
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/https://identifiers.org/neurovault.image:1705::Right Occipital Pole",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        }
+    ]
+}

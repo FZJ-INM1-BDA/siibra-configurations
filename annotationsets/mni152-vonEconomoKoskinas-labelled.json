@@ -1,0 +1,3972 @@
+{
+    "schema": "siibra/annotationset/v0.1",
+    "id": "siibra-map-v0.0.1_mni152-vonEconomoKoskinas-labelled",
+    "name": "An MRI Von Economo \u2013 Koskinas atlas",
+    "species": "homo sapien",
+    "attributes": [
+        {
+            "schema": "siibra/attr/desc/doi/v0.1",
+            "value": "https://doi.org/10.1016/j.neuroimage.2016.12.069"
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1000
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::Unknown - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1000
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::Unknown - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1002
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FA: Area praecentralis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1002
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FA: Area praecentralis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1003
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FB: Area frontalis agranularis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1003
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FB: Area frontalis agranularis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1004
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FC: Area frontalis intermedia - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1004
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FC: Area frontalis intermedia - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1005
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1005
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1006
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FD: Area frontalis granularis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1006
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FD: Area frontalis granularis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1007
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FDdelta: Area frontalis granularis media - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1007
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FDdelta: Area frontalis granularis media - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1008
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FDT: Area frontalis granularis triangularis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1008
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FDT: Area frontalis granularis triangularis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1009
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FE: Area frontopolaris - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1009
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FE: Area frontopolaris - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1010
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FF: Area orbitalis (granularis) - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1010
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FF: Area orbitalis (granularis) - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1011
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FG: Area gyri recti (Ar. recta) - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1011
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FG: Area gyri recti (Ar. recta) - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1012
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FH: Area praefrontalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1012
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FH: Area praefrontalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1013
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FJK: Area frontoinsularis + Area piriformis frontalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1013
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FJK: Area frontoinsularis + Area piriformis frontalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1014
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1014
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1015
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::HA: Area uncinata - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1015
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::HA: Area uncinata - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1016
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::HB: Area parauncinata - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1016
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::HB: Area parauncinata - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1017
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::HC: Area rhinalis limitans - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1017
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::HC: Area rhinalis limitans - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1018
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::IA: Area insulae praecentralis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1018
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::IA: Area insulae praecentralis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1019
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::IB: Area insulae postcentralis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1019
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::IB: Area insulae postcentralis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1020
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LA1: Area limbicus anterior agranularis - praecingularis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1020
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LA1: Area limbicus anterior agranularis - praecingularis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1021
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LA2: Area limbicus anterior agranularis - cingularis anterior - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1021
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LA2: Area limbicus anterior agranularis - cingularis anterior - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1022
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LC1: Area cingularis posterior dorsalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1022
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LC1: Area cingularis posterior dorsalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1023
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LC2: Area cingularis posterior ventralis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1023
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LC2: Area cingularis posterior ventralis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1024
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LC3: Area cingularis limitans posterior - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1024
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LC3: Area cingularis limitans posterior - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1025
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LD: Area retrosplenialis agranularis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1025
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LD: Area retrosplenialis agranularis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1026
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LE: Area retrosplenialis granulosa - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1026
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LE: Area retrosplenialis granulosa - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1027
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::OA: Area peristriata - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1027
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::OA: Area peristriata - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1028
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::OB: Area parastriata - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1028
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::OB: Area parastriata - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1029
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::OC: Area striata (granulosa) - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1029
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::OC: Area striata (granulosa) - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1030
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis  - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1030
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis  - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1031
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1031
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1032
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PC: Area postcentralis intermedia - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1032
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PC: Area postcentralis intermedia - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1033
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PD: Area postcentralis caudalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1033
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PD: Area postcentralis caudalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1034
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PE: Area parietalis superior - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1034
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PE: Area parietalis superior - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1035
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PF: Area supramarginalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1035
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PF: Area supramarginalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1036
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PG: Area angularis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1036
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PG: Area angularis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1037
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PH: Area parietalis (temporo-occipital) basalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1037
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PH: Area parietalis (temporo-occipital) basalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1038
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TA: Area temporalis superior - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1038
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TA: Area temporalis superior - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1039
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TB: Area supratemporalis magnocellularis simplex - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1039
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TB: Area supratemporalis magnocellularis simplex - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1040
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TC: Area supratemporalis granulosa - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1040
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TC: Area supratemporalis granulosa - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1041
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TD: Area supratemporalis intercalata - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1041
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TD: Area supratemporalis intercalata - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1042
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TE: Area temporalis propria - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1042
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TE: Area temporalis propria - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1043
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TF: Area fusiformis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1043
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TF: Area fusiformis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1044
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TG: Area temporoporalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        1044
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TG: Area temporoporalis - left hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2000
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::Unknown - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2000
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::Unknown - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2002
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FA: Area praecentralis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2002
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FA: Area praecentralis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2003
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FB: Area frontalis agranularis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2003
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FB: Area frontalis agranularis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2004
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FC: Area frontalis intermedia - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2004
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FC: Area frontalis intermedia - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2005
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2005
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FCBm: Area (frontalis intermedio agranularis magnocellularis in) Broca - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2006
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FD: Area frontalis granularis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2006
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FD: Area frontalis granularis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2007
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FDdelta: Area frontalis granularis media - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2007
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FDdelta: Area frontalis granularis media - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2008
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FDT: Area frontalis granularis triangularis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2008
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FDT: Area frontalis granularis triangularis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2009
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FE: Area frontopolaris - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2009
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FE: Area frontopolaris - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2010
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FF: Area orbitalis (granularis) - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2010
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FF: Area orbitalis (granularis) - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2011
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FG: Area gyri recti (Ar. recta) - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2011
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FG: Area gyri recti (Ar. recta) - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2012
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FH: Area praefrontalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2012
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FH: Area praefrontalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2013
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FJK: Area frontoinsularis + Area piriformis frontalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2013
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FJK: Area frontoinsularis + Area piriformis frontalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2014
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2014
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::FLMN: Area parolfactoria + Area geniculata + Area praecommissuralis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2015
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::HA: Area uncinata - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2015
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::HA: Area uncinata - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2016
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::HB: Area parauncinata - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2016
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::HB: Area parauncinata - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2017
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::HC: Area rhinalis limitans - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2017
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::HC: Area rhinalis limitans - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2018
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::IA: Area insulae praecentralis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2018
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::IA: Area insulae praecentralis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2019
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::IB: Area insulae postcentralis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2019
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::IB: Area insulae postcentralis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2020
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LA1: Area limbicus anterior agranularis - praecingularis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2020
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LA1: Area limbicus anterior agranularis - praecingularis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2021
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LA2: Area limbicus anterior agranularis - cingularis anterior - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2021
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LA2: Area limbicus anterior agranularis - cingularis anterior - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2022
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LC1: Area cingularis posterior dorsalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2022
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LC1: Area cingularis posterior dorsalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2023
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LC2: Area cingularis posterior ventralis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2023
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LC2: Area cingularis posterior ventralis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2024
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LC3: Area cingularis limitans posterior - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2024
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LC3: Area cingularis limitans posterior - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2025
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LD: Area retrosplenialis agranularis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2025
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LD: Area retrosplenialis agranularis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2026
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LE: Area retrosplenialis granulosa - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2026
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::LE: Area retrosplenialis granulosa - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2027
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::OA: Area peristriata - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2027
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::OA: Area peristriata - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2028
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::OB: Area parastriata - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2028
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::OB: Area parastriata - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2029
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::OC: Area striata (granulosa) - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2029
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::OC: Area striata (granulosa) - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2030
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis  - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2030
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PA: Area postcentralis gigantopyrimidalis + Area postparacentralis gigantopyrimidalis  - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2031
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2031
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PB: Area postcentralis oralis simplex + Area postcentralis oralis granulosa - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2032
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PC: Area postcentralis intermedia - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2032
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PC: Area postcentralis intermedia - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2033
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PD: Area postcentralis caudalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2033
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PD: Area postcentralis caudalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2034
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PE: Area parietalis superior - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2034
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PE: Area parietalis superior - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2035
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PF: Area supramarginalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2035
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PF: Area supramarginalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2036
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PG: Area angularis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2036
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PG: Area angularis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2037
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PH: Area parietalis (temporo-occipital) basalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2037
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::PH: Area parietalis (temporo-occipital) basalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2038
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TA: Area temporalis superior - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2038
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TA: Area temporalis superior - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2039
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TB: Area supratemporalis magnocellularis simplex - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2039
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TB: Area supratemporalis magnocellularis simplex - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2040
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TC: Area supratemporalis granulosa - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2040
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TC: Area supratemporalis granulosa - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2041
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TD: Area supratemporalis intercalata - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2041
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TD: Area supratemporalis intercalata - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2042
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TE: Area temporalis propria - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2042
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TE: Area temporalis propria - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2043
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TF: Area fusiformis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2043
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TF: Area fusiformis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://www.dutchconnectomelab.nl/economo/economoMNI152volume.zip",
+            "steps": [
+                {
+                    "key": "zipGetFile",
+                    "filename": "economoMNI152volume/economoMNI152volume.nii.gz"
+                },
+                {
+                    "key": "gunzip"
+                },
+                {
+                    "key": "nifti"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2044
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TG: Area temporoporalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+            ]
+        },
+        {
+            "schema": "siibra/attr/data/v0.1",
+            "origin": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250725-von-economo-koskinas-ingestion/economoMNI152volume",
+            "steps": [
+                {
+                    "key": "neuroglancer-precomputed"
+                },
+                {
+                    "key": "extract-label-nii",
+                    "labels": [
+                        2044
+                    ]
+                }
+            ],
+            "tags": [
+                "siibra/region/v0.1/minds/core/parcellationatlas/v1.0.0/f2b1ac621421708c1bef422bb5058456::TG: Area temporoporalis - right hemisphere",
+                "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+            ]
+        }
+    ]
+}
