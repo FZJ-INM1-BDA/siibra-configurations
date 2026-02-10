@@ -334,7 +334,7 @@ def cvt_map(d: dict, fname: str):
                     "origin": f"{sparse_index_root}{relative_path}",
                     "steps": [
                         {
-                            "key": "read-sparseindex"
+                            "key": "sparseindex-readcoords"
                         }
                     ],
                     "list_labels": [
