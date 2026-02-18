@@ -1,0 +1,33 @@
+{
+    "@id": "marmoset-nencki-monash-template--calbindin-profile-AuAL",
+    "@type": "siibra/feature/profile/marmosetcelldensity/v0.1",
+    "region": "Auditory cortex, anterolateral area",
+    "unit": "detected cells / 0.1mm3",
+    "location": {
+        "@type": "siibra/location/point/v0.1",
+        "space": {
+            "@id": "nencki/nm/referencespace/v1.0.0/MARMOSET_NM_NISSL_2020"
+        },
+        "coordinate": [
+            -10.8222222849727,
+            8.14029130712152,
+            8.78899885341525
+        ]
+    },
+    "ebrains": {
+        "openminds/Species": "627bac2f-2b4c-4f2d-ae4e-9373a7f430f2"
+    },
+    "file": "AuAL.csv",
+    "repository": {
+        "@type": "siibra/repository/zippedfile/v1.0.0",
+        "url": "https://data-proxy.ebrains.eu/api/v1/buckets/marmoset-nencki-monash-template/features/calbindin_profile.zip"
+    },
+    "decoder": {
+        "@type": "siibra/decoder/csv",
+        "delimiter": ",",
+        "header": "infer",
+        "skiprows": null,
+        "engine": "python",
+        "index_col": false
+    }
+}

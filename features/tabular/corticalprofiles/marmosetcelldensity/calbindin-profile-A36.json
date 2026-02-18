@@ -1,0 +1,33 @@
+{
+    "@id": "marmoset-nencki-monash-template--calbindin-profile-A36",
+    "@type": "siibra/feature/profile/marmosetcelldensity/v0.1",
+    "region": "Area 36 of cortex",
+    "unit": "detected cells / 0.1mm3",
+    "location": {
+        "@type": "siibra/location/point/v0.1",
+        "space": {
+            "@id": "nencki/nm/referencespace/v1.0.0/MARMOSET_NM_NISSL_2020"
+        },
+        "coordinate": [
+            -7.69333343952894,
+            7.69668883830309,
+            1.3903354331851
+        ]
+    },
+    "ebrains": {
+        "openminds/Species": "627bac2f-2b4c-4f2d-ae4e-9373a7f430f2"
+    },
+    "file": "A36.csv",
+    "repository": {
+        "@type": "siibra/repository/zippedfile/v1.0.0",
+        "url": "https://data-proxy.ebrains.eu/api/v1/buckets/marmoset-nencki-monash-template/features/calbindin_profile.zip"
+    },
+    "decoder": {
+        "@type": "siibra/decoder/csv",
+        "delimiter": ",",
+        "header": "infer",
+        "skiprows": null,
+        "engine": "python",
+        "index_col": false
+    }
+}
