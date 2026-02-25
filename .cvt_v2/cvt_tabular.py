@@ -166,6 +166,7 @@ def process_timeseries(repo: dict, decoder: dict, files: dict, regions: list):
                         "key": "readByteAsDf",
                         "sep": sep,
                         "header": header,
+                        "engine": "python",
                         "index_col": index_col,
                     },
                 ],
