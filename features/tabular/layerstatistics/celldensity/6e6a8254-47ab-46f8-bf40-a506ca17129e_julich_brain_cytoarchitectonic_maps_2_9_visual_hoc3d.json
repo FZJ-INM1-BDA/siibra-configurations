@@ -1,0 +1,432 @@
+{
+  "schema": "siibra/feature",
+  "attributes": [
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/p22717-hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc3d/v1.0",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "/0571/0004/segments.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0
+              },
+              {
+                "key": "dfAsType",
+                "dtype": {
+                  "layer": "int",
+                  "label": "int"
+                }
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/0556/0004/segments.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0
+              },
+              {
+                "key": "dfAsType",
+                "dtype": {
+                  "layer": "int",
+                  "label": "int"
+                }
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/0556/0001/segments.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0
+              },
+              {
+                "key": "dfAsType",
+                "dtype": {
+                  "layer": "int",
+                  "label": "int"
+                }
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/1246/0003/segments.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0
+              },
+              {
+                "key": "dfAsType",
+                "dtype": {
+                  "layer": "int",
+                  "label": "int"
+                }
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/1261/0000/segments.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0
+              },
+              {
+                "key": "dfAsType",
+                "dtype": {
+                  "layer": "int",
+                  "label": "int"
+                }
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/1186/0003/segments.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0
+              },
+              {
+                "key": "dfAsType",
+                "dtype": {
+                  "layer": "int",
+                  "label": "int"
+                }
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/0436/0001/segments.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0
+              },
+              {
+                "key": "dfAsType",
+                "dtype": {
+                  "layer": "int",
+                  "label": "int"
+                }
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/1186/0000/segments.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0
+              },
+              {
+                "key": "dfAsType",
+                "dtype": {
+                  "layer": "int",
+                  "label": "int"
+                }
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/0466/0001/segments.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0
+              },
+              {
+                "key": "dfAsType",
+                "dtype": {
+                  "layer": "int",
+                  "label": "int"
+                }
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/0571/0004/layerinfo.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0,
+                "index_col": 0
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/0556/0004/layerinfo.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0,
+                "index_col": 0
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/0556/0001/layerinfo.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0,
+                "index_col": 0
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/1246/0003/layerinfo.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0,
+                "index_col": 0
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/1261/0000/layerinfo.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0,
+                "index_col": 0
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/1186/0003/layerinfo.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0,
+                "index_col": 0
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/0436/0001/layerinfo.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0,
+                "index_col": 0
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/1186/0000/layerinfo.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0,
+                "index_col": 0
+              }
+            ],
+            [
+              {
+                "key": "appendStr",
+                "value": "/0466/0001/layerinfo.txt"
+              },
+              {
+                "key": "file",
+                "start": 2
+              },
+              {
+                "key": "readByteAsDf",
+                "sep": " ",
+                "header": 0,
+                "index_col": 0
+              }
+            ]
+          ]
+        },
+        {
+          "key": "contrib:layerWiseCellDensity"
+        }
+      ],
+      "list_labels": [
+        {
+          "unit": "detected cells / 0.1mm3"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/desc/modality/v0.1",
+      "value": "cell body density"
+    },
+    {
+      "schema": "siibra/attr/loc/ptcloud/v0.1",
+      "coordinates": [
+        [
+          22.11288833618164,
+          -58.599998474121094,
+          19.251829147338867
+        ],
+        [
+          22.438325881958008,
+          -58.900001525878906,
+          18.905719757080078
+        ],
+        [
+          23.21419906616211,
+          -58.900001525878906,
+          18.240713119506836
+        ],
+        [
+          -4.789126873016357,
+          -45.099998474121094,
+          18.26131820678711
+        ],
+        [
+          -4.565281867980957,
+          -44.79999923706055,
+          19.20892333984375
+        ],
+        [
+          3.533851385116577,
+          -46.29999923706055,
+          23.11106300354004
+        ],
+        [
+          29.469104766845703,
+          -61.29999923706055,
+          13.928153038024902
+        ],
+        [
+          2.629472255706787,
+          -46.29999923706055,
+          23.665742874145508
+        ],
+        [
+          29.72011947631836,
+          -60.70000076293945,
+          13.774340629577637
+        ]
+      ],
+      "sigmas": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+    }
+  ]
+}
