@@ -1,0 +1,20 @@
+{
+  "schema": "siibra/feature/v0.1",
+  "id": "nencki/nm/normalized-thickness/v1",
+  "name": "Normalized cortical thickness map (NM1.0)",
+  "attributes": [
+    {
+      "schema": "siibra/attr/desc/modality/v0.1",
+      "value": "morphometry"
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/marmoset-nencki-monash-template/features/normalized_thickness",
+      "steps": [
+        {
+          "key": "neuroglancer-precomputed"
+        }
+      ]
+    }
+  ]
+}
