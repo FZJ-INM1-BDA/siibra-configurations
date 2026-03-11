@@ -250,7 +250,7 @@ def cvt_tf(_dict: dict):
     leftover_keys = list(_dict.keys())
     assert leftover_keys == [], f"{leftover_keys=}"
     if len(datarecipes) > 0:
-        return {"schema": "siibra/feature", "attributes": [*datarecipes, *attributes]}
+        return {"schema": "siibra/feature/v0.1", "id": _id, "attributes": [*datarecipes, *attributes]}
 
 
 def cvt_tabular():
@@ -262,6 +262,7 @@ def cvt_tabular():
         if ntf:
             dst = f.relative_to("old_configs/")
             dst.parent.mkdir(exist_ok=True, parents=True)
+            dst = dst.parent / ("siibra_feature_" + dst.name)
             dst.write_text(json.dumps(ntf, indent=2))
 
 
