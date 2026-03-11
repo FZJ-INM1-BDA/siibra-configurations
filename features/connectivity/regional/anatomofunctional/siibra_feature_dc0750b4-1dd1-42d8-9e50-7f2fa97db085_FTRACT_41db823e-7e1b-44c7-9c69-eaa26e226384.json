@@ -1,0 +1,1277 @@
+{
+  "id": "legacy-aab90d886b13eeac2ad61e63509cb0bc",
+  "schema": "siibra/feature/v0.1",
+  "attributes": [
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "amplitude__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: amplitude__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "amplitude__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: amplitude__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "dcm_axonal_delay__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: dcm_axonal_delay__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "dcm_axonal_delay__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: dcm_axonal_delay__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "dcm_excitatory_tc__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: dcm_excitatory_tc__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "dcm_excitatory_tc__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: dcm_excitatory_tc__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "dcm_inhibitory_tc__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: dcm_inhibitory_tc__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "dcm_inhibitory_tc__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: dcm_inhibitory_tc__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "duration__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: duration__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "duration__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: duration__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "integral__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: integral__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "integral__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: integral__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "latency_start__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: latency_start__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "latency_start__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: latency_start__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "N_implantations.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: N_implantations"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "N_stimulations.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: N_stimulations"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "onset_delay__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: onset_delay__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "onset_delay__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: onset_delay__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "peak_delay__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: peak_delay__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "peak_delay__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: peak_delay__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "probability.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: probability"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "slope__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: slope__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "slope__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: slope__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__euclidian__dcm_axonal_delay__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__euclidian__dcm_axonal_delay__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__euclidian__dcm_axonal_delay__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__euclidian__dcm_axonal_delay__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__euclidian__latency_start__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__euclidian__latency_start__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__euclidian__latency_start__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__euclidian__latency_start__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__euclidian__onset_delay__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__euclidian__onset_delay__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__euclidian__onset_delay__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__euclidian__onset_delay__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__fibres__dcm_axonal_delay__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__fibres__dcm_axonal_delay__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__fibres__dcm_axonal_delay__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__fibres__dcm_axonal_delay__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__euclidian__peak_delay__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__euclidian__peak_delay__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__euclidian__peak_delay__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__euclidian__peak_delay__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__fibres__latency_start__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__fibres__latency_start__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__fibres__latency_start__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__fibres__latency_start__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__fibres__onset_delay__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__fibres__onset_delay__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__fibres__onset_delay__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__fibres__onset_delay__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__fibres__peak_delay__mad.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__fibres__peak_delay__mad"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-41db823e-7e1b-44c7-9c69-eaa26e226384/MNI-JulichBrain-3.0/",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "appendStr",
+                "value": "speed__fibres__peak_delay__median.txt.gz"
+              },
+              {
+                "key": "file"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": []
+        }
+      ],
+      "list_labels": [
+        {
+          "x-index/feature": "P_01: speed__fibres__peak_delay__median"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/desc/modality/v0.1",
+      "value": "AnatomoFunctionalConnectivity"
+    },
+    {
+      "schema": "siibra/attr/desc/description/v0.1",
+      "value": "F-TRACT: a probabilistic atlas of anatomo-functional connectivity of the human brain - F-TRACT_P_01_v2307"
+    },
+    {
+      "schema": "siibra/attr/desc/doi/v0.1",
+      "value": "https://doi.org/10.25493/JYVR-WJ7"
+    }
+  ],
+  "definitions": {
+    "decoder": {
+      "key": "readByteAsDf",
+      "engine": "python",
+      "header": null,
+      "index_col": false,
+      "skiprows": 8,
+      "compression": "gzip",
+      "sep": " "
+    }
+  }
+}

@@ -1,0 +1,2094 @@
+{
+  "id": "legacy-014e7ff6896a46c15f1c7792c8c7242a",
+  "schema": "siibra/feature/v0.1",
+  "attributes": [
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "13985-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "AntAID: 13985-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "14195-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "AntAID: 14195-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F1-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "LO: F1-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F10-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "LO: F10-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F13-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "LO: F13-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F19-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "LO: F19-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F3-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "LO: F3-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F35-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "LO: F35-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F36-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "LO: F36-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F37-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "LO: F37-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F38-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "LO: F38-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F18-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "MO: F18-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F25-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "MO: F25-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F29-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "MO: F29-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F9-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "MO: F9-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "18075-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "ParAIP-DI: 18075-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "12949-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "ParAIP: 12949-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "13232-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "ParDI: 13232-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "13235-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "ParDI: 13235-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "13018-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "ParGI: 13018-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "12877-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "PtP: 12877-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "12906-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "PtP: 12906-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "20420-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "PtP: 20420-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F30-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VLO: F30-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F31-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VLO: F31-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F33-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VLO: F33-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F1-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F1-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F10-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F10-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F11-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F11-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F14-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F14-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F16-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F16-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F16-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F16-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F17-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F17-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F20-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F20-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F23-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F23-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F24-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F24-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F31-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F31-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F34-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F34-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F5-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F5-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "F6-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "VO: F6-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "13234-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "lPPC: 13234-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "13236-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "lPPC: 13236-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "13238-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "lPPC: 13238-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "14122-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "lPPC: 14122-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "13234-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "mPPC: 13234-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "13236-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "mPPC: 13236-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "13238-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "mPPC: 13238-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "13347-PHAL.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "mPPC: 13347-PHAL"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/d-37258979-8b9f-4817-9d83-f009019a6c38/Semi-quantitative-analysis-siibra-csv.zip",
+      "steps": [
+        {
+          "key": "fork",
+          "list_of_specs": [
+            [
+              {
+                "key": "zipGetFile",
+                "filename": "14122-BDA.csv"
+              },
+              {
+                "$ref": "#/definitions/decoder"
+              }
+            ],
+            [
+              {
+                "$ref": "#/definitions/remapperGetBytes"
+              },
+              {
+                "$ref": "#/definitions/remapperByteToDict"
+              }
+            ]
+          ]
+        },
+        {
+          "key": "dfRename",
+          "index_col_flags": [
+            [
+              true,
+              true
+            ]
+          ]
+        }
+      ],
+      "list_labels": [
+        {
+          "https://schema.org/studySubject": "mPPC: 14122-BDA"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/desc/modality/v0.1",
+      "value": "TracingConnectivity"
+    },
+    {
+      "schema": "siibra/attr/desc/species/v0.1",
+      "value": "Rattus norvegicus"
+    },
+    {
+      "schema": "siibra/attr/desc/doi/v0.1",
+      "value": "https://doi.org/10.25493/S0DK-2DK"
+    }
+  ],
+  "definitions": {
+    "decoder": {
+      "key": "readByteAsDf",
+      "header": null,
+      "skiprows": 1,
+      "engine": "python",
+      "index_col": false,
+      "sep": ";"
+    },
+    "remapperGetBytes": {
+      "key": "zipGetFile",
+      "filename": "13985-BDA.csv"
+    },
+    "remapperByteToDict": {
+      "key": "contrib:remapperByteToDict",
+      "flavor": "tracing"
+    }
+  }
+}
