@@ -237,7 +237,7 @@ def cvt_conn():
         if ntf := cvt_d(tf):
             dst = f.relative_to("old_configs/")
             dst.parent.mkdir(exist_ok=True, parents=True)
-            dst = dst.parent / ("siibra_feature_" + dst.name)
+            dst = dst.parent / ("siibra_featureset_" + dst.name)
             ntf["id"] = ntf["id"]
             dst.write_text(json.dumps(ntf, indent=2))
 
