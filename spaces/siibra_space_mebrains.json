@@ -20,6 +20,14 @@
                 {
                     "key": "neuroglancer-precomputed"
                 }
+            ],
+            "list_labels": [
+                {
+                    "x-siibra/template/imagetype": "image"
+                },
+                {
+                    "https://openminds.om-i.org/types/ContentType": "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+                }
             ]
         },
         {
@@ -35,6 +43,14 @@
                 {
                     "key": "nifti"
                 }
+            ],
+            "list_labels": [
+                {
+                    "x-siibra/template/imagetype": "image"
+                },
+                {
+                    "https://openminds.om-i.org/types/ContentType": "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+                }
             ]
         },
         {
@@ -49,6 +65,14 @@
                 },
                 {
                     "key": "merge-mesh"
+                }
+            ],
+            "list_labels": [
+                {
+                    "x-siibra/template/imagetype": "mesh"
+                },
+                {
+                    "https://openminds.om-i.org/types/ContentType": "x-siibra/contenttype/precompmesh"
                 }
             ]
         },

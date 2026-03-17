@@ -9,6 +9,7 @@ ignore_urls = ("https://nist.mni.mcgill.ca/icbm-152-nonlinear-atlases-2009/",)
 sess = requests.Session()
 dsv_url = "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/ebrainsquery/v3/DatasetVersion/{dsv_uuid}.json"
 
+
 def cvt_vol(vol: dict):
 
     volumes = []
@@ -18,8 +19,7 @@ def cvt_vol(vol: dict):
             assert "left hemisphere" in v
             assert "right hemisphere" in v
 
-            # TODO variant ignore
-            # assert "variant" in v, f"{v} huh?"
+            assert "variant" in vol
 
             # TODO hemisphere not labelled
             for hemi in ["left hemisphere", "right hemisphere"]:
@@ -28,6 +28,18 @@ def cvt_vol(vol: dict):
                         "schema": "siibra/attr/data/v0.1",
                         "origin": v[hemi],
                         "steps": [{"key": "file"}, {"key": "gifti-mesh"}],
+                        "list_labels": [
+                            {"x-siibra/template/variant": vol.get("variant")},
+                            {"x-siibra/template/imagetype": "mesh"},
+                            {
+                                "https://openminds.om-i.org/instances/tissueSampleType/hemisphere": hemi.removesuffix(
+                                    " hemisphere"
+                                )
+                            },
+                            {
+                                "https://openminds.om-i.org/types/ContentType": "https://openminds.om-i.org/instances/contentTypes/application_vnd.gifti"
+                            },
+                        ],
                     }
                 )
             continue
@@ -42,6 +54,12 @@ def cvt_vol(vol: dict):
                     "schema": "siibra/attr/data/v0.1",
                     "origin": v,
                     "steps": [{"key": "neuroglancer-precomputed"}],
+                    "list_labels": [
+                        {"x-siibra/template/imagetype": "image"},
+                        {
+                            "https://openminds.om-i.org/types/ContentType": "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+                        },
+                    ]
                 }
             )
             continue
@@ -55,6 +73,12 @@ def cvt_vol(vol: dict):
                         {"key": "neuroglancer-precompmesh", "labels": [int(label)]},
                         {"key": "merge-mesh"},
                     ],
+                    "list_labels": [
+                        {"x-siibra/template/imagetype": "mesh"},
+                        {
+                            "https://openminds.om-i.org/types/ContentType": "x-siibra/contenttype/precompmesh"
+                        },
+                    ]
                 }
             )
             continue
@@ -68,6 +92,12 @@ def cvt_vol(vol: dict):
                         {"key": "zipGetFile", "filename": fname},
                         {"key": "nifti"},
                     ],
+                    "list_labels": [
+                        {"x-siibra/template/imagetype": "image"},
+                        {
+                            "https://openminds.om-i.org/types/ContentType": "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+                        },
+                    ]
                 }
             )
             continue
@@ -78,6 +108,12 @@ def cvt_vol(vol: dict):
                     "schema": "siibra/attr/data/v0.1",
                     "origin": v,
                     "steps": [{"key": "file"}, {"key": "gunzip"}, {"key": "nifti"}],
+                    "list_labels": [
+                        {"x-siibra/template/imagetype": "image"},
+                        {
+                            "https://openminds.om-i.org/types/ContentType": "https://openminds.om-i.org/instances/contentTypes/application_vnd.nifti.1"
+                        },
+                    ]
                 }
             )
             continue
@@ -102,11 +138,13 @@ def cvt_sp(sp: dict):
         attr.append({"schema": "siibra/attr/desc/description/v0.1", "value": desc})
 
     if shortname := sp.get("shortName"):
-        attr.append({
-            "schema": "siibra/attr/desc/name/v0.1",
-            "value": sp["name"],
-            "shortform": shortname
-        })
+        attr.append(
+            {
+                "schema": "siibra/attr/desc/name/v0.1",
+                "value": sp["name"],
+                "shortform": shortname,
+            }
+        )
 
     for pub in sp.get("publications", []):
         url: str = pub.get("url")
@@ -115,7 +153,13 @@ def cvt_sp(sp: dict):
             attr.append({"schema": "siibra/attr/desc/doi/v0.1", "value": url})
             continue
         if url.startswith("http://dx.doi.org/"):
-            attr.append({"schema": "siibra/attr/desc/doi/v0.1", "value": "https://doi.org/" + url.removeprefix("http://dx.doi.org/")})
+            attr.append(
+                {
+                    "schema": "siibra/attr/desc/doi/v0.1",
+                    "value": "https://doi.org/"
+                    + url.removeprefix("http://dx.doi.org/"),
+                }
+            )
             continue
         assert "doi" not in url, f"{url}, huh?"
         attr.append(
@@ -127,13 +171,13 @@ def cvt_sp(sp: dict):
         )
     for vol in sp["volumes"]:
         attr.extend(cvt_vol(vol))
-    
+
     if dsv_uuid := sp.get("ebrains", {}).get("openminds/DatasetVersion"):
         resp = sess.get(dsv_url.format(dsv_uuid=dsv_uuid))
         resp.raise_for_status()
         doi_url = resp.json()["doi"][0]["identifier"]
         attr.append({"schema": "siibra/attr/desc/doi/v0.1", "value": doi_url})
-    
+
     n_d["attributes"] = attr
 
     return n_d
@@ -144,9 +188,8 @@ def cvt_spaces():
     for f in _dir.glob("*.json"):
         sp = json.loads(f.read_text())
         nsp = cvt_sp(sp)
-        
+        f = f.parent / ("siibra_space_" + f.name)
         f.relative_to("old_configs/").write_text(json.dumps(nsp, indent=4))
-        
         pass
     pass
 
