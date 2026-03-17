@@ -79,6 +79,21 @@ def _cvt_repo(zipurl: str, files: dict[str, str], index_by: str):
 
 def cvt_d(_dict: dict):
 
+    def get_fs_name_from_modality():
+        match modality:
+            case "FunctionalConnectivity":
+                return f"Functional Connectivity {cohort=}"
+            case "StreamlineLengths":
+                return f"Streamline Lengths {cohort=}"
+            case "StreamlineCounts":
+                return f"Streamline Counts {cohort=}"
+            case "TracingConnectivity":
+                return f"Tracing Connectivity {cohort=}"
+            case "AnatomoFunctionalConnectivity":
+                return f"Anatomo Functional Connectivity {cohort=}"
+            case _:
+                raise Exception(f"{modality=} not caught")
+
     attributes = []
     
     _id = _dict.pop("@id", None) or md5(json.dumps(_dict).encode()).hexdigest()
@@ -206,6 +221,7 @@ def cvt_d(_dict: dict):
         # TODO what about other attributes?
     return {
         "id": _id,
+        "name": get_fs_name_from_modality(),
         "schema": "siibra/feature/v0.1",
         "attributes": [*drs, *attributes],
         "definitions": definitions,
@@ -222,7 +238,7 @@ def cvt_conn():
             dst = f.relative_to("old_configs/")
             dst.parent.mkdir(exist_ok=True, parents=True)
             dst = dst.parent / ("siibra_feature_" + dst.name)
-            ntf["id"] = "legacy-" + ntf["id"]
+            ntf["id"] = ntf["id"]
             dst.write_text(json.dumps(ntf, indent=2))
 
 
