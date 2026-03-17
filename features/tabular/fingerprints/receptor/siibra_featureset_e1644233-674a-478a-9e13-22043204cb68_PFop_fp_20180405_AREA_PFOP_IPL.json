@@ -1,0 +1,29 @@
+{
+  "schema": "siibra/feature/v0.1",
+  "name": "neurotransmitter receptor density",
+  "id": "e1644233-674a-478a-9e13-22043204cb68--bc71e77f44175d1e265d2aae57a4aa7c",
+  "attributes": [
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/p22717-hbp-d000045_receptors-human-PFop_pub/v1.0/PFop_fp_20180405.tsv",
+      "steps": [
+        {
+          "key": "file"
+        },
+        {
+          "key": "readByteAsDf",
+          "sep": "\t"
+        }
+      ],
+      "list_labels": []
+    },
+    {
+      "schema": "siibra/attr/desc/modality/v0.1",
+      "value": "neurotransmitter receptor density"
+    },
+    {
+      "schema": "siibra/attr/desc/description/v0.1",
+      "value": "Feature on Area PFop (IPL)"
+    }
+  ]
+}

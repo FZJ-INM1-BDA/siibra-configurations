@@ -1,0 +1,57 @@
+{
+  "schema": "siibra/feature/v0.1",
+  "name": "segmented cell body density",
+  "id": "42921577-c977-4562-85c6-a56f2ee87386--6ff846255c077ebf9b7bd5345292aa7b",
+  "attributes": [
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/p22717-hbp-d000061_BB-CorticalCellDistribution_pub/FrontalPole_Fp1/v1.0/6796/0001/segments.txt",
+      "steps": [
+        {
+          "key": "file",
+          "start": 2
+        },
+        {
+          "key": "readByteAsDf",
+          "sep": " ",
+          "header": 0
+        },
+        {
+          "key": "dfAsType",
+          "dtype": {
+            "layer": "int",
+            "label": "int"
+          }
+        }
+      ],
+      "list_labels": [
+        {
+          "bigbrain/section/celldensitypatch": "0001"
+        },
+        {
+          "bigbrain/section": "6796"
+        },
+        {
+          "unit": "detected cells / 0.1mm3"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/desc/modality/v0.1",
+      "value": "segmented cell body density"
+    },
+    {
+      "schema": "siibra/attr/desc/description/v0.1",
+      "value": "Feature on Area Fp1 (FPole)"
+    },
+    {
+      "schema": "siibra/attr/loc/pt/v0.1",
+      "coordinate": [
+        -5.630852222442627,
+        65.9000015258789,
+        -16.89331817626953
+      ],
+      "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+    }
+  ]
+}

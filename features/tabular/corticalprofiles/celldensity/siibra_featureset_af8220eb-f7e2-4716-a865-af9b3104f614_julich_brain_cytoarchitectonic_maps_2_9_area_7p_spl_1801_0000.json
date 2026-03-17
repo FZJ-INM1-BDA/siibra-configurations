@@ -1,0 +1,57 @@
+{
+  "schema": "siibra/feature/v0.1",
+  "name": "segmented cell body density",
+  "id": "20c510ae-938a-4ef5-bcc6-d6724e2f6d01--4ec0d75ad7165d1906b0bebe97e1c584",
+  "attributes": [
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/p22717-hbp-d000061_BB-CorticalCellDistribution_pub/SPL_7P/v1.0/1801/0000/segments.txt",
+      "steps": [
+        {
+          "key": "file",
+          "start": 2
+        },
+        {
+          "key": "readByteAsDf",
+          "sep": " ",
+          "header": 0
+        },
+        {
+          "key": "dfAsType",
+          "dtype": {
+            "layer": "int",
+            "label": "int"
+          }
+        }
+      ],
+      "list_labels": [
+        {
+          "bigbrain/section/celldensitypatch": "0000"
+        },
+        {
+          "bigbrain/section": "1801"
+        },
+        {
+          "unit": "detected cells / 0.1mm3"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/desc/modality/v0.1",
+      "value": "segmented cell body density"
+    },
+    {
+      "schema": "siibra/attr/desc/description/v0.1",
+      "value": "Feature on Area 7P (SPL)"
+    },
+    {
+      "schema": "siibra/attr/loc/pt/v0.1",
+      "coordinate": [
+        2.7239625453948975,
+        -34.0,
+        45.207359313964844
+      ],
+      "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+    }
+  ]
+}

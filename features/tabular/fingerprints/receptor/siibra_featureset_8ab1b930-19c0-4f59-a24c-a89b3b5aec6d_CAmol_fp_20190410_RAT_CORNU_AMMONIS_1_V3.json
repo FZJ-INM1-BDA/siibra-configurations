@@ -1,0 +1,29 @@
+{
+  "schema": "siibra/feature/v0.1",
+  "name": "neurotransmitter receptor density",
+  "id": "8ab1b930-19c0-4f59-a24c-a89b3b5aec6d--9e14cac971c667d31922372ec3559ec2",
+  "attributes": [
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/p22717-hbp-d000045_receptors-rat-CAmol_pub/v1.0/CAmol_fp_20190410.tsv",
+      "steps": [
+        {
+          "key": "file"
+        },
+        {
+          "key": "readByteAsDf",
+          "sep": "\t"
+        }
+      ],
+      "list_labels": []
+    },
+    {
+      "schema": "siibra/attr/desc/modality/v0.1",
+      "value": "neurotransmitter receptor density"
+    },
+    {
+      "schema": "siibra/attr/desc/description/v0.1",
+      "value": "Feature on Cornu ammonis 1"
+    }
+  ]
+}

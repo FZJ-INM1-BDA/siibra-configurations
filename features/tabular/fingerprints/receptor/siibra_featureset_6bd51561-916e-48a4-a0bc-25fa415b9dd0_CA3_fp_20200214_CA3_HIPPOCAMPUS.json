@@ -1,0 +1,29 @@
+{
+  "schema": "siibra/feature/v0.1",
+  "name": "neurotransmitter receptor density",
+  "id": "6bd51561-916e-48a4-a0bc-25fa415b9dd0--e77c9a69072b5ffc9cf0e9c6a2d844e2",
+  "attributes": [
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/p22717-hbp-d000045_receptors-human-CA3_pub/v2.0/CA3_fp_20200214.tsv",
+      "steps": [
+        {
+          "key": "file"
+        },
+        {
+          "key": "readByteAsDf",
+          "sep": "\t"
+        }
+      ],
+      "list_labels": []
+    },
+    {
+      "schema": "siibra/attr/desc/modality/v0.1",
+      "value": "neurotransmitter receptor density"
+    },
+    {
+      "schema": "siibra/attr/desc/description/v0.1",
+      "value": "Feature on CA3 (Hippocampus)"
+    }
+  ]
+}

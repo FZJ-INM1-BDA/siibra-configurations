@@ -1,0 +1,29 @@
+{
+  "schema": "siibra/feature/v0.1",
+  "name": "neurotransmitter receptor density",
+  "id": "9472fabf-7b8b-4d50-94a8-88811e9b6666--4f1d19ed1fb53e2eed5c66cbb3b394ec",
+  "attributes": [
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/p22717-hbp-d000045_receptors-human-PF_pub/v1.0/PF_fp_20180405.tsv",
+      "steps": [
+        {
+          "key": "file"
+        },
+        {
+          "key": "readByteAsDf",
+          "sep": "\t"
+        }
+      ],
+      "list_labels": []
+    },
+    {
+      "schema": "siibra/attr/desc/modality/v0.1",
+      "value": "neurotransmitter receptor density"
+    },
+    {
+      "schema": "siibra/attr/desc/description/v0.1",
+      "value": "Feature on Area PF (IPL)"
+    }
+  ]
+}

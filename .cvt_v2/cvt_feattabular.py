@@ -2,6 +2,7 @@ from pathlib import Path
 import json
 from hashlib import md5
 
+MODALITY_KEY = "siibra/attr/desc/modality/v0.1"
 
 modality_map = {
     "siibra/feature/profile/celldensity/v0.1": "segmented cell body density",
@@ -15,7 +16,12 @@ def process_region(region_str: str | None):
     if region_str is None:
         return []
     # TODO waiting on anchor PR
-    return []
+    return [
+        {
+            "schema": "siibra/attr/desc/description/v0.1",
+            "value": f"Feature on {region_str}",
+        }
+    ]
 
 
 def process_location(loc: dict | None):
@@ -152,7 +158,7 @@ def process_timeseries(repo: dict, decoder: dict, files: dict, regions: list):
     assert decoder == {}
 
     assert sep == "  "
-    
+
     drs = []
     for sub, fname in files.items():
         drs.append(
@@ -187,7 +193,7 @@ def cvt_tf(_dict: dict):
     modality = modality_map.get(_type) or _dict.pop(
         "modality"
     )  # some feature do not have modality defined in json
-    attributes.append({"schema": "siibra/attr/desc/modality/v0.1", "value": modality})
+    attributes.append({"schema": MODALITY_KEY, "value": modality})
     attributes.extend(process_region(_dict.pop("region", None)))
     attributes.extend(process_location(_dict.pop("location", None)))
     attributes.extend(process_ebrains(_dict.pop("ebrains", None)))
@@ -202,13 +208,15 @@ def cvt_tf(_dict: dict):
     repository = _dict.pop("repository", None)
 
     prerelease = _dict.pop("prerelease", None)
-    
+
     # TODO waiting for anchorresolver (?)
     parcellation = _dict.pop("parcellation", None)
     decoder = _dict.pop("decoder", None)
     regions = _dict.pop("regions", None)
 
     file = _dict.pop("file", None)
+
+    receptor = _dict.pop("receptor", None)
     if file:
         assert _type in (
             "siibra/feature/profile/celldensity/v0.1",
@@ -216,8 +224,6 @@ def cvt_tf(_dict: dict):
             "siibra/feature/fingerprint/receptor/v0.1",
         )
 
-        # TODO waiting for anchorresolver (?)
-        receptor = _dict.pop("receptor", None)
         datarecipes.extend(process_file(file, _type))
 
     if _type == "siibra/feature/fingerprint/celldensity/v0.1":
@@ -246,24 +252,88 @@ def cvt_tf(_dict: dict):
     if unit:
         for dr in datarecipes:
             dr["list_labels"].append({"unit": unit})
+    if receptor:
+        for dr in datarecipes:
+            dr["list_labels"].append({"x-siibra/receptor": receptor})
 
     leftover_keys = list(_dict.keys())
     assert leftover_keys == [], f"{leftover_keys=}"
-    if len(datarecipes) > 0:
-        return {"schema": "siibra/feature/v0.1", "id": _id, "attributes": [*datarecipes, *attributes]}
+    assert len(datarecipes) > 0
+    
+    return {
+        "schema": "siibra/feature/v0.1",
+        "name": f"{modality}",
+        "id": _id,
+        "attributes": [*datarecipes, *attributes],
+    }
+
+
+def reduce_dict(acc: list[tuple[str, dict]], curr: tuple[str, dict]) -> list[str, dict]:
+    
+    suffixes_to_remove = [
+        "5_HT1A",
+        "5_HT2",
+        "ALPHA1",
+        "ALPHA2",
+        "ALPHA4BETA2",
+        "AMPA",
+        "BZ",
+        "D1",
+        "GABAA",
+        "GABAB",
+        "M1",
+        "M2",
+        "M3",
+        "MGLUR2_3",
+        "NMDA",
+        "KAINATE",
+    ]
+
+    fpath, _curr_dict = curr
+    for attr in _curr_dict['attributes']:
+        if attr["schema"] == MODALITY_KEY:
+            if attr["value"] != "neurotransmitter receptor profile":
+                return [*acc, curr]
+
+    fname = Path(fpath).name
+    assert "_HOMO_SAPIENS_" in fname
+    prefix, partition, suffix = fname.partition("_HOMO_SAPIENS_")
+
+    suffix = suffix.removesuffix(".json")
+    for suf in suffixes_to_remove:
+        suffix = suffix.removesuffix(suf)
+    suffix.removesuffix("_")
+    suffix += ".json"
+    
+    final_fname = str(Path(fpath).parent / f"{prefix}_{suffix}")
+
+    for fpath, _dict in acc:
+        if fpath == final_fname:
+            append_attr = [attr for attr in _curr_dict["attributes"] if attr["schema"] == "siibra/attr/data/v0.1"]
+            _dict["attributes"].extend(append_attr)
+            return acc
+
+    _id, *rest = _curr_dict["id"].split("--")
+    assert len(rest) == 1
+    _curr_dict["id"] = _id
+    return [*acc, (final_fname, _curr_dict)]
 
 
 def cvt_tabular():
     _dir = Path("old_configs/features/tabular")
+
+    acc: list[tuple[str, dict]] = []
     for f in _dir.glob("**/*.json"):
-        print("f", f)
         tf = json.loads(f.read_text())
         ntf = cvt_tf(tf)
         if ntf:
             dst = f.relative_to("old_configs/")
-            dst.parent.mkdir(exist_ok=True, parents=True)
-            dst = dst.parent / ("siibra_feature_" + dst.name)
-            dst.write_text(json.dumps(ntf, indent=2))
+            dst = dst.parent / ("siibra_featureset_" + dst.name)
+            acc = reduce_dict(acc, (str(dst), ntf))
+
+    for fname, ntf in acc:
+        Path(fname).parent.mkdir(exist_ok=True, parents=True)
+        Path(fname).write_text(json.dumps(ntf, indent=2))
 
 
 if __name__ == "__main__":

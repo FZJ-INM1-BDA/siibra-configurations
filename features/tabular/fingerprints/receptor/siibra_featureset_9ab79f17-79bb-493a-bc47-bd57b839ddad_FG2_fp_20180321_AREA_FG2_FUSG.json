@@ -1,0 +1,29 @@
+{
+  "schema": "siibra/feature/v0.1",
+  "name": "neurotransmitter receptor density",
+  "id": "9ab79f17-79bb-493a-bc47-bd57b839ddad--113feaa819a2322e9dee5dbe0efe0b8b",
+  "attributes": [
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/p22717-hbp-d000045_receptors-human-FG2_pub/v1.0/FG2_fp_20180321.tsv",
+      "steps": [
+        {
+          "key": "file"
+        },
+        {
+          "key": "readByteAsDf",
+          "sep": "\t"
+        }
+      ],
+      "list_labels": []
+    },
+    {
+      "schema": "siibra/attr/desc/modality/v0.1",
+      "value": "neurotransmitter receptor density"
+    },
+    {
+      "schema": "siibra/attr/desc/description/v0.1",
+      "value": "Feature on Area FG2 (FusG)"
+    }
+  ]
+}

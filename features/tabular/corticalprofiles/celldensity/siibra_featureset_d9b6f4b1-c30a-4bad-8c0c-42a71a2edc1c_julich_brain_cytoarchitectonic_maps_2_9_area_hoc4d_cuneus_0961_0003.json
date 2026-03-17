@@ -1,0 +1,57 @@
+{
+  "schema": "siibra/feature/v0.1",
+  "name": "segmented cell body density",
+  "id": "8cd8506e-3a6f-406e-92c8-b52dda1dea23--7a073bba59c3a4d167ac11364b2e7883",
+  "attributes": [
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/p22717-hbp-d000061_BB-CorticalCellDistribution_pub/Visual_hOc4d/v1.0/0961/0003/segments.txt",
+      "steps": [
+        {
+          "key": "file",
+          "start": 2
+        },
+        {
+          "key": "readByteAsDf",
+          "sep": " ",
+          "header": 0
+        },
+        {
+          "key": "dfAsType",
+          "dtype": {
+            "layer": "int",
+            "label": "int"
+          }
+        }
+      ],
+      "list_labels": [
+        {
+          "bigbrain/section/celldensitypatch": "0003"
+        },
+        {
+          "bigbrain/section": "0961"
+        },
+        {
+          "unit": "detected cells / 0.1mm3"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/desc/modality/v0.1",
+      "value": "segmented cell body density"
+    },
+    {
+      "schema": "siibra/attr/desc/description/v0.1",
+      "value": "Feature on Area hOc4d (Cuneus)"
+    },
+    {
+      "schema": "siibra/attr/loc/pt/v0.1",
+      "coordinate": [
+        13.494803428649902,
+        -50.79999923706055,
+        22.914413452148438
+      ],
+      "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+    }
+  ]
+}

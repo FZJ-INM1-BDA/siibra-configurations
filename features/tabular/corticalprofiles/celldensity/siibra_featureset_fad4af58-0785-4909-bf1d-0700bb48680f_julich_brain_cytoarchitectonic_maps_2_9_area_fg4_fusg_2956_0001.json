@@ -1,0 +1,57 @@
+{
+  "schema": "siibra/feature/v0.1",
+  "name": "segmented cell body density",
+  "id": "b2f37528-0d3d-4f55-90f4-4073086e4564--eab54134378b9a939aef744912891d72",
+  "attributes": [
+    {
+      "schema": "siibra/attr/data/v0.1",
+      "origin": "https://data-proxy.ebrains.eu/api/v1/buckets/p22717-hbp-d000061_BB-CorticalCellDistribution_pub/Visual_FG4/v1.0/2956/0001/segments.txt",
+      "steps": [
+        {
+          "key": "file",
+          "start": 2
+        },
+        {
+          "key": "readByteAsDf",
+          "sep": " ",
+          "header": 0
+        },
+        {
+          "key": "dfAsType",
+          "dtype": {
+            "layer": "int",
+            "label": "int"
+          }
+        }
+      ],
+      "list_labels": [
+        {
+          "bigbrain/section/celldensitypatch": "0001"
+        },
+        {
+          "bigbrain/section": "2956"
+        },
+        {
+          "unit": "detected cells / 0.1mm3"
+        }
+      ]
+    },
+    {
+      "schema": "siibra/attr/desc/modality/v0.1",
+      "value": "segmented cell body density"
+    },
+    {
+      "schema": "siibra/attr/desc/description/v0.1",
+      "value": "Feature on Area FG4 (FusG)"
+    },
+    {
+      "schema": "siibra/attr/loc/pt/v0.1",
+      "coordinate": [
+        40.13227844238281,
+        -10.899999618530273,
+        -18.4654483795166
+      ],
+      "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+    }
+  ]
+}
