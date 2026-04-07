@@ -12,14 +12,21 @@ modality_map = {
 }
 
 
-def process_region(region_str: str | None):
-    if region_str is None:
+def process_region(region_str: str | None = None, parcellation_id: str | None = None):
+    if region_str is None and parcellation_id is None:
         return []
-    # TODO waiting on anchor PR
+    spec = {
+        "key": "siibra/region/spec/v0.1",
+    }
+    if region_str:
+        spec["name"] = region_str
+    if parcellation_id:
+        spec["parcellation_id"] = parcellation_id
+
     return [
         {
-            "schema": "siibra/attr/desc/description/v0.1",
-            "value": f"Feature on {region_str}",
+            "schema": "siibra/attr/desc/resolvable/v0.1",
+            "spec": spec,
         }
     ]
 
@@ -189,12 +196,16 @@ def cvt_tf(_dict: dict):
     attributes = []
     datarecipes = []
 
+    parcellation = _dict.pop("parcellation", {})
+
     # metadata keys
     modality = modality_map.get(_type) or _dict.pop(
         "modality"
     )  # some feature do not have modality defined in json
     attributes.append({"schema": MODALITY_KEY, "value": modality})
-    attributes.extend(process_region(_dict.pop("region", None)))
+    attributes.extend(
+        process_region(_dict.pop("region", None), parcellation.get("@id"))
+    )
     attributes.extend(process_location(_dict.pop("location", None)))
     attributes.extend(process_ebrains(_dict.pop("ebrains", None)))
     attributes.extend(process_species(_dict.pop("species", None)))
@@ -209,8 +220,6 @@ def cvt_tf(_dict: dict):
 
     prerelease = _dict.pop("prerelease", None)
 
-    # TODO waiting for anchorresolver (?)
-    parcellation = _dict.pop("parcellation", None)
     decoder = _dict.pop("decoder", None)
     regions = _dict.pop("regions", None)
 
@@ -259,7 +268,7 @@ def cvt_tf(_dict: dict):
     leftover_keys = list(_dict.keys())
     assert leftover_keys == [], f"{leftover_keys=}"
     assert len(datarecipes) > 0
-    
+
     return {
         "schema": "siibra/feature/v0.1",
         "name": f"{modality}",
@@ -269,7 +278,7 @@ def cvt_tf(_dict: dict):
 
 
 def reduce_dict(acc: list[tuple[str, dict]], curr: tuple[str, dict]) -> list[str, dict]:
-    
+
     suffixes_to_remove = [
         "5_HT1A",
         "5_HT2",
@@ -290,7 +299,7 @@ def reduce_dict(acc: list[tuple[str, dict]], curr: tuple[str, dict]) -> list[str
     ]
 
     fpath, _curr_dict = curr
-    for attr in _curr_dict['attributes']:
+    for attr in _curr_dict["attributes"]:
         if attr["schema"] == MODALITY_KEY:
             if attr["value"] != "neurotransmitter receptor profile":
                 return [*acc, curr]
@@ -304,12 +313,16 @@ def reduce_dict(acc: list[tuple[str, dict]], curr: tuple[str, dict]) -> list[str
         suffix = suffix.removesuffix(suf)
     suffix.removesuffix("_")
     suffix += ".json"
-    
+
     final_fname = str(Path(fpath).parent / f"{prefix}_{suffix}")
 
     for fpath, _dict in acc:
         if fpath == final_fname:
-            append_attr = [attr for attr in _curr_dict["attributes"] if attr["schema"] == "siibra/attr/data/v0.1"]
+            append_attr = [
+                attr
+                for attr in _curr_dict["attributes"]
+                if attr["schema"] == "siibra/attr/data/v0.1"
+            ]
             _dict["attributes"].extend(append_attr)
             return acc
 
