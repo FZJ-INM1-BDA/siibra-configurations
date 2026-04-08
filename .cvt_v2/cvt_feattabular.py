@@ -15,9 +15,7 @@ modality_map = {
 def process_region(region_str: str | None = None, parcellation_id: str | None = None):
     if region_str is None and parcellation_id is None:
         return []
-    spec = {
-        "key": "siibra/region/spec/v0.1",
-    }
+    spec = {}
     if region_str:
         spec["name"] = region_str
     if parcellation_id:
@@ -26,7 +24,9 @@ def process_region(region_str: str | None = None, parcellation_id: str | None = 
     return [
         {
             "schema": "siibra/attr/desc/resolvable/v0.1",
-            "spec": spec,
+            "spec": {
+                "siibra/region/spec/v0.1": spec
+            },
         }
     ]
 
@@ -64,16 +64,37 @@ def process_location(loc: dict | None):
     raise Exception(f"{_type=}")
 
 
-def process_ebrains(loc: dict):
-    # TODO NYI
-    return []
+def process_ebrains(spec: dict[str, str]):
+    if sp := spec.get("openminds/Species"):
+        assert sp in {
+            "97c070c6-8e1f-4ee8-9d28-18c7945921dd", # homo sapien
+            "ab532423-1fd7-4255-8c6f-f99dc6df814f", # Rattus norvegicus
+        }
+    spec = {k: v for k, v in spec.items() if not k.startswith("minds/")}
+    
+    return [
+        {
+            "schema": "siibra/attr/desc/resolvable/v0.1",
+            "spec": {
+                "ebrains": spec,
+            }
+        }
+    ]
 
 
 def process_species(species: str | None):
     if species is None:
         return []
-    # TODO NYI
-    return []
+    return [
+        {
+            "schema": "siibra/attr/desc/resolvable/v0.1",
+            "spec": {
+                "siibra/species/spec/v0.1": {
+                    "label": species
+                }
+            }
+        }
+    ]
 
 
 def process_file(file: str | None, _type: str):

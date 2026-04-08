@@ -43,8 +43,9 @@
     {
       "schema": "siibra/attr/desc/resolvable/v0.1",
       "spec": {
-        "key": "siibra/region/spec/v0.1",
-        "name": "Area FG1 (FusG)"
+        "siibra/region/spec/v0.1": {
+          "name": "Area FG1 (FusG)"
+        }
       }
     },
     {
@@ -55,6 +56,16 @@
         -5.969238758087158
       ],
       "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+    },
+    {
+      "schema": "siibra/attr/desc/resolvable/v0.1",
+      "spec": {
+        "ebrains": {
+          "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+          "openminds/Dataset": "a19a2068-a82e-4e3e-96fe-9a7829cd06bb",
+          "openminds/DatasetVersion": "f25c6728-2b53-4304-aa36-6165bbca3971"
+        }
+      }
     }
   ]
 }

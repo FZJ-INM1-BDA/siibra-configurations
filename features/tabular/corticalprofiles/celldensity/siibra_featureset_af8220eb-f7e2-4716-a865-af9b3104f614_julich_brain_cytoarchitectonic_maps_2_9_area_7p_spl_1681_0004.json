@@ -43,8 +43,9 @@
     {
       "schema": "siibra/attr/desc/resolvable/v0.1",
       "spec": {
-        "key": "siibra/region/spec/v0.1",
-        "name": "Area 7P (SPL)"
+        "siibra/region/spec/v0.1": {
+          "name": "Area 7P (SPL)"
+        }
       }
     },
     {
@@ -55,6 +56,16 @@
         42.37186050415039
       ],
       "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+    },
+    {
+      "schema": "siibra/attr/desc/resolvable/v0.1",
+      "spec": {
+        "ebrains": {
+          "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+          "openminds/Dataset": "af8220eb-f7e2-4716-a865-af9b3104f614",
+          "openminds/DatasetVersion": "20c510ae-938a-4ef5-bcc6-d6724e2f6d01"
+        }
+      }
     }
   ]
 }

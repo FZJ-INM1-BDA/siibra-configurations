@@ -43,8 +43,9 @@
     {
       "schema": "siibra/attr/desc/resolvable/v0.1",
       "spec": {
-        "key": "siibra/region/spec/v0.1",
-        "name": "Area hOc1 (V1, 17, CalcS)"
+        "siibra/region/spec/v0.1": {
+          "name": "Area hOc1 (V1, 17, CalcS)"
+        }
       }
     },
     {
@@ -55,6 +56,16 @@
         5.984400749206543
       ],
       "space_id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
+    },
+    {
+      "schema": "siibra/attr/desc/resolvable/v0.1",
+      "spec": {
+        "ebrains": {
+          "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+          "openminds/Dataset": "dc358cb8-2bbb-40f1-998c-356c9e13e4c6",
+          "openminds/DatasetVersion": "f2cd6b97-e42d-41af-a01b-5caf2d692e28"
+        }
+      }
     }
   ]
 }
