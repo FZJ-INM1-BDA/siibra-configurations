@@ -1,5 +1,47 @@
 from pathlib import Path
 import json
+from functools import cache
+
+import requests
+
+sess = requests.Session()
+
+
+@cache
+def get_ds_json(ds: str) -> str:
+    resp = sess.get(f"https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/ebrainsquery/v3/Dataset/{ds}.json")
+    resp.raise_for_status()
+    return resp.json()
+
+
+@cache
+def get_dsv_json(dsv: str) -> str:
+    resp = sess.get(f"https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/ebrainsquery/v3/DatasetVersion/{dsv}.json")
+    resp.raise_for_status()
+    return resp.json()
+
+def get_ds_from_dsv(d: dict, /, *, validate_value=None):
+    parent = d.get("isVersionOf")
+    assert isinstance(parent, list)
+    assert len(parent) == 1
+    ds = parent[0]["id"].split("/")[-1]
+    if validate_value is not None:
+        assert ds == validate_value
+    return ds
+
+
+def process_modality(modality: str):
+    mod = {"schema": "siibra/attr/desc/modality/v0.1", "value": modality}
+    match modality:
+        case "cell body staining" | "XPCT" | "LSFM":
+            mod["category"] = "cellular"
+        case "PLI HSV fibre orientation map" | "transmittance" | "DTI":
+            mod["category"] = "fibres"
+        case "morphometry" | "MRI Segmentation" | "T2 weighted MRI" | "blockface":
+            mod["category"] = "macrostructural"
+        case _:
+            raise Exception(f"modality {modality=} unresolved")
+    return [mod]
 
 
 def process_ebrains(spec: dict[str, str]):
@@ -9,11 +51,11 @@ def process_ebrains(spec: dict[str, str]):
         assert sp in {
             "97c070c6-8e1f-4ee8-9d28-18c7945921dd",  # homo sapien
             "ab532423-1fd7-4255-8c6f-f99dc6df814f",  # Rattus norvegicus
-            "627bac2f-2b4c-4f2d-ae4e-9373a7f430f2", # marmoset
+            "627bac2f-2b4c-4f2d-ae4e-9373a7f430f2",  # marmoset
         }
     spec = {k: v for k, v in spec.items() if not k.startswith("minds/")}
 
-    return [
+    return_arr = [
         {
             "schema": "siibra/attr/desc/resolvable/v0.1",
             "spec": {
@@ -21,6 +63,25 @@ def process_ebrains(spec: dict[str, str]):
             },
         }
     ]
+
+    if dsv := spec.get("openminds/DatasetVersion"):
+        dsv_json = get_dsv_json(dsv)
+        try:
+            doiurl = dsv_json["doi"][0]["identifier"]
+            return_arr.append({
+                "schema": "siibra/attr/desc/doi/v0.1",
+                "value": doiurl
+            })
+        except Exception:
+            ds = get_ds_from_dsv(dsv_json, validate_value=spec.get("openminds/Dataset"))
+            ds_json = get_ds_json(ds)
+            if desc := ds_json.get("description"):
+                return_arr.append({
+                    "schema": "siibra/attr/desc/description/v0.1",
+                    "value": desc
+                })
+
+    return return_arr
 
 
 def process_region(region_str: str | None = None, parcellation_id: str | None = None):
@@ -60,8 +121,8 @@ def cvt_img(feat):
     attributes = []
     _id = feat.pop("@id")
     name = feat.pop("name")
-    modality = feat.pop("modality")
     boundingbox = feat.pop("boundingbox")
+
     attributes.extend(process_region(feat.pop("region", None)))
     attributes.extend(process_ebrains(feat.pop("ebrains", None)))
 
@@ -76,9 +137,9 @@ def cvt_img(feat):
     assert providers == {}
     assert isinstance(ngurl, str)
 
+    attributes.extend(process_modality(feat.pop("modality")))
     assert feat == {}
-
-    attributes.append({"schema": "siibra/attr/desc/modality/v0.1", "value": modality})
+    
     if publications:
         assert isinstance(publications, list)
         for pub in publications:

@@ -13,6 +13,10 @@
       }
     },
     {
+      "schema": "siibra/attr/desc/description/v0.1",
+      "value": "A human brain specimen was scanned ex vivo using a preclinical ultra high field (UHF) magnetic resonance imaging (MRI) system at 11.7T to obtain a mesoscopic anatomical and diffusion MRI dataset. A 500um isotropic resolution block-face image was acquired on a 3T clinical MRI before cutting the brain to separate its two hemispheres. Each hemisphere was then cut into blocks of 20cm x 4.2cm x 4.2cm each. Up to 4 scans were performed over 4 overlapping sub-field of views (5.6cm x 4.2cm x 4.2cm) to cover each entire block, providing high resolution anatomical MRI data at 100um and 150um isotropic resolution, and multiple-shell diffusion MRI data at 200um isotropic resolution along 25/60/90 diffusion directions with b=1500/4500/8000s/mm\u00b2.\nIn order to reconstruct the whole encephalon from the set of individual scans covering different 5.6cmx4.2cmx4.2cm field of views, a dedicated preprocessing pipeline was developed to perform various file conversions (Bruker native format, DICOM format, NIFTI format), to correct images from Rician noise corruption, to correct from intensity inhomogeneities, to compute diffeomorphic transformations for all the invidvidual scans to the block-face frame, to perform spatial (for anatomy) and spatial+q-space (for diffusion) reinterpolation, and ultimately to create 3 dataset:\n- a high resolution 100um anatomical UHF MRI dataset,\n- a high resolution 150um anatomical UHF MRI dataset,\n- a high resolution 200um multiple-shell diffusion UHF MRI dataset.\n\nThese 3 dataset are the input of a series of processing steps to deliver:\n- a 3D map of segmented deep gray structures at the mesoscopic scale,\n- a 3D map of segmented laminar structures within the cortex at the mesoscopic scale,\n- a 3D map of long and short white matter fiber bundles at the mesoscopic scale\n- a set of connectivity matrices between cortex areas and deep gray structures corresponding to the various cortex parcellations available from the HBP atlas."
+    },
+    {
       "schema": "siibra/attr/desc/resolvable/v0.1",
       "spec": {
         "siibra/space/spec/v0.1": {
@@ -22,7 +26,8 @@
     },
     {
       "schema": "siibra/attr/desc/modality/v0.1",
-      "value": "T2 weighted MRI"
+      "value": "T2 weighted MRI",
+      "category": "macrostructural"
     },
     {
       "schema": "siibra/attr/data/v0.1",
