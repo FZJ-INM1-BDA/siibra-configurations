@@ -9,16 +9,21 @@ sess = requests.Session()
 
 @cache
 def get_ds_json(ds: str) -> str:
-    resp = sess.get(f"https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/ebrainsquery/v3/Dataset/{ds}.json")
+    resp = sess.get(
+        f"https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/ebrainsquery/v3/Dataset/{ds}.json"
+    )
     resp.raise_for_status()
     return resp.json()
 
 
 @cache
 def get_dsv_json(dsv: str) -> str:
-    resp = sess.get(f"https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/ebrainsquery/v3/DatasetVersion/{dsv}.json")
+    resp = sess.get(
+        f"https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/ebrainsquery/v3/DatasetVersion/{dsv}.json"
+    )
     resp.raise_for_status()
     return resp.json()
+
 
 def get_ds_from_dsv(d: dict, /, *, validate_value=None):
     parent = d.get("isVersionOf")
@@ -68,18 +73,14 @@ def process_ebrains(spec: dict[str, str]):
         dsv_json = get_dsv_json(dsv)
         try:
             doiurl = dsv_json["doi"][0]["identifier"]
-            return_arr.append({
-                "schema": "siibra/attr/desc/doi/v0.1",
-                "value": doiurl
-            })
+            return_arr.append({"schema": "siibra/attr/desc/doi/v0.1", "value": doiurl})
         except Exception:
             ds = get_ds_from_dsv(dsv_json, validate_value=spec.get("openminds/Dataset"))
             ds_json = get_ds_json(ds)
             if desc := ds_json.get("description"):
-                return_arr.append({
-                    "schema": "siibra/attr/desc/description/v0.1",
-                    "value": desc
-                })
+                return_arr.append(
+                    {"schema": "siibra/attr/desc/description/v0.1", "value": desc}
+                )
 
     return return_arr
 
@@ -139,7 +140,7 @@ def cvt_img(feat):
 
     attributes.extend(process_modality(feat.pop("modality")))
     assert feat == {}
-    
+
     if publications:
         assert isinstance(publications, list)
         for pub in publications:
@@ -162,6 +163,11 @@ def cvt_img(feat):
             "schema": "siibra/attr/data/v0.1",
             "origin": ngurl,
             "steps": [{"key": "neuroglancer-precomputed"}],
+            "list_labels": [
+                {
+                    "https://openminds.om-i.org/types/ContentType": "https://openminds.om-i.org/instances/contentTypes/application_vnd.ebrains.image-service.neuroglancer.precomputed"
+                },
+            ],
         }
     )
 
