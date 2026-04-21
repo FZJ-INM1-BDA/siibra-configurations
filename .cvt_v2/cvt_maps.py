@@ -81,8 +81,11 @@ def process_nii(url: str, label: int = None, z: int = None):
     if label:
         steps.append({"key": "extract-label-nii", "labels": [label]})
 
-    if z:
-        steps.append({"key": "extract-z-nii", "z": z})
+    if z is not None:
+        steps = [{
+            "key": "read-nii-extract-z",
+            "z": z
+        }]
     return {
         "schema": "siibra/attr/data/v0.1",
         "origin": url,
