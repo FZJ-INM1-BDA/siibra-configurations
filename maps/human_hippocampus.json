@@ -1,0 +1,131 @@
+{
+	"@type": "siibra/map/v0.0.1",
+	"@id": "siibra-map-v0.0.1_mni152-human_hippocampus-labelled",
+	"name": "Human Hippocampus Atlas (name pending)",
+	"parcellation": {
+		"@id": "minds/core/parcellationatlas/v1.0.0/eb2227704c045cb03b3e1e9d2e5da64e"
+	},
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2"
+	},
+	"volumes": [
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/buckets/ebrains2-t13-human-hippocampus-mri-pli/segmentation_flipped_cropped.nii.gz"
+			}
+		}
+	],
+	"indices": {
+		"EC_head": [
+			{
+				"label": 11
+			}
+		],
+		"Sub_head": [
+			{
+				"label": 12
+			}
+		],
+		"CA1_head": [
+			{
+				"label": 13
+			}
+		],
+		"CA3_head": [
+			{
+				"label": 14
+			}
+		],
+		"GD_head": [
+			{
+				"label": 15
+			}
+		],
+		"ALV_head": [
+			{
+				"label": 16
+			}
+		],
+		"FIMBRIA_head": [
+			{
+				"label": 17
+			}
+		],
+		"HS_head": [
+			{
+				"label": 18
+			}
+		],
+		"CPH_body": [
+			{
+				"label": 20
+			}
+		],
+		"EC_body": [
+			{
+				"label": 21
+			}
+		],
+		"Sub_body": [
+			{
+				"label": 22
+			}
+		],
+		"CA1_body": [
+			{
+				"label": 23
+			}
+		],
+		"CA3_body": [
+			{
+				"label": 24
+			}
+		],
+		"GD_body": [
+			{
+				"label": 25
+			}
+		],
+		"ALV_body": [
+			{
+				"label": 26
+			}
+		],
+		"FIMBRIA_body": [
+			{
+				"label": 27
+			}
+		],
+		"HS_body": [
+			{
+				"label": 28
+			}
+		],
+		"CPH_tail": [
+			{
+				"label": 31
+			}
+		],
+		"Sub_tail": [
+			{
+				"label": 32
+			}
+		],
+		"Label_tail": [
+			{
+				"label": 33
+			}
+		],
+		"HS_tail": [
+			{
+				"label": 38
+			}
+		],
+		"AMYGD": [
+			{
+				"label": 40
+			}
+		]
+	}
+}
