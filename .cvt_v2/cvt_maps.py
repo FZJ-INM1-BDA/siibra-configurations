@@ -82,10 +82,7 @@ def process_nii(url: str, label: int = None, z: int = None):
         steps.append({"key": "extract-label-nii", "labels": [label]})
 
     if z is not None:
-        steps = [{
-            "key": "read-nii-extract-z",
-            "z": z
-        }]
+        steps = [{"key": "read-nii-extract-z", "z": z}]
     return {
         "schema": "siibra/attr/data/v0.1",
         "origin": url,
@@ -170,7 +167,14 @@ def process_index(index: dict, volumes: list[dict], parc_id: str, rname: str, **
 
     # ignore bounding box
 
-    common_tags = [{"siibra/region/v0.1": f"{parc_id}::{rname}"}]
+    common_tags = [
+        {
+            "siibra/region/spec/v0.1": {
+                "parcellation_id": parc_id,
+                "name": rname,
+            }
+        }
+    ]
 
     if dsv_uuid := ebrains.get("openminds/DatasetVersion"):
         doi_url: str = get_doi_from_dsv(dsv_uuid)
