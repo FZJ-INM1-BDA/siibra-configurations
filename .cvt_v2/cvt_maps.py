@@ -345,7 +345,7 @@ def cvt_map(d: dict, fname: str):
                     {
                         "schema": "siibra/attr/data/v0.1",
                         "origin": f"{sparse_index_root}{relative_path}",
-                        "steps": [{"key": "sparseindex-readcoords", "parcellation_id": parc_id}],
+                        "steps": [{"key": "sparseindex-readcoords", }],
                         "list_labels": [
                             {
                                 "https://openminds.om-i.org/types/ContentType": "tmp/contenttypes/spatial-index.v0"
