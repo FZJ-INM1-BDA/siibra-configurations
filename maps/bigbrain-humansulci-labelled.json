@@ -1,5 +1,5 @@
 {
-    "@id": "siibra-map-v0.0.1_bigbrain-humansulci-labelled",
+    "@id": "siibra-map-v0.0.1_bigbrain-sulci-labelled",
     "name": "Morphologist Brain Sulci Atlas (2018)",
     "space": {
         "@id": "minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588"
@@ -11,11 +11,12 @@
         {
             "@type": "siibra/volume/v0.0.1",
             "providers": {
-                "neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250519-ingest-sulci/full_cls_400um_border_sulci",
-                "neuroglancer/precompmesh": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20250519-ingest-sulci/full_cls_400um_border_sulci"
+                "nii": "https://data-proxy.ebrains.eu/api/v1/buckets/d-8dcb0e78-9bb4-44e9-8102-82e539f7d487/full_cls_400um/full_cls_400um_sulci.nii.gz",
+                "neuroglancer/precompmesh": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/ing-svc/20260220-sulci-atlas/full_cls_400um/full_cls_400um_sulci"
             },
             "ebrains": {
-                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+                "openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd",
+                "openminds/DatasetVersion": "8dcb0e78-9bb4-44e9-8102-82e539f7d487"
             }
         }
     ],
@@ -477,12 +478,6 @@
                 "label": 76
             }
         ],
-        "Right median occipito-temporal lateral sulcus": [
-            {
-                "volume": 0,
-                "label": 77
-            }
-        ],
         "Left posterior occipito-temporal lateral sulcus": [
             {
                 "volume": 0,
@@ -499,12 +494,6 @@
             {
                 "volume": 0,
                 "label": 80
-            }
-        ],
-        "Right occipito-polar sulcus": [
-            {
-                "volume": 0,
-                "label": 81
             }
         ],
         "Left olfactory sulcus": [
@@ -759,52 +748,16 @@
                 "label": 123
             }
         ],
-        "ventricle_left": [
+        "Left superior rostral sulcus": [
             {
                 "volume": 0,
                 "label": 124
             }
         ],
-        "ventricle_right": [
+        "Right superior rostral sulcus": [
             {
                 "volume": 0,
                 "label": 125
-            }
-        ],
-        "unknown_left": [
-            {
-                "volume": 0,
-                "label": 126
-            }
-        ],
-        "unknown_right": [
-            {
-                "volume": 0,
-                "label": 127
-            }
-        ],
-        "S.R.sup._left": [
-            {
-                "volume": 0,
-                "label": 128
-            }
-        ],
-        "S.R.sup._right": [
-            {
-                "volume": 0,
-                "label": 129
-            }
-        ],
-        "S.intraCing._left": [
-            {
-                "volume": 0,
-                "label": 130
-            }
-        ],
-        "S.intraCing._right": [
-            {
-                "volume": 0,
-                "label": 131
             }
         ]
     },
@@ -822,5 +775,5 @@
             "citation": "Léonie Borne, Denis Rivière, Martial Mancip, Jean-François Mangin, Automatic labeling of cortical sulci using patch- or CNN-based segmentation techniques combined with bottom-up geometric constraints, Medical Image Analysis, Volume 62, 2020, 101651, ISSN 1361-8415, https://doi.org/10.1016/j.media.2020.101651.",
             "license": "CC BY SA NC 4.0"
         }
-    ]    
+    ]
 }
