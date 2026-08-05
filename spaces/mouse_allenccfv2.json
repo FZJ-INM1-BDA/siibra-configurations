@@ -1,0 +1,54 @@
+{
+	"@id": "minds/core/referencespace/v1.0.0/b935e97c-fc7a-412d-9e41-5422bab8de14",
+	"@type": "minds/core/referencespace/v1.0.0",
+	"name": "Allen Mouse Common Coordinate Framework v2",
+	"shortName": "Allen CCFv2",
+	"srcVolumeType": "mri",
+	"displayName": "Allen Mouse Common Coordinate Framework v2",
+	"templateType": "neuroglancer/precomputed",
+	"volumeSrc": [{
+		"@type": "fzj/tmp/volume_type/v0.0.1",
+		"@id": "fzj/tmp/volume_type/v0.0.1/allenccfv2",
+		"name": "allenccfv2",
+		"volume_type": "neuroglancer/precomputed",
+		"url": "http://download.alleninstitute.org/informatics-archive/october-2014/annotation/atlasVolume.zip",
+		"detail": {
+			"neuroglancer/precomputed": {
+				"transform": [[1,0,0,-5737500],[0,1,0,-6637500],[0,0,1,-4037500],[0,0,0,1]]
+			}
+		}
+	},
+	{		
+	"@id": "fzj/tmp/volume_type/v0.0.1/allenccfv2_auxmesh",
+	"name": "allenccfv2_auxmesh",
+	"volume_type": "neuroglancer/precompmesh",
+	"url": "https://neuroglancer.humanbrainproject.eu/precomputed/AMBA/parcellations/v3_2017_mesh",
+	"detail": {
+		"neuroglancer/precompmesh": {
+			"auxMeshes": [{
+				"name": "Whole brain",
+				"labelIndicies": [ 997 ]
+			}],
+			"transform": [[0,0,-1,5670000],[-1,0,0,6570000],[0,-1,0,3970000],[0,0,0,1]]
+		}
+	}
+	}],
+	"originDatasets": [{
+		"@type": "fzj/tmp/simpleOriginInfo/v0.0.1",
+		"name": "Allen Mouse Common Coordinate Framework v2",
+		"description": "The Allen Mouse Common Coordinate Framework v3 2015 includes a full-color, high-resolution anatomical reference atlas accompanied by a systematic, hierarchically organized taxonomy of mouse brain structures. Anatomical annotations in classical histological atlas plates were extracted to create a comprehensive volumetric reference atlas of the mouse brain.",
+		"urls": [
+			{
+				"cite": "Allen Mouse Brain Connectivity Atlas [Internet]. Seattle (WA): Allen Institute for Brain Science. ©2011. Available from: http://connectivity.brain-map.org/."
+			},
+			{
+				"cite": "Oh, S.W. et al. (2014) A mesoscale connectome of the mouse brain, Nature 508: 207-214.",
+				"doi": "10.1038/nature13186"
+			},
+			{
+				"cite": "http://download.alleninstitute.org/informatics-archive/current-release/mouse_ccf/",
+				"doi": "http://download.alleninstitute.org/informatics-archive/current-release/mouse_ccf/"
+			}
+		]
+	}]
+}
