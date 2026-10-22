@@ -5,6 +5,9 @@ on:
     branches: ["master"]
     tags: ["**"]
 
+permissions:
+  contents: read
+
 env:
   EBRAINS_GITLAB_REPO: ri/tech-hub/apps/siibra/siibra-configurations-mirror.git
 
@@ -16,13 +19,19 @@ jobs:
     if: ${{ vars.EBRAINS_GITLAB_HOST != '' }}
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       with:
         fetch-depth: 0
+        persist-credentials: false
     - name: mirror to remote
+      env:
+        EBRAINS_GITLAB_HOST: ${{ vars.EBRAINS_GITLAB_HOST }}
+        EBRAINS_GITLAB_PUSH_TOKEN: ${{ secrets.EBRAINS_GITLAB_PUSH_TOKEN }}
+      # Push to the URL directly instead of adding a remote, so the token is
+      # never written to .git/config.
       run: |
         git fetch --tags -f
         git fetch origin master
-        if ! git ls-remote ebrains > /dev/null; then git remote add ebrains https://jugitpusher:${{ secrets.EBRAINS_GITLAB_PUSH_TOKEN }}@${{ vars.EBRAINS_GITLAB_HOST }}/${{ env.EBRAINS_GITLAB_REPO }}; fi
-        git push ebrains --tags -f
-        git push ebrains HEAD:master -f 
+        MIRROR_URL="https://jugitpusher:${EBRAINS_GITLAB_PUSH_TOKEN}@${EBRAINS_GITLAB_HOST}/${EBRAINS_GITLAB_REPO}"
+        git push "$MIRROR_URL" --tags -f
+        git push "$MIRROR_URL" HEAD:master -f

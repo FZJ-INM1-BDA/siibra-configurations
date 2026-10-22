@@ -1,108 +1,52 @@
 name: '[test] test configuration'
 
-on: [push]
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  check_jsons:
+  check:
+    name: ${{ matrix.name }}
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      # add new test scripts here
+      matrix:
+        include:
+        - name: check_jsons
+          script: verify_json.py
+        - name: check_ebrains_id
+          script: verify_ebrains_ids.py
+        - name: region_attr_compliance
+          script: region_attr_compliance.py
+        - name: check_map_volume_idx
+          script: verify_volume_idx.py
+        - name: check_maps
+          script: verify_maps.py
+        - name: check_neuroglancer_urls
+          script: verify_neuroglancer_urls.py
+        - name: ensure_no_duplicated_region_name
+          script: ensure_no_duplicated_region_name.py
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v4
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       with:
-        python-version: '3.10'
+        persist-credentials: false
+    - name: Set up Python
+      uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      with:
+        python-version: '3.12'
     - name: Install requirements
       run: |
-          pip install -U pip
-          pip install -r _ci/requirements.txt
-    - name: Verify json
-      run: python _ci/verify_json.py
-  
-  check_ebrains_id:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-    - name: Install requirements
-      run: |
-          pip install -U pip
-          pip install -r _ci/requirements.txt
-    - name: Verify EBRAINS IDs
-      run: python _ci/verify_ebrains_ids.py
-  
-  region_attr_compliance:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-    - name: Install requirements
-      run: |
-          pip install -U pip
-          pip install -r _ci/requirements.txt
-    - name: Region attribute compliance
-      run: python _ci/region_attr_compliance.py
-
-  check_map_volume_idx:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-    - name: Install requirements
-      run: |
-          pip install -U pip
-          pip install -r _ci/requirements.txt
-    - name: Verify map volume indices
-      run: python _ci/verify_volume_idx.py
-
-  check_maps:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-    - name: Install requirements
-      run: |
-          pip install -U pip
-          pip install -r _ci/requirements.txt
-    - name: Verify maps
-      run: python _ci/verify_maps.py
-
-  check_neuroglancer_urls:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-    - name: Install requirements
-      run: |
-          pip install -U pip
-          pip install -r _ci/requirements.txt
-    - name: Verify neuroglancer urls
-      run: python _ci/verify_neuroglancer_urls.py
-
-  ensure_no_duplicated_region_name:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-    - name: Install requirements
-      run: |
-          pip install -U pip
-          pip install -r _ci/requirements.txt
-    - name: Verify no duplicated region name
-      run: python _ci/ensure_no_duplicated_region_name.py
+        python -m pip install --upgrade pip
+        python -m pip install -r _ci/requirements.txt
+    - name: Run _ci/${{ matrix.script }}
+      env:
+        SCRIPT: ${{ matrix.script }}
+      run: python "_ci/$SCRIPT"

@@ -1,0 +1,62 @@
+name: 'Set up siibra-python'
+description: >-
+  Check out siibra-python, install it from its pyproject.toml together with its
+  requirements-test.txt, and point SIIBRA_USE_CONFIGURATION at this
+  repository. Expects siibra-configurations to be checked out at the
+  workspace root. Run pytest with working-directory set to the
+  `siibra-python-dir` output.
+
+inputs:
+  siibra-python-ref:
+    description: 'siibra-python branch, tag or sha to install'
+    required: false
+    default: 'main'
+  python-version:
+    description: 'Python version to set up'
+    required: false
+    default: '3.12'
+
+outputs:
+  siibra-python-dir:
+    description: 'Absolute path of the siibra-python checkout'
+    value: ${{ steps.move.outputs.dir }}
+
+runs:
+  using: composite
+  steps:
+  - name: Checkout siibra-python (${{ inputs.siibra-python-ref }})
+    uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+    with:
+      repository: FZJ-INM1-BDA/siibra-python
+      ref: ${{ inputs.siibra-python-ref }}
+      path: .siibra-python-checkout
+      persist-credentials: false
+
+  # Move siibra-python out of the workspace, so that its files never become
+  # part of the configuration directory that siibra and the checks read.
+  - id: move
+    name: Move siibra-python out of the workspace
+    shell: bash
+    run: |
+      dir="$RUNNER_TEMP/siibra-python"
+      rm -rf "$dir"
+      mv .siibra-python-checkout "$dir"
+      echo "dir=$dir" >> "$GITHUB_OUTPUT"
+
+  - name: Set up Python ${{ inputs.python-version }}
+    uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+    with:
+      python-version: ${{ inputs.python-version }}
+
+  - name: Install siibra-python and its test requirements
+    shell: bash
+    working-directory: ${{ steps.move.outputs.dir }}
+    run: |
+      python -m pip install --upgrade pip
+      python -m pip install . -r requirements-test.txt
+
+  - name: Use this repository as siibra configuration
+    shell: bash
+    run: |
+      echo "SIIBRA_USE_CONFIGURATION=$GITHUB_WORKSPACE" >> "$GITHUB_ENV"
+      echo "SIIBRA_LOG_LEVEL=INFO_WO_PROGRESS_BARS" >> "$GITHUB_ENV"

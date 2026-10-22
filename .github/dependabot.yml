@@ -1,0 +1,29 @@
+# Dependabot opens update PRs itself, so no workflow needs write access.
+# Enable "Dependabot alerts" and "Dependabot security updates" in the repository
+# settings as well, to get immediate PRs when a dependency has a known vulnerability.
+# Mirrors siibra-python's .github/dependabot.yml.
+version: 2
+updates:
+  # SHA-pinned actions in the workflows and the composite action
+  - package-ecosystem: github-actions
+    directories:
+      - /
+      - /.github/actions/setup-siibra-python
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7  # skip releases younger than a week (supply-chain safety margin)
+    groups:
+      github-actions:
+        patterns: ["*"]
+
+  # Requirements of the _ci/ scripts (_ci/requirements*.txt)
+  - package-ecosystem: pip
+    directory: /_ci
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    groups:
+      python-dependencies:
+        patterns: ["*"]
