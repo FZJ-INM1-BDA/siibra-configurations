@@ -1,38 +1,37 @@
 name: '[test] check connectivity'
 
-on: 
+on:
   pull_request:
     paths:
-      - 'features/connectivity/**/*.json'
+    - 'features/connectivity/**/*.json'
+  workflow_dispatch:
+    inputs:
+      siibra_python_ref:
+        description: 'siibra-python branch, tag or sha to use'
+        required: false
+        default: 'main'
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   check_connectivity_json:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v4
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       with:
-        python-version: '3.10'
+        persist-credentials: false
 
-    - name: checkout siibra-python
-      uses: actions/checkout@v4
+    - id: siibra
+      uses: ./.github/actions/setup-siibra-python
       with:
-        repository: FZJ-INM1-BDA/siibra-python
-        path:  siibra-python-${{ github.run_id }}-${{ github.run_number }}
-        fetch-depth: 1
-        clean: True
-        ref: 'main'
-    
-    - name: move siibra-python one up from workspace
-      run: mv siibra-python-${{ github.run_id }}-${{ github.run_number }} ../siibra-python
-    
-    - name: Install siibra-python testing requirements
-      run: |
-          pip install -r ../siibra-python/requirements-test.txt
-          pip install -r ../siibra-python/requirements.txt
-    
+        siibra-python-ref: ${{ inputs.siibra_python_ref || 'main' }}
+
     - name: connectivity e2e test
-      run: |
-        SIIBRA_USE_CONFIGURATION='./'
-        pytest ../siibra-python/e2e/features/connectivity/test_connectivity.py
+      working-directory: ${{ steps.siibra.outputs.siibra-python-dir }}
+      run: pytest -rx e2e/features/connectivity/test_connectivity.py

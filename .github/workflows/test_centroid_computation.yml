@@ -2,39 +2,46 @@ name: '[test] test compute centroids'
 
 on:
   push:
+    branches: ["**"]
     paths:
     - 'maps/**'
-    tags: ["**"]
-  
+  workflow_dispatch:
+    inputs:
+      siibra_python_ref:
+        description: 'siibra-python branch, tag or sha to use'
+        required: false
+        default: 'main'
+        type: string
+      all_maps:
+        description: 'compute centroids of all maps (otherwise a random sample)'
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  test_preconfigured_boundingboxes:
+  test_compute_centroids:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v4
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       with:
-        python-version: '3.10'
+        persist-credentials: false
 
-    - name: checkout siibra-python
-      uses: actions/checkout@v4
+    - id: siibra
+      uses: ./.github/actions/setup-siibra-python
       with:
-        repository: FZJ-INM1-BDA/siibra-python
-        path:  siibra-python-${{ github.run_id }}-${{ github.run_number }}
-        fetch-depth: 1
-        clean: True
-        ref: 'main'
-    
-    - name: move siibra-python one up from workspace
-      run: mv siibra-python-${{ github.run_id }}-${{ github.run_number }} ../siibra-python
-    
-    - name: Install siibra-python testing requirements
-      run: |
-          pip install -r ../siibra-python/requirements-test.txt
-          pip install -r ../siibra-python/requirements.txt
-    
+        siibra-python-ref: ${{ inputs.siibra_python_ref || 'main' }}
+
     - name: check if centroids can be calculated for all maps
-      run: |
-        export SIIBRA_USE_CONFIGURATION='./'
-        pytest ../siibra-python/e2e/volumes/test_compute_centroids.py
+      working-directory: ${{ steps.siibra.outputs.siibra-python-dir }}
+      env:
+        # siibra-python tests a random sample of 3 maps unless TEST_ALL_MAPS
+        # is set. test all maps when map configurations change
+        TEST_ALL_MAPS: 'true'
+      run: pytest -rx e2e/volumes/test_compute_centroids.py
