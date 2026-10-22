@@ -3,10 +3,10 @@ name: '[cron] update KG proxy'
 on:
   schedule:
     - cron: '5 4 * * 0' # every Sunday at 4am
+  workflow_dispatch:
 
-env:
-  EBRAINS_CCFLOW_CLIENT_ID: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_ID }}
-  EBRAINS_CCFLOW_CLIENT_SECRET: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_SECRET }}
+permissions:
+  contents: read
 
 jobs:
   update:
@@ -20,7 +20,7 @@ jobs:
 
         - artefacts-dir: "ebrainsquery/v3/ParcellationEntity"
           query-id: "d236e213-c048-4331-bfd9-b45c60bc3d03"
-          
+
         - artefacts-dir: "ebrainsquery/v3/ParcellationEntityVersion"
           query-id: "5e80bb84-68cf-4425-859b-5306f6838693"
 
@@ -32,39 +32,40 @@ jobs:
 
         - artefacts-dir: "ebrainsquery/v3/DatasetVersion"
           query-id: "64ad0cd6-fbd6-47d3-b247-099e9ce8f313"
-        
-        - query-id: "457f7213-54e4-4ca4-8ae2-a8b559f410fe"
-          artefacts-dir: "ebrainsquery/v3/ParcellationEntityVersion_studyTarget"
-    steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-    - name: 'Install dependencies'
-      run: |
-        pip install ebrains-drive
-        pip install git+https://github.com/xgui3783/ebrains-iam-util.git
-    - name: 'Fetch and Sync to KG proxy'
-      run: |
-        export EBRAINS_QUERY_ID=${{ matrix.query-id }}
-        export EBRAINS_ARTEFACTS_DIR=${{ matrix.artefacts-dir }}
-        export EBRAINS_CCFLOW_CLIENT_ID=${{ env.EBRAINS_CCFLOW_CLIENT_ID }}
-        export EBRAINS_CCFLOW_CLIENT_SECRET=${{ env.EBRAINS_CCFLOW_CLIENT_SECRET }}
 
-        python _ci/cron_sync_kg_proxy.py
-  
+        - artefacts-dir: "ebrainsquery/v3/ParcellationEntityVersion_studyTarget"
+          query-id: "457f7213-54e4-4ca4-8ae2-a8b559f410fe"
+    steps:
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      with:
+        persist-credentials: false
+    - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      with:
+        python-version: '3.12'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -r _ci/requirements-cron.txt
+    - name: Fetch and sync to KG proxy
+      env:
+        EBRAINS_QUERY_ID: ${{ matrix.query-id }}
+        EBRAINS_ARTEFACTS_DIR: ${{ matrix.artefacts-dir }}
+        EBRAINS_CCFLOW_CLIENT_ID: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_ID }}
+        EBRAINS_CCFLOW_CLIENT_SECRET: ${{ secrets.EBRAINS_OIDC_SIIBRA_CI_CLIENT_SECRET }}
+      run: python _ci/cron_sync_kg_proxy.py
+
   latest-siibra-release:
     runs-on: ubuntu-latest
-    env:
-      GH_TOKEN: ${{ github.token }}
     outputs:
       LATEST_TAG: ${{ steps.get-latest-tag.outputs.LATEST_TAG }}
     steps:
     - id: get-latest-tag
+      env:
+        GH_TOKEN: ${{ github.token }}
       run: |
-        LATEST_TAG=$(gh release -R fzj-inm1-bda/siibra-python ls --jq '.[0].tagName' --json 'tagName')
-        echo LATEST_TAG=$LATEST_TAG
-        echo "LATEST_TAG=$LATEST_TAG" >> $GITHUB_OUTPUT
+        LATEST_TAG=$(gh release -R FZJ-INM1-BDA/siibra-python ls --jq '.[0].tagName' --json 'tagName')
+        echo "LATEST_TAG=$LATEST_TAG"
+        echo "LATEST_TAG=$LATEST_TAG" >> "$GITHUB_OUTPUT"
 
   check-region-e2e:
     runs-on: ubuntu-latest
@@ -72,13 +73,19 @@ jobs:
     - update
     - latest-siibra-release
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       with:
-        repository: 'fzj-inm1-bda/siibra-python'
+        repository: FZJ-INM1-BDA/siibra-python
         ref: ${{ needs.latest-siibra-release.outputs.LATEST_TAG }}
-    - uses: actions/setup-python@v5
+        persist-credentials: false
+    - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
       with:
-        python-version: '3.10'
-    - run: pip install -U pip && pip install -e . && pip install pytest
-    - run: pytest e2e/core/test_region.py
-
+        python-version: '3.12'
+    - name: Install siibra-python and its test requirements
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install . -r requirements-test.txt
+    - name: e2e / core / test_region
+      env:
+        SIIBRA_LOG_LEVEL: INFO_WO_PROGRESS_BARS
+      run: pytest -rx e2e/core/test_region.py
