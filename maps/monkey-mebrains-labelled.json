@@ -11,22 +11,202 @@
 			"@type": "siibra/volume/v0.0.1",
 			"providers": {
 				"neuroglancer/precomputed": "https://neuroglancer.humanbrainproject.eu/precomputed/data-repo-ng-bot/siibra-config/20230712-updated-mebrain-labelled-map/MEBRAINS_segmentation_sym_20230707_filtered"
-			},
-			"publications": [
-				{
-					"name": "MEBRAINS Multilevel Macaque Brain Atlas",
-					"url": "https://search.kg.ebrains.eu/instances/e39a0407-a98a-480e-9c63-4a2225ddfbe4",
-					"authors": [
-						""
-					],
-					"license": "",
-					"description": "The MEBRAINS Multilevel Macaque Brain Atlas integrates multiple aspects of brain organisation spanning different spatial and temporal scales as revealed by complementary structural, functional and connectivity-based datasets. \nThe Atlas is centered around the MEBRAINS Template, a population-based template that represents an average of high-resolution structural T1 and T2 MRI scans as well as CT scans of 10 rhesus macaque monkey brains. The MEBRAINS Template not only serves as anchorage for structural and functional data within the Julich-Leuven Multilevel Macaque Brain Atlas, but can also be downloaded for the analysis of functional imaging and whole-brain connectivity studies. We also provide a manually curated segmentation of the cortical ribbon, the lateral ventricles and multiple subcortical structures.\nThe Julich Brain Macaque Maps are defined at the microscopic scale based on a multimodal quantitative architectonic analysis of one Macaca mulatta and three Macaca fascicularis post-mortem brains. They provide delineations of distinct cyto- and receptor architectonically identified areas for comparison with in vivo neuroimaging findings ([Rapan et al. 2021](https://doi.org/10.1016/j.neuroimage.2020.117574)). The criteria used for identification and delineation of each area are described in the publications associated with the corresponding delineation data set, and individual maps have also been registered to the Yerkes 19 reference space ([Donahue et al., 2016](https://www.jneurosci.org/content/36/25/6758)). The Julich Brain Macaque Maps are complemented with information on the densities of 14 different receptors for multiple classical neurotransmitters as revealed by means of in vitro quantitative receptor autoradiography ([Palomero & Zilles, 2018](https://www.sciencedirect.com/science/article/pii/B9780444636393000244?via%3Dihub); [Zilles et al. 2002](https://www.sciencedirect.com/science/article/abs/pii/S0924977X02001086?via%3Dihub)), representing a mesoscopical scale of brain organisation. \nThe Julich-Leuven Multilevel Macaque Brain Atlas will be continuously extended with new areas and populated by a growing selection of multimodal data spanning multiple structural and time scales (e.g., probabilistic retinotopic maps).",
-					"citation": ""
-				}
-			],
-			"ebrains": {
-				"minds/core/species/v1.0.0": "745712aa-fad1-47c4-8ab6-088063f78f64",
-				"openminds/Species": "3ad33ec1-5152-497d-9352-1cf4497e0edd"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-78834da5-917a-4ec8-bc2f-5ac9705b6b95/sub-25a/anat/sub-25a_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/6E42-F3Q/sub-25a_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-419dd762-dd94-43c6-bb5c-30192d946092/sub-25p/anat/sub-25p_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/E71S-73H/sub-25p_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-e2ff8f9e-b337-412e-a2ac-67dcf70a928f/sub-s24/anat/sub-s24_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/Y9PW-PSM/sub-s24_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-084ed240-2b69-4206-9b6f-ec94c9deb9dd/sub-s32/anat/sub-s32_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/GVH9-2SX/sub-s32_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-b4a544de-6678-4de8-87ae-9854698cc2c1/sub-p32/anat/sub-p32_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/Q4Y3-K48/sub-p32_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-3cb67aea-3345-4d23-8587-6b2c3d2d33f2/sub-24a/anat/sub-24a_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/WAMX-JSC/sub-24a_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-27e6378c-e68f-49bf-8432-0dac05b95351/sub-24b/anat/sub-24b_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/C8FP-XNH/sub-24b_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-1a42b6cd-0e52-49cf-bdaf-3b195526b6b6/sub-24cv/anat/sub-24cv_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/4YHZ-2DK/sub-24cv_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-7833b6b2-d25f-4563-adb5-9c57e365da9a/sub-24cd/anat/sub-24cd_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/VWN5-JG0/sub-24cd_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-d8cdee4e-cb12-4f5f-8212-01abc3b2a41c/sub-a24ap/anat/sub-a24ap_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/QPPM-NP0/sub-a24ap_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-7f3b95fa-5261-4647-8f8b-b592b1f9e96e/sub-a24bp/anat/sub-a24bp_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/8KE3-G93/sub-a24bp_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-1681dc30-d4cc-48ff-a854-75da7f10f313/sub-24cpv/anat/sub-24cpv_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/PB0T-FNY/sub-24cpv_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-329cc314-cf6b-41e8-a107-64317f3f713d/sub-24cpd/anat/sub-24cpd_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/6P4H-R3/sub-24cpd_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-6d36ec39-d7d2-477f-9179-9fbda7311900/sub-p24ap/anat/sub-p24ap_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/P26T-D9H/sub-p24ap_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-ad513774-7f8f-4705-a49f-2de3d9f09b06/sub-p24bp/anat/sub-p24bp_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/YJ21-HYT/sub-p24bp_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-8a1fe513-a317-483d-9d22-03f6725b5cb3/sub-24dv/anat/sub-24dv_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/25P8-QP4/sub-24dv_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-c4650b8c-02fd-422c-971c-0aeb25ab197a/sub-a24dd/anat/sub-a24dd_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/AAMM-RKM/sub-a24dd_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-40c43b46-3783-475f-b5a3-61c61d263412/sub-p24dd/anat/sub-p24dd_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/RM41-HK7/sub-p24dd_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-84060436-a070-4d31-8fa6-fb56c0b409d2/sub-23a/anat/sub-23a_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/JHEH-GRN/sub-23a_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-4266c010-314e-44e9-b503-9583ff26f051/sub-23b/anat/sub-23b_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/RADK-VHQ/sub-23b_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-deda941b-afac-4cf2-a40d-4ebecff38198/sub-23c/anat/sub-23c_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/A0KM-JDR/sub-23c_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-5f6ab5c2-90c1-4186-8677-72455ebe2072/sub-d23a/anat/sub-d23a_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/Y8DF-EVF/sub-d23a_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-5e98cf08-8631-4616-bde0-acd88d07586c/sub-d23b/anat/sub-d23b_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/YDPV-9AX/sub-d23b_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-2247840a-ecf5-4cff-9f16-df80d8f7be6e/sub-v23a/anat/sub-v23a_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/BCSS-R60/sub-v23a_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-234173c1-0491-4e10-b152-fe007d4ac188/sub-v23b/anat/sub-v23b_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/3HYZ-CPD/sub-v23b_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-14ae1d42-f477-4cdc-835b-525480b82323/sub-31d/anat/sub-31d_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/2QXR-W24/sub-31d_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-d7663664-446a-4413-85fe-14a50b21f70c/sub-31v/anat/sub-31v_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/DTZ0-78W/sub-31v_space-MEBRAINS"
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"providers": {
+				"nii": "https://data-proxy.ebrains.eu/api/v1/public/buckets/d-83cb899d-c524-4b98-8795-009749c2bcab/sub-31p/anat/sub-31p_space-MEBRAINS_dseg.nii.gz",
+				"neuroglancer/precomputed": "https://data-proxy.ebrains.eu/api/v1/public/buckets/reference-atlas-data/ing-svc/doi.org/10.25493/SXJ8-1SK/sub-31p_space-MEBRAINS"
 			}
 		}
 	],
@@ -1151,6 +1331,186 @@
 				"volume": 0,
 				"label": 4000
 			}
+		],
+		"anterior cingulate area 25a": [
+			{
+				"volume": 1,
+				"label": 1
+			}
+		],
+		"anterior cingulate area 25p": [
+			{
+				"volume": 2,
+				"label": 1
+			}
+		],
+		"anterior cingulate area s24": [
+			{
+				"volume": 3,
+				"label": 1
+			}
+		],
+		"anterior cingulate area s32": [
+			{
+				"volume": 4,
+				"label": 1
+			}
+		],
+		"anterior cingulate area p32": [
+			{
+				"volume": 5,
+				"label": 1
+			}
+		],
+		"anterior cingulate area 24a": [
+			{
+				"volume": 6,
+				"label": 1
+			}
+		],
+		"anterior cingulate area 24b": [
+			{
+				"volume": 7,
+				"label": 1
+			}
+		],
+		"anterior cingulate area 24cv": [
+			{
+				"volume": 8,
+				"label": 1
+			}
+		],
+		"anterior cingulate area 24cd": [
+			{
+				"volume": 9,
+				"label": 1
+			}
+		],
+		"anterior mid-cingulate area a24a’": [
+			{
+				"volume": 10,
+				"label": 1
+			}
+		],
+		"anterior mid-cingulate area a24b’": [
+			{
+				"volume": 11,
+				"label": 1
+			}
+		],
+		"anterior mid-cingulate area 24c’v": [
+			{
+				"volume": 12,
+				"label": 1
+			}
+		],
+		"anterior mid-cingulate area 24c’d": [
+			{
+				"volume": 13,
+				"label": 1
+			}
+		],
+		"posterior mid-cingulate area p24a’": [
+			{
+				"volume": 14,
+				"label": 1
+			}
+		],
+		"posterior mid-cingulate area p24b’": [
+			{
+				"volume": 15,
+				"label": 1
+			}
+		],
+		"posterior mid-cingulate area 24dv": [
+			{
+				"volume": 16,
+				"label": 1
+			}
+		],
+		"posterior mid-cingulate area a24dd": [
+			{
+				"volume": 17,
+				"label": 1
+			}
+		],
+		"posterior mid-cingulate area p24dd": [
+			{
+				"volume": 18,
+				"label": 1
+			}
+		],
+		"posterior cingulate area 23a": [
+			{
+				"volume": 19,
+				"label": 1
+			}
+		],
+		"posterior cingulate area 23b": [
+			{
+				"volume": 20,
+				"label": 1
+			}
+		],
+		"posterior cingulate area 23c": [
+			{
+				"volume": 21,
+				"label": 1
+			}
+		],
+		"posterior cingulate area d23a": [
+			{
+				"volume": 22,
+				"label": 1
+			}
+		],
+		"posterior cingulate area d23b": [
+			{
+				"volume": 23,
+				"label": 1
+			}
+		],
+		"posterior cingulate area v23a": [
+			{
+				"volume": 24,
+				"label": 1
+			}
+		],
+		"posterior cingulate area v23b": [
+			{
+				"volume": 25,
+				"label": 1
+			}
+		],
+		"posterior cingulate area 31d": [
+			{
+				"volume": 26,
+				"label": 1
+			}
+		],
+		"posterior cingulate area 31v": [
+			{
+				"volume": 27,
+				"label": 1
+			}
+		],
+		"posterior cingulate area 31p": [
+			{
+				"volume": 28,
+				"label": 1
+			}
 		]
-	}
+	},
+	"publications": [
+		{
+			"name": "MEBRAINS Multilevel Macaque Brain Atlas",
+			"url": "https://search.kg.ebrains.eu/instances/e39a0407-a98a-480e-9c63-4a2225ddfbe4",
+			"authors": [
+				""
+			],
+			"license": "",
+			"description": "The MEBRAINS Multilevel Macaque Brain Atlas integrates multiple aspects of brain organisation spanning different spatial and temporal scales as revealed by complementary structural, functional and connectivity-based datasets. \nThe Atlas is centered around the MEBRAINS Template, a population-based template that represents an average of high-resolution structural T1 and T2 MRI scans as well as CT scans of 10 rhesus macaque monkey brains. The MEBRAINS Template not only serves as anchorage for structural and functional data within the Julich-Leuven Multilevel Macaque Brain Atlas, but can also be downloaded for the analysis of functional imaging and whole-brain connectivity studies. We also provide a manually curated segmentation of the cortical ribbon, the lateral ventricles and multiple subcortical structures.\nThe Julich Brain Macaque Maps are defined at the microscopic scale based on a multimodal quantitative architectonic analysis of one Macaca mulatta and three Macaca fascicularis post-mortem brains. They provide delineations of distinct cyto- and receptor architectonically identified areas for comparison with in vivo neuroimaging findings ([Rapan et al. 2021](https://doi.org/10.1016/j.neuroimage.2020.117574)). The criteria used for identification and delineation of each area are described in the publications associated with the corresponding delineation data set, and individual maps have also been registered to the Yerkes 19 reference space ([Donahue et al., 2016](https://www.jneurosci.org/content/36/25/6758)). The Julich Brain Macaque Maps are complemented with information on the densities of 14 different receptors for multiple classical neurotransmitters as revealed by means of in vitro quantitative receptor autoradiography ([Palomero & Zilles, 2018](https://www.sciencedirect.com/science/article/pii/B9780444636393000244?via%3Dihub); [Zilles et al. 2002](https://www.sciencedirect.com/science/article/abs/pii/S0924977X02001086?via%3Dihub)), representing a mesoscopical scale of brain organisation. \nThe Julich-Leuven Multilevel Macaque Brain Atlas will be continuously extended with new areas and populated by a growing selection of multimodal data spanning multiple structural and time scales (e.g., probabilistic retinotopic maps).",
+			"citation": ""
+		}
+	]
 }
