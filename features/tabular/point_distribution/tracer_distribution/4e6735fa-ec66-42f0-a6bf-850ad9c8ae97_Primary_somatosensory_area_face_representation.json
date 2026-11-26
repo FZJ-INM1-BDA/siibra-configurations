@@ -1,0 +1,64 @@
+{
+	"@type": "siibra/feature/point_distribution/tracer_distribution/v0.1",
+	"modality": "TracingConnectivityDistribution",
+	"ebrains": {
+		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
+		"openminds/DatasetVersion": "4e6735fa-ec66-42f0-a6bf-850ad9c8ae97"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": ",",
+		"engine": "python",
+		"names": [
+			"x",
+			"y",
+			"z"
+		],
+		"index_col": false,
+		"skiprows": 1
+	},
+	"repository": {
+		"@type": "siibra/repository/dataproxy/v1.0.0",
+		"bucketname": "d-4e6735fa-ec66-42f0-a6bf-850ad9c8ae97"
+	},
+	"files": {
+		"R103_WGA": "R103/WGA/R103_WGA.csv",
+		"R105_WGA": "R105/WGA/R105_WGA.csv",
+		"R106_Pha": "R106/Pha/R106_Pha.csv",
+		"R109_Pha": "R109/Pha/R109_Pha.csv",
+		"R113_BDA": "R113/BDA/R113_BDA.csv"
+	},
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+	},
+	"transform": {
+		"affine": [
+			[
+				0.0390625,
+				0.0,
+				0.0,
+				-9.53125
+			],
+			[
+				0.0,
+				0.0390625,
+				0.0,
+				-24.3359375
+			],
+			[
+				0.0,
+				0.0,
+				0.0390625,
+				-9.6875
+			],
+			[
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			]
+		]
+	},
+	"region": "Primary somatosensory area, face representation",
+	"prerelease": true
+}
