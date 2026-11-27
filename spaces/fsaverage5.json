@@ -1,0 +1,54 @@
+{
+	"@id": "minds/core/referencespace/v1.0.0/tmp-fsaverage5",
+	"@type": "siibra/space/v0.0.1",
+	"name": "freesurfer fsaverage5",
+	"shortName": "fsaverage5",
+	"modality": "surface",
+	"species": "homo sapiens",
+	"ebrains": {
+		"openminds/Species": "97c070c6-8e1f-4ee8-9d28-18c7945921dd"
+	},
+	"volumes": [
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"variant": "white matter",
+			"providers": {
+				"gii-mesh": {
+					"left hemisphere": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/downsample_jba31_fs_to_fs5/fsaverage5.lh.white.gii",
+					"right hemisphere": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/downsample_jba31_fs_to_fs5/fsaverage5.rh.white.gii"
+				}
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"variant": "pial",
+			"providers": {
+				"gii-mesh": {
+					"left hemisphere": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/downsample_jba31_fs_to_fs5/fsaverage5.lh.pial.gii",
+					"right hemisphere": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/downsample_jba31_fs_to_fs5/fsaverage5.rh.pial.gii"
+				}
+			}
+		},
+		{
+			"@type": "siibra/volume/v0.0.1",
+			"variant": "inflated",
+			"providers": {
+				"gii-mesh": {
+					"left hemisphere": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/downsample_jba31_fs_to_fs5/fsaverage5.lh.inflated.gii",
+					"right hemisphere": "https://data-proxy.ebrains.eu/api/v1/buckets/reference-atlas-data/downsample_jba31_fs_to_fs5/fsaverage5.rh.inflated.gii"
+				}
+			}
+		}
+	],
+	"publications": [
+		{
+			"name": "FreeSurfer",
+			"url": "https://doi.org/10.1016/j.neuroimage.2012.01.021",
+			"authors": [
+				"Bruce Fischl"
+			],
+			"description": "FreeSurfer is a suite of tools for the analysis of neuroimaging data that provides an array of algorithms to quantify the functional, connectional and structural properties of the human brain. It has evolved from a package primarily aimed at generating surface representations of the cerebral cortex into one that automatically creates models of most macroscopically visible structures in the human brain given any reasonable T1-weighted input image. It is freely available, runs on a wide variety of hardware and software platforms, and is open source.",
+			"citation": "Fischl B. FreeSurfer. Neuroimage. 2012 Aug 15;62(2):774-81. doi: 10.1016/j.neuroimage.2012.01.021. Epub 2012 Jan 10. PMID: 22248573; PMCID: PMC3685476."
+		}
+	]
+}
