@@ -1,0 +1,79 @@
+{
+	"@type": "siibra/feature/point_distribution/tracer_distribution/v0.1",
+	"modality": "TracingConnectivityDistribution",
+	"ebrains": {
+		"openminds/Species": "ab532423-1fd7-4255-8c6f-f99dc6df814f",
+		"openminds/DatasetVersion": "08545586-ca25-474f-8d3a-ae654cdf0d9e"
+	},
+	"decoder": {
+		"@type": "siibra/decoder/csv",
+		"delimiter": ",",
+		"engine": "python",
+		"names": [
+			"x",
+			"y",
+			"z"
+		],
+		"index_col": false,
+		"skiprows": 1
+	},
+	"repository": {
+		"@type": "siibra/repository/dataproxy/v1.0.0",
+		"bucketname": "d-08545586-ca25-474f-8d3a-ae654cdf0d9e"
+	},
+	"files": {
+		"M02_Fr": "M02/Fr/M02_Fr.csv",
+		"M18_Fr": "M18/Fr/M18_Fr.csv",
+		"M20_BDA": "M20/BDA/M20_BDA.csv",
+		"M21_BDA": "M21/BDA/M21_BDA.csv",
+		"M22_BDA": "M22/BDA/M22_BDA.csv",
+		"M23_BDA": "M23/BDA/M23_BDA.csv",
+		"M25_Fr": "M25/Fr/M25_Fr.csv",
+		"M26_BDA": "M26/BDA/M26_BDA.csv",
+		"M27_BDA": "M27/BDA/M27_BDA.csv",
+		"M28_BDA": "M28/BDA/M28_BDA.csv",
+		"SS39_BDA": "SS39/BDA/SS39_BDA.csv",
+		"SS40_BDA": "SS40/BDA/SS40_BDA.csv",
+		"SS42_BDA": "SS42/BDA/SS42_BDA.csv",
+		"SS43_BDA": "SS43/BDA/SS43_BDA.csv",
+		"SS45_BDA": "SS45/BDA/SS45_BDA.csv",
+		"SS46_BDA": "SS46/BDA/SS46_BDA.csv",
+		"SS47_BDA": "SS47/BDA/SS47_BDA.csv",
+		"SS48_BDA": "SS48/BDA/SS48_BDA.csv",
+		"SS49_BDA": "SS49/BDA/SS49_BDA.csv",
+		"SS50_BDA": "SS50/BDA/SS50_BDA.csv"
+	},
+	"space": {
+		"@id": "minds/core/referencespace/v1.0.0/d5717c4a-0fa1-46e6-918c-b8003069ade8"
+	},
+	"transform": {
+		"affine": [
+			[
+				0.0390625,
+				0.0,
+				0.0,
+				-9.53125
+			],
+			[
+				0.0,
+				0.0390625,
+				0.0,
+				-24.3359375
+			],
+			[
+				0.0,
+				0.0,
+				0.0390625,
+				-9.6875
+			],
+			[
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			]
+		]
+	},
+	"region": "primary somatosensory area, barrel field",
+	"prerelease": true
+}
